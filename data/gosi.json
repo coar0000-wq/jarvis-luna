@@ -102,6 +102,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:32:58.830914+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:01.881437+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -239,6 +251,33 @@
             "verified": false,
             "derivation": "description_text_parser"
           }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:32:59.435562+00:00",
+            "sha256": "40745deb7657674af4e6e5778a4540f026bd1f7328ffe6252317c183175accc0",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "23 ml / 0.78 fl. oz.",
+          "observed_value": "23ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:01.881170+00:00",
+            "sha256": "0d5fb636455a602c7de2b7f8934b39dfb75077bf49cc112838c7557405d97773",
+            "byte_count": 8768,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
         }
       ],
       "reconciliation_blocked": true
@@ -361,6 +400,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:05:50.937511+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:01.881944+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:04.804972+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -502,6 +553,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:04.805256+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:07.687204+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -637,6 +700,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:05:57.049817+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:07.687322+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:10.555747+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -938,6 +1013,43 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:33:08.119659+00:00",
+            "sha256": "7b44762f3bc066f2ae4d2556ba342364abecb33a74261ade62c4825f710ff7ee",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:10.555507+00:00",
+            "sha256": "3b97560f40aabb2b37e072522538d9488994ecc5831a5b6057caa102dc4e73a7",
+            "byte_count": 5025,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -1090,6 +1202,25 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:10.555957+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:13.452936+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:03.153086+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
         }
       ],
       "origin": "한국",
@@ -1158,6 +1289,20 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-21T11:06:00.072117+00:00",
+            "sha256": "7a3277cca9cd9cc00e203f04994142bce2f954d02600aed45025857856373faa",
+            "byte_count": 4809,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "100g/3.52oz",
+          "observed_value": "100g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:13.452678+00:00",
             "sha256": "7a3277cca9cd9cc00e203f04994142bce2f954d02600aed45025857856373faa",
             "byte_count": 4809,
             "capture_scope": "description_text_only",
@@ -1308,6 +1453,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:13.453134+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:16.316107+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "origin": "한국",
@@ -1405,6 +1562,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:06.232767+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:16.316289+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:19.196066+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1530,6 +1699,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:09.315010+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:19.196234+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:22.070932+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1681,6 +1862,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:22.071113+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:24.934903+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1775,6 +1968,25 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:24.935055+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:27.806365+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:03.153095+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
         }
       ],
       "retained_source_stale": true,
@@ -1925,6 +2137,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:18.564406+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:27.806465+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:30.673166+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -2106,6 +2330,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-21T11:06:18.564179+00:00",
+            "sha256": "f8bed95b03c0dd335017d53a572170f050cb1009232b5b86edb7c315a07162ea",
+            "byte_count": 7891,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:30.672910+00:00",
             "sha256": "f8bed95b03c0dd335017d53a572170f050cb1009232b5b86edb7c315a07162ea",
             "byte_count": 7891,
             "capture_scope": "description_text_only",
@@ -2320,6 +2568,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:30.673424+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:33.547960+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -2498,6 +2758,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-21T11:06:21.672561+00:00",
+            "sha256": "12a2687a4758e850a0123efa0d0a6847a0eb2e573f7e14489d056c4256e56e1d",
+            "byte_count": 9076,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:33.547825+00:00",
             "sha256": "12a2687a4758e850a0123efa0d0a6847a0eb2e573f7e14489d056c4256e56e1d",
             "byte_count": 9076,
             "capture_scope": "description_text_only",
@@ -2711,6 +2995,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:33.548200+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:36.428056+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -2905,6 +3201,30 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:36.427800+00:00",
+            "sha256": "17c90c61b196aa0ff54e364e1d254be78bcf1bf855f3294f709f28eb29de3387",
+            "byte_count": 6356,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -3061,6 +3381,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:36.428259+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:39.301108+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -3205,6 +3537,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:39.301273+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:42.204208+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -3316,6 +3660,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:42.204364+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:45.075801+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ]
     },
@@ -3405,6 +3761,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:37.056352+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:45.075958+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:47.944640+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -3542,6 +3910,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:40.128035+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:47.944816+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:50.826286+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -3708,6 +4088,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:50.826407+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:53.700077+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -3860,6 +4252,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:46.426630+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:53.700260+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:56.584017+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -4057,6 +4461,30 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:33:56.583728+00:00",
+            "sha256": "508ecb84ce30be3972f76b8d41c1131aeb605a1fa801af50f39e057a8d036639",
+            "byte_count": 7550,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -4186,6 +4614,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:56.584248+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:59.447074+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ]
     },
@@ -4308,6 +4748,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:52.532159+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:33:59.447240+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:02.315186+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -4505,6 +4957,30 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "5g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:02.314931+00:00",
+            "sha256": "1deb9e6e24a08c2805ea01aeb3733834a5033f3bf83932d3b19418c4af06a26e",
+            "byte_count": 6843,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "4ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -4617,6 +5093,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:02.315384+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:05.334823+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -4683,6 +5171,20 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-21T11:06:55.567398+00:00",
+            "sha256": "4b9b4ae9bd4110d367c4b34b9dfc6d53bd15e2a8c84e82d67fbd7e26f8230024",
+            "byte_count": 6171,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4ml, 0.13oz",
+          "observed_value": "5g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:05.334542+00:00",
             "sha256": "4b9b4ae9bd4110d367c4b34b9dfc6d53bd15e2a8c84e82d67fbd7e26f8230024",
             "byte_count": 6171,
             "capture_scope": "description_text_only",
@@ -4822,6 +5324,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:06:58.646075+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:05.335028+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:08.201202+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -4975,6 +5489,43 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:34:05.769268+00:00",
+            "sha256": "8420cb42247df16137880f9650c21efb8a9ed8bd991c74ebb60b09e1b97a980f",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 mL",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:08.200952+00:00",
+            "sha256": "0e391b97296ffedb4f7428b96822e382d3c2e41dd17e52667902196fb11da18d",
+            "byte_count": 5021,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 mL",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -5094,6 +5645,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:01.693989+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:08.201380+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:11.096853+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -5341,6 +5904,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:11.096993+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:13.961476+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -5535,6 +6110,30 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:13.961234+00:00",
+            "sha256": "1ce179ee2566e6197154eebb82e1c2b82cb95d48d03441b624d540ac4d109dd9",
+            "byte_count": 4189,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -5630,6 +6229,25 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:13.961646+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:16.842132+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:03.153101+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
         }
       ],
       "retained_source_stale": true,
@@ -5771,6 +6389,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:16.842233+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:19.703468+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -5884,6 +6514,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:13.978469+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:19.703631+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:22.586074+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -6037,6 +6679,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:17.019774+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:22.586195+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:25.468621+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -6242,6 +6896,24 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:25.468872+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:28.339961+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:03.322348+00:00",
+          "source": "vision",
+          "status": "stopped",
+          "reason": "gemini: quota circuit stopped (429)"
         }
       ],
       "retained_source_stale": true
@@ -6324,6 +6996,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:23.192826+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:28.340133+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:31.210948+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -6468,6 +7152,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:26.264168+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:31.211115+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:34.093009+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -6617,6 +7313,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:29.287169+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:34.093195+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:36.957245+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -6806,6 +7514,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:36.957413+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:39.829644+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -6937,6 +7657,33 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-21T11:07:32.333235+00:00",
+            "sha256": "ba52633029e1345856a7fd0dcd17db051b9c89de4555bba6eea266220cc4d83a",
+            "byte_count": 3672,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:34:37.396452+00:00",
+            "sha256": "22442b612a4630a09c7420b59d7f8085bb37a5db96a139cb2249960c88c9c455",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "225mL",
+          "observed_value": "225ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:39.829405+00:00",
             "sha256": "ba52633029e1345856a7fd0dcd17db051b9c89de4555bba6eea266220cc4d83a",
             "byte_count": 3672,
             "capture_scope": "description_text_only",
@@ -7091,6 +7838,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:39.829810+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:42.699452+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -7241,6 +8000,43 @@
             "source_received_at": null,
             "source": "product_name"
           }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:34:40.258357+00:00",
+            "sha256": "20d3d81f69b3f01f3adc9ae0ca35524385069457c3d269ecf67437e47e0ac84c",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "225 mL",
+          "observed_value": "225ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-21T16:34:42.699210+00:00",
+            "sha256": "17bb1a26a3f2dc7f0587c4a4beffe6bdf5e5240daef49920202dc3e199f54c57",
+            "byte_count": 4073,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "225 mL",
+          "observed_value": "225ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -7368,6 +8164,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:42.699617+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:45.581007+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -7485,6 +8293,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:45.581164+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:48.474475+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ]
     },
@@ -7566,6 +8386,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:44.560910+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:48.474629+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:51.372524+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -7744,6 +8576,19 @@
             "capture_scope": "source_response",
             "verified": false
           }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:34:48.927874+00:00",
+            "sha256": "07f3f6f70958fcc977376602a199a53fb0d8fa9bdc3cade0cf7ac989623b9912",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
         }
       ],
       "reconciliation_blocked": true,
@@ -7819,6 +8664,18 @@
         },
         {
           "attempted_at": "2026-10-21T11:07:47.608028+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:51.372784+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:54.238339+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -7922,6 +8779,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:54.238482+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:57.101570+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "origin": "대한민국",
@@ -8017,6 +8886,19 @@
           "provenance": {
             "source": "daiso_api:selPdDtlNtfc",
             "received_at": "2026-10-21T11:07:48.144576+00:00",
+            "sha256": "1be8313f24dff1e4fc2fd352fdcc593c7379039465e9b1ef351db4b0c254658e",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-21T16:34:54.666708+00:00",
             "sha256": "1be8313f24dff1e4fc2fd352fdcc593c7379039465e9b1ef351db4b0c254658e",
             "byte_count": 2060,
             "capture_scope": "source_response",
@@ -8151,6 +9033,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:34:57.101719+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:00.009055+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -8238,6 +9132,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:00.009195+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T16:35:02.894683+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "retained_source_stale": true,
@@ -8306,7 +9212,7 @@
       "provider": "gemini",
       "code": 429,
       "category": "quota",
-      "stopped_at": "2026-10-20T16:22:05.396474+00:00"
+      "stopped_at": "2026-10-21T16:35:05.505639+00:00"
     }
   ],
   "provider_stop_history": [
@@ -8351,6 +9257,13 @@
       "category": "quota",
       "stopped_at": "2026-10-19T03:32:26.646797+00:00",
       "expired_at": "2026-10-20T16:17:51.663374+00:00"
+    },
+    {
+      "provider": "gemini",
+      "code": 429,
+      "category": "quota",
+      "stopped_at": "2026-10-20T16:22:05.396474+00:00",
+      "expired_at": "2026-10-21T16:32:58.830582+00:00"
     }
   ]
 }
