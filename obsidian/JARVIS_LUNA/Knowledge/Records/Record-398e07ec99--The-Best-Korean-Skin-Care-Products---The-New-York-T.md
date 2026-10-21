@@ -2,7 +2,7 @@
 title: "Record 398e07ec99 · The-Best-Korean-Skin-Care-Products---The-New-York-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:32.084533+00:00
+updated_at: 2026-10-21T12:16:59.332817+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OU1FQdkt2SVEyekFhbEE0R
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE9OU1FQdkt2SVEyekFhbEE0RTZrM19NQVF2MjZ1NHVOZl9tbTBMN1ZtVDhubHBQZTFMLW1CQUR4RG5MdC1WRXR1Z0xESUxzMU4xQ2Q0TGNBWVEtSzFBbnJBRWtlOWJFU1FCWjFJTUJVRFBoN09tNEM3QWI1TDVSSUU?oc=5)
 
-**제목:** The Best Korean Skin-Care Products - nytimes.com
+**제목:** The Best Korean Skin-Care Products - The New York Times
 
-The Best Korean Skin-Care Products - nytimes.com
+The Best Korean Skin-Care Products - The New York Times
 
 **출처:** Source · Google Search
