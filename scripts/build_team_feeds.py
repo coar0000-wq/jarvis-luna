@@ -289,6 +289,73 @@ def insight_rows(doc: dict) -> list[dict]:
     return rows
 
 
+def briefing_rows(doc: dict) -> list[dict]:
+    """Preserve review assignments, never turn a source assertion into a receipt.
+
+    Old briefings without optional IDs/actions remain valid. Duplicate IDs fail
+    before the output is replaced; one ID cannot silently name two directives.
+    """
+    rows, seen = [], set()
+    for it in ((doc or {}).get("items") or []):
+        if not isinstance(it, dict):
+            continue
+        briefing_id = it.get("id")
+        if isinstance(briefing_id, str) and briefing_id.strip():
+            if briefing_id in seen:
+                raise ValueError(f"duplicate team briefing id: {briefing_id}")
+            seen.add(briefing_id)
+        else:
+            briefing_id = None
+        teams = it.get("teams")
+        teams = list(dict.fromkeys(t for t in teams if isinstance(t, str) and t.strip())) \
+            if isinstance(teams, list) else []
+        if not it.get("title") or not teams:
+            continue
+        summary = str(it.get("summary") or "").strip()
+        row = {"title": it["title"], "url": it.get("source_url") or "",
+               "date": str(it.get("date") or "")[:10],
+               "pool": "team_briefing", "teams": teams,
+               "summary": summary, "text": summary[:1200],
+               "status": "generated_for_review_not_acknowledged",
+               "receipt_scope": "feed_generation_only",
+               "execution_verified": False, "business_approval": False}
+        if briefing_id is not None:
+            row["briefing_id"] = briefing_id
+        actions = it.get("team_actions")
+        row["_team_actions"] = {
+            t: actions[t] for t in teams
+            if isinstance(actions, dict) and isinstance(actions.get(t), str) and actions[t].strip()
+        }
+        if isinstance(it.get("scope_limits"), dict):
+            # These are source declarations, not executable permission grants.
+            row["scope_limits"] = it["scope_limits"]
+            row["scope_limits_authority"] = "source_declaration_only"
+        if isinstance(it.get("review_path"), str) and it["review_path"].strip():
+            row["review_path"] = it["review_path"]
+        if isinstance(it.get("source_urls"), list):
+            row["source_urls"] = [url for url in it["source_urls"] if isinstance(url, str)]
+        rows.append(row)
+    return rows
+
+
+def team_feed_row(it: dict, team: str) -> dict:
+    """Only the recipient's assignment is exposed; other source states stay out."""
+    keys = ("title", "url", "pool", "summary", "teams", "reviewed_at", "date_basis",
+            "evidence", "status", "briefing_id", "scope_limits", "scope_limits_authority",
+            "review_path", "source_urls", "receipt_scope", "execution_verified", "business_approval")
+    row = {k: it[k] for k in keys if k in it}
+    if it.get("pool") == "team_briefing":
+        action = (it.get("_team_actions") or {}).get(team)
+        if action:
+            row["team_action"] = action
+        row.update(status="generated_for_review_not_acknowledged",
+                   receipt_scope="feed_generation_only",
+                   execution_verified=False, business_approval=False)
+    row["date"] = iso_date(it.get("date", ""))
+    row["by_hand"] = it.get("pool") in BY_HAND or it.get("pool") == "document_handoff"
+    return row
+
+
 def main() -> int:
     pools = feed_rows(ROOT)
     # Preserve the document review clock from integrity-checked handoffs, never
@@ -360,14 +427,7 @@ def main() -> int:
     # 사용자가 직접 전달한 전략 요약. 영상 URL이 없어도 팀별로 보존·배포한다.
     # 자동 생성 파일에 직접 쓰면 다음 실행에서 사라지므로 data/manual이 정본이다.
     briefings = load(DATA / "manual" / "team_briefings.json")
-    for it in ((briefings or {}).get("items") or []):
-        if not it.get("title") or not it.get("teams"):
-            continue
-        summary = str(it.get("summary") or "").strip()
-        pools.append({"title": it["title"], "url": it.get("source_url") or "",
-                      "date": str(it.get("date") or "")[:10],
-                      "pool": "team_briefing", "teams": it.get("teams") or [],
-                      "summary": summary, "text": summary[:1200]})
+    pools.extend(briefing_rows(briefings))
 
     # 자막을 검토해 채택한 YouTube 학습 항목 (2026-09-28).
     # 전에는 마케팅팀 코드만 읽었다. 이제 검토자가 정한 팀 피드 맨 위에 올린다.
@@ -420,19 +480,18 @@ def main() -> int:
             unrouted += 1
             continue
         for t in hits:
-            row = {k: it[k] for k in ("title", "url", "pool", "summary", "teams", "reviewed_at", "date_basis", "evidence", "status") if k in it}
-            row["date"] = iso_date(it.get("date", ""))
-            # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
-            # 수집분에 밀려 안 보이면 넣은 의미가 없다.
-            row["by_hand"] = it.get("pool") in BY_HAND or it.get("pool") == 'document_handoff'
-            teams.setdefault(t, []).append(row)
+            teams.setdefault(t, []).append(team_feed_row(it, t))
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
     summary = {}
     for t, rows in teams.items():
         seen, uniq = set(), []
         for r in rows:
-            k = (r.get("title"), r.get("url"))
+            # Distinct assigned tasks may intentionally cite the same page and
+            # title. Preserve their IDs; legacy material keeps its original key.
+            k = ("team_briefing_id", r["briefing_id"], "id") if (
+                r.get("pool") == "team_briefing" and r.get("briefing_id")) else (
+                r.get("title"), r.get("url"))
             if k in seen:
                 continue
             seen.add(k)

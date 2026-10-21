@@ -8,10 +8,10 @@ from decimal import Decimal
 import contextlib
 import io
 import json
-import math
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import build_beauty_price_strategy as bps
 
@@ -35,11 +35,23 @@ def oy_doc(products, hours=1.0):
     return {"collected_at": ago(hours), "is_stale": False, "products": products}
 
 
+def checkout_quote(item_id, price, ship, **extra):
+    """Synthetic complete zero-tax/zero-fee evidence, never real checkout data."""
+    value = {"item_id": item_id, "item_price_usd": price, "shipping_usd": ship,
+             "tax_usd": 0, "mandatory_fees_usd": 0, "currency": "USD", "market": "US",
+             "quantity": 1, "shipping_method": "standard", "destination_key": "us_fixture",
+             "observed_at": ago(1), "source_url": "https://example.com/synthetic-quote"}
+    value.update(extra)
+    return value
+
+
 def oy_item(title, price, ship=None, brand="Acme", **extra):
     row = {"product_id": "id-" + title[:6], "product": title, "brand": brand, "price_usd": price, "currency": "USD", "is_soldout": False}
     if ship is not None:
         row["shipping_usd"] = ship
     row.update(extra)
+    if ship is not None:
+        row.setdefault("checkout_quote", checkout_quote(row["product_id"], price, ship))
     return row
 
 
@@ -61,11 +73,27 @@ def base_docs(market_items=None, own_price=10.0, market_hours=1.0, verified=True
     }
     if market_items is not None:
         docs["oliveyoung_us"] = oy_doc(market_items, market_hours)
+    for row in docs["registry"]["items"]:
+        row["checkout_quote"] = checkout_quote(row["pd_no"], row["single_usd"], 3.0)
     return docs
 
 
 def build(docs, **kw):
-    return bps.build_strategy(docs, [], NOW, kw.pop("max_age_hours", 168.0), kw.pop("own_shipping_usd", None), kw.pop("analytics_status", None))
+    # Explicit internal trust-boundary fixture for the comparison algorithm.
+    # Production normalization has no trusted quote producer and always keeps
+    # source_verified=False. Ingress safety is tested without this fixture in
+    # test_checkout_price_evidence.py; no JSON value enables trust in production.
+    original = bps.checkout_total_evidence
+
+    def trusted_synthetic_record(*args, **kwargs):
+        result = original(*args, **kwargs)
+        result["source_verified"] = result["known"]
+        result["source_reasons"] = [] if result["known"] else ["checkout_source_provenance_unverified"]
+        return result
+
+    with patch.object(bps, "checkout_total_evidence", side_effect=trusted_synthetic_record):
+        return bps.build_strategy(docs, [], NOW, kw.pop("max_age_hours", 168.0),
+                                  kw.pop("own_shipping_usd", None), kw.pop("analytics_status", None))
 
 
 def product(report, pd):
@@ -310,8 +338,9 @@ class ComparatorTests(unittest.TestCase):
         docs["registry"]["items"][0]["title"] = "Acme Glow Serum 30 ml"
         pos = product(build(docs, own_shipping_usd=3.0), "100")["price_position"]
         # same 30 ml total but 6 packs of 5 ml vs a single 30 ml: pack structure differs, so not "exact"
-        self.assertEqual(pos["basis"], "delivered_total_volume_within_tolerance")
-        self.assertTrue(pos["verified"])
+        self.assertEqual(pos["basis"], "item_price_total_volume_within_tolerance")
+        self.assertFalse(pos["verified"])
+        self.assertIn("comparator_exact_pack_required", pos["reasons"])
         self.assertAlmostEqual(pos["comparator_unit_price"], 20 / 30, places=6)
 
     def test_rejections_multi_option_currency_soldout_market(self):
@@ -655,7 +684,9 @@ class ConfigAlignmentTests(unittest.TestCase):
 
     def test_volume_tolerance_from_config(self):
         near = self.docs(market_items=[oy_item("Acme Glow Serum 31ml", 40.0, ship=0.0)], own_price=5.0)  # 3.2% off
-        self.assertEqual(product(build(near, own_shipping_usd=3.0), "100")["price_position"]["status"], "verified_below")
+        near_product = product(build(near, own_shipping_usd=3.0), "100")
+        self.assertEqual(near_product["price_position"]["status"], "provisional_below")
+        self.assertTrue(near_product["market"]["qualified_lowest"]["volume_within_tolerance"])
         far = self.docs(market_items=[oy_item("Acme Glow Serum 33ml", 40.0, ship=0.0)], own_price=5.0)  # 10% off
         pos = product(build(far, own_shipping_usd=3.0), "100")["price_position"]
         self.assertEqual(pos["status"], "provisional_below")
@@ -810,7 +841,8 @@ class OwnLiveFreshnessTests(unittest.TestCase):
         own = {"kind": "live", "price_usd": 5.0}  # direct caller that skipped the freshness step
         qty = bps.parse_quantity([("t", "Serum 30ml")])
         comp = {"unit_price_item": 1.0, "unit_price_delivered": 1.0, "basis": "exact_pack_total", "volume_within_tolerance": True,
-                "base_unit": "ml", "source_id": "s", "item_id": "i", "title": "t", "price_usd": 30.0, "shipping_usd": 0.0}
+                "base_unit": "ml", "source_id": "s", "item_id": "i", "title": "t", "price_usd": 30.0,
+                "shipping_usd": 0.0, "comparator_total": 30}
         pos = bps.price_position(own, qty, {"qualified": [comp], "provisional": [], "reference_only": []}, 3.0)
         self.assertFalse(pos["verified"])
 

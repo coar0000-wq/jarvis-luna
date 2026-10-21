@@ -22,9 +22,10 @@ Truthfulness rules enforced here (each one is covered by a unit test):
     items without a parseable quantity never produce a "victory".
     Stale/unverified identity matches are kept as reference_only and are never
     used for a score.
-  * Missing market shipping, missing own live price or missing own shipping make
-    the comparison provisional, not verified. Only a verified comparison earns
-    price points in the priority score.
+  * A verified comparison requires exact pack quantities and fresh, price-bound
+    US standard-delivery quotes for the same non-personal destination key.
+    Shipping, tax and mandatory fees must be explicit, including genuine zeroes.
+    Missing costs are unknown, never zero. Only verified comparisons earn points.
   * Original grades are never changed. A price advantage cannot upgrade an A
     product to S; S products are audited against the original S gate only.
   * Margin is advisory (the user waived the margin block). Negative margins stay
@@ -45,6 +46,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from payment_fees import profit_flags
 from manufacturer_safety import manufacturer_safety_record, public_view as safety_public_view
@@ -146,6 +148,80 @@ def _f(value, places=6):
 def _positive(value):
     d = _dec(value)
     return d if d is not None and d > 0 else None
+
+
+def checkout_total_evidence(quote, item_id, item_price, shipping_usd, as_of):
+    """Validate recorded checkout facts, not a checkout/purchase or authenticity.
+
+    Quotes describe one sale unit (which may itself be a pack). A destination
+    key is a shared non-customer test scope, never an address or customer ID.
+    Unknown extra fields are deliberately not copied into generated reports.
+    """
+    # No trusted checkout-observation producer is wired into this report yet.
+    # A URL, self-declared boolean, reviewer name or hash supplied by this same
+    # row cannot authenticate its source. Never copy an input's "verified" flag.
+    result = {"known": False, "total_usd": None, "reasons": [],
+              "source_verified": False,
+              "source_reasons": ["checkout_source_provenance_unverified"],
+              "scope": "recorded_quote_consistency_only"}
+    if not isinstance(quote, dict):
+        result["reasons"] = ["checkout_quote_missing"]
+        return result
+    reasons = result["reasons"]
+    if quote.get("item_id") != item_id or not isinstance(item_id, str) or not item_id:
+        reasons.append("checkout_item_mismatch")
+    if quote.get("currency") != "USD" or quote.get("market") != "US":
+        reasons.append("checkout_currency_or_market_unverified")
+    if type(quote.get("quantity")) is not int or quote["quantity"] != 1:
+        reasons.append("checkout_sale_unit_quantity_unverified")
+    if quote.get("shipping_method") != "standard":
+        reasons.append("checkout_standard_shipping_unverified")
+    destination = quote.get("destination_key")
+    if not isinstance(destination, str) or not re.fullmatch(r"us_[a-z0-9_]{3,64}", destination):
+        reasons.append("checkout_destination_unknown")
+    stamp = None
+    try:
+        raw_stamp = quote.get("observed_at")
+        stamp = datetime.fromisoformat(raw_stamp.replace("Z", "+00:00"))
+        age = (as_of - stamp).total_seconds() if stamp.tzinfo is not None else -1
+        if not 0 <= age <= 24 * 3600:
+            reasons.append("checkout_observation_stale_or_future")
+    except (AttributeError, TypeError, ValueError, OverflowError):
+        reasons.append("checkout_observation_invalid")
+    url = quote.get("source_url")
+    try:
+        parsed = urlsplit(url if isinstance(url, str) else "")
+        if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password:
+            reasons.append("checkout_source_url_missing_or_invalid")
+    except ValueError:
+        reasons.append("checkout_source_url_missing_or_invalid")
+    amounts = {}
+    for key in ("item_price_usd", "shipping_usd", "tax_usd", "mandatory_fees_usd"):
+        amount = _dec(quote.get(key))
+        if amount is None or amount < 0 or (key == "item_price_usd" and amount == 0):
+            reasons.append("checkout_" + key + "_unknown")
+        elif amount > Decimal("1000000"):
+            reasons.append("checkout_" + key + "_outside_supported_range")
+        else:
+            try:
+                if amount != amount.quantize(Decimal("0.01")):
+                    reasons.append("checkout_" + key + "_fractional_cent")
+                else:
+                    amounts[key] = amount
+            except InvalidOperation:
+                reasons.append("checkout_" + key + "_invalid_precision")
+    if amounts.get("item_price_usd") != _positive(item_price):
+        reasons.append("checkout_item_price_mismatch")
+    if _dec(shipping_usd) is None or amounts.get("shipping_usd") != _dec(shipping_usd):
+        reasons.append("checkout_shipping_price_unverified")
+    if reasons:
+        return result
+    result.update(known=True, total_usd=_f(sum(amounts.values()), 2),
+                  tax_usd=_f(amounts["tax_usd"], 2),
+                  mandatory_fees_usd=_f(amounts["mandatory_fees_usd"], 2),
+                  destination_key=destination, shipping_method="standard",
+                  observed_at=iso(stamp), source_url=url)
+    return result
 
 
 def _close(a: Decimal, b: Decimal, tol: Decimal = QTY_TOLERANCE) -> bool:
@@ -346,13 +422,18 @@ def parse_quantity(texts) -> dict:
 
     primary_dim = next(d for d in _DIM_PRIORITY if d in resolved)
     prim = resolved[primary_dim]
+    # A separate count such as "30ml (2pcs)" does not establish whether 30ml
+    # is per bottle or the whole pack. Never silently treat it as one bottle.
+    secondary_count = resolved.get("count") if primary_dim != "count" else None
+    if secondary_count and secondary_count["amount"] * secondary_count["pack"] != prim["pack"]:
+        flags.append("secondary_count_pack_ambiguous")
     alternates = {}
     for dim, ch in resolved.items():
         if dim == primary_dim:
             continue
         alternates[dim] = {"base_unit": _BASE_UNIT[dim], "unit_amount": _f(ch["amount"]),
                            "pack_count": ch["pack"], "total": _f(ch["amount"] * ch["pack"])}
-    status = "ambiguous" if plus else "ok"
+    status = "ambiguous" if plus or "secondary_count_pack_ambiguous" in flags else "ok"
     if primary_dim == "oz_ambiguous":
         flags.append("plain_oz_ambiguous_mass_or_volume")
     return {
@@ -631,6 +712,8 @@ def normalize_market(docs: dict, candidate_comparison, as_of: datetime, max_age_
                 "price_usd": price, "currency": currency, "market": str(row.get("market") or doc.get("country") or "US").upper(),
                 "soldout": bool(row.get(spec["soldout"])) if spec.get("soldout") else False,
                 "shipping_usd": ship, "url": row.get("url"),
+                "checkout_evidence": checkout_total_evidence(
+                    row.get("checkout_quote"), item_id, price, ship, as_of),
                 "tokens": ident["tokens"], "multi_option": ident["multi_option"],
                 "quantity": parse_quantity([("title", title)]),
             })
@@ -662,8 +745,8 @@ def evaluate_comparators(own_tokens, own_qty, own_has_identity, items, sources, 
                          tolerance=DEFAULT_VOLUME_TOLERANCE) -> dict:
     """Return tiers: qualified / provisional / reference_only plus rejection counts.
 
-    qualified   : identity+unit match, verified fresh source, shipping known
-    provisional : same, but market shipping unknown
+    qualified   : identity+unit match, verified fresh source and authenticated complete quote
+    provisional : same, but quote provenance or shipping/tax/fees evidence incomplete
     reference_only : identity+unit match but stale/unverified source (never scored)
     """
     res = {"qualified": [], "provisional": [], "reference_only": [], "rejected_counts": {}, "near_misses": []}
@@ -705,25 +788,34 @@ def evaluate_comparators(own_tokens, own_qty, own_has_identity, items, sources, 
         src = _source_for(sources, it) or {"verified": False, "reasons": ["source_unknown"]}
         rec = {"source_id": it["source_id"], "channel": it["channel"], "item_id": it["item_id"], "title": it["title"],
                "price_usd": _f(it["price_usd"], 2), "shipping_usd": _f(it["shipping_usd"], 2) if it["shipping_usd"] is not None else None,
-               "delivered_price_usd": None, "dimension": dim, "base_unit": _BASE_UNIT[dim], "comparator_total": total,
+               "delivered_price_usd": None, "item_shipping_subtotal_usd": None,
+               "checkout_evidence": it["checkout_evidence"],
+               "dimension": dim, "base_unit": _BASE_UNIT[dim], "comparator_total": total,
                "comparator_pack_count": pack_count,
                "basis": "exact_pack_total" if exact_pack else ("total_volume_within_tolerance" if within_tol else "per_unit_like_basis"),
                "volume_within_tolerance": within_tol,
                "unit_price_item": None, "unit_price_delivered": None, "url": it["url"]}
         rec["unit_price_item"] = _f(unit_price(it["price_usd"], total), 6)
         if it["shipping_usd"] is not None:
-            delivered = it["price_usd"] + it["shipping_usd"]
-            rec["delivered_price_usd"] = _f(delivered, 2)
-            rec["unit_price_delivered"] = _f(unit_price(delivered, total), 6)
+            rec["item_shipping_subtotal_usd"] = _f(it["price_usd"] + it["shipping_usd"], 2)
+        if it["checkout_evidence"]["known"]:
+            rec["delivered_price_usd"] = it["checkout_evidence"]["total_usd"]
+            rec["unit_price_delivered"] = _f(unit_price(rec["delivered_price_usd"], total), 6)
         if not src.get("verified"):
             rec["not_used_because"] = sorted(src.get("reasons") or ["source_unverified"])
             res["reference_only"].append(rec)
-        elif it["shipping_usd"] is None:
-            rec["provisional_because"] = ["market_shipping_unknown"]
+        elif (it["shipping_usd"] is None or not it["checkout_evidence"]["known"]
+              or not it["checkout_evidence"].get("source_verified")):
+            rec["provisional_because"] = (
+                (["market_shipping_unknown"] if it["shipping_usd"] is None else []) +
+                ["market_" + reason for reason in it["checkout_evidence"]["reasons"]] +
+                ["market_" + reason for reason in it["checkout_evidence"].get("source_reasons", [])])
             res["provisional"].append(rec)
         else:
             res["qualified"].append(rec)
-    key = lambda r: (r["unit_price_delivered"] if r["unit_price_delivered"] is not None else r["unit_price_item"],
+    # Serialized unit prices are rounded for display only, never for decisions.
+    key = lambda r: (unit_price(r["delivered_price_usd"] if r["delivered_price_usd"] is not None
+                               else r["price_usd"], r["comparator_total"]),
                      r["source_id"], str(r["item_id"]))
     for tier in ("qualified", "provisional", "reference_only"):
         res[tier].sort(key=key)
@@ -734,7 +826,9 @@ def evaluate_comparators(own_tokens, own_qty, own_has_identity, items, sources, 
 def price_position(own: dict, own_qty: dict, tiers: dict, own_shipping_usd=None) -> dict:
     """Decide verified / provisional / unknown. Only `verified_*` may earn score points."""
     pos = {"status": "unknown", "verified": False, "reasons": [], "below_lowest": None, "gap_pct": None,
-           "own_unit_price": None, "comparator_unit_price": None, "comparator": None, "base_unit": None, "basis": None}
+           "own_unit_price": None, "comparator_unit_price": None, "comparator": None, "base_unit": None, "basis": None,
+           "comparison_scope": "observed_comparable_offers_only",
+           "verified_cost_basis": "item_plus_standard_shipping_tax_and_mandatory_fees"}
     price = _positive(own.get("price_usd")) if own else None
     if price is None:
         pos["reasons"].append("own_price_missing")
@@ -751,35 +845,56 @@ def price_position(own: dict, own_qty: dict, tiers: dict, own_shipping_usd=None)
     ship = _dec(own_shipping_usd)
     # live AND a fresh parseable observation timestamp; draft/model prices can never be verified
     own_live = own.get("kind") == "live" and own.get("live_fresh") is True
-    qv = [x for x in q if x.get("volume_within_tolerance")]
-    verified = bool(qv) and own_live and ship is not None and ship >= 0
+    own_checkout = own.get("checkout_evidence") or {"known": False, "reasons": ["checkout_quote_missing"]}
+    exact = [x for x in q if x.get("basis") == "exact_pack_total"]
+    qv = [x for x in exact if own_checkout.get("known") and own_checkout.get("source_verified") and
+          (x.get("checkout_evidence") or {}).get("source_verified") and
+          (x.get("checkout_evidence") or {}).get("destination_key") == own_checkout.get("destination_key")]
+    verified = bool(qv) and own_live and ship is not None and ship >= 0 and own_checkout.get("known")
     reasons = []
-    if q and not qv:
+    if q and not any(x.get("volume_within_tolerance") for x in q):
         reasons.append("comparator_size_outside_volume_tolerance")
+    if q and not exact:
+        reasons.append("comparator_exact_pack_required")
+    if exact and own_checkout.get("known") and not qv:
+        reasons.append("comparison_destination_mismatch")
+    if not own_checkout.get("known"):
+        reasons.extend("own_" + reason for reason in own_checkout["reasons"])
+    if not own_checkout.get("source_verified"):
+        reasons.extend("own_" + reason for reason in
+                       own_checkout.get("source_reasons", ["checkout_source_provenance_unverified"]))
     if own.get("kind") != "live":
         reasons.append("own_price_not_live_listing")
     elif not own_live:
         reasons.append("own_live_price_observation_" + str((own.get("live_freshness") or {}).get("state") or "missing"))
     if ship is None:
         reasons.append("own_customer_shipping_unknown")
-    if not q:
+    if not q and any("market_shipping_unknown" in x.get("provisional_because", []) for x in p):
         reasons.append("market_shipping_unknown")
+    if p:
+        reasons.extend(sorted({reason for x in p for reason in x.get("provisional_because", [])
+                               if reason != "market_shipping_unknown"}))
     if verified:
         best = qv[0]
-        own_metric = unit_price(price + ship, own_qty["total"])
-        comp_metric = _dec(best["unit_price_delivered"])
+        own_metric = unit_price(own_checkout["total_usd"], own_qty["total"])
+        comp_metric = unit_price(best["delivered_price_usd"], best["comparator_total"])
         pos["basis"] = "delivered_" + best["basis"]
-        # an item whose shipping is unknown but whose item price is already <= ours
-        # could be cheaper delivered: no verified claim is possible then.
-        cheaper_unknown = [x for x in p if own_metric is not None and _dec(x["unit_price_item"]) is not None
-                           and _dec(x["unit_price_item"]) <= own_metric]
+        # An incomplete quote whose item-only lower bound is already <= ours
+        # could still be cheaper at checkout; no verified lowest claim then.
+        incomplete = p + [x for x in q if x not in qv]
+        cheaper_unknown = [x for x in incomplete if own_metric is not None
+                           and unit_price(x["price_usd"], x["comparator_total"]) is not None
+                           and unit_price(x["price_usd"], x["comparator_total"]) <= own_metric]
         if cheaper_unknown:
             verified = False
-            reasons.append("cheaper_item_price_with_unknown_shipping")
+            reasons.append("cheaper_item_price_with_incomplete_checkout")
+            if any("market_shipping_unknown" in x.get("provisional_because", []) for x in cheaper_unknown):
+                reasons.append("cheaper_item_price_with_unknown_shipping")
     if not verified:
-        best = min(q + p, key=lambda x: (_dec(x["unit_price_item"]), x["source_id"], str(x["item_id"])))
+        best = min(q + p, key=lambda x: (unit_price(x["price_usd"], x["comparator_total"]),
+                                         x["source_id"], str(x["item_id"])))
         own_metric = unit_price(price, own_qty["total"])
-        comp_metric = _dec(best["unit_price_item"])
+        comp_metric = unit_price(best["price_usd"], best["comparator_total"])
         pos["basis"] = "item_price_" + best["basis"]
     if own_metric is None or comp_metric is None or comp_metric <= 0:
         pos["reasons"] = reasons + ["comparator_metric_missing"]
@@ -792,7 +907,8 @@ def price_position(own: dict, own_qty: dict, tiers: dict, own_shipping_usd=None)
         "verified": verified, "reasons": reasons, "below_lowest": below, "gap_pct": _f(gap, 2),
         "own_unit_price": _f(own_metric, 6), "comparator_unit_price": _f(comp_metric, 6),
         "base_unit": best["base_unit"],
-        "comparator": {k: best[k] for k in ("source_id", "item_id", "title", "price_usd", "shipping_usd", "basis")},
+        "comparator": {k: best.get(k) for k in ("source_id", "item_id", "title", "price_usd",
+                                               "shipping_usd", "delivered_price_usd", "basis")},
     })
     return pos
 
@@ -994,6 +1110,7 @@ def collect_own_prices(registry, queue, pricing_model) -> dict:
                             ts, ts_src = registry.get(k), "registry_snapshot:" + k
                             break
                 out[pd]["candidates"].append({"kind": "live", "price_usd": _f(price, 2), "source": "shopify_daily_registry.json",
+                                              "_checkout_quote": it.get("checkout_quote"), "_checkout_item_id": pd,
                                               "observed_at": ts, "observed_at_source": ts_src,
                                               "status": status, "observed_on": it.get("date"),
                                               "quarantine_reasons": list(it.get("quarantine_reasons") or []),
@@ -1034,7 +1151,8 @@ def select_own_price(entry) -> dict:
     conflict = len(values) > 1 and (values[-1] - values[0]) > 0.005
     return {"status": best["kind"], "kind": best["kind"], "price_usd": best["price_usd"], "source": best["source"],
             "candidates": cands, "conflict": conflict, "observed_at": best.get("observed_at"),
-            "observed_at_source": best.get("observed_at_source")}
+            "observed_at_source": best.get("observed_at_source"),
+            "_checkout_quote": best.get("_checkout_quote"), "_checkout_item_id": best.get("_checkout_item_id")}
 
 
 # ---------------------------------------------------------------------------
@@ -1149,19 +1267,25 @@ def build_team_plan(cov: dict) -> dict:
                "in-stock evidence with timestamp"]),
     ])
     team("market", [
-        _task("market-1", "Collect fresh, verified US observations with shipping for the same product and variant",
+        _task("market-1", "Collect fresh US standard-delivery totals for the exact product and pack",
               (["no_verified_fresh_market_source"] if cov["verified_market_sources"] == 0 else []) +
-              (["market_shipping_not_recorded_by_any_source"] if cov["market_shipping_known_items"] == 0 else []),
+              (["market_shipping_not_recorded_by_any_source"] if cov["market_shipping_known_items"] == 0 else []) +
+              (["market_complete_checkout_quote_missing"] if not cov.get("market_checkout_known_items") else []) +
+              (["market_checkout_source_provenance_unverified"] if not cov.get("market_checkout_verified_items") else []),
               ["listing URL + capture timestamp", "exact variant/strength/size on the page", "shipping cost or free-shipping statement to US",
+               "explicit tax and mandatory fees, including evidenced zeroes; standard shipping; same non-customer destination key",
                "seller identity; sold-out state"]),
     ])
     team("pricing", [
         _task("pricing-1", "Reconcile conflicting own prices and set customer shipping policy",
               (["own_price_conflicts_in_%d_products" % cov["own_price_conflicts"]] if cov["own_price_conflicts"] else []) +
               (["own_customer_shipping_policy_unknown"] if not cov["own_shipping_known"] else []) +
+              (["own_complete_checkout_quote_missing"] if not cov.get("own_checkout_known_products") else []) +
+              (["own_checkout_source_provenance_unverified"] if not cov.get("own_checkout_verified_products") else []) +
               (["own_live_price_observation_not_fresh_for_%d_products" % cov["own_live_not_fresh"]] if cov.get("own_live_not_fresh") else []) +
               (["duty_mode_ddu_vs_ddp_unconfirmed"] if cov["duty_mode_unconfirmed"] else []),
-              ["live Shopify price + shipping rate table", "DDU/DDP confirmation from Markets settings", "landed-cost sheet per product (weight-based)"]),
+              ["live Shopify price + shipping rate table", "price-bound quote with explicit tax and mandatory fees for a non-customer US test destination",
+               "DDU/DDP confirmation from Markets settings", "landed-cost sheet per product (weight-based)"]),
         _task("pricing-2", "Review negative / below-floor margin advisories (advisory only, margin block waived)",
               [], ["landed cost scenario used", "standing user margin-waiver policy + profitability warning (no new approval for margin alone)"]),
     ])
@@ -1342,6 +1466,12 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
         qty = parse_quantity(qty_texts)
         ident = identity_tokens(name_en) if name_en else {"tokens": [], "multi_option": False}
         own = select_own_price(entry)
+        own["checkout_evidence"] = checkout_total_evidence(
+            own.pop("_checkout_quote", None), own.pop("_checkout_item_id", None),
+            own["price_usd"], own_shipping_usd, as_of)
+        for candidate in own["candidates"]:
+            candidate.pop("_checkout_quote", None)
+            candidate.pop("_checkout_item_id", None)
         if own["kind"] == "live":
             own["live_freshness"] = live_price_freshness(own.get("observed_at"), as_of, own_live_max_hours)
             own["live_fresh"] = own["live_freshness"]["state"] == "fresh"
@@ -1497,6 +1627,10 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
         "quantity_conflict": sum(1 for p in products if p["included_in_priority"] and p["quantity"]["status"] == "conflict"),
         "verified_market_sources": sum(1 for s in sources if s.get("verified")),
         "market_shipping_known_items": sum(1 for i in items if i["shipping_usd"] is not None),
+        "market_checkout_known_items": sum(1 for i in items if i["checkout_evidence"]["known"]),
+        "market_checkout_verified_items": sum(1 for i in items if i["checkout_evidence"].get("source_verified")),
+        "own_checkout_known_products": sum(1 for p in products if p["own_price"]["checkout_evidence"]["known"]),
+        "own_checkout_verified_products": sum(1 for p in products if p["own_price"]["checkout_evidence"].get("source_verified")),
         "own_price_conflicts": sum(1 for p in products if p["own_price"]["conflict"]),
         "own_shipping_known": _dec(own_shipping_usd) is not None,
         "duty_mode_unconfirmed": bool((pricing_model.get("duty_mode_note") or {}).get("선택_필요")),
@@ -1516,6 +1650,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
         unknowns.append("No market item records shipping, so no delivered comparison exists; comparisons are at best provisional.")
     if not cov["own_shipping_known"]:
         unknowns.append("Our customer-facing shipping charge is not in any input; pass --own-shipping-usd to evaluate delivered price.")
+    unknowns.append("Checkout quote provenance is not authenticated by any connected producer in this report. Even complete recorded quotes remain provisional; self-declared verification never earns price points.")
     if analytics is None:
         unknowns.append("No product-level orders/traffic input; all review metrics are UNKNOWN (not zero).")
     if fee_rate is None:
@@ -1566,7 +1701,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
                 "a verified claim needs total volume within the config tolerance (default 5%) in the same base unit; other sizes are provisional like-basis only",
                 "SerpApi aggregates give a reference price basis only (0.95 x median) and never a competitive-minimum claim or score points",
                 "stale or unverified sources are reference_only and never scored",
-                "verified price advantage requires: live own price WITH a parseable observation timestamp no older than the config live freshness (default 24h, never future, never date-only), verified fresh market source, known market shipping and known own shipping",
+                "verified price advantage requires: fresh live own price, verified fresh market source, exact pack, and price-bound USD US standard-delivery quotes no older than 24h with explicit shipping, tax and mandatory fees for the same non-customer destination key; only observed comparable offers are compared",
                 "draft payload and model-recommended prices are never verified",
             ],
         },

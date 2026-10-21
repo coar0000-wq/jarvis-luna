@@ -6,7 +6,7 @@ import os
 import sys
 import tempfile
 import unittest
-from contextlib import ExitStack
+from contextlib import ExitStack, contextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
@@ -1344,7 +1344,7 @@ class DailySafetyTests(unittest.TestCase):
     # ------------------------------------------------------------------
     # 상업 우선순위 (build_beauty_price_strategy, 오프라인) - 순서만 바꾸고 게이트·등급은 건드리지 않는다
     # ------------------------------------------------------------------
-    def _priority_root(self, folder, market_hours=1.0, config=True, market=True, own_hours=1.0):
+    def _priority_root(self, folder, market_hours=1.0, config=True, market=True, own_hours=1.0, synthetic_checkout=False):
         """S 두 개(S1 점수 90, S2 점수 86)와 검증된 가격 우위를 가질 수 있는 S2, A 하나(A1 점수 99)를 만든다."""
         root = Path(folder)
         data = root/"data"
@@ -1377,6 +1377,27 @@ class DailySafetyTests(unittest.TestCase):
                         "currency": "USD", "is_soldout": False, "shipping_usd": ship}
             write("oliveyoung_us_products.json", {"collected_at": stamp(market_hours), "is_stale": False, "products": [
                 item("Acme Glow Ampoule 1.01 fl. oz.(30ml)", 30.0, 0.0), item("Acme Glow Cream 30ml", 30.0, 0.0)]})
+        if synthetic_checkout:
+            # Complete arithmetic fixtures only. HTTPS and JSON fields never
+            # authenticate these quotes in the production normalization path.
+            def quote(item_id, price, shipping, hours):
+                return {"item_id": item_id, "item_price_usd": price, "shipping_usd": shipping,
+                        "tax_usd": 0, "mandatory_fees_usd": 0, "currency": "USD", "market": "US",
+                        "quantity": 1, "shipping_method": "standard", "destination_key": "us_synthetic",
+                        "observed_at": stamp(hours) if hours is not None else None,
+                        "source_url": "https://example.com/synthetic-quote"}
+            registry_path = data/"shopify_daily_registry.json"
+            registry = json.loads(registry_path.read_text(encoding="utf-8"))
+            for entry in registry["items"]:
+                entry["checkout_quote"] = quote(entry["pd_no"], entry["single_usd"], 3.0, own_hours)
+            write("shopify_daily_registry.json", registry)
+            if market:
+                market_path = data/"oliveyoung_us_products.json"
+                market_doc = json.loads(market_path.read_text(encoding="utf-8"))
+                for entry in market_doc["products"]:
+                    entry["checkout_quote"] = quote(entry["product_id"], entry["price_usd"],
+                                                    entry["shipping_usd"], market_hours)
+                write("oliveyoung_us_products.json", market_doc)
         if config is True:
             (root/"config").mkdir()
             (root/"config/daiso_commerce_strategy.json").write_text(
@@ -1385,6 +1406,23 @@ class DailySafetyTests(unittest.TestCase):
             (root/"config").mkdir()
             (root/"config/daiso_commerce_strategy.json").write_text(config, encoding="utf-8")
         return root
+
+    @contextmanager
+    def _synthetic_checkout_trust(self):
+        # Algorithm branch fixture, scoped only to the two positive tests.
+        # There is no trusted producer in production. The unpatched ingress
+        # regression below proves raw quotes cannot grant themselves trust.
+        import build_beauty_price_strategy as bps
+        original = bps.checkout_total_evidence
+
+        def trusted_synthetic_record(*args, **kwargs):
+            result = original(*args, **kwargs)
+            result["source_verified"] = result["known"]
+            result["source_reasons"] = [] if result["known"] else ["checkout_source_provenance_unverified"]
+            return result
+
+        with patch.object(bps, "checkout_total_evidence", side_effect=trusted_synthetic_record):
+            yield
 
     def _ranked(self, root, shipping="3.0"):
         import os
@@ -1395,8 +1433,8 @@ class DailySafetyTests(unittest.TestCase):
             return daily.s_ranked(daily.CATEGORIES[0])
 
     def test_verified_price_advantage_ranks_s_first_with_transparent_components(self):
-        with tempfile.TemporaryDirectory() as folder:
-            rows = self._ranked(self._priority_root(folder))
+        with tempfile.TemporaryDirectory() as folder, self._synthetic_checkout_trust():
+            rows = self._ranked(self._priority_root(folder, synthetic_checkout=True))
         self.assertEqual([r["pd_no"] for r in rows], ["S2", "S1"])  # 정본 순서는 S1(90) -> S2(86)
         top, other = rows[0]["_priority"], rows[1]["_priority"]
         self.assertEqual(top["status"], "live_strategy")
@@ -1414,8 +1452,8 @@ class DailySafetyTests(unittest.TestCase):
         self.assertTrue(all(r["grade"] == "S" for r in rows))
 
     def test_a_grade_is_never_upgraded_or_added_by_a_price_advantage(self):
-        with tempfile.TemporaryDirectory() as folder:
-            root = self._priority_root(folder)
+        with tempfile.TemporaryDirectory() as folder, self._synthetic_checkout_trust():
+            root = self._priority_root(folder, synthetic_checkout=True)
             rows = self._ranked(root)
             import os
             with patch.object(daily, "ROOT", root), patch.dict(os.environ, {"OWN_SHIPPING_USD": "3.0"}):
@@ -1440,6 +1478,46 @@ class DailySafetyTests(unittest.TestCase):
             self.assertEqual(fallback["status"], "fallback_canonical_order")
             self.assertEqual(fallback["reason"], "strategy_grade_differs_from_canonical")
             self.assertEqual(fallback["by_pd"], {})
+
+    def test_priority_production_ingress_never_trusts_https_or_self_reported_quotes(self):
+        import build_beauty_price_strategy as bps
+        for claims in ({}, {"source_verified": True, "known": True, "verified": True,
+                           "reviewed": True, "status": "approved", "evidence_sha256": "a" * 64}):
+            with self.subTest(claims=claims), tempfile.TemporaryDirectory() as folder:
+                root = self._priority_root(folder, synthetic_checkout=True)
+                for rel, rows_key in (("shopify_daily_registry.json", "items"),
+                                      ("oliveyoung_us_products.json", "products")):
+                    path = root/"data"/rel
+                    doc = json.loads(path.read_text(encoding="utf-8"))
+                    for entry in doc[rows_key]:
+                        entry["checkout_quote"].update(claims)
+                    path.write_text(json.dumps(doc), encoding="utf-8")
+                before = {p.relative_to(root): p.read_bytes() for p in root.rglob("*") if p.is_file()}
+                # No trust patch: exercise the real registrar -> strategy path.
+                rows = self._ranked(root)
+                self.assertEqual([row["pd_no"] for row in rows], ["S1", "S2"])
+                for row in rows:
+                    self.assertEqual(row["grade"], "S")
+                    self.assertFalse(row["_priority"]["price_position_verified"])
+                    self.assertEqual(row["_priority"]["components"]["verified_price_points"], 0)
+                docs, statuses = bps.load_inputs(root/"data")
+                report = bps.build_strategy(docs, statuses, datetime.now(timezone.utc), own_shipping_usd=3.0)
+                for item in report["products"]:
+                    self.assertFalse(item["price_position"]["verified"])
+                    self.assertEqual(item["priority"]["components"]["verified_price_points"], 0)
+                    if item["pd_no"] in ("S2", "A1"):
+                        own = item["own_price"]["checkout_evidence"]
+                        self.assertTrue(own["known"])
+                        self.assertFalse(own["source_verified"])
+                        self.assertIn("checkout_source_provenance_unverified", own["source_reasons"])
+                        self.assertEqual(item["market"]["tier_counts"]["qualified"], 0)
+                        self.assertGreater(item["market"]["tier_counts"]["provisional"], 0)
+                        market = item["market"]["provisional_lowest"]["checkout_evidence"]
+                        self.assertTrue(market["known"])
+                        self.assertFalse(market["source_verified"])
+                        self.assertIn("checkout_source_provenance_unverified", market["source_reasons"])
+                self.assertEqual(before, {p.relative_to(root): p.read_bytes()
+                                          for p in root.rglob("*") if p.is_file()})
 
     def test_unknown_stale_or_unshipped_evidence_earns_no_price_points(self):
         with tempfile.TemporaryDirectory() as folder:
