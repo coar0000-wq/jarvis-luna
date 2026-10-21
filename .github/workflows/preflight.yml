@@ -122,6 +122,7 @@ jobs:
           python scripts/test_daiso_pipeline_inputs.py
           python scripts/test_observe_daiso_pipeline.py
           python scripts/test_candidate_pool_history.py
+          python scripts/test_legal_export_history.py
           python scripts/test_gosi_observation_provenance.py
           python scripts/test_us_label_provenance.py
           python scripts/test_immutable_snapshot_store.py

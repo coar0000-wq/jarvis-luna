@@ -35,7 +35,8 @@ PERSISTENT_SOURCE_FILES = frozenset(('data/daiso_real/shortlist_observations.jso
 IMMUTABLE_HISTORY_PREFIXES = ('data/agents/workflow_status_history/',
     'data/agents/gemini_escalation_history/', 'data/knowledge/moe_evaluation_history/',
     'data/knowledge/gosi_observation_history/', 'data/agents/daiso_pipeline_history/',
-    'data/agents/source_procedures/observer_history/', 'data/daiso_real/candidate_pool_history/')
+    'data/agents/source_procedures/observer_history/', 'data/daiso_real/candidate_pool_history/',
+    'data/legal_export_history/')
 
 
 class PublishError(RuntimeError):
@@ -111,7 +112,22 @@ def identity(rows, fields):
     return None
 
 
-def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None, copy_evidence=None, observer_evidence=None, observer_policy=None):
+def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None, copy_evidence=None, observer_evidence=None, observer_policy=None, export_evidence=None):
+    # This report never accepts generic deletion waivers. Both removals and
+    # ordinary updates require independently verified exact transition evidence.
+    if name == 'data/legal_export_prep.json':
+        try:
+            from scripts.legal_export_history import manifest_record
+            expected = manifest_record(base, replacement, export_evidence)
+            records = [r for r in (manifest or {}).get('deletions', [])
+                       if isinstance(r, dict) and r.get('path') == name]
+            return removed is not None and sorted(set(removed)) == expected['ids'] and records == [expected]
+        except (ValueError, TypeError, KeyError, AttributeError, OSError):
+            return False
+    if any(isinstance(r, dict) and r.get('path') == name and
+           r.get('policy_ref') == 'scripts/legal_export_history.py'
+           for r in (manifest or {}).get('deletions', [])):
+        return False
     observer_scope = False
     if name == 'data/daiso_real/shortlist_observations.json' and base is not None and replacement is not None:
         try:
@@ -346,7 +362,7 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
 CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 
-def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None, learning_evidence=None):
+def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None, learning_evidence=None, export_evidence=None):
     if name == 'data/publish_deletions.json' and all(x is not None for x in (base, local, remote)) and remote != base and local != base:
         docs = [parse_json(x) for x in (base, local, remote)]
         grouped = []
@@ -380,16 +396,27 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
     # Their filenames bind SHA256 of the original snapshots, not parsed JSON.
     if name.startswith(IMMUTABLE_HISTORY_PREFIXES):
         stem = PurePosixPath(name).stem
-        prefix = 'data/daiso_real/candidate_pool_history/'
-        if name.startswith(prefix) and not (re.fullmatch(r'[0-9a-f]{64}\.json', name[len(prefix):])
+        prefix = next((p for p in ('data/daiso_real/candidate_pool_history/', 'data/legal_export_history/') if name.startswith(p)), '')
+        if prefix and not (re.fullmatch(r'[0-9a-f]{64}\.json', name[len(prefix):])
                 or re.fullmatch(r'[0-9a-f]{2}/[0-9a-f]{64}\.json', name[len(prefix):])
                 and name[len(prefix):len(prefix)+2] == stem[:2]):
-            raise PublishError(f'immutable candidate history shard/path mismatch: {name}')
+            raise PublishError(f'immutable history shard/path mismatch: {name}')
         if local is None or not re.fullmatch(r'[0-9a-f]{64}', stem) or sha(local) != stem:
             raise PublishError(f'immutable history removal/hash mismatch: {name}')
         if remote not in (None, local) or base not in (None, local):
             raise PublishError(f'immutable history conflict: {name}')
         parse_json(local)
+        return local
+    if name == 'data/legal_export_prep.json':
+        try:
+            from scripts.legal_export_history import verify_evidence
+            tokens = verify_evidence(base, local, export_evidence)
+            if not deletion_authorized(name, base, tokens, manifest, replacement=local, export_evidence=export_evidence):
+                raise ValueError('export manifest invalid')
+            if remote not in (base, local):
+                raise ValueError('concurrent export snapshot requires regeneration')
+        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+            raise PublishError('legal export canonical/history evidence invalid or concurrent snapshot') from exc
         return local
     if name in PERSISTENT_SOURCE_FILES and remote not in (None, base, local):
         raise PublishError(f'competing safety checkpoint requires reconciliation: {name}')
@@ -508,6 +535,46 @@ class Transaction:
         self.delta = self.capture()
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+        self.export_evidence = None
+        self.export_pair = None
+        from scripts.legal_export_history import REPORT, HISTORY, MANIFEST, SOURCES, LEGAL, load_evidence, read_source, verify_current_sources
+        export_records = lambda doc: [r for r in doc.get('deletions', []) if isinstance(r, dict) and r.get('path') == REPORT]
+        manifest_delta = self.delta.get(MANIFEST)
+        export_manifest_changed = bool(manifest_delta and export_records(self.manifest) !=
+            export_records(parse_json(manifest_delta[0]) if manifest_delta[0] is not None else {}))
+        if REPORT in self.delta or export_manifest_changed or any(n.startswith(HISTORY + '/') for n in self.delta):
+            from scripts.immutable_snapshot_store import _scan
+            base, current = self.delta.get(REPORT, (at_ref(self.root, self.base, REPORT),) * 2)
+            self.export_pair = (base, current)
+            try:
+                self.export_evidence = load_evidence(self.root, base, current, self.manifest)
+                def captured(name):
+                    return self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
+                if captured(MANIFEST) != read_source(self.root, MANIFEST):
+                    raise ValueError('export manifest omitted or changed after capture')
+                if captured(REPORT) != read_source(self.root, REPORT):
+                    raise ValueError('export report changed after capture')
+                _, archives, _, _ = _scan(self.root, HISTORY)
+                for digest, name in archives.items():
+                    if captured(name) != self.export_evidence['archives'][digest]:
+                        raise ValueError('export archive omitted from publication paths')
+                record = self.export_evidence['record']
+                current_sources = {}
+                for name in SOURCES:
+                    digest = record['published_legal_sha256'] if name == LEGAL else record['source_sha256'][name]
+                    expected = self.export_evidence['archives'][digest]
+                    actual = captured(name)
+                    if actual != read_source(self.root, name):
+                        raise ValueError('export canonical input omitted or changed after capture')
+                    # Deep reruns commerce after export preparation and before
+                    # capture. Only these two derived inputs may have changed;
+                    # independently recheck their exact export projection below.
+                    if name not in (LEGAL, 'data/daiso_real/shopify_demand_score.json') and actual != expected:
+                        raise ValueError('export non-derived input changed after generation')
+                    current_sources[name] = actual
+                verify_current_sources(current, self.export_evidence, current_sources)
+            except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                raise PublishError('legal export evidence/source omitted or changed after capture') from exc
         self.candidate_history = None
         if 'data/daiso_real/candidate_pool.json' in self.delta:
             from scripts.candidate_pool_history import HISTORY_PATH
@@ -745,7 +812,7 @@ class Transaction:
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
                         remote = p.read_bytes() if p.exists() else None
-                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence, learning_evidence=self.learning_evidence)
+                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence, learning_evidence=self.learning_evidence, export_evidence=self.export_evidence)
                         if value is None:
                             p.unlink(missing_ok=True)
                         else:
@@ -760,6 +827,12 @@ class Transaction:
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     with timed_phase('regenerate_validate'):
                         self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
+                    if self.export_evidence is not None:
+                        from scripts.legal_export_history import REPORT, verify_final
+                        try:
+                            verify_final(work, *self.export_pair, self.export_evidence)
+                        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                            raise PublishError('final legal export differs from canonical sources/history') from exc
                     if self.observer_evidence is not None:
                         from scripts.shortlist_observation_history import verify_final_scope
                         verify_final_scope(work, self.observer_evidence)

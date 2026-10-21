@@ -1,4 +1,4 @@
-"""Bounded exact-byte storage for four explicitly whitelisted report histories.
+"""Bounded exact-byte storage for explicitly whitelisted report histories.
 
 Keep up to 128 legacy flat files in place, then spill new content into its
 SHA256 two-hex prefix directory (256 possible shards, 128 files per shard).
@@ -19,6 +19,7 @@ HISTORY_PATHS = frozenset({
     'data/agents/gemini_escalation_history',
     'data/knowledge/gosi_observation_history',
     'data/daiso_real/candidate_pool_history',
+    'data/legal_export_history',
 })
 MAX_ENTRIES = 128
 MAX_SHARDS = 256
