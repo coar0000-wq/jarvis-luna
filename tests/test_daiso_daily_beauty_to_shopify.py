@@ -902,8 +902,8 @@ class DailySafetyTests(unittest.TestCase):
         self.assertEqual(sorted(d["reason"] for d in out["skipped"]),
                          ["face_detected:1", "not_in_reviewed_product_only_allowlist", "reviewed_image_hash_mismatch"])
 
-    def test_detail_localization_is_off_by_default_and_merged_first_when_on(self):
-        # 2026-10-17 사용자 지정 기본 방식(1084687): 영문 패널을 먼저, 허용 목록 사진을 뒤에.
+    def test_detail_localization_is_off_by_default_and_review_only_when_on(self):
+        # Conversion success is preparation only; existing reviewed image paths remain separate.
         product = {"pdNo": "88", "pdImgUrl": "/x.jpg", "pdImgUrlList": ["/x.jpg"]}
         empty_policy = {"reviewed_product_only_allowlist": {}}
         self.assertFalse(daily.LOCALIZE_DETAIL_IMAGES)       # 환경변수 없이는 켜지지 않는다
@@ -915,14 +915,116 @@ class DailySafetyTests(unittest.TestCase):
               "_resource_urls": []}
         with patch.object(daily, "IMAGE_POLICY", empty_policy), patch.object(daily, "localized_images", return_value=ok):
             on = daily.prepare_images(product, None, title="Cream")
-        self.assertEqual(on["source_urls"], ["/tmp/01-a-en.jpg", "/tmp/02-b-en.jpg"])
-        self.assertEqual(on["alts"], ["Cream — A", "Cream — B"])
+        self.assertEqual(on["source_urls"], [])
+        self.assertEqual(on["alts"], [])
+        self.assertFalse(on["localization"]["upload_allowed"])
+        self.assertIn("detail_localization_requires_gallery_review", [d["reason"] for d in on["skipped"]])
         self.assertEqual(on["localization"]["manifest"], "data/image_localization/88.json")
         failed = {"status": "failed", "reasons": ["translator_unavailable"], "summary": None}
         with patch.object(daily, "IMAGE_POLICY", empty_policy), patch.object(daily, "localized_images", return_value=failed):
             fb = daily.prepare_images(product, None, title="Cream")
         self.assertEqual(fb["source_urls"], [])
         self.assertIn("detail_localization_failed:translator_unavailable", [d["reason"] for d in fb["skipped"]])
+
+    def test_localizer_conversion_never_reads_or_uploads_output_files(self):
+        product = {"pdNo": "88"}
+        for forged in (False, True):
+            converted = {"status": "ok", "product_id": "88", "summary": {"used": 1}, "reasons": [],
+                         "gallery_status": "prepared" if forged else "review_required",
+                         "gallery_complete": forged, "preparation_complete": forged,
+                         "outputs": [{"file": "missing-or-corrupt.jpg", "sha256": "a" * 64}],
+                         "_files": ["/missing.jpg"], "_alts": ["unreviewed claim"],
+                         "_resource_urls": ["https://unverified.invalid/asset.jpg"], "_output_sha256s": ["a" * 64]}
+            original = copy.deepcopy(converted)
+            localizer, shop = MagicMock(), MagicMock()
+            localizer.localize_product.return_value = converted
+            with patch.dict(sys.modules, {"localize_detail_images": localizer}), \
+                 patch.object(daily, "LOCALIZE_DETAIL_IMAGES", True), patch.object(daily, "DRY_RUN", False), \
+                 patch.object(Path, "read_bytes", side_effect=AssertionError("converter bytes must not be read for upload")):
+                result = daily.localized_images(product, shop, "Cream")
+            self.assertEqual(converted, original)
+            self.assertEqual(result["status"], "ok")
+            self.assertEqual(result["gallery_status"], "review_required")
+            self.assertFalse(result["gallery_complete"])
+            self.assertFalse(result["upload_allowed"])
+            for key in ("_files", "_alts", "_resource_urls", "_output_sha256s"):
+                self.assertNotIn(key, result)
+            shop.upload_jpeg.assert_not_called()
+            shop.upload_product_image.assert_not_called()
+            shop.gql.assert_not_called()
+            localizer.write_manifest.assert_called_once_with(result)
+
+    def test_converter_prepared_and_internal_urls_never_merge(self):
+        product = {"pdNo": "88", "pdImgUrl": "/x.jpg", "pdImgUrlList": ["/x.jpg"]}
+        converted = {"status": "ok", "gallery_status": "prepared", "gallery_complete": True,
+                     "preparation_complete": True, "upload_allowed": True,
+                     "_files": ["/not-reviewed.jpg"], "_resource_urls": ["https://unverified.invalid/asset.jpg"],
+                     "_alts": ["Never cakes"], "_output_sha256s": ["a" * 64]}
+        shop = MagicMock()
+        with patch.object(daily, "IMAGE_POLICY", {"reviewed_product_only_allowlist": {}}), \
+             patch.object(daily, "localized_images", return_value=converted), patch.object(daily, "DRY_RUN", False):
+            result = daily.prepare_images(product, shop, title="Cream")
+        for key in ("source_urls", "resource_urls", "alts", "output_sha256s"):
+            self.assertEqual(result[key], [])
+        self.assertEqual(result["localization"]["status"], "ok")
+        self.assertFalse(result["localization"]["upload_allowed"])
+        self.assertIn("detail_localization_requires_gallery_review", [x["reason"] for x in result["skipped"]])
+        shop.upload_jpeg.assert_not_called()
+        shop.upload_product_image.assert_not_called()
+        shop.gql.assert_not_called()
+
+    def test_review_only_localization_preserves_existing_allowlist_upload(self):
+        import hashlib
+        import io
+        import daiso_images
+        source, output = b"reviewed source fixture", b"converted reviewed allowlist fixture"
+        policy = {"reviewed_product_only_allowlist": {"88": [{"path": "/x.jpg",
+                    "sha256": hashlib.sha256(source).hexdigest(), "reviewed_by": "synthetic review",
+                    "reviewed_at": "2026-10-20"}]}}
+        product = {"pdNo": "88", "pdImgUrl": "/x.jpg", "pdImgUrlList": ["/x.jpg"]}
+        converted = {"status": "ok", "gallery_status": "review_required", "gallery_complete": False,
+                     "_resource_urls": ["https://unverified.invalid/asset.jpg"], "_files": ["/bad.jpg"], "_alts": ["bad"]}
+        shop = MagicMock(); shop.upload_jpeg.return_value = "https://fixture.invalid/reviewed.jpg"
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily, "DRY_RUN", False), \
+             patch.object(daily, "localized_images", return_value=converted), \
+             patch.object(daily.urllib.request, "urlopen", return_value=io.BytesIO(source)), \
+             patch.object(daiso_images, "select_images", side_effect=lambda blobs: (blobs, [])) as selected, \
+             patch.object(daiso_images, "to_square_jpeg", return_value=output):
+            result = daily.prepare_images(product, shop, title="Reviewed Cream")
+        selected.assert_called_once_with([(daily.DAISO_CDN + "/x.jpg", source)])
+        shop.upload_jpeg.assert_called_once_with(output, "daiso-88-1.jpg")
+        shop.upload_product_image.assert_not_called()
+        self.assertEqual(result["source_urls"], [daily.DAISO_CDN + "/x.jpg"])
+        self.assertEqual(result["resource_urls"], ["https://fixture.invalid/reviewed.jpg"])
+        self.assertEqual(result["alts"], ["Reviewed Cream"])
+        self.assertEqual(result["output_sha256s"], [hashlib.sha256(output).hexdigest()])
+        self.assertFalse(result["gallery_complete"])
+
+    def test_localizer_disabled_or_dry_run_never_writes_manifest_or_uploads(self):
+        localizer, shop = MagicMock(), MagicMock()
+        localizer.localize_product.return_value = {"status": "ok", "outputs": [], "reasons": []}
+        with patch.dict(sys.modules, {"localize_detail_images": localizer}), \
+             patch.object(daily, "LOCALIZE_DETAIL_IMAGES", False):
+            self.assertIsNone(daily.localized_images({"pdNo": "88"}, shop, "Cream"))
+        localizer.localize_product.assert_not_called()
+        with patch.dict(sys.modules, {"localize_detail_images": localizer}), \
+             patch.object(daily, "LOCALIZE_DETAIL_IMAGES", True), patch.object(daily, "DRY_RUN", True):
+            self.assertEqual(daily.localized_images({"pdNo": "88"}, shop, "Cream")["status"], "ok")
+        localizer.write_manifest.assert_not_called()
+        shop.upload_jpeg.assert_not_called()
+        shop.upload_product_image.assert_not_called()
+
+    def test_localizer_failure_stays_failure_without_upload(self):
+        localizer, shop = MagicMock(), MagicMock()
+        localizer.localize_product.side_effect = RuntimeError("synthetic failure")
+        with patch.dict(sys.modules, {"localize_detail_images": localizer}), \
+             patch.object(daily, "LOCALIZE_DETAIL_IMAGES", True), patch.object(daily, "DRY_RUN", False):
+            result = daily.localized_images({"pdNo": "88"}, shop, "Cream")
+        self.assertEqual(result["status"], "failed")
+        self.assertEqual(result["reasons"], ["localize_exception:RuntimeError"])
+        localizer.write_manifest.assert_not_called()
+        shop.upload_jpeg.assert_not_called()
+        shop.upload_product_image.assert_not_called()
 
     def _run_main(self, pricing, pick_effect, price_evidence=None, safety=None, safety_files=None):
         import os
@@ -2078,6 +2180,24 @@ class GalleryRepairExecutionTests(unittest.TestCase):
         self.assertEqual(self.entry["image_backfill"]["state"], "verified")
         for key in ("title", "description_html", "single_usd", "status"):
             self.assertEqual(self.entry[key], before[key])
+
+    def test_complete_reviewed_gallery_is_noop_without_converter_or_upload(self):
+        self.state["media"] = [self.fixture.media(i) for i in range(len(self.fixture.manifest["assets"]))]
+        before = copy.deepcopy(self.state["media"])
+        with patch.object(daily, "prepare_images") as prepare, \
+             patch.object(daily, "localized_images") as localize:
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(out["status"], "complete")
+        self.assertTrue(out["gallery_complete"])
+        self.assertEqual(out["add_asset_sha256s"], [])
+        self.assertEqual(self.state["media"], before)
+        self.assertEqual(out["preserve_media_ids"], [m["id"] for m in before])
+        prepare.assert_not_called()
+        localize.assert_not_called()
+        self.shop.upload_product_image.assert_not_called()
+        self.shop.upload_jpeg.assert_not_called()
+        self.shop.gql.assert_not_called()
+        self.assertEqual(self.entry["status"], "DRAFT")
 
     def test_existing_safe_zero_image_path_is_retained_without_claiming_complete(self):
         self.state["media"] = []
