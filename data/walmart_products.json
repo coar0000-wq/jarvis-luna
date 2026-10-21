@@ -7,12 +7,12 @@
   "source_url": "https://www.walmart.com/browse/beauty/1085666",
   "robots_note": "Public editorial collection; source URL verified in browser (2026-10-18)",
   "collected_at": "2026-09-15T11:19:23.782Z",
-  "last_attempt_at": "2026-10-20T23:23:07.703722+00:00",
+  "last_attempt_at": "2026-10-21T23:37:02.681258+00:00",
   "freshness": {
     "source_timestamp": "2026-09-15T11:19:23.782Z",
     "timestamp_input_type": "str",
     "status": "stale",
-    "age_hours": 852.0622,
+    "age_hours": 876.2941,
     "is_stale": true,
     "max_age_hours": 36
   },

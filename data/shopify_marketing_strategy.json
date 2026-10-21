@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T08:36:52.042072+09:00",
+  "generated_at": "2026-10-22T08:38:43.060993+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3736,7 +3736,7 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-21T23:36:51.890602+00:00",
+    "listing_gate_generated_at": "2026-10-21T23:38:42.902962+00:00",
     "s_product_count": 7,
     "product_playbook_count": 7,
     "public_ready_count": 0,
