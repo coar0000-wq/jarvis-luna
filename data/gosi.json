@@ -1345,6 +1345,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:06:11.760500+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "origin": "한국",
@@ -2185,6 +2194,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:07:27.981005+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -2197,7 +2215,7 @@
           "byte_count": 2060,
           "capture_scope": "source_response",
           "verified": false,
-          "stale": false
+          "stale": true
         }
       },
       "verified": false,
@@ -6845,6 +6863,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:08:44.834751+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -6857,7 +6884,7 @@
           "byte_count": 2069,
           "capture_scope": "source_response",
           "verified": false,
-          "stale": false
+          "stale": true
         }
       },
       "verified": false,
@@ -7668,6 +7695,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:09:50.998585+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "expiry": "또는개봉후사용기간 제조일로부터36개월 개봉후12개월",
@@ -9509,6 +9545,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:11:05.600420+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -9521,7 +9566,7 @@
           "byte_count": 2060,
           "capture_scope": "source_response",
           "verified": false,
-          "stale": false
+          "stale": true
         }
       },
       "verified": false,
@@ -9633,6 +9678,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:12:22.661249+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "origin": "대한민국",
@@ -10023,6 +10077,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-21T22:13:39.822588+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -10035,12 +10098,134 @@
           "byte_count": 2060,
           "capture_scope": "source_response",
           "verified": false,
-          "stale": false
+          "stale": true
         }
       },
       "verified": false,
       "detail_images": [],
       "gosi_images": []
+    },
+    "1073406": {
+      "product_id": "1073406",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-21T22:03:46.342606+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "retained_source_stale": true
+    },
+    "1033789": {
+      "product_id": "1033789",
+      "volume": "90g (수분포함), 72g (건조시)",
+      "field_observations": {
+        "volume": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "usage": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "expiry": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "ingredients": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "maker": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-21T22:05:07.355732+00:00",
+          "sha256": "2ffcf1862d4f690ab3616ff58dc95980a0600f88014c84b2cb8fecc62b44cf40",
+          "byte_count": 6038,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-21T22:05:07.355732+00:00",
+          "dom_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+          "intended_product_id": "1033789",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "usage": "거품을 충분히 내어 얼굴 및 전신 피부에 문지르시고 물로 충분히 씻어 주십시오.",
+      "expiry": "제조일로부터 36개월",
+      "warnings": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어 오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것",
+      "ingredients": "소듐라우레이트, 소듐미리스테이트, 정제수, 소듐팜커넬레이트, 글리세린, 소듐팔미테이트, 솔비톨, 소듐스테아레이트, 라우릭애씨드, 미리스틱애씨드, 세테아릴알코올, 팜커넬애씨드, 소듐클로라이드, 스테아릭애씨드, 팔미틱애씨드, 다이소듐코코암포다이아세테이트, 세롤라타벚나무꽃추출물, 아보카도오일, 캐모마일꽃추출물, 참나리추출물, 피마자씨오일, 헥실렌글라이콜, 부틸렌글라이콜, 1,2-헥산다이올, 펜틸렌글라이콜, 카프릴릴글라이콜, 테트라소듐이디티에이, 테트라소듐에티드로네이트, 적색산화철, 적색504호, 티타늄디옥사이드, 향료, 리날룰, 헥실신남알, 리모넨, 시트로넬올, 제라니올",
+      "maker": "(주)엘지생활건강",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-21T22:05:06.075834+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ]
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
