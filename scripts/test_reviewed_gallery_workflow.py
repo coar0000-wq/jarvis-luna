@@ -142,6 +142,37 @@ class ReviewedGalleryWorkflowTests(unittest.TestCase):
                                      input=guard, text=True, capture_output=True)
                 self.assertNotEqual(bad.returncode, 0, changes)
 
+    def test_current_operation_policy_allows_only_draft_apply(self):
+        guard = self.step('입력 범위 확인')['run']
+        for status, apply, expected in (('DRAFT', 'true', 0), ('ACTIVE', 'true', 1),
+                                        ('ACTIVE', 'false', 0), ('DRAFT', 'false', 0),
+                                        (None, 'true', 1), ('ARCHIVED', 'true', 1)):
+            with self.subTest(status=status, apply=apply), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                ticket = root / 'data/manual/gallery_upload/review-123'
+                ticket.mkdir(parents=True)
+                scope = {'expected_status': status, 'identity': {
+                    'shop': {'myshopifyDomain': 'example.myshopify.com'},
+                    'product_id': 'gid://shopify/Product/123'}}
+                (ticket / 'scope.json').write_text(json.dumps(scope))
+                (ticket / 'manifest.json').write_text('{}')
+                env = dict(os.environ, REVIEW_TICKET='review-123', APPLY_IMAGES=apply,
+                           EXPECTED_PLAN_DIGEST='a' * 64, RECONCILE_ID='',
+                           RECONCILE_DIGEST='', GITHUB_OUTPUT=str(root / 'outputs'))
+                result = subprocess.run(['bash', '-e'], cwd=root, env=env, input=guard,
+                                        text=True, capture_output=True)
+                self.assertEqual(bool(result.returncode), bool(expected), result.stderr)
+                policy_path = root / 'out/gallery/operation-policy.json'
+                if expected:
+                    self.assertFalse(policy_path.exists())
+                    self.assertIn('draft_review_only', result.stderr)
+                else:
+                    policy = json.loads(policy_path.read_text())
+                    self.assertEqual(policy['policy'], 'draft_review_only')
+                    self.assertIs(policy['active_live_changes_allowed'], False)
+                    self.assertEqual(policy['mode'], 'draft_apply_requested' if apply == 'true' else 'read_only_plan')
+                    self.assertEqual(policy['requested_status'], status)
+
     def test_failed_cli_pipeline_cannot_turn_green(self):
         for step in self.steps:
             if 'run' in step:

@@ -10,7 +10,7 @@ on:
         type: string
         required: true
       apply_images:
-        description: 'false=읽기 계획만, true=검증된 누락 이미지만 추가'
+        description: 'false=미리보기, true=검토된 DRAFT에만 추가; ACTIVE는 읽기만'
         type: boolean
         default: false
         required: true
@@ -98,13 +98,26 @@ jobs:
           root = pathlib.Path('data/manual/gallery_upload') / ticket
           if not (root / 'scope.json').is_file() or not (root / 'manifest.json').is_file():
               raise SystemExit('reviewed scope and manifest are missing')
-          identity = json.loads((root / 'scope.json').read_text())['identity']
+          scope = json.loads((root / 'scope.json').read_text())
+          # Current operating request stops at draft review. Existing ACTIVE
+          # products may be planned/reconciled, never changed by this workflow.
+          if apply and scope.get('expected_status') != 'DRAFT':
+              raise SystemExit('draft_review_only: live ACTIVE changes require a separate exact approval')
+          identity = scope['identity']
           shop = identity['shop']['myshopifyDomain']
           product = identity['product_id']
           if not isinstance(shop, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]*\.myshopify\.com', shop):
               raise SystemExit('invalid expected shop')
           if not isinstance(product, str) or not re.fullmatch(r'gid://shopify/Product/[0-9]+', product):
               raise SystemExit('invalid expected product')
+          report = pathlib.Path('out/gallery')
+          report.mkdir(parents=True, exist_ok=True)
+          (report / 'operation-policy.json').write_text(json.dumps({
+              'policy': 'draft_review_only', 'active_live_changes_allowed': False,
+              'requested_status': scope.get('expected_status'),
+              'mode': 'read_only_reconciliation' if reconcile else
+                      ('draft_apply_requested' if apply else 'read_only_plan'),
+              'review_ticket': ticket}, sort_keys=True) + '\n')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
               out.write(f'review_root={root.as_posix()}\n')
               out.write(f'expected_shop={shop}\nexpected_product={product}\n')
