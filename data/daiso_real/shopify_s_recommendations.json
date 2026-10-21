@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:25:24.637583+00:00",
+  "generated_at": "2026-10-20T23:43:09.276718+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 2,
@@ -141,7 +141,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 3,
@@ -218,7 +218,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 6,
@@ -448,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     },
     {
       "rank": 7,
@@ -515,7 +515,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
+      "gate_generated_at": "2026-10-20T23:43:10.133030+00:00"
     }
   ],
   "agent_ready_count": 0,

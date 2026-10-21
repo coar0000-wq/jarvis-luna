@@ -2,11 +2,11 @@
 title: "AI 수집팀"
 type: team-status
 status: generated-from-jarvis-data
-updated_at: 2026-10-20T14:58:31.891611+00:00
+updated_at: 2026-10-20T23:42:55.503786+00:00
 team_id: "robotics"
 team_status: "ok"
 source_reported_at: "2026-10-11T13:35:28.740085+00:00"
-analysis_completed_at: "2026-10-20T14:40:34.635137+00:00"
+analysis_completed_at: "2026-10-20T23:21:56.974690+00:00"
 external_team_execution_verified: false
 ---
 
@@ -14,7 +14,7 @@ external_team_execution_verified: false
 
 상태 **ok** · 원본 보고 시각/표시 2026-10-11T13:35:28.740085+00:00
 
-로컬 분석 완료: 2026-10-20T14:40:34.635137+00:00 (외부 팀 실행 증명 아님)
+로컬 분석 완료: 2026-10-20T23:21:56.974690+00:00 (외부 팀 실행 증명 아님)
 
 235건 · arxiv 75 / rss 160 · 새 자료 131건 · 영상 학습 7개
 

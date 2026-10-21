@@ -5,7 +5,7 @@
     "authority": false,
     "business_clearance": false,
     "receipt_verified": false,
-    "revision": 44,
+    "revision": 50,
     "schema_version": 1,
     "teams": {
       "channels": {
@@ -45,15 +45,15 @@
       },
       "legal": {
         "budget": 256,
-        "episodes": 2,
-        "lifetime": 4,
+        "episodes": 3,
+        "lifetime": 6,
         "reconciliation_required": false,
         "stopped": false
       },
       "listing": {
         "budget": 256,
         "episodes": 3,
-        "lifetime": 5,
+        "lifetime": 6,
         "reconciliation_required": false,
         "stopped": false
       },
@@ -88,7 +88,7 @@
     }
   },
   "force_bypasses_limits": false,
-  "generated_at": "2026-10-20T14:39:36.704335+00:00",
+  "generated_at": "2026-10-20T23:20:50.547229+00:00",
   "network_actuator_limit_per_invocation": 1,
   "organization": "secretary > existing 11 team leads > specialists",
   "plans": [
@@ -118,14 +118,14 @@
     },
     {
       "authority": false,
-      "claim_id": "afd54655d26982b26ab080208cde89309988e22a2581a572fa31dd22d305fd01",
+      "claim_id": null,
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "market",
       "machine_eligible": true,
-      "reason": "exit_zero_is_not_source_recovery",
+      "reason": "episode_limit",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "waiting_verified_source",
+      "status": "bounded_hold",
       "team": "market"
     },
     {
@@ -133,11 +133,11 @@
       "claim_id": null,
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "listing",
-      "machine_eligible": false,
-      "reason": "shared_fixed_procedure_already_processed",
+      "machine_eligible": true,
+      "reason": "episode_limit",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "waiting_owner",
+      "status": "bounded_hold",
       "team": "listing"
     },
     {
@@ -157,11 +157,11 @@
       "claim_id": null,
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "legal",
-      "machine_eligible": false,
-      "reason": "shared_fixed_procedure_already_processed",
+      "machine_eligible": true,
+      "reason": "episode_limit,cooldown",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "waiting_owner",
+      "status": "bounded_hold",
       "team": "legal"
     },
     {
@@ -218,7 +218,7 @@
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "graph",
       "machine_eligible": false,
-      "reason": "shared_fixed_procedure_already_processed",
+      "reason": "actual_native_sync_path_permission_and_heartbeat_required",
       "receipt_verified": false,
       "source_healthy": false,
       "status": "waiting_owner",
