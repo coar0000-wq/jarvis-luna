@@ -617,6 +617,8 @@ jobs:
           cat > "$RUNNER_TEMP/deep_39.sh" <<'RELEASE_STAGE_deep_39'
           python -u scripts/build_listing_copy_local.py
           python -u scripts/build_listing_gate.py
+          # Preserve retired drafts against HEAD before export captures copy bytes.
+          python -B scripts/build_listing_copy_local.py --record-publication
           RELEASE_STAGE_deep_39
           python scripts/collector_result.py run --name deep_39 --optional \
             --output "$RUNNER_TEMP/release-results/deep_39.json" -- bash -e "$RUNNER_TEMP/deep_39.sh"

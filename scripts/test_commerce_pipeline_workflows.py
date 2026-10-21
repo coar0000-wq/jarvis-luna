@@ -60,6 +60,26 @@ class CommercePipelineTests(unittest.TestCase):
         stage = text.split("cat > \"$RUNNER_TEMP/deep_41.sh\" <<'RELEASE_STAGE_deep_41'", 1)[1].split('RELEASE_STAGE_deep_41', 1)[0]
         self.assertIn('scripts/run_commerce_pipeline.py', stage)
 
+    def test_deep_records_copy_history_before_export_captures_its_bytes(self):
+        workflow = yaml.load(
+            (ROOT / '.github/workflows/JARVIS-Deep-Analysis.yml').read_text(encoding='utf-8'),
+            Loader=yaml.BaseLoader,
+        )
+        steps = next(iter(workflow['jobs'].values()))['steps']
+        runs = [step.get('run', '') for step in steps]
+        copy_step = next(i for i, run in enumerate(runs) if 'RELEASE_STAGE_deep_39' in run)
+        export_step = next(i for i, run in enumerate(runs) if 'RELEASE_STAGE_deep_40' in run)
+        commerce_step = next(i for i, run in enumerate(runs) if 'RELEASE_STAGE_deep_41' in run)
+        run = runs[copy_step]
+        expected = ['python -u scripts/build_listing_copy_local.py',
+                    'python -u scripts/build_listing_gate.py',
+                    'python -B scripts/build_listing_copy_local.py --record-publication']
+        commands = [line.strip() for line in run.splitlines() if line.strip().startswith('python')]
+        self.assertEqual(commands[:3], expected)
+        self.assertIn('-- bash -e "$RUNNER_TEMP/deep_39.sh"', run)
+        self.assertLess(copy_step, export_step)
+        self.assertLess(export_step, commerce_step)
+
 
 if __name__ == '__main__':
     unittest.main()
