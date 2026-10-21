@@ -1,0 +1,223 @@
+name: Shopify 검토 이미지 추가 (수동, 기존 상태 유지)
+
+# No schedule, automatic rollout, publication, or product creation.
+# A reviewed repository ticket and a matching read-only plan are required.
+on:
+  workflow_dispatch:
+    inputs:
+      review_ticket:
+        description: '검토된 data/manual/gallery_upload/<ticket> 디렉터리'
+        type: string
+        required: true
+      apply_images:
+        description: 'false=미리보기, true=검토된 DRAFT에만 추가; ACTIVE는 읽기만'
+        type: boolean
+        default: false
+        required: true
+      expected_plan_digest:
+        description: '앞선 읽기 계획의 SHA256. 실제 적용 시 필수'
+        type: string
+        default: ''
+        required: false
+      reconcile_artifact_id:
+        description: '미확인 이전 실행의 checkpoint artifact ID. 입력하면 읽기 재조회만'
+        type: string
+        default: ''
+        required: false
+      reconcile_artifact_digest:
+        description: '이전 checkpoint ZIP의 SHA256. 재조회 시 필수'
+        type: string
+        default: ''
+        required: false
+
+concurrency:
+  group: daiso-daily-beauty-shopify
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  gallery:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 고정 검증 의존성
+        run: |
+          set -euo pipefail
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
+      - name: 오프라인 회귀 검사
+        run: |
+          set -euo pipefail
+          python -B - <<'PY'
+          import socket, sys, unittest
+          def blocked(*args, **kwargs):
+              raise AssertionError('network disabled during tests')
+          socket.create_connection = blocked
+          socket.socket.connect = blocked
+          sys.path.insert(0, 'scripts')
+          suite = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromName(name) for name in (
+              'test_active_product_gallery_plan', 'test_apply_reviewed_product_gallery',
+              'test_reviewed_gallery_workflow'))
+          raise SystemExit(0 if unittest.TextTestRunner().run(suite).wasSuccessful() else 1)
+          PY
+      - name: 입력 범위 확인
+        id: inputs
+        env:
+          REVIEW_TICKET: ${{ inputs.review_ticket }}
+          APPLY_IMAGES: ${{ inputs.apply_images }}
+          EXPECTED_PLAN_DIGEST: ${{ inputs.expected_plan_digest }}
+          RECONCILE_ID: ${{ inputs.reconcile_artifact_id }}
+          RECONCILE_DIGEST: ${{ inputs.reconcile_artifact_digest }}
+        run: |
+          set -euo pipefail
+          python -B - <<'PY'
+          import json, os, pathlib, re
+          ticket = os.environ['REVIEW_TICKET']
+          expected = os.environ['EXPECTED_PLAN_DIGEST']
+          apply = os.environ['APPLY_IMAGES'] == 'true'
+          reconcile = os.environ['RECONCILE_ID']
+          restore_digest = os.environ['RECONCILE_DIGEST']
+          if reconcile and apply:
+              raise SystemExit('reconciliation is read-only; apply must be false')
+          if bool(reconcile) != bool(restore_digest):
+              raise SystemExit('both checkpoint ID and digest are required')
+          if reconcile and (not re.fullmatch(r'[0-9]+', reconcile) or
+                            not re.fullmatch(r'[0-9a-f]{64}', restore_digest)):
+              raise SystemExit('invalid checkpoint ID or digest')
+          if not re.fullmatch(r'[A-Za-z0-9_-]{1,64}', ticket):
+              raise SystemExit('invalid review ticket')
+          if (apply or reconcile) and not re.fullmatch(r'[0-9a-f]{64}', expected):
+              raise SystemExit('apply requires the exact reviewed plan digest')
+          root = pathlib.Path('data/manual/gallery_upload') / ticket
+          if not (root / 'scope.json').is_file() or not (root / 'manifest.json').is_file():
+              raise SystemExit('reviewed scope and manifest are missing')
+          scope = json.loads((root / 'scope.json').read_text())
+          # Current operating request stops at draft review. Existing ACTIVE
+          # products may be planned/reconciled, never changed by this workflow.
+          if apply and scope.get('expected_status') != 'DRAFT':
+              raise SystemExit('draft_review_only: live ACTIVE changes require a separate exact approval')
+          identity = scope['identity']
+          shop = identity['shop']['myshopifyDomain']
+          product = identity['product_id']
+          if not isinstance(shop, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]*\.myshopify\.com', shop):
+              raise SystemExit('invalid expected shop')
+          if not isinstance(product, str) or not re.fullmatch(r'gid://shopify/Product/[0-9]+', product):
+              raise SystemExit('invalid expected product')
+          report = pathlib.Path('out/gallery')
+          report.mkdir(parents=True, exist_ok=True)
+          (report / 'operation-policy.json').write_text(json.dumps({
+              'policy': 'draft_review_only', 'active_live_changes_allowed': False,
+              'requested_status': scope.get('expected_status'),
+              'mode': 'read_only_reconciliation' if reconcile else
+                      ('draft_apply_requested' if apply else 'read_only_plan'),
+              'review_ticket': ticket}, sort_keys=True) + '\n')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f'review_root={root.as_posix()}\n')
+              out.write(f'expected_shop={shop}\nexpected_product={product}\n')
+          PY
+      - name: 이전 미확인 실행 읽기 재조회
+        if: ${{ inputs.reconcile_artifact_id != '' }}
+        env:
+          ARTIFACT_ID: ${{ inputs.reconcile_artifact_id }}
+          ARTIFACT_DIGEST: ${{ inputs.reconcile_artifact_digest }}
+          EXPECTED_PLAN_DIGEST: ${{ inputs.expected_plan_digest }}
+          EXPECTED_SHOP: ${{ steps.inputs.outputs.expected_shop }}
+          EXPECTED_PRODUCT: ${{ steps.inputs.outputs.expected_product }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          mkdir -p out/gallery
+          python -B scripts/apply_reviewed_product_gallery.py reconcile-artifact \
+            --artifact-id "$ARTIFACT_ID" --artifact-digest "$ARTIFACT_DIGEST" \
+            --repository "$GITHUB_REPOSITORY" --expected-plan-digest "$EXPECTED_PLAN_DIGEST" \
+            --expected-shop "$EXPECTED_SHOP" --expected-product "$EXPECTED_PRODUCT" \
+            | tee out/gallery/reconcile-result.json
+      - name: 현재 상품 읽기 및 정확 계획 준비
+        id: prepare
+        if: ${{ inputs.reconcile_artifact_id == '' }}
+        env:
+          REVIEW_ROOT: ${{ steps.inputs.outputs.review_root }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          mkdir -p out/gallery
+          python -B scripts/apply_reviewed_product_gallery.py prepare \
+            --scope "$REVIEW_ROOT/scope.json" --manifest "$REVIEW_ROOT/manifest.json" \
+            --evidence-root "$GITHUB_WORKSPACE" --output-dir out/gallery --read-live \
+            --workflow-path .github/workflows/shopify-reviewed-gallery.yml \
+            | tee out/gallery/prepare-result.json
+          python -B - <<'PY'
+          import json, os
+          result = json.load(open('out/gallery/prepare-result.json'))
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              for key in ('artifact_name', 'operation_id', 'plan_digest'):
+                  value = result.get(key, '')
+                  if not isinstance(value, str) or '\n' in value or '\r' in value:
+                      raise SystemExit('invalid prepare result')
+                  out.write(f'{key}={value}\n')
+          PY
+      - name: 적용 계획 일치 확인
+        if: ${{ inputs.apply_images }}
+        env:
+          EXPECTED: ${{ inputs.expected_plan_digest }}
+          ACTUAL: ${{ steps.prepare.outputs.plan_digest }}
+        run: |
+          set -euo pipefail
+          test -n "$ACTUAL" && test "$EXPECTED" = "$ACTUAL"
+      - name: 쓰기 전 계획과 기록 영속 보관
+        id: checkpoint
+        if: ${{ inputs.apply_images }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: ${{ steps.prepare.outputs.artifact_name }}
+          path: |
+            out/gallery/plan.json
+            out/gallery/journal.json
+          if-no-files-found: error
+          overwrite: false
+          retention-days: 30
+      - name: 검증된 누락 이미지 추가 후 재조회
+        if: ${{ inputs.apply_images }}
+        env:
+          REVIEW_ROOT: ${{ steps.inputs.outputs.review_root }}
+          EXPECTED_PLAN_DIGEST: ${{ inputs.expected_plan_digest }}
+          CHECKPOINT_ID: ${{ steps.checkpoint.outputs.artifact-id }}
+          CHECKPOINT_DIGEST: ${{ steps.checkpoint.outputs.artifact-digest }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+        run: |
+          set -euo pipefail
+          python -B scripts/apply_reviewed_product_gallery.py execute \
+            --plan out/gallery/plan.json --journal out/gallery/journal.json \
+            --manifest "$REVIEW_ROOT/manifest.json" --evidence-root "$GITHUB_WORKSPACE" \
+            --expected-plan-digest "$EXPECTED_PLAN_DIGEST" --apply \
+            --artifact-id "$CHECKPOINT_ID" --artifact-digest "$CHECKPOINT_DIGEST" \
+            --repository "$GITHUB_REPOSITORY" --run-id "$GITHUB_RUN_ID" \
+            --run-attempt "$GITHUB_RUN_ATTEMPT" --code-sha "$GITHUB_SHA" \
+            --workflow-path .github/workflows/shopify-reviewed-gallery.yml \
+            | tee out/gallery/execute-result.json
+      - name: 결과와 미확인 상태 보관
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: gallery-result-${{ github.run_id }}-${{ github.run_attempt }}
+          path: out/gallery/
+          if-no-files-found: ignore
+          retention-days: 30
