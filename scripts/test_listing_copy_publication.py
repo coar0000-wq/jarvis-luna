@@ -25,7 +25,7 @@ CANONICAL_IDS = ('1049276', '1055167', '1049275', '1067498',
                  '1068721', '1053482', '1074979', '1068733')
 
 
-def migration_fixture_documents():
+def migration_fixture_documents(legacy_ids=LEGACY_IDS, canonical_ids=CANONICAL_IDS):
     def product(pd_no):
         return {'pd_no': pd_no, 'name': 'Fixture cosmetic ' + pd_no,
                 'bucket': 'S', 'price_krw': 3000, 'rating': 4.5,
@@ -34,7 +34,7 @@ def migration_fixture_documents():
                 'image_url': 'https://example.invalid/images/' + pd_no + '.jpg'}
 
     legacy_items = []
-    for pd_no in LEGACY_IDS:
+    for pd_no in legacy_ids:
         facts = product(pd_no)
         positive = pd_no != '1027327'
         legacy_items.append({
@@ -59,18 +59,20 @@ def migration_fixture_documents():
         'model': 'none_local_deterministic', 'paid_api_called': False,
         'source': local.SOURCE_REL,
         'note': 'Constructed historical regression fixture, never current approval.',
-        'total': 10, 'eligible': 9, 'ok': 9, 'failed': 0,
-        'skipped_prerequisite': 1, 'carried_forward': 9,
+        'total': len(legacy_items), 'eligible': sum(r['copy'] is not None for r in legacy_items),
+        'ok': sum(r['copy'] is not None for r in legacy_items), 'failed': 0,
+        'skipped_prerequisite': sum(r['copy'] is None for r in legacy_items),
+        'carried_forward': sum(r['copy'] is not None for r in legacy_items),
         'generated_local': 0, 'items': legacy_items,
     }
     source = {
         'generated_at': '2026-10-11T00:00:00+00:00',
         'canonical': True, 'source': 'test_only_constructed_fixture',
-        'count': 8, 'agent_ready_count': 0, 'registerable_count': 0,
-        'recommendations': [product(pd_no) for pd_no in CANONICAL_IDS],
+        'count': len(canonical_ids), 'agent_ready_count': 0, 'registerable_count': 0,
+        'recommendations': [product(pd_no) for pd_no in canonical_ids],
     }
     gate_items = []
-    for pd_no in CANONICAL_IDS:
+    for pd_no in canonical_ids:
         blockers = ['manufacturer_safety_record_missing', 'us_label']
         if pd_no == '1049275':
             blockers += ['price', 'legal', 'owner_deleted']
@@ -81,7 +83,7 @@ def migration_fixture_documents():
             'owner_deleted': pd_no == '1049275',
         })
     gate = {'generated_at': '2026-10-11T00:00:00+00:00',
-            'total': 8, 'ready': 0, 'agent_ready': 0, 'items': gate_items}
+            'total': len(gate_items), 'ready': 0, 'agent_ready': 0, 'items': gate_items}
     return previous, source, gate
 
 
@@ -92,13 +94,15 @@ class ListingCopyPublicationTests(unittest.TestCase):
         self.root=Path(self.tmp.name)
         (self.root/'data/daiso_real').mkdir(parents=True)
         (self.root/'config').mkdir()
-        legacy, canonical, gate = migration_fixture_documents()
+        (self.root/'config/publish_policy.json').write_text(json.dumps(POLICY),encoding='utf-8')
+        self.generate(*migration_fixture_documents())
+
+    def generate(self, legacy, canonical, gate):
         self.base=self.encode(legacy)
         self.source=self.encode(canonical)
         self.gate=self.encode(gate)
         for rel,raw in ((local.COPY_REL,self.base),(local.SOURCE_REL,self.source),(local.GATE_REL,self.gate)):
             (self.root/rel).write_bytes(raw)
-        (self.root/'config/publish_policy.json').write_text(json.dumps(POLICY),encoding='utf-8')
         with patch.multiple(local,ROOT=self.root,DATA=self.root/'data',SRC=self.root/local.SOURCE_REL,GATE=self.root/local.GATE_REL,OUT=self.root/local.COPY_REL), redirect_stdout(io.StringIO()):
             self.assertEqual(local.main(),0)
         self.generated=(self.root/local.COPY_REL).read_bytes()
@@ -149,6 +153,92 @@ class ListingCopyPublicationTests(unittest.TestCase):
         self.assertEqual(historical['snapshot'],json.loads(self.base))
         self.assertEqual(len(historical['snapshot']['items']),10)
         self.assertTrue(any(r['pd_no']=='1049275' and r['copy'] for r in historical['snapshot']['items']))
+
+    def test_deep_blocked_scope_rotation_requires_history_before_publication(self):
+        # Structural reproduction of Deep 39563679590, not recovered run bytes.
+        # Committed copy had seven blocked rows; the log lists eight new S rows.
+        old_ids = ('1049276', '1055167', '1049275', '1067498', '1068721', '1074979', '1072800')
+        new_ids = ('1049276', '1053482', '1055167', '1061918', '1067498', '1062781', '1074979', '1072800')
+        previous, source, gate = migration_fixture_documents(old_ids, new_ids)
+        for row in previous['items']:
+            row.update(copy=None, copy_status='skipped_prerequisite', generation_mode='none',
+                       agent_blocked_by=['us_label'], error='ontology 선행 게이트 미통과: us_label')
+        previous.update(eligible=0, ok=0, skipped_prerequisite=7, carried_forward=0)
+        # Previously retained history must survive even when no current copy has text.
+        previous[local.HISTORY_KEY] = {'existing-fixture-history': {
+            'historical_not_approval': True, 'snapshot': {'note': 'Previously retained fixture.'}}}
+        self.generate(previous, source, gate)
+        current = json.loads(self.generated)
+        self.assertEqual((current['total'], current['eligible'], current['ok']), (8, 0, 0))
+        self.assertEqual(current['skipped_prerequisite'], 8)
+        self.assertEqual(local.verify_current(current, source, gate), set(new_ids))
+        with self.assertRaisesRegex(ValueError, 'prior copy snapshot not preserved'):
+            local.verify_copy_replacement(self.base, self.generated, *self.evidence)
+        with self.assertRaisesRegex(PublishError, 'listing copy canonical/history evidence invalid'):
+            overlay(local.COPY_REL, self.base, self.generated, self.base, POLICY, {},
+                    copy_evidence=self.evidence)
+        self.assertEqual(self.record()['retired_ids'], ['1049275', '1068721'])
+        self.assertEqual(overlay(local.COPY_REL, self.base, self.new, self.base, POLICY,
+                                 self.manifest, copy_evidence=self.evidence), self.new)
+        published = json.loads(self.new)
+        self.assertEqual(published['items'], current['items'])
+        self.assertTrue(all(r['copy'] is None and r['copy_status'] == 'skipped_prerequisite'
+                            for r in published['items']))
+        retained = published[local.HISTORY_KEY]
+        self.assertEqual(retained['existing-fixture-history'], previous[local.HISTORY_KEY]['existing-fixture-history'])
+        self.assertTrue(retained[sha(self.base)]['historical_not_approval'])
+        self.assertEqual(retained[sha(self.base)]['snapshot'],
+                         {k: v for k, v in previous.items() if k != local.HISTORY_KEY})
+        before = self.new
+        self.record()
+        self.assertEqual(self.new, before)
+
+    def test_record_rejects_changed_gate_without_writing_candidate_or_manifest(self):
+        self.record()
+        original_copy = (self.root/local.COPY_REL).read_bytes()
+        original_manifest = (self.root/'data/publish_deletions.json').read_bytes()
+        changed = json.loads(self.gate)
+        changed['items'][0]['agent_ready'] = True
+        (self.root/local.GATE_REL).write_bytes(self.encode(changed))
+        with self.assertRaises(ValueError):
+            self.record()
+        self.assertEqual((self.root/local.COPY_REL).read_bytes(), original_copy)
+        self.assertEqual((self.root/'data/publish_deletions.json').read_bytes(), original_manifest)
+
+    def test_equal_count_scope_replacement_still_requires_history(self):
+        # Same identity transition as committed f47 data; all values below are
+        # synthetic so this regression does not depend on future live products.
+        old_ids = ('1049276', '1055167', '1049275', '1067498', '1068721', '1074979', '1072800')
+        new_ids = tuple('1061918' if pd_no == '1049275' else pd_no for pd_no in old_ids)
+        previous, source, gate = migration_fixture_documents(old_ids, new_ids)
+        for row in previous['items']:
+            row.update(copy=None, copy_status='skipped_prerequisite', generation_mode='none',
+                       agent_blocked_by=['us_label'], error='ontology 선행 게이트 미통과: us_label')
+        previous.update(eligible=0, ok=0, skipped_prerequisite=7, carried_forward=0)
+        self.generate(previous, source, gate)
+        self.assertEqual(json.loads(self.generated)['total'], previous['total'])
+        with self.assertRaisesRegex(ValueError, 'prior copy snapshot not preserved'):
+            local.verify_copy_replacement(self.base, self.generated, *self.evidence)
+        self.assertEqual(self.record()['retired_ids'], ['1049275'])
+        self.assertEqual(overlay(local.COPY_REL, self.base, self.new, self.base, POLICY,
+                                 self.manifest, copy_evidence=self.evidence), self.new)
+
+    def test_modern_accuracy_field_loss_remains_fail_closed(self):
+        # Separate pre-existing limitation, not the observed all-blocked Deep
+        # baseline. Wiring history recording must not silently waive row schema.
+        previous, source, gate = migration_fixture_documents()
+        previous['items'][0]['product_accuracy'] = {
+            'schema_version': 1, 'status': 'UNVERIFIED_DRAFT',
+            'human_review_required': True, 'publication_allowed': False,
+            'safety_approval': False, 'overall_legal_clearance': False,
+        }
+        self.generate(previous, source, gate)
+        generated = (self.root/local.COPY_REL).read_bytes()
+        self.assertNotIn('product_accuracy', json.loads(generated)['items'][0])
+        with self.assertRaisesRegex(ValueError, 'surviving copy row schema field removed'):
+            self.record()
+        self.assertEqual((self.root/local.COPY_REL).read_bytes(), generated)
+        self.assertFalse((self.root/'data/publish_deletions.json').exists())
 
     def test_missing_forged_or_edited_history_rejected(self):
         self.record()
