@@ -147,6 +147,9 @@ jobs:
             python scripts/test_candidate_pool_history.py
             python scripts/test_legal_export_history.py
             python scripts/test_gosi_observation_provenance.py
+            python -B scripts/test_gosi_alt_parser.py
+            python -B scripts/test_gosi_draft_targets.py
+            python -B scripts/test_draft_notice_enrichment.py
             python scripts/test_us_label_provenance.py
             python scripts/test_immutable_snapshot_store.py
             python scripts/test_moe_evaluation_publication.py

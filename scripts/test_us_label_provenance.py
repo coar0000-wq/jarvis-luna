@@ -64,6 +64,31 @@ def run_legal(labels, old=None, recommendations=None):
 
 
 class LabelProvenanceTests(unittest.TestCase):
+    def test_role_only_manufacturer_cannot_claim_completeness(self):
+        source = {"items": {"101": {**SOURCE, "maker": "및 책임판매원"}}}
+        fresh, report = run_sync({}, source)
+        self.assertNotIn("manufacturer", fresh["101"])
+        self.assertIn("manufacturer", report["items"]["101"]["missing_fields"])
+        first, _ = run_sync()
+        changed, _ = run_sync(first, source)
+        self.assertEqual(changed["101"]["manufacturer"], SOURCE["maker"])
+        self.assertFalse(changed["101"]["field_provenance"]["manufacturer"]["eligible"])
+        for extra in ({}, {"field_provenance": {"manufacturer": {"owner": "human"}}}):
+            legacy = {"101": {**complete_label(), "manufacturer": "및 책임판매원", **extra}}
+            result, report = run_sync(legacy, source)
+            self.assertEqual(result["101"]["manufacturer"], "및 책임판매원")
+            self.assertFalse(result["101"]["gosi_ok"])
+            self.assertIn("manufacturer", report["items"]["101"]["missing_fields"])
+            if extra:
+                self.assertEqual(result["101"]["field_provenance"]["manufacturer"], extra["field_provenance"]["manufacturer"])
+
+    def test_manufacturer_address_normalization_keeps_raw_fingerprint(self):
+        raw = "(주)엘지생활건강 공장: 울산광역시 본사: 서울시"
+        result, _ = run_sync({}, {"items": {"101": {**SOURCE, "maker": raw}}})
+        self.assertEqual(result["101"]["manufacturer"], "(주)엘지생활건강")
+        self.assertEqual(result["101"]["field_provenance"]["manufacturer"]["source_fingerprint"], sync.fingerprint(raw))
+        self.assertFalse(result["101"]["field_provenance"]["manufacturer"]["human_verified"])
+
     def test_legacy_wrapped_and_wrapped_list(self):
         for labels in ({"101": {}}, {"items": {"101": {}}, "signature": "fixture-signature"},
                        {"items": [{"product_id": "101"}], "signature": "fixture-signature"}):

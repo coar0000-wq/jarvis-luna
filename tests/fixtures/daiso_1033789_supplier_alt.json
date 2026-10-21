@@ -1,0 +1,13 @@
+{
+  "product_id": "1033789",
+  "source_type": "supplier_web_notice_alt_not_physical_packaging",
+  "fixture_sha256": "c1610c0f8b8b307f338e363362b62788afd5e779882aaa08bd39a06af3998765",
+  "source_image_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260114/description/850/p9pbQr51cfHOHuQEhnUg1033789_01_00p9pbQr51cfHOHuQEhnUg.jpg",
+  "source_run_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/39550732435",
+  "artifact_path": "out/daiso_daily_beauty_result.json",
+  "artifact_sha256": "aed5b8271ee56f91ab4b47112413a131f3f0222a6578934bb4815f387a6f0855",
+  "source_pointer": "/results/2/gosi/_notice_evidence/images/0/alt",
+  "physical_label_verified": false,
+  "safety_approved": false,
+  "note": "Retained supplier alt for offline parser regression only. Original spelling and line breaks preserved. No inferred origin or new INCI alias."
+}

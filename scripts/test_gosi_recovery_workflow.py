@@ -51,6 +51,26 @@ class GosiRecoveryWorkflowTests(unittest.TestCase):
         self.runtime = self.root / "data/dashboard_runtime.json"
         self.calls = self.root / "fixture-calls"
 
+    def test_gap_detector_counts_role_only_maker_without_mutating_evidence(self):
+        stage = next(s for s in self.steps if s.get("id") == "s_gosi_gap")
+        code = stage["run"].split("python - <<'PY'\n", 1)[1].split("\nPY\n", 1)[0]
+        (self.root / 'data/daiso_real').mkdir()
+        (self.root / 'data/daiso_real/shopify_s_recommendations.json').write_text(json.dumps({
+            'recommendations': [{'pd_no': '1033789', 'grade': 'S'}]}))
+        output = self.root / 'github-output'
+        for maker, count in (('및 책임판매원', 1), ('(주)엘지생활건강', 0)):
+            with self.subTest(maker=maker):
+                self.source.write_text(json.dumps({'items': {'1033789': dict(
+                    ingredients='정제수', volume='90g', maker=maker, origin='대한민국')}}))
+                before = self.source.read_bytes()
+                output.write_text('')
+                result = subprocess.run([sys.executable, '-c', code], cwd=self.root,
+                    env={**os.environ, 'GITHUB_OUTPUT': str(output), 'PYTHONPATH': str(ROOT),
+                         'PYTHONDONTWRITEBYTECODE': '1'}, text=True, capture_output=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual(output.read_text(), f'count={count}\n')
+                self.assertEqual(self.source.read_bytes(), before)
+
     def run_stage(self, count="1", pip_code=0, browser_code=0, collector_mode="stopped", source_stopped=True):
         if not source_stopped:
             doc = json.loads(self.source.read_bytes())

@@ -168,5 +168,85 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(fake._tess.call_count, 2)
 
 
+class MakerValidationTests(unittest.TestCase):
+    def collect(self, cached=None, api=None, alt=None, notice=None, vision=None):
+        import json
+        import tempfile
+        from pathlib import Path
+        import daiso_daily_beauty_to_shopify as daily
+        import daiso_notice_recovery as recovery
+        facts = dict(ingredients='정제수', volume='90g', origin='대한민국', **(cached or {}))
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            path = root / 'data/gosi.json'
+            original = json.dumps({'items': {'1033789': facts}})
+            path.write_text(original, encoding='utf-8')
+            with patch.object(daily, 'ROOT', root), \
+                 patch.object(daily, 'GOSI_RENDERED_ALT', True), \
+                 patch.object(daily, 'gosi_from_api', return_value=api or {}) as api_call, \
+                 patch.object(daily, 'gosi_from_rendered_alt', return_value=alt or {}) as alt_call, \
+                 patch.object(recovery, 'rendered_notice', return_value={'fields': notice or {}, 'images': []}), \
+                 patch.object(recovery, 'ocr_notice', return_value=[{'candidate_fields': {'maker': 'OCR company'}, 'review_required': True}]), \
+                 patch.object(daily, 'detail_image_urls', return_value=['fixture-image']), \
+                 patch.object(daily, 'vision_read', return_value=vision or {}), \
+                 patch.object(daily.time, 'sleep'), \
+                 patch.dict('os.environ', {'GEMINI_API_KEY': 'fixture-only-never-sent'}):
+                result = daily.collect_gosi('1033789', allow_ai=vision is not None)
+            self.assertEqual(path.read_text(encoding='utf-8'), original)
+        return result, api_call, alt_call
+
+    def test_invalid_cache_and_api_do_not_block_valid_alt(self):
+        result, api, alt = self.collect(cached={'maker': '및 책임판매원'},
+            api={'maker': '및 책임판매원'}, alt={'maker': '(주)엘지생활건강 공장: 울산광역시'})
+        api.assert_called_once()
+        alt.assert_called_once()
+        self.assertTrue(result['gosi_ok'])
+        self.assertEqual(result['maker'], '(주)엘지생활건강')
+        self.assertNotIn('human_verified', result)
+
+    def test_valid_notice_recovers_invalid_rendered_value(self):
+        result, _, _ = self.collect(alt={'maker': '및 책임판매원'}, notice={'maker': '(주)엘지생활건강'})
+        self.assertTrue(result['gosi_ok'])
+        self.assertEqual(result['maker'], '(주)엘지생활건강')
+
+    def test_role_only_values_at_every_source_fail_closed(self):
+        invalid = {'maker': '및 책임판매원'}
+        result, _, _ = self.collect(cached=invalid, api=invalid, alt=invalid, notice=invalid, vision=invalid)
+        self.assertFalse(result['gosi_ok'])
+        self.assertEqual(result['missing'], ['maker'])
+        self.assertNotIn('maker', result)
+        self.assertEqual(result['_notice_evidence']['ocr'][0]['candidate_fields']['maker'], 'OCR company')
+        self.assertEqual(result['_notice_evidence']['fields'], invalid)
+
+    def test_role_only_label_is_held_without_changing_source(self):
+        import daiso_daily_beauty_to_shopify as daily
+        sg = Mock()
+        sg.to_inci.return_value = ('Water', [], [], [])
+        source = dict(ingredients='정제수', volume='90g', origin='대한민국', maker='및 책임판매원')
+        original = copy.deepcopy(source)
+        with patch.object(daily, '_inci_resolver', return_value=(sg, Mock())):
+            label = daily.build_us_label('1033789', 'Soap', source)
+        self.assertIn('maker_missing', label['reasons'])
+        self.assertNotIn('Manufacturer / Distributor', label['html'])
+        self.assertEqual(source, original)
+
+    def test_recovered_soap_ingredients_do_not_infer_origin_or_approval(self):
+        from pathlib import Path
+        import daiso_daily_beauty_to_shopify as daily
+        from daiso.collect_gosi_alt import parse_alt
+        raw = (Path(__file__).resolve().parents[1] / 'tests/fixtures/daiso_1033789_supplier_alt.txt').read_text()
+        facts = parse_alt(raw)
+        before = copy.deepcopy(facts)
+        label = daily.build_us_label('1033789', 'Soap', facts)
+        self.assertIn('(주)엘지생활건강', label['html'])
+        self.assertNotIn('maker_missing', label['reasons'])
+        self.assertIn('origin_unmapped', label['reasons'])
+        self.assertNotIn('origin', facts)
+        self.assertEqual(facts, before)
+        self.assertNotIn('human_verified', label)
+        self.assertNotIn('safety_approved', label)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -98,12 +98,12 @@ ALT_JS = (
 # 다이소 상세 이미지는 "라벨: 값" 또는 "라벨\n값" 두 형태를 섞어 쓴다.
 LABELS: list[tuple[str, tuple[str, ...]]] = [
     ("volume", ("내용물의 용량 또는 중량", "용량 또는 중량", "내용량", "용량", "중량")),
-    ("ingredients", ("기재·표시하여야 하는 모든 성분", "전성분", "모든 성분")),
+    ("ingredients", ("기재·표시하여야 하는 모든 성분", "전성분", "모든 성분", "성분명")),
     # "제조업자 및 책임판매업자" 를 "제조업자" 보다 먼저 본다. 2026-10-17 1072800 정샘물 쿠션:
     # alt 가 "화장품제조업자 및 책임판매업자: (주)코스메카코리아 / (주)정샘물뷰티" 였는데
     # "화장품제조업자" 만 라벨로 잡혀 값이 "및 책임판매업자: (주)코스메카코리아 ..." 가 됐다.
     ("maker", ("제조업자 및 책임(제조) 판매업자", "화장품제조업자 및 책임판매업자",
-               "제조업자 및 책임판매업자", "화장품제조업자",
+               "제조업자 및 책임판매업자", "제조원 및 책임판매원", "화장품제조업자",
                "화장품책임판매업자", "제조업자", "책임판매업자",
                "제조판매업자", "제조원")),
     ("origin", ("제조국", "원산지")),
@@ -125,6 +125,44 @@ def now() -> str:
 def real(v: str) -> bool:
     s = (v or "").strip()
     return bool(s) and s not in PLACEHOLDER
+
+
+# Only explicit address labels delimit the company value. Never infer a country
+# from these addresses, nor treat a parsed supplier notice as safety approval.
+_MAKER_ADDRESS = re.compile(
+    r"(?:^|[\s,;/])(?:\((?:공장|본사|주소|소재지)\)\s*[:：]?|(?:공장|본사|주소|소재지)\s*[:：])"
+)
+_MAKER_ROLES = tuple(sorted(
+    next(names for field, names in LABELS if field == "maker") + ("책임판매원",),
+    key=len, reverse=True,
+))
+
+
+def clean_maker(value: str) -> str:
+    """Keep source company text; discard explicit addresses and role-only remnants."""
+    value = _MAKER_ADDRESS.split(str(value or ""), maxsplit=1)[0].strip()
+    value = re.sub(r"\s+", " ", value)
+    residue = value
+    for role in _MAKER_ROLES:
+        residue = residue.replace(role, "")
+    residue = re.sub(r"(?:및|[\s:：/·,;()&-])", "", residue)
+    return value if residue and real(value) else ""
+
+
+def notice_value(field: str, value: str) -> str:
+    return clean_maker(value) if field == "maker" else value
+
+
+def _label_position(line: str, name: str) -> int:
+    pos = line.find(name)
+    if pos < 0 or pos > 24 or (pos > 0 and line[pos - 1] == "("):
+        return -1
+    # This short new alias is a heading, not prose such as '성분명은 ...'.
+    if name == "성분명":
+        tail = line[pos + len(name):]
+        if pos != 0 or (tail and not re.match(r"[\s:：·-]", tail)):
+            return -1
+    return pos
 
 
 def parse_alt(alt: str) -> dict[str, str]:
@@ -150,8 +188,8 @@ def parse_alt(alt: str) -> dict[str, str]:
                 # startswith만 쓰면 원문이 있는데도 전성분을 영원히 놓친다.
                 # 마케팅 본문 오인 방지를 위해 라벨이 줄 앞 24자 안에 있을
                 # 때만 고시 라벨로 인정한다.
-                pos = line.find(nm)
-                if pos < 0 or pos > 24 or (pos > 0 and line[pos - 1] == "("):
+                pos = _label_position(line, nm)
+                if pos < 0:
                     continue
                 tail = line[pos + len(nm):].strip()
                 # 긴 정식 라벨 뒤의 '(전성분):'은 값이 아니라 같은 라벨의
@@ -163,7 +201,9 @@ def parse_alt(alt: str) -> dict[str, str]:
                     # 구분자만 제거하고 값의 괄호는 보존한다.
                     rest = tail.lstrip(" :：·-").strip()
                 if rest:
-                    out[field] = rest
+                    value = notice_value(field, rest)
+                    if real(value):
+                        out[field] = value
                 else:
                     # 다음 라벨이 나올 때까지 모은다
                     buf = []
@@ -172,11 +212,13 @@ def parse_alt(alt: str) -> dict[str, str]:
                             if buf:
                                 break
                             continue
-                        if any(0 <= nxt.find(x) <= 24 for x in all_names):
+                        if any(_label_position(nxt, x) >= 0 for x in all_names):
                             break
                         buf.append(nxt)
                     if buf:
-                        out[field] = " ".join(buf).strip()
+                        value = notice_value(field, " ".join(buf).strip())
+                        if real(value):
+                            out[field] = value
                 break
 
     return {k: v for k, v in out.items() if real(v)}
@@ -209,14 +251,14 @@ def targets() -> list[str]:
         if (entry.get("status") == "DRAFT" and re.fullmatch(r"[0-9]+", pid)
                 and re.fullmatch(r"gid://shopify/Product/[0-9]+", str(entry.get("shopify_id") or ""))):
             row = gosi.get(pid) or {}
-            if not all(real(str(row.get(f) or "")) for f in ("ingredients", "volume", "maker", "origin")):
+            if not all(real(notice_value(f, str(row.get(f) or ""))) for f in ("ingredients", "volume", "maker", "origin")):
                 need.append(pid)
     for p in score.get("all_scored") or []:
         if p.get("grade") != "S":
             continue
         pid = str(p.get("pd_no"))
         row = gosi.get(pid) or {}
-        if not all(real(str(row.get(f) or ""))
+        if not all(real(notice_value(f, str(row.get(f) or "")))
                    for f in ("ingredients", "volume", "maker", "origin")):
             need.append(pid)
     # 실패한 앞쪽 상품만 매일 반복하지 않도록 마지막 시도 시각 순으로 순환한다.

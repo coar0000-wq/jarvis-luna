@@ -78,6 +78,9 @@ jobs:
           python scripts/test_release_quality.py
           python scripts/test_collector_result.py
           python scripts/test_gosi_recovery_workflow.py
+          python -B scripts/test_gosi_alt_parser.py
+          python -B scripts/test_gosi_draft_targets.py
+          python -B scripts/test_draft_notice_enrichment.py
           python scripts/test_gosi_image_sources.py
           python scripts/test_source_health_access.py
           python scripts/test_typesafe_shared.py

@@ -11,6 +11,23 @@ c = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(c)
 
 class DraftTargetsTests(unittest.TestCase):
+    def test_role_only_maker_is_still_a_recollection_target(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / 'gosi').write_text(json.dumps({'items': {'1033789': dict(
+                ingredients='정제수', volume='90g', maker='및 책임판매원', origin='대한민국')}}))
+            (root / 'registry').write_text(json.dumps({'items': [dict(pd_no='1033789',
+                status='DRAFT', shopify_id='gid://shopify/Product/1')]}))
+            (root / 'score').write_text(json.dumps({'all_scored': []}))
+            with patch.object(c, 'GOSI', root/'gosi'), patch.object(c, 'REGISTRY', root/'registry'), \
+                 patch.object(c, 'SCORE', root/'score'), patch('sys.argv', ['collector']):
+                self.assertEqual(c.targets(), ['1033789'])
+            (root / 'registry').write_text(json.dumps({'items': []}))
+            (root / 'score').write_text(json.dumps({'all_scored': [dict(pd_no='1033789', grade='S')]}))
+            with patch.object(c, 'GOSI', root/'gosi'), patch.object(c, 'REGISTRY', root/'registry'), \
+                 patch.object(c, 'SCORE', root/'score'), patch('sys.argv', ['collector']):
+                self.assertEqual(c.targets(), ['1033789'])
+
     def test_provider_stop_is_not_a_successful_collection(self):
         with tempfile.TemporaryDirectory() as td:
             path = Path(td)/'gosi.json'

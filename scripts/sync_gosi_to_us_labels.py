@@ -21,6 +21,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from inci_resolver import InciResolver, load_manual_overrides  # noqa: E402
+from daiso.collect_gosi_alt import clean_maker  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -349,7 +350,7 @@ def sync_labels(gosi_doc: Any, labels_doc: Any, score_doc: Any, master_doc: Any,
 
         put("product_name_kr", source.get("name"))
         put("net_contents", source.get("volume"))
-        put("manufacturer", source.get("maker"))
+        put("manufacturer", clean_maker(source.get("maker")), source.get("maker"))
         origin = text(source.get("origin"))
         put("country_of_origin", ORIGIN_EN.get(origin.lower(), origin), origin)
         new_source = text(source.get("ingredients")) if real(source.get("ingredients")) else ""
@@ -382,7 +383,8 @@ def sync_labels(gosi_doc: Any, labels_doc: Any, score_doc: Any, master_doc: Any,
         if real(source.get("warnings")) and not real(target.get("warnings_source")):
             target["warnings_source"] = source["warnings"].strip()
         missing_fields = [f for f in REQUIRED_LABEL_FIELDS
-                          if not real(target.get(f)) or not field_current(target, f)]
+                          if not real(target.get(f)) or not field_current(target, f)
+                          or (f == "manufacturer" and not clean_maker(target.get(f)))]
         target["gosi_ok"] = not missing_fields  # data completeness only, never human approval
         target["gosi_ok_scope"] = "machine_notice_completeness_not_US_or_safety_approval"
         target["_자동으로_채운_칸"] = derived
