@@ -2,30 +2,30 @@
 title: "Source · Google Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-21T17:37:14.252460+00:00
+updated_at: 2026-10-21T21:57:18.145176+00:00
 tags: [source, real-data]
-record_count: 1305
+record_count: 1309
 ---
 
 # Source · Google Search
 
-실제 수집 레코드 **1,305건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **1,309건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 주제별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 857 |
-| [[이커머스Shopify]] | 390 |
+| [[뷰티스킨케어]] | 859 |
+| [[이커머스Shopify]] | 392 |
 | [[소셜콘텐츠]] | 211 |
 | [[경영전략]] | 95 |
 | [[마케팅광고]] | 83 |
 | [[AI-에이전트]] | 50 |
-| [[모델-라우팅MoE]] | 30 |
+| [[모델-라우팅MoE]] | 31 |
 | [[미분류]] | 29 |
 | [[의료바이오]] | 25 |
 | [[물류통관]] | 11 |
-| [[LLM언어모델]] | 8 |
+| [[LLM언어모델]] | 9 |
 | [[데이터분석]] | 8 |
 | [[반도체하드웨어]] | 6 |
 | [[인프라클라우드]] | 5 |
@@ -46,8 +46,8 @@ record_count: 1305
 - [[Record-c7ff73165c--Wtf-is-Bimbo-Stoicism-Unpacking-the-internets-wilde]]
 - [[Record-7dcd51e653--COSRX-Becomes-the-First-K-Beauty-Patron-of-the-Brit]]
 - [[Record-82ed203262--Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F]]
+- [[Record-800eb56276--This-K-beauty-moisturiser-transformed-my-breakout-p]]
 - [[Record-9bb6b5681b--K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Acr]]
-- [[Record-ce2b11430a--This-K-beauty-advent-calendar-is-only-50--and-its-s]]
 
 ### 전체 레코드 (표)
 
