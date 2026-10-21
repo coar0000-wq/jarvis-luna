@@ -98,7 +98,7 @@ def http_json(url, payload=None):
         raw = urllib.request.urlopen(req, timeout=call_timeout()).read()
         evidence = receipt(raw, url.split('?')[0], 'provider_response_only')
         result = json.loads(raw.decode('utf-8'))
-        stop = classify_stop(json.dumps(result.get('error') or {}), 'gemini')
+        stop = classify_stop(result.get('error') or {}, 'gemini')
         if stop: raise stop
         result['_receipt'] = evidence
         return result
@@ -257,7 +257,7 @@ def read_table_groq(key: str, img: Path, prompt: str) -> tuple[dict | None, str]
             raw = urllib.request.urlopen(req, timeout=call_timeout()).read()
             evidence = receipt(raw, 'groq', 'provider_response_only')
             result = json.loads(raw.decode('utf-8'))
-            stop = classify_stop(json.dumps(result.get('error') or {}), 'groq')
+            stop = classify_stop(result.get('error') or {}, 'groq')
             if stop: raise stop
             txt = result['choices'][0]['message']['content']
         except (ProviderStop, DeadlineStop):

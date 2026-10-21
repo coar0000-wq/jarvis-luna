@@ -93,7 +93,7 @@ def post(path: str, pd_no: str) -> dict[str, Any] | None:
         result = json.loads(raw.decode('utf-8'))
         if not isinstance(result, dict):
             raise ValueError('API response must be an object')
-        stop = classify_stop(json.dumps(result.get('error') or {}), 'daiso')
+        stop = classify_stop(result.get('error') or {}, 'daiso')
         if stop:
             raise stop
         result['_receipt'] = provenance

@@ -14,6 +14,7 @@ from scripts import collect_daiso_gosi as c
 from scripts.daiso import collect_gosi_alt as a
 import urllib.error
 import io
+from types import SimpleNamespace
 
 class ProvenanceTests(unittest.TestCase):
     def test_s_grade_seed_is_identity_only_and_preserves_existing_evidence(self):
@@ -155,6 +156,69 @@ class ProvenanceTests(unittest.TestCase):
         with patch.object(v, 'http_json', side_effect=h.ProviderStop('gemini', 403)) as call:
             with self.assertRaises(h.ProviderStop): v.pick_models('synthetic')
             self.assertEqual(call.call_count, 1)
+
+    def test_stop_status_requires_exact_http_evidence(self):
+        for code in (401, 403, 429):
+            for source in (
+                SimpleNamespace(code=code),
+                SimpleNamespace(code=lambda: code),
+                SimpleNamespace(status_code=str(code)),
+                SimpleNamespace(response=SimpleNamespace(status_code=code)),
+                urllib.error.URLError(urllib.error.HTTPError('https://fixture', code, 'fixture', {}, None)),
+                {'code': code},
+                {'error': {'status_code': str(code)}},
+                json.dumps({'error': {'code': code}}),
+                urllib.error.URLError(f'HTTP Error {code}'),
+                RuntimeError(f'HTTP/1.1 {code}'),
+                RuntimeError(f'HTTP status code: {code}'),
+            ):
+                with self.subTest(code=code, source=source):
+                    stop = h.classify_stop(source, 'fixture')
+                    self.assertEqual(stop.code, code)
+                    self.assertEqual(stop.category, 'quota' if code == 429 else 'auth')
+
+    def test_arbitrary_numbers_do_not_mean_http_denial(self):
+        for code in (401, 403, 429):
+            for source in (
+                RuntimeError(f'cannot decode object at 0x7f6dea{code}530'),
+                RuntimeError(f'product {code} could not be parsed'),
+                RuntimeError(f'https://fixture.invalid/images/{code}.jpg'),
+                RuntimeError(f'HTTP Error {code}530'),
+                {'code': f'product-{code}'},
+                {'code': float(code)},
+                {'message': f'product {code}', 'request_id': str(code)},
+                {'metadata': {'code': code}},
+                json.dumps({'message': f'failed record {code}'}),
+            ):
+                with self.subTest(code=code, source=source):
+                    self.assertIsNone(h.classify_stop(source, 'fixture'))
+        self.assertIsNone(h.classify_stop({'code': True, 'status_code': False}, 'fixture'))
+
+    def test_structured_api_stops_preserve_codes_without_retry(self):
+        for code in (401, 403, 429):
+            raw = json.dumps({'error': {'code': code, 'message': 'fixture'}}).encode()
+            for call in (lambda: v.http_json('https://fixture'),
+                         lambda: c.post('/pd/pdr/pdDtl/selPdDtlNtfc', '1234567'),
+                         lambda: v.read_table_groq('synthetic', Path('fixture.jpg'), 'fixture')):
+                with self.subTest(code=code), patch.object(v.urllib.request, 'urlopen', return_value=io.BytesIO(raw)) as request, patch.object(v, 'shrink_for_groq', return_value=b'fixture'):
+                    with self.assertRaises(h.ProviderStop) as caught:
+                        call()
+                    self.assertEqual(caught.exception.code, code)
+                    request.assert_called_once()
+
+    def test_symbolic_provider_stops_remain_protected(self):
+        for marker, code in (
+            ('RESOURCE_EXHAUSTED', 429), ('ResourceExhausted', 429),
+            ('quota exceeded', 429), ('too many requests', 429),
+            ('PERMISSION_DENIED', 403), ('PermissionDenied', 403),
+            ('UNAUTHENTICATED', 403), ('API_KEY_INVALID', 403),
+            ('invalid api key', 403), ('api key not valid', 403),
+            ('authentication failed', 403), ('invalid_grant', 403),
+            ('invalid credentials', 403), ('unauthorized', 403), ('forbidden', 403),
+        ):
+            for source in (RuntimeError(marker), {'status': marker}):
+                with self.subTest(marker=marker, source=source):
+                    self.assertEqual(h.classify_stop(source, 'fixture').code, code)
 
     def test_persisted_stop_force_bypasses_nothing(self):
         doc = {'items': {'a': {}}, 'provider_stops': [{'provider': 'gemini', 'code': 429, 'category': 'quota'}]}
