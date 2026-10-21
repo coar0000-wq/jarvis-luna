@@ -20,6 +20,7 @@ HISTORY_PATHS = frozenset({
     'data/knowledge/gosi_observation_history',
     'data/daiso_real/candidate_pool_history',
     'data/legal_export_history',
+    'data/typesafe_team_advisory_history',
 })
 MAX_ENTRIES = 128
 MAX_SHARDS = 256

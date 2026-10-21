@@ -86,6 +86,7 @@ jobs:
           python scripts/test_source_health_access.py
           python scripts/test_typesafe_shared.py
           python scripts/test_team_typesafe.py
+          python scripts/test_team_advisory_history.py
           python scripts/test_typesafe_receipt.py
           python scripts/test_typesafe_wiring.py
           python scripts/test_gate_signature_portability.py

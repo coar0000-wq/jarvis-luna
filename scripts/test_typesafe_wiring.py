@@ -48,7 +48,7 @@ class WiringTests(unittest.TestCase):
     def test_mandatory_tests_in_both_gates(self):
         for name in ('preflight.yml','pages-verified.yml'):
             text=(WF/name).read_text(encoding='utf-8')
-            for suite in ('test_typesafe_shared.py','test_team_typesafe.py','test_typesafe_receipt.py','test_typesafe_wiring.py'):
+            for suite in ('test_typesafe_shared.py','test_team_typesafe.py','test_team_advisory_history.py','test_typesafe_receipt.py','test_typesafe_wiring.py'):
                 self.assertIn('python scripts/'+suite,text)
 
     def test_private_outputs_captured_not_derived(self):
