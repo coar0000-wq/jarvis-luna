@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T22:15:11.982671+00:00",
-  "overall_status": "failed",
+  "generated_at": "2026-10-21T23:37:44.046304+00:00",
+  "overall_status": "degraded",
   "status_legend": {
     "success": "정상",
     "warning": "주의 · 변경 없음/최신성/실행 지연",
@@ -16,10 +16,10 @@
     "candidate_last_success": "2026-10-20T00:08:18.691253+00:00",
     "candidate_new_this_attempt": 91,
     "candidate_rechecked_this_attempt": 0,
-    "failed_jobs": 3,
-    "failed_checks": 1,
+    "failed_jobs": "unknown",
+    "failed_checks": 0,
     "actions_observed_at": "2026-10-21T18:17:01.705226Z",
-    "actions_observation_fresh": true,
+    "actions_observation_fresh": false,
     "queue": 3021,
     "stale_source": "marketing",
     "freshness_summary": {
@@ -28,26 +28,26 @@
       "shopify_sync": "9.8 days ago",
       "pricing": "just now",
       "marketing": "just now",
-      "daiso": "1.9 days ago",
+      "daiso": "2.0 days ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
-      "deep_heartbeat": "18.4 days ago",
-      "actions_monitor": "4.0 hours ago",
-      "gosi": "19.2 days ago",
+      "deep_heartbeat": "18.5 days ago",
+      "actions_monitor": "5.3 hours ago",
+      "gosi": "19.3 days ago",
       "product_discovery": "just now"
     }
   },
   "summary": {
-    "success": 5,
-    "warning": 3,
+    "success": 4,
+    "warning": 4,
     "waiting": 1,
     "degraded": 1,
-    "failed": 1,
+    "failed": 0,
     "no_change": 0,
-    "real_failures": 1
+    "real_failures": 0
   },
   "checks": [
     {
@@ -91,7 +91,7 @@
     {
       "team": "daiso",
       "status": "degraded",
-      "reason": "수집 시도 46.1시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 47.5시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -99,9 +99,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 46.115,
-      "attempt_age_hours": 46.115,
-      "success_age_hours": 549.437,
+      "candidate_success_age_hours": 47.49,
+      "attempt_age_hours": 47.49,
+      "success_age_hours": 550.813,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
@@ -120,11 +120,9 @@
             "verified": false
           },
           "shortlist_price": {
-            "status": "success",
-            "reason": "source_price_capture_only",
-            "verified": true,
-            "count": 2,
-            "scope": "active_shopify_shortlist_only"
+            "status": "unverified",
+            "reason": "shortlist source proof invalid",
+            "verified": false
           },
           "collection_publication": {
             "status": "unverified",
@@ -1755,7 +1753,7 @@
         ],
         "operating_staleness": {
           "status": "degraded",
-          "reason": "수집 시도 46.1시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+          "reason": "수집 시도 47.5시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
           "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
           "last_success_at": "2026-09-29T00:48:58.284474+00:00",
           "last_attempt_status": "candidates_collected",
@@ -1763,16 +1761,16 @@
           "candidates_new": 91,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-          "candidate_success_age_hours": 46.115,
-          "attempt_age_hours": 46.115,
-          "success_age_hours": 549.437,
+          "candidate_success_age_hours": 47.49,
+          "attempt_age_hours": 47.49,
+          "success_age_hours": 550.813,
           "data_stale": true,
           "attempt_stale": true,
           "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "1.9 days ago"
+      "freshness": "2.0 days ago"
     },
     {
       "team": "daiso_candidate_discovery",
@@ -1794,11 +1792,9 @@
     },
     {
       "team": "daiso_shortlist_price",
-      "status": "success",
-      "reason": "source_price_capture_only",
-      "verified": true,
-      "count": 2,
-      "scope": "active_shopify_shortlist_only",
+      "status": "unverified",
+      "reason": "shortlist source proof invalid",
+      "verified": false,
       "is_failure": false,
       "public_authority": false,
       "freshness": "unknown"
@@ -1824,30 +1820,30 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (442.3시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (443.7시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 442.337,
+      "age_hours": 443.713,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "18.4 days ago"
+      "freshness": "18.5 days ago"
     },
     {
       "team": "actions_monitor",
-      "status": "failed",
-      "reason": "GitHub Actions 관측: 14/14개 · 실패 3",
-      "is_failure": true,
+      "status": "warning",
+      "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
+      "is_failure": false,
       "observed_at": "2026-10-21T18:17:01.705226Z",
-      "freshness": "4.0 hours ago"
+      "freshness": "5.3 hours ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "460.6h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "462.0h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
-      "freshness": "19.2 days ago"
+      "freshness": "19.3 days ago"
     },
     {
       "team": "product_discovery",
@@ -1871,11 +1867,9 @@
         "verified": false
       },
       "shortlist_price": {
-        "status": "success",
-        "reason": "source_price_capture_only",
-        "verified": true,
-        "count": 2,
-        "scope": "active_shopify_shortlist_only"
+        "status": "unverified",
+        "reason": "shortlist source proof invalid",
+        "verified": false
       },
       "collection_publication": {
         "status": "unverified",
@@ -3506,7 +3500,7 @@
     ],
     "operating_staleness": {
       "status": "degraded",
-      "reason": "수집 시도 46.1시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 47.5시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -3514,9 +3508,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 46.115,
-      "attempt_age_hours": 46.115,
-      "success_age_hours": 549.437,
+      "candidate_success_age_hours": 47.49,
+      "attempt_age_hours": 47.49,
+      "success_age_hours": 550.813,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
