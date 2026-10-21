@@ -4,6 +4,8 @@ OCR(tesseract) 이 없는 환경에서도 도는 부분만 기본으로 검사�
 합성 이미지로 '한글을 지우고 영문을 얹은 뒤 다시 읽어 한글이 남지 않는다' 까지 본다.
 """
 import io
+import hashlib
+import http.client
 import json
 import shutil
 import subprocess
@@ -196,6 +198,269 @@ class FailClosedTest(unittest.TestCase):
         self.assertEqual(man["status"], "failed")
         self.assertEqual(man["outputs"], [])
         self.assertTrue(any(r.startswith("ocr_unavailable") for r in man["reasons"]))
+
+
+class ReviewArtifactTest(unittest.TestCase):
+    """Review storage is exact-byte evidence, never gallery or upload authorization."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.out = Path(self.tmp.name) / "localized" / "1"
+        fake_di = mock.Mock()
+        fake_di.count_faces.return_value = 0
+        for patcher in (mock.patch.object(ldi, "ensure_ocr_ready"),
+                        mock.patch.object(ldi, "hangul_boxes", return_value=[]),
+                        mock.patch.object(ldi, "residual_hangul", return_value=[]),
+                        mock.patch.object(ldi, "info_panel", return_value=(None, "fixture")),
+                        mock.patch.dict(sys.modules, {"daiso_images": fake_di})):
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    @staticmethod
+    def image_bytes(fmt="PNG"):
+        buf = io.BytesIO()
+        Image.new("RGB", (400, 900), "white").save(buf, fmt)
+        return buf.getvalue()
+
+    def run_sources(self, sources, out=None):
+        return ldi.localize_product("1", "Fixture", out or self.out, object(), sources)
+
+    def assert_failed(self, man):
+        self.assertEqual(man["status"], "failed")
+        self.assertFalse(man["gallery_complete"])
+        self.assertEqual(man["gallery_status"], "review_required")
+        self.assertFalse(man.get("upload_allowed", False))
+
+    def test_exact_original_and_output_bytes_link_through_final_manifest(self):
+        raw = self.image_bytes("PNG")
+        url = "https://example.invalid/description/detail.jpg?size=original"
+        man = self.run_sources([(url, raw)])
+        self.assertEqual(man["status"], "ok")
+        src, output, panel = man["sources"][0], man["outputs"][0], man["panels"][0]
+        digest = hashlib.sha256(raw).hexdigest()
+        self.assertEqual(src["url"], url)
+        self.assertEqual(src["sha256"], digest)
+        self.assertEqual(src["format"], "PNG")
+        self.assertEqual(src["source_file"], f"source-{digest}.bin")
+        self.assertEqual(src["preservation_status"], "stored")
+        self.assertEqual((self.out / src["source_file"]).read_bytes(), raw)
+        for row in (output, panel):
+            self.assertEqual(row["source_file"], src["source_file"])
+            self.assertEqual(row["source_sha256"], digest)
+        jpg = (self.out / output["file"]).read_bytes()
+        self.assertEqual(output["sha256"], hashlib.sha256(jpg).hexdigest())
+        self.assertEqual(output["bytes"], len(jpg))
+        with Image.open(io.BytesIO(jpg)) as image:
+            self.assertEqual(image.format, "JPEG")
+        with mock.patch.object(ldi, "MANIFEST_DIR", Path(self.tmp.name) / "manifests"):
+            saved = json.loads(ldi.write_manifest(man).read_text(encoding="utf-8"))
+        self.assertEqual(saved, man)
+        self.assertFalse(saved["gallery_complete"])
+        self.assertEqual(saved["gallery_status"], "review_required")
+        self.assertIn("role_rights_and_label_evidence_review_required", saved["gallery_review_reasons"])
+        for record in (saved, src, output, panel):
+            for key in ("upload_allowed", "rights_approved", "label_approved", "efficacy_approved"):
+                self.assertNotIn(key, record)
+
+    def test_formats_preserve_original_bytes_without_reencoding(self):
+        for fmt in ("JPEG", "PNG", "WEBP", "GIF", "BMP"):
+            with self.subTest(fmt=fmt):
+                raw = self.image_bytes(fmt)
+                man = self.run_sources([("source", raw)])
+                self.assertEqual(man["status"], "ok")
+                src = man["sources"][0]
+                self.assertEqual(src["format"], fmt)
+                self.assertEqual((self.out / src["source_file"]).read_bytes(), raw)
+
+    def test_url_cannot_choose_a_source_filename(self):
+        raw = self.image_bytes()
+        man = self.run_sources([("../../outside.jpg?token=fixture", raw)])
+        name = man["sources"][0]["source_file"]
+        self.assertRegex(name, r"^source-[0-9a-f]{64}\.bin$")
+        self.assertEqual((self.out / name).resolve().parent, self.out.resolve())
+        self.assertFalse((Path(self.tmp.name) / "outside.jpg").exists())
+
+    def test_missing_and_unsafe_sha_cannot_be_stored_or_succeed(self):
+        for digest in (None, "", "../outside", "a" * 63, "Z" * 64):
+            with self.subTest(digest=digest), mock.patch.object(ldi, "sha", return_value=digest):
+                man = self.run_sources([("source", self.image_bytes())])
+                self.assert_failed(man)
+                self.assertEqual(man["outputs"], [])
+                self.assertNotIn("source_file", man["sources"][0])
+                self.assertIn("source_preservation_failed:source_sha256_invalid", man["reasons"])
+
+    def test_source_file_symlink_does_not_overwrite_outside_file(self):
+        self.out.mkdir(parents=True)
+        raw = self.image_bytes()
+        outside = Path(self.tmp.name) / "outside"
+        outside.write_bytes(b"keep")
+        (self.out / f"source-{hashlib.sha256(raw).hexdigest()}.bin").symlink_to(outside)
+        man = self.run_sources([("source", raw)])
+        self.assert_failed(man)
+        self.assertEqual(outside.read_bytes(), b"keep")
+        self.assertNotIn("source_file", man["sources"][0])
+
+    def test_output_directory_symlink_and_traversal_fail_before_writing(self):
+        outside = Path(self.tmp.name) / "outside"
+        outside.mkdir()
+        link = Path(self.tmp.name) / "link"
+        link.symlink_to(outside, target_is_directory=True)
+        for out in (link / "1", outside / ".." / "other"):
+            with self.subTest(out=out):
+                man = self.run_sources([("source", self.image_bytes())], out=out)
+                self.assert_failed(man)
+                self.assertIn("detail_images_unavailable:unsafe_output_directory", man["reasons"])
+        self.assertEqual(list(outside.iterdir()), [])
+
+    def test_source_write_failure_does_not_produce_success_or_output(self):
+        with mock.patch.object(ldi.tempfile, "NamedTemporaryFile", side_effect=OSError("fixture")):
+            man = self.run_sources([("source", self.image_bytes())])
+        self.assert_failed(man)
+        self.assertEqual(man["outputs"], [])
+        self.assertEqual(man["sources"][0]["preservation_status"], "failed")
+        self.assertNotIn("source_file", man["sources"][0])
+        self.assertIn("source_evidence_incomplete", man["gallery_review_reasons"])
+
+    def test_failed_readback_or_replace_leaves_no_unverified_original(self):
+        raw = self.image_bytes()
+        for failure in ("readback", "replace"):
+            with self.subTest(failure=failure):
+                patcher = (mock.patch.object(ldi, "sha", side_effect=[hashlib.sha256(raw).hexdigest(), "0" * 64])
+                           if failure == "readback" else
+                           mock.patch.object(Path, "replace", side_effect=OSError("fixture")))
+                with patcher:
+                    man = self.run_sources([("source", raw)])
+                self.assert_failed(man)
+                self.assertNotIn("source_file", man["sources"][0])
+                self.assertEqual(list(self.out.iterdir()), [])
+
+    def test_corrupt_source_is_retained_but_does_not_claim_conversion_success(self):
+        raw = b"not an image\x00\xff"
+        man = self.run_sources([("broken", raw), ("valid", self.image_bytes())])
+        self.assert_failed(man)
+        self.assertEqual(man["summary"]["used"], 1)
+        self.assertEqual((self.out / man["sources"][0]["source_file"]).read_bytes(), raw)
+        self.assertTrue(man["sources"][0]["reason"].startswith("source_decode_failed:"))
+
+    def test_source_is_retained_when_ocr_is_unavailable(self):
+        raw = self.image_bytes()
+        with mock.patch.object(ldi, "ensure_ocr_ready", side_effect=RuntimeError("fixture")):
+            man = self.run_sources([("source", raw)])
+        self.assert_failed(man)
+        self.assertEqual((self.out / man["sources"][0]["source_file"]).read_bytes(), raw)
+
+    def test_empty_source_and_source_byte_budget_fail_closed(self):
+        for raw, limit in ((b"", 10), (self.image_bytes(), 10)):
+            with self.subTest(limit=limit), mock.patch.object(ldi, "MAX_SOURCE_BYTES", limit):
+                man = self.run_sources([("source", raw)])
+                self.assert_failed(man)
+                self.assertEqual(man["outputs"], [])
+                self.assertNotIn("source_file", man["sources"][0])
+
+    def test_source_count_and_total_budgets_are_bounded(self):
+        raw = self.image_bytes()
+        with mock.patch.object(ldi, "MAX_SOURCE_FILES", 1):
+            man = self.run_sources([("a", raw), ("b", raw)])
+        self.assert_failed(man)
+        self.assertIn("source_count_budget_exceeded", man["reasons"])
+        self.assertEqual(list(self.out.iterdir()), [])
+        with mock.patch.object(ldi, "MAX_SOURCE_TOTAL_BYTES", len(raw)):
+            man = self.run_sources([("a", raw), ("b", raw)])
+        self.assert_failed(man)
+        self.assertEqual((self.out / man["sources"][0]["source_file"]).read_bytes(), raw)
+        self.assertNotIn("source_file", man["sources"][1])
+
+    def test_pixel_budget_keeps_original_but_skips_ocr_and_conversion(self):
+        with mock.patch.object(ldi, "MAX_SOURCE_PIXELS", 10), mock.patch.object(ldi, "hangul_boxes") as ocr:
+            man = self.run_sources([("source", self.image_bytes())])
+        self.assert_failed(man)
+        self.assertEqual(man["outputs"], [])
+        self.assertIn("source_decode_failed:source_pixel_budget_exceeded", man["reasons"])
+        self.assertTrue((self.out / man["sources"][0]["source_file"]).is_file())
+        ocr.assert_not_called()
+
+    def test_download_is_bounded_and_never_returns_truncated_original(self):
+        response = mock.MagicMock()
+        response.__enter__.return_value.getheader.return_value = None
+        response.__enter__.return_value.read.return_value = b"12345"
+        with mock.patch.object(ldi, "MAX_SOURCE_BYTES", 4), \
+                mock.patch.object(ldi.urllib.request, "urlopen", return_value=response):
+            with self.assertRaisesRegex(ValueError, "source_size_budget_exceeded"):
+                ldi.download("https://example.invalid/image")
+        response.__enter__.return_value.read.assert_called_once_with(5)
+
+    def test_download_accepts_exact_byte_limit_without_changing_bytes(self):
+        raw = b"1234"
+        response = mock.MagicMock()
+        response.__enter__.return_value.getheader.return_value = str(len(raw))
+        response.__enter__.return_value.read.return_value = raw
+        with mock.patch.object(ldi, "MAX_SOURCE_BYTES", len(raw)), \
+                mock.patch.object(ldi.urllib.request, "urlopen", return_value=response):
+            self.assertEqual(ldi.download("https://example.invalid/image"), raw)
+
+    def test_invalid_or_oversized_content_length_fails_before_reading(self):
+        for length in ("", "-1", "+4", "4.0", "4, 4", "NaN", str(ldi.MAX_SOURCE_BYTES + 1)):
+            with self.subTest(length=length):
+                response = mock.MagicMock()
+                response.__enter__.return_value.getheader.return_value = length
+                with mock.patch.object(ldi.urllib.request, "urlopen", return_value=response):
+                    with self.assertRaises(ldi.SourceEvidenceError):
+                        ldi.download("https://example.invalid/image")
+                response.__enter__.return_value.read.assert_not_called()
+
+    def test_truncated_but_decodable_http_png_cannot_be_stored_as_original(self):
+        raw = self.image_bytes("PNG")
+        truncated = raw[:-12]  # IEND is absent, but Pillow can still decode these pixels.
+        with Image.open(io.BytesIO(truncated)) as image:
+            self.assertEqual(image.convert("RGB").size, (400, 900))
+        wire = (f"HTTP/1.1 200 OK\r\nContent-Length: {len(raw)}\r\n"
+                "Content-Type: image/png\r\n\r\n").encode() + truncated
+        sock = mock.Mock()
+        sock.makefile.return_value = io.BytesIO(wire)
+        response = http.client.HTTPResponse(sock)
+        response.begin()
+        with mock.patch.object(ldi, "rendered_detail_image_urls", return_value=["https://example.invalid/image"]), \
+                mock.patch.object(ldi.urllib.request, "urlopen", return_value=response):
+            man = self.run_sources(None)
+        self.assert_failed(man)
+        self.assertIn("source_preservation_failed:source_content_length_mismatch", man["reasons"])
+        self.assertEqual(man["sources"][0]["preservation_status"], "failed")
+        self.assertNotIn("source_file", man["sources"][0])
+        self.assertEqual(man["outputs"], [])
+        self.assertEqual(list(self.out.iterdir()), [])
+
+    def test_partial_download_failure_keeps_already_downloaded_original(self):
+        raw = self.image_bytes()
+        with mock.patch.object(ldi, "rendered_detail_image_urls", return_value=["a", "b"]), \
+                mock.patch.object(ldi, "download", side_effect=[raw, OSError("fixture")]):
+            man = self.run_sources(None)
+        self.assert_failed(man)
+        self.assertEqual((self.out / man["sources"][0]["source_file"]).read_bytes(), raw)
+        self.assertEqual(man["sources"][1]["preservation_status"], "failed")
+        self.assertEqual(man["outputs"], [])
+
+    def test_repeated_source_reuses_exact_hash_filename(self):
+        raw = self.image_bytes()
+        first = self.run_sources([("a", raw)])
+        second = self.run_sources([("b", raw)])
+        self.assertEqual(first["sources"][0]["source_file"], second["sources"][0]["source_file"])
+        self.assertEqual(len(list(self.out.glob("source-*.bin"))), 1)
+
+    def test_workflow_preserves_only_review_assets_always_for_30_days(self):
+        workflow = (HERE.parent / ".github/workflows/daiso-daily-beauty-shopify.yml").read_text(encoding="utf-8")
+        section = workflow.split("      - name: 상세 이미지 검토 자산 보관\n", 1)[1].split("      - name:", 1)[0]
+        self.assertIn("if: ${{ always() }}", section)
+        self.assertIn("uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02", section)
+        self.assertIn("name: daiso-daily-beauty-image-review", section)
+        self.assertIn("retention-days: 30", section)
+        paths = section.split("          path: |\n", 1)[1].split("          if-no-files-found:", 1)[0]
+        self.assertEqual([line.strip() for line in paths.splitlines()],
+                         ["${{ runner.temp }}/localized/", "data/image_localization/*.json"])
+        self.assertIn("group: daiso-daily-beauty-shopify\n  cancel-in-progress: false", workflow)
+        for retained in ("name: daiso-daily-beauty-result", "name: body-shower-catalog-source",
+                         "git add data/image_localization", "python -B scripts/test_localize_detail_images.py"):
+            self.assertIn(retained, workflow)
 
 
 class OcrBudgetTest(unittest.TestCase):
