@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-21T08:57:05.895118+00:00",
+  "generated_at": "2026-10-21T11:08:04.186485+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -5158,7 +5158,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -6461,7 +6461,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -9326,7 +9326,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -11357,7 +11357,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -12091,7 +12091,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -13500,7 +13500,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
@@ -14130,7 +14130,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T08:57:05.824870+00:00"
+        "gate_generated_at": "2026-10-21T11:08:04.116453+00:00"
       }
     },
     {
