@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T23:43:09.441456+00:00",
+  "generated_at": "2026-10-21T00:23:57.727342+00:00",
   "exchange_rate": {
-    "usd_to_krw": 1330.79,
-    "as_of": "2026-10-20",
-    "source": "ExchangeRate-API"
+    "usd_to_krw": 1327.17,
+    "as_of": "2026-10-21",
+    "source": "exchangerate-api"
   },
   "pricing_policy": {
     "mode": "evidence_based_price",
@@ -81,10 +81,10 @@
         "qty": 1,
         "price_usd": 23.99,
         "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 8.91,
+        "landed_cost_total_usd": 8.94,
         "fee_usd": 0.48,
-        "net_profit_usd": 14.6,
-        "margin_pct": 60.9,
+        "net_profit_usd": 14.57,
+        "margin_pct": 60.7,
         "market_median_usd": 24.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -114,12 +114,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 14.6,
-          "margin_pct": 60.9,
-          "breakeven_usd": 9.09,
+          "net_profit_usd": 14.57,
+          "margin_pct": 60.7,
+          "breakeven_usd": 9.12,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 15.36
+          "target_price_usd": 15.41
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -134,10 +134,10 @@
         "qty": 1,
         "price_usd": 19.99,
         "unit_price_usd": 19.99,
-        "landed_cost_total_usd": 10.64,
+        "landed_cost_total_usd": 10.67,
         "fee_usd": 0.4,
-        "net_profit_usd": 8.95,
-        "margin_pct": 44.8,
+        "net_profit_usd": 8.92,
+        "margin_pct": 44.6,
         "market_median_usd": 20.17,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -152,7 +152,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -167,12 +167,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 8.95,
-          "margin_pct": 44.8,
-          "breakeven_usd": 10.86,
+          "net_profit_usd": 8.92,
+          "margin_pct": 44.6,
+          "breakeven_usd": 10.89,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 18.34
+          "target_price_usd": 18.4
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -185,11 +185,11 @@
         "pd_no": "1061918",
         "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
         "qty": 1,
-        "price_usd": 18.35,
-        "unit_price_usd": 18.35,
-        "landed_cost_total_usd": 10.64,
+        "price_usd": 18.4,
+        "unit_price_usd": 18.4,
+        "landed_cost_total_usd": 10.67,
         "fee_usd": 0.37,
-        "net_profit_usd": 7.34,
+        "net_profit_usd": 7.36,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -221,12 +221,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 7.34,
+          "net_profit_usd": 7.36,
           "margin_pct": 40.0,
-          "breakeven_usd": 10.86,
+          "breakeven_usd": 10.89,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 18.34
+          "target_price_usd": 18.4
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -241,10 +241,10 @@
         "qty": 1,
         "price_usd": 31.99,
         "unit_price_usd": 31.99,
-        "landed_cost_total_usd": 11.4,
+        "landed_cost_total_usd": 11.43,
         "fee_usd": 0.64,
-        "net_profit_usd": 19.95,
-        "margin_pct": 62.4,
+        "net_profit_usd": 19.92,
+        "margin_pct": 62.3,
         "market_median_usd": 33.38,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -259,7 +259,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -274,12 +274,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 19.95,
-          "margin_pct": 62.4,
-          "breakeven_usd": 11.63,
+          "net_profit_usd": 19.92,
+          "margin_pct": 62.3,
+          "breakeven_usd": 11.66,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 19.66
+          "target_price_usd": 19.71
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -292,11 +292,11 @@
         "pd_no": "1068721",
         "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 1,
-        "price_usd": 19.66,
-        "unit_price_usd": 19.66,
-        "landed_cost_total_usd": 11.4,
+        "price_usd": 19.71,
+        "unit_price_usd": 19.71,
+        "landed_cost_total_usd": 11.43,
         "fee_usd": 0.39,
-        "net_profit_usd": 7.87,
+        "net_profit_usd": 7.89,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -328,12 +328,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 7.87,
+          "net_profit_usd": 7.89,
           "margin_pct": 40.0,
-          "breakeven_usd": 11.63,
+          "breakeven_usd": 11.66,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 19.66
+          "target_price_usd": 19.71
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -346,11 +346,11 @@
         "pd_no": "1074979",
         "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "qty": 1,
-        "price_usd": 16.68,
-        "unit_price_usd": 16.68,
-        "landed_cost_total_usd": 9.67,
+        "price_usd": 16.73,
+        "unit_price_usd": 16.73,
+        "landed_cost_total_usd": 9.7,
         "fee_usd": 0.33,
-        "net_profit_usd": 6.68,
+        "net_profit_usd": 6.7,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -382,12 +382,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 6.68,
+          "net_profit_usd": 6.7,
           "margin_pct": 40.0,
-          "breakeven_usd": 9.87,
+          "breakeven_usd": 9.9,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 16.67
+          "target_price_usd": 16.72
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -400,11 +400,11 @@
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 1,
-        "price_usd": 18.35,
-        "unit_price_usd": 18.35,
-        "landed_cost_total_usd": 10.64,
+        "price_usd": 18.4,
+        "unit_price_usd": 18.4,
+        "landed_cost_total_usd": 10.67,
         "fee_usd": 0.37,
-        "net_profit_usd": 7.34,
+        "net_profit_usd": 7.36,
         "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
@@ -422,7 +422,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -437,12 +437,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 7.34,
+          "net_profit_usd": 7.36,
           "margin_pct": 40.0,
-          "breakeven_usd": 10.86,
+          "breakeven_usd": 10.89,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 18.34
+          "target_price_usd": 18.4
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -459,10 +459,10 @@
         "qty": 2,
         "price_usd": 40.99,
         "unit_price_usd": 20.5,
-        "landed_cost_total_usd": 11.5,
+        "landed_cost_total_usd": 11.54,
         "fee_usd": 0.82,
-        "net_profit_usd": 28.67,
-        "margin_pct": 69.9,
+        "net_profit_usd": 28.63,
+        "margin_pct": 69.8,
         "market_median_usd": 24.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -477,7 +477,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -492,12 +492,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 28.67,
-          "margin_pct": 69.9,
-          "breakeven_usd": 11.73,
+          "net_profit_usd": 28.63,
+          "margin_pct": 69.8,
+          "breakeven_usd": 11.78,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 19.83
+          "target_price_usd": 19.9
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -512,10 +512,10 @@
         "qty": 2,
         "price_usd": 32.99,
         "unit_price_usd": 16.5,
-        "landed_cost_total_usd": 15.72,
+        "landed_cost_total_usd": 15.76,
         "fee_usd": 0.66,
-        "net_profit_usd": 16.61,
-        "margin_pct": 50.3,
+        "net_profit_usd": 16.57,
+        "margin_pct": 50.2,
         "market_median_usd": 20.17,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -530,7 +530,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -545,12 +545,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 16.61,
-          "margin_pct": 50.3,
-          "breakeven_usd": 16.04,
+          "net_profit_usd": 16.57,
+          "margin_pct": 50.2,
+          "breakeven_usd": 16.08,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 27.1
+          "target_price_usd": 27.17
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -563,11 +563,11 @@
         "pd_no": "1061918",
         "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
         "qty": 2,
-        "price_usd": 27.11,
-        "unit_price_usd": 13.55,
-        "landed_cost_total_usd": 15.72,
+        "price_usd": 27.18,
+        "unit_price_usd": 13.59,
+        "landed_cost_total_usd": 15.76,
         "fee_usd": 0.54,
-        "net_profit_usd": 10.85,
+        "net_profit_usd": 10.88,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -599,12 +599,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 10.85,
+          "net_profit_usd": 10.88,
           "margin_pct": 40.0,
-          "breakeven_usd": 16.04,
+          "breakeven_usd": 16.08,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 27.1
+          "target_price_usd": 27.17
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -619,10 +619,10 @@
         "qty": 2,
         "price_usd": 53.99,
         "unit_price_usd": 27.0,
-        "landed_cost_total_usd": 16.48,
+        "landed_cost_total_usd": 16.52,
         "fee_usd": 1.08,
-        "net_profit_usd": 36.43,
-        "margin_pct": 67.5,
+        "net_profit_usd": 36.39,
+        "margin_pct": 67.4,
         "market_median_usd": 33.38,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -637,7 +637,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "match"
           }
         },
@@ -652,12 +652,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 36.43,
-          "margin_pct": 67.5,
-          "breakeven_usd": 16.82,
+          "net_profit_usd": 36.39,
+          "margin_pct": 67.4,
+          "breakeven_usd": 16.86,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 28.41
+          "target_price_usd": 28.48
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -670,11 +670,11 @@
         "pd_no": "1068721",
         "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 2,
-        "price_usd": 28.42,
-        "unit_price_usd": 14.21,
-        "landed_cost_total_usd": 16.48,
+        "price_usd": 28.49,
+        "unit_price_usd": 14.24,
+        "landed_cost_total_usd": 16.52,
         "fee_usd": 0.57,
-        "net_profit_usd": 11.37,
+        "net_profit_usd": 11.4,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -706,12 +706,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 11.37,
+          "net_profit_usd": 11.4,
           "margin_pct": 40.0,
-          "breakeven_usd": 16.82,
+          "breakeven_usd": 16.86,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 28.41
+          "target_price_usd": 28.48
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -724,11 +724,11 @@
         "pd_no": "1074979",
         "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "qty": 2,
-        "price_usd": 23.76,
-        "unit_price_usd": 11.88,
-        "landed_cost_total_usd": 13.78,
+        "price_usd": 23.83,
+        "unit_price_usd": 11.91,
+        "landed_cost_total_usd": 13.82,
         "fee_usd": 0.48,
-        "net_profit_usd": 9.5,
+        "net_profit_usd": 9.53,
         "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
@@ -760,12 +760,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 9.5,
+          "net_profit_usd": 9.53,
           "margin_pct": 40.0,
-          "breakeven_usd": 14.06,
+          "breakeven_usd": 14.1,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 23.76
+          "target_price_usd": 23.83
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -778,11 +778,11 @@
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 2,
-        "price_usd": 25.8,
-        "unit_price_usd": 12.9,
-        "landed_cost_total_usd": 14.96,
+        "price_usd": 25.87,
+        "unit_price_usd": 12.94,
+        "landed_cost_total_usd": 15.0,
         "fee_usd": 0.52,
-        "net_profit_usd": 10.32,
+        "net_profit_usd": 10.35,
         "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
@@ -800,7 +800,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.84,
+            "age_days": 2.86,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -815,12 +815,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 10.32,
+          "net_profit_usd": 10.35,
           "margin_pct": 40.0,
-          "breakeven_usd": 15.27,
+          "breakeven_usd": 15.31,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 25.79
+          "target_price_usd": 25.86
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -848,36 +848,36 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 19.66,
-      "unit_price_usd": 19.66,
-      "landed_cost_total_usd": 10.47,
-      "shipping_in_cost_usd": 6.65,
+      "price_usd": 19.71,
+      "unit_price_usd": 19.71,
+      "landed_cost_total_usd": 10.5,
+      "shipping_in_cost_usd": 6.67,
       "fee_usd": 0.39,
-      "net_profit_usd": 8.8,
+      "net_profit_usd": 8.81,
       "margin_pct": 44.7,
       "free_shipping": false,
       "orders_for_500usd": 57,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        16.68,
+        16.73,
         31.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 28.42,
-      "unit_price_usd": 14.21,
-      "landed_cost_total_usd": 14.95,
-      "shipping_in_cost_usd": 7.3,
+      "price_usd": 28.49,
+      "unit_price_usd": 14.24,
+      "landed_cost_total_usd": 14.99,
+      "shipping_in_cost_usd": 7.32,
       "fee_usd": 0.57,
-      "net_profit_usd": 12.9,
+      "net_profit_usd": 12.93,
       "margin_pct": 45.4,
       "free_shipping": true,
       "orders_for_500usd": 39,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        23.76,
+        23.83,
         53.99
       ]
     },
@@ -898,33 +898,33 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.91,
-        "landed_cost_ddu_usd": 8.91,
-        "landed_cost_ddp_usd": 8.57,
+        "landed_cost_usd": 8.94,
+        "landed_cost_ddu_usd": 8.94,
+        "landed_cost_ddp_usd": 8.6,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.09,
+        "breakeven_usd": 9.12,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -4.05,
+          "profit": -4.06,
           "margin_pct": -81.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 5.79,
-          "margin_pct": 38.6
+          "profit": 5.76,
+          "margin_pct": 38.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.13,
-          "margin_pct": 58.4
+          "profit": 13.1,
+          "margin_pct": 58.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.99,
@@ -932,8 +932,8 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 15.58,
-          "margin_pct": 62.3
+          "profit": 15.55,
+          "margin_pct": 62.2
         }
       },
       {
@@ -946,33 +946,33 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -980,8 +980,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 9.13,
-          "margin_pct": 45.2
+          "profit": 9.1,
+          "margin_pct": 45.1
         }
       },
       {
@@ -994,33 +994,33 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1037,33 +1037,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.4,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 11.43,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.63,
+        "breakeven_usd": 11.66,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -3.3,
+          "profit": -3.31,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.3,
-          "margin_pct": 22.0
+          "profit": 3.27,
+          "margin_pct": 21.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.64,
-          "margin_pct": 47.3
+          "profit": 10.61,
+          "margin_pct": 47.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -1071,8 +1071,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 21.31,
-          "margin_pct": 63.9
+          "profit": 21.28,
+          "margin_pct": 63.8
         }
       },
       {
@@ -1085,33 +1085,33 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.4,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 11.43,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.63,
+        "breakeven_usd": 11.66,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -3.3,
+          "profit": -3.31,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.3,
-          "margin_pct": 22.0
+          "profit": 3.27,
+          "margin_pct": 21.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.64,
-          "margin_pct": 47.3
+          "profit": 10.61,
+          "margin_pct": 47.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1128,33 +1128,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.67,
-        "landed_cost_ddu_usd": 9.67,
-        "landed_cost_ddp_usd": 9.33,
+        "landed_cost_usd": 9.7,
+        "landed_cost_ddu_usd": 9.7,
+        "landed_cost_ddp_usd": 9.36,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.87,
+        "breakeven_usd": 9.9,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -4.81,
+          "profit": -4.82,
           "margin_pct": -97.0
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 5.03,
-          "margin_pct": 33.5
+          "profit": 5.0,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 12.37,
-          "margin_pct": 55.0
+          "profit": 12.34,
+          "margin_pct": 54.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1171,33 +1171,33 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1205,8 +1205,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 15.81,
-          "margin_pct": 58.6
+          "profit": 15.78,
+          "margin_pct": 58.5
         }
       }
     ],
@@ -1221,18 +1221,18 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.75,
-        "landed_cost_ddu_usd": 5.75,
-        "landed_cost_ddp_usd": 5.41,
+        "landed_cost_usd": 5.77,
+        "landed_cost_ddu_usd": 5.77,
+        "landed_cost_ddp_usd": 5.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.87,
+        "breakeven_usd": 5.89,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
           "profit": -0.89,
           "margin_pct": -18.0
@@ -1240,13 +1240,13 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 8.95,
-          "margin_pct": 59.7
+          "profit": 8.93,
+          "margin_pct": 59.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 16.29,
+          "profit": 16.27,
           "margin_pct": 72.4
         },
         "market_price_source": "serpapi_google_shopping",
@@ -1255,8 +1255,8 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 18.74,
-          "margin_pct": 75.0
+          "profit": 18.72,
+          "margin_pct": 74.9
         }
       },
       {
@@ -1269,18 +1269,18 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.86,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.88,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.02,
+        "breakeven_usd": 8.04,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.24,
           "margin_pct": 2.9
@@ -1288,14 +1288,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.84,
-          "margin_pct": 45.6
+          "profit": 6.82,
+          "margin_pct": 45.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.18,
-          "margin_pct": 63.1
+          "profit": 14.16,
+          "margin_pct": 63.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -1303,8 +1303,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 11.91,
-          "margin_pct": 59.0
+          "profit": 11.89,
+          "margin_pct": 58.9
         }
       },
       {
@@ -1317,18 +1317,18 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.86,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.88,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.02,
+        "breakeven_usd": 8.04,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.24,
           "margin_pct": 2.9
@@ -1336,14 +1336,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.84,
-          "margin_pct": 45.6
+          "profit": 6.82,
+          "margin_pct": 45.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.18,
-          "margin_pct": 63.1
+          "profit": 14.16,
+          "margin_pct": 63.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1360,18 +1360,18 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.24,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 8.26,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
+        "breakeven_usd": 8.43,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -0.14,
           "margin_pct": -1.7
@@ -1379,14 +1379,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.46,
-          "margin_pct": 43.1
+          "profit": 6.44,
+          "margin_pct": 42.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.8,
-          "margin_pct": 61.4
+          "profit": 13.78,
+          "margin_pct": 61.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -1394,8 +1394,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 24.47,
-          "margin_pct": 73.3
+          "profit": 24.45,
+          "margin_pct": 73.2
         }
       },
       {
@@ -1408,18 +1408,18 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.24,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 8.26,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
+        "breakeven_usd": 8.43,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -0.14,
           "margin_pct": -1.7
@@ -1427,14 +1427,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.46,
-          "margin_pct": 43.1
+          "profit": 6.44,
+          "margin_pct": 42.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.8,
-          "margin_pct": 61.4
+          "profit": 13.78,
+          "margin_pct": 61.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1451,33 +1451,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 4.3,
-        "shipping_order_usd": 8.6,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 4.31,
+        "shipping_order_usd": 8.62,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 6.89,
-        "landed_cost_ddu_usd": 6.89,
-        "landed_cost_ddp_usd": 6.55,
+        "landed_cost_usd": 6.91,
+        "landed_cost_ddu_usd": 6.91,
+        "landed_cost_ddp_usd": 6.57,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.03,
+        "breakeven_usd": 7.05,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -2.03,
+          "profit": -2.04,
           "margin_pct": -40.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.81,
-          "margin_pct": 52.1
+          "profit": 7.79,
+          "margin_pct": 51.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 15.15,
-          "margin_pct": 67.4
+          "profit": 15.13,
+          "margin_pct": 67.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1494,18 +1494,18 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.48,
-        "landed_cost_ddu_usd": 7.48,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 7.5,
+        "landed_cost_ddu_usd": 7.5,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.63,
+        "breakeven_usd": 7.65,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.62,
           "margin_pct": 7.5
@@ -1513,14 +1513,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.22,
-          "margin_pct": 48.1
+          "profit": 7.2,
+          "margin_pct": 48.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.56,
-          "margin_pct": 64.7
+          "profit": 14.54,
+          "margin_pct": 64.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1528,8 +1528,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 18.97,
-          "margin_pct": 70.3
+          "profit": 18.95,
+          "margin_pct": 70.2
         }
       }
     ]
@@ -1546,33 +1546,33 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.91,
-        "landed_cost_ddu_usd": 8.91,
-        "landed_cost_ddp_usd": 8.57,
+        "landed_cost_usd": 8.94,
+        "landed_cost_ddu_usd": 8.94,
+        "landed_cost_ddp_usd": 8.6,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.09,
+        "breakeven_usd": 9.12,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -4.05,
+          "profit": -4.06,
           "margin_pct": -81.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 5.79,
-          "margin_pct": 38.6
+          "profit": 5.76,
+          "margin_pct": 38.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.13,
-          "margin_pct": 58.4
+          "profit": 13.1,
+          "margin_pct": 58.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.99,
@@ -1580,8 +1580,8 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 15.58,
-          "margin_pct": 62.3
+          "profit": 15.55,
+          "margin_pct": 62.2
         }
       },
       {
@@ -1594,33 +1594,33 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -1628,8 +1628,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 9.13,
-          "margin_pct": 45.2
+          "profit": 9.1,
+          "margin_pct": 45.1
         }
       },
       {
@@ -1642,33 +1642,33 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1685,33 +1685,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.4,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 11.43,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.63,
+        "breakeven_usd": 11.66,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -3.3,
+          "profit": -3.31,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.3,
-          "margin_pct": 22.0
+          "profit": 3.27,
+          "margin_pct": 21.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.64,
-          "margin_pct": 47.3
+          "profit": 10.61,
+          "margin_pct": 47.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -1719,8 +1719,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 21.31,
-          "margin_pct": 63.9
+          "profit": 21.28,
+          "margin_pct": 63.8
         }
       },
       {
@@ -1733,33 +1733,33 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.4,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 11.43,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.63,
+        "breakeven_usd": 11.66,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -3.3,
+          "profit": -3.31,
           "margin_pct": -39.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.3,
-          "margin_pct": 22.0
+          "profit": 3.27,
+          "margin_pct": 21.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.64,
-          "margin_pct": 47.3
+          "profit": 10.61,
+          "margin_pct": 47.2
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1776,33 +1776,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 9.67,
-        "landed_cost_ddu_usd": 9.67,
-        "landed_cost_ddp_usd": 9.33,
+        "landed_cost_usd": 9.7,
+        "landed_cost_ddu_usd": 9.7,
+        "landed_cost_ddp_usd": 9.36,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.87,
+        "breakeven_usd": 9.9,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -4.81,
+          "profit": -4.82,
           "margin_pct": -97.0
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 5.03,
-          "margin_pct": 33.5
+          "profit": 5.0,
+          "margin_pct": 33.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 12.37,
-          "margin_pct": 55.0
+          "profit": 12.34,
+          "margin_pct": 54.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1819,33 +1819,33 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.64,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.67,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 10.86,
+        "breakeven_usd": 10.89,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": -2.54,
+          "profit": -2.55,
           "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.06,
-          "margin_pct": 27.1
+          "profit": 4.03,
+          "margin_pct": 26.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.4,
-          "margin_pct": 50.7
+          "profit": 11.37,
+          "margin_pct": 50.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1853,8 +1853,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 15.81,
-          "margin_pct": 58.6
+          "profit": 15.78,
+          "margin_pct": 58.5
         }
       }
     ],
@@ -1869,18 +1869,18 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.75,
-        "landed_cost_ddu_usd": 5.75,
-        "landed_cost_ddp_usd": 5.41,
+        "landed_cost_usd": 5.77,
+        "landed_cost_ddu_usd": 5.77,
+        "landed_cost_ddp_usd": 5.43,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.87,
+        "breakeven_usd": 5.89,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
           "profit": -0.89,
           "margin_pct": -18.0
@@ -1888,13 +1888,13 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 8.95,
-          "margin_pct": 59.7
+          "profit": 8.93,
+          "margin_pct": 59.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 16.29,
+          "profit": 16.27,
           "margin_pct": 72.4
         },
         "market_price_source": "serpapi_google_shopping",
@@ -1903,8 +1903,8 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 18.74,
-          "margin_pct": 75.0
+          "profit": 18.72,
+          "margin_pct": 74.9
         }
       },
       {
@@ -1917,18 +1917,18 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.86,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.88,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.02,
+        "breakeven_usd": 8.04,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.24,
           "margin_pct": 2.9
@@ -1936,14 +1936,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.84,
-          "margin_pct": 45.6
+          "profit": 6.82,
+          "margin_pct": 45.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.18,
-          "margin_pct": 63.1
+          "profit": 14.16,
+          "margin_pct": 63.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -1951,8 +1951,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 11.91,
-          "margin_pct": 59.0
+          "profit": 11.89,
+          "margin_pct": 58.9
         }
       },
       {
@@ -1965,18 +1965,18 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.86,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.88,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.02,
+        "breakeven_usd": 8.04,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.24,
           "margin_pct": 2.9
@@ -1984,14 +1984,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.84,
-          "margin_pct": 45.6
+          "profit": 6.82,
+          "margin_pct": 45.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.18,
-          "margin_pct": 63.1
+          "profit": 14.16,
+          "margin_pct": 63.0
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2008,18 +2008,18 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.24,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 8.26,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
+        "breakeven_usd": 8.43,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -0.14,
           "margin_pct": -1.7
@@ -2027,14 +2027,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.46,
-          "margin_pct": 43.1
+          "profit": 6.44,
+          "margin_pct": 42.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.8,
-          "margin_pct": 61.4
+          "profit": 13.78,
+          "margin_pct": 61.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -2042,8 +2042,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 24.47,
-          "margin_pct": 73.3
+          "profit": 24.45,
+          "margin_pct": 73.2
         }
       },
       {
@@ -2056,18 +2056,18 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.24,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 8.26,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.41,
+        "breakeven_usd": 8.43,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -0.14,
           "margin_pct": -1.7
@@ -2075,14 +2075,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.46,
-          "margin_pct": 43.1
+          "profit": 6.44,
+          "margin_pct": 42.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.8,
-          "margin_pct": 61.4
+          "profit": 13.78,
+          "margin_pct": 61.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2099,33 +2099,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 4.3,
-        "shipping_order_usd": 8.6,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 4.31,
+        "shipping_order_usd": 8.62,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 6.89,
-        "landed_cost_ddu_usd": 6.89,
-        "landed_cost_ddp_usd": 6.55,
+        "landed_cost_usd": 6.91,
+        "landed_cost_ddu_usd": 6.91,
+        "landed_cost_ddp_usd": 6.57,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.03,
+        "breakeven_usd": 7.05,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -2.03,
+          "profit": -2.04,
           "margin_pct": -40.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.81,
-          "margin_pct": 52.1
+          "profit": 7.79,
+          "margin_pct": 51.9
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 15.15,
-          "margin_pct": 67.4
+          "profit": 15.13,
+          "margin_pct": 67.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2142,18 +2142,18 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.48,
-        "landed_cost_ddu_usd": 7.48,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 7.5,
+        "landed_cost_ddu_usd": 7.5,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.63,
+        "breakeven_usd": 7.65,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": 0.62,
           "margin_pct": 7.5
@@ -2161,14 +2161,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.22,
-          "margin_pct": 48.1
+          "profit": 7.2,
+          "margin_pct": 48.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.56,
-          "margin_pct": 64.7
+          "profit": 14.54,
+          "margin_pct": 64.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -2176,8 +2176,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 18.97,
-          "margin_pct": 70.3
+          "profit": 18.95,
+          "margin_pct": 70.2
         }
       }
     ],
@@ -2192,33 +2192,33 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.57,
-        "landed_cost_ddu_usd": 8.91,
-        "landed_cost_ddp_usd": 8.57,
+        "landed_cost_usd": 8.6,
+        "landed_cost_ddu_usd": 8.94,
+        "landed_cost_ddp_usd": 8.6,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.75,
+        "breakeven_usd": 8.77,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -3.71,
+          "profit": -3.72,
           "margin_pct": -74.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.13,
-          "margin_pct": 40.8
+          "profit": 6.1,
+          "margin_pct": 40.7
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.47,
-          "margin_pct": 59.9
+          "profit": 13.44,
+          "margin_pct": 59.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.99,
@@ -2226,8 +2226,8 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 15.92,
-          "margin_pct": 63.7
+          "profit": 15.89,
+          "margin_pct": 63.6
         }
       },
       {
@@ -2240,18 +2240,18 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.08,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.1,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.28,
+        "breakeven_usd": 10.31,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -1.98,
           "margin_pct": -23.9
@@ -2259,14 +2259,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.62,
-          "margin_pct": 30.8
+          "profit": 4.6,
+          "margin_pct": 30.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.96,
-          "margin_pct": 53.2
+          "profit": 11.94,
+          "margin_pct": 53.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -2274,8 +2274,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 9.69,
-          "margin_pct": 48.0
+          "profit": 9.66,
+          "margin_pct": 47.9
         }
       },
       {
@@ -2288,18 +2288,18 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.08,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.1,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.28,
+        "breakeven_usd": 10.31,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -1.98,
           "margin_pct": -23.9
@@ -2307,14 +2307,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.62,
-          "margin_pct": 30.8
+          "profit": 4.6,
+          "margin_pct": 30.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.96,
-          "margin_pct": 53.2
+          "profit": 11.94,
+          "margin_pct": 53.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2331,18 +2331,18 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.84,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 10.87,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.06,
+        "breakeven_usd": 11.09,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -2.74,
           "margin_pct": -33.1
@@ -2350,14 +2350,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.86,
-          "margin_pct": 25.8
+          "profit": 3.83,
+          "margin_pct": 25.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.2,
-          "margin_pct": 49.8
+          "profit": 11.17,
+          "margin_pct": 49.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -2365,8 +2365,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 21.88,
-          "margin_pct": 65.5
+          "profit": 21.85,
+          "margin_pct": 65.4
         }
       },
       {
@@ -2379,18 +2379,18 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.84,
-        "landed_cost_ddu_usd": 11.4,
-        "landed_cost_ddp_usd": 10.84,
+        "landed_cost_usd": 10.87,
+        "landed_cost_ddu_usd": 11.43,
+        "landed_cost_ddp_usd": 10.87,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.06,
+        "breakeven_usd": 11.09,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -2.74,
           "margin_pct": -33.1
@@ -2398,14 +2398,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.86,
-          "margin_pct": 25.8
+          "profit": 3.83,
+          "margin_pct": 25.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.2,
-          "margin_pct": 49.8
+          "profit": 11.17,
+          "margin_pct": 49.7
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2422,33 +2422,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 7.08,
-        "shipping_order_usd": 7.08,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 7.1,
+        "shipping_order_usd": 7.1,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.33,
-        "landed_cost_ddu_usd": 9.67,
-        "landed_cost_ddp_usd": 9.33,
+        "landed_cost_usd": 9.36,
+        "landed_cost_ddu_usd": 9.7,
+        "landed_cost_ddp_usd": 9.36,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.52,
+        "breakeven_usd": 9.55,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -4.47,
+          "profit": -4.48,
           "margin_pct": -90.2
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 5.37,
-          "margin_pct": 35.8
+          "profit": 5.34,
+          "margin_pct": 35.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 12.71,
-          "margin_pct": 56.5
+          "profit": 12.68,
+          "margin_pct": 56.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2465,18 +2465,18 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 6.32,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 6.34,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.08,
-        "landed_cost_ddu_usd": 10.64,
-        "landed_cost_ddp_usd": 10.08,
+        "landed_cost_usd": 10.1,
+        "landed_cost_ddu_usd": 10.67,
+        "landed_cost_ddp_usd": 10.1,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.28,
+        "breakeven_usd": 10.31,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
           "profit": -1.98,
           "margin_pct": -23.9
@@ -2484,14 +2484,14 @@
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 4.62,
-          "margin_pct": 30.8
+          "profit": 4.6,
+          "margin_pct": 30.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.96,
-          "margin_pct": 53.2
+          "profit": 11.94,
+          "margin_pct": 53.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -2499,8 +2499,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 16.37,
-          "margin_pct": 60.7
+          "profit": 16.35,
+          "margin_pct": 60.6
         }
       }
     ],
@@ -2515,32 +2515,32 @@
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.41,
-        "landed_cost_ddu_usd": 5.75,
-        "landed_cost_ddp_usd": 5.41,
+        "landed_cost_usd": 5.43,
+        "landed_cost_ddu_usd": 5.77,
+        "landed_cost_ddp_usd": 5.43,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.52,
+        "breakeven_usd": 5.54,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -0.55,
+          "profit": -0.56,
           "margin_pct": -11.2
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 9.29,
-          "margin_pct": 61.9
+          "profit": 9.27,
+          "margin_pct": 61.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 16.63,
+          "profit": 16.61,
           "margin_pct": 73.9
         },
         "market_price_source": "serpapi_google_shopping",
@@ -2549,7 +2549,7 @@
         "at_product_market": {
           "sell": 24.99,
           "fee": 0.5,
-          "profit": 19.08,
+          "profit": 19.06,
           "margin_pct": 76.3
         }
       },
@@ -2563,33 +2563,33 @@
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.3,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.32,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.45,
+        "breakeven_usd": 7.47,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": 0.8,
+          "profit": 0.81,
           "margin_pct": 9.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.4,
-          "margin_pct": 49.4
+          "profit": 7.38,
+          "margin_pct": 49.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.74,
-          "margin_pct": 65.6
+          "profit": 14.72,
+          "margin_pct": 65.5
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 20.17,
@@ -2597,8 +2597,8 @@
         "at_product_market": {
           "sell": 20.17,
           "fee": 0.4,
-          "profit": 12.47,
-          "margin_pct": 61.8
+          "profit": 12.45,
+          "margin_pct": 61.7
         }
       },
       {
@@ -2611,33 +2611,33 @@
         "weight_note": "고시 용량 50mg + 10ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.54,
-        "shipping_order_usd": 7.08,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.55,
+        "shipping_order_usd": 7.1,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.3,
-        "landed_cost_ddu_usd": 7.86,
-        "landed_cost_ddp_usd": 7.3,
+        "landed_cost_usd": 7.32,
+        "landed_cost_ddu_usd": 7.88,
+        "landed_cost_ddp_usd": 7.32,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.45,
+        "breakeven_usd": 7.47,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": 0.8,
+          "profit": 0.81,
           "margin_pct": 9.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.4,
-          "margin_pct": 49.4
+          "profit": 7.38,
+          "margin_pct": 49.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.74,
-          "margin_pct": 65.6
+          "profit": 14.72,
+          "margin_pct": 65.5
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2654,33 +2654,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.68,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 7.7,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.83,
+        "breakeven_usd": 7.85,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": 0.42,
+          "profit": 0.43,
           "margin_pct": 5.1
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.02,
-          "margin_pct": 46.8
+          "profit": 7.0,
+          "margin_pct": 46.7
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.36,
-          "margin_pct": 63.9
+          "profit": 14.34,
+          "margin_pct": 63.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 33.38,
@@ -2688,8 +2688,8 @@
         "at_product_market": {
           "sell": 33.38,
           "fee": 0.67,
-          "profit": 25.04,
-          "margin_pct": 75.0
+          "profit": 25.02,
+          "margin_pct": 74.9
         }
       },
       {
@@ -2702,33 +2702,33 @@
         "weight_note": "고시 용량 55ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.92,
-        "shipping_order_usd": 7.84,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.93,
+        "shipping_order_usd": 7.86,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.68,
-        "landed_cost_ddu_usd": 8.24,
-        "landed_cost_ddp_usd": 7.68,
+        "landed_cost_usd": 7.7,
+        "landed_cost_ddu_usd": 8.26,
+        "landed_cost_ddp_usd": 7.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.83,
+        "breakeven_usd": 7.85,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": 0.42,
+          "profit": 0.43,
           "margin_pct": 5.1
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.02,
-          "margin_pct": 46.8
+          "profit": 7.0,
+          "margin_pct": 46.7
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.36,
-          "margin_pct": 63.9
+          "profit": 14.34,
+          "margin_pct": 63.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2745,33 +2745,33 @@
         "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
         "weigh_needed": true,
-        "unit_cost_usd": 2.25,
-        "shipping_unit_usd": 4.3,
-        "shipping_order_usd": 8.6,
+        "unit_cost_usd": 2.26,
+        "shipping_unit_usd": 4.31,
+        "shipping_order_usd": 8.62,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 6.55,
-        "landed_cost_ddu_usd": 6.89,
-        "landed_cost_ddp_usd": 6.55,
+        "landed_cost_usd": 6.57,
+        "landed_cost_ddu_usd": 6.91,
+        "landed_cost_ddp_usd": 6.57,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 6.69,
+        "breakeven_usd": 6.7,
         "at_2_2x": {
-          "sell": 4.96,
+          "sell": 4.97,
           "fee": 0.1,
-          "profit": -1.69,
+          "profit": -1.7,
           "margin_pct": -34.1
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 8.15,
-          "margin_pct": 54.3
+          "profit": 8.13,
+          "margin_pct": 54.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 15.49,
-          "margin_pct": 68.9
+          "profit": 15.47,
+          "margin_pct": 68.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2788,32 +2788,32 @@
         "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.76,
-        "shipping_unit_usd": 3.16,
-        "shipping_order_usd": 6.32,
-        "tariff_usd": 0.56,
+        "unit_cost_usd": 3.77,
+        "shipping_unit_usd": 3.17,
+        "shipping_order_usd": 6.34,
+        "tariff_usd": 0.57,
         "duty_mode": "ddp",
-        "landed_cost_usd": 6.92,
-        "landed_cost_ddu_usd": 7.48,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 6.94,
+        "landed_cost_ddu_usd": 7.5,
+        "landed_cost_ddp_usd": 6.94,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.06,
+        "breakeven_usd": 7.08,
         "at_2_2x": {
-          "sell": 8.27,
+          "sell": 8.29,
           "fee": 0.17,
-          "profit": 1.18,
+          "profit": 1.19,
           "margin_pct": 14.3
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 7.78,
-          "margin_pct": 51.9
+          "profit": 7.76,
+          "margin_pct": 51.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 15.12,
+          "profit": 15.1,
           "margin_pct": 67.2
         },
         "market_price_source": "serpapi_google_shopping",
@@ -2822,8 +2822,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 19.53,
-          "margin_pct": 72.4
+          "profit": 19.51,
+          "margin_pct": 72.3
         }
       }
     ]

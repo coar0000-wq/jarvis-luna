@@ -249,17 +249,6 @@
       "replacement_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
     },
     {
-      "path": "data/daiso_real/collection_status.json",
-      "base_sha256": "d51e43e8a44dc19241e66f0514fbbf0974af7a3354b2bc1eb54a10cd1d213956",
-      "ids": [
-        "Frankfurter API 1,332.10(2026-10-16)",
-        "exchangerate-api 1,333.60(2026-10-19)"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/daiso_real/desk_catalog.json",
       "base_sha256": "e4509d8da059dd37032506f30fe6b05baa2ad6d3e87e291375cde11fb2ee4861",
       "ids": [
@@ -537,6 +526,17 @@
         "https://www.youtube.com/watch?v=jUxSAGCaJIU",
         "https://www.youtube.com/watch?v=uorQJ_ucDhg",
         "https://www.youtube.com/watch?v=wDV5SH16QCI"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "4aa533862f0c244d6379da743065cf7b865498eca2b4a4f519e141e39971068f",
+      "ids": [
+        "Frankfurter API 1,329.49(2026-10-19)",
+        "exchangerate-api 1,330.79(2026-10-20)"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

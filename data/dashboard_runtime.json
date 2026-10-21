@@ -1,14 +1,14 @@
 {
   "agents_ops": {
-    "at": "2026-10-20T23:44:10.726832+00:00",
+    "at": "2026-10-21T00:25:00.158793+00:00",
     "risk": "medium",
     "task_count": 5
   },
   "automation_freshness": {
     "collection": {
-      "attempt_age_hours": 23.597,
+      "attempt_age_hours": 24.277,
       "attempt_stale": false,
-      "candidate_success_age_hours": 23.597,
+      "candidate_success_age_hours": 24.277,
       "candidates_new": 91,
       "candidates_updated": 0,
       "data_stale": true,
@@ -21,7 +21,7 @@
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "status": "success",
-      "success_age_hours": 526.919
+      "success_age_hours": 527.599
     },
     "daiso_pipeline": {
       "failed_workflow_history": [
@@ -1639,9 +1639,9 @@
         "max_created_start_inversion_seconds": 1
       },
       "operating_staleness": {
-        "attempt_age_hours": 23.597,
+        "attempt_age_hours": 24.277,
         "attempt_stale": false,
-        "candidate_success_age_hours": 23.597,
+        "candidate_success_age_hours": 24.277,
         "candidates_new": 91,
         "candidates_updated": 0,
         "data_stale": true,
@@ -1654,7 +1654,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 526.919
+        "success_age_hours": 527.599
       },
       "public_authority": false,
       "schema_version": 1,
@@ -1690,13 +1690,13 @@
       "status": "unverified"
     },
     "heartbeat": {
-      "age_hours": 419.819,
+      "age_hours": 420.499,
       "delayed": true,
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
-      "reason": "SafeAutoFix heartbeat 지연 (419.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (420.5시간)",
       "status": "warning"
     },
     "workflow_observation_fresh": true,
@@ -2317,7 +2317,7 @@
     }
   },
   "beauty_category_teams": {
-    "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+    "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
     "canonical_team_ids": [
       "sourcing",
       "institutions",
@@ -3825,11 +3825,11 @@
     "generator": "scripts/beauty_category_teams.py",
     "input_coverage": {
       "beauty_strategy": {
-        "document_generated_at": "2026-10-20T23:43:10.727113Z",
+        "document_generated_at": "2026-10-21T00:23:59.078363Z",
         "error": null,
         "loaded": true,
         "path": "data/beauty_price_strategy.json",
-        "semantic_sha256": "db7d06798dfba304f205e0ff3a01b65394043e91c69fffe08dc81a4c5146c492",
+        "semantic_sha256": "f589aa139eb13aaccaef83f23b5a45708a6937198f6ad523882dafbd2ec115af",
         "source_observed_at": null
       },
       "candidate_comparison": {
@@ -3849,19 +3849,19 @@
         "source_observed_at": null
       },
       "demand_score": {
-        "document_generated_at": "2026-10-20T23:43:09.276718+00:00",
+        "document_generated_at": "2026-10-21T00:23:57.567059+00:00",
         "error": null,
         "loaded": true,
         "path": "data/daiso_real/shopify_demand_score.json",
-        "semantic_sha256": "00a0fdeadf969884026872dc77aebce9331cbe6453736513b1de10f0fa78c421",
+        "semantic_sha256": "eeaa043cc0b04e15a6b29eb492cd2f8ef869825a84298bdc7a7b235d80397090",
         "source_observed_at": null
       },
       "listing_gate": {
-        "document_generated_at": "2026-10-20T23:43:10.133030+00:00",
+        "document_generated_at": "2026-10-21T00:23:58.406807+00:00",
         "error": null,
         "loaded": true,
         "path": "data/listing_gate.json",
-        "semantic_sha256": "0e7b50e94d313836bf534b893395935f57f29c8b4409ca93342cbe3b83a18b48",
+        "semantic_sha256": "1b880512ad3ac18e425f51258a2a55097c70a45e2b6803cb40d1fc466ee4b496",
         "source_observed_at": null
       },
       "registry": {
@@ -3891,7 +3891,7 @@
         "allowed_grades": [
           "S"
         ],
-        "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+        "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
         "analysis_proof": {
           "analyzed_pd_nos": [
             "1004477",
@@ -3958,14 +3958,14 @@
             "B202605202245"
           ],
           "clock_source": "caller_supplied_as_of",
-          "executed_at": "2026-10-20T23:44:09.730931Z",
+          "executed_at": "2026-10-21T00:24:59.106757Z",
           "human_activity_verified": false,
           "input_sha256": {
-            "beauty_strategy": "db7d06798dfba304f205e0ff3a01b65394043e91c69fffe08dc81a4c5146c492",
+            "beauty_strategy": "f589aa139eb13aaccaef83f23b5a45708a6937198f6ad523882dafbd2ec115af",
             "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
             "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-            "demand_score": "00a0fdeadf969884026872dc77aebce9331cbe6453736513b1de10f0fa78c421",
-            "listing_gate": "0e7b50e94d313836bf534b893395935f57f29c8b4409ca93342cbe3b83a18b48",
+            "demand_score": "eeaa043cc0b04e15a6b29eb492cd2f8ef869825a84298bdc7a7b235d80397090",
+            "listing_gate": "1b880512ad3ac18e425f51258a2a55097c70a45e2b6803cb40d1fc466ee4b496",
             "registry": "c19d7e2608a1463b584aee0e18e8f3111f3088115ea1722febd35c646be3d07a"
           },
           "operation": "local_category_queue_analysis",
@@ -13011,7 +13011,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13050,7 +13050,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13089,7 +13089,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13128,7 +13128,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13167,7 +13167,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13206,7 +13206,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13256,7 +13256,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13295,7 +13295,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13334,7 +13334,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13373,7 +13373,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13412,7 +13412,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13451,7 +13451,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13490,7 +13490,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13529,7 +13529,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13568,7 +13568,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13618,7 +13618,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13657,7 +13657,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13707,7 +13707,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13746,7 +13746,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13785,7 +13785,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13824,7 +13824,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13863,7 +13863,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13902,7 +13902,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13941,7 +13941,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -13991,7 +13991,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14030,7 +14030,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14080,7 +14080,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14119,7 +14119,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14158,7 +14158,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14208,7 +14208,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14247,7 +14247,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14286,7 +14286,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14325,7 +14325,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14364,7 +14364,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14414,7 +14414,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14453,7 +14453,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14503,7 +14503,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14542,7 +14542,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14592,7 +14592,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14631,7 +14631,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14670,7 +14670,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14709,7 +14709,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14759,7 +14759,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14798,7 +14798,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14837,7 +14837,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14876,7 +14876,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14915,7 +14915,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14954,7 +14954,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -14993,7 +14993,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15032,7 +15032,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15071,7 +15071,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15110,7 +15110,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15149,7 +15149,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15188,7 +15188,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15227,7 +15227,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15266,7 +15266,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15305,7 +15305,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15344,7 +15344,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15383,7 +15383,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15422,7 +15422,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15461,7 +15461,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15500,7 +15500,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -15541,7 +15541,7 @@
         "allowed_grades": [
           "S"
         ],
-        "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+        "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
         "analysis_proof": {
           "analyzed_pd_nos": [
             "1018012",
@@ -15663,14 +15663,14 @@
             "B202604026401"
           ],
           "clock_source": "caller_supplied_as_of",
-          "executed_at": "2026-10-20T23:44:09.730931Z",
+          "executed_at": "2026-10-21T00:24:59.106757Z",
           "human_activity_verified": false,
           "input_sha256": {
-            "beauty_strategy": "db7d06798dfba304f205e0ff3a01b65394043e91c69fffe08dc81a4c5146c492",
+            "beauty_strategy": "f589aa139eb13aaccaef83f23b5a45708a6937198f6ad523882dafbd2ec115af",
             "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
             "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-            "demand_score": "00a0fdeadf969884026872dc77aebce9331cbe6453736513b1de10f0fa78c421",
-            "listing_gate": "0e7b50e94d313836bf534b893395935f57f29c8b4409ca93342cbe3b83a18b48",
+            "demand_score": "eeaa043cc0b04e15a6b29eb492cd2f8ef869825a84298bdc7a7b235d80397090",
+            "listing_gate": "1b880512ad3ac18e425f51258a2a55097c70a45e2b6803cb40d1fc466ee4b496",
             "registry": "c19d7e2608a1463b584aee0e18e8f3111f3088115ea1722febd35c646be3d07a"
           },
           "operation": "local_category_queue_analysis",
@@ -32760,7 +32760,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "copy",
               "legal",
@@ -32842,7 +32842,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -32881,7 +32881,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -32920,7 +32920,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -32959,7 +32959,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -32998,7 +32998,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33037,7 +33037,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33087,7 +33087,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33126,7 +33126,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33165,7 +33165,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33204,7 +33204,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33254,7 +33254,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33293,7 +33293,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33332,7 +33332,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33371,7 +33371,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33421,7 +33421,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33460,7 +33460,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33510,7 +33510,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33560,7 +33560,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33610,7 +33610,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33649,7 +33649,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33688,7 +33688,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33727,7 +33727,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33766,7 +33766,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33805,7 +33805,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33844,7 +33844,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33883,7 +33883,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33922,7 +33922,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -33961,7 +33961,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34000,7 +34000,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34039,7 +34039,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34078,7 +34078,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34117,7 +34117,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34167,7 +34167,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34206,7 +34206,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34245,7 +34245,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34284,7 +34284,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34334,7 +34334,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34384,7 +34384,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34434,7 +34434,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34473,7 +34473,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34512,7 +34512,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34551,7 +34551,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34590,7 +34590,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34640,7 +34640,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34690,7 +34690,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34729,7 +34729,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34779,7 +34779,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34829,7 +34829,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34868,7 +34868,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34907,7 +34907,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34946,7 +34946,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -34985,7 +34985,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35024,7 +35024,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35074,7 +35074,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35113,7 +35113,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35152,7 +35152,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35191,7 +35191,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35230,7 +35230,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35269,7 +35269,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35308,7 +35308,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35347,7 +35347,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35397,7 +35397,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35447,7 +35447,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35486,7 +35486,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35536,7 +35536,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35575,7 +35575,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35614,7 +35614,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35653,7 +35653,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35692,7 +35692,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35731,7 +35731,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35770,7 +35770,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35809,7 +35809,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35848,7 +35848,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35898,7 +35898,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35948,7 +35948,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -35998,7 +35998,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36037,7 +36037,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36076,7 +36076,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36115,7 +36115,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36154,7 +36154,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36193,7 +36193,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36232,7 +36232,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36282,7 +36282,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36321,7 +36321,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36360,7 +36360,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36399,7 +36399,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36438,7 +36438,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36477,7 +36477,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36516,7 +36516,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36555,7 +36555,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36594,7 +36594,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36644,7 +36644,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36683,7 +36683,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36722,7 +36722,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36761,7 +36761,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36800,7 +36800,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36839,7 +36839,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36878,7 +36878,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36917,7 +36917,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36956,7 +36956,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -36995,7 +36995,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37034,7 +37034,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37073,7 +37073,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37112,7 +37112,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37151,7 +37151,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37190,7 +37190,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37229,7 +37229,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37268,7 +37268,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37307,7 +37307,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37346,7 +37346,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37385,7 +37385,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37424,7 +37424,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37463,7 +37463,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37502,7 +37502,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37541,7 +37541,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37580,7 +37580,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -37621,7 +37621,7 @@
         "allowed_grades": [
           "S"
         ],
-        "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+        "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
         "analysis_proof": {
           "analyzed_pd_nos": [
             "1010709",
@@ -37790,14 +37790,14 @@
             "B202609229069"
           ],
           "clock_source": "caller_supplied_as_of",
-          "executed_at": "2026-10-20T23:44:09.730931Z",
+          "executed_at": "2026-10-21T00:24:59.106757Z",
           "human_activity_verified": false,
           "input_sha256": {
-            "beauty_strategy": "db7d06798dfba304f205e0ff3a01b65394043e91c69fffe08dc81a4c5146c492",
+            "beauty_strategy": "f589aa139eb13aaccaef83f23b5a45708a6937198f6ad523882dafbd2ec115af",
             "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
             "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-            "demand_score": "00a0fdeadf969884026872dc77aebce9331cbe6453736513b1de10f0fa78c421",
-            "listing_gate": "0e7b50e94d313836bf534b893395935f57f29c8b4409ca93342cbe3b83a18b48",
+            "demand_score": "eeaa043cc0b04e15a6b29eb492cd2f8ef869825a84298bdc7a7b235d80397090",
+            "listing_gate": "1b880512ad3ac18e425f51258a2a55097c70a45e2b6803cb40d1fc466ee4b496",
             "registry": "c19d7e2608a1463b584aee0e18e8f3111f3088115ea1722febd35c646be3d07a"
           },
           "operation": "local_category_queue_analysis",
@@ -61799,7 +61799,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "copy",
               "legal",
@@ -61855,7 +61855,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "copy",
               "gosi",
@@ -61939,7 +61939,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -61978,7 +61978,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62028,7 +62028,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62067,7 +62067,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62106,7 +62106,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62145,7 +62145,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62184,7 +62184,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62223,7 +62223,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62262,7 +62262,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62301,7 +62301,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62340,7 +62340,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62379,7 +62379,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62418,7 +62418,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62457,7 +62457,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62507,7 +62507,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62557,7 +62557,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62607,7 +62607,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62657,7 +62657,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62707,7 +62707,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62746,7 +62746,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62785,7 +62785,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62824,7 +62824,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62863,7 +62863,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62913,7 +62913,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -62963,7 +62963,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63002,7 +63002,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63052,7 +63052,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63091,7 +63091,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63130,7 +63130,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63169,7 +63169,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63219,7 +63219,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63258,7 +63258,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63308,7 +63308,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63347,7 +63347,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63397,7 +63397,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63436,7 +63436,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63486,7 +63486,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63536,7 +63536,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63575,7 +63575,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63625,7 +63625,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63664,7 +63664,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63714,7 +63714,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63764,7 +63764,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63814,7 +63814,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63853,7 +63853,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63892,7 +63892,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63942,7 +63942,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -63981,7 +63981,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64031,7 +64031,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64070,7 +64070,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64109,7 +64109,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64148,7 +64148,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64187,7 +64187,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64226,7 +64226,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64265,7 +64265,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64304,7 +64304,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64343,7 +64343,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64393,7 +64393,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64443,7 +64443,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64482,7 +64482,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64521,7 +64521,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64571,7 +64571,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64610,7 +64610,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64660,7 +64660,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64699,7 +64699,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64749,7 +64749,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64799,7 +64799,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64838,7 +64838,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64877,7 +64877,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64927,7 +64927,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -64977,7 +64977,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65027,7 +65027,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65077,7 +65077,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65127,7 +65127,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65166,7 +65166,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65205,7 +65205,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65244,7 +65244,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65294,7 +65294,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65344,7 +65344,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65394,7 +65394,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65433,7 +65433,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65483,7 +65483,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65522,7 +65522,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65572,7 +65572,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65622,7 +65622,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65661,7 +65661,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65700,7 +65700,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65750,7 +65750,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65800,7 +65800,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65850,7 +65850,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65900,7 +65900,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65950,7 +65950,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -65989,7 +65989,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66028,7 +66028,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66067,7 +66067,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66117,7 +66117,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66156,7 +66156,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66195,7 +66195,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66234,7 +66234,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66284,7 +66284,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66323,7 +66323,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66362,7 +66362,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66412,7 +66412,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66451,7 +66451,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66501,7 +66501,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66540,7 +66540,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66590,7 +66590,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66629,7 +66629,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66668,7 +66668,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66707,7 +66707,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66757,7 +66757,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66796,7 +66796,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66835,7 +66835,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66885,7 +66885,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66924,7 +66924,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -66963,7 +66963,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67002,7 +67002,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67041,7 +67041,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67080,7 +67080,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67119,7 +67119,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67158,7 +67158,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67197,7 +67197,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67236,7 +67236,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67286,7 +67286,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67336,7 +67336,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67386,7 +67386,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67436,7 +67436,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67486,7 +67486,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67525,7 +67525,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67575,7 +67575,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67625,7 +67625,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67675,7 +67675,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67725,7 +67725,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67775,7 +67775,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67825,7 +67825,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67875,7 +67875,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67925,7 +67925,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -67975,7 +67975,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68025,7 +68025,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68075,7 +68075,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68125,7 +68125,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68175,7 +68175,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68225,7 +68225,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68275,7 +68275,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68325,7 +68325,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68375,7 +68375,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68425,7 +68425,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68464,7 +68464,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68514,7 +68514,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68553,7 +68553,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68603,7 +68603,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68642,7 +68642,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68692,7 +68692,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68731,7 +68731,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68770,7 +68770,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68820,7 +68820,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68859,7 +68859,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68909,7 +68909,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -68959,7 +68959,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -69009,7 +69009,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -69059,7 +69059,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -69109,7 +69109,7 @@
               "status": "UNKNOWN",
               "units": null
             },
-            "analysis_executed_at": "2026-10-20T23:44:09.730931Z",
+            "analysis_executed_at": "2026-10-21T00:24:59.106757Z",
             "blockers": [
               "canonical_S_required",
               "legal_full_required",
@@ -69148,14 +69148,14 @@
     }
   },
   "brain_dataset": {
-    "archived_file_count": 1922,
+    "archived_file_count": 1933,
     "coverage": "filtered structured dataset archive/readback preprocessor",
     "downstream_direct_vault_consumption_verified": false,
     "input_read_from_vault": true,
     "path_excluded_count": 124,
     "scan_truncated": false,
     "source_rejected_count": 2,
-    "write_at": "2026-10-20T23:43:53.488754+00:00"
+    "write_at": "2026-10-21T00:24:42.167307+00:00"
   },
   "brain_flow": {
     "local_only": true,
@@ -69165,7 +69165,7 @@
       "runtime": {
         "schema_version": 1,
         "team": "runtime",
-        "completed_at": "2026-10-20T23:44:07.267982+00:00",
+        "completed_at": "2026-10-21T00:24:56.480646+00:00",
         "input_read_from_vault": true,
         "output_stored": true,
         "input_count": 43,
@@ -69180,7 +69180,7 @@
       "agents": {
         "schema_version": 1,
         "team": "agents",
-        "completed_at": "2026-10-20T23:44:11.105944+00:00",
+        "completed_at": "2026-10-21T00:25:00.565135+00:00",
         "input_read_from_vault": true,
         "output_stored": true,
         "input_count": 9,
@@ -69195,7 +69195,7 @@
       "operations": {
         "schema_version": 1,
         "team": "operations",
-        "completed_at": "2026-10-21T00:05:37.501294+00:00",
+        "completed_at": "2026-10-21T00:46:42.272133+00:00",
         "input_read_from_vault": true,
         "output_stored": true,
         "input_count": 8,
@@ -97634,25 +97634,25 @@
   },
   "cumulative": {
     "added_this_run": {
-      "links": 102,
-      "notes": 51,
+      "links": 22,
+      "notes": 11,
       "records": 0
     },
     "current_snapshot": {
-      "links": 11288,
-      "notes": 87939,
+      "links": 11310,
+      "notes": 87950,
       "records": 7987
     },
     "prior_totals": {
-      "links": 481366,
-      "notes": 136772,
-      "records": 7987
-    },
-    "runs_recorded": 265,
-    "since": "2026-08-23T05:21:53.378147+00:00",
-    "totals": {
       "links": 481468,
       "notes": 136823,
+      "records": 7987
+    },
+    "runs_recorded": 266,
+    "since": "2026-08-23T05:21:53.378147+00:00",
+    "totals": {
+      "links": 481490,
+      "notes": 136834,
       "records": 7987
     }
   },
@@ -97747,7 +97747,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-10-03"
   },
-  "generated_at": "2026-10-21T08:44:05.845622+09:00",
+  "generated_at": "2026-10-21T09:24:55.034851+09:00",
   "global_channels": {
     "allure_media": [
       {
@@ -102201,7 +102201,7 @@
   },
   "global_channels_status": {
     "allure_media": {
-      "age_hours": 419.849,
+      "age_hours": 420.53,
       "collected_at": "2026-10-03T11:53:06.313449+00:00",
       "count": 30,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102216,7 +102216,7 @@
       "trust": "stale"
     },
     "amazon_best_sellers": {
-      "age_hours": 0.349,
+      "age_hours": 1.029,
       "collected_at": "2026-10-20T23:23:07.702535+00:00",
       "count": 46,
       "freshness_reason": "",
@@ -102244,7 +102244,7 @@
       "trust": "unverified"
     },
     "amazon_new_beauty": {
-      "age_hours": 0.349,
+      "age_hours": 1.029,
       "collected_at": "2026-10-20T23:23:07.705013+00:00",
       "count": 46,
       "freshness_reason": "",
@@ -102258,7 +102258,7 @@
       "trust": "verified"
     },
     "google_trends_us": {
-      "age_hours": 420.015,
+      "age_hours": 420.695,
       "collected_at": "2026-10-03T11:43:10.737881+00:00",
       "count": 40,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102272,7 +102272,7 @@
       "trust": "stale"
     },
     "oliveyoung_us": {
-      "age_hours": 420.03,
+      "age_hours": 420.711,
       "collected_at": "2026-10-03T11:42:15.459821+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102286,7 +102286,7 @@
       "trust": "stale"
     },
     "open_beauty_facts": {
-      "age_hours": 420.03,
+      "age_hours": 420.711,
       "collected_at": "2026-10-03T11:42:14.985203+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102300,7 +102300,7 @@
       "trust": "stale"
     },
     "openfda_sunscreen": {
-      "age_hours": 419.849,
+      "age_hours": 420.53,
       "collected_at": "2026-10-03T11:53:06.313449+00:00",
       "count": 20,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102315,7 +102315,7 @@
       "trust": "stale"
     },
     "sephora": {
-      "age_hours": 852.411,
+      "age_hours": 853.092,
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 14,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (35.5일).",
@@ -102343,7 +102343,7 @@
       "trust": "unverified"
     },
     "sokoglam_us": {
-      "age_hours": 0.348,
+      "age_hours": 1.028,
       "collected_at": "2026-10-20T23:23:12.058519+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -102371,7 +102371,7 @@
       "trust": "unverified"
     },
     "ulta_beauty": {
-      "age_hours": 0.349,
+      "age_hours": 1.029,
       "collected_at": "2026-10-20T23:23:07.705931+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -102385,7 +102385,7 @@
       "trust": "verified"
     },
     "walmart_beauty": {
-      "age_hours": 852.411,
+      "age_hours": 853.092,
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (35.5일).",
@@ -102399,7 +102399,7 @@
       "trust": "stale"
     },
     "wikipedia_interest": {
-      "age_hours": 419.849,
+      "age_hours": 420.53,
       "collected_at": "2026-10-03T11:53:06.313449+00:00",
       "count": 8,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (17.5일).",
@@ -102420,9 +102420,9 @@
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "last_generated": "2026-10-21T08:43:56.996908+09:00",
-    "links": 11288,
-    "notes": 87939,
+    "last_generated": "2026-10-21T09:24:45.869575+09:00",
+    "links": 11310,
+    "notes": 87950,
     "orgs": 35,
     "records": 85145,
     "sources": 7,
@@ -102475,9 +102475,9 @@
         "team": "marketing"
       },
       {
-        "attempt_age_hours": 23.594,
+        "attempt_age_hours": 24.274,
         "attempt_stale": false,
-        "candidate_success_age_hours": 23.594,
+        "candidate_success_age_hours": 24.274,
         "candidates_new": 91,
         "candidates_updated": 0,
         "daiso_pipeline": {
@@ -104096,9 +104096,9 @@
             "max_created_start_inversion_seconds": 1
           },
           "operating_staleness": {
-            "attempt_age_hours": 23.594,
+            "attempt_age_hours": 24.274,
             "attempt_stale": false,
-            "candidate_success_age_hours": 23.594,
+            "candidate_success_age_hours": 24.274,
             "candidates_new": 91,
             "candidates_updated": 0,
             "data_stale": true,
@@ -104111,7 +104111,7 @@
             "last_success_at": "2026-09-29T00:48:58.284474+00:00",
             "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
             "status": "success",
-            "success_age_hours": 526.916
+            "success_age_hours": 527.597
           },
           "public_authority": false,
           "schema_version": 1,
@@ -104147,7 +104147,7 @@
           "status": "unverified"
         },
         "data_stale": true,
-        "freshness": "23.6 hours ago",
+        "freshness": "1.0 days ago",
         "is_candidate_collection": true,
         "is_failure": false,
         "is_no_change": false,
@@ -104157,7 +104157,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 526.916,
+        "success_age_hours": 527.597,
         "team": "daiso"
       },
       {
@@ -104208,19 +104208,19 @@
         "verified": false
       },
       {
-        "age_hours": 419.816,
+        "age_hours": 420.496,
         "delayed": true,
         "freshness": "17.5 days ago",
         "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
         "is_failure": false,
         "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
         "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
-        "reason": "SafeAutoFix heartbeat 지연 (419.8시간)",
+        "reason": "SafeAutoFix heartbeat 지연 (420.5시간)",
         "status": "warning",
         "team": "deep_heartbeat"
       },
       {
-        "freshness": "22 min ago",
+        "freshness": "1.1 hours ago",
         "is_failure": true,
         "observed_at": "2026-10-20T23:21:00.252636Z",
         "reason": "GitHub Actions 관측: 14/14개 · 실패 2",
@@ -104231,7 +104231,7 @@
         "freshness": "18.3 days ago",
         "is_failure": false,
         "is_no_change": false,
-        "reason": "438.1h 전 산출물 갱신 · 실행 결과는 별도 확인",
+        "reason": "438.8h 전 산출물 갱신 · 실행 결과는 별도 확인",
         "status": "warning",
         "team": "gosi"
       },
@@ -105859,9 +105859,9 @@
         "max_created_start_inversion_seconds": 1
       },
       "operating_staleness": {
-        "attempt_age_hours": 23.594,
+        "attempt_age_hours": 24.274,
         "attempt_stale": false,
-        "candidate_success_age_hours": 23.594,
+        "candidate_success_age_hours": 24.274,
         "candidates_new": 91,
         "candidates_updated": 0,
         "data_stale": true,
@@ -105874,7 +105874,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 526.916
+        "success_age_hours": 527.597
       },
       "public_authority": false,
       "schema_version": 1,
@@ -105909,7 +105909,7 @@
       },
       "status": "unverified"
     },
-    "generated_at": "2026-10-20T23:43:57.268066+00:00",
+    "generated_at": "2026-10-21T00:24:46.146225+00:00",
     "kpi": {
       "actions_observation_fresh": true,
       "actions_observed_at": "2026-10-20T23:21:00.252636Z",
@@ -105921,8 +105921,8 @@
       "failed_checks": 1,
       "failed_jobs": 2,
       "freshness_summary": {
-        "actions_monitor": "22 min ago",
-        "daiso": "23.6 hours ago",
+        "actions_monitor": "1.1 hours ago",
+        "daiso": "1.0 days ago",
         "daiso_candidate_discovery": "unknown",
         "daiso_collection_publication": "unknown",
         "daiso_operating_capture": "unknown",
@@ -105966,12 +105966,12 @@
     "action_cards": [],
     "audit": {
       "counts": {
-        "audited": 7879,
-        "decisions": 884,
+        "audited": 7977,
+        "decisions": 895,
         "failure": 0,
-        "legacy": 5218,
-        "outcomes": 884,
-        "prepared": 884,
+        "legacy": 5222,
+        "outcomes": 895,
+        "prepared": 895,
         "unavailable": 0
       },
       "external_authority": false,
@@ -105989,13 +105989,13 @@
     },
     "counts": {
       "approval_waiting": 0,
-      "events": 13097,
+      "events": 13199,
       "external_verified": 0,
-      "handoffs_accepted": 440,
-      "local_verified": 1596,
+      "handoffs_accepted": 445,
+      "local_verified": 1607,
       "source_recoveries_open": 9,
       "source_recoveries_verified": 43,
-      "tasks_total": 1605,
+      "tasks_total": 1616,
       "watchers_blocked": 9,
       "watchers_local": 0,
       "watchers_partial": 0,
@@ -106056,7 +106056,7 @@
       "training_performed": false,
       "verified_observations": 0
     },
-    "generated_at": "2026-10-20T23:44:12.221598+00:00",
+    "generated_at": "2026-10-21T00:25:01.756532+00:00",
     "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
     "schema_version": 1,
     "source_procedures": {
@@ -106321,7 +106321,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
           "initial_source": "data/channel_candidates.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
           "owner": "channels",
           "receipt_id": null,
@@ -106741,7 +106741,7 @@
           "first_detected_at": "2026-10-20T23:22:01.796862+00:00",
           "initial_evidence_hash": "7db2a23e62408a9b63691a93f684f5c610956ea3fdeb23cca22bb83984e8f0de",
           "initial_source": "data/design_team.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
           "owner": "design",
           "receipt_id": null,
@@ -106765,7 +106765,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
           "initial_source": "data/obsidian_sync_status.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
           "owner": "graph",
           "receipt_id": null,
@@ -106789,7 +106789,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
           "initial_source": "data/institution_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
           "owner": "institutions",
           "receipt_id": null,
@@ -106813,7 +106813,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
           "initial_source": "data/knowledge/real_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
           "owner": "knowledge",
           "receipt_id": null,
@@ -106859,7 +106859,7 @@
           "first_detected_at": "2026-10-11T07:35:17.330940+00:00",
           "initial_evidence_hash": "1b0bf83eab3b3bfa28b8f4a3a5ecfb1797bad97dbbd0ad4e6e48af521334fffa",
           "initial_source": "data/legal_full.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "법률 파생물 입력 서명 재검증. 책임자·라벨·안전성 자료 의존성 유지",
           "owner": "legal",
           "receipt_id": null,
@@ -106905,7 +106905,7 @@
           "first_detected_at": "2026-10-11T07:35:17.330940+00:00",
           "initial_evidence_hash": "98f3bc524863e324b5020c0da58b019bb093f2dec89aa3c5f8eb88bf1619d937",
           "initial_source": "data/listing_gate.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "검증된 입력으로 고정 산출물 재생성. 법률·판매 승인은 별도 대기",
           "owner": "listing",
           "receipt_id": null,
@@ -107259,7 +107259,7 @@
           "first_detected_at": "2026-10-20T23:22:01.796862+00:00",
           "initial_evidence_hash": "099f19bd0dd918f0ba0127d3db8de1f9b3a157ea3444e7ce6439ffc16d1980ef",
           "initial_source": "data/google_trends_beauty.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
           "owner": "market",
           "receipt_id": null,
@@ -107371,7 +107371,7 @@
           "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
           "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
           "initial_source": "data/robotics_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "설정된 공개 AI 수집기(논문·블로그·유튜브)를 재실행하고 실제 캡처시각 확인",
           "owner": "robotics",
           "receipt_id": null,
@@ -107993,7 +107993,7 @@
           "total_records": 2
         },
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "",
         "recovery": {
           "attempt_limit": 2,
@@ -108025,7 +108025,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "STALE_SOURCE_CAPTURE",
         "recovery": {
           "attempt_limit": 2,
@@ -108041,7 +108041,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
           "initial_source": "data/institution_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
           "owner": "institutions",
           "receipt_id": null,
@@ -108059,7 +108059,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "STALE_SOURCE_CAPTURE",
         "recovery": {
           "attempt_limit": 2,
@@ -108075,7 +108075,7 @@
           "first_detected_at": "2026-10-20T23:22:01.796862+00:00",
           "initial_evidence_hash": "099f19bd0dd918f0ba0127d3db8de1f9b3a157ea3444e7ce6439ffc16d1980ef",
           "initial_source": "data/google_trends_beauty.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
           "owner": "market",
           "receipt_id": null,
@@ -108093,7 +108093,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "local_derived_read",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "DERIVED_DEPENDENCY_SIGNATURE_MISSING_OR_STALE",
         "recovery": {
           "attempt_limit": 2,
@@ -108109,7 +108109,7 @@
           "first_detected_at": "2026-10-11T07:35:17.330940+00:00",
           "initial_evidence_hash": "98f3bc524863e324b5020c0da58b019bb093f2dec89aa3c5f8eb88bf1619d937",
           "initial_source": "data/listing_gate.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "검증된 입력으로 고정 산출물 재생성. 법률·판매 승인은 별도 대기",
           "owner": "listing",
           "receipt_id": null,
@@ -108134,7 +108134,7 @@
           "total_records": 2
         },
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "",
         "recovery": {
           "attempt_limit": 2,
@@ -108166,7 +108166,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "local_derived_read",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "DERIVED_DEPENDENCY_SIGNATURE_MISSING_OR_STALE",
         "recovery": {
           "attempt_limit": 2,
@@ -108182,7 +108182,7 @@
           "first_detected_at": "2026-10-11T07:35:17.330940+00:00",
           "initial_evidence_hash": "1b0bf83eab3b3bfa28b8f4a3a5ecfb1797bad97dbbd0ad4e6e48af521334fffa",
           "initial_source": "data/legal_full.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "법률 파생물 입력 서명 재검증. 책임자·라벨·안전성 자료 의존성 유지",
           "owner": "legal",
           "receipt_id": null,
@@ -108200,7 +108200,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "DUPLICATE_SOURCE_ENTITY_ID",
         "recovery": {
           "attempt_limit": 2,
@@ -108216,7 +108216,7 @@
           "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
           "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
           "initial_source": "data/robotics_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "설정된 공개 AI 수집기(논문·블로그·유튜브)를 재실행하고 실제 캡처시각 확인",
           "owner": "robotics",
           "receipt_id": null,
@@ -108234,7 +108234,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "STALE_SOURCE_CAPTURE",
         "recovery": {
           "attempt_limit": 2,
@@ -108250,7 +108250,7 @@
           "first_detected_at": "2026-10-20T23:22:01.796862+00:00",
           "initial_evidence_hash": "7db2a23e62408a9b63691a93f684f5c610956ea3fdeb23cca22bb83984e8f0de",
           "initial_source": "data/design_team.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
           "owner": "design",
           "receipt_id": null,
@@ -108268,7 +108268,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "STALE_SOURCE_CAPTURE",
         "recovery": {
           "attempt_limit": 2,
@@ -108284,7 +108284,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
           "initial_source": "data/channel_candidates.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
           "owner": "channels",
           "receipt_id": null,
@@ -108302,7 +108302,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "DUPLICATE_SOURCE_ENTITY_ID",
         "recovery": {
           "attempt_limit": 2,
@@ -108318,7 +108318,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
           "initial_source": "data/knowledge/real_sources.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
           "owner": "knowledge",
           "receipt_id": null,
@@ -108336,7 +108336,7 @@
         "captured_at": null,
         "coverage": null,
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "STALE_SOURCE_CAPTURE",
         "recovery": {
           "attempt_limit": 2,
@@ -108352,7 +108352,7 @@
           "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
           "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
           "initial_source": "data/obsidian_sync_status.json",
-          "last_detected_at": "2026-10-20T23:44:12.221598+00:00",
+          "last_detected_at": "2026-10-21T00:25:01.756532+00:00",
           "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
           "owner": "graph",
           "receipt_id": null,
@@ -108377,7 +108377,7 @@
           "total_records": 14
         },
         "observation_kind": "source_capture",
-        "observed_at": "2026-10-20T23:44:12.221598+00:00",
+        "observed_at": "2026-10-21T00:25:01.756532+00:00",
         "reason": "",
         "recovery": {
           "attempt_limit": 2,
@@ -108402,7 +108402,7 @@
           "task_id": "task_d31c44bb17b49fe6381fe1ef8aa4790bb95e5153347b3a964194d85d3a4ccd62"
         },
         "scope": null,
-        "status": "COOLDOWN",
+        "status": "NO_CHANGE",
         "team": "secretary"
       }
     ]
@@ -108443,7 +108443,7 @@
       "title": "실제 데이터 수집"
     },
     {
-      "detail": "87939개 노트 · 11288개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도",
+      "detail": "87950개 노트 · 11310개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도",
       "id": "graph",
       "status": "completed",
       "title": "Obsidian 그래프 반영·검증"
@@ -108594,13 +108594,13 @@
   "schema_version": 1,
   "secretary": {
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다.",
-    "action": "SafeAutoFix heartbeat 지연 (419.8시간)",
+    "action": "SafeAutoFix heartbeat 지연 (420.5시간)",
     "action_kind": "revalidate_only",
     "badge": "총괄",
     "collection_freshness": {
-      "attempt_age_hours": 23.596,
+      "attempt_age_hours": 24.277,
       "attempt_stale": false,
-      "candidate_success_age_hours": 23.596,
+      "candidate_success_age_hours": 24.277,
       "candidates_new": 91,
       "candidates_updated": 0,
       "data_stale": true,
@@ -108613,7 +108613,7 @@
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "status": "success",
-      "success_age_hours": 526.919
+      "success_age_hours": 527.599
     },
     "daiso_pipeline": {
       "failed_workflow_history": [
@@ -110231,9 +110231,9 @@
         "max_created_start_inversion_seconds": 1
       },
       "operating_staleness": {
-        "attempt_age_hours": 23.596,
+        "attempt_age_hours": 24.277,
         "attempt_stale": false,
-        "candidate_success_age_hours": 23.596,
+        "candidate_success_age_hours": 24.277,
         "candidates_new": 91,
         "candidates_updated": 0,
         "data_stale": true,
@@ -110246,7 +110246,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 526.919
+        "success_age_hours": 527.599
       },
       "public_authority": false,
       "schema_version": 1,
@@ -110282,13 +110282,13 @@
       "status": "unverified"
     },
     "heartbeat": {
-      "age_hours": 419.819,
+      "age_hours": 420.499,
       "delayed": true,
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
-      "reason": "SafeAutoFix heartbeat 지연 (419.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (420.5시간)",
       "status": "warning"
     },
     "id": "secretary",
@@ -110330,7 +110330,7 @@
       {
         "갱신": "2026-10-02T17:37:28.124430+00:00",
         "단계": "고시 수집",
-        "몇시간전": 438.1,
+        "몇시간전": 438.8,
         "산출물": "gosi.json"
       },
       {
@@ -110348,17 +110348,17 @@
       {
         "갱신": "2026-10-20T11:01:41.079033+00:00",
         "단계": "리스팅 카피",
-        "몇시간전": 12.7,
+        "몇시간전": 13.4,
         "산출물": "shopify_listing_copy.json"
       },
       {
-        "갱신": "2026-10-20T23:43:10.133030+00:00",
+        "갱신": "2026-10-21T00:23:58.406807+00:00",
         "단계": "등록 게이트",
         "몇시간전": 0.0,
         "산출물": "listing_gate.json"
       },
       {
-        "갱신": "2026-10-20T23:43:09.537929+00:00",
+        "갱신": "2026-10-21T00:23:57.822071+00:00",
         "단계": "법률 점검",
         "몇시간전": 0.0,
         "산출물": "legal_products.json"
@@ -111279,11 +111279,11 @@
     "record_count": 7987,
     "source_counts": {},
     "status": "completed",
-    "updated_at": "2026-10-21T08:43:01.428351+09:00"
+    "updated_at": "2026-10-21T09:23:53.547498+09:00"
   },
   "team_improvement_evidence": {
     "schema_version": 1,
-    "generated_at": "2026-10-21T00:05:38.529507+00:00",
+    "generated_at": "2026-10-21T00:46:43.324027+00:00",
     "mode": "offline_read_only_projection",
     "source_allowlist": [
       "data/team_improvement.json",
@@ -111332,15 +111332,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -111376,12 +111376,12 @@
         "historical_observation_only": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -111389,7 +111389,7 @@
             "from_value": 10,
             "to_value": 10,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -111398,7 +111398,7 @@
             "from_value": 10,
             "to_value": 10,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 1
         }
@@ -111441,15 +111441,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111470,12 +111470,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -111483,7 +111483,7 @@
             "from_value": 1073,
             "to_value": 1073,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -111492,7 +111492,7 @@
             "from_value": 1073,
             "to_value": 1073,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 4
         }
@@ -111535,15 +111535,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111564,12 +111564,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -111577,7 +111577,7 @@
             "from_value": 185,
             "to_value": 185,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -111586,7 +111586,7 @@
             "from_value": 185,
             "to_value": 185,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 1
         }
@@ -111629,15 +111629,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111658,12 +111658,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -111671,7 +111671,7 @@
             "from_value": 0,
             "to_value": 0,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "not_comparable",
@@ -111683,7 +111683,7 @@
             "to_denominator": null,
             "denominator_changed": true,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 9
         }
@@ -111726,15 +111726,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111755,12 +111755,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "same",
             "from": "2026-10-20",
@@ -111768,7 +111768,7 @@
             "from_value": 7,
             "to_value": 7,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "improved",
@@ -111782,7 +111782,7 @@
             "to_ratio": 1.0,
             "denominator_changed": true,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 16
         }
@@ -111825,15 +111825,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111854,12 +111854,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "same",
             "from": "2026-10-20",
@@ -111867,7 +111867,7 @@
             "from_value": 0,
             "to_value": 0,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "worse",
@@ -111881,7 +111881,7 @@
             "to_ratio": 0.0,
             "denominator_changed": true,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 16
         }
@@ -111924,15 +111924,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -111953,12 +111953,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -111966,7 +111966,7 @@
             "from_value": 235,
             "to_value": 235,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -111975,7 +111975,7 @@
             "from_value": 235,
             "to_value": 235,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 6
         }
@@ -112018,15 +112018,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -112076,12 +112076,12 @@
         "historical_observation_only": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -112089,7 +112089,7 @@
             "from_value": 34,
             "to_value": 34,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -112098,7 +112098,7 @@
             "from_value": 34,
             "to_value": 34,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 5
         }
@@ -112141,15 +112141,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -112170,12 +112170,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -112183,7 +112183,7 @@
             "from_value": 4,
             "to_value": 4,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -112192,7 +112192,7 @@
             "from_value": 4,
             "to_value": 4,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 6
         }
@@ -112235,15 +112235,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -112264,12 +112264,12 @@
         "verified_gain": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "same",
             "from": "2026-10-20",
@@ -112277,7 +112277,7 @@
             "from_value": 2185,
             "to_value": 2185,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "worse",
@@ -112286,7 +112286,7 @@
             "from_value": 2186,
             "to_value": 2185,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 0
         }
@@ -112329,15 +112329,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+            "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-21T00:05:38.529507+00:00",
+            "generated_at": "2026-10-21T00:46:43.324027+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+            "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -112387,12 +112387,12 @@
         "historical_observation_only": false,
         "history_evidence": {
           "source_path": "data/self_improve/team_history_evidence.json",
-          "source_sha256": "c0ad7478c14d3acf0e0cf641ff3621dc2ece20d75be9021dd14277868f412cf4",
-          "generated_at": "2026-10-20T23:44:04.100589+00:00",
-          "ref_commit": "7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "source_sha256": "78d0e2438bcb398be8d22e5ebe28bff302931ca519147c668c27b8625b213007",
+          "generated_at": "2026-10-21T00:24:53.286788+00:00",
+          "ref_commit": "c24cd00088a192211e688639207044b5967af9a2",
           "window_days": 21,
           "evidence_strength": "git_history_same_metric_not_business_gain",
-          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/7f9c410375ce9467db130f0551ca62127dcc14f8",
+          "latest_commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/c24cd00088a192211e688639207044b5967af9a2",
           "vs_previous_day": {
             "verdict": "source_not_refreshed",
             "from": "2026-10-20",
@@ -112400,7 +112400,7 @@
             "from_value": 512,
             "to_value": 512,
             "from_commit": "1325cbc91818",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "vs_7_days": {
             "verdict": "source_not_refreshed",
@@ -112409,7 +112409,7 @@
             "from_value": 512,
             "to_value": 512,
             "from_commit": "ed6b86858bfa",
-            "to_commit": "7f9c410375ce"
+            "to_commit": "c24cd00088a1"
           },
           "source_refreshes_in_window": 4
         }
@@ -112422,15 +112422,15 @@
       "reported_action_changes": 0,
       "source": {
         "path": "data/team_improvement.json",
-        "sha256": "fc9402439f5985b29b60d53ed1aa90057de93ca9533d6e5e217b7b0f8d8d4f46",
+        "sha256": "0969cf2deaa0139ff98b5d39c176a65c965d768f1cfa78d5f2823f4ed4e494a9",
         "reviewed_exact_bytes": false,
         "captured_at": null,
-        "generated_at": "2026-10-21T00:05:38.529507+00:00",
+        "generated_at": "2026-10-21T00:46:43.324027+00:00",
         "policy_updated_at": null,
         "applied_at": null,
         "evaluated_at": null,
         "metadata_clock_field": "generated_at",
-        "metadata_clock_at": "2026-10-21T00:05:38.529507+00:00",
+        "metadata_clock_at": "2026-10-21T00:46:43.324027+00:00",
         "fresh": true,
         "capture_clock_verified": false
       },
@@ -112477,9 +112477,9 @@
         "report": "data/daiso_real/candidate_comparison.json"
       },
       "collection_freshness": {
-        "attempt_age_hours": 23.596,
+        "attempt_age_hours": 24.276,
         "attempt_stale": false,
-        "candidate_success_age_hours": 23.596,
+        "candidate_success_age_hours": 24.276,
         "candidates_new": 91,
         "candidates_updated": 0,
         "data_stale": true,
@@ -112492,7 +112492,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 526.918
+        "success_age_hours": 527.599
       },
       "color": "#15803d",
       "daiso_pipeline": {
@@ -114111,9 +114111,9 @@
           "max_created_start_inversion_seconds": 1
         },
         "operating_staleness": {
-          "attempt_age_hours": 23.596,
+          "attempt_age_hours": 24.276,
           "attempt_stale": false,
-          "candidate_success_age_hours": 23.596,
+          "candidate_success_age_hours": 24.276,
           "candidates_new": 91,
           "candidates_updated": 0,
           "data_stale": true,
@@ -114126,7 +114126,7 @@
           "last_success_at": "2026-09-29T00:48:58.284474+00:00",
           "reason": "신규 비교 후보 수집 정상 완료: 신규 91건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
           "status": "success",
-          "success_age_hours": 526.918
+          "success_age_hours": 527.599
         },
         "public_authority": false,
         "schema_version": 1,
@@ -114379,7 +114379,7 @@
       "summary": "S등급 7개 · 고시 판독 남음 2건 · 유튜브 자막 31편 · 근거 73개 · 실험 35개 · 새 자료 58건 · 영상 학습 81개",
       "waiting": null,
       "waiting_kind": null,
-      "when": "2026-10-21T08:43:10.302346+09:00",
+      "when": "2026-10-21T09:23:58.587493+09:00",
       "youtube_learning": {
         "insights": 81,
         "status": "학습 중",
@@ -114463,7 +114463,7 @@
       "summary": "AI 입력 0/7 · 초안 준비 0/7 · 공개 준비 0/7 · Action 0건 · CP 7 · 카피 0 · 고시 5 · 가격 7 · 법률 3 · 스토어 대상 2단위/2SKU 제안(확정 대기) · 변경분 신규 3·수정 0·그대로 0 · 영상 학습 63개",
       "waiting": "카피 7건, 고시 2건, 영문라벨 4건, 법률 4건 원본 자료 또는 무료 생성 경로 확보 대기",
       "waiting_kind": "human_approval_required",
-      "when": "2026-10-20T23:43:10.133030+00:00",
+      "when": "2026-10-21T00:23:58.406807+00:00",
       "youtube_learning": {
         "insights": 63,
         "status": "학습 중",
@@ -114544,10 +114544,10 @@
       "phase": "ready",
       "phase_label": "2단계 · 가입 후 등록",
       "status": "ok",
-      "summary": "개당 배송비 $6.32~$7.08 · 무게 43~190g (이름추정 1 / 고시용량 6) · DDU/DDP 4개 · 새 자료 20건 · 영상 학습 31개",
+      "summary": "개당 배송비 $6.34~$7.10 · 무게 43~190g (이름추정 1 / 고시용량 6) · DDU/DDP 4개 · 새 자료 20건 · 영상 학습 31개",
       "waiting": null,
       "waiting_kind": null,
-      "when": "2026-10-20T23:43:09.441456+00:00",
+      "when": "2026-10-21T00:23:57.727342+00:00",
       "youtube_learning": {
         "insights": 31,
         "status": "학습 중",
@@ -114630,7 +114630,7 @@
       "summary": "자동 점검 7건 · 통과 3 · 등록 차단 4 · 참고 주의 4 · MoCRA 준비 2/7(면제 3) · 수출서류 HS 8건 · 라벨 1/6항목 자동 · 새 자료 48건 · 영상 학습 52개",
       "waiting": "차단 4건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
       "waiting_kind": "human_approval_required",
-      "when": "2026-10-20T23:43:09.537929+00:00",
+      "when": "2026-10-21T00:23:57.822071+00:00",
       "youtube_learning": {
         "insights": 52,
         "status": "학습 중",
@@ -115052,10 +115052,10 @@
       "phase": "now",
       "phase_label": "",
       "status": "ok",
-      "summary": "87,939노트 · 11,288링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시 · 영상 학습 8개",
+      "summary": "87,950노트 · 11,310링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시 · 영상 학습 8개",
       "waiting": null,
       "waiting_kind": null,
-      "when": "2026-10-21T08:43:56.996908+09:00",
+      "when": "2026-10-21T09:24:45.869575+09:00",
       "youtube_learning": {
         "insights": 8,
         "status": "학습 중",
@@ -115118,13 +115118,5 @@
     "verdict": "기준선보다 나음: 운영 가중치 교체",
     "weights_updated": true
   },
-  "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
-  "pipeline_health": {
-    "execution_id": "39509797999:1",
-    "status": "degraded",
-    "required_failure_count": 0,
-    "optional_failure_count": 2,
-    "evidence_error_count": 0,
-    "using_cached_data": true
-  }
+  "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음."
 }
