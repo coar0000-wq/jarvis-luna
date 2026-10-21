@@ -405,21 +405,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "454f94b75dfb528888474e0753755b9a953f584fb113d48c95e050ab322e1625",
-      "replacement_sha256": "c008dc8a4a5c5d703f8dec76397e61865772e31a3f3e465cab02f80ff43df8d9",
-      "ids": [
-        "CP000130",
-        "CP000216",
-        "https://www.daisomall.co.kr/robots.txt",
-        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
-        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
-    },
-    {
       "path": "data/knowledge/moe_tuning_report.json",
       "base_sha256": "8b605b106bb98227aeb8cdfb1af8894014eb9fe1ac09d51c58519f04bec86279",
       "replacement_sha256": "6bbb011e1d35e4cec240f52c5e39deaf52702251c833d04555312d260b8619d1",
@@ -458,12 +443,44 @@
       "delete_file": false
     },
     {
-      "path": "data/operations/state.json",
-      "base_sha256": "dd7c99b4a3da5ef5d85054527c99855994caa010e22efca1178d3c2ab1f09188",
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "133f610e6c75ee2286c8333c83f45293ed49733ea2a4c4e63e5a8d29e557adc3",
       "ids": [
-        "03a689e95b6f39a66b0c79de2283adeada709afd8f7d64f145afbb059bc857b8",
-        "a5521d8ceadeb7da81329ca5eadf8ba9dbfe27219c647b6b642d024b1b4fc675",
-        "af02f7381783cc555c5569ac06a63df48748a8db44255d1d27c2ac9b523b596e"
+        "action:intent:task_236449357bd4896d98e71c19f13a2e5a8c65f16708da0ef3b245bb6e36b45b17",
+        "action:intent:task_e5a701236cc77518fd8cb72f37b4e4df3e2e9d2726244c8cd547f35da6d1cda8",
+        "relation:1e046a0f903aefb92f72aa1a",
+        "relation:4607f9d2a05da0f6fc65ca1b",
+        "relation:618658779b99bae764e75d96",
+        "relation:b3f6839ffa4bdaea9f958d43"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "b15c36a87e4a4cbefeb51ef34a07d80e862201360ee029282186441548a93bff",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "org-url:078d955de2308e7294997d47924f628ca5b422095788e102b50e677f9b87e690",
+        "org-url:4c91687c2ab6b7e6ff566888724431d276f2d0205a53969e656c09d86b12ced9",
+        "org-url:5126523e9b2e0823c9cb4b21abc96f8220ab051fe195f0deb689a56ae69ee260",
+        "org-url:52d48dca29316a92f1cc3ab0e0a8170b92305ba99f74056f08f9cc9d229ea1e5",
+        "org-url:589b0666e5296bd0c680da796e703d498dda1dfff16a310445f3d2b40f312209",
+        "org-url:6eb485a413238d0ceba841a49f061ad155894c3e71f3b1290f829dbd69e62089",
+        "org-url:858977634ab26ab97a3cd73927d2d95014312abdddd46fcc97c4efc347df0319",
+        "org-url:86734f902f10e0ff36c8e987b5b809d1e45b554850a70a14f65855a72c69cee7",
+        "org-url:ac5565a618c077569b9c9ff5e9ae6f72cc58e563af74e7fb884fbb73600cc33d",
+        "org-url:ae1cc4880c17e548e866c799c27b09657d544a6bbdf70e23529674530c28416b",
+        "org-url:b298ea09dab9a9eb7e67750ef5f4519fce50c169f0baa4787a6e9b8105f8f9ac",
+        "org-url:c6923d269298366495ff3d6c9b0f2cc52c29a0aacd4472e77d08f525041d2bcc",
+        "url:1a174568ad4222cc534b9a95275ad5c5da2b9bbdb334feb9ceee6560ff692b7f",
+        "url:2413aa00446d4042584ec4cce499ba03d6adbb33fe2b4fe5bf7f049111e3cf0f",
+        "url:48667004d2eb8f6e44dad6f228564f28183fc51414ab5068352112fe0c0f75f8",
+        "url:bcfa7348b6cfa16ace459e9cc83970fb476c56e63f0b1880277011e82c694a1b",
+        "url:bf4f85749628d187a62eae6fbdbf6a55d3edb6599d7e9a47f72ba35fee882aad",
+        "url:d797014be89cdbcc02df27c3730489b6d3fcb4b65b3734772f2cd9cbf42b6e9a",
+        "url:f7109147a30d177adb367cd6e147ba297c50f0d7e8a490e316d2b80b9d8273c4"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
