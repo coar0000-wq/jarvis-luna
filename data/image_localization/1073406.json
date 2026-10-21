@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "product_id": "1073406",
+  "title_en": "더랩 바이 블랑두 더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml",
+  "generated_at": "2026-10-21T05:43:16.142002+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/yZPQoH2BUEeZATJs7hMK1073406_01_01yZPQoH2BUEeZATJs7hMK.jpg",
+      "sha256": "ea8a3a54b9cd3cd493b633d5f6f67e790dea00efaf37c98110f6d0fe1368d02e",
+      "bytes": 266866
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/X6DyLRptYac9cEszBmjQ1073406_01_02X6DyLRptYac9cEszBmjQ.jpg",
+      "sha256": "3fd674df2116069620995e23837dbbb73f3eba94e2ac0d7d001d421939ab7bd2",
+      "bytes": 116938
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/VVzMmT7YuaiwV4MBVgSQ1073406_01_03VVzMmT7YuaiwV4MBVgSQ.jpg",
+      "sha256": "c254bb29c8d58b8cb7719b9d1b87f882d97074b5069f37bed7a71411df22a976",
+      "bytes": 179430
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/GxyELWz96sfaw2vnkMbi1073406_01_04GxyELWz96sfaw2vnkMbi.jpg",
+      "sha256": "bb8d84aa8a4f73d3441e1998887f3db9eb68b8e335ffd3296e63e1df5efca0da",
+      "bytes": 169854
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/ekTLc3jltKfrwDhs5YsW1073406_01_05ekTLc3jltKfrwDhs5YsW.jpg",
+      "sha256": "e9563dd1f5c0469f8facd09561af2357fb9d04e9e084594c90bea32a61a828aa",
+      "bytes": 85120
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/NmKSmbTbTXFRzIGjWDAT1073406_01_07NmKSmbTbTXFRzIGjWDAT.jpg",
+      "sha256": "ea0edbeca7dbbf0e6ee301dad9b29952dd5a8101dc72b3fe2d9d8a0f2a265a28",
+      "bytes": 132792
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/sb8VSKNSpp1BA3CNupKw1073406_01_08sb8VSKNSpp1BA3CNupKw.jpg",
+      "sha256": "c324ad0705518853fed64892a289a6ee798d8006db8b3878785d372be7c881cd",
+      "bytes": 235634
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/na5qGPH1gJeFIwPunFP01073406_01_09na5qGPH1gJeFIwPunFP0.jpg",
+      "sha256": "7564f7fe80998053a5e1bef530dec9d99d53b7e603174c31333017699dc9121f",
+      "bytes": 245672
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "ea8a3a54b9cd3cd493b633d5f6f67e790dea00efaf37c98110f6d0fe1368d02e",
+      "y": [
+        0,
+        1900
+      ],
+      "panel_sha256": "69c99482b181ece2621419280dacedd63a64f10e0530f10176d14459c4be94e1",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "ea8a3a54b9cd3cd493b633d5f6f67e790dea00efaf37c98110f6d0fe1368d02e",
+      "y": [
+        1900,
+        3094
+      ],
+      "panel_sha256": "76781996b7226d674a8e36f06450a40ecb181948d134a0e26fc05a2049d5042b",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "3fd674df2116069620995e23837dbbb73f3eba94e2ac0d7d001d421939ab7bd2",
+      "y": [
+        0,
+        1539
+      ],
+      "panel_sha256": "7beb989b2fd97165fea1462ac8480609d3b45041285facf8de6f80b804f5a15c",
+      "status": "excluded",
+      "korean_boxes": 8,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c254bb29c8d58b8cb7719b9d1b87f882d97074b5069f37bed7a71411df22a976",
+      "y": [
+        0,
+        1174
+      ],
+      "panel_sha256": "d1d9c707278e46409768e4ee0d5dea5c4779e4a24799b054ca5ba9e44508a44e",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c254bb29c8d58b8cb7719b9d1b87f882d97074b5069f37bed7a71411df22a976",
+      "y": [
+        1174,
+        2465
+      ],
+      "panel_sha256": "18d4f60b094e39d0ea20f0981c6ba6a69ca9542ed738766f5b68d8bb3475ecd0",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "bb8d84aa8a4f73d3441e1998887f3db9eb68b8e335ffd3296e63e1df5efca0da",
+      "y": [
+        0,
+        1496
+      ],
+      "panel_sha256": "3e16c4c44fa0ef9fd6d77c828ec99a304f703a00fc4ebec275cbaafcbcd170a3",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "bb8d84aa8a4f73d3441e1998887f3db9eb68b8e335ffd3296e63e1df5efca0da",
+      "y": [
+        1496,
+        3195
+      ],
+      "panel_sha256": "0224ff8d3acbadd04f4c8692cb0a030c74fa3871f4be435385e1fefc39e97474",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "e9563dd1f5c0469f8facd09561af2357fb9d04e9e084594c90bea32a61a828aa",
+      "y": [
+        0,
+        1445
+      ],
+      "panel_sha256": "610c524f70534b45fd17fb03df0ef306e761a19faa308291a75d805c6381d7da",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "ea0edbeca7dbbf0e6ee301dad9b29952dd5a8101dc72b3fe2d9d8a0f2a265a28",
+      "y": [
+        0,
+        1341
+      ],
+      "panel_sha256": "010b1cdb393590886c346548fcefae861979554c2bdd010f9e3ff33e25084d10",
+      "status": "excluded",
+      "korean_boxes": 9,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "ea0edbeca7dbbf0e6ee301dad9b29952dd5a8101dc72b3fe2d9d8a0f2a265a28",
+      "y": [
+        1341,
+        2173
+      ],
+      "panel_sha256": "739630d713261a35e8e8495c0a7cae2676e50e8ccc2d829a78b5eeab83ab1cb7",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c324ad0705518853fed64892a289a6ee798d8006db8b3878785d372be7c881cd",
+      "y": [
+        0,
+        946
+      ],
+      "panel_sha256": "0bf6e1632841bef7ef9465466c3f9c880753ba17fbd7c39e4322cb6a0ba9a997",
+      "status": "excluded",
+      "korean_boxes": 5,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c324ad0705518853fed64892a289a6ee798d8006db8b3878785d372be7c881cd",
+      "y": [
+        946,
+        2346
+      ],
+      "panel_sha256": "2e72bfb6444979af7e905993ab74a056bc1976d58a8365343027b1e0b81ec5c5",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "7564f7fe80998053a5e1bef530dec9d99d53b7e603174c31333017699dc9121f",
+      "y": [
+        0,
+        1354
+      ],
+      "panel_sha256": "2521a0883d2daca5537225132cd33b796e876b2d160d51932a4e6dcef30d24d3",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "7564f7fe80998053a5e1bef530dec9d99d53b7e603174c31333017699dc9121f",
+      "y": [
+        1354,
+        2190
+      ],
+      "panel_sha256": "0ab98ed40c4e1ed90d16a511f898f079a26706f73bdc26609319de168b30a41e",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "7564f7fe80998053a5e1bef530dec9d99d53b7e603174c31333017699dc9121f",
+      "y": [
+        2190,
+        3740
+      ],
+      "panel_sha256": "1828f5813cd3b90b46f4f176978dc569a1928f4048fbac6eb7ba422be9903c69",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    }
+  ],
+  "outputs": [],
+  "status": "failed",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable",
+    "no_localized_panels"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 15,
+    "used": 0,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 5,
+      "translation_failed": 9
+    }
+  },
+  "upload_allowed": false
+}

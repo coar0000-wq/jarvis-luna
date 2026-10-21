@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "product_id": "1033789",
+  "title_en": "히말라야 핑크 솔트 비누 90 g",
+  "generated_at": "2026-10-21T05:58:01.837826+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260114/description/850/p9pbQr51cfHOHuQEhnUg1033789_01_00p9pbQr51cfHOHuQEhnUg.jpg",
+      "sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26",
+      "bytes": 451390
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26",
+      "y": [
+        0,
+        1743
+      ],
+      "panel_sha256": "1d943355bd09f4a9faef0f7b434fde617aa05b2df4b8712dab3793decbf0987b",
+      "status": "excluded",
+      "korean_boxes": 13,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26",
+      "y": [
+        1743,
+        2549
+      ],
+      "panel_sha256": "b7da9da342da25fa128c7164b7945978a36636829781432ed507eaa2b3feeb54",
+      "status": "used",
+      "korean_boxes": 0,
+      "file": "01-product-en.jpg"
+    },
+    {
+      "source_sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26",
+      "y": [
+        2549,
+        3490
+      ],
+      "panel_sha256": "bf8e965ea750e3443845f14c62a080f8becf09fc5cb8d0c550204157e0e14767",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26",
+      "y": [
+        3490,
+        5250
+      ],
+      "panel_sha256": "0ff5cc31e4ddca1a50a3d6716dd5f1b0ab529dfe8c702d58820cdd07c570b547",
+      "status": "excluded",
+      "korean_boxes": 7,
+      "reason": "translation_failed:TimeoutError"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-product-en.jpg",
+      "sha256": "0d8d6db79df86fe90bdcac7d16c78a946e437e2f8f3f3b8dffb9c788976a7300",
+      "bytes": 34517,
+      "width": 750,
+      "height": 806,
+      "alt": "히말라야 핑크 솔트 비누 90 g",
+      "english": {}
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 4,
+    "used": 1,
+    "excluded": {
+      "translation_failed": 3
+    }
+  },
+  "upload_allowed": false
+}
