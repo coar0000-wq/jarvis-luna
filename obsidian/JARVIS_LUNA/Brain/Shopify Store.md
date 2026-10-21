@@ -2,9 +2,9 @@
 title: "Shopify Store"
 type: store
 status: generated-from-jarvis-data
-updated_at: 2026-10-21T02:23:24.721415+00:00
+updated_at: 2026-10-21T07:33:34.540611+00:00
 live: 2
-registered_total: 15
+registered_total: 17
 ---
 
 # Shopify Store
@@ -28,3 +28,5 @@ registered_total: 15
 | 46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml | body | 2026-10-19 | DRAFT | 22.23 | 40.0 |
 | THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL | makeup | 2026-10-20 | DRAFT | 38.99 | 68.8 |
 | 46cm Body Wash Refreshing Herbal 225 mL | body | 2026-10-20 | DRAFT | 22.28 | 40.0 |
+| 더랩 바이 블랑두 더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml | makeup | 2026-10-21 | DRAFT | 19.71 | 40.0 |
+| 히말라야 핑크 솔트 비누 90 g | body | 2026-10-21 | DRAFT | 13.73 | 40.0 |
