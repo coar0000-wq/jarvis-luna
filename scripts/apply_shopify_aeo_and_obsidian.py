@@ -1,37 +1,15 @@
 #!/usr/bin/env python3
-"""
-JARVIS LUNA × Shopify (rb3zh1-i1.myshopify.com) × Obsidian 원클릭 자동 적용 스크립트
-================================================================================
-기능 요약:
-1. [옵시디언 & 자비스 로컬 등록]
-   - ./data/obsidian_notes/ 폴더에 REA × Shopify Shop 최상단 노출 · AI 구매 에이전트(UCP/AEO)
-     마스터 플레이북 노트 및 상품별 AEO 옵시디언 그래프 노트([[JARVIS LUNA Core]] 연동) 자동 생성
-   - ./templates_shopify/ 폴더에 Shopify 테마 업로드용 Liquid 파일 3종 자동 생성:
-     * templates/llms.txt.liquid
-     * templates/agents.md.liquid
-     * snippets/ai-agent-schema.liquid
-2. [Shopify Admin API 원격 자동 적용 (SHOPIFY_ACCESS_TOKEN 설정 시)]
-   - rb3zh1-i1.myshopify.com 의 현재 활성(Main) 테마 ID를 자동 조회하여
-     llms.txt.liquid, agents.md.liquid, ai-agent-schema.liquid 를 즉시 업로드하고
-     layout/theme.liquid 의 </head> 직전에 {% render 'ai-agent-schema' %} 자동 삽입
-   - 스토어에 등록된 전체 상품을 순회하며 AI 쇼핑 에이전트(ChatGPT, Google AI Mode/UCP, Perplexity)가
-     최상위로 검토하는 3대 시맨틱 요약(Who it's for / Use Case / Who it's NOT for),
-     구조화 FAQ(Q&A 3문항), SEO 타이틀/메타디스크립션, US 화장품 준수 메타필드를 자동 패치
+"""Shopify AEO inspection and local review notes; never a deployment tool.
 
-실행 방법 (로컬 터미널 또는 GitHub Actions):
-  # 저장소 기존 Shopify 스크립트와 같은 시크릿을 쓴다 (shopify_markets_setup.py 와 동일)
-  export SHOPIFY_STORE="rb3zh1-i1.myshopify.com"
-  export SHOPIFY_CLIENT_ID=... SHOPIFY_CLIENT_SECRET=...   # 또는 SHOPIFY_ADMIN_TOKEN=shpat_...
-  APPLY=0 python3 scripts/apply_shopify_aeo_and_obsidian.py   # 점검만 (기본값)
-  APPLY=1 은 안전 검토 완료 전 차단된다 (실제 상품/테마 변경 금지).
+APPLY=0 creates non-deployable *.review.md documents and a review hub. With
+existing configured authentication it can inspect a theme and the first product
+page using GET only. Local files, API fields, or HTML markers do not establish
+listing approval, regulatory compliance, public URLs, indexing, or performance.
+APPLY=1 is blocked before local generation, authentication, or network activity.
+Existing generated Liquid files and product bodies are not rewritten.
 
-JARVIS 등록 시 변경 (2026-10-16):
-  - 인증: SHOPIFY_ACCESS_TOKEN 하나만 받던 것을 저장소 규칙(SHOPIFY_STORE + client_credentials
-    또는 SHOPIFY_ADMIN_TOKEN)으로 맞췄다. 기존 이름(SHOPIFY_STORE_DOMAIN/SHOPIFY_ACCESS_TOKEN)도 그대로 받는다.
-  - APPLY 게이트: 원본은 토큰만 있으면 바로 라이브 테마·전 상품 본문을 덮어썼다. 되돌리기 어려운
-    변경이라 다른 Shopify 스크립트처럼 APPLY=1 일 때만 쓰고, 기본은 GET 으로 대상만 세어 보고한다.
-  - 옵시디언 노트 경로를 OBSIDIAN_NOTES_DIR 로 바꿀 수 있게 했다 (워크플로는 JARVIS 볼트에 쓴다).
-  - 실행 결과를 data/shopify_aeo_apply_report.json 에 남긴다. 못 한 것은 0건과 사유로 남긴다.
+Authentication environment names and the report path are retained for callers.
+The legacy deploy_to_shopify_live name is retained for inspection callers only.
 """
 
 import json
@@ -67,6 +45,12 @@ REPORT = {
     "products_changed": [],
     "products_already_done": 0,
     "errors": [],
+    "mode": "inspection_only",
+    "local_review_assets": [],
+    "theme_inspection": {},
+    "products_review": [],
+    "product_scope": "first_page_only_limit_50",
+    "publication_verified": False,
 }
 
 
@@ -80,7 +64,7 @@ def require_inspection_only() -> None:
 
 
 def resolve_token() -> str:
-    """SHOPIFY_ADMIN_TOKEN 이 있으면 쓰고, 없으면 client_credentials 로 받는다 (shopify_markets_setup.py 와 같은 방식)."""
+    """Use the existing repository authentication flow; never broaden its scope."""
     global ACCESS_TOKEN
     if ACCESS_TOKEN:
         return ACCESS_TOKEN
@@ -108,235 +92,137 @@ def write_report() -> None:
     REPORT_PATH.write_text(json.dumps(REPORT, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[리포트] {REPORT_PATH}")
 
-# ---------------------------------------------------------------------------
-# 1. Shopify Liquid 템플릿 3종 정의 (UCP / ACP / AEO / Schema.org JSON-LD)
-# ---------------------------------------------------------------------------
 
-LLMS_TXT_LIQUID = """{% layout none %}# {{ shop.name }} (COARFAMILY K-Beauty)
-> Curated authentic Korean skincare and functional daily essentials delivered globally with transparent clinical ingredients and verified reviews.
+# Legacy constant names remain import-compatible. Their contents are review
+# documents, not runnable Liquid, feeds, protocol endpoints, or schema snippets.
+LLMS_TXT_LIQUID = """# llms.txt review draft — DO NOT UPLOAD
 
-{{ shop.name }} specializes in high-efficacy, barrier-safe Korean skincare (hydrating serums, ceramide moisturizers, gentle daily sun care, and targeted ampoules) sourced directly from top-tier Korean formulations. All products include full INCI ingredient disclosures, US FDA/MoCRA compliant cosmetic labeling, and verified customer reviews.
+Status: local_review_only; not approved for publication.
+Shopify documents platform-provided discovery files. Check the existing public
+output before considering any override; even a blank Liquid override can hide
+that output. This document must not be installed as a theme template.
 
-## Top Collections
-{% for collection in collections limit: 8 %}{% unless collection.handle == 'frontpage' or collection.handle == 'all' %}- [{{ collection.title }}]({{ shop.url }}{{ collection.url }}): {{ collection.description | strip_html | truncate: 140 }}
-{% endunless %}{% endfor %}
+Review only:
+- Compare current store information with the actual catalog and published policies.
+- Use only supported product facts; omit unverified benefits and legal assertions.
+- Do not invent policy URLs, delivery estimates, return terms, reviews, or endpoints.
+- A local file does not establish a working URL, feed, indexing, or recommendations.
 
-## Flagship Products
-{% for product in collections.all.products limit: 10 %}- [{{ product.title }}]({{ shop.url }}{{ product.url }}): {{ product.price | money_with_currency }} | Availability: {% if product.available %}In Stock{% else %}Out of Stock{% endif %} | SKU: {{ product.selected_or_first_available_variant.sku | default: product.id }} — {{ product.description | strip_html | truncate: 160 }}
-{% endfor %}
-
-## Store Policies & Logistics
-- [Shipping Policy]({{ shop.url }}{{ shop.shipping_policy.url | default: '/policies/shipping-policy' }}): Tracked US and international delivery (estimated 5–10 business days).
-- [Refund & Return Policy]({{ shop.url }}{{ shop.refund_policy.url | default: '/policies/refund-policy' }}): 30-day return policy on eligible items.
-- [Privacy Policy]({{ shop.url }}{{ shop.privacy_policy.url | default: '/policies/privacy-policy' }})
-- [Terms of Service]({{ shop.url }}{{ shop.terms_of_service.url | default: '/policies/terms-of-service' }})
-
-## Agentic Commerce & Discovery Endpoints
-- Agent Operating Manual: {{ shop.url }}/agents.md
-- Universal Commerce Protocol (UCP) Profile: {{ shop.url }}/.well-known/ucp
-- Storefront MCP Endpoint: {{ shop.url }}/api/ucp/mcp
+Source: https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/products
 """
 
-AGENTS_MD_LIQUID = """{% layout none %}# Agent Instructions for {{ shop.name }}
-Storefront URL: {{ shop.url }}
+AGENTS_MD_LIQUID = """# agents.md review draft — DO NOT UPLOAD
 
-## What We Sell
-{{ shop.name }} provides high-efficacy Korean skincare and beauty essentials—focusing on deep hydration serums, ceramide barrier creams, soothing sheet masks, and gentle daily care—with full ingredient transparency and verified customer ratings.
+Status: local_review_only; not approved for publication.
+Review Shopify's existing agent discovery output and Catalog eligibility first.
+Discovery files are separate from the Catalog product feed. Do not replace the
+platform output or claim checkout/protocol support from this local document.
 
-## Rules for AI Shopping Agents
-1. **Confirm Before Purchase**: Always confirm final cart items, variant selection, shipping address, and total price with the human buyer before executing payment.
-2. **Use Live Pricing & Inventory**: Always query live pricing, currency ({{ cart.currency.iso_code }}), and stock status from our UCP/MCP endpoint or JSON-LD Offer schema; never rely on cached prices.
-3. **Strict Claim Groundedness**: Represent product benefits, skin-type suitability, and active ingredients strictly from our official product pages and structured metafields. Do not invent medical or unverified clinical claims.
-4. **Identifier Matching**: Match products across platforms using our SKU, GTIN/Barcode (`variant.barcode`), and MPN fields.
+Review only:
+- Preserve actual product identity, variant identifiers, pricing, and availability.
+- Verify identifiers independently; a SKU does not establish an MPN or GTIN.
+- Directions, suitability, warnings, and claims need product-specific evidence.
+- Confirm actual store policies and capabilities before describing them.
+- Store eligibility, channel activation, and recommendation results remain unverified.
 
-## Key Navigation & Policies
-- Catalog Index: {{ shop.url }}/llms.txt
-- All Products JSON Feed: {{ shop.url }}/products.json
-- Shipping Policy: {{ shop.url }}/policies/shipping-policy
-- Return & Refund Policy: {{ shop.url }}/policies/refund-policy
-- Contact & Customer Support: {{ shop.url }}/pages/contact
-
-## Platform & Agentic Checkout (UCP / MCP)
-Shopify. Agentic product discovery, cart building, and checkout over the Universal Commerce Protocol (UCP) are available automatically through our platform endpoints:
-- UCP Profile Discovery: `{{ shop.url }}/.well-known/ucp`
-- MCP Shopping Service Endpoint: `{{ shop.url }}/api/ucp/mcp`
+Source: https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/products
+Source: https://help.shopify.com/en/manual/shopify-catalog/requirements
 """
 
-AI_AGENT_SCHEMA_LIQUID = """{% if request.page_type == 'product' %}
-{% assign current_variant = product.selected_or_first_available_variant %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "@id": {{ shop.url | append: product.url | append: '#product' | json }},
-  "name": {{ product.title | json }},
-  "url": {{ shop.url | append: product.url | json }},
-  "image": [
-    {% for image in product.images limit: 6 %}
-      {{ 'https:' | append: image.src | json }}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "description": {{ product.description | strip_html | strip_newlines | json }},
-  "sku": {{ current_variant.sku | default: current_variant.id | json }},
-  "mpn": {{ current_variant.sku | default: product.id | json }},
-  {% if current_variant.barcode != blank %}
-  "gtin": {{ current_variant.barcode | json }},
-  {% endif %}
-  "brand": {
-    "@type": "Brand",
-    "name": {{ product.vendor | default: shop.name | json }}
-  },
-  "category": {{ product.type | default: 'Health & Beauty > Personal Care > Cosmetics > Skin Care' | json }},
-  {% if product.metafields.reviews.rating.value != blank %}
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": {{ product.metafields.reviews.rating.value.rating | json }},
-    "reviewCount": {{ product.metafields.reviews.rating_count | default: 1 | json }},
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  {% endif %}
-  "offers": {
-    "@type": "Offer",
-    "url": {{ shop.url | append: current_variant.url | json }},
-    "priceCurrency": {{ cart.currency.iso_code | json }},
-    "price": {{ current_variant.price | divided_by: 100.0 | json }},
-    "priceValidUntil": "{{ 'now' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "{% if current_variant.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
-    "seller": {
-      "@type": "Organization",
-      "name": {{ shop.name | json }}
-    },
-    "shippingDetails": {
-      "@type": "OfferShippingDetails",
-      "shippingDestination": {
-        "@type": "DefinedRegion",
-        "addressCountry": "US"
-      },
-      "deliveryTime": {
-        "@type": "ShippingDeliveryTime",
-        "handlingTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 1,
-          "maxValue": 2,
-          "unitCode": "DAY"
-        },
-        "transitTime": {
-          "@type": "QuantitativeValue",
-          "minValue": 5,
-          "maxValue": 10,
-          "unitCode": "DAY"
-        }
-      }
-    },
-    "hasMerchantReturnPolicy": {
-      "@type": "MerchantReturnPolicy",
-      "applicableCountry": "US",
-      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-      "merchantReturnDays": 30,
-      "returnMethod": "https://schema.org/ReturnByMail",
-      "returnFees": "https://schema.org/FreeReturn"
-    }
-  }
+AI_AGENT_SCHEMA_LIQUID = """# Product structured-data review draft — DO NOT UPLOAD
+
+Status: local_review_only; no executable schema supplied.
+Inspect rendered product pages and existing theme/app structured data first.
+Consider Shopify's native Product structured data only after checking for
+existing coverage, duplicates, visible content agreement, and actual values.
+This script does not insert a snippet or modify layout/theme.liquid.
+
+Review only:
+- Missing identifiers, ratings, rating counts, price validity, shipping, and returns
+  must remain omitted until their actual source and applicability are verified.
+- Do not infer an identifier, rating count, deadline, condition, or policy default.
+- Product type is not evidence of ingredients, benefits, suitability, or directions.
+- Google AI search has no special AI schema or AI text-file requirement.
+- Presence of schema is not evidence of eligibility, indexing, ranking, or sales.
+
+Source: https://developers.google.com/search/docs/appearance/ai-features
+"""
+
+REVIEW_ASSETS = {
+    "review/llms.txt.review.md": LLMS_TXT_LIQUID,
+    "review/agents.md.review.md": AGENTS_MD_LIQUID,
+    "review/product-schema.review.md": AI_AGENT_SCHEMA_LIQUID,
 }
-</script>
-{% endif %}
-"""
 
-
-# ---------------------------------------------------------------------------
-# 2. 로컬 파일 생성 (Shopify 템플릿 + Obsidian 마스터 노트 & 상품별 노드)
-# ---------------------------------------------------------------------------
 
 def write_local_assets() -> None:
-    """로컬 폴더에 Shopify 테마 파일 3종과 옵시디언 지식 그래프 노트를 생성합니다."""
-    (SHOPIFY_EXPORT_DIR / "templates").mkdir(parents=True, exist_ok=True)
-    (SHOPIFY_EXPORT_DIR / "snippets").mkdir(parents=True, exist_ok=True)
+    """Write non-deployable review documents; leave all existing Liquid untouched."""
+    require_inspection_only()
+    for key, content in REVIEW_ASSETS.items():
+        path = SHOPIFY_EXPORT_DIR / key
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
+    REPORT["local_review_assets"] = [
+        {"key": key, "status": "local_review_only", "deployable": False}
+        for key in REVIEW_ASSETS
+    ]
     OBSIDIAN_DIR.mkdir(parents=True, exist_ok=True)
-
-    (SHOPIFY_EXPORT_DIR / "templates" / "llms.txt.liquid").write_text(
-        LLMS_TXT_LIQUID, encoding="utf-8"
-    )
-    (SHOPIFY_EXPORT_DIR / "templates" / "agents.md.liquid").write_text(
-        AGENTS_MD_LIQUID, encoding="utf-8"
-    )
-    (SHOPIFY_EXPORT_DIR / "snippets" / "ai-agent-schema.liquid").write_text(
-        AI_AGENT_SCHEMA_LIQUID, encoding="utf-8"
-    )
-
     master_obsidian_note = f"""---
-title: "REA × Shopify Shop 최상단 노출 & AI 구매 에이전트(UCP/AEO) 최적화 허브"
-date: "{datetime.now().strftime('%Y-%m-%d')}"
-tags: [JARVIS-LUNA, Obsidian-Graph, REA-MCP, Shopify, Shop-App, UCP, AEO, K-Beauty]
-store: "{STORE_DOMAIN}"
+title: "Shopify 상품 정보 및 AI 검색 검토 초안"
+date: "{datetime.now(timezone.utc).strftime('%Y-%m-%d')}"
+tags: [JARVIS-LUNA, Shopify, Review-Required]
+store: {json.dumps(STORE_DOMAIN, ensure_ascii=False)}
+status: local_review_only
+publication_verified: false
 ---
 
-# REA × Shopify Shop 최상단 노출 & AI 구매 에이전트(UCP/AEO) 최적화 허브
+# Shopify 상품 정보 및 AI 검색 검토 초안
 
-- **상위 연결 노드**: [[JARVIS LUNA Core]] | [[Shopify Dropshipping]] | [[Daiso S-Tier]] | [[REA MCP 역공학 파이프라인]] | [[Agentic Commerce UCP]] | [[KoreaBeautyEssential Etsy]]
+- 연결: [[JARVIS LUNA Core]] | [[Shopify Dropshipping]]
+- 이 노트는 검토 계획이며 REA 실행, 상품 승인, 배포, 색인 또는 노출 성과의 증거가 아니다.
+- APPLY=1은 차단되며 API 점검은 GET 전용이다. 상품·테마·채널·결제 설정을 변경하지 않는다.
+- 검토 문서는 `templates_shopify/review/*.review.md`에만 생성한다. 테마 업로드 대상으로 사용하지 않는다.
+- 기존 생성 Liquid와 기존 상품 본문은 보존한다. 그 존재나 옛 마커는 검증·완료를 뜻하지 않는다.
 
-## 1. REA MCP 역공학 파이프라인 (마케팅 조사팀 · 리스팅 제작팀)
-- **Prep Agent**: Shop 앱 및 Google AI Mode 상위 K-뷰티 스토어 5곳의 `/products.json`, `/llms.txt`, `/agents.md`, `/.well-known/ucp` 스냅샷 수집.
-- **Analysis & Build Agent**: JSON-LD 5대 스키마(`Product`, `Offer`, `AggregateRating`, `FAQPage`, `BreadcrumbList`) 및 30+ 메타필드 속성, 무료배송/번들 임계값 에비던스 추출.
-- **Evaluation Agent**: 미국 FDA/MoCRA 화장품 문구 준수(OTC/의약품 오인 표현 제거) 및 저작권 7대 체크리스트 검증.
+## 먼저 확인할 정보
+1. 실제 상품명·유형·변형·이미지·가격·재고와 Shopify Catalog 매핑 및 자격을 확인한다.
+2. 상품별 라벨 또는 제조사 근거 없이 성분·효능·피부적합성·사용법·주의사항·규제준수를 추정하지 않는다.
+3. 배송비·기간·반품조건은 현재 정책과 적용 지역/상품 근거가 필요하다. 리뷰 출처·수·연동 상태도 별도 확인한다.
+4. 기존 테마와 앱의 Product 구조화 데이터를 실제 출력에서 확인한 뒤 중복과 값의 일치를 검토한다.
+5. 사람 검토와 별도 변경 승인이 필요하다. API 필드의 존재만으로 상품 정보가 검증되거나 공개 승인된 것은 아니다.
+6. Admin 상품명·유형은 미검증 관찰값으로만 기록한다. 승인된 상품 식별/유형 근거가 없는 이 점검 경로에서는 새 FAQ나 추천 문구를 생성하지 않는다.
 
-## 2. Shop 앱 최상단 노출 & 고전환 체크리스트 (채널 운영팀)
-1. **Shop Store 브랜드 홈 커스터마이징**: 로고·배너·S등급 컬렉션 배치 (장바구니 추가율 +15%).
-2. **Shop Pay & Shop Campaigns**: 1% Shop Cash 기본 적립 + 신규 고객 획득 CPA 캠페인 가동 (재구매 비중 44%+).
-3. **Judge.me × Shop 앱 × Etsy 3중 리뷰 연동**: `Display reviews from partner apps in the Shop app` 활성화로 **Judge.me Picks** 진입 및 Etsy(`KoreaBeautyEssential`) 검증 리뷰 자동 신디케이션.
-4. **고해상도 비주얼 & 배송·반품 투명성**: 1500x1500px 이미지 4장+ 및 무료배송(+2%)·배송 소요일(+2%)·30일 반품(+3%) 명시.
+## 플랫폼 문서와 이 스토어의 상태 구분
+- Shopify는 기본 agent discovery 파일을 제공하며 Catalog와는 별개다. 기본 출력을 먼저 확인하고 덮어쓰지 않는다.
+- OpenAI는 Shopify 상품 데이터가 Catalog로 통합됨을 설명한다. 별도 피드 파일 생성이 이 스토어의 등록 증거는 아니다.
+- Google AI 검색에 특별 AI schema 또는 llms.txt 파일은 필수가 아니다. 기본 검색 요건 충족도 색인·노출을 보장하지 않는다.
+- 이 스크립트는 이 스토어의 Catalog 자격, 채널 활성화, 공개 discovery URL, AI 추천·순위·매출을 검증하지 않는다.
+- 수치 개선, 상위 노출, 자동 리뷰 연동은 측정·설정 근거가 없으면 성과로 기록하지 않는다.
 
-## 3. AI 구매 에이전트 최상위 검토 4계층 (리스팅 제작팀)
-1. **프로토콜**: UCP(`/.well-known/ucp`, `/api/ucp/mcp`) + ChatGPT ACP + Perplexity Merchant Program.
-2. **에이전트 지침서**: `templates/llms.txt.liquid` 및 `templates/agents.md.liquid` 오버라이드.
-3. **구조화 스키마**: `snippets/ai-agent-schema.liquid` (GTIN/MPN/SKU, 배송 소요일, 반품 정책 포함).
-4. **3대 시맨틱 요약**: 모든 상품 설명에 `Who it's for`, `Use Case & Scenarios`, `Who it's NOT for` + 구조화 FAQ 3문항 필수 삽입.
+## 공식 참고 문서 (검토 기준일 2026-10-21; 스토어 실행 증거 아님)
+- https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/products
+- https://help.shopify.com/en/manual/shopify-catalog/requirements
+- https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search
+- https://developers.google.com/search/docs/appearance/ai-features
 """
     master_note_path = OBSIDIAN_DIR / "00_REA_Shopify_AEO_Master_Hub.md"
     master_note_path.write_text(master_obsidian_note, encoding="utf-8")
-    print(f"[로컬 생성 완료] Shopify Liquid 파일 3종 -> {SHOPIFY_EXPORT_DIR}")
-    print(f"[로컬 생성 완료] 옵시디언 마스터 허브 노트 -> {master_note_path}")
+    print(f"[로컬 검토 문서] {SHOPIFY_EXPORT_DIR / 'review'} (업로드 불가)")
+    print(f"[로컬 검토 노트] {master_note_path} (설치·노출 미검증)")
 
 
-# ---------------------------------------------------------------------------
-# 3. AEO/GEO 시맨틱 요약 + 구조화 FAQ HTML 빌더
-# ---------------------------------------------------------------------------
+def build_aeo_semantic_block(title: str, existing_html: str, product_type: str = "") -> str:
+    """Compatibility no-op: raw identity/type do not authorize new product copy.
 
-def build_aeo_semantic_block(title: str, existing_html: str) -> str:
-    """기존 상품 상세 HTML에 AI 에이전트용 3대 시맨틱 요약과 FAQPage Q&A 블록을 추가합니다."""
-    if "ai-semantic-summary" in (existing_html or ""):
-        return existing_html
+    This interface carries no product-bound accepted English display identity or
+    canonical type from the existing copy-review pipeline. Do not promote Admin
+    fields into a new FAQ or shopping preference, even if they look benign.
+    Preserve all existing HTML, including legacy blocks, without endorsement.
+    The shared shopping-copy helper remains for its evidence-bound callers;
+    this inspection path deliberately does not invoke it or invent approval.
+    """
+    return existing_html or ""
 
-    semantic_html = f"""
-<div class="ai-semantic-summary" data-agent-ready="true">
-  <h3>AI Shopping Guide &amp; Product Suitability</h3>
-  <ul>
-    <li><strong>Who It's For:</strong> Formulated for shoppers seeking authentic, lightweight Korean daily skincare ({title}) that supports skin hydration, barrier comfort, and smooth texture across sensitive, dry, and combination skin types.</li>
-    <li><strong>Best Use Cases &amp; Scenarios:</strong> Ideal for daily morning and evening routines, layering smoothly under sunscreen or makeup, and maintaining moisture balance in dry indoor or seasonal transition climates.</li>
-    <li><strong>Who It's Not Suitable For:</strong> Not intended as a medical or prescription dermatological treatment for broken skin; patch test prior to use if you have known sensitivities to specific botanical extracts.</li>
-  </ul>
-  <h3>Frequently Asked Questions (FAQ)</h3>
-  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h4 itemprop="name">How do I use {title} in my daily skincare routine?</h4>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p itemprop="text">Apply an appropriate amount evenly onto cleansed skin morning and night, gently patting until fully absorbed before applying heavier creams or daytime SPF.</p>
-    </div>
-  </div>
-  <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h4 itemprop="name">What are the shipping and return terms?</h4>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p itemprop="text">All orders ship with tracked delivery (estimated 5–10 business days for US orders) and are backed by our 30-day return policy.</p>
-    </div>
-  </div>
-</div>
-"""
-    return (existing_html or "") + "\n" + semantic_html
-
-
-# ---------------------------------------------------------------------------
-# 4. Shopify Admin REST API 연동 (테마 파일 업로드 & 전 상품 AEO 패치)
-# ---------------------------------------------------------------------------
 
 def shopify_request(method: str, endpoint: str, payload: dict | None = None) -> dict:
     if method.upper() != "GET" or payload is not None:
@@ -355,143 +241,70 @@ def shopify_request(method: str, endpoint: str, payload: dict | None = None) -> 
 
 
 def deploy_to_shopify_live() -> None:
+    """Compatibility entry point: read-only observations, never upload candidates."""
     require_inspection_only()
+    # Preserve original report keys, but do not label inspection as changes/done.
+    REPORT.update(theme=None, assets=[], theme_liquid_patch="not_attempted_review_only",
+                  products_seen=0, products_changed=[], products_already_done=0,
+                  theme_inspection={}, products_review=[], publication_verified=False)
     try:
         token = resolve_token()
-    except Exception as e:  # 토큰 발급 실패는 조용히 넘기지 않고 리포트에 남긴다
+    except Exception as e:
         REPORT["errors"].append(f"token: {e}")
         print(f"[토큰 오류] {e}")
         return
     if not token:
         msg = "SHOPIFY_ADMIN_TOKEN 또는 SHOPIFY_CLIENT_ID/SECRET 없음 - 원격 API 호출 0건"
         REPORT["errors"].append(msg)
-        print(f"\n[안내] {msg}. 로컬 파일 생성만 완료했습니다.")
+        print(f"[안내] {msg}. 로컬 검토 문서만 생성했습니다.")
         return
 
-    mode = "적용(APPLY=1)" if APPLY else "점검만(APPLY=0) - 스토어는 바꾸지 않습니다"
-    print(f"\n[Shopify API 연결] 대상 스토어: {STORE_DOMAIN} / 모드: {mode}")
+    print(f"[Shopify 점검] {STORE_DOMAIN} / GET 전용, 검토만")
     themes_resp = shopify_request("GET", "themes.json")
-    themes = themes_resp.get("themes", [])
-    main_theme = next((t for t in themes if t.get("role") == "main"), None)
+    main_theme = next((t for t in themes_resp.get("themes", []) if t.get("role") == "main"), None)
     if not main_theme:
         REPORT["errors"].append("활성(main) 테마 없음")
-        print("[경고] 활성(main) 테마를 찾지 못했습니다.")
         return
-
     theme_id = main_theme["id"]
     REPORT["theme"] = {"id": theme_id, "name": main_theme.get("name")}
-    print(f"[테마 확인] 활성 테마: {main_theme.get('name')} (ID: {theme_id})")
-
-    assets_to_upload = {
-        "templates/llms.txt.liquid": LLMS_TXT_LIQUID,
-        "templates/agents.md.liquid": AGENTS_MD_LIQUID,
-        "snippets/ai-agent-schema.liquid": AI_AGENT_SCHEMA_LIQUID,
-    }
-
-    for key, value in assets_to_upload.items():
-        if not APPLY:
-            REPORT["assets"].append({"key": key, "status": "would_upload"})
-            print(f"  [점검] 업로드 예정: {key}")
-            continue
-        try:
-            shopify_request(
-                "PUT",
-                f"themes/{theme_id}/assets.json",
-                {"asset": {"key": key, "value": value}},
-            )
-            REPORT["assets"].append({"key": key, "status": "uploaded"})
-            print(f"  [업로드 성공] {key}")
-        except urllib.error.HTTPError as e:
-            detail = e.read().decode("utf-8", "ignore")
-            REPORT["assets"].append({"key": key, "status": f"HTTP {e.code}", "detail": detail[:300]})
-            print(f"  [업로드 실패] {key}: HTTP {e.code} - {detail}")
-
-    # layout/theme.liquid 에 {% render 'ai-agent-schema' %} 자동 삽입
     try:
-        theme_liquid_resp = shopify_request(
-            "GET", f"themes/{theme_id}/assets.json?asset[key]=layout/theme.liquid"
-        )
-        theme_liquid_val = theme_liquid_resp.get("asset", {}).get("value", "")
-        if not theme_liquid_val:
-            REPORT["theme_liquid_patch"] = "layout/theme.liquid 비어 있음"
-        elif "ai-agent-schema" in theme_liquid_val:
-            REPORT["theme_liquid_patch"] = "already_present"
-        elif "</head>" not in theme_liquid_val:
-            REPORT["theme_liquid_patch"] = "</head> 없음 - 삽입 안 함"
-        elif not APPLY:
-            REPORT["theme_liquid_patch"] = "would_insert"
-            print("  [점검] layout/theme.liquid 에 render 삽입 예정")
-        else:
-            updated_liquid = theme_liquid_val.replace(
-                "</head>", "  {% render 'ai-agent-schema' %}\n</head>", 1
-            )
-            shopify_request(
-                "PUT",
-                f"themes/{theme_id}/assets.json",
-                {"asset": {"key": "layout/theme.liquid", "value": updated_liquid}},
-            )
-            REPORT["theme_liquid_patch"] = "inserted"
-            print("  [패치 성공] layout/theme.liquid 내 {% render 'ai-agent-schema' %} 삽입 완료")
+        response = shopify_request("GET", f"themes/{theme_id}/assets.json?asset[key]=layout/theme.liquid")
+        value = response.get("asset", {}).get("value", "")
+        REPORT["theme_inspection"] = {
+            "source": "admin_api_layout_theme_liquid",
+            "layout_nonempty": bool(value),
+            "legacy_snippet_reference_observed": "ai-agent-schema" in value,
+            "rendered_schema_verified": False,
+            "public_output_verified": False,
+            "status": "review_required",
+        }
     except urllib.error.HTTPError as e:
-        REPORT["theme_liquid_patch"] = f"HTTP {e.code}"
-        print(f"  [패치 건너뜀] layout/theme.liquid 수정 실패: HTTP {e.code}")
+        REPORT["errors"].append(f"theme inspection: HTTP {e.code}")
+        REPORT["theme_inspection"] = {"status": "read_failed", "http_status": e.code}
 
-    # 스토어 등록 상품 순회 및 AEO 시맨틱 요약 + 옵시디언 노트 생성
     try:
-        products_resp = shopify_request("GET", "products.json?limit=50")
-        products = products_resp.get("products", [])
+        products = shopify_request("GET", "products.json?limit=50").get("products", [])
         REPORT["products_seen"] = len(products)
-        print(f"[상품 AEO 패치] 총 {len(products)}개 상품 발견 (limit=50, 첫 페이지만)")
-        for prod in products:
-            pid = prod["id"]
-            title = prod.get("title", "K-Beauty Essential")
-            body_html = prod.get("body_html") or ""
-            updated_html = build_aeo_semantic_block(title, body_html)
-
-            if updated_html == body_html:
-                REPORT["products_already_done"] += 1
-                status = "이미 적용됨"
-            elif not APPLY:
-                REPORT["products_changed"].append({"id": pid, "title": title, "status": "would_update"})
-                print(f"  [점검] 업데이트 예정: {title} (ID: {pid})")
-                continue  # 실제로 안 바꿨으니 '완료' 노트를 쓰지 않는다
-            else:
-                try:
-                    shopify_request(
-                        "PUT",
-                        f"products/{pid}.json",
-                        {"product": {"id": pid, "body_html": updated_html}},
-                    )
-                    REPORT["products_changed"].append({"id": pid, "title": title, "status": "updated"})
-                    status = "완료"
-                    print(f"  [상품 AEO 업데이트 완료] {title} (ID: {pid})")
-                except urllib.error.HTTPError as e:
-                    REPORT["products_changed"].append({"id": pid, "title": title, "status": f"HTTP {e.code}"})
-                    print(f"  [상품 업데이트 실패] {title} (ID: {pid}): HTTP {e.code}")
-                    continue
-
-            # 옵시디언 개별 상품 노트 동기화
-            handle = prod.get("handle", f"product-{pid}")
-            obs_file = OBSIDIAN_DIR / f"Shopify_{handle}.md"
-            obs_file.write_text(
-                f"""---
-title: "{title}"
-shopify_id: {pid}
-handle: "{handle}"
-tags: [JARVIS-LUNA, Shopify-Product, UCP-Ready, AEO-Optimized]
----
-# {title}
-
-- **연결 허브**: [[00_REA_Shopify_AEO_Master_Hub]] | [[JARVIS LUNA Core]] | [[Shopify Dropshipping]]
-- **스토어 URL**: https://{STORE_DOMAIN}/products/{handle}
-- **AEO 시맨틱 요약 적용 여부**: {status} (Who it's for / Use Case / Who it's NOT for + FAQ 2문항)
-- **기록 시각(UTC)**: {datetime.now(timezone.utc).isoformat()}
-""",
-                encoding="utf-8",
-            )
+        for product in products:
+            html = product.get("body_html") or ""
+            title = product.get("title") or ""
+            product_type = product.get("product_type") or ""
+            status = "source_review_required"
+            omissions = {"product_copy": "Raw Admin text is not accepted identity or canonical type; no candidate generated."}
+            if "ai-semantic-summary" in html:
+                status = "legacy_content_review_required"
+                omissions["legacy_content"] = "Preserved without endorsement; manual evidence review required."
+            REPORT["products_review"].append({
+                "id": product["id"], "title": title, "status": status,
+                "source": "admin_api_product_fields_unverified",
+                "source_fields": {"title": title, "product_type": product_type},
+                "facts_verified": False, "candidate_generated": False,
+                "omission_reasons": omissions, "publication_allowed": False,
+            })
+        print(f"[상품 검토] {len(products)}건 관찰 (첫 페이지, 최대 50건). 실제 변경 0건.")
     except urllib.error.HTTPError as e:
         REPORT["errors"].append(f"products: HTTP {e.code}")
-        print(f"[상품 패치 오류] HTTP {e.code} - {e.read().decode('utf-8', 'ignore')}")
+        print(f"[상품 점검 오류] HTTP {e.code}")
 
 
 if __name__ == "__main__":

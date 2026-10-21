@@ -55,6 +55,7 @@ jobs:
           python -B scripts/test_reviewed_gallery_workflow.py
           python scripts/test_listing_copy_local.py
           python scripts/test_ai_shopping_copy.py
+          python -B scripts/test_shopify_aeo_inspection.py
           python -B -m unittest discover -s scripts -p "test_listing_copy_publication.py"
           python -B -m unittest discover -s scripts -p "test_shopify_import_report_publication.py"
           python scripts/test_operational_freshness.py
