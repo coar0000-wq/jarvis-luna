@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "execution_id": "39618910365:1",
-  "generated_at": "2026-10-21T14:44:43.792597+00:00",
+  "execution_id": "39650970860:1",
+  "generated_at": "2026-10-21T18:20:43.092493+00:00",
   "status": "degraded",
   "publish_allowed": true,
   "required_failures": [],
@@ -13,17 +13,17 @@
   "results": [
     {
       "schema_version": 1,
-      "execution_id": "39618910365:1",
+      "execution_id": "39650970860:1",
       "name": "canonical_source",
       "required": true,
       "status": "success",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-21T14:42:18.075788+00:00",
-      "finished_at": "2026-10-21T14:42:19.377943+00:00",
+      "last_attempt_at": "2026-10-21T18:17:03.745532+00:00",
+      "finished_at": "2026-10-21T18:17:05.760714+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_instrumented",
-      "last_data_changed_at": "2026-10-21T14:42:19.377964+00:00",
+      "last_data_changed_at": "2026-10-21T18:17:05.760733+00:00",
       "new_count": 0,
       "updated_count": 7,
       "query_count": null,
@@ -35,8 +35,8 @@
         {
           "path": "data/product_master.json",
           "exists": true,
-          "sha256": "86883de1dcb8700a2352c8a467d4fb44ab8e1ae272e84e9842e5c6ed11fda8bb",
-          "content_sha256": "e65a7cda87a30074a29c7eda8427e10cb16e830522a833ae9826979ea6e5b5d4",
+          "sha256": "c7879348a35596371e2ad55baa4437ae08cd03620ef663b5104cee2fb7d35762",
+          "content_sha256": "87506cf2a222b8de74d8a3531f3f087a1f95cd7b45cdf1515233d79398e4b41d",
           "valid_json": true
         }
       ],
@@ -44,22 +44,22 @@
         {
           "path": "data/product_master.json",
           "exists": true,
-          "sha256": "b24b4a06a6ea03f4e60c08cbb8c020c72d336206cfeb8b3992c17b0e50871b74",
-          "content_sha256": "a264f76e5634e230da794dbe725636b144cd9dd02d95795769d505da4292cecb",
+          "sha256": "e2e972a280ae3d8c8a0263afecc1fa36bea55cd43f4dde27cffe914d2265bc39",
+          "content_sha256": "0fff95e4830608bec95e3592386f1baa09b8399b97baac95394be99512aa9e2a",
           "valid_json": true
         }
       ]
     },
     {
       "schema_version": 1,
-      "execution_id": "39618910365:1",
+      "execution_id": "39650970860:1",
       "name": "youtube",
       "required": false,
       "status": "skipped",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-21T14:42:02.910913+00:00",
-      "finished_at": "2026-10-21T14:42:02.994952+00:00",
+      "last_attempt_at": "2026-10-21T18:16:50.247120+00:00",
+      "finished_at": "2026-10-21T18:16:50.333481+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_attempted",
       "last_data_changed_at": null,
@@ -94,14 +94,14 @@
     },
     {
       "schema_version": 1,
-      "execution_id": "39618910365:1",
+      "execution_id": "39650970860:1",
       "name": "google",
       "required": false,
       "status": "skipped",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-21T14:42:03.042517+00:00",
-      "finished_at": "2026-10-21T14:42:03.042542+00:00",
+      "last_attempt_at": "2026-10-21T18:16:50.398968+00:00",
+      "finished_at": "2026-10-21T18:16:50.398995+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_attempted",
       "last_data_changed_at": null,
@@ -117,17 +117,17 @@
     },
     {
       "schema_version": 1,
-      "execution_id": "39618910365:1",
+      "execution_id": "39650970860:1",
       "name": "runtime",
       "required": true,
       "status": "success",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-21T14:42:19.537121+00:00",
-      "finished_at": "2026-10-21T14:44:43.714457+00:00",
+      "last_attempt_at": "2026-10-21T18:17:06.021450+00:00",
+      "finished_at": "2026-10-21T18:20:42.975837+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_instrumented",
-      "last_data_changed_at": "2026-10-21T14:44:43.714478+00:00",
+      "last_data_changed_at": "2026-10-21T18:20:42.975860+00:00",
       "new_count": null,
       "updated_count": null,
       "query_count": null,
@@ -139,8 +139,8 @@
         {
           "path": "data/dashboard_runtime.json",
           "exists": true,
-          "sha256": "666630fd2fe3868cfeccfb281e8137b138a806b1606ec5f1f3503c6a808015b5",
-          "content_sha256": "0b41b843eaed6c82bc0b2e39f7fa5a51872ac2598df62fa8ccb10de5387eae35",
+          "sha256": "282032166e6119192e52f7438fe77e71442f74761e0da19dc5f3f4b3f4a487f1",
+          "content_sha256": "77f1ce2e838974f5378e61d53da2c7b48e976ba9da7b166c24d29c08229a6aea",
           "valid_json": true
         }
       ],
@@ -148,8 +148,8 @@
         {
           "path": "data/dashboard_runtime.json",
           "exists": true,
-          "sha256": "412a8f5d71eecc99b168b6a9495660f42fc8854a04de52cbf6938ff88c5950cd",
-          "content_sha256": "08b5c0e4959354de5b7ef3a5e94a832aa34cfc8b1e4d92beb6e8c14021272f8f",
+          "sha256": "b013a65e207d0b13489a69a9dce9d11b27bbf30f0366a5287ecd8ee423b561fd",
+          "content_sha256": "7cf0d095b610d8c69b725442f5b9ab728d4d1e9160c001b8c08992418abbd11d",
           "valid_json": true
         }
       ]
