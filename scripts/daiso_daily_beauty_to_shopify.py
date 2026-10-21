@@ -808,7 +808,7 @@ def _net_contents(raw, name_kr=""):
 def build_us_label(pd_no, name_kr, g):
     """고시(한국어)를 미국 상품 페이지용 영문 블록으로 만든다. 법률상 위험한 부분은 기계 번역하지 않는다.
 
-    - 성분: 대한화장품협회 표준화명칭목록(data/inci_dictionary.json)으로만 INCI 변환. 하나라도 못 이으면 성분표를 쓰지 않고 초안.
+    - 성분: 대한화장품협회 표준화명칭목록(data/inci_dictionary.json)으로만 INCI 변환. 미해결·검토·미확정 구분자 값이 있으면 성분표를 쓰지 않고 초안.
     - 사용상 주의·사용법: 기계 번역 금지(사람이 확인한 warnings_en 만 사용). 없으면 '포장 참조' 문구만.
     - 기능성/의약외품 성격(자외선차단·미백·주름개선 등): 자동 공개하지 않고 초안.
     - 제조국: 고정 매핑표만 사용. 매핑에 없으면 초안.
@@ -823,16 +823,31 @@ def build_us_label(pd_no, name_kr, g):
         if str(pd_no) in {'1069429', '1069430'}:
             lookup_ingredients = re.sub(r'\*(?=\s*(?:,|$))', '', source_ingredients)
         inci, missing, fixed, review = sg.to_inci(lookup_ingredients, resolver)
-        if inci and str(pd_no) in {'1069429', '1069430'} and re.search(r'향료\([^)]*1\.21%\)', source_ingredients):
-            inci = re.sub(r'\bFragrance\b(?!\s*\()', 'Fragrance (1.21%)', inci, flags=re.I)
-        if inci and str(pd_no) == '1060646' and '하이드롤라이즈드소듐하이알루로네이트(100 ppm)' in source_ingredients:
-            inci = re.sub(r'\bHydrolyzed Sodium Hyaluronate\b(?!\s*\()',
-                          'Hydrolyzed Sodium Hyaluronate (100 ppm)', inci, flags=re.I)
-        if inci:
-            label["ingredients_inci"] = inci
-            label["inci_fixed"] = len(fixed)
+        # The dictionary preserves source delimiters (e.g. 향료 maps to
+        # Fragrance|Perfume|Parfum), and an exact hit has review=[]. A pipe
+        # alone does not tell us whether names are aliases or components.
+        # Do not choose, split, or relabel that value as a final INCI list.
+        # Likewise a nonempty string never overrides missing/review records.
+        if not all(isinstance(records, list) for records in (missing, fixed, review)):
+            reasons.append("inci_result_metadata_invalid")
         else:
-            reasons.append(f"inci_unresolved:{len(missing)}" if g.get("ingredients") else "ingredients_missing")
+            has_inci = isinstance(inci, str) and bool(inci.strip())
+            delimited = has_inci and '|' in inci
+            if missing or not has_inci:
+                reasons.append(f"inci_unresolved:{len(missing)}" if g.get("ingredients") else "ingredients_missing")
+            if review:
+                reasons.append(f"inci_review_required:{len(review)}")
+            if delimited:
+                reasons.append("inci_delimited_output_review_required")
+            if has_inci and not missing and not review and not delimited:
+                if str(pd_no) in {'1069429', '1069430'} and re.search(r'향료\([^)]*1\.21%\)', source_ingredients):
+                    inci = re.sub(r'\bFragrance\b(?!\s*\()', 'Fragrance (1.21%)', inci, flags=re.I)
+                if str(pd_no) == '1060646' and '하이드롤라이즈드소듐하이알루로네이트(100 ppm)' in source_ingredients:
+                    inci = re.sub(r'\bHydrolyzed Sodium Hyaluronate\b(?!\s*\()',
+                                  'Hydrolyzed Sodium Hyaluronate (100 ppm)', inci, flags=re.I)
+                fixed_count = len(fixed)
+                label["ingredients_inci"] = inci
+                label["inci_fixed"] = fixed_count
     except Exception as exc:  # noqa: BLE001
         log(f"  inci failed: {exc}")
         reasons.append("inci_error")

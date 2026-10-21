@@ -97,6 +97,7 @@ jobs:
           python -B -m unittest discover -s scripts -p "test_beauty_price_strategy.py"
           python -B -m unittest discover -s scripts -p "test_checkout_price_evidence.py"
           python -B -m unittest discover -s scripts -p "test_team_briefing_feeds.py"
+          python -B -m unittest discover -s scripts -p "test_us_human_sales_review.py"
           python -B -m unittest discover -s scripts -p "test_video_learning_visibility.py"
           python -B -m unittest discover -s scripts -p "test_payment_fees.py"
           python -B -m unittest discover -s scripts -p "test_operations_storage.py"

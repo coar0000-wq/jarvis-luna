@@ -168,6 +168,177 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(fake._tess.call_count, 2)
 
 
+class InciLabelValidationTests(unittest.TestCase):
+    def build(self, inci, missing=None, fixed=None, review=None):
+        import daiso_daily_beauty_to_shopify as daily
+        sg = Mock()
+        sg.to_inci.return_value = (inci, missing or [], fixed or [], review or [])
+        source = dict(ingredients='정제수, 향료(리프레싱 허벌향 1.21%), 글리세린',
+                      volume='225 mL', maker='Maker', origin='대한민국')
+        before = copy.deepcopy(source)
+        with patch.object(daily, '_inci_resolver', return_value=(sg, Mock())):
+            label = daily.build_us_label('1069430', 'Body Wash', source)
+        self.assertEqual(source, before)
+        self.assertEqual(sg.to_inci.return_value[0], inci)
+        return label
+
+    def assert_no_ingredient_list(self, label):
+        self.assertNotIn('Ingredients (INCI)', label['html'])
+        self.assertNotIn('ingredients_inci', label['label'])
+        self.assertNotIn('inci_fixed', label['label'])
+
+    def test_delimited_output_is_not_split_selected_or_partially_rendered(self):
+        for inci in ('Fragrance|Perfume|Parfum', 'Water, Fragrance|Perfume|Parfum, Glycerin',
+                     '|', '||', 'Fragrance|', '|Fragrance', 'Fragrance| |Parfum',
+                     'Water, Fragrance | Parfum, 1,2-Hexanediol'):
+            with self.subTest(inci=inci):
+                label = self.build(inci)
+                self.assertEqual(label['reasons'], ['inci_delimited_output_review_required'])
+                self.assert_no_ingredient_list(label)
+
+    def test_review_records_block_even_a_nonempty_inci_string(self):
+        from inci_resolver import Resolution
+        for method in ('ambiguous', 'unknown', 'not_ingredient'):
+            record = Resolution(term='unresolved source', method=method,
+                                reason='review required', candidates=['Fragrance', 'Parfum']).as_record()
+            before = copy.deepcopy(record)
+            with self.subTest(method=method):
+                label = self.build('Water, Fragrance', review=[record])
+                self.assertEqual(label['reasons'], ['inci_review_required:1'])
+                self.assert_no_ingredient_list(label)
+                self.assertEqual(record, before)
+
+    def test_partial_inci_with_missing_record_is_blocked(self):
+        label = self.build('Water, Glycerin', missing=['unresolved source'])
+        self.assertEqual(label['reasons'], ['inci_unresolved:1'])
+        self.assert_no_ingredient_list(label)
+
+    def test_missing_and_review_reasons_are_both_retained(self):
+        from inci_resolver import Resolution
+        record = Resolution(term='unresolved source', method='ambiguous',
+                            candidates=['Fragrance', 'Parfum']).as_record()
+        label = self.build('', missing=['unresolved source'], review=[record])
+        self.assertEqual(label['reasons'], ['inci_unresolved:1', 'inci_review_required:1'])
+        self.assert_no_ingredient_list(label)
+
+    def test_delimited_output_does_not_hide_missing_or_review_reasons(self):
+        from inci_resolver import Resolution
+        record = Resolution(term='unresolved source', method='unknown').as_record()
+        label = self.build('Water, Fragrance|Parfum', missing=['unresolved source'], review=[record])
+        self.assertEqual(label['reasons'], ['inci_unresolved:1', 'inci_review_required:1',
+                                           'inci_delimited_output_review_required'])
+        self.assert_no_ingredient_list(label)
+
+    def test_empty_whitespace_and_non_string_output_fail_closed(self):
+        for inci in ('', '  ', None, ['Water']):
+            with self.subTest(inci=inci):
+                label = self.build(inci)
+                self.assertEqual(label['reasons'], ['inci_unresolved:0'])
+                self.assert_no_ingredient_list(label)
+
+    def test_invalid_metadata_never_leaves_a_partial_ingredient_label(self):
+        import daiso_daily_beauty_to_shopify as daily
+        source = dict(ingredients='정제수', volume='40 mL', maker='Maker', origin='대한민국',
+                      functional='여드름성 피부 완화 기능성 화장품')
+        original = copy.deepcopy(source)
+        for index, field in enumerate(('missing', 'fixed', 'review'), 1):
+            for invalid in (None, '', 'record', {}, {'record': 'unvalidated'}, (), 0, False):
+                with self.subTest(field=field, invalid=invalid):
+                    result = ['Water', [], [], []]
+                    result[index] = invalid
+                    sg = Mock()
+                    sg.to_inci.return_value = tuple(result)
+                    with patch.object(daily, '_inci_resolver', return_value=(sg, Mock())):
+                        label = daily.build_us_label('1069430', 'Body Wash', source)
+                    self.assertEqual(label['reasons'], ['inci_result_metadata_invalid',
+                                                       'us_regulatory_review_functional_or_drug_like'])
+                    self.assert_no_ingredient_list(label)
+                    self.assertEqual(source, original)
+                    self.assertEqual(sg.to_inci.return_value, tuple(result))
+
+    def test_valid_single_inci_list_keeps_concentration_and_fixed_count(self):
+        from inci_resolver import Resolution
+        record = Resolution(term='source spelling', value='Fragrance',
+                            method='spelling', matched='향료').as_record()
+        label = self.build('Water, Fragrance, Glycerin, 1,2-Hexanediol', fixed=[record])
+        self.assertEqual(label['reasons'], [])
+        self.assertIn('Water, Fragrance (1.21%), Glycerin, 1,2-Hexanediol', label['html'])
+        self.assertEqual(label['label']['inci_fixed'], 1)
+
+    def test_real_dictionary_single_list_keeps_complete_ingredient_order(self):
+        import daiso_daily_beauty_to_shopify as daily
+        source = dict(ingredients='정제수, 글리세린, 1,2-헥산다이올, 카프릴릭/카프릭트라이글리세라이드',
+                      volume='40 mL', maker='Maker', origin='대한민국')
+        before = copy.deepcopy(source)
+        label = daily.build_us_label('single-list', 'Cream', source)
+        self.assertEqual(label['reasons'], [])
+        self.assertIn('Water, Glycerin, 1,2-Hexanediol, Caprylic/Capric Triglyceride', label['html'])
+        self.assertEqual(source, before)
+
+    def test_pipe_in_raw_source_is_not_reinterpreted_as_an_ingredient_separator(self):
+        import daiso_daily_beauty_to_shopify as daily
+        source = dict(ingredients='정제수|글리세린', volume='40 mL', maker='Maker', origin='대한민국')
+        before = copy.deepcopy(source)
+        label = daily.build_us_label('raw-pipe', 'Cream', source)
+        self.assertEqual(label['reasons'], ['inci_unresolved:1', 'inci_review_required:1'])
+        self.assert_no_ingredient_list(label)
+        self.assertEqual(source, before)
+
+    def test_real_cached_body_notices_block_ingredient_write_but_allow_title_only(self):
+        import hashlib
+        import json
+        import socket
+        from pathlib import Path
+        import daiso_daily_beauty_to_shopify as daily
+        root = Path(__file__).resolve().parents[1]
+        paths = [root / 'data/gosi.json', root / 'data/inci_dictionary.json']
+        hashes = {path: hashlib.sha256(path.read_bytes()).hexdigest() for path in paths}
+        notices = json.loads(paths[0].read_text(encoding='utf-8-sig'))['items']
+        sg, resolver = daily._inci_resolver()
+        self.assertEqual(resolver.table['향료'], 'Fragrance|Perfume|Parfum')
+        for pd in ('1069429', '1069430'):
+            with self.subTest(pd=pd), patch.object(socket.socket, 'connect', side_effect=AssertionError('offline only')):
+                source = copy.deepcopy(notices[pd])
+                original = copy.deepcopy(source)
+                inci, missing, _, review = sg.to_inci('정제수, 향료, 글리세린', resolver)
+                self.assertIn('Fragrance|Perfume|Parfum', inci)
+                self.assertEqual((missing, review), ([], []))
+                label = daily.build_us_label(pd, '', source)
+                self.assertEqual(label['reasons'], ['inci_delimited_output_review_required',
+                                                   'us_regulatory_review_functional_or_drug_like'])
+                self.assert_no_ingredient_list(label)
+                self.assertEqual(source, original)
+                gid, title = d.TITLE_SCOPE[pd]
+                holds = ['owner_category_fallback_draft_only', 'safety_evidence_unverified_owner_draft_only',
+                         'us_regulatory_review_functional_or_drug_like', 'english_title_missing']
+                entry = dict(pd_no=pd, shopify_id=gid, status='DRAFT', draft_reasons=holds[:])
+                registry = {'items': [entry]}
+                product = dict(id=gid, title='Source title', status='DRAFT', tags=['daiso-pd-' + pd],
+                               descriptionHtml='<p>Original unchanged</p>')
+                shop = Mock()
+                shop.read_product.side_effect = lambda _: copy.deepcopy(product)
+                shop.update_draft_content.side_effect = lambda _, html, title: product.update(descriptionHtml=html, title=title)
+                collect = Mock(return_value=dict(source, gosi_ok=True))
+                before = copy.deepcopy(product)
+                result = d.enrich(shop, registry, collect, daily.build_us_label, Mock())
+                self.assertEqual(result[0]['status'], 'source_or_label_review_required')
+                self.assertEqual(product, before)
+                self.assertEqual(entry['draft_reasons'], holds)
+                shop.update_description.assert_not_called()
+                shop.update_draft_content.assert_not_called()
+                result = d.enrich(shop, registry, collect, daily.build_us_label, Mock(),
+                                  title_overrides={pd: {'shopify_id': gid, 'title': title}})
+                self.assertEqual(result[0]['status'], 'title_enriched_label_review_required')
+                shop.update_draft_content.assert_called_once_with(gid, before['descriptionHtml'], title)
+                self.assertEqual(product['descriptionHtml'], before['descriptionHtml'])
+                self.assertEqual(product['status'], 'DRAFT')
+                self.assertEqual(entry['draft_reasons'], holds[:-1] + ['inci_delimited_output_review_required'])
+                self.assertEqual(source, original)
+                for method in ('update_description', 'create', 'publish', 'set_status'):
+                    getattr(shop, method).assert_not_called()
+        self.assertEqual(hashes, {path: hashlib.sha256(path.read_bytes()).hexdigest() for path in paths})
+
+
 class MakerValidationTests(unittest.TestCase):
     def collect(self, cached=None, api=None, alt=None, notice=None, vision=None):
         import json
