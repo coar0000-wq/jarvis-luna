@@ -167,6 +167,16 @@ def audit(raw):
     return out
 
 
+def build_questions():
+    questions = {}
+    for role in ROLES:
+        questions[role + "_quality"] = {"type": "score", "instructions": "Rate " + role + " evidence.",
+                                         "criteria": ["insufficient", "review", "usable", "strong"]}
+        questions[role + "_next_action"] = {"type": "choice", "instructions": "Route " + role + ".",
+                                             "criteria": {"local": "Sufficient", "source_check": "Missing/stale", "human_review": "Blocked/uncertain"}}
+    return questions
+
+
 def build_payload(root=ROOT):
     data = Path(root) / "data"
     dashboard = load(data / "dashboard_runtime.json")
@@ -211,12 +221,7 @@ def build_payload(root=ROOT):
                                   for r in rows(raw_learning.get("items"))],
             "improvement_material": {k: raw_improvement.get(k) for k in ("state", "status", "open_kind", "open_action")},
         }
-    questions = {}
-    for role in ROLES:
-        questions[role + "_quality"] = {"type": "score", "instructions": "Rate " + role + " evidence.",
-                                         "criteria": ["insufficient", "review", "usable", "strong"]}
-        questions[role + "_next_action"] = {"type": "choice", "instructions": "Route " + role + ".",
-                                             "criteria": {"local": "Sufficient", "source_check": "Missing/stale", "human_review": "Blocked/uncertain"}}
+    questions = build_questions()
     state = {"scope": "observed_cached_not_independently_verified", "approval": False,
              "rule": "Missing/unknown evidence=review, not approval. All roles advisory only.",
              "teams": teams, "audits": audits}
@@ -340,7 +345,14 @@ def main(argv=None, *, root=ROOT, adapter=None):
     if output.resolve().is_relative_to(data_root) and output.resolve() != data_root / "typesafe_team_advisory.json":
         parser.error("--output must not overwrite canonical data; use a temporary output outside data")
     result = evaluate(payload, adapter)
-    write_private(output, result)
+    if output.resolve() == data_root / "typesafe_team_advisory.json":
+        try:
+            from .team_advisory_history import publish_advisory
+        except ImportError:
+            from team_advisory_history import publish_advisory
+        publish_advisory(root, result, payload)
+    else:
+        write_private(output, result)
     print(canonical({"source": result["source"], "mode": result["mode"], "teams": len(result["teams"]), "enforced": False}))
     return 0
 
