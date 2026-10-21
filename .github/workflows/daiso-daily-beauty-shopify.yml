@@ -189,3 +189,16 @@ jobs:
             data/shop_com_categories.json
           if-no-files-found: ignore
           retention-days: 30
+
+      # Exact original bytes, final JPEGs and final conversion manifests for later review.
+      # Storage evidence only: this never grants gallery/rights/label/upload approval.
+      - name: 상세 이미지 검토 자산 보관
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: daiso-daily-beauty-image-review
+          path: |
+            ${{ runner.temp }}/localized/
+            data/image_localization/*.json
+          if-no-files-found: ignore
+          retention-days: 30

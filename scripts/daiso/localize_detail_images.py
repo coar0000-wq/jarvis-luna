@@ -23,7 +23,8 @@
   6) 검사: 사람 얼굴(YuNet) · 고시 표 패널 · 미국 금칙 표현 · 다시 OCR 해서 한글 잔존
      하나라도 걸리면 그 패널은 쓰지 않는다. 조용히 통과시키지 않고 사유를 남긴다
   7) 결과 매니페스트를 data/image_localization/<pdNo>.json 에 쓴다.
-     이미지 파일은 저장소에 넣지 않는다 (등록 실행 중 임시 폴더에서 바로 올린다)
+     원본 bytes와 변환 JPEG는 out_dir에 보관하고 일일 실행의 검토 artifact로 남긴다.
+     이 저장 증거는 권리·라벨·효능 검토나 Shopify 업로드 승인이 아니다.
 
 하지 않는 것
   - 이미지 생성 API 를 쓰지 않는다. 제품 사진은 다이소 원본 그대로다.
@@ -47,6 +48,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -67,6 +69,12 @@ REGULATORY_MARKERS = ("식약처", "심사", "보고서", "식품의약품안전
 REMOVE = "[remove]"
 METHOD = ("non-generative local text compositing over supplier detail images "
           "(OCR boxes + OpenCV inpaint + rendered English); no image generation API")
+# 2026-10-21: URL/SHA만 남기면 러너 종료 뒤 실제 원본/출력을 재검토할 수 없다.
+# 원본은 재인코딩하지 않고 제한된 크기/개수만 저장한다. 잘린 응답은 원본이 아니다.
+MAX_SOURCE_BYTES = 32 * 1024 * 1024
+MAX_SOURCE_TOTAL_BYTES = 128 * 1024 * 1024
+MAX_SOURCE_FILES = 32
+MAX_SOURCE_PIXELS = 40_000_000
 
 # 패널 자르기. 1084687 상세(850x15977)를 이 값으로 자르면 12조각, 714~1900px.
 # 수작업 원본 11장(469x690 축소본)의 구간과 거의 같은 자리에서 잘렸다.
@@ -126,10 +134,53 @@ def rendered_detail_image_urls(pd_no: str, scrolls: int = 40) -> list[str]:
             browser.close()
 
 
+class SourceEvidenceError(ValueError):
+    """A bounded, non-secret explanation for incomplete review evidence."""
+
+
 def download(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=90) as r:
-        return r.read()
+        expected = None
+        length = r.getheader("Content-Length")
+        if length is not None:
+            if re.fullmatch(r"[0-9]+", length.strip()) is None:
+                raise SourceEvidenceError("source_content_length_invalid")
+            expected = int(length)
+            if expected > MAX_SOURCE_BYTES:
+                raise SourceEvidenceError("source_size_budget_exceeded")
+        data = r.read(MAX_SOURCE_BYTES + 1)
+    if len(data) > MAX_SOURCE_BYTES:
+        raise SourceEvidenceError("source_size_budget_exceeded")
+    # HTTPResponse.read(n) can return short bytes without raising IncompleteRead.
+    # A PNG missing IEND may still decode; decoding is not proof of a complete download.
+    if expected is not None and len(data) != expected:
+        raise SourceEvidenceError("source_content_length_mismatch")
+    return data
+
+
+def preserve_source(out_dir: Path, data: bytes, digest: str) -> str:
+    """Save exact input bytes, including undecodable images, with no URL-derived path."""
+    if not isinstance(digest, str) or re.fullmatch(r"[0-9a-f]{64}", digest) is None:
+        raise SourceEvidenceError("source_sha256_invalid")
+    name = f"source-{digest}.bin"  # .bin does not mislabel a PNG/WebP/GIF as JPEG.
+    path = out_dir / name
+    if path.is_symlink() or (path.exists() and not path.is_file()):
+        raise SourceEvidenceError("unsafe_source_path")
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=out_dir, prefix=".source-", delete=False) as f:
+            temporary = Path(f.name)
+            f.write(data)
+        with temporary.open("rb") as f:
+            saved = f.read(MAX_SOURCE_BYTES + 1)
+        if len(saved) != len(data) or sha(saved) != digest:
+            raise SourceEvidenceError("source_preservation_mismatch")
+        temporary.replace(path)
+        return name
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 # ---------------------------------------------------------------- 2) 패널 자르기
@@ -831,7 +882,6 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
     import numpy as np  # noqa: PLC0415
     from PIL import Image  # noqa: PLC0415
 
-    out_dir.mkdir(parents=True, exist_ok=True)
     man = {"schema_version": 1, "product_id": str(pd_no), "title_en": title, "generated_at": now(),
            "method": METHOD, "reference_example": "data/manual/image_localization/1084687.json",
            "translator": getattr(translator, "name", None), "sources": [], "panels": [],
@@ -840,15 +890,51 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
            "gallery_status": "review_required", "gallery_complete": False,
            "gallery_review_reasons": ["role_rights_and_label_evidence_review_required"]}
     try:
+        # Refuse traversal and symlinked output directories before writing evidence or JPEGs.
+        if ".." in out_dir.parts or out_dir.absolute() != out_dir.resolve():
+            raise SourceEvidenceError("unsafe_output_directory")
+        out_dir.mkdir(parents=True, exist_ok=True)
         if sources is None:
             urls = rendered_detail_image_urls(str(pd_no))
-            sources = [(u, download(u)) for u in urls]
+            candidates = [(u, None) for u in urls]
+        else:
+            candidates = sources
     except Exception as exc:  # noqa: BLE001
-        man["reasons"].append(f"detail_images_unavailable:{type(exc).__name__}")
+        reason = str(exc) if isinstance(exc, SourceEvidenceError) else type(exc).__name__
+        man["reasons"].append(f"detail_images_unavailable:{reason}")
         return man
-    if not sources:
+    if not candidates:
         man["reasons"].append("no_description_images")
         return man
+    if len(candidates) > MAX_SOURCE_FILES:
+        man["reasons"].append("source_count_budget_exceeded")
+        return man
+    preserved = []
+    total_bytes = 0
+    for src_url, data in candidates:
+        source = {"url": src_url, "preservation_status": "failed"}
+        man["sources"].append(source)
+        try:
+            data = download(src_url) if data is None else data
+            if not isinstance(data, bytes) or not data:
+                raise SourceEvidenceError("source_bytes_missing")
+            source["bytes"] = len(data)
+            if len(data) > MAX_SOURCE_BYTES:
+                raise SourceEvidenceError("source_size_budget_exceeded")
+            total_bytes += len(data)
+            if total_bytes > MAX_SOURCE_TOTAL_BYTES:
+                raise SourceEvidenceError("source_total_size_budget_exceeded")
+            source["sha256"] = sha(data)
+            source["source_file"] = preserve_source(out_dir, data, source["sha256"])
+            source["preservation_status"] = "stored"
+            preserved.append((source, data))
+        except Exception as exc:  # noqa: BLE001  missing originals must never become successful conversion.
+            reason = str(exc) if isinstance(exc, SourceEvidenceError) else type(exc).__name__
+            source["reason"] = f"source_preservation_failed:{reason}"
+            man["reasons"].append(source["reason"])
+            man["gallery_review_reasons"].append("source_evidence_incomplete")
+            return man
+    # Keep downloaded originals even when OCR/translation is unavailable.
     try:
         ensure_ocr_ready()
     except Exception as exc:  # noqa: BLE001  OCR 없이 '한글 없음' 으로 통과시키지 않는다
@@ -862,16 +948,28 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
     except Exception:  # noqa: BLE001
         di = None
     n = 0
-    for src_url, data in sources:
-        man["sources"].append({"url": src_url, "sha256": sha(data), "bytes": len(data)})
-        full = Image.open(io.BytesIO(data)).convert("RGB")
-        cuts = panel_cuts(np.asarray(full.convert("L"), dtype=np.float32))
+    source_incomplete = False
+    for source, data in preserved:
+        try:
+            with Image.open(io.BytesIO(data)) as original:
+                source["format"] = original.format
+                if original.width * original.height > MAX_SOURCE_PIXELS:
+                    raise SourceEvidenceError("source_pixel_budget_exceeded")
+                full = original.convert("RGB")
+            cuts = panel_cuts(np.asarray(full.convert("L"), dtype=np.float32))
+        except Exception as exc:  # noqa: BLE001  retain the real bytes and a failed manifest for review.
+            reason = str(exc) if isinstance(exc, SourceEvidenceError) else type(exc).__name__
+            source["reason"] = f"source_decode_failed:{reason}"
+            man["reasons"].append(source["reason"])
+            source_incomplete = True
+            continue
         for a, b in zip(cuts, cuts[1:]):
             panel = full.crop((0, a, full.width, b))
             buf = io.BytesIO()
             panel.save(buf, "PNG")
             png = buf.getvalue()
-            row = {"source_sha256": sha(data), "y": [a, b], "panel_sha256": sha(png), "status": "excluded"}
+            row = {"source_sha256": source["sha256"], "source_file": source["source_file"],
+                   "y": [a, b], "panel_sha256": sha(png), "status": "excluded"}
             man["panels"].append(row)
             try:
                 if di is None or di.count_faces(png) > 0:
@@ -944,6 +1042,7 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
             alt = f"{title} — {head}" if head else title
             row.update(status="used", file=name)
             man["outputs"].append({"file": name, "sha256": sha(jpg), "bytes": len(jpg),
+                                   "source_sha256": source["sha256"], "source_file": source["source_file"],
                                    "width": out.width, "height": out.height, "alt": alt[:500],
                                    "english": {str(k): v for k, v in english.items()}})
     info, why = info_panel(str(pd_no), title)
@@ -960,7 +1059,9 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
         man["reasons"].append(f"info_panel_skipped:{why}")
     used = sum(1 for p in man["panels"] if p["status"] == "used")
     incomplete = any(p.get("inspection_incomplete") for p in man["panels"])
-    man["status"] = "ok" if used and not incomplete else "failed"
+    man["status"] = "ok" if used and not incomplete and not source_incomplete else "failed"
+    if source_incomplete:
+        man["gallery_review_reasons"].append("source_image_incomplete")
     if incomplete:
         man["reasons"].append("ocr_inspection_incomplete")
         man["gallery_review_reasons"].append("ocr_inspection_incomplete")
