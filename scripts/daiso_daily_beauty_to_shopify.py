@@ -70,6 +70,7 @@ import gallery_review  # noqa: E402
 import owner_draft_approval  # noqa: E402
 import body_category_fallback as body_fallback  # noqa: E402
 import pricing_model  # noqa: E402
+from daiso.collect_gosi_alt import notice_value, clean_maker  # noqa: E402
 
 STRATEGY = pricing_model.load_commerce_strategy()
 CATEGORIES = [
@@ -685,8 +686,9 @@ def _collect_gosi(pd_no, allow_ai=True):
     try:
         items = json.loads((ROOT / "data/gosi.json").read_text(encoding="utf-8-sig")).get("items") or {}
         if isinstance(items, dict) and isinstance(items.get(str(pd_no)), dict):
-            g.update({k: _clean(v) for k, v in items[str(pd_no)].items()
-                      if k in {'ingredients', 'volume', 'maker', 'origin', 'functional', 'expiry', 'usage', 'warnings'} and _clean(v)})
+            g.update({k: notice_value(k, _clean(v)) for k, v in items[str(pd_no)].items()
+                      if k in {'ingredients', 'volume', 'maker', 'origin', 'functional', 'expiry', 'usage', 'warnings'}
+                      and notice_value(k, _clean(v))})
             g["_source"] = "jarvis data/gosi.json"
     except (OSError, json.JSONDecodeError):
         pass
@@ -698,7 +700,9 @@ def _collect_gosi(pd_no, allow_ai=True):
         return g
     # 1) 다이소 API 텍스트
     for k, v in gosi_from_api(pd_no).items():
-        g.setdefault(k, v)
+        v = notice_value(k, v)
+        if v:
+            g.setdefault(k, v)
     # 1.5) 렌더링된 상세 이미지 alt 원문 (AI 없음, 무료). CLAUDE.md 2026-09-13: 고시 전문은
     # editor-content img 의 alt 에 글자로 있다. 그런데 이 단계가 없어서 data/gosi.json 에 없는
     # 상품(S등급이 아닌 바디 대체·메이크업 랭킹 후보)은 고시가 늘 비었다.
@@ -710,6 +714,7 @@ def _collect_gosi(pd_no, allow_ai=True):
             log(f"  gosi rendered alt failed: {type(exc).__name__}: {exc}")
             got = {}
         for k, v in got.items():
+            v = notice_value(k, v)
             if v and not g.get(k):
                 g[k] = v
                 g["_source"] = "rendered alt (다이소 상세 이미지 alt 원문)"
@@ -719,8 +724,9 @@ def _collect_gosi(pd_no, allow_ai=True):
             from daiso_notice_recovery import rendered_notice, ocr_notice
             evidence = rendered_notice(pd_no)
             for k, v in evidence['fields'].items():
-                if k in FIELD.values() and _clean(v) and not g.get(k):
-                    g[k] = _clean(v)
+                v = notice_value(k, _clean(v))
+                if k in FIELD.values() and v and not g.get(k):
+                    g[k] = v
             if any(not g.get(k) for k in NEED):
                 evidence['ocr'] = ocr_notice(evidence['images'])
             g['_notice_evidence'] = evidence
@@ -748,6 +754,7 @@ def _collect_gosi(pd_no, allow_ai=True):
             if got is None:
                 continue
             for k, v in got.items():
+                v = notice_value(k, v)
                 if v and not g.get(k):
                     g[k] = v
                     g["_source"] = "gemini vision (상세 이미지 판독, 사람 확인 전)"
@@ -837,12 +844,12 @@ def build_us_label(pd_no, name_kr, g):
         label["origin"] = origin
     else:
         reasons.append("origin_unmapped")
-    mk = _clean(g.get("maker"))
+    mk = clean_maker(_clean(g.get("maker")))
     for ko, en in ROLE_EN:
         mk = mk.replace(ko, en)
     if re.search(r"[가-힣]{2,}", re.sub(r"\([^)]*\)|주식회사|\(주\)|㈜", "", mk)) or mk:
         label["maker"] = mk  # 회사명은 고유명사라 번역하지 않고 원문 그대로 둔다
-    if not g.get("maker"):
+    if not mk:
         reasons.append("maker_missing")
 
     # 사람이 확인한 영문 주의사항이 있을 때만 쓴다

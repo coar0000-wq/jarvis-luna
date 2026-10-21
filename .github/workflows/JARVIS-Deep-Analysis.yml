@@ -514,6 +514,7 @@ jobs:
           python - <<'PY'
           import json, os
           from pathlib import Path
+          from scripts.daiso.collect_gosi_alt import notice_value, real
           data = Path("data")
           sdoc = json.loads((data / "daiso_real/shopify_s_recommendations.json").read_text(encoding="utf-8-sig"))
           gdoc = json.loads((data / "gosi.json").read_text(encoding="utf-8-sig"))
@@ -525,7 +526,7 @@ jobs:
                   continue
               pid = str(p.get("pd_no") or "")
               row = items.get(pid) if isinstance(items, dict) else {}
-              if not isinstance(row, dict) or not all(str(row.get(k) or "").strip() for k in need):
+              if not isinstance(row, dict) or not all(real(notice_value(k, str(row.get(k) or ""))) for k in need):
                   missing.append(pid)
           print(f"S등급 고시 자동복구 대상 {len(missing)}건: {', '.join(missing) or '-'}")
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
