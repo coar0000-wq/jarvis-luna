@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": "candidate",
-  "generated_at": "2026-10-21T08:56:55.064266+00:00",
+  "generated_at": "2026-10-21T13:17:02.204746+00:00",
   "status": "warning",
   "publish_allowed": true,
   "errors": [],
@@ -10,10 +10,10 @@
   ],
   "artifact_sha256": {
     "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
-    "data/product_master.json": "c686d0183a9bafd3210d4f82c28b1141e4b57bb1444c84dda204c3eb5ca4f4e0",
-    "data/daiso_real/shopify_demand_score.json": "260c876945d476e149915ded95f88c9fed91e5c62b766e6ade93f2f60b4a0cdf",
-    "data/pricing_model.json": "c69cb94ed88a0620f26dd7bee681d5f6cf390a05580fc3b477ca2a5bc6b0f1d7",
-    "data/dashboard_runtime.json": "fcaadf5d566335007e5704b8f0726935be7716b7ecae5dd3901a5a125ce19a0b"
+    "data/product_master.json": "b892a570ce9830756015ae0c279d1c306082e9a5c6986618e44bb1dd6b8bf37f",
+    "data/daiso_real/shopify_demand_score.json": "9d6c51cfd5126714cb03f45a1827712a27103ee4a0dbcf516ad6dfe1251d2bd4",
+    "data/pricing_model.json": "752a0879094c41b8982f4502ecb56c1f887014bf27899779b3e4222e7b6ee68a",
+    "data/dashboard_runtime.json": "742ded4f8650c06ae2abb6555e1bbd913751c6f65acb125014f1170539af0381"
   },
   "paid_api_called": false
 }
