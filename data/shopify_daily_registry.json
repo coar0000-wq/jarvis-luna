@@ -1179,7 +1179,7 @@
       "pd_no": "1069429",
       "family": "46cm체취솔루션데오드란트바디워시스파클링시트러스향225ml",
       "name_kr": "46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml",
-      "title": "46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml",
+      "title": "46cm Body Wash Sparkling Citrus 225 mL",
       "category": "body",
       "date": "2026-10-19",
       "status": "DRAFT",
@@ -1369,18 +1369,16 @@
       "price_evidence_source": null,
       "price_claim": null,
       "draft_reasons": [
-        "ingredients_missing",
         "maker_missing",
         "product_accuracy_owner_review_required",
         "market_price_unverified_cost_based_draft_only",
         "owner_category_fallback_draft_only",
         "safety_evidence_unverified_owner_draft_only",
         "listing_gate_product_missing_or_ambiguous",
-        "brand_english_unverified:",
-        "english_title_missing",
-        "gosi_missing:ingredients,maker",
         "no_usable_product_images",
-        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos",
+        "inci_delimited_output_review_required",
+        "us_regulatory_review_functional_or_drug_like"
       ],
       "grade": "-",
       "source": "owner_body_shower_category_fallback",
@@ -1559,7 +1557,67 @@
         "shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"
       ],
       "shopify_id": "gid://shopify/Product/9597411655937",
-      "handle": "46cm-체취솔루션-데오드란트-바디워시-스파클링-시트러스향-225-ml"
+      "handle": "46cm-체취솔루션-데오드란트-바디워시-스파클링-시트러스향-225-ml",
+      "notice_collection": {
+        "missing": [],
+        "source_complete": true,
+        "evidence": {},
+        "label_reasons": [
+          "inci_delimited_output_review_required",
+          "us_regulatory_review_functional_or_drug_like"
+        ]
+      },
+      "notice_enrichment": {
+        "state": "verified",
+        "before_description_html": "<p>46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Body Care</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><h4>Product information</h4><ul>\n<li>\n<strong>Net contents:</strong> 225mL (7.61 fl oz)</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul><p><small>Source: Daiso Mall item 1069429.</small></p>",
+        "before_sha256": "13345ff41a058ec4f1dfa546e3eb1a82f1fa0c0608c99acbe588735d5bd6baa1",
+        "after_sha256": "13345ff41a058ec4f1dfa546e3eb1a82f1fa0c0608c99acbe588735d5bd6baa1",
+        "expected_description_html": "<p>46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Body Care</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><h4>Product information</h4><ul>\n<li>\n<strong>Net contents:</strong> 225mL (7.61 fl oz)</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul><p><small>Source: Daiso Mall item 1069429.</small></p>",
+        "section": null,
+        "before_title": "46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml",
+        "expected_title": "46cm Body Wash Sparkling Citrus 225 mL",
+        "title_provenance": {
+          "title": "46cm Body Wash Sparkling Citrus 225 mL",
+          "shopify_id": "gid://shopify/Product/9597411655937",
+          "source_sha256": "236fc86f0e7f6459e8510bb4de21636e5f1a15618dd81387c06cc522ecb7f71c",
+          "source_path": "data/manual/gosi_source_recovery/2026-10-20/source_recovery.json",
+          "source_image": "https://cdn.daisomall.co.kr/file/resize/PD/20250805/description/850/ZX99Pxb5xlYvxjx2QBLk1069430_01_01ZX99Pxb5xlYvxjx2QBLk.jpg",
+          "scope": "draft_source_name_only_not_safety_or_sale_approval"
+        },
+        "cleanup_migration": null,
+        "observed_after_sha256": "13345ff41a058ec4f1dfa546e3eb1a82f1fa0c0608c99acbe588735d5bd6baa1"
+      },
+      "draft_reason_history": [
+        {
+          "before": [
+            "ingredients_missing",
+            "maker_missing",
+            "product_accuracy_owner_review_required",
+            "market_price_unverified_cost_based_draft_only",
+            "owner_category_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "brand_english_unverified:",
+            "english_title_missing",
+            "gosi_missing:ingredients,maker",
+            "no_usable_product_images",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          ],
+          "after": [
+            "maker_missing",
+            "product_accuracy_owner_review_required",
+            "market_price_unverified_cost_based_draft_only",
+            "owner_category_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "no_usable_product_images",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos",
+            "inci_delimited_output_review_required",
+            "us_regulatory_review_functional_or_drug_like"
+          ],
+          "reason": "fresh_draft_notice_or_title_readback_only"
+        }
+      ]
     },
     {
       "pd_no": "1060646",
@@ -2825,5 +2883,5 @@
     ]
   },
   "gallery_review_cursor": "gid://shopify/Product/9597334946049",
-  "notice_enrichment_cursor": "gid://shopify/Product/9652673216769"
+  "notice_enrichment_cursor": "gid://shopify/Product/9597411655937"
 }
