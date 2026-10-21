@@ -133,7 +133,14 @@ def validate_state(root, state):
     ledger = read(root, execution.ExecutionStore.filename, {}) or {}
     if ledger.get('global_stop'):
         raise ValueError('execution global stop; explicit reconciliation required')
-    audit.validate(state, root=root)
+    # The retained ledger is several MiB. Reopening/parsing it separately for
+    # every historical audit outcome and receipt made a validation pass quadratic
+    # in history, then repeated after every task. Use one durable snapshot only
+    # for this pass; still check every receipt binding and actual output bytes.
+    # Recheck before returning and reject a changed ledger; never carry this
+    # snapshot across validation passes or execution-store writes.
+    ledger_hash = core.digest(ledger)
+    audit.validate(state, root=root, ledger=ledger)
     batches = state.get('event_batches', {})
     if not isinstance(batches, dict) or len(batches) > 10000:
         raise ValueError('watch batch capacity/schema invalid')
@@ -150,7 +157,7 @@ def validate_state(root, state):
                        for e in batch['event_ids'])):
             raise ValueError('immutable watch batch/reference invalid')
     for receipt in state['receipts'].values():
-        if not execution.validate_receipt(root, receipt):
+        if not execution.validate_receipt(root, receipt, ledger):
             raise ValueError('trusted execution ledger/output mismatch')
     for task in state['tasks'].values():
         if task.get('state') == 'COMPLETED' and not core._completion_valid(state, task):
@@ -160,6 +167,8 @@ def validate_state(root, state):
     if numbered and (any(type(n) is not int for n in numbered) or max(numbered) != state['sequence']
                      or len(set(numbered)) != len(numbered) or len(numbered) != state['sequence']):
         raise ValueError('operation event sequence collision/rollback')
+    if core.digest(read(root, execution.ExecutionStore.filename, {}) or {}) != ledger_hash:
+        raise ValueError('execution ledger changed during validation; explicit reconciliation required')
 
 
 def canonical_members(root):
