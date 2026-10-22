@@ -1,32 +1,37 @@
 {
-  "generated_at": "2026-10-18T03:39:17.876324+00:00",
+  "generated_at": "2026-10-22T22:57:01.188138+00:00",
   "generator": "scripts/collect_serpapi_market.py",
   "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
   "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-10",
-    "used": 51,
+    "used": 69,
     "cap": 200,
-    "spent_this_run": 9
+    "spent_this_run": 13
   },
   "prices": {
     "status": "ok",
     "reason": "",
-    "count": 9,
+    "count": 8,
     "failures": [
       {
-        "pd_no": "1049275",
-        "query": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+        "pd_no": "1061918",
+        "query": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "pd_no": "1068721",
+        "query": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "reason": "Google hasn't returned any results for this query."
       },
       {
         "pd_no": "1074979",
         "query": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
-        "reason": "Google hasn't returned any results for this query."
+        "reason": "TimeoutError: The read operation timed out"
       },
       {
-        "pd_no": "1045431",
-        "query": "태그 슬림브로우 펜슬 2호 애쉬브라운",
+        "pd_no": "1060500",
+        "query": "밀크터치 디어씽 블러리 이펙트 스무드 터치팟 뮤트메모리",
         "reason": "Google hasn't returned any results for this query."
       }
     ],
@@ -35,9 +40,9 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "query": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "n": 7,
-        "min_usd": 3.91,
-        "median_usd": 24.99,
+        "n": 4,
+        "min_usd": 8.49,
+        "median_usd": 33.99,
         "max_usd": 55.99,
         "engine": "google_shopping",
         "cached": false
@@ -46,9 +51,9 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "query": "본셉 레티놀 500 IU 세럼 30 ml",
-        "n": 12,
+        "n": 10,
         "min_usd": 10.99,
-        "median_usd": 20.17,
+        "median_usd": 18.55,
         "max_usd": 150.0,
         "engine": "google_shopping",
         "cached": false
@@ -58,68 +63,58 @@
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "query": "[영양광채]VT PDRN 광채 크림 50 ml",
         "n": 20,
-        "min_usd": 3.37,
-        "median_usd": 33.38,
-        "max_usd": 88.0,
+        "min_usd": 5.0,
+        "median_usd": 21.5,
+        "max_usd": 34.95,
         "engine": "google_shopping",
         "cached": false
       },
       {
-        "pd_no": "1068721",
-        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-        "query": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-        "n": 1,
-        "min_usd": 8.89,
-        "median_usd": 8.89,
-        "max_usd": 8.89,
-        "engine": "google_shopping",
-        "cached": false
-      },
-      {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "query": "줌 바이 정샘물 세범다운 쿠션",
-        "n": 19,
-        "min_usd": 2.99,
-        "median_usd": 26.99,
-        "max_usd": 88.0,
-        "engine": "google_shopping",
-        "cached": false
-      },
-      {
-        "pd_no": "1035214",
-        "name": "오릭스 모이스처 립밤 4.8 g 무향",
-        "query": "오릭스 모이스처 립밤 4.8 g 무향",
-        "n": 18,
-        "min_usd": 9.99,
-        "median_usd": 19.99,
-        "max_usd": 288.53,
+        "pd_no": "1082357",
+        "name": "[01누드바]본셉 틴티드 글로우 립스틱",
+        "query": "[01누드바]본셉 틴티드 글로우 립스틱",
+        "n": 2,
+        "min_usd": 10.0,
+        "median_usd": 18.0,
+        "max_usd": 26.0,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "makeup_ranking_fallback",
-        "ranking_display_rank": 1
+        "ranking_display_rank": 2
       },
       {
-        "pd_no": "1045432",
-        "name": "태그 슬림 브로우 펜슬 라이트 브라운",
-        "query": "태그 슬림 브로우 펜슬 라이트 브라운",
-        "n": 18,
-        "min_usd": 3.49,
-        "median_usd": 36.0,
-        "max_usd": 500.0,
+        "pd_no": "1061470",
+        "name": "[01 페어 피치] 드롭비 컬러즈 아이 컨실러 스틱",
+        "query": "[01 페어 피치] 드롭비 컬러즈 아이 컨실러 스틱",
+        "n": 17,
+        "min_usd": 5.99,
+        "median_usd": 23.0,
+        "max_usd": 149.95,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "makeup_ranking_fallback",
-        "ranking_display_rank": 3
+        "ranking_display_rank": 4
+      },
+      {
+        "pd_no": "1045431",
+        "name": "Taeg Slim Brow Pencil 2 Ash Brown",
+        "query": "Taeg Slim Brow Pencil 2 Ash Brown",
+        "n": 20,
+        "min_usd": 3.99,
+        "median_usd": 14.08,
+        "max_usd": 28.0,
+        "engine": "google_shopping",
+        "cached": false,
+        "source_scope": "registry_draft_missing_price"
       },
       {
         "pd_no": "1063230",
         "name": "Dove Sensitive Bar 90 g",
         "query": "Dove Sensitive Bar 90 g",
         "n": 20,
-        "min_usd": 5.7,
-        "median_usd": 15.98,
-        "max_usd": 453.11,
+        "min_usd": 4.5,
+        "median_usd": 18.02,
+        "max_usd": 187.33,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "registry_draft_missing_price"
@@ -128,28 +123,28 @@
         "pd_no": "1084687",
         "name": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
         "query": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
-        "n": 15,
-        "min_usd": 16.0,
-        "median_usd": 25.66,
+        "n": 9,
+        "min_usd": 6.33,
+        "median_usd": 43.5,
         "max_usd": 103.0,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "registry_draft_missing_price"
       }
     ],
-    "collected_at": "2026-10-18T03:39:17.876324+00:00"
+    "collected_at": "2026-10-22T22:57:01.188138+00:00"
   },
   "trends": {
     "status": "ok",
     "reason": "",
-    "count": 6,
+    "count": 5,
     "failures": [],
     "items": [
       {
         "seed": "korean face cream",
         "points": 53,
-        "avg_recent_8w": 23.8,
-        "avg_base_8w": 21.5,
+        "avg_recent_8w": 23.6,
+        "avg_base_8w": 22.1,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -159,8 +154,8 @@
       {
         "seed": "korean ampoule",
         "points": 53,
-        "avg_recent_8w": 16.8,
-        "avg_base_8w": 20.9,
+        "avg_recent_8w": 17.0,
+        "avg_base_8w": 22.8,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -170,8 +165,8 @@
       {
         "seed": "korean serum",
         "points": 53,
-        "avg_recent_8w": 25.0,
-        "avg_base_8w": 24.4,
+        "avg_recent_8w": 26.1,
+        "avg_base_8w": 25.4,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -181,8 +176,8 @@
       {
         "seed": "pdrn",
         "points": 53,
-        "avg_recent_8w": 37.2,
-        "avg_base_8w": 15.8,
+        "avg_recent_8w": 36.5,
+        "avg_base_8w": 16.4,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -192,19 +187,8 @@
       {
         "seed": "vitamin c",
         "points": 53,
-        "avg_recent_8w": 42.5,
-        "avg_base_8w": 46.0,
-        "peak": 100,
-        "engine": "google_trends",
-        "geo": "US",
-        "window": "today 12-m",
-        "cached": false
-      },
-      {
-        "seed": "korean cushion foundation",
-        "points": 53,
-        "avg_recent_8w": 13.2,
-        "avg_base_8w": 38.0,
+        "avg_recent_8w": 42.2,
+        "avg_base_8w": 47.6,
         "peak": 100,
         "engine": "google_trends",
         "geo": "US",
@@ -212,6 +196,6 @@
         "cached": false
       }
     ],
-    "collected_at": "2026-10-17T12:15:13.697554+00:00"
+    "collected_at": "2026-10-22T22:57:01.188138+00:00"
   }
 }
