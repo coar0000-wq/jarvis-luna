@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:24:00.332211+00:00",
+  "generated_at": "2026-10-22T07:57:50.891480+00:00",
   "overall_status": "degraded",
   "status_legend": {
     "success": "정상",
@@ -23,11 +23,11 @@
     "queue": 3021,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "3.2 hours ago",
-      "legal_full": "3.2 hours ago",
-      "shopify_sync": "10.1 days ago",
-      "pricing": "3.2 hours ago",
-      "marketing": "3.2 hours ago",
+      "product_master": "4.8 hours ago",
+      "legal_full": "4.8 hours ago",
+      "shopify_sync": "10.2 days ago",
+      "pricing": "4.8 hours ago",
+      "marketing": "4.8 hours ago",
       "daiso": "2.3 days ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
@@ -35,9 +35,9 @@
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
       "deep_heartbeat": "18.8 days ago",
-      "actions_monitor": "12.1 hours ago",
-      "gosi": "19.5 days ago",
-      "product_discovery": "3.2 hours ago"
+      "actions_monitor": "13.7 hours ago",
+      "gosi": "19.6 days ago",
+      "product_discovery": "4.8 hours ago"
     }
   },
   "summary": {
@@ -56,7 +56,7 @@
       "reason": "운영 상품 356개, CP 357개, S 7개",
       "count": 356,
       "s_count": 7,
-      "freshness": "3.2 hours ago",
+      "freshness": "4.8 hours ago",
       "is_failure": false
     },
     {
@@ -65,33 +65,33 @@
       "reason": "MoCRA 풀스키마 완료 0/7 · 공개 차단 7건 · 사람 입력 대기: identity 7건, ingredients 4건, directions 4건, warnings 4건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "3.2 hours ago"
+      "freshness": "4.8 hours ago"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 3단위 · initial · create 3 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "10.1 days ago"
+      "freshness": "10.2 days ago"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "3.2 hours ago"
+      "freshness": "4.8 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 7/7 · Trends 미연동",
       "is_failure": false,
-      "freshness": "3.2 hours ago"
+      "freshness": "4.8 hours ago"
     },
     {
       "team": "daiso",
       "status": "degraded",
-      "reason": "수집 시도 54.3시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 55.8시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -99,9 +99,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 54.262,
-      "attempt_age_hours": 54.262,
-      "success_age_hours": 557.584,
+      "candidate_success_age_hours": 55.826,
+      "attempt_age_hours": 55.826,
+      "success_age_hours": 559.148,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
@@ -1753,7 +1753,7 @@
         ],
         "operating_staleness": {
           "status": "degraded",
-          "reason": "수집 시도 54.3시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+          "reason": "수집 시도 55.8시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
           "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
           "last_success_at": "2026-09-29T00:48:58.284474+00:00",
           "last_attempt_status": "candidates_collected",
@@ -1761,9 +1761,9 @@
           "candidates_new": 91,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-          "candidate_success_age_hours": 54.262,
-          "attempt_age_hours": 54.262,
-          "success_age_hours": 557.584,
+          "candidate_success_age_hours": 55.826,
+          "attempt_age_hours": 55.826,
+          "success_age_hours": 559.148,
           "data_stale": true,
           "attempt_stale": true,
           "is_no_change": false,
@@ -1820,9 +1820,9 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (450.5시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (452.0시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 450.484,
+      "age_hours": 452.048,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -1835,22 +1835,22 @@
       "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
       "is_failure": false,
       "observed_at": "2026-10-21T18:17:01.705226Z",
-      "freshness": "12.1 hours ago"
+      "freshness": "13.7 hours ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "468.8h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "470.3h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
-      "freshness": "19.5 days ago"
+      "freshness": "19.6 days ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 3.2h 전",
+      "reason": "정상 4.8h 전",
       "is_failure": false,
-      "freshness": "3.2 hours ago"
+      "freshness": "4.8 hours ago"
     }
   ],
   "daiso_pipeline": {
@@ -3500,7 +3500,7 @@
     ],
     "operating_staleness": {
       "status": "degraded",
-      "reason": "수집 시도 54.3시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 55.8시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -3508,9 +3508,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 54.262,
-      "attempt_age_hours": 54.262,
-      "success_age_hours": 557.584,
+      "candidate_success_age_hours": 55.826,
+      "attempt_age_hours": 55.826,
+      "success_age_hours": 559.148,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
