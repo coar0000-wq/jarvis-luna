@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "shop_id": "gid://shopify/Shop/82748997889",
+  "source_scope": "supplier_website_images_not_actual_stock_labels",
+  "rights_verified": false,
+  "physical_label_verified": false,
+  "inci_verified": false,
+  "safety_approved": false,
+  "products": [
+    {
+      "pd_no": "1073406",
+      "product_id": "gid://shopify/Product/9705391259905",
+      "old_title": "더랩 바이 블랑두 더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml",
+      "title_en": "THE LAB by BLANC DOUX Clear Hyal Perfect Glow Skin Fit Prep, 40 mL",
+      "variant_identity": [
+        {
+          "id": "gid://shopify/ProductVariant/50911781617921",
+          "sku": "DS-1073406-1"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/50911782502657",
+          "sku": "DS-1073406-2"
+        }
+      ],
+      "replacements": [
+        {
+          "old": "더랩 바이 블랑두 더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml from Daiso Korea's daily beauty picks.",
+          "new": "THE LAB by BLANC DOUX Clear Hyal Perfect Glow Skin Fit Prep, 40 mL from Daiso Korea's daily beauty picks.",
+          "reason": "English name visually read from supplier packaging; weight conditions from supplier notice."
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251127/description/850/na5qGPH1gJeFIwPunFP01073406_01_09na5qGPH1gJeFIwPunFP0.jpg",
+          "local_file": "sources/1073406-08.jpg",
+          "sha256": "7564f7fe80998053a5e1bef530dec9d99d53b7e603174c31333017699dc9121f"
+        },
+        {
+          "source_url": "https://cdn.daisomall.co.kr/file/PD/20251126/YE3oVrS9efGJcoOHvQP21073406_00_01YE3oVrS9efGJcoOHvQP2.jpg",
+          "local_file": "sources/1073406-hero.jpg",
+          "sha256": "3f8a25ac025fc557fe96bee4c7138f7ca6663ad133dfe145c812592a29037228"
+        }
+      ]
+    },
+    {
+      "pd_no": "1033789",
+      "product_id": "gid://shopify/Product/9705431761153",
+      "old_title": "히말라야 핑크 솔트 비누 90 g",
+      "title_en": "VEILMENT Natural Spa Himalayan Pink Salt Soap, 90 g (72 g dry)",
+      "variant_identity": [
+        {
+          "id": "gid://shopify/ProductVariant/50911825068289",
+          "sku": "DS-1033789-1"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/50911825166593",
+          "sku": "DS-1033789-2"
+        }
+      ],
+      "replacements": [
+        {
+          "old": "히말라야 핑크 솔트 비누 90 g from Daiso Korea's daily beauty picks.",
+          "new": "VEILMENT Natural Spa Himalayan Pink Salt Soap, 90 g (72 g dry) from Daiso Korea's daily beauty picks.",
+          "reason": "English name visually read from supplier packaging; weight conditions from supplier notice."
+        },
+        {
+          "old": "90g (수분포함), 72g (건조시)",
+          "new": "90 g including moisture; 72 g when dry (per bar)",
+          "reason": "Both weights shown for the same bar in supplier notice."
+        },
+        {
+          "old": "<strong>Manufacturer / Distributor (Korea):</strong> 및 책임판매원",
+          "new": "<strong>Manufacturer / Distributor (Korea):</strong> LG Household &amp; Health Care Ltd.",
+          "reason": "Supplier notice identifies (주)엘지생활건강, not the orphan role label."
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260114/description/850/p9pbQr51cfHOHuQEhnUg1033789_01_00p9pbQr51cfHOHuQEhnUg.jpg",
+          "local_file": "sources/1033789-01.jpg",
+          "sha256": "5f10e30a401f204a5bc460d560d6d4e2d15db98271d74af9066e76e44fe6cc26"
+        },
+        {
+          "source_url": "https://cdn.daisomall.co.kr/file/PD/20251016/la6mViy2IAHPGCQUijsn1033789_00_00la6mViy2IAHPGCQUijsn.png",
+          "local_file": "sources/1033789-hero.png",
+          "sha256": "89796fa7401397e7b976d9fe25922d00348a2f3e81c1f95fd9485838d02d18c4"
+        }
+      ]
+    }
+  ]
+}
