@@ -263,17 +263,6 @@
       "delete_file": false
     },
     {
-      "path": "data/operations/state.json",
-      "base_sha256": "b05e17747eba4d08aa4de9d88df57c7cf3249e6d667d509cd319acd0ac7a870a",
-      "ids": [
-        "a59c49aacb1b05282f828f1a9d0b750019d36656bc51823a92c40542bd160407",
-        "a8e74c3b214a51f11ab8fc98dd57aa47229b4b4e67190d523e2d286df9e6dc66"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_products.json",
       "base_sha256": "81450cbd9130a9988b913621403917bb857d5fb21a1b6fbb1b199318b9a9f3b3",
       "ids": [
@@ -471,6 +460,63 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "70ddd8a113f2371ebef353425a6cc7a29968fb6c3c1c1719507631a17aae2002",
+      "ids": [
+        "action:intent:task_024aea7d91dcbb95f836c665a1b0496d69c59b17e66c5d50f0474f3a6d5d86a3",
+        "action:intent:task_6f53a02738378b4b3023915850a170bde4a42e48d753c2a560f7eaa6b21cf129",
+        "relation:687bc5b78288fd483370d694",
+        "relation:74a8629f5acb6f18a2dc993e",
+        "relation:887b495270856454983fd345",
+        "relation:dfc9fd93b4e2dc7d16f4b483"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "5a52428c602f052dce3296cd52d78825b20c08b4f1e6637838231c9c8383457d",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "org-url:0a8ec60916b234f7ed1850f4b128999a6c5c2e5aad944aae4c9635be82bf80fc",
+        "org-url:4c22e8cf2cef9cbd9adff49dd43af8558bbad4656cb3d2a8a78f971b353df408",
+        "org-url:4c91687c2ab6b7e6ff566888724431d276f2d0205a53969e656c09d86b12ced9",
+        "org-url:5eae0b8bf214bc9ad82fcbc3037dc7188b4ca2c9335eb69e007927a2e6d85824",
+        "org-url:676df794be8ce849a9d747332eaf19880d467ece999f68a82079e99d6e35ded6",
+        "org-url:67e8d628dd9add97e251a9e0d4a107f61b285f0ff49185a0525fb45ea714442f",
+        "org-url:68591bb08a955d98b08df0e55f0e35e02e961d61d1c5ce4e804bbe36c6b35962",
+        "org-url:78c42ce9f2461a0e5de01096aa0520af2b6e68f29777b93447158570a2220706",
+        "org-url:7c719755ad59c9413846f02186582463c119fa0ff154c1cc9016e8d5babeb2c4",
+        "org-url:833ff6c95afd8d1eab7a912516d2acbfee686d985d8115ec8839bc50dfad2f03",
+        "org-url:8ad6b04a39aa65da30afab9c452540a7e1897e5ac7b30b8f1a392a8788974dbd",
+        "org-url:90913a795a94b19c23cf17a3fffe4a03268ed04ff8d5a86610bef3ed086478e3",
+        "org-url:9cd1ca1be059a31f2b06e1d33ef5e9fded152cd5133f64da31ecf1c82e49dba4",
+        "org-url:a03476d1c573a7526ccc62597b3e7bd0abd8e51120abbafff486715568dff09e",
+        "org-url:a2eb2b5247bbb86ce5c75560e44446af8d7ce9a27d10b6bbc67a6ca2a38da95b",
+        "org-url:a969469c7e267665f92058dbab8a4a6120735715b3a959f046f7994dd6881076",
+        "org-url:ac7481ceb5fa8b76283318b941a46ae8b91541b97efea26e76276a2d6db9789a",
+        "org-url:b298ea09dab9a9eb7e67750ef5f4519fce50c169f0baa4787a6e9b8105f8f9ac",
+        "org-url:bf321a0751eae12c667c439f7f7cee81facead8f6db8777a05af12bf95f0a73f",
+        "org-url:bf3e349f6bb28aea6d915cde7603d0034245bd736e159dd9841b71d45b2afcf3",
+        "org-url:d3e805bb7e2412fde95bf049d557153d5682b1a57f1224a4348206405d5bafc9",
+        "org-url:e7867adb5f5193fbf4dc19845719c88cc7ae063c8601c9fdaa0d282df8b1349d",
+        "org-url:f5541eb23fe5f2b6708152e2a3db88112eb08411ae1cca5001c6be8459185bf1",
+        "url:191bff668aad7fcc16de105d6a6e6c042f36813d01f22f7d0ffb9adad5ba66b4",
+        "url:1a3b3ec4949ca15c3840dba0bb06d7722a94ee98f2638cc2971f3ff9b58f21c4",
+        "url:3a7b29f9a0ff9f6f726ea9b53d62286c6616362b0d25f382cbf973e83cb09978",
+        "url:7a32de33763182af3fcc917857d061506dbfc72511881bdd4c1b9fbb63c40de1",
+        "url:b05cb4bee00cef18083be1de55b9895a9e6a5ae497cc600eb94bb56c43594ea6",
+        "url:b1fc1a33fbf8242d9b309c3976da03bb830622e001b16f0f170f427d64fa7cda",
+        "url:bf4f85749628d187a62eae6fbdbf6a55d3edb6599d7e9a47f72ba35fee882aad",
+        "url:d2e0f1a27866fe301f70447ca4393d3e383d6a5db820969d9654e3f7071f2fc1"
+      ],
+      "reason": "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false,
+      "replacement_sha256": "b350af336804474548360ea68bf015960410b8d1b5be266a1a3f30c6e07bffed"
     }
   ]
 }

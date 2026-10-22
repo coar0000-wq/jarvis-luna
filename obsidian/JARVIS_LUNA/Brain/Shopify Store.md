@@ -2,9 +2,9 @@
 title: "Shopify Store"
 type: store
 status: generated-from-jarvis-data
-updated_at: 2026-10-21T18:20:43.849812+00:00
+updated_at: 2026-10-22T09:10:29.843285+00:00
 live: 2
-registered_total: 17
+registered_total: 19
 ---
 
 # Shopify Store
@@ -30,3 +30,5 @@ registered_total: 17
 | 46cm Body Wash Refreshing Herbal 225 mL | body | 2026-10-20 | DRAFT | 22.28 | 40.0 |
 | 더랩 바이 블랑두 더랩바이블랑두 클리어히알결광 스킨핏프렙 40 ml | makeup | 2026-10-21 | DRAFT | 19.71 | 40.0 |
 | 히말라야 핑크 솔트 비누 90 g | body | 2026-10-21 | DRAFT | 13.73 | 40.0 |
+| 블리스텍스 센시티브 립밤 | makeup | 2026-10-22 | DRAFT | 16.73 | 40.0 |
+| 프렙 바이 비레디 프렙바이비레디 쿨링 바디냉각 시트 40 g_아모레퍼시픽 | body | 2026-10-22 | DRAFT | 14.49 | 40.0 |
