@@ -31,7 +31,7 @@ NumPy 2.5.4은 Python >=3.12이므로 3.11에 설치할 수 없다. cp311 Linux 
 
 Dependabot은 주간 Action/Python 잠금 변경 PR만 제안한다. 자동 병합하지 않는다. 패키지를 올릴 때 대상 Linux 3.11 wheel을 다시 해결·다운로드하고, PyPI SHA와 파일 해시를 대조하며, 모든 영향을 받는 프로필과 `lock-manifest.json`을 함께 갱신해야 한다. manifest가 오래된 상태면 회귀 검사가 실패하도록 한다. Action 업데이트도 실제 저장소 커밋과 릴리스 변경을 확인한 뒤 검증한다.
 
-검사: `python scripts/test_dependency_pins.py`. 이 검사는 버전/해시 형식, 프로필과 manifest 일치, 전이 의존성 폐쇄, 활성 Action SHA, 해시 기반 설치, Dependabot 검토 경로를 오프라인에서 확인한다. 외부 네트워크가 바뀌어도 이 테스트는 PyPI나 GitHub를 재조회하지 않는다.
+검사: 먼저 위 명령으로 verification 프로필을 해시 검증 설치한 다음 `python scripts/test_dependency_pins.py`를 실행한다. Action 검증기는 PyYAML로 실제 YAML 구조를 읽으며, `dependency-profiles.yml`도 이 잠긴 검증 의존성을 검사 전에 설치한다. 이 검사는 버전/해시 형식, 프로필과 manifest 일치, 전이 의존성 폐쇄, 활성 Action SHA, 해시 기반 설치, Dependabot 검토 경로를 오프라인에서 확인한다. 외부 네트워크가 바뀌어도 이 테스트는 PyPI나 GitHub를 재조회하지 않는다.
 
 ## 현재 실행 주기와 이름 연결
 

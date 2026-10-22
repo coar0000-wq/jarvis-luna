@@ -267,6 +267,19 @@ class ActiveWorkflowTests(unittest.TestCase):
             with self.subTest(rows=len(rows)), self.assertRaises(ValueError):
                 approved_action_refs({'actions': rows})
 
+    def test_validator_parser_is_bootstrapped_from_locked_profile(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/dependency-profiles.yml').read_text(encoding='utf-8'))
+        steps = workflow['jobs']['verify-profiles']['steps']
+        bootstrap = next(i for i, step in enumerate(steps)
+                         if step.get('name') == 'Install locked validator dependencies')
+        validation = next(i for i, step in enumerate(steps)
+                          if step.get('run') == 'python scripts/test_dependency_pins.py')
+        self.assertLess(bootstrap, validation)
+        self.assertEqual(steps[bootstrap]['run'].strip(),
+                         'python -m pip install --require-hashes --only-binary=:all: '
+                         '-r requirements/requirements-verification.txt')
+        self.assertNotIn('continue-on-error', steps[bootstrap])
+
     def test_active_pip_installs_use_locked_hash_checked_profiles(self):
         for file in active_yaml():
             text = file.read_text(encoding='utf-8')
