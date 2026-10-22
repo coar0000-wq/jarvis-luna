@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy_id": "drcpu-1084687-description-20261022-v1",
+  "policy_sha256": "de9347683483c940f2e936e7ea1e12e635eec5f4c2926d474a341ab6f2edabbc",
+  "shop_id": "gid://shopify/Shop/82748997889",
+  "canonical_shop": "rb3zh1-i1.myshopify.com",
+  "transport_shop": "coarfamily.myshopify.com",
+  "product_id": "gid://shopify/Product/9590780723457",
+  "pd_no": "1084687",
+  "expected_status": "ACTIVE",
+  "execution_ticket": "owner-drcpu-20261022-6ed9562a",
+  "authorized_at": "2026-10-22T11:54:00+00:00",
+  "expires_at": "2026-10-22T15:54:00+00:00",
+  "allowed_fields": [
+    "descriptionHtml"
+  ],
+  "expected_implementation_digest": "ad488d3838511278eb81e21772bc5b254cbfa3f1372962baa03adf53524e1f88"
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "policy_id": "drcpu-1084687-description-20261022-v1",
+  "shop_id": "gid://shopify/Shop/82748997889",
+  "canonical_shop": "rb3zh1-i1.myshopify.com",
+  "pd_no": "1084687",
+  "product_id": "gid://shopify/Product/9590780723457",
+  "expected_status": "ACTIVE",
+  "title": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
+  "public_url": "https://coarfamily.myshopify.com/ko/products/dr-cpu-lacto-exosome-glutathione-capsule-cream",
+  "handle": "dr-cpu-lacto-exosome-glutathione-capsule-cream",
+  "before_sha256": "5a39446eb23495c69add58c7f335fdccf7fbb70dd34d67c6e8d49b79ab4cd3fa",
+  "after_sha256": "d90ecc6170dfbd520d06a2dca6593f54f9a6ef758662316447810b6b417f9bfc",
+  "before_html": "<p>A capsule-and-gel face cream from Dr.CPU+. This listing is for the yellow Glutathione formula.</p>\n<h3>What's included</h3><ul>\n<li>\n<strong>Single (1 pc):</strong> One jar of the yellow Glutathione capsule-and-gel cream.</li>\n<li>\n<strong>Two-pack (1+1):</strong> Two jars of the same yellow Glutathione formula.</li>\n</ul>\n<h3>Formula information</h3><p>The supplied product information lists glutathione (500 ppm) and Lactobacillus extracellular vesicles (30,000 ppb).</p>\n<h3>How to use</h3><p>Use the included spatula. Blend capsules and gel on your hand or face, spread evenly, and gently pat to finish.</p><ul>\n<li>Daily mix: capsules to gel 1:1</li>\n<li>Richer-feeling mix: 2:1</li>\n<li>Lighter-feeling mix: 1:2</li>\n</ul>\n<h3>Cautions</h3><p>Stop use and consult a professional if irritation occurs. Do not use on damaged skin. Keep out of reach of children and store away from direct sunlight.</p>\n<h3>Frequently asked questions</h3><p><strong>Which formula is included?</strong><br>The yellow Glutathione capsule-and-gel formula only.</p><p><strong>Are the pink and green versions included?</strong><br>No. Other formulas shown in range photographs are not included.</p>\n<h3>Ingredients</h3><p><small>Supplier-derived information; actual-label verification remains pending.</small></p><p>Water, Butylene Glycol, Hippophae Rhamnoides Water, Glycerin, Propanediol, Methyl Trimethicone, Niacinamide, Caprylic/Capric Triglyceride, Cetearyl Alcohol, 1,2-Hexanediol, Helianthus Annuus (Sunflower) Seed Oil, Ascorbic Acid, Panthenol, Glutathione (500 ppm), Sodium Hyaluronate, Dipropylene Glycol, Behenyl Alcohol, Stearic Acid, Glycine Soja (Soybean) Oil, Sodium Polyacrylate, Tocopheryl Acetate, Adenosine, Ethylhexylglycerin, Pentylene Glycol, Dipotassium Glycyrrhizate, Tranexamic Acid, Glycyrrhiza Uralensis (Licorice) Root Extract, Aspalathus Linearis Extract, Lactobacillus Extracellular Vesicles (30,000 ppb), Cucurbita Pepo (Pumpkin) Fruit Extract, Citrus Paradisi (Grapefruit) Fruit Extract, Daucus Carota Sativa (Carrot) Root Extract, Mangifera Indica (Mango) Fruit Extract, Musa Sapientum (Banana) Fruit Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Capsicum Annuum Fruit Extract, Bixa Orellana Seed Oil, Ceramide NP, Ceramide NS, Cholesterol, Tocopherol, Phytosphingosine, Ceramide AS, Ceramide AP, Ceramide EOP, Cetearyl Olivate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Arginine, Sorbitan Olivate, Caprylyl Glycol, Betaine, Octyldodeceth-16, Allantoin, Hydrogenated Lecithin, Yucca Schidigera Root Extract, Commiphora Myrrha Resin Extract, Perilla Frutescens Leaf Extract, Fragrance.</p><p><small>Transcribed from the source information already shown in this product's English information image. This is a working translation, not an authenticated destination-market label or a safety assessment. Verify the ingredient list against the actual product packaging before publication.</small></p>\n<h3>Product details</h3><ul>\n<li>\n<strong>Manufacturer / responsible distributor (Korean supplier notice):</strong> (주)코테온 / (주)가영코스메틱</li>\n<li>\n<strong>Country of manufacture:</strong> Republic of Korea</li>\n<li>\n<strong>Expiry / period after opening:</strong> Separately indicated on the supplied product; check the actual label.</li>\n</ul><p><small>Source: Daiso Mall item 1084687. Supplier-derived information remains subject to actual-label review.</small></p>\n<h3>Verification notes</h3><p>Daiso Mall item 1084687. The supplier's current original package photographs and detailed product-information panel state 60 mL (2.02 fl oz). The retailer search title states 60 g. Check the actual supplied unit before publication; prices are provisional cost-based draft estimates, pending actual shipping-weight and fee verification.</p>",
+  "replacements": [
+    {
+      "old": "Verify the ingredient list against the actual product packaging before publication.",
+      "new": "Verify the ingredient list against the actual product packaging for your supplied unit.",
+      "reason": "Replace obsolete publication-stage instruction without claiming ingredient-label verification."
+    },
+    {
+      "old": "<h3>Verification notes</h3>",
+      "new": "<h3>Source information</h3>",
+      "reason": "Customer-readable heading; no approval status change."
+    },
+    {
+      "old": "Daiso Mall item 1084687. The supplier's current original package photographs and detailed product-information panel state 60 mL (2.02 fl oz). The retailer search title states 60 g. Check the actual supplied unit before publication; prices are provisional cost-based draft estimates, pending actual shipping-weight and fee verification.",
+      "new": "The supplier's package photograph for Daiso Mall item 1084687 shows 60 mL (2.02 fl oz) per jar. The archived Daiso catalogue title dated October 11, 2026 lists 60 g. The net contents of the supplied unit have not yet been verified. The displayed prices remain provisional, pending shipping-weight and fee verification.",
+      "reason": "Bind 60mL to the original supplier image and60g to dated archived title; retain real unit and pricing uncertainty without obsolete draft-stage language."
+    }
+  ],
+  "variant_identity": [
+    {
+      "id": "gid://shopify/ProductVariant/50764170789121",
+      "sku": "DS-1084687-1",
+      "selectedOptions": [
+        {
+          "name": "Pack",
+          "value": "Single (1 pc)"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/ProductVariant/50764170821889",
+      "sku": "DS-1084687-2",
+      "selectedOptions": [
+        {
+          "name": "Pack",
+          "value": "1+1 (2 pcs)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_url": "https://cdn.daisomall.co.kr/file/PD/20260917/62Hz7OG8rW3PnifKLlqH1084687_00_0062Hz7OG8rW3PnifKLlqH.png",
+      "sha256": "030aca40a6cae81f167225f76b23ea062299fb5e78fb4efaa1def9f444ccf6d8",
+      "local_file": "daiso-1084687-main-original.png",
+      "reviewed_at_utc": "2026-10-22T10:53:09.420387+00:00",
+      "basis": "supplier_package_artwork_not_actual_stock_label"
+    }
+  ],
+  "archived_title_date": "2026-10-11T13:25:56.862666+00:00",
+  "rights_verified": false,
+  "physical_label_verified": false,
+  "quantity_conflict_resolved": false,
+  "inci_verified": false,
+  "safety_approved": false,
+  "price_basis_verified": false,
+  "publication_allowed": false,
+  "upload_allowed": false
+}
