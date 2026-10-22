@@ -1,21 +1,25 @@
 {
   "schema_version": 1,
   "product_id": "1069429",
-  "title_en": "46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml",
-  "generated_at": "2026-10-19T05:41:48.596535+00:00",
+  "title_en": "46cm Body Wash Sparkling Citrus 225 mL",
+  "generated_at": "2026-10-22T05:41:15.687109+00:00",
   "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
   "reference_example": "data/manual/image_localization/1084687.json",
   "translator": "gemini_vision_translation",
   "sources": [
     {
       "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250805/description/850/aFXdUXd9aPaoWEibJ7Ut1069429_01_01aFXdUXd9aPaoWEibJ7Ut.jpg",
+      "preservation_status": "stored",
+      "bytes": 720114,
       "sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
-      "bytes": 720114
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
+      "format": "WEBP"
     }
   ],
   "panels": [
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         0,
         1621
@@ -23,10 +27,11 @@
       "panel_sha256": "2945a555d82462fe7091af0bb30c56368b408982c599613979d6234cf5aa6b37",
       "status": "excluded",
       "korean_boxes": 6,
-      "reason": "translation_failed:RuntimeError"
+      "reason": "translation_failed:HTTPError"
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         1621,
         2591
@@ -34,10 +39,11 @@
       "panel_sha256": "03e40c362d5f24c6a831ceae3a5ebdcd71c22f3d59f44e2ea0e8ea73a11ad466",
       "status": "excluded",
       "korean_boxes": 7,
-      "reason": "translation_failed:RuntimeError"
+      "reason": "translation_failed:HTTPError"
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         2591,
         4491
@@ -45,10 +51,16 @@
       "panel_sha256": "5b58927727ca1defcd5411ed5d72496d0e2815b4d87da8ffdba1369fd4dbdb33",
       "status": "excluded",
       "korean_boxes": 14,
-      "reason": "translation_failed:RuntimeError"
+      "reason": "korean_text_remaining",
+      "residual": [
+        "\\ 매번 아 새해",
+        "데오드란트",
+        "약산성"
+      ]
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         4491,
         5421
@@ -56,10 +68,11 @@
       "panel_sha256": "86b45905b9a4b244d9998ddad8c58b1f8b079de82978e9b87d2ff0c79cedfbd4",
       "status": "excluded",
       "korean_boxes": 6,
-      "reason": "translation_failed:RuntimeError"
+      "reason": "translation_failed:HTTPError"
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         5421,
         7106
@@ -70,6 +83,7 @@
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         7106,
         8314
@@ -80,6 +94,7 @@
     },
     {
       "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "source_file": "source-b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506.bin",
       "y": [
         8314,
         9292
@@ -87,7 +102,7 @@
       "panel_sha256": "73398432840e9df2c12728a7b2031620e65197a870505a90a8fc364c2a2f20a6",
       "status": "excluded",
       "korean_boxes": 15,
-      "reason": "translation_failed:RuntimeError"
+      "reason": "translation_failed:HTTPError"
     }
   ],
   "outputs": [],
@@ -99,7 +114,7 @@
   "gallery_status": "review_required",
   "gallery_complete": false,
   "gallery_review_reasons": [
-    "role_rights_and_label_evidence_review_required"
+    "localized_conversion_not_upload_authorization"
   ],
   "summary": {
     "panels": 7,
@@ -107,7 +122,9 @@
     "excluded": {
       "gosi_table_replaced_by_info_panel": 1,
       "korean_regulatory_panel": 1,
-      "translation_failed": 5
+      "korean_text_remaining": 1,
+      "translation_failed": 4
     }
-  }
+  },
+  "upload_allowed": false
 }

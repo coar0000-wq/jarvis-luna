@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "product_id": "1076120",
+  "title_en": "프렙 바이 비레디 프렙바이비레디 쿨링 바디냉각 시트 40 g_아모레퍼시픽",
+  "generated_at": "2026-10-22T05:48:26.024789+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/0J6ys58xM7jUFaviaAnD1076120_01_000J6ys58xM7jUFaviaAnD.jpg",
+      "preservation_status": "stored",
+      "bytes": 201028,
+      "sha256": "ab76241fccd392886ebe99a6399977ec313dc5880e62f6c9073c2d4b66b76c9b",
+      "source_file": "source-ab76241fccd392886ebe99a6399977ec313dc5880e62f6c9073c2d4b66b76c9b.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/IVvS66ibvdLroiNIazw41076120_01_01IVvS66ibvdLroiNIazw4.jpg",
+      "preservation_status": "stored",
+      "bytes": 218686,
+      "sha256": "0cf7d59c8fc6b6628a4095b52653863285e43cceb60a69f43182560cc2ff06d5",
+      "source_file": "source-0cf7d59c8fc6b6628a4095b52653863285e43cceb60a69f43182560cc2ff06d5.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/ORoxQszjhL2sXjcge0ES1076120_01_02ORoxQszjhL2sXjcge0ES.jpg",
+      "preservation_status": "stored",
+      "bytes": 319156,
+      "sha256": "5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12",
+      "source_file": "source-5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/6XYKZp16yVaVHnJUikrr1076120_01_036XYKZp16yVaVHnJUikrr.jpg",
+      "preservation_status": "stored",
+      "bytes": 378198,
+      "sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/FytOkj5izPLQUYtKQEhf1076120_01_04FytOkj5izPLQUYtKQEhf.jpg",
+      "preservation_status": "stored",
+      "bytes": 118054,
+      "sha256": "94c355e6982e588da5011a88478e5c0c23c179ad864dac1ea8204103a8499337",
+      "source_file": "source-94c355e6982e588da5011a88478e5c0c23c179ad864dac1ea8204103a8499337.bin",
+      "format": "WEBP"
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "ab76241fccd392886ebe99a6399977ec313dc5880e62f6c9073c2d4b66b76c9b",
+      "source_file": "source-ab76241fccd392886ebe99a6399977ec313dc5880e62f6c9073c2d4b66b76c9b.bin",
+      "y": [
+        0,
+        1930
+      ],
+      "panel_sha256": "86e1cb1e21805b03a15c7561555f029f24af6bef8b07b0047a6798bf75896b1f",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "0cf7d59c8fc6b6628a4095b52653863285e43cceb60a69f43182560cc2ff06d5",
+      "source_file": "source-0cf7d59c8fc6b6628a4095b52653863285e43cceb60a69f43182560cc2ff06d5.bin",
+      "y": [
+        0,
+        2093
+      ],
+      "panel_sha256": "093f8e808c9de9d4686c0f8819533c6bbfce8e71f833e58a68c6344bcd111bc4",
+      "status": "excluded",
+      "korean_boxes": 9,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12",
+      "source_file": "source-5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12.bin",
+      "y": [
+        0,
+        1900
+      ],
+      "panel_sha256": "b464f29d5e38b2294433e29ca6d20ad7e3a7d03f6998290f1fa5a3602748742d",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12",
+      "source_file": "source-5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12.bin",
+      "y": [
+        1900,
+        2700
+      ],
+      "panel_sha256": "1948295cb21952d31a998d5ee345e7bdabbdeab5046bf1f62727b41165eb2ff7",
+      "status": "excluded",
+      "korean_boxes": 0,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "이즈"
+      ]
+    },
+    {
+      "source_sha256": "5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12",
+      "source_file": "source-5306be55e49168a3e0e09302a2e9668f391e1097aee99eb545f32641a3ff1b12.bin",
+      "y": [
+        2700,
+        4072
+      ],
+      "panel_sha256": "0c6e1cfaa3545131f5f63d4aa1e59e39d3581d8ea05e822a3718255b7e1d652f",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "y": [
+        0,
+        1280
+      ],
+      "panel_sha256": "3b0946bc0410f48503ae1a5d36f35c7c517a90daa96111f223e1e7005c1c5df1",
+      "status": "used",
+      "korean_boxes": 5,
+      "file": "01-tired-of-the-sweltering-en.jpg"
+    },
+    {
+      "source_sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "y": [
+        1280,
+        2695
+      ],
+      "panel_sha256": "c0f6347fda1eec5c263182bc356ce85cda82cf1e7c3e5a51491ab049e0278157",
+      "status": "used",
+      "korean_boxes": 6,
+      "file": "02-wrap-the-sheet-around-en.jpg"
+    },
+    {
+      "source_sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "y": [
+        2695,
+        4136
+      ],
+      "panel_sha256": "67bdb602238c04570a6c33dddcfa852d5abfced7ae07f7c8443c96cd19c0adcf",
+      "status": "excluded",
+      "korean_boxes": 15,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "94c355e6982e588da5011a88478e5c0c23c179ad864dac1ea8204103a8499337",
+      "source_file": "source-94c355e6982e588da5011a88478e5c0c23c179ad864dac1ea8204103a8499337.bin",
+      "y": [
+        0,
+        1700
+      ],
+      "panel_sha256": "ae71e25fd1cc18a61e2b15ae20a9f012ad567647a3033f73b1ab2429d9fca890",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-tired-of-the-sweltering-en.jpg",
+      "sha256": "698f416d89f6c76005f8c244991d44e95f62f7614dacf495c58417fcce355d8d",
+      "bytes": 222549,
+      "source_sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "width": 850,
+      "height": 1280,
+      "alt": "프렙 바이 비레디 프렙바이비레디 쿨링 바디냉각 시트 40 g_아모레퍼시픽 — Tired of the sweltering heat?",
+      "english": {
+        "1": "",
+        "2": "Tired of the sweltering heat?",
+        "3": "Bothered by sticky sweat?",
+        "4": "Deep Clean Body\nShower Sheet 45g",
+        "5": "Cooling Body\nChill Sheet 40g"
+      }
+    },
+    {
+      "file": "02-wrap-the-sheet-around-en.jpg",
+      "sha256": "b6d694cdd6e16521152b4732bc9ec18f507a71de477601263819dcf56d0aeb2d",
+      "bytes": 168751,
+      "source_sha256": "ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61",
+      "source_file": "source-ca5dbd1f026363272de631afc9b8023dc96b5449ba61988354195c87a12d3d61.bin",
+      "width": 850,
+      "height": 1415,
+      "alt": "프렙 바이 비레디 프렙바이비레디 쿨링 바디냉각 시트 40 g_아모레퍼시픽 — Wrap the sheet around any body area that needs cooling.",
+      "english": {
+        "1": "Wrap the sheet around any body area that needs cooling.",
+        "2": "Take out the sheet and unfold to desired size",
+        "3": "Wrap around areas feeling overheated",
+        "4": "1) You can gently wipe sweaty or sticky areas.",
+        "5": "2) To prevent cooling liquid from wetting clothing, before wrapping around the neck,",
+        "6": "lightly squeeze out the sheet before use."
+      }
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 9,
+    "used": 2,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 1,
+      "korean_text_remaining": 1,
+      "translation_failed": 4
+    }
+  },
+  "upload_allowed": false
+}

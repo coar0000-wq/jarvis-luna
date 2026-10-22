@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "product_id": "1076498",
+  "title_en": "블리스텍스 센시티브 립밤",
+  "generated_at": "2026-10-22T05:45:00.782493+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/1F6KSkBlP5gf2mCXKoxU1076498_01_001F6KSkBlP5gf2mCXKoxU.jpg",
+      "preservation_status": "stored",
+      "bytes": 440814,
+      "sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "format": "WEBP"
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "y": [
+        0,
+        1885
+      ],
+      "panel_sha256": "eee76d2e72dc67c22b6d130a84fa8ec10c9eb7481bff744eeba804f914cfc57c",
+      "status": "excluded",
+      "korean_boxes": 8,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "y": [
+        1885,
+        3527
+      ],
+      "panel_sha256": "7bd4614047b8a41d164f4adbe50d2c0eded6cf18d1d9e24831d209d47413c277",
+      "status": "excluded",
+      "korean_boxes": 1,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "y": [
+        3527,
+        5155
+      ],
+      "panel_sha256": "4ee63ea3b8b6e120ac6c4db7967ed4b37359565c667541c766a12144e47ca16e",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "y": [
+        5155,
+        6473
+      ],
+      "panel_sha256": "9f7e9b50259591b82541d42b22f8c6259b628ac9711168d92e178986dae4f11a",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    },
+    {
+      "source_sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60",
+      "source_file": "source-891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60.bin",
+      "y": [
+        6473,
+        8378
+      ],
+      "panel_sha256": "f4eb59be107c502cddc31b3f9172d86585ecf347e462d645511d5f161b17dd08",
+      "status": "excluded",
+      "korean_boxes": 18,
+      "reason": "translation_failed:TimeoutError"
+    }
+  ],
+  "outputs": [],
+  "status": "failed",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable",
+    "no_localized_panels"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 5,
+    "used": 0,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 1,
+      "translation_failed": 3
+    }
+  },
+  "upload_allowed": false
+}

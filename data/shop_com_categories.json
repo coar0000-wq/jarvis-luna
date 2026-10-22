@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-21T06:03:03+00:00",
+  "collected_at": "2026-10-22T05:53:24+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -118,7 +118,7 @@
       "price_usd": 50.0,
       "discount_pct": 32,
       "rating": 5.0,
-      "reviews": 1,
+      "reviews": 3,
       "url": "https://shop.com/products/15255774429547/mini-discovery-hair-trio",
       "page": "Explore"
     },
@@ -222,7 +222,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 6793,
+      "reviews": 6804,
       "url": "https://shop.com/products/8532767277309/le-chouchou",
       "page": "Beauty"
     },
@@ -235,7 +235,7 @@
       "price_usd": 13.6,
       "discount_pct": 20,
       "rating": 4.9,
-      "reviews": 2889,
+      "reviews": 2893,
       "url": "https://shop.com/products/6805117370533/glow-serum-propolis-niacinamide",
       "page": "Beauty"
     },
@@ -248,7 +248,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 7466,
+      "reviews": 7467,
       "url": "https://shop.com/products/6844612837453/lip-butter-balm-pink-sugar",
       "page": "Beauty"
     },
@@ -313,7 +313,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2856,
+      "reviews": 2859,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -339,7 +339,7 @@
       "price_usd": 16.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 1162,
+      "reviews": 1163,
       "url": "https://shop.com/products/1535432392759/shineon-lip-oil-jelly",
       "page": "Beauty"
     },
