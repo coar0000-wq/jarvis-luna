@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "pd_no": "1033789",
+  "product_id": "gid://shopify/Product/9705431761153",
+  "shop_id": "gid://shopify/Shop/82748997889",
+  "canonical_shop": "rb3zh1-i1.myshopify.com",
+  "transport_shop": "coarfamily.myshopify.com",
+  "expected_status": "DRAFT",
+  "execution_ticket": "owner-copy-20261022-1033789",
+  "authorized_at": "2026-10-22T10:01:35.117972+00:00",
+  "expires_at": "2026-10-22T14:01:35.117972+00:00",
+  "allowed_fields": [
+    "title",
+    "descriptionHtml"
+  ],
+  "authorization_evidence": {
+    "message_id": "Sentinel_a9c9cc36af508191abe16f2eeefc3f5f",
+    "user_text": "승인",
+    "verified_sent_at": "2026-10-22T10:01:35.117972+00:00",
+    "previous_code_approval_message_id": "Sentinel_2b291e41b65881919d0f82ba68e89d61",
+    "previous_correction_instruction": {
+      "message_id": "Sentinel_6a6248597bac8191a28b270e7c591baf",
+      "user_text": "잘못된게 있으면 스스로 고쳐",
+      "verified_sent_at": "2026-10-22T09:34:50.592376+00:00"
+    },
+    "request_message_id": "Sentinel_de2eaab86c608191bc87e396489319b7",
+    "authorized_scope": "Upload and merge the two scope files in GitHub, then correct the titles and descriptions of the existing THE LAB and VEILMENT drafts; preserve prices, images, and DRAFT status."
+  },
+  "scope_note": "Existing reviewed policy substitutions only; preserve DRAFT, handle, vendor, product type, tags, variants, inventory, prices, publications, media, and false review flags. Four-hour expiry is an execution restriction, not an additional user statement.",
+  "transport_evidence": {
+    "run_id": 38991111290,
+    "head_sha": "1953068aefabe2ef8e62482ae43317952027a7d2",
+    "verification": "Successful exact environment equality guard and canonical shop identity guard; current environment is rechecked by deployed read-only prepare before any apply."
+  }
+}
