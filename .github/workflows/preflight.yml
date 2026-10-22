@@ -65,6 +65,7 @@ jobs:
           python scripts/test_operational_integration.py
           python scripts/test_product_change_ledger.py
           python scripts/test_publish_graph_contract.py
+          python -B scripts/test_normalize_obsidian_links.py
           python scripts/test_actions_release_integration.py
           python scripts/test_dependency_pins.py
           python scripts/test_public_site.py
