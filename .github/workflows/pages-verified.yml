@@ -246,6 +246,8 @@ jobs:
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # actions/upload-pages-artifact@v5.0.0
         with:
           path: dist
+          # The allowlisted site contains .nojekyll; v5 excludes dotfiles by default.
+          include-hidden-files: true
 
       - name: Deploy verified site
         if: steps.duplicate.outputs.skip != 'true'
