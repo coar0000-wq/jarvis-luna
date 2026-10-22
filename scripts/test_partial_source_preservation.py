@@ -274,5 +274,75 @@ class OfflineTests(unittest.TestCase):
             self.assertEqual(path.read_text(), '{broken')
 
 
+
+class DiagnosticAccuracyTests(unittest.TestCase):
+    def report(self, inputs):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for name, payload in inputs.items():
+                target = root / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(json.dumps(payload))
+            with patch.object(errors, 'DATA', root), patch.object(errors, 'OUT', root / 'out.json'), redirect_stdout(io.StringIO()):
+                self.assertEqual(errors.main(), 0)
+            return json.loads((root / 'out.json').read_text())
+
+    def test_label_fields_have_distinct_evidence_guidance(self):
+        fields = ['내용량', '전성분', '제품 정체 표시', '책임자 이름·주소', '새 필드']
+        result = self.report({'legal_export_prep.json': {'사람이_채워야_하는_칸': fields}})
+        rows = result['사람_대기']
+        self.assertEqual(len(rows), len(fields))
+        self.assertEqual(len({r['reason'] for r in rows}), len(fields))
+        self.assertIn('수량과 단위', rows[0]['fix'])
+        self.assertIn('전성분 원문', rows[1]['fix'])
+        self.assertIn('제품명·용도', rows[2]['fix'])
+        self.assertIn('제조사와 동일하다고 추정하지 않는다', rows[3]['fix'])
+        self.assertIn('원본 근거', rows[4]['fix'])
+        for row in rows[:3]:
+            self.assertNotIn('MoCRA 책임자', row['reason'])
+
+    def test_existing_hard_blocks_remain_and_guidance_is_not_clearance(self):
+        blockers = list(errors.LEGAL_BLOCKER_GUIDANCE) + ['unknown_check']
+        products = {key: {'name': key, 'hard_block': True,
+                         'hard_block_reason': 'original ' + key,
+                         'auto_blockers': [key]} for key in blockers}
+        products['fallback'] = {'name': 'fallback', 'hard_block': True,
+                                'hard_block_reason': 'manual reason'}
+        products['checks_only'] = {'name': 'checks_only', 'hard_block': True,
+                                   'auto_checks': {'actual_label_review': {'ok': False}}}
+        products['pass'] = {'name': 'pass', 'hard_block': False}
+        original = deepcopy(products)
+        result = self.report({'legal_products.json': {'items': products}})
+        rows = result['items']
+        self.assertEqual(len(rows), len(products) - 1)
+        self.assertTrue(all(r['kind'] == errors.BLOCKED for r in rows))
+        self.assertTrue(all('차단 유지, 자동 승인 없음' in r['fix'] for r in rows))
+        self.assertTrue(all('Drug Facts' not in r['fix'] for r in rows))
+        self.assertEqual(products, original)
+        by_name = {r['item']: r for r in rows}
+        self.assertIn('unknown_check', by_name['unknown_check']['fix'])
+        self.assertIn('actual_label_review', by_name['checks_only']['fix'])
+        self.assertEqual(by_name['label_fields']['reason'], 'original label_fields')
+
+    def test_legacy_store_wait_does_not_claim_absent_store(self):
+        result = self.report({'brand_kit.json': {'사람이_해야_하는_것': [
+            'Shopify 스토어 개설 (계정·도메인)', '정책 페이지의 회사명·주소·연락처 기입']}})
+        self.assertEqual(len(result['사람_대기']), 2)
+        store = result['사람_대기'][0]
+        self.assertEqual(store['item'], 'Shopify 스토어 연결·기본 설정 상태 확인')
+        self.assertIn('미개설로 단정하지 않음', store['reason'])
+        self.assertEqual(store['kind'], errors.WAITING)
+
+    def test_brand_generator_does_not_infer_account_creation_needed(self):
+        from scripts import prepare_brand_kit as brand
+        with tempfile.TemporaryDirectory() as folder:
+            out = Path(folder) / 'brand.json'
+            with patch.object(brand, 'OUT', out), patch.object(brand, 'load', return_value={}), redirect_stdout(io.StringIO()):
+                self.assertEqual(brand.main(), 0)
+            payload = json.loads(out.read_text())
+        self.assertNotIn('Shopify 스토어 개설 (계정·도메인)', payload['사람이_해야_하는_것'])
+        self.assertIn('Shopify 스토어 연결·기본 설정 상태 확인 (계정·도메인)', payload['사람이_해야_하는_것'])
+        self.assertIn('완료 여부를 확인하지 않는다', payload['왜'])
+
 if __name__ == '__main__':
     unittest.main()
