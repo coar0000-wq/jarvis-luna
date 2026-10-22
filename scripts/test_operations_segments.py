@@ -183,6 +183,76 @@ class RunnerStorage(unittest.TestCase):
         self.raw = json.dumps(self.state, indent=2).encode() + b' \n'
         self.target.write_bytes(self.raw)
 
+    def test_real_threshold_migration_and_continuation_beyond_manifest_limit(self):
+        # Real production budgets, not the tiny patched budgets used below.
+        self.assertEqual(storage.OPS_MIGRATION_THRESHOLD, 24 * 1024 * 1024)
+        self.assertEqual(storage.OPS_STATE_MAX_BYTES, 32 * 1024 * 1024)
+        state = core.empty_state()
+        now = '2026-10-04T02:00:00+00:00'
+        task = core.create_task(state, goal='Offline storage boundary regression',
+                                team='sourcing', kind='snapshot_report',
+                                payload={'fixture': True})
+
+        def append_history(count):
+            for _ in range(count):
+                core._event(state, 'TASK_STORAGE_FIXTURE', task['task_id'],
+                            {'evidence': 'x' * (256 * 1024), 'encoding': '한글'}, at=now)
+
+        append_history(95)
+        # Legacy means unsegmented v1, including its valid future-only audit.
+        legacy = json.dumps(state, ensure_ascii=True, indent=2).encode() + b' \n\t'
+        self.assertLess(len(legacy), storage.OPS_MIGRATION_THRESHOLD)
+        self.assertNotIn(storage.STORAGE_KEY, state)
+        self.target.write_bytes(legacy)
+        runner.validate_state(self.root, runner.read(self.root, runner.STATE))
+
+        append_history(1)
+        self.assertGreaterEqual(len(encoded(state)), storage.OPS_MIGRATION_THRESHOLD)
+        runner.validate_state(self.root, state)
+        runner.atomic(self.root, runner.STATE, state)
+        manifest = self.target.read_bytes()
+        physical = json.loads(manifest)
+        metadata = physical[storage.STORAGE_KEY]
+        self.assertTrue(metadata['segments'])
+        self.assertLessEqual(len(manifest), storage.OPS_STATE_MAX_BYTES)
+        self.assertEqual(manifest, runner.serialized_output(runner.STATE, physical))
+        read_member = lambda name: (self.root / name).read_bytes()
+        self.assertEqual(storage.operations_migration_bytes(manifest, read_member), legacy)
+        self.assertEqual(runner.read(self.root, runner.STATE), state)
+        members = {name: (len(read_member(name)), hashlib.sha256(read_member(name)).hexdigest())
+                   for name in storage.operations_state_members(manifest)}
+        for name, (size, _) in members.items():
+            self.assertLessEqual(size, storage.operations_file_max_bytes(name))
+
+        # The old monolithic write would now fail its unchanged 32 MiB bound.
+        # Continue from the reconstructed state, without resetting any history.
+        state = runner.read(self.root, runner.STATE)
+        append_history(36)
+        self.assertGreater(len(encoded(state)), storage.OPS_STATE_MAX_BYTES)
+        with self.assertRaisesRegex(ValueError, 'storage capacity reached'):
+            runner.serialized_output(runner.STATE, state)
+        runner.validate_state(self.root, state)
+        runner.atomic(self.root, runner.STATE, state)
+        continued = self.target.read_bytes()
+        continued_doc = json.loads(continued)
+        continued_meta = continued_doc[storage.STORAGE_KEY]
+        self.assertLessEqual(len(continued), storage.OPS_STATE_MAX_BYTES)
+        self.assertEqual(continued, runner.serialized_output(runner.STATE, continued_doc))
+        self.assertEqual(continued_meta['migration'], metadata['migration'])
+        self.assertEqual(continued_meta['segments'][:len(metadata['segments'])], metadata['segments'])
+        self.assertGreater(len(continued_meta['segments']), len(metadata['segments']))
+        storage.validate_operations_storage_continuation(manifest, continued, read_member, read_member)
+        for name, (size, digest) in members.items():
+            retained = read_member(name)
+            self.assertEqual((len(retained), hashlib.sha256(retained).hexdigest()), (size, digest))
+        for name in storage.operations_state_members(continued):
+            self.assertLessEqual(len(read_member(name)), storage.operations_file_max_bytes(name))
+        self.assertEqual(storage.operations_migration_bytes(continued, read_member), legacy)
+        reconstructed = runner.read(self.root, runner.STATE)
+        self.assertEqual(reconstructed, state)
+        runner.validate_state(self.root, reconstructed)
+        self.assertFalse(list(self.target.parent.rglob('.operations-*')))
+
     def test_interruption_before_manifest_swap_preserves_old_bytes_and_resumes(self):
         original = runner._atomic_bytes
         written = []

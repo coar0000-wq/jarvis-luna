@@ -45,6 +45,7 @@ jobs:
           JARVIS_SOURCE_CONTINUITY: 'verified'
           JARVIS_OPERATIONS_CONTINUITY: 'verified'
         run: |
+          python scripts/test_preflight_static.py
           python scripts/test_daiso_collection_validation.py
           python scripts/test_daiso_candidates.py
           python scripts/test_recover_daiso_candidates.py
@@ -88,7 +89,12 @@ jobs:
           python -B scripts/test_reviewed_draft_copy_workflow.py
           python scripts/test_gosi_image_sources.py
           python scripts/test_source_health_access.py
+          python scripts/test_agent_draft_suggestions.py
+          python scripts/test_model_replay.py
+          python scripts/test_never_started_runs.py
+          python scripts/test_serpapi_scoped_refresh.py
           python scripts/test_typesafe_shared.py
+          python scripts/test_typesafe_decision_support.py
           python scripts/test_team_typesafe.py
           python scripts/test_team_advisory_history.py
           python scripts/test_typesafe_receipt.py
