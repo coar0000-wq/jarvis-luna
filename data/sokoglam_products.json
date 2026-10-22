@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-22T09:49:00.451414+00:00",
+  "collected_at": "2026-10-22T23:40:16.324678+00:00",
   "is_stale": false,
-  "count": 237,
+  "count": 238,
   "by_collection": {
     "Best Sellers": 83,
-    "Skincare": 154
+    "Skincare": 155
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 237,
+    "n": 238,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -3282,6 +3282,29 @@
       ]
     },
     {
+      "rank": 96,
+      "name": "Moisturizing Shea Butter + Sweet Almond Oil Youth Cream",
+      "brand": "Knours",
+      "price_usd": 38.0,
+      "category": "Facial Moisturizer",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/knours-one-perfect-youth-cream",
+      "tags": [
+        "badge-cleanbeauty",
+        "badge-femalefounded",
+        "badge-vegan",
+        "cruelty free",
+        "female founded",
+        "female founders",
+        "Knours",
+        "Product_Type::Moisturizer",
+        "Skin_Concern::Anti-Aging/Wrinkles",
+        "Skin_Concern::Dryness/Hydration",
+        "Skin_Concern::Dryness_/_Hydration",
+        "Skin_Type::Combination"
+      ]
+    },
+    {
       "rank": 97,
       "name": "Hyaluronic Acid Daily Sun Gel SPF 30",
       "brand": "ISNTREE",
@@ -3733,29 +3756,6 @@
         "Free_Of::Artificial_Colors",
         "Free_Of::Artificial_Fragrances",
         "Free_Of::Essential_Oil"
-      ]
-    },
-    {
-      "rank": 129,
-      "name": "Castanea Crenata Inner Shell Pore Tightening Serum",
-      "brand": "MOLVANY",
-      "price_usd": 29.5,
-      "category": "Serum/Ampoule",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/molvany-castanea-crenata-inner-shell-pore-tightening-serum",
-      "tags": [
-        "anti-aging",
-        "Anti-Aging/Wrinkles",
-        "badge-vegan",
-        "chestnut",
-        "chestnut inner shell extract",
-        "combo_antiaging",
-        "dryness/hydration",
-        "hydration",
-        "J_combination-skin",
-        "J_oily",
-        "J_oily-skin",
-        "normal_antiaging"
       ]
     },
     {
@@ -5326,6 +5326,29 @@
         "Free_Of::Artificial_Fragrances",
         "Free_Of::Mineral_Oil",
         "Free_of::Parabens"
+      ]
+    },
+    {
+      "rank": 247,
+      "name": "Full Fit Propolis Light Ampoule",
+      "brand": "COSRX",
+      "price_usd": 28.0,
+      "category": "Serum/Ampoule",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/cosrx-full-fit-propolis-light-ampoule",
+      "tags": [
+        "ampoule",
+        "badge-cleanbeauty",
+        "cos rx",
+        "cosrx",
+        "dry",
+        "dry skin",
+        "dryness",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil",
+        "Free_Of::Mineral_Oil"
       ]
     },
     {
