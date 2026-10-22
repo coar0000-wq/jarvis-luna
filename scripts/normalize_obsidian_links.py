@@ -398,9 +398,8 @@ def build_corpus_maps(
             or "Untitled"
         ).strip()
 
-        stable_stem = record_stem(row)
-
         stable_display = record_key(row)
+        stable_stem = slug(stable_display)
 
         title_k = title_key(title)
 
@@ -508,8 +507,8 @@ def build_record_migration_map(
             or "Untitled"
         ).strip()
 
-        stable_stem = record_stem(row)
         stable_display = record_key(row)
+        stable_stem = slug(stable_display)
 
         # ----------------------------------------------------------
         # stable 이름 자체
@@ -868,6 +867,13 @@ def normalize_vault(
         vault
     )
 
+    # Unresolved links used to normalize every stem again for each lookup.
+    # Index the same candidate sets once; ambiguity and missing-link handling
+    # stay unchanged, including links to non-note BrainRuntime payloads.
+    stems_by_title: dict[str, set[str]] = defaultdict(set)
+    for stem in paths:
+        stems_by_title[title_key(stem)].add(stem)
+
     record_migration = (
         build_record_migration_map(
             vault,
@@ -966,15 +972,7 @@ def normalize_vault(
                 )
 
                 if target_title:
-                    title_candidates = set()
-
-                    for stem in paths:
-                        if title_key(stem) == target_title:
-                            title_candidates.add(
-                                stem
-                            )
-
-                    candidates = title_candidates
+                    candidates = stems_by_title.get(target_title, set())
 
             chosen = pick_candidate(
                 target,
