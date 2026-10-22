@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T10:14:44.027924+00:00",
+  "generated_at": "2026-10-22T11:07:56.803572+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "97099658471114e1d2c7f99a0fddfa060d2acf6f0eaa56d3e089e7b0c25ca054",
-      "data/gosi.json": "c7fe5b7ec0a7bac5874cf5ee353ce5765a5f7a1f0ce4eb6ae52e158a60ca1311",
-      "data/daiso_real/daiso_us_labels.json": "1dfb993de1b95cad3658a6587597a6aea0e53d6b1f40e1c56f20b842d339fdab",
-      "data/pricing_model.json": "bf79499941d178e7b7e6f8d55c893b8453b50f08cf253f11142615675ce1f090",
-      "data/legal_products.json": "63fc9db0e928ab565f321255a5f962f3c541caff7214e7f95b80f451b0afd7c1",
-      "data/daiso_real/shopify_s_recommendations.json": "ffe9472aa9ee2b3c8b4856c3fae34f7af93d4c13f4d444f0709472b7fb198766",
+      "data/product_master.json": "c3e1c9e4cd29084533b6e2dfab871275ebfe78e5e159b9202d1ee431dafc8284",
+      "data/gosi.json": "e902d81397692a092530aa650d97a319bcf1d57378873f6ae20e4a835e9e2ddb",
+      "data/daiso_real/daiso_us_labels.json": "603d321b6420ddf6eb1c5bb5ccade28f3fc327362d1176f079670555cfb32a2f",
+      "data/pricing_model.json": "ce77fee14fbb5500212a0a07219161957530bc0881a0633035a8e03d27e02f43",
+      "data/legal_products.json": "fc7416d91456d9eb42ea272572c9cc28a74037b2d365d6ecfe69f0eaaf81e1b5",
+      "data/daiso_real/shopify_s_recommendations.json": "04638415a961b842b7b43caea2b871737c1348385645a959f63eb8eef702440d",
       "data/shopify_listing_copy.json": "24045f6b5454b64a76fae0440ca8e503cd08fdd605c9d77dfa8ed64659f6cc49",
-      "data/shopify_shortlist.json": "841a82aeb856326a2c3d54098288f3f4556d474978dc18916e6a34b63a58d4fb",
+      "data/shopify_shortlist.json": "21ac915c501d5351aa2ed8f9d1924507ddaaef9638cb78463faa0140310774b9",
       "data/legal_full.json": "28983a18dbd9e3b77e44465ef4ead461365bcabe3d64c766984f1edf01d1dd75",
       "data/mocra_readiness.json": "3da2aaf2c6e581186cf06b8e982fc6b7b0889e49aec52770d2b920b7cd0abe6f",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -25,7 +25,7 @@
       "masked/product_accuracy_evidence": "cd9090be39707d44b060e9a53e93df00f73ba518eb154a86cf8d80387e9c3428",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "ca0d92983f7ca7cf6dcdf6b5429094b78db8049c2b8408255077654fabcdb86b"
+    "recommendations_sha256": "911b15f4105f1ea1c99238a1a86798a0d5b5b68cccd9e5dcfebef0279b55c33a"
   },
   "total": 6,
   "agent_ready": 0,
@@ -67,15 +67,9 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "",
-      "global_stopped": "",
-      "workflow_stopped": "",
-      "workflow_id": "JARVIS Deep Analysis:39752695904:1",
-      "estimated_cost_usd": 0.0,
-      "account_estimated_cost_usd": 0.000544698,
-      "purchased_credits": false,
+      "stopped": "ledger_unavailable",
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "input_token_price_per_mtok_usd": 0.042
+      "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",

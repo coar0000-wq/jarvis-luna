@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:14:44.184919+09:00",
+  "generated_at": "2026-10-22T20:07:56.958652+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+          "evidence": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -616,7 +616,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+          "evidence": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {

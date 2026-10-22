@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T10:14:43.872869+00:00",
+  "generated_at": "2026-10-22T11:07:56.668956+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -77,9 +77,9 @@
       "business_ready": false,
       "score": 100,
       "evidence": {
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "channel": "sokoglam_us",
-        "similarity": 0.667
+        "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.7
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "paused",

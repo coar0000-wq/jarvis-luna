@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-22T19:14:44.146135+09:00",
+    "updated_at": "2026-10-22T20:07:56.914048+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -658,7 +658,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 292,
+      "competitor_pool_size": 259,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -1721,16 +1721,22 @@
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
-    "signals_live": 4,
+    "signals_live": 10,
     "signals_total": 15,
-    "signals_verified": 4,
+    "signals_verified": 10,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
+      "allure_media",
       "amazon_best_sellers",
       "amazon_new_beauty",
+      "google_trends_us",
+      "oliveyoung_us",
+      "open_beauty_facts",
+      "openfda_sunscreen",
       "sokoglam_us",
-      "ulta_beauty"
+      "ulta_beauty",
+      "wikipedia_interest"
     ],
     "s_count": 6,
     "listing_ready_count": 0,

@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-22T10:15:24.640264+00:00",
+  "generated_at": "2026-10-22T11:08:41.158717+00:00",
   "s_count": 6,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -8,9 +8,9 @@
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 100,
-      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
-      "global": "Time Revolution Night Repair Ampoule 5X",
-      "channel": "sokoglam_us",
+      "why": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
+      "global": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "ampoule"
       ]
@@ -67,9 +67,9 @@
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "score": 85,
-      "why": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
-      "global": "Snail Mucin Eye Cream",
-      "channel": "sokoglam_us",
+      "why": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "global": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+      "channel": "oliveyoung_us",
       "tokens": [
         "cream"
       ]

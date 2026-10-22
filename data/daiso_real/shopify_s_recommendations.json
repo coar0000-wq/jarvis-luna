@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:14:43.331164+00:00",
+  "generated_at": "2026-10-22T11:07:56.229298+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -19,16 +19,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "similarity": 0.667,
-        "demand_weight": 0.617,
+        "channel": "oliveyoung_us",
+        "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "similarity": 0.7,
+        "demand_weight": 0.686,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.411
+        "match_score": 0.48
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     },
     {
       "rank": 2,
@@ -149,7 +149,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     },
     {
       "rank": 3,
@@ -218,7 +218,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     },
     {
       "rank": 4,
@@ -238,12 +238,12 @@
         "channel": "oliveyoung_us",
         "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
         "similarity": 0.834,
-        "demand_weight": 0.637,
+        "demand_weight": 0.784,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.654
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     },
     {
       "rank": 6,
@@ -383,16 +383,16 @@
       "s_rule": "category_desk_us_evidence",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Snail Mucin Eye Cream",
+        "channel": "oliveyoung_us",
+        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
         "similarity": 0.293,
-        "demand_weight": 0.95,
+        "demand_weight": 0.98,
         "matched_tokens": [
           "cream"
         ],
-        "match_score": 0.279
+        "match_score": 0.287
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -448,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
     }
   ],
   "agent_ready_count": 0,

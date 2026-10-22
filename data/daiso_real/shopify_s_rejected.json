@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:14:43.331164+00:00",
+  "generated_at": "2026-10-22T11:07:56.229298+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 51,
   "items": [
@@ -11,7 +11,7 @@
       "shopify_score": 100,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000106",
@@ -21,7 +21,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000085",
@@ -31,7 +31,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000117",
@@ -41,7 +41,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000197",
@@ -51,7 +51,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000101",
@@ -61,7 +61,7 @@
       "shopify_score": 97,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000181",
@@ -74,16 +74,6 @@
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000218",
-      "pd_no": "1067500",
-      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
-      "bucket": "마스크팩",
-      "shopify_score": 96,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000100",
       "pd_no": "1048581",
       "name": "드롭비 잡티 말끔 앰플 40 ml",
@@ -91,7 +81,17 @@
       "shopify_score": 96,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000218",
+      "pd_no": "1067500",
+      "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+      "bucket": "마스크팩",
+      "shopify_score": 96,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000198",
@@ -131,7 +131,7 @@
       "shopify_score": 94,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set' (oliveyoung_us) 유사 38% · 토큰 toner · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack' (amazon_best_sellers) 유사 32% · 토큰 toner · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000132",
@@ -141,7 +141,7 @@
       "shopify_score": 93,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)' (oliveyoung_us) 유사 88% · 토큰 cream, retinol"
+      "recommend_reason": "글로벌 'numbuzin No.9 NAD+ Retinol Volumetox Eye Cream 0.33 fl. oz.(10ml)' (oliveyoung_us) 유사 92% · 토큰 cream, retinol"
     },
     {
       "canonical_product_id": "CP000129",
@@ -151,7 +151,7 @@
       "shopify_score": 93,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)' (oliveyoung_us) 유사 88% · 토큰 cream, retinol"
+      "recommend_reason": "글로벌 'numbuzin No.9 NAD+ Retinol Volumetox Eye Cream 0.33 fl. oz.(10ml)' (oliveyoung_us) 유사 92% · 토큰 cream, retinol"
     },
     {
       "canonical_product_id": "CP000134",
@@ -181,7 +181,7 @@
       "shopify_score": 93,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 '[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)' (oliveyoung_us) 유사 73% · 토큰 cream, moisturizer"
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 71% · 토큰 cream, moisturizer"
     },
     {
       "canonical_product_id": "CP000084",
@@ -191,7 +191,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000054",
@@ -201,7 +201,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000171",
@@ -211,7 +211,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000118",
@@ -221,7 +221,7 @@
       "shopify_score": 93,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000271",
@@ -241,7 +241,7 @@
       "shopify_score": 92,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000340",
@@ -274,14 +274,14 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000190",
-      "pd_no": "1062781",
-      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
+      "canonical_product_id": "CP000067",
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
       "bucket": "스킨케어",
       "shopify_score": 90,
       "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.' (amazon_best_sellers) 유사 91% · 토큰 collagen, cream, pdrn"
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'lilyeve Scalp:turn Cica PDRN Brush Ampoule 3.38 fl. oz.(100ml)' (oliveyoung_us) 유사 83% · 토큰 ampoule, centella"
     },
     {
       "canonical_product_id": "CP000242",
@@ -294,14 +294,14 @@
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
     },
     {
-      "canonical_product_id": "CP000067",
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "canonical_product_id": "CP000190",
+      "pd_no": "1062781",
+      "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
       "shopify_score": 90,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
     },
     {
       "canonical_product_id": "CP000088",
@@ -324,16 +324,6 @@
       "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 827건 (글로벌 시그널 약함)"
     },
     {
-      "canonical_product_id": "CP000236",
-      "pd_no": "1069995",
-      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
-      "bucket": "헤어케어",
-      "shopify_score": 89,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)' (oliveyoung_us) 유사 38% · 토큰 ampoule · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000261",
       "pd_no": "1073250",
       "name": "AHC 에이지리뉴 아이크림 하이드레이션 30 ml",
@@ -341,7 +331,7 @@
       "shopify_score": 89,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000159",
@@ -362,6 +352,16 @@
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 '7-Color LED Photon Rejuvenation Super Mask + NIR Technology (Limited Edition)' (ulta_beauty) 유사 26% · 토큰 mask · S제외:weak_solo_token"
+    },
+    {
+      "canonical_product_id": "CP000236",
+      "pd_no": "1069995",
+      "name": "실크테라피 실크케라틴 앰플트리트먼트 150 ml",
+      "bucket": "헤어케어",
+      "shopify_score": 89,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "헤어케어 카테고리 · 평점 4.8 · 리뷰 737건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000055",
