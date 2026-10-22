@@ -2,10 +2,10 @@
 title: "Record cc36969ddb · Cat-Eye-Nails-Are-the-Most-Mesmerizing-Way-to-Wear-Shimmering-Color"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:42.213816+00:00
+updated_at: 2026-10-22T09:40:44.262527+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.allure.com"
 url: "https://www.allure.com/story/cat-eye-nails"
 ---

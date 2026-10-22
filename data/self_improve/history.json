@@ -2,12 +2,6 @@
   "design_feeds": {
     "Shopify Changelog": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 15,
-        "relevant": 7,
-        "capped": false
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 15,
         "relevant": 7,
@@ -71,17 +65,17 @@
         "at": "2026-10-03T11:40:15.030851+00:00",
         "items": 15,
         "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
+        "items": 15,
+        "relevant": 11,
         "capped": false
       }
     ],
     "Shopify Dev Changelog": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 15,
-        "relevant": 10,
-        "capped": false
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 15,
         "relevant": 10,
@@ -145,17 +139,17 @@
         "at": "2026-10-03T11:40:15.030851+00:00",
         "items": 15,
         "relevant": 8,
+        "capped": false
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
+        "items": 15,
+        "relevant": 10,
         "capped": false
       }
     ],
     "Shopify Engineering": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 15,
-        "relevant": 8,
-        "capped": false
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 15,
         "relevant": 8,
@@ -217,6 +211,12 @@
       },
       {
         "at": "2026-10-03T11:40:15.030851+00:00",
+        "items": 15,
+        "relevant": 8,
+        "capped": false
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
         "items": 15,
         "relevant": 8,
         "capped": false
@@ -224,12 +224,6 @@
     ],
     "Smashing Magazine": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 15,
-        "relevant": 6,
-        "capped": false
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 15,
         "relevant": 6,
@@ -293,17 +287,17 @@
         "at": "2026-10-03T11:40:15.030851+00:00",
         "items": 15,
         "relevant": 6,
+        "capped": false
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
+        "items": 15,
+        "relevant": 8,
         "capped": false
       }
     ],
     "A List Apart": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 15,
-        "relevant": 5,
-        "capped": false
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 15,
         "relevant": 5,
@@ -365,6 +359,12 @@
       },
       {
         "at": "2026-10-03T11:40:15.030851+00:00",
+        "items": 15,
+        "relevant": 5,
+        "capped": false
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
         "items": 15,
         "relevant": 5,
         "capped": false
@@ -372,12 +372,6 @@
     ],
     "web.dev": [
       {
-        "at": "2026-09-30T14:38:06.065331+00:00",
-        "items": 3,
-        "relevant": 1,
-        "capped": true
-      },
-      {
         "at": "2026-09-30T20:32:05.926784+00:00",
         "items": 3,
         "relevant": 1,
@@ -441,6 +435,12 @@
         "at": "2026-10-03T11:40:15.030851+00:00",
         "items": 3,
         "relevant": 1,
+        "capped": true
+      },
+      {
+        "at": "2026-10-22T09:37:31.804582+00:00",
+        "items": 3,
+        "relevant": 0,
         "capped": true
       }
     ]
@@ -774,6 +774,21 @@
       "design": {
         "status": "active",
         "before": 0.436
+      }
+    },
+    {
+      "at": "2026-10-22T09:40:36.042360+00:00",
+      "topics": {
+        "status": "adopted",
+        "before": 0.0759
+      },
+      "sourcing": {
+        "status": "active",
+        "before": 0.0
+      },
+      "design": {
+        "status": "active",
+        "before": 0.538
       }
     }
   ]

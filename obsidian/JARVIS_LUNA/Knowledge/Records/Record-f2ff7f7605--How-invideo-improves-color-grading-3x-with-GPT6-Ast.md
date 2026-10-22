@@ -2,10 +2,10 @@
 title: "Record f2ff7f7605 · How-invideo-improves-color-grading-3x-with-GPT6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:37.546403+00:00
+updated_at: 2026-10-22T09:40:44.130352+00:00
 tags: [record, real-data]
 source: "institutions"
-topics: ["소셜콘텐츠", "LLM언어모델", "AI-에이전트"]
+topics: ["소셜콘텐츠", "LLM언어모델", "뷰티스킨케어", "AI-에이전트"]
 org: "OpenAI"
 domain: "openai.com"
 url: "https://openai.com/index/invideo-builds-with-gpt-6-astra"

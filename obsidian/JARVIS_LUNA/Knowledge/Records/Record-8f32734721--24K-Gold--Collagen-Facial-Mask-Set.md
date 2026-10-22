@@ -2,10 +2,10 @@
 title: "Record 8f32734721 · 24K-Gold--Collagen-Facial-Mask-Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-22T06:20:36.133941+00:00
+updated_at: 2026-10-22T09:40:44.784568+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/24k-gold-collagen-facial-mask-set-mkt77008279"
 ---

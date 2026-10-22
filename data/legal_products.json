@@ -90,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-22T09:16:18.470653+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.585070+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -146,7 +146,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-22T09:16:18.471335+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.585424+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -202,7 +202,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-22T09:16:18.472335+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.585944+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -266,7 +266,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-22T09:16:18.472541+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.586046+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -325,7 +325,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-22T09:16:18.472957+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.586140+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -337,62 +337,6 @@
         "safety_approval": false,
         "overall_legal_clearance": false,
         "owner_approved_nonpublic_draft": true
-      }
-    },
-    "1072800": {
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "canonical_product_id": "CP000256",
-      "status": "auto_checked",
-      "effective_legal_pass": false,
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, manufacturer, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-22T09:16:18.472731+00:00",
-      "claims_review": {
-        "scope": "fda_cosmetic_wording_only",
-        "status": "NOT_REVIEWED_NO_COPY",
-        "flagged_terms": [],
-        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "owner_approved_nonpublic_draft": false
       }
     },
     "1061918": {
@@ -438,7 +382,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-22T09:16:18.471554+00:00",
+      "auto_checked_at": "2026-10-22T10:14:43.585542+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -456,13 +400,13 @@
     }
   },
   "auto_summary": {
-    "checked": 7,
+    "checked": 6,
     "clean": 3,
-    "needs_attention": 4,
+    "needs_attention": 3,
     "pass": 3,
-    "out_of_scope": 26
+    "out_of_scope": 27
   },
-  "auto_checked_at": "2026-10-22T09:16:18.472969+00:00",
+  "auto_checked_at": "2026-10-22T10:14:43.586148+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -1606,7 +1550,69 @@
           "owner_approved_nonpublic_draft": true
         }
       }
+    },
+    "1072800": {
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-22T10:14:43.582321+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "row": {
+        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "canonical_product_id": "CP000256",
+        "status": "auto_checked",
+        "effective_legal_pass": false,
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "Missing/placeholder/stale/non-English: ingredients_inci, manufacturer, product_name_en, directions_en, warnings_en"
+          },
+          "actual_label_review": {
+            "ok": false,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": false,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": false,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": false,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [
+          "label_fields",
+          "actual_label_review",
+          "responsible_person",
+          "manufacturer_product_safety",
+          "human_legal_approval"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+        "auto_checked_at": "2026-10-22T09:16:18.472731+00:00",
+        "claims_review": {
+          "scope": "fda_cosmetic_wording_only",
+          "status": "NOT_REVIEWED_NO_COPY",
+          "flagged_terms": [],
+          "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+          "safety_approval": false,
+          "overall_legal_clearance": false,
+          "owner_approved_nonpublic_draft": false
+        }
+      }
     }
   },
-  "_범위": "지금 S등급 7건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
+  "_범위": "지금 S등급 6건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
 }

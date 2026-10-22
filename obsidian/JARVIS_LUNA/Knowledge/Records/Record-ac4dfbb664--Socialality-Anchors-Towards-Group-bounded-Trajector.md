@@ -2,10 +2,10 @@
 title: "Record ac4dfbb664 · Socialality-Anchors-Towards-Group-bounded-Trajectory-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:15.173428+00:00
+updated_at: 2026-10-22T09:40:43.277425+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["미분류"]
+topics: ["컴퓨터-비전"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.36852"
 ---

@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-03T11:42:28.608821+00:00",
+  "collected_at": "2026-10-22T09:39:53.444349+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,84 +44,112 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "korean",
-      "score": 6
-    },
-    {
-      "keyword": "skincare",
-      "score": 6
-    },
-    {
       "keyword": "skin",
-      "score": 4
+      "score": 6
     },
     {
-      "keyword": "sunscreens",
-      "score": 4
-    },
-    {
-      "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "k-beauty",
-      "score": 4
-    },
-    {
-      "keyword": "october",
-      "score": 3
+      "keyword": "sunscreen",
+      "score": 6
     },
     {
       "keyword": "2026",
+      "score": 5
+    },
+    {
+      "keyword": "october",
+      "score": 4
+    },
+    {
+      "keyword": "jiyu",
       "score": 3
-    },
-    {
-      "keyword": "product",
-      "score": 3
-    },
-    {
-      "keyword": "japanese",
-      "score": 3
-    },
-    {
-      "keyword": "shade",
-      "score": 3
-    },
-    {
-      "keyword": "masks",
-      "score": 2
-    },
-    {
-      "keyword": "similar",
-      "score": 2
-    },
-    {
-      "keyword": "lip",
-      "score": 2
-    },
-    {
-      "keyword": "hair",
-      "score": 2
     },
     {
       "keyword": "reviews",
+      "score": 3
+    },
+    {
+      "keyword": "favorite",
       "score": 2
     },
     {
-      "keyword": "serum",
+      "keyword": "sensitive",
       "score": 2
     },
     {
-      "keyword": "recommendations",
+      "keyword": "centella",
       "score": 2
     },
     {
-      "keyword": "glass",
+      "keyword": "glow",
       "score": 2
     },
     {
-      "keyword": "j-beauty",
+      "keyword": "spf",
       "score": 2
+    },
+    {
+      "keyword": "most",
+      "score": 2
+    },
+    {
+      "keyword": "comes",
+      "score": 2
+    },
+    {
+      "keyword": "brown",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
+      "score": 2
+    },
+    {
+      "keyword": "asian",
+      "score": 2
+    },
+    {
+      "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "products",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "toners",
+      "score": 2
+    },
+    {
+      "keyword": "business",
+      "score": 1
+    },
+    {
+      "keyword": "wall",
+      "score": 1
+    },
+    {
+      "keyword": "shame",
+      "score": 1
+    },
+    {
+      "keyword": "special",
+      "score": 1
+    },
+    {
+      "keyword": "edition",
+      "score": 1
+    },
+    {
+      "keyword": "pads",
+      "score": 1
     },
     {
       "keyword": "question",
@@ -144,277 +172,241 @@
       "score": 1
     },
     {
-      "keyword": "authenticity",
+      "keyword": "adjust",
       "score": 1
     },
     {
-      "keyword": "thursday",
+      "keyword": "mental",
       "score": 1
     },
     {
-      "keyword": "random",
+      "keyword": "health",
       "score": 1
     },
     {
-      "keyword": "thrift",
+      "keyword": "needs",
       "score": 1
     },
     {
-      "keyword": "find",
+      "keyword": "facial",
       "score": 1
     },
     {
-      "keyword": "overnight",
+      "keyword": "spray",
       "score": 1
     },
     {
-      "keyword": "missing",
+      "keyword": "hydration",
       "score": 1
     },
     {
-      "keyword": "something",
-      "score": 1
-    },
-    {
-      "keyword": "combo",
-      "score": 1
-    },
-    {
-      "keyword": "pls",
-      "score": 1
-    },
-    {
-      "keyword": "huge",
-      "score": 1
-    },
-    {
-      "keyword": "care",
-      "score": 1
-    },
-    {
-      "keyword": "haul",
-      "score": 1
-    },
-    {
-      "keyword": "current",
-      "score": 1
-    },
-    {
-      "keyword": "inventory",
+      "keyword": "anti-aging",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
-      "keyword": "korean",
-      "score": 6
-    },
-    {
-      "keyword": "skincare",
-      "score": 6
-    },
-    {
       "keyword": "skin",
-      "score": 4
+      "score": 6
     },
     {
-      "keyword": "sunscreens",
-      "score": 4
+      "keyword": "sunscreen",
+      "score": 6
     },
     {
-      "keyword": "cushion",
-      "score": 4
-    },
-    {
-      "keyword": "k-beauty",
-      "score": 4
-    },
-    {
-      "keyword": "masks",
+      "keyword": "centella",
       "score": 2
     },
     {
-      "keyword": "serum",
+      "keyword": "spf",
       "score": 2
     },
     {
-      "keyword": "glass",
+      "keyword": "korean",
+      "score": 2
+    },
+    {
+      "keyword": "moisturizer",
+      "score": 2
+    },
+    {
+      "keyword": "toners",
       "score": 2
     }
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: October 02, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvw9mw/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-10-02T15:09:17+00:00",
+      "title": "October 2026 Business Wall of Shame: Special Edition (Jiyu, Jiyu Pads, Jiyu Skin)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1x8os56/october_2026_business_wall_of_shame_special/",
+      "published": "2026-10-17T23:50:12+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Product Authenticity Thursday October 01, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuvfk3/product_authenticity_thursday_october_01_2026/",
-      "published": "2026-10-01T10:01:19+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: October 20, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xauo6y/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-10-20T15:09:09+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Random thrift find",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwaecb/random_thrift_find/",
-      "published": "2026-10-03T01:07:33+00:00",
+      "title": "Adjust to your mental health needs...",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xc4svw/adjust_to_your_mental_health_needs/",
+      "published": "2026-10-22T01:00:49+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Overnight masks - am I missing something?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwiomk/overnight_masks_am_i_missing_something/",
-      "published": "2026-10-03T09:08:52+00:00",
+      "title": "Favorite facial sunscreen spray?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xc95s9/favorite_facial_sunscreen_spray/",
+      "published": "2026-10-22T04:40:01+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Similar lip combo pls",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwbkpf/similar_lip_combo_pls/",
-      "published": "2026-10-03T02:10:22+00:00",
+      "title": "What's you HG for Hydration and anti-aging for sensitive skin",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xccizw/whats_you_hg_for_hydration_and_antiaging_for/",
+      "published": "2026-10-22T08:01:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Huge Korean/Japanese skin and hair care haul + reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww126p/huge_koreanjapanese_skin_and_hair_care_haul/",
-      "published": "2026-10-02T18:19:09+00:00",
+      "title": "Peripera Syrupy tok cheek?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xc6kf6/peripera_syrupy_tok_cheek/",
+      "published": "2026-10-22T02:25:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "My current skincare inventory + an unreasonable number of sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
-      "published": "2026-10-02T16:37:24+00:00",
+      "title": "Any Canadians buying from Yami/Yamibuy?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xc049s/any_canadians_buying_from_yamiyamibuy/",
+      "published": "2026-10-21T21:32:14+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Ladies, whose shade match for Korean cushion is shade 21 (AND shade 13 to brighten mid face), what are your holygrails?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwl4zy/ladies_whose_shade_match_for_korean_cushion_is/",
-      "published": "2026-10-03T11:39:58+00:00",
+      "title": "WTF happened to my Madagascar centella cleansing oil?!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbc7ov/wtf_happened_to_my_madagascar_centella_cleansing/",
+      "published": "2026-10-21T03:14:39+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "TirTir Glossy Coating Mist",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwkgjb/tirtir_glossy_coating_mist/",
-      "published": "2026-10-03T11:00:38+00:00",
+      "title": "Share your favourite blushers or highlighters that gives your cheeks a nice glow",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbm9wj/share_your_favourite_blushers_or_highlighters/",
+      "published": "2026-10-21T12:50:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Any scalp serum reviews?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwk19p/any_scalp_serum_reviews/",
-      "published": "2026-10-03T10:34:27+00:00",
+      "title": "what's your favorite tinted SPF?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbm9fy/whats_your_favorite_tinted_spf/",
+      "published": "2026-10-21T12:49:33+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Japanese eczema-safe skincare products and repairing hair product recommendations",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwgd2e/japanese_eczemasafe_skincare_products_and/",
-      "published": "2026-10-03T06:42:52+00:00",
+      "title": "Thoughts on Judydoll contour palette?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbdroq/thoughts_on_judydoll_contour_palette/",
+      "published": "2026-10-21T04:38:02+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "What treatments do idols actually do?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww5eko/what_treatments_do_idols_actually_do/",
-      "published": "2026-10-02T21:13:36+00:00",
+      "title": "Most dramatic, long lasting mascara that comes in brown?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbm8od/most_dramatic_long_lasting_mascara_that_comes_in/",
+      "published": "2026-10-21T12:48:36+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Fwee Glass Cushion Refill",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwebwi/fwee_glass_cushion_refill/",
-      "published": "2026-10-03T04:41:42+00:00",
+      "title": "Anything Goes Wednesday: October 21, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbyqz5/anything_goes_wednesday_october_21_2026/",
+      "published": "2026-10-21T20:39:24+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "What’s ONE Western product you replaced with a K-beauty/J-beauty alternative and will NEVER go back to?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvel4w/whats_one_western_product_you_replaced_with_a/",
-      "published": "2026-10-01T23:30:13+00:00",
+      "title": "Asian Sunscreen Reviews from Spring & Summer 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xat0sh/asian_sunscreen_reviews_from_spring_summer_2026/",
+      "published": "2026-10-20T14:03:58+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Aegyosal",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwajai/aegyosal/",
-      "published": "2026-10-03T01:14:42+00:00",
+      "title": "What shady marketing practices in Korean cosmetic products do you hate the most?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xaowna/what_shady_marketing_practices_in_korean_cosmetic/",
+      "published": "2026-10-20T10:50:20+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Looking for similar blush and lip",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvrt64/looking_for_similar_blush_and_lip/",
-      "published": "2026-10-02T11:53:19+00:00",
+      "title": "is clio lip liner coffee brown discontinued?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbnfua/is_clio_lip_liner_coffee_brown_discontinued/",
+      "published": "2026-10-21T13:39:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "I love it...but I'm not paying full-price.",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvk2pc/i_love_itbut_im_not_paying_fullprice/",
-      "published": "2026-10-02T04:02:02+00:00",
+      "title": "Are there any confirmed glow products for sensitive skin?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xbfmnb/are_there_any_confirmed_glow_products_for/",
+      "published": "2026-10-21T06:27:32+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Anything Goes Friday: October 02, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww4kn7/anything_goes_friday_october_02_2026/",
-      "published": "2026-10-02T20:39:10+00:00",
+      "title": "Anything Goes Tuesday: October 20, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xb3ixz/anything_goes_tuesday_october_20_2026/",
+      "published": "2026-10-20T20:39:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Monthly Silicone Hydrogel Coloured Contact Lenses",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvu58q/monthly_silicone_hydrogel_coloured_contact_lenses/",
-      "published": "2026-10-02T13:42:00+00:00",
+      "title": "Alternatives to the applicator that comes with the BBIA chaltteok blush?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xafl3w/alternatives_to_the_applicator_that_comes_with/",
+      "published": "2026-10-20T01:51:34+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Review for sunscreens on oily skin",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9xlj/review_for_sunscreens_on_oily_skin/",
-      "published": "2026-10-01T20:10:37+00:00",
+      "title": "Sunscreen & Moisturizer Empties Reviews (Dr. Althea, Illiyoon, Hatomugi, Shiseido, Wardah, Nivea)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xa2rhk/sunscreen_moisturizer_empties_reviews_dr_althea/",
+      "published": "2026-10-19T17:13:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Unleshia Vs Romand Highlight Palletes",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9pk1/unleshia_vs_romand_highlight_palletes/",
-      "published": "2026-10-01T20:01:52+00:00",
+      "title": "Toners and Actives",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xatqz3/toners_and_actives/",
+      "published": "2026-10-20T14:33:07+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Korean gua sha skincare",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuy8op/korean_gua_sha_skincare/",
-      "published": "2026-10-01T12:33:35+00:00",
+      "title": "Fiancée Pure Shampoo",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xajgc5/fiancée_pure_shampoo/",
+      "published": "2026-10-20T05:12:54+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Ordering from Japanese Amazon?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv8et1/ordering_from_japanese_amazon/",
-      "published": "2026-10-01T19:12:38+00:00",
+      "title": "Some more foundation reviews (and other stuff) of someone who does not like to wear make-up",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xa5ow7/some_more_foundation_reviews_and_other_stuff_of/",
+      "published": "2026-10-19T18:59:32+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Mont Muzui Duo Treatment",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv4ad7/mont_muzui_duo_treatment/",
-      "published": "2026-10-01T16:37:46+00:00",
+      "title": "Nolahour: What is this??",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1x9wi0t/nolahour_what_is_this/",
+      "published": "2026-10-19T13:10:55+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
-      "published": "2026-10-01T17:06:19+00:00",
+      "title": "Decent tips, tutorials for Asian makeup on European (Caucasian) face",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1xb0eqj/decent_tips_tutorials_for_asian_makeup_on/",
+      "published": "2026-10-20T18:41:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

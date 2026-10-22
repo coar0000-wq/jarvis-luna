@@ -2,10 +2,10 @@
 title: "Record 85adb3bc73 · NVIDIA-plans-to-acquire-Hugging-Face-and-keep-AI-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.019173+00:00
+updated_at: 2026-10-22T09:40:44.772190+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["머신러닝-연구", "로보틱스"]
+topics: ["머신러닝-연구", "로보틱스", "뷰티스킨케어"]
 domain: "www.therobotreport.com"
 url: "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/"
 ---

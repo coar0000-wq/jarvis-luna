@@ -2,10 +2,10 @@
 title: "Record 1dec0df953 · How-Many-but-How-Sure-Class-Competition-as-a-Confidence-Proxy-in-Multi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-20T13:10:03.004198+00:00
+updated_at: 2026-10-22T09:40:43.727862+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["머신러닝-연구"]
+topics: ["머신러닝-연구", "컴퓨터-비전"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2610.23611"
 ---

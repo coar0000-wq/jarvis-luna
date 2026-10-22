@@ -1,40 +1,88 @@
 {
-  "generated_at": "2026-10-03T11:43:28.206034+00:00",
+  "generated_at": "2026-10-22T09:40:36.042360+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 6955,
-      "base_uncategorized": 1378,
-      "before": 0.0736,
-      "after_shadow": 0.0729,
-      "uncategorized_before": 512,
-      "uncategorized_after_shadow": 507,
-      "adopted": 1,
-      "learned_keywords": 19,
+      "records": 8406,
+      "base_uncategorized": 1865,
+      "before": 0.0759,
+      "after_shadow": 0.0707,
+      "uncategorized_before": 638,
+      "uncategorized_after_shadow": 594,
+      "adopted": 5,
+      "learned_keywords": 24,
       "decisions": [
         {
           "loop": "topics",
           "action": "adopt",
-          "keyword": "exfoliating",
+          "keyword": "lip",
           "topic": "뷰티·스킨케어",
-          "precision": 1.0,
-          "support": 20,
-          "uncategorized_hits": 5,
+          "precision": 0.857,
+          "support": 14,
+          "uncategorized_hits": 13,
           "source": "us_beauty",
-          "source_fit": 0.887,
-          "newly_classified": 5
+          "source_fit": 0.884,
+          "newly_classified": 13
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "facial",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.972,
+          "support": 72,
+          "uncategorized_hits": 10,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 10
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "face",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.915,
+          "support": 284,
+          "uncategorized_hits": 8,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 8
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "color",
+          "topic": "뷰티·스킨케어",
+          "precision": 0.861,
+          "support": 36,
+          "uncategorized_hits": 8,
+          "source": "us_beauty",
+          "source_fit": 0.884,
+          "newly_classified": 7
+        },
+        {
+          "loop": "topics",
+          "action": "adopt",
+          "keyword": "scenes",
+          "topic": "컴퓨터 비전",
+          "precision": 0.852,
+          "support": 27,
+          "uncategorized_hits": 6,
+          "source": "arxiv",
+          "source_fit": 0.494,
+          "newly_classified": 6
         }
       ],
       "evaluation": {
         "mode": "production_classifier_replay",
         "entrypoint": "expand_obsidian_graph.topic_names",
-        "classifier_sha256": "79fd2188862974246b8274b1423f29a250f5e6a0a1c32f985461b8ffcb6a88f8",
-        "input_sha256": "94a50ece249a4d3f24fcbd816e71734a7537c949bf94763aef7946e7e98b6f8b",
-        "before_policy_sha256": "6bcdd660d217b1c4c47f11c162265e9162cd5ea47be6de880e65231d148ad39e",
-        "after_policy_sha256": "e1a77d4f37156df6978fb9751c7018ced87436df402384b97a47c56b71915014",
-        "evaluated_records": 6955
+        "classifier_sha256": "29e426f29c646ae74a118f0028737ff6c974bcc663ef5a52b98b51fc351d03ef",
+        "input_sha256": "4127de76f01881b11218f2ca6c8b56d60c5c355cd83701d3e8e1e041cd8ba7d1",
+        "before_policy_sha256": "e1a77d4f37156df6978fb9751c7018ced87436df402384b97a47c56b71915014",
+        "after_policy_sha256": "f5413095abf65fe0088ff3f5dfb1ed1956aeb93bc785c097ecd26fe195a84025",
+        "evaluated_records": 8406
       },
       "status": "adopted"
     },
@@ -47,10 +95,10 @@
         "prediction_samples": 172,
         "unknown_bucket_beauty_rate": 0.118,
         "open_slots": {},
-        "fresh_queue": 2114,
+        "fresh_queue": 1978,
         "expected_useful_baseline": 0,
         "expected_useful_policy": 0,
-        "would_skip_expected_full": 1405,
+        "would_skip_expected_full": 1269,
         "batch": 110
       },
       "decisions": [],
@@ -58,20 +106,20 @@
     },
     "design": {
       "metric": "reference_relevant_ratio",
-      "before": 0.436,
-      "relevant": 34,
+      "before": 0.538,
+      "relevant": 42,
       "items": 78,
       "feed_caps": {
         "web.dev": 3
       },
-      "offline_drafts": 3,
-      "store_done": 2,
-      "steps_total": 12,
+      "offline_drafts": 2,
+      "store_done": 3,
+      "steps_total": 13,
       "decisions": [],
       "status": "active"
     }
   },
-  "decisions_total": 21,
+  "decisions_total": 26,
   "memory": {
     "mode": "deterministic_out_of_band_consolidation",
     "unique_observations": 0,

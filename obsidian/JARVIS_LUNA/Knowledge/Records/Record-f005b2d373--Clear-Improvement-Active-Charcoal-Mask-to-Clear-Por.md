@@ -2,10 +2,10 @@
 title: "Record f005b2d373 · Clear-Improvement-Active-Charcoal-Mask-to-Clear-Pores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.550402+00:00
+updated_at: 2026-10-22T09:40:44.791167+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/clear-improvement-active-charcoal-mask-clear-pores-xlsImpprod15071355"
 ---

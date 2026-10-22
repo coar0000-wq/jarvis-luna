@@ -2,7 +2,7 @@
 title: "Source · organic_skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.062532+00:00
+updated_at: 2026-10-22T09:40:45.313483+00:00
 tags: [source, real-data]
 record_count: 15
 ---
@@ -15,9 +15,8 @@ record_count: 15
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 14 |
+| [[뷰티스킨케어]] | 15 |
 | [[의료바이오]] | 1 |
-| [[미분류]] | 1 |
 
 ### 최근 레코드 12건
 

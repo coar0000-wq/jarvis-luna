@@ -2,10 +2,10 @@
 title: "Record 6a69b399dd · Learning-Holistic-Scene-Layout-against-View-Shifts-in-Cross-View-Geo-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-13T14:32:13.473434+00:00
+updated_at: 2026-10-22T09:40:43.687515+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["미분류"]
+topics: ["컴퓨터-비전"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2610.13553"
 ---

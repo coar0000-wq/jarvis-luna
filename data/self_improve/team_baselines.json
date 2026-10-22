@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T08:59:15.449766+00:00",
+  "generated_at": "2026-10-22T10:04:03.054424+00:00",
   "generator": "scripts/build_team_baselines.py",
   "policy": "팀마다 실제 산출물에서 센 지표 1개. 첫 측정값을 기준선으로 고정하고 매 실행 current 만 갱신한다. 신선도는 근거 파일 자신의 시각(source_clock)으로 본다. 내부 측정이며 매출·사업 성과 검증(verified_gain)이 아니다. 기준: docs/team_improvement_criteria.md",
   "teams": {
@@ -17,9 +17,9 @@
       "current": {
         "value": 4,
         "denominator": 7,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/channel_candidates.json",
-        "source_clock": "2026-10-05T02:25:21.582807+00:00"
+        "source_clock": "2026-10-22T10:01:46.010114+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
       "change": 0
@@ -36,14 +36,14 @@
         "source_clock": "2026-10-04T07:13:43.095950+00:00"
       },
       "current": {
-        "value": 34,
+        "value": 42,
         "denominator": 78,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/design_team.json#references.quality",
-        "source_clock": "2026-10-04T07:13:43.095950+00:00"
+        "source_clock": "2026-10-22T09:37:31.804582+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
-      "change": 0
+      "change": 8
     },
     "graph": {
       "metric": "uncategorized_records",
@@ -57,14 +57,14 @@
         "source_clock": "2026-10-03T11:43:28.206034+00:00"
       },
       "current": {
-        "value": 512,
-        "denominator": 6955,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "value": 638,
+        "denominator": 8406,
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/self_improve/status.json#loops.topics",
-        "source_clock": "2026-10-03T11:43:28.206034+00:00"
+        "source_clock": "2026-10-22T09:40:36.042360+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
-      "change": 0
+      "change": 126
     },
     "institutions": {
       "metric": "collected_institution_items",
@@ -79,9 +79,9 @@
       "current": {
         "value": 1073,
         "denominator": 35,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/institution_sources.json",
-        "source_clock": "2026-10-03T11:40:00.731501+00:00"
+        "source_clock": "2026-10-03T11:39:17.808691+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
       "change": 0
@@ -97,14 +97,14 @@
         "source_path": "data/knowledge/real_sources.json"
       },
       "current": {
-        "value": 2186,
+        "value": 2159,
         "denominator": 6,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/knowledge/real_sources.json",
         "source_clock": null
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
-      "change": 169
+      "change": 142
     },
     "legal": {
       "metric": "s_products_legal_complete",
@@ -118,10 +118,10 @@
       },
       "current": {
         "value": 0,
-        "denominator": 7,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "denominator": 6,
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/legal_full.json",
-        "source_clock": "2026-10-22T03:10:01.306227+00:00"
+        "source_clock": "2026-10-22T10:01:28.733681+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
       "change": -3
@@ -139,9 +139,9 @@
       "current": {
         "value": 0,
         "denominator": null,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/shopify_listing_copy.json",
-        "source_clock": "2026-10-20T11:01:41.079033+00:00"
+        "source_clock": "2026-10-22T10:01:25.939392+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
       "change": -9
@@ -159,7 +159,7 @@
       "current": {
         "value": 185,
         "denominator": null,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/amazon_products.json+walmart+oliveyoung",
         "source_clock": "2026-09-15T11:19:23.782Z"
       },
@@ -177,14 +177,14 @@
         "source_path": "data/listing_gate.json"
       },
       "current": {
-        "value": 7,
-        "denominator": 7,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "value": 6,
+        "denominator": 6,
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/listing_gate.json",
-        "source_clock": "2026-10-22T03:10:01.698418+00:00"
+        "source_clock": "2026-10-22T10:01:29.042011+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
-      "change": 3
+      "change": 2
     },
     "robotics": {
       "metric": "ai_items_collected",
@@ -199,9 +199,9 @@
       "current": {
         "value": 235,
         "denominator": 2,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/robotics_sources.json",
-        "source_clock": "2026-10-11T13:35:28.740085+00:00"
+        "source_clock": "2026-10-22T09:36:14.282602+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
       "change": 0
@@ -220,7 +220,7 @@
       "current": {
         "value": 10,
         "denominator": 110,
-        "measured_at": "2026-10-22T08:59:15.449766+00:00",
+        "measured_at": "2026-10-22T10:04:03.054424+00:00",
         "source_path": "data/daiso_real/collection_status.json#last_success",
         "source_clock": "2026-09-29T00:48:58.284474+00:00"
       },

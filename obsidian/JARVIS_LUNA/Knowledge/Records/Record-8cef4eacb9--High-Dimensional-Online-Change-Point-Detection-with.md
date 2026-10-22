@@ -2,10 +2,10 @@
 title: "Record 8cef4eacb9 · High-Dimensional-Online-Change-Point-Detection-with-Adaptive-Threshold"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:23.979532+00:00
+updated_at: 2026-10-22T09:40:43.594234+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["보안프라이버시"]
+topics: ["보안프라이버시", "뷰티스킨케어"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2609.24278"
 ---

@@ -2,10 +2,10 @@
 title: "Record 7cbc49d9cb · Smartphone-Based-Method-for-Automated-Speed-Enforcement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:14.978532+00:00
+updated_at: 2026-10-22T09:40:43.266109+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["법률규제", "컴퓨터-비전"]
+topics: ["법률규제", "컴퓨터-비전", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.30107"
 ---

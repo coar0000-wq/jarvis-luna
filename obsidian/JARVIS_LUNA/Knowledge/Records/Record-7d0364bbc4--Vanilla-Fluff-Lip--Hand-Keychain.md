@@ -2,10 +2,10 @@
 title: "Record 7d0364bbc4 · Vanilla-Fluff-Lip--Hand-Keychain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-20T06:22:30.172228+00:00
+updated_at: 2026-10-22T09:40:44.818428+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/vanilla-fluff-lip-hand-keychain-pimprod2061162"
 ---

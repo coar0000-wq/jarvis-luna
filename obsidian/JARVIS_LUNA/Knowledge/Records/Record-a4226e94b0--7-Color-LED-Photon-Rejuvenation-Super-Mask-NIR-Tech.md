@@ -2,10 +2,10 @@
 title: "Record a4226e94b0 · 7-Color-LED-Photon-Rejuvenation-Super-Mask-NIR-TechnologyLimited-Editi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-22T06:20:36.135066+00:00
+updated_at: 2026-10-22T09:40:44.785747+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/7-color-led-photon-rejuvenation-super-mask-nir-technologylimited-edition-mkt77005106"
 ---

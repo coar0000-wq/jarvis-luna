@@ -88,7 +88,7 @@
     }
   },
   "force_bypasses_limits": false,
-  "generated_at": "2026-10-22T08:59:02.405106+00:00",
+  "generated_at": "2026-10-22T10:02:32.789638+00:00",
   "network_actuator_limit_per_invocation": 1,
   "organization": "secretary > existing 11 team leads > specialists",
   "plans": [
@@ -121,11 +121,11 @@
       "claim_id": null,
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "market",
-      "machine_eligible": true,
-      "reason": "episode_limit",
+      "machine_eligible": false,
+      "reason": "source_scope_healthy",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "bounded_hold",
+      "status": "healthy_no_repair",
       "team": "market"
     },
     {
@@ -181,11 +181,11 @@
       "claim_id": null,
       "fixedprocedure_id": "design_source_observe",
       "id": "design",
-      "machine_eligible": true,
-      "reason": "episode_limit",
+      "machine_eligible": false,
+      "reason": "source_scope_healthy",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "bounded_hold",
+      "status": "healthy_no_repair",
       "team": "design"
     },
     {

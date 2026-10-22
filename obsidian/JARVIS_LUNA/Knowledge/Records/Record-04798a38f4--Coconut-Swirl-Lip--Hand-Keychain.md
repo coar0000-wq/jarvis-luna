@@ -2,10 +2,10 @@
 title: "Record 04798a38f4 · Coconut-Swirl-Lip--Hand-Keychain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-19T05:41:09.268662+00:00
+updated_at: 2026-10-22T09:40:44.791690+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/coconut-swirl-lip-hand-keychain-pimprod2061164"
 ---

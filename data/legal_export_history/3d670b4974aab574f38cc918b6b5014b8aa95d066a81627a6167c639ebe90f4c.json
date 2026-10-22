@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "meaning": "historical_export_draft_not_current_scope_or_legal_approval",
+  "baseline_sha256": "a32c9d4e86fd0307b32b4fe617c2b62ffbc218effd405f0c8e88f77528c1b8f1",
+  "previous_sha256": "a32c9d4e86fd0307b32b4fe617c2b62ffbc218effd405f0c8e88f77528c1b8f1",
+  "current_sha256": "8f3f976577bef8314a13f1c28c61d06926bbfec626b1cb66bc6167cc8d8c297c",
+  "source_sha256": {
+    "data/legal_products.json": "a9ad6529e4062b3e57deb8cec88c9274faab4a3d73b08f16885c64f7d7335c74",
+    "data/gosi.json": "8767203619168e0cff51ee773b75fc73ac790e590c8a66058916f0c867e2de02",
+    "data/daiso_real/shopify_demand_score.json": "5edd462a84ce86afd57a8351e815c93a5e4a40c918b92f6688ff87dd3f601e44",
+    "data/shopify_listing_copy.json": "12fbb0026d58c2d1daa0cefe8d8a58f628de33a7d2cc3dae8dd0cf2b0ae1032e"
+  },
+  "published_legal_sha256": "a9ad6529e4062b3e57deb8cec88c9274faab4a3d73b08f16885c64f7d7335c74",
+  "hts_observations_sha256": "b37e638e3abcfc8eb8ea68b422ff8cc34859af5c0a4b7101a5c235773e9ca35e",
+  "active_ids": [
+    "1049276",
+    "1055167",
+    "1061918",
+    "1067498",
+    "1068721",
+    "1074979"
+  ],
+  "inactive_ids": [
+    "1049275",
+    "1053482",
+    "1068733"
+  ],
+  "added_ids": [
+    "1061918"
+  ],
+  "summary_before": [
+    "내용량",
+    "원산지",
+    "전성분",
+    "제품 정체 표시",
+    "책임자 이름·주소"
+  ],
+  "summary_after": [
+    "내용량",
+    "전성분",
+    "제품 정체 표시",
+    "책임자 이름·주소"
+  ],
+  "removed_tokens": [
+    "1049275",
+    "1053482",
+    "1068733",
+    "원산지"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:53:06.313449+00:00",
+  "generated_at": "2026-10-22T09:49:37.111744+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "nolan wells",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Sat, 3 Oct 2026 04:30:00 -0700",
-          "source_name": "WLBT",
-          "url": "https://trends.google.com/trending?geo=US&q=nolan%20wells"
+          "keyword": "arizona weather tornado warning",
+          "approx_traffic": "10000+",
+          "traffic_num": 10000,
+          "published": "Thu, 22 Oct 2026 02:20:00 -0700",
+          "source_name": "AZ Family",
+          "url": "https://trends.google.com/trending?geo=US&q=arizona%20weather%20tornado%20warning"
         },
         {
-          "keyword": "dana beatty",
+          "keyword": "michigan senate debate",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
-          "source_name": "NBC News",
-          "url": "https://trends.google.com/trending?geo=US&q=dana%20beatty"
+          "published": "Thu, 22 Oct 2026 02:10:00 -0700",
+          "source_name": "CNN",
+          "url": "https://trends.google.com/trending?geo=US&q=michigan%20senate%20debate"
         },
         {
-          "keyword": "alexander zverev",
+          "keyword": "alexandra eala",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Thu, 22 Oct 2026 01:50:00 -0700",
+          "source_name": "ESPN",
+          "url": "https://trends.google.com/trending?geo=US&q=alexandra%20eala"
+        },
+        {
+          "keyword": "troy aikman & joe buck",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
-          "source_name": "ATP Tour",
-          "url": "https://trends.google.com/trending?geo=US&q=alexander%20zverev"
+          "published": "Thu, 22 Oct 2026 02:20:00 -0700",
+          "source_name": "NBC Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=troy%20aikman%20%26%20joe%20buck"
         },
         {
-          "keyword": "tom kim",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Sat, 3 Oct 2026 03:50:00 -0700",
-          "source_name": "AP News",
-          "url": "https://trends.google.com/trending?geo=US&q=tom%20kim"
-        },
-        {
-          "keyword": "naman dhir",
+          "keyword": "michigan lottery",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
-          "source_name": "Rediff",
-          "url": "https://trends.google.com/trending?geo=US&q=naman%20dhir"
+          "published": "Thu, 22 Oct 2026 02:20:00 -0700",
+          "source_name": "Yahoo",
+          "url": "https://trends.google.com/trending?geo=US&q=michigan%20lottery"
         },
         {
-          "keyword": "gasoline",
+          "keyword": "cartaginés - olimpia",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
-          "source_name": "조선일보",
-          "url": "https://trends.google.com/trending?geo=US&q=gasoline"
+          "published": "Thu, 22 Oct 2026 02:10:00 -0700",
+          "source_name": "Concacaf | Official Website",
+          "url": "https://trends.google.com/trending?geo=US&q=cartagin%C3%A9s%20-%20olimpia"
         },
         {
-          "keyword": "rick ness",
+          "keyword": "cricinfo",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
-          "source_name": "TV Insider",
-          "url": "https://trends.google.com/trending?geo=US&q=rick%20ness"
+          "published": "Thu, 22 Oct 2026 02:00:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=cricinfo"
         },
         {
-          "keyword": "houston",
+          "keyword": "kamala harris",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
-          "source_name": "University of Houston Athletics",
-          "url": "https://trends.google.com/trending?geo=US&q=houston"
+          "published": "Thu, 22 Oct 2026 02:00:00 -0700",
+          "source_name": "Fox News",
+          "url": "https://trends.google.com/trending?geo=US&q=kamala%20harris"
         },
         {
-          "keyword": "balloon fiesta 2026",
+          "keyword": "england vs sri lanka",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:00:00 -0700",
-          "source_name": "KOAT",
-          "url": "https://trends.google.com/trending?geo=US&q=balloon%20fiesta%202026"
+          "published": "Thu, 22 Oct 2026 01:50:00 -0700",
+          "source_name": "BBC",
+          "url": "https://trends.google.com/trending?geo=US&q=england%20vs%20sri%20lanka"
         },
         {
-          "keyword": "daniil medvedev",
-          "approx_traffic": "200+",
-          "traffic_num": 200,
-          "published": "Sat, 3 Oct 2026 04:00:00 -0700",
-          "source_name": "ATP Tour",
-          "url": "https://trends.google.com/trending?geo=US&q=daniil%20medvedev"
+          "keyword": "bhuvneshwar kumar",
+          "approx_traffic": "100+",
+          "traffic_num": 100,
+          "published": "Thu, 22 Oct 2026 02:00:00 -0700",
+          "source_name": "Yahoo Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=bhuvneshwar%20kumar"
         }
       ]
     },
@@ -96,88 +96,88 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-09-02 ~ 2026-10-01 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-09-21 ~ 2026-10-20 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
-          "topic": "Niacinamide",
-          "days": 30,
-          "total_views": 2241,
-          "avg_daily": 75,
-          "recent_avg": 105,
-          "prev_avg": 45,
-          "change_pct": 134.0,
-          "url": "https://en.wikipedia.org/wiki/Niacinamide"
-        },
-        {
           "topic": "Cosmetics",
           "days": 30,
-          "total_views": 21761,
-          "avg_daily": 725,
-          "recent_avg": 772,
-          "prev_avg": 678,
-          "change_pct": 13.8,
+          "total_views": 25833,
+          "avg_daily": 861,
+          "recent_avg": 952,
+          "prev_avg": 770,
+          "change_pct": 23.7,
           "url": "https://en.wikipedia.org/wiki/Cosmetics"
-        },
-        {
-          "topic": "Centella asiatica",
-          "days": 30,
-          "total_views": 15520,
-          "avg_daily": 517,
-          "recent_avg": 548,
-          "prev_avg": 487,
-          "change_pct": 12.6,
-          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
-        },
-        {
-          "topic": "K-beauty",
-          "days": 30,
-          "total_views": 3752,
-          "avg_daily": 125,
-          "recent_avg": 132,
-          "prev_avg": 119,
-          "change_pct": 10.9,
-          "url": "https://en.wikipedia.org/wiki/K-beauty"
-        },
-        {
-          "topic": "Hyaluronic acid",
-          "days": 30,
-          "total_views": 19303,
-          "avg_daily": 643,
-          "recent_avg": 664,
-          "prev_avg": 623,
-          "change_pct": 6.6,
-          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11815,
-          "avg_daily": 394,
-          "recent_avg": 404,
-          "prev_avg": 384,
-          "change_pct": 5.1,
+          "total_views": 11570,
+          "avg_daily": 386,
+          "recent_avg": 403,
+          "prev_avg": 368,
+          "change_pct": 9.7,
           "url": "https://en.wikipedia.org/wiki/Retinol"
         },
         {
           "topic": "Snail slime",
           "days": 30,
-          "total_views": 2133,
-          "avg_daily": 71,
-          "recent_avg": 73,
-          "prev_avg": 70,
-          "change_pct": 4.3,
+          "total_views": 3301,
+          "avg_daily": 110,
+          "recent_avg": 115,
+          "prev_avg": 105,
+          "change_pct": 9.6,
           "url": "https://en.wikipedia.org/wiki/Snail_slime"
+        },
+        {
+          "topic": "K-beauty",
+          "days": 30,
+          "total_views": 3889,
+          "avg_daily": 130,
+          "recent_avg": 130,
+          "prev_avg": 129,
+          "change_pct": 1.2,
+          "url": "https://en.wikipedia.org/wiki/K-beauty"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 14397,
-          "avg_daily": 480,
-          "recent_avg": 455,
-          "prev_avg": 505,
-          "change_pct": -9.8,
+          "total_views": 12808,
+          "avg_daily": 427,
+          "recent_avg": 422,
+          "prev_avg": 432,
+          "change_pct": -2.2,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
+        },
+        {
+          "topic": "Hyaluronic acid",
+          "days": 30,
+          "total_views": 17310,
+          "avg_daily": 577,
+          "recent_avg": 543,
+          "prev_avg": 611,
+          "change_pct": -11.1,
+          "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
+        },
+        {
+          "topic": "Centella asiatica",
+          "days": 30,
+          "total_views": 15152,
+          "avg_daily": 505,
+          "recent_avg": 469,
+          "prev_avg": 541,
+          "change_pct": -13.4,
+          "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Niacinamide",
+          "days": 30,
+          "total_views": 1717,
+          "avg_daily": 57,
+          "recent_avg": 44,
+          "prev_avg": 70,
+          "change_pct": -36.8,
+          "url": "https://en.wikipedia.org/wiki/Niacinamide"
         }
       ]
     },
@@ -188,154 +188,154 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
-          "title": "12 Bad Skin Habits Your Dermatologist Wishes You’d Break",
-          "published": "Fri, 02 Oct 2026 21:00:00 +0000",
-          "url": "https://www.allure.com/story/bad-skin-habits-dermatologists-want-you-to-break"
+          "title": "How Hair and Makeup Transform Florence Pugh From Cathy Ames to Kate in \"East of Eden\"",
+          "published": "Wed, 21 Oct 2026 22:32:20 +0000",
+          "url": "https://www.allure.com/story/netflix-east-of-eden-florence-pugh-hair-makeup-details"
         },
         {
-          "title": "GLP-1s May Significantly Increase Your Risk of Nail Detachment",
-          "published": "Fri, 02 Oct 2026 19:28:52 +0000",
-          "url": "https://www.allure.com/story/glp-1-nail-detachment-new-study"
+          "title": "Amazon Holiday Beauty Event 2026: Shop Allure Editors' Favorite Deals",
+          "published": "Wed, 21 Oct 2026 19:56:49 +0000",
+          "url": "https://www.allure.com/story/amazon-holiday-beauty-event-2026-best-deals"
         },
         {
-          "title": "'The Swan' Ended 20 Years Ago. Its Plastic Surgery Legacy Lives On.",
-          "published": "Fri, 02 Oct 2026 19:21:58 +0000",
-          "url": "https://www.allure.com/story/the-swan-series-plastic-surgery-legacy-haworth-dubrow"
+          "title": "Olivia Colman Is the Indisputable New Queen of Quiet Silver",
+          "published": "Wed, 21 Oct 2026 16:42:15 +0000",
+          "url": "https://www.allure.com/story/olivia-colman-quiet-silver-blending-wicker-premiere"
         },
         {
-          "title": "7 Best L’Oréal Paris Skin-Care Products for Fine Lines, Dullness, and Dryness",
-          "published": "Fri, 02 Oct 2026 19:02:13 +0000",
-          "url": "https://www.allure.com/story/best-loreal-paris-skin-care-products"
+          "title": "12 Best La Roche-Posay Products for Dry, Sensitive Skin",
+          "published": "Wed, 21 Oct 2026 14:52:55 +0000",
+          "url": "https://www.allure.com/story/best-la-roche-posay-products"
         },
         {
-          "title": "26 Best Amazon Gifts Under $50 for Everyone on Your List",
-          "published": "Fri, 02 Oct 2026 18:19:47 +0000",
-          "url": "https://www.allure.com/gallery/best-amazon-gifts-under-50"
+          "title": "7 Best Alpha Hydroxy Acid Products for Dull, Rough, and Uneven Skin",
+          "published": "Wed, 21 Oct 2026 14:35:26 +0000",
+          "url": "https://www.allure.com/gallery/best-alpha-hydroxy-acid-products"
         },
         {
-          "title": "Allure Best of Beauty Live 2026 Sweepstakes",
-          "published": "Fri, 02 Oct 2026 17:33:29 +0000",
-          "url": "https://www.allure.com/story/best-of-beauty-sweepstakes-2026-rules"
+          "title": "I’m Over Your Lip Gloss Phone Case",
+          "published": "Tue, 20 Oct 2026 20:10:36 +0000",
+          "url": "https://www.allure.com/story/peak-beauty-phone-case-accessory-rhode-dior-charlotte-tilbury"
         },
         {
-          "title": "Cynthia Erivo Put a Colorful Croc Spin on a Classic French Manicure",
-          "published": "Fri, 02 Oct 2026 17:31:45 +0000",
-          "url": "https://www.allure.com/story/cynthia-erivo-multicolor-croc-nails"
+          "title": "6 Best Lip Liners for Mature Skin, According to Makeup Artists",
+          "published": "Tue, 20 Oct 2026 18:49:08 +0000",
+          "url": "https://www.allure.com/story/best-lip-liners-for-mature-skin"
         },
         {
-          "title": "Sarah Jessica Parker's Braid Is a Quiet Silver Masterpiece",
-          "published": "Fri, 02 Oct 2026 13:22:44 +0000",
-          "url": "https://www.allure.com/story/sarah-jessica-parker-quiet-silver-ribbon-braid"
+          "title": "Megan Thee Stallion Serves Up Two White-Blonde Looks in Her “Thin Ice” Video",
+          "published": "Tue, 20 Oct 2026 18:30:56 +0000",
+          "url": "https://www.allure.com/story/megan-thee-stallion-thin-ice-platinum-blonde-hair"
         },
         {
-          "title": "How to Build a Dry Skin Routine",
-          "published": "Fri, 02 Oct 2026 00:15:00 +0000",
-          "url": "https://www.allure.com/story/dry-skin-care-routine"
+          "title": "Hailey Bieber's Glossy Black Nails Are Ready for Spooky Season—See the Photos",
+          "published": "Tue, 20 Oct 2026 15:31:57 +0000",
+          "url": "https://www.allure.com/story/hailey-bieber-black-onyx-nails"
         },
         {
-          "title": "6 Best Lip Masks 2026 to Soothe Dry, Chapped Lips Overnight",
-          "published": "Thu, 01 Oct 2026 18:58:33 +0000",
-          "url": "https://www.allure.com/gallery/best-lip-mask"
+          "title": "7 Best Blow-Dryer Brushes 2026 for Easy At-Home Blowouts",
+          "published": "Mon, 19 Oct 2026 18:10:11 +0000",
+          "url": "https://www.allure.com/gallery/best-hair-dryer-brushes"
         },
         {
-          "title": "19 Best Early Amazon Prime Day Beauty Deals 2026 to Shop Now",
-          "published": "Thu, 01 Oct 2026 17:17:18 +0000",
-          "url": "https://www.allure.com/story/best-early-amazon-prime-day-beauty-deals"
+          "title": "The 2026 Victoria’s Secret Fashion Show Let Us Relive the Bad Old Days",
+          "published": "Mon, 19 Oct 2026 18:02:31 +0000",
+          "url": "https://www.allure.com/story/victorias-secret-fashion-show-2026-review"
         },
         {
-          "title": "33 Halloween Nail Art Ideas That Are Equal Parts Eerie and Cute",
-          "published": "Wed, 30 Sep 2026 23:00:00 +0000",
-          "url": "https://www.allure.com/gallery/halloween-nail-art-ideas"
+          "title": "Behind the Scenes at Allure’s Best of Beauty Live VIP Evening Event",
+          "published": "Mon, 19 Oct 2026 15:47:43 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-live-event-evening-2026-recap"
         },
         {
-          "title": "7 Best Eye Creams for Wrinkles to Smooth, Firm, and Brighten",
-          "published": "Wed, 30 Sep 2026 22:26:14 +0000",
-          "url": "https://www.allure.com/gallery/best-anti-aging-eye-creams"
+          "title": "Allure’s Best of Beauty Live 2026 Lit Up Lower Manhattan",
+          "published": "Mon, 19 Oct 2026 15:34:33 +0000",
+          "url": "https://www.allure.com/story/allure-best-of-beauty-live-2026-day-session-recap"
         },
         {
-          "title": "7 Best Peptide Serums 2026 for Plumper, Bouncier Skin",
-          "published": "Wed, 30 Sep 2026 19:31:39 +0000",
-          "url": "https://www.allure.com/gallery/best-peptide-skin-care-products"
+          "title": "Taylor Swift's Soft Glam at the Academy Museum Gala Is Pure Romance—See the Photos",
+          "published": "Mon, 19 Oct 2026 15:20:53 +0000",
+          "url": "https://www.allure.com/story/taylor-swift-soft-glam-academy-museum-gala"
         },
         {
-          "title": "October Allure Beauty Box Review",
-          "published": "Wed, 30 Sep 2026 17:00:00 +0000",
-          "url": "https://www.allure.com/story/october-allure-beauty-box-26"
+          "title": "The Allure Best of Beauty 2027 Submission Guidelines",
+          "published": "Mon, 19 Oct 2026 14:00:00 +0000",
+          "url": "https://www.allure.com/story/allure-best-of-beauty-awards-submission-guidelines"
         },
         {
-          "title": "Dakota Johnson Helped Style Her Own \"Quarter-Up\" Hairdo",
-          "published": "Wed, 30 Sep 2026 15:52:46 +0000",
-          "url": "https://www.allure.com/story/dakota-johnson-quarter-up-hair"
+          "title": "The Allure Clean Best of Beauty Seal: What It Is and Why We Created It",
+          "published": "Mon, 19 Oct 2026 13:35:14 +0000",
+          "url": "https://www.allure.com/story/allure-clean-beauty-seal"
         },
         {
-          "title": "Hailey Bieber's Hot Chocolate Nails Match Her New Hair Color—See the Photos",
-          "published": "Wed, 30 Sep 2026 13:03:17 +0000",
-          "url": "https://www.allure.com/story/hailey-bieber-chocolate-brown-nails-hair-color"
+          "title": "Saying Adriana Lima Had a “Glow Up” Isn’t as Kind as You Think",
+          "published": "Sun, 18 Oct 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/adriana-lima-glow-up-victorias-secret-fashion-show"
         },
         {
-          "title": "How to Apply Mascara for Longer, Fuller, Mess-Free Lashes—With Photos and Videos",
-          "published": "Wed, 30 Sep 2026 00:15:00 +0000",
-          "url": "https://www.allure.com/story/how-to-apply-mascara"
+          "title": "7 Best Body Washes 2026 for Dry Skin, Body Acne, and More",
+          "published": "Sun, 18 Oct 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/gallery/best-body-washes"
         },
         {
-          "title": "7 Best Olay Body-Care Products for Glowing Skin from Head to Toe",
-          "published": "Tue, 29 Sep 2026 22:47:36 +0000",
-          "url": "https://www.allure.com/story/best-olay-body-care-products"
+          "title": "7 Best Neck Creams 2026 for Firming and Smoothing Tech Neck",
+          "published": "Sat, 17 Oct 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/gallery/best-neck-creams"
         },
         {
-          "title": "Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?",
-          "published": "Tue, 29 Sep 2026 19:25:13 +0000",
-          "url": "https://www.allure.com/story/dyson-toothbrush-issues-glitch"
+          "title": "How to Build a Simple Skin-Care Routine",
+          "published": "Fri, 16 Oct 2026 21:00:00 +0000",
+          "url": "https://www.allure.com/story/simplified-skincare-routine"
         },
         {
-          "title": "28 Bronde Hair Ideas That Look Amazing on Everyone—See Photos",
-          "published": "Tue, 29 Sep 2026 18:00:00 +0000",
-          "url": "https://www.allure.com/gallery/bronde-hair-color-ideas"
+          "title": "Allure Had a Pizza Party to Celebrate Best of Beauty’s Birthday",
+          "published": "Fri, 16 Oct 2026 19:19:56 +0000",
+          "url": "https://www.allure.com/story/allure-best-of-beauty-mamas-too-partnership"
         },
         {
-          "title": "4 Best Korean Skin-Care Devices 2026 for Glass-Like Skin",
-          "published": "Tue, 29 Sep 2026 16:39:32 +0000",
-          "url": "https://www.allure.com/story/best-korean-skin-care-device"
+          "title": "The Cherry Cola Hair Color Trend Is Bubbling Up Yet Again—See Photos",
+          "published": "Fri, 16 Oct 2026 17:00:00 +0000",
+          "url": "https://www.allure.com/story/cherry-cola-hair-trend-2026"
         },
         {
-          "title": "Raven-Symoné on Body Image, Breast Reductions, and Ditching “Performative Hyperfemininity”",
-          "published": "Tue, 29 Sep 2026 14:56:41 +0000",
-          "url": "https://www.allure.com/story/raven-symone-perspectives-podcast-interview"
+          "title": "8 Best Estée Lauder Products for a Healthy-Looking Glow at Any Age",
+          "published": "Fri, 16 Oct 2026 13:00:00 +0000",
+          "url": "https://www.allure.com/story/best-estee-lauder-products"
         },
         {
-          "title": "\"The Swan: Behind the Mirror\" Revisits the Rock Bottom of Reality TV—and Makeover Culture",
-          "published": "Tue, 29 Sep 2026 10:30:00 +0000",
-          "url": "https://www.allure.com/story/the-swan-behind-the-mirror-documentary-review-and-commentary"
+          "title": "6 Best Highlighters for Mature Skin to Bring Your Glow Back",
+          "published": "Fri, 16 Oct 2026 12:00:00 +0000",
+          "url": "https://www.allure.com/story/best-highlighters-for-mature-skin"
         },
         {
-          "title": "8 Best Wrinkle Fillers for Smoother, Firmer Skin",
-          "published": "Mon, 28 Sep 2026 21:18:45 +0000",
-          "url": "https://www.allure.com/story/wrinkle-fillers"
+          "title": "6 Best Hair-Straightening Brushes 2026 for Salon-Smooth Blowouts",
+          "published": "Thu, 15 Oct 2026 18:16:42 +0000",
+          "url": "https://www.allure.com/story/best-hair-straightening-brushes"
         },
         {
-          "title": "Lilac Is Fall 2026's Unexpected Nail Color Trend—See Photos",
-          "published": "Mon, 28 Sep 2026 21:10:00 +0000",
-          "url": "https://www.allure.com/story/lilac-nail-trend-2026"
+          "title": "Why Zendaya, Dakota Johnson and More Are Busting Out The Baby Bangs",
+          "published": "Thu, 15 Oct 2026 17:44:56 +0000",
+          "url": "https://www.allure.com/story/baby-bangs-zendaya-dakota-johnson-hair-trend"
         },
         {
-          "title": "The Best Niche Perfumes Will Make You Stand Out in a Crowd",
-          "published": "Mon, 28 Sep 2026 16:43:22 +0000",
-          "url": "https://www.allure.com/story/best-niche-perfume"
+          "title": "Olivia Colman's Hairstylist Shares the Secrets Behind Her \"Wicker\" Curls—See the Photos",
+          "published": "Thu, 15 Oct 2026 17:44:24 +0000",
+          "url": "https://www.allure.com/story/olivia-colman-wicker-curls"
         },
         {
-          "title": "Madonna Embraced Decades of Beauty Reinvention Without Losing Herself.",
-          "published": "Mon, 28 Sep 2026 13:55:24 +0000",
-          "url": "https://www.allure.com/story/madonna-vmas-op-ed-aesthetic"
+          "title": "10 Best L’Oréal Paris Makeup 2026 for Glowing Skin and Clump-Free Lashes",
+          "published": "Thu, 15 Oct 2026 15:25:21 +0000",
+          "url": "https://www.allure.com/story/best-loreal-paris-makeup"
         },
         {
-          "title": "Ella Bright's New Hair Color Is Right On Trend for Fall 2026—See the Photos",
-          "published": "Mon, 28 Sep 2026 13:42:03 +0000",
-          "url": "https://www.allure.com/story/ella-bright-vmas-2026-dark-hair"
+          "title": "Selena Gomez's $12 Nail Polish Is the Ultimate Fall Classic—See the Photos",
+          "published": "Thu, 15 Oct 2026 13:51:33 +0000",
+          "url": "https://www.allure.com/story/selena-gomez-cranberry-red-fall-nails"
         },
         {
-          "title": "\"The Swan:\" Behind the Scenes of the Polarizing First Season",
-          "published": "Mon, 28 Sep 2026 10:30:00 +0000",
-          "url": "https://www.allure.com/story/the-secrets-of-the-swan-first-season-interviews"
+          "title": "7 Best Exfoliating Pads 2026 to Smooth Texture and Boost Glow",
+          "published": "Wed, 14 Oct 2026 21:20:57 +0000",
+          "url": "https://www.allure.com/story/best-exfoliating-pads"
         }
       ]
     },

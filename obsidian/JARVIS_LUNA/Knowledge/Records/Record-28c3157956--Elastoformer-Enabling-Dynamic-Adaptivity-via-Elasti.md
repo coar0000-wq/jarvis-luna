@@ -2,10 +2,10 @@
 title: "Record 28c3157956 · Elastoformer-Enabling-Dynamic-Adaptivity-via-Elasti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:12.670742+00:00
+updated_at: 2026-10-22T09:40:43.162709+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["머신러닝-연구", "컴퓨터-비전", "인프라클라우드"]
+topics: ["머신러닝-연구", "컴퓨터-비전", "인프라클라우드", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.10018v1"
 ---

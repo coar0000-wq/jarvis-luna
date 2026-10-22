@@ -2,10 +2,10 @@
 title: "Record 05310015e8 · I-Cant-Live-Without-the-CosRx-Hydrogel-Face-MaskAnd-Its-on-Sale-for-Pr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:12.706263+00:00
+updated_at: 2026-10-22T09:40:43.913377+00:00
 tags: [record, real-data]
 source: "Google-Search"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "news.google.com"
 url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QQkcxRHdGNkJYeVdUZ0p0LTZKZmpPQ2hadlBPd2FLYzBHOU9xX21mYXlIUkRWcndzWWVQdWtmZnhsNlJjU0xwVzE0OEdlTXFubWQyUXpRUjBxZ2FMc0xSZmJXeWs3clQ3aFJKcnJPSQ?oc=5"
 ---

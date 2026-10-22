@@ -1,53 +1,53 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T09:16:19.084860+00:00",
+  "generated_at": "2026-10-22T10:14:44.027924+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "6241d6199de7b6842fe92e2b5e3da1f5e56ae638f48431ada7de9efa732e67dc",
-      "data/gosi.json": "b1afca006130f7d1c20a56f70d1b1f7959d3f46e7b3a85b134d4d1d0b42a20a1",
-      "data/daiso_real/daiso_us_labels.json": "892c282fd72b4291fe5ec2fa97acf0cc1be5eac6452282b4d842af1d48a7d81b",
-      "data/pricing_model.json": "bdf2cb5843b6f3a99b62ce79df20821e4a92098707d993185ee0bb0ef04ff688",
-      "data/legal_products.json": "473190f4e907c4883dfee8d32ec216c4d957a62a6bd7edfc1aa729e4f6b072bc",
-      "data/daiso_real/shopify_s_recommendations.json": "fb2892b65d4012ac8cfdd7ef9810d7d80769925e8ebdb1006d6be43a82abfc23",
-      "data/shopify_listing_copy.json": "d7c09e7a0fac3e8f7f799f784cf18391569723da061236f30a25f291138b75c4",
-      "data/shopify_shortlist.json": "687e27ad69165400f2eee18795a76147e5112d029fca30b41af322b47ec4b7d2",
-      "data/legal_full.json": "fb2df7df543d548ca43f0ed94620aebf201b3df71449cba5e23bb9ad3c81eb4c",
-      "data/mocra_readiness.json": "857118b47584577a0e281ad293caa925d6d26ffbee8417d1a63da223281b1982",
+      "data/product_master.json": "97099658471114e1d2c7f99a0fddfa060d2acf6f0eaa56d3e089e7b0c25ca054",
+      "data/gosi.json": "c7fe5b7ec0a7bac5874cf5ee353ce5765a5f7a1f0ce4eb6ae52e158a60ca1311",
+      "data/daiso_real/daiso_us_labels.json": "1dfb993de1b95cad3658a6587597a6aea0e53d6b1f40e1c56f20b842d339fdab",
+      "data/pricing_model.json": "bf79499941d178e7b7e6f8d55c893b8453b50f08cf253f11142615675ce1f090",
+      "data/legal_products.json": "63fc9db0e928ab565f321255a5f962f3c541caff7214e7f95b80f451b0afd7c1",
+      "data/daiso_real/shopify_s_recommendations.json": "ffe9472aa9ee2b3c8b4856c3fae34f7af93d4c13f4d444f0709472b7fb198766",
+      "data/shopify_listing_copy.json": "24045f6b5454b64a76fae0440ca8e503cd08fdd605c9d77dfa8ed64659f6cc49",
+      "data/shopify_shortlist.json": "841a82aeb856326a2c3d54098288f3f4556d474978dc18916e6a34b63a58d4fb",
+      "data/legal_full.json": "28983a18dbd9e3b77e44465ef4ead461365bcabe3d64c766984f1edf01d1dd75",
+      "data/mocra_readiness.json": "3da2aaf2c6e581186cf06b8e982fc6b7b0889e49aec52770d2b920b7cd0abe6f",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
       "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
       "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "fc07b58da6d6b8a5fd1d0a5dde464fcd65a136df20e17131de17bc25fd5967f2",
-      "masked/manufacturer_safety_record": "33b3830261351a7787cb6cced18029091b2597606064b5f7e7b08e637d6057a1",
-      "masked/product_accuracy_evidence": "a8554db0aa047990a80bc9cb4156a7de51d609c9e6e6d9f1558c9a674757d069",
+      "masked/manufacturer_safety_record": "fd4c69dbdd38d87b31b9bb49481bb53339b832ce2a9f34d42f8655955cef3da3",
+      "masked/product_accuracy_evidence": "cd9090be39707d44b060e9a53e93df00f73ba518eb154a86cf8d80387e9c3428",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "fb69a87ad30087a62488d5b53bf56a5078dcd95a16b1e11d4c1ac7db644ee8c0"
+    "recommendations_sha256": "ca0d92983f7ca7cf6dcdf6b5429094b78db8049c2b8408255077654fabcdb86b"
   },
-  "total": 7,
+  "total": 6,
   "agent_ready": 0,
   "ready": 0,
   "draft_ready": 0,
   "public_ready": 0,
   "counts": {
-    "ontology": 7,
+    "ontology": 6,
     "copy": 0,
-    "gosi": 5,
+    "gosi": 4,
     "us_label": 3,
-    "price": 7,
+    "price": 6,
     "legal": 3,
     "manufacturer_safety_record": 0,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 7,
+    "copy": 6,
     "gosi": 2,
-    "us_label": 4,
-    "legal": 4,
-    "manufacturer_safety_record": 7
+    "us_label": 3,
+    "legal": 3,
+    "manufacturer_safety_record": 6
   },
   "price_policy": {
     "mode": "evidence_based_price",
@@ -60,22 +60,28 @@
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "disabled_local_advisory": 7
+      "disabled_local_advisory": 6
     },
     "typesafe_calls": null,
     "free_credits_only": 0,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "ledger_unavailable",
+      "stopped": "",
+      "global_stopped": "",
+      "workflow_stopped": "",
+      "workflow_id": "JARVIS Deep Analysis:39752695904:1",
+      "estimated_cost_usd": 0.0,
+      "account_estimated_cost_usd": 0.000544698,
+      "purchased_credits": false,
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "purchased_credits": false
+      "input_token_price_per_mtok_usd": 0.042
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
   },
-  "count": 7,
+  "count": 6,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
   "items": [
     {
@@ -193,13 +199,136 @@
     },
     {
       "rank": 2,
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "product_id": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 98,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1061918",
+        "source_identity_sha256": "8c562623dad80cd5d64bc45b8cc21c5178353483db2fd6b840be6ff797548d78",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "50mg + 10ml",
+        "maker": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+        "origin": "한국",
+        "ingredients": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50mg + 10ml",
+        "manufacturer": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 18.42,
+        "margin_pct": 40.0,
+        "register_blocked": false,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 3,
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "product_id": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
       "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 98,
+      "shopify_score": 97,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "copy": {},
       "copy_status": "skipped_prerequisite",
@@ -305,129 +434,6 @@
       }
     },
     {
-      "rank": 3,
-      "canonical_product_id": "CP000178",
-      "pd_no": "1061918",
-      "product_id": "1061918",
-      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 98,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
-      "copy": {},
-      "copy_status": "missing",
-      "product_accuracy": {
-        "schema_version": 1,
-        "product_id": "1061918",
-        "source_identity_sha256": "8c562623dad80cd5d64bc45b8cc21c5178353483db2fd6b840be6ff797548d78",
-        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-        "status": "UNVERIFIED_DRAFT",
-        "evidence_status": "UNVERIFIED",
-        "unsupported_fields": [
-          "description_html",
-          "product_type",
-          "seo_description",
-          "seo_title",
-          "tags",
-          "title"
-        ],
-        "source_conflicts": [],
-        "reasons": [
-          "official_product_evidence_missing"
-        ],
-        "human_review_required": true,
-        "publication_allowed": false,
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "scope": "recorded_source_consistency_and_exact_copy_support_only"
-      },
-      "gosi": {
-        "volume": "50mg + 10ml",
-        "maker": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
-        "origin": "한국",
-        "ingredients": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "50mg + 10ml",
-        "manufacturer": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 18.4,
-        "margin_pct": 40.0,
-        "register_blocked": false,
-        "price_evidence_ok": false,
-        "price_evidence_source": "oliveyoung_us_benchmark",
-        "price_evidence_reasons": [
-          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-        ],
-        "profit_warnings": [],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
-      },
-      "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "market_price_review",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
-          "legal hard block",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
       "rank": 4,
       "canonical_product_id": "CP000216",
       "pd_no": "1067498",
@@ -480,7 +486,7 @@
       },
       "price": {
         "price_usd": 31.99,
-        "margin_pct": 62.3,
+        "margin_pct": 62.2,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -592,7 +598,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 19.71,
+        "price_usd": 19.73,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -787,129 +793,6 @@
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
           "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
-          "legal hard block",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 7,
-      "canonical_product_id": "CP000256",
-      "pd_no": "1072800",
-      "product_id": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "category": "메이크업",
-      "price_krw": 5000,
-      "shopify_score": 75,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
-      "product_accuracy": {
-        "schema_version": 1,
-        "product_id": "1072800",
-        "source_identity_sha256": "03e3fdf07641ac6f16d0fc5aca51509da0adaa79460fe91519e1b2c2d5acfc42",
-        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-        "status": "UNVERIFIED_DRAFT",
-        "evidence_status": "UNVERIFIED",
-        "unsupported_fields": [
-          "description_html",
-          "product_type",
-          "seo_description",
-          "seo_title",
-          "tags",
-          "title"
-        ],
-        "source_conflicts": [],
-        "reasons": [
-          "official_product_evidence_missing"
-        ],
-        "human_review_required": true,
-        "publication_allowed": false,
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "scope": "recorded_source_consistency_and_exact_copy_support_only"
-      },
-      "gosi": {
-        "volume": "4g",
-        "maker": "(주)코스메카코리아 / (주)정샘물뷰티",
-        "origin": "대한민국",
-        "ingredients": "정제수, 다이메티콘, 실리카, 메틸트라이메티콘, 세틸피이지/피피지-10/1 다이메티콘, 다이프로필렌글라이콜, 비닐다이메티콘/메티콘실세스퀴옥세인크로스폴리머, 라우릴다이지-10프리스(트라이메칠실록시(실릴메틸다이메티콘, ",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "4g",
-        "manufacturer": "(주)코스메카코리아 / (주)정샘물뷰티",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 18.4,
-        "margin_pct": 40.0,
-        "register_blocked": false,
-        "price_evidence_ok": false,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [
-          "price_evidence_volume_unverified_product"
-        ],
-        "profit_warnings": [],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
-      },
-      "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "market_price_review",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 9,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],

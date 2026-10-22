@@ -2,10 +2,10 @@
 title: "Record edaf5a45a8 · DoubleDown-Lip-Definer-2-in-1-Liner-and-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.629709+00:00
+updated_at: 2026-10-22T09:40:44.795366+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/doubledown-lip-definer-2-in-1-liner-balm-pimprod2059017"
 ---

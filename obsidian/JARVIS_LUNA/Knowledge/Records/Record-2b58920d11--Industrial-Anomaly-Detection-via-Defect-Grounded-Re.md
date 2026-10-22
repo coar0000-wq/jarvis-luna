@@ -2,10 +2,10 @@
 title: "Record 2b58920d11 · Industrial-Anomaly-Detection-via-Defect-Grounded-Reasoning-in-Visual-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:14.900177+00:00
+updated_at: 2026-10-22T09:40:43.262140+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["LLM언어모델", "컴퓨터-비전"]
+topics: ["LLM언어모델", "컴퓨터-비전", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.29457"
 ---

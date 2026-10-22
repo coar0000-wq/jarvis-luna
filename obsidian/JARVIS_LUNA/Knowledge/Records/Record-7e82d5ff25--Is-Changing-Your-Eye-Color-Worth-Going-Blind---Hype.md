@@ -2,10 +2,10 @@
 title: "Record 7e82d5ff25 · Is-Changing-Your-Eye-Color-Worth-Going-Blind---Hype"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:34.257465+00:00
+updated_at: 2026-10-22T09:40:44.018104+00:00
 tags: [record, real-data]
 source: "Google-Search"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "news.google.com"
 url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkhkdGZ2WFgyaVpELW5DWGF4WDl1S1VvbjM1LWZ6RjUtaFI3OFUtbEhFRmthMGxqVE1NQnZTWnJ6TUk4alBrTlVONmV5eF8yT29jLVdYMEwyNURDWkZhbDE1YVIyNGcySkZOc3FPZzcxTXdTcnh2anZ2Y1lOVGJXUV9yTkxYeC1VeEtNeVdUMGxYUF9xbmZV?oc=5"
 ---

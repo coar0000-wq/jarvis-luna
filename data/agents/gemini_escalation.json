@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T11:01:51.033262+00:00",
+  "generated_at": "2026-10-22T10:12:16.010689+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -15,20 +15,23 @@
   "call_count": 1,
   "called": true,
   "reasons": [
-    "repeated_unresolved_auto_issues=1"
+    "repeated_unresolved_auto_issues=2"
   ],
   "advice": {
     "risk": "medium",
-    "diagnosis": "아마존 뷰티 채널 수집 실패 및 Gemini API 할당량 초과(429)로 인한 데이터 갱신 지연 발생",
+    "diagnosis": "채널 수집 실패 및 Gemini API 할당량 초과(HTTP 429)로 인한 작업 보류 상태",
     "next_safe_checks": [
-      "아마존 뷰티 채널 수집기 상태 재확인",
-      "Gemini API 할당량 복구 여부 점검",
-      "상품 고시 판독 남은 2건에 대한 수동 원본 정보 확보 대기 상태 확인"
+      "Gemini API 할당량 복구 여부 확인",
+      "아마존 뷰티 채널 수집기 상태 재점검",
+      "다이소 workflow 및 publication 복구 여부 확인",
+      "고시 판독 대상 상품 원본 정보 수동 대조",
+      "대기 중인 리스팅 제작 관련 원본 자료 확보 상태 확인"
     ],
     "requires_human": true,
     "evidence_gaps": [
-      "아마존 뷰티 채널의 최신 데이터 수집 불가능",
-      "Gemini API 호출 제한(429)으로 인한 고시 정보 자동 판독 중단"
+      "gemini_http_429_resolved",
+      "daisomall_workflow_recovered",
+      "amazon_movers_beauty_verified"
     ],
     "forbidden_actions": [
       "external publish",
@@ -38,13 +41,13 @@
     ]
   },
   "usage": {
-    "promptTokenCount": 882,
-    "candidatesTokenCount": 224,
-    "totalTokenCount": 1106,
+    "promptTokenCount": 1097,
+    "candidatesTokenCount": 234,
+    "totalTokenCount": 1331,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 882
+        "tokenCount": 1097
       }
     ],
     "serviceTier": "standard"

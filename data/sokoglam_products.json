@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-21T23:37:07.149226+00:00",
+  "collected_at": "2026-10-22T09:49:00.451414+00:00",
   "is_stale": false,
-  "count": 238,
+  "count": 237,
   "by_collection": {
     "Best Sellers": 83,
-    "Skincare": 155
+    "Skincare": 154
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 238,
+    "n": 237,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -3371,29 +3371,6 @@
         "pores",
         "Product_type::Serum/Ampoule",
         "serum"
-      ]
-    },
-    {
-      "rank": 103,
-      "name": "Gentle Black Fresh Cleansing Oil",
-      "brand": "KLAIRS",
-      "price_usd": 24.0,
-      "category": "Oil Cleanser",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/klairs-gentle-black-fresh-cleansing-oil",
-      "tags": [
-        "badge-cleanbeauty",
-        "badge-vegan",
-        "Cruelty-free",
-        "dry",
-        "fragrance free",
-        "Free_Of::Alcohol_Products",
-        "Free_Of::Animal_Products",
-        "Free_Of::Artificial_Colors",
-        "Free_Of::Artificial_Fragrances",
-        "Free_Of::Essential_Oil",
-        "Free_Of::Mineral_Oil",
-        "Free_of::Parabens"
       ]
     },
     {

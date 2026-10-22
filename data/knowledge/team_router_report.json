@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:52:24.790049+00:00",
+  "generated_at": "2026-10-22T09:48:49.226618+00:00",
   "generator": "scripts/team_router_moe.py",
   "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
   "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
@@ -17,173 +17,171 @@
     "sourcing"
   ],
   "skipped_small_classes": {},
-  "items": 6531,
-  "train_items": 5256,
-  "validation_items": 1275,
+  "items": 7836,
+  "train_items": 6308,
+  "validation_items": 1528,
   "label_origins": {
-    "corpus:arxiv": 769,
-    "corpus:institutions": 2670,
+    "corpus:arxiv": 1020,
+    "corpus:institutions": 2660,
     "corpus:organic_skincare": 15,
-    "corpus:robotics": 444,
-    "corpus:us_beauty": 1696,
+    "corpus:robotics": 819,
+    "corpus:us_beauty": 2349,
     "daiso": 356,
     "design_refs": 78,
-    "insight": 64,
-    "youtube_channel": 411,
-    "youtube_manual": 28
+    "insight": 121,
+    "youtube_channel": 362,
+    "youtube_manual": 56
   },
-  "features": "TF-IDF + L2 (min_df 2, 어휘 8872)",
+  "features": "TF-IDF + L2 (min_df 2, 어휘 10935)",
   "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
   "validation": {
-    "accuracy": 0.8816,
-    "macro_f1": 0.7393,
+    "accuracy": 0.8567,
+    "macro_f1": 0.6699,
     "per_team": {
       "channels": {
-        "precision": 1.0,
-        "recall": 0.857,
-        "predicted": 6,
-        "support": 7
+        "precision": 0.5,
+        "recall": 0.625,
+        "predicted": 10,
+        "support": 8
       },
       "design": {
-        "precision": 0.571,
-        "recall": 0.667,
-        "predicted": 35,
-        "support": 30
+        "precision": 0.714,
+        "recall": 0.476,
+        "predicted": 28,
+        "support": 42
       },
       "graph": {
-        "precision": 1.0,
-        "recall": 0.6,
-        "predicted": 3,
-        "support": 5
+        "precision": 0.75,
+        "recall": 0.545,
+        "predicted": 8,
+        "support": 11
       },
       "institutions": {
-        "precision": 0.898,
-        "recall": 0.901,
-        "predicted": 539,
-        "support": 537
+        "precision": 0.886,
+        "recall": 0.863,
+        "predicted": 526,
+        "support": 540
       },
       "knowledge": {
-        "precision": 0.708,
-        "recall": 0.818,
-        "predicted": 178,
-        "support": 154
+        "precision": 0.68,
+        "recall": 0.792,
+        "predicted": 241,
+        "support": 207
       },
       "legal": {
         "precision": 0.75,
-        "recall": 0.643,
-        "predicted": 12,
-        "support": 14
+        "recall": 0.545,
+        "predicted": 16,
+        "support": 22
       },
       "listing": {
-        "precision": 0.5,
-        "recall": 0.235,
-        "predicted": 8,
-        "support": 17
+        "precision": 0.692,
+        "recall": 0.321,
+        "predicted": 13,
+        "support": 28
       },
       "market": {
-        "precision": 0.997,
-        "recall": 0.883,
-        "predicted": 325,
-        "support": 367
+        "precision": 0.996,
+        "recall": 0.88,
+        "predicted": 457,
+        "support": 517
       },
       "pricing": {
-        "precision": 0.667,
-        "recall": 0.429,
-        "predicted": 9,
-        "support": 14
+        "precision": 0.615,
+        "recall": 0.364,
+        "predicted": 13,
+        "support": 22
       },
       "robotics": {
-        "precision": 0.816,
-        "recall": 0.747,
-        "predicted": 87,
-        "support": 95
+        "precision": 0.65,
+        "recall": 0.592,
+        "predicted": 143,
+        "support": 157
       },
       "sourcing": {
         "precision": 0.973,
-        "recall": 0.899,
+        "recall": 0.877,
         "predicted": 73,
-        "support": 79
+        "support": 81
       }
     }
   },
   "baseline_majority": {
-    "accuracy": 0.4212,
-    "macro_f1": 0.0539,
+    "accuracy": 0.3534,
+    "macro_f1": 0.0475,
     "per_team": {
       "channels": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 7
+        "support": 8
       },
       "design": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 30
+        "support": 42
       },
       "graph": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 5
+        "support": 11
       },
       "institutions": {
-        "precision": 0.421,
+        "precision": 0.353,
         "recall": 1.0,
-        "predicted": 1275,
-        "support": 537
+        "predicted": 1528,
+        "support": 540
       },
       "knowledge": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 154
+        "support": 207
       },
       "legal": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 14
+        "support": 22
       },
       "listing": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 17
+        "support": 28
       },
       "market": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 367
+        "support": 517
       },
       "pricing": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 14
+        "support": 22
       },
       "robotics": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 95
+        "support": 157
       },
       "sourcing": {
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 79
+        "support": 81
       }
     }
   },
   "effective": true,
   "trusted_teams": [
-    "channels",
     "institutions",
     "market",
-    "robotics",
     "sourcing"
   ],
   "use_rule": "믿을 수 있는 팀(정밀도 ≥0.8, 예측 ≥5건)으로, 확률 ≥0.6 일 때만 쓴다.",

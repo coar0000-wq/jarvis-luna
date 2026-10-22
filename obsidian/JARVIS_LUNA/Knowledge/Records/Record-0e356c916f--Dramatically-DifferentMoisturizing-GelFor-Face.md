@@ -2,10 +2,10 @@
 title: "Record 0e356c916f · Dramatically-DifferentMoisturizing-GelFor-Face"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-19T05:41:09.275834+00:00
+updated_at: 2026-10-22T09:40:44.796063+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["반도체하드웨어"]
+topics: ["반도체하드웨어", "뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/dramatically-differentmoisturizing-gel-face-xlsImpprod10791745"
 ---

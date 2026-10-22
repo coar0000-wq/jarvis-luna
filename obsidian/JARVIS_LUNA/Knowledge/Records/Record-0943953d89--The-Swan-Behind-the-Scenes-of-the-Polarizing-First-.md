@@ -2,10 +2,10 @@
 title: "Record 0943953d89 · The-Swan-Behind-the-Scenes-of-the-Polarizing-First-Season"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:42.609523+00:00
+updated_at: 2026-10-22T09:40:44.276064+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["컴퓨터-비전"]
 domain: "www.allure.com"
 url: "https://www.allure.com/story/the-secrets-of-the-swan-first-season-interviews"
 ---

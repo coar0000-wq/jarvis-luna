@@ -2,10 +2,10 @@
 title: "Record 5ac2ef3658 · Dramatically-Different-Moisturizing-LotionFor-Face"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.637545+00:00
+updated_at: 2026-10-22T09:40:44.795715+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["반도체하드웨어"]
+topics: ["반도체하드웨어", "뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/dramatically-different-moisturizing-lotion-face-xlsImpprod10791743"
 ---

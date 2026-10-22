@@ -2,10 +2,10 @@
 title: "Record edad81f644 · Spatial-LLM-Workload-Shifting-Needs-Foresight-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:12.629077+00:00
+updated_at: 2026-10-22T09:40:43.160221+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["LLM언어모델"]
+topics: ["LLM언어모델", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.09787v1"
 ---

@@ -1,0 +1,60 @@
+{
+  "beauty or make-up preparations": [
+    {
+      "htsno": "3304",
+      "description": "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen o"
+    },
+    {
+      "htsno": "3304.10.00.00",
+      "description": "Lip make-up preparations"
+    },
+    {
+      "htsno": "3304.20.00.00",
+      "description": "Eye make-up preparations"
+    },
+    {
+      "htsno": "3304.30.00.00",
+      "description": "Manicure or pedicure preparations"
+    },
+    {
+      "htsno": "3305",
+      "description": "Preparations for use on the hair:"
+    },
+    {
+      "htsno": "3305.20.00.00",
+      "description": "Preparations for permanent waving or straightening"
+    },
+    {
+      "htsno": "3306",
+      "description": "Preparations for oral or dental hygiene, including denture fixative pastes and powders; yarn used to clean between the t"
+    },
+    {
+      "htsno": "3307",
+      "description": "Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery"
+    },
+    {
+      "htsno": "3307.10",
+      "description": "Pre-shave, shaving or after-shave preparations:"
+    },
+    {
+      "htsno": "3307.30",
+      "description": "Perfumed bath salts and other bath preparations:"
+    },
+    {
+      "htsno": "3307.41.00.00",
+      "description": "\"Agarbatti\" and other odoriferous preparations which operate by burning"
+    },
+    {
+      "htsno": "3401",
+      "description": "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, molded pieces or sha"
+    },
+    {
+      "htsno": "3401.11",
+      "description": "For toilet use (including medicated products):"
+    },
+    {
+      "htsno": "3401.30",
+      "description": "Organic surface-active products and preparations for washing the skin, in the form of liquid or cream and put up for ret"
+    }
+  ]
+}

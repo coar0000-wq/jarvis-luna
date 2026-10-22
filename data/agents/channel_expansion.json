@@ -1,6 +1,6 @@
 {
   "agent": "Channel-Expansion",
-  "generated_at": "2026-10-03T11:53:53.047168+00:00",
+  "generated_at": "2026-10-22T10:02:06.495002+00:00",
   "institutions_team": {
     "role": "湲곌?/怨듦났/?곌뎄/洹쒖젣 ?곗씠???좉퇋 ?뚯뒪 諛쒓뎬",
     "checked": 7,
@@ -22,10 +22,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.google.com/shopping",
-      "content_length": 115079,
+      "content_length": 116083,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:52.772775+00:00"
+      "checked_at": "2026-10-22T10:02:06.059188+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -37,10 +37,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data-explorer.oecd.org/",
-      "content_length": 172023,
+      "content_length": 172539,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:34.611237+00:00"
+      "checked_at": "2026-10-22T10:01:47.927251+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -52,10 +52,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.census.gov/data.html",
-      "content_length": 518787,
+      "content_length": 518901,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:33.606966+00:00"
+      "checked_at": "2026-10-22T10:01:46.623870+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -70,7 +70,7 @@
       "content_length": 3769,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:35.392925+00:00"
+      "checked_at": "2026-10-22T10:01:48.339148+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -85,7 +85,7 @@
       "content_length": 56119,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:35.216425+00:00"
+      "checked_at": "2026-10-22T10:01:48.130424+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -97,10 +97,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://data.worldbank.org/",
-      "content_length": 192131,
+      "content_length": 192038,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:34.047832+00:00"
+      "checked_at": "2026-10-22T10:01:47.275090+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -112,10 +112,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://trends.google.com/trends/",
-      "content_length": 776133,
+      "content_length": 990698,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:53.000505+00:00"
+      "checked_at": "2026-10-22T10:02:06.361874+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -127,10 +127,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.instacart.com/",
-      "content_length": 989174,
+      "content_length": 624157,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:52.583061+00:00"
+      "checked_at": "2026-10-22T10:02:05.789672+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -142,10 +142,10 @@
       "reachable": true,
       "status_code": 200,
       "final_url": "https://www.nordstrom.com/browse/beauty",
-      "content_length": 254279,
+      "content_length": 254187,
       "has_html": true,
       "status": "candidate",
-      "checked_at": "2026-10-03T11:53:36.179213+00:00"
+      "checked_at": "2026-10-22T10:01:49.549385+00:00"
     }
   ],
   "unverified_candidates": [
@@ -162,7 +162,7 @@
       "content_length": 14493,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:33.950682+00:00"
+      "checked_at": "2026-10-22T10:01:47.150383+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -177,7 +177,7 @@
       "content_length": 375,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:35.692676+00:00"
+      "checked_at": "2026-10-22T10:01:49.082213+00:00"
     },
     {
       "team": "湲곌? ?섏쭛?",
@@ -192,7 +192,7 @@
       "content_length": 1325,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:33.766975+00:00"
+      "checked_at": "2026-10-22T10:01:46.779259+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -204,10 +204,10 @@
       "reachable": false,
       "status_code": 403,
       "final_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259124",
-      "content_length": 1831,
+      "content_length": 1740,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:35.523090+00:00"
+      "checked_at": "2026-10-22T10:01:48.558319+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -222,7 +222,7 @@
       "content_length": 776,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:35.585794+00:00"
+      "checked_at": "2026-10-22T10:01:48.730135+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -237,7 +237,7 @@
       "content_length": 190240,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:53.046480+00:00"
+      "checked_at": "2026-10-22T10:02:06.494284+00:00"
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -250,7 +250,42 @@
       "status_code": null,
       "error": "ReadTimeout: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=15)",
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:51.639047+00:00"
+      "checked_at": "2026-10-22T10:02:05.058856+00:00"
+    },
+    {
+      "key": "lange_hair_official",
+      "team": "채널 운영팀",
+      "name": "L’ange Hair",
+      "url": "https://langehair.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://langehair.com/policies/terms-of-service",
+      "restriction_scope": "content_license_and_robots_review",
+      "review_reason": "Content license is limited to personal, non-commercial use and restricts copying/republication. Robots rules vary by user agent and path. Automated commercial reuse requires review.",
+      "robots_url": "https://langehair.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://langehair.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": null,
+        "probe_note": "Sitemap index only; no product catalog or price collector was activated."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -265,7 +300,77 @@
       "content_length": 9901,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:36.474392+00:00"
+      "checked_at": "2026-10-22T10:01:49.864246+00:00"
+    },
+    {
+      "key": "peach_and_lily_official",
+      "team": "채널 운영팀",
+      "name": "Peach & Lily",
+      "url": "https://www.peachandlily.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://www.peachandlily.com/pages/terms-of-use",
+      "restriction_scope": "content_reuse_and_collection_review",
+      "review_reason": "Content reuse for public/commercial purposes and reposting is restricted. Automated collection is not expressly authorized by the reviewed terms.",
+      "robots_url": "https://www.peachandlily.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://www.peachandlily.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": 137,
+        "probe_note": "A bounded product-sitemap probe parsed 137 product URLs plus the homepage; no product catalog or price collector was activated."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
+    },
+    {
+      "key": "prime_prometics_official",
+      "team": "채널 운영팀",
+      "name": "Prime Prometics",
+      "url": "https://www.primeprometics.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://www.primeprometics.com/pages/terms-of-service",
+      "restriction_scope": "data_collection_and_commercial_use",
+      "review_reason": "Site terms restrict collecting site data and state that services are intended for non-commercial use. Automated collection requires a permitted basis or provider permission.",
+      "robots_url": "https://www.primeprometics.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://www.primeprometics.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": null,
+        "probe_note": "Sitemap index only; product collection was not started after terms review."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
     },
     {
       "team": "梨꾨꼸 ?댁쁺?",
@@ -280,7 +385,7 @@
       "content_length": 782,
       "has_html": true,
       "status": "unverified",
-      "checked_at": "2026-10-03T11:53:35.890536+00:00"
+      "checked_at": "2026-10-22T10:01:49.256028+00:00"
     }
   ],
   "safety": {

@@ -1,20 +1,20 @@
 {
   "agent": "Safe-Auto-Fix",
-  "generated_at": "2026-10-03T11:54:59.008115+00:00",
+  "generated_at": "2026-10-22T10:03:46.436271+00:00",
   "status": "success",
   "enabled": true,
   "chief_of_staff": {
     "report_path": "data/agents/chief_of_staff.json",
-    "overall_priority": "P2",
-    "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
-    "risk": "medium"
+    "overall_priority": "P1",
+    "overall_action": "NORMALIZE_AND_REBUILD_GRAPH",
+    "risk": "high"
   },
   "snapshot_before": {
     "collection": {
-      "requested": 4,
+      "requested": 110,
       "ok": 0,
       "parse_failed": 0,
-      "finished_at": "2026-10-03T00:46:32.753823+00:00"
+      "finished_at": "2026-10-20T00:08:18.691253+00:00"
     },
     "channels": {
       "live": 13,
@@ -23,8 +23,8 @@
         {
           "channel": "amazon_movers_beauty",
           "count": 0,
-          "status": "empty",
-          "reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함"
+          "status": "unverified",
+          "reason": "collected_at missing: 최신성 검증 불가. 페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함"
         }
       ],
       "disabled_expected": [
@@ -37,19 +37,220 @@
       ]
     },
     "graph": {
-      "nodes": 84953,
-      "links": 360905,
-      "dangling_generated": 0,
-      "runtime_nodes": 84953,
-      "runtime_links": 360905,
+      "nodes": 88689,
+      "links": 12063,
+      "dangling_generated": 2247,
+      "runtime_nodes": 88633,
+      "runtime_links": 11874,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 84953,
-        "actual_links": 360905,
-        "actual_dangling_generated": 0,
+        "actual_nodes": 88689,
+        "actual_links": 12063,
+        "actual_dangling_generated": 2247,
         "actual_dangling_personal": 21,
-        "generated_dangling_samples": [],
+        "generated_dangling_samples": [
+          {
+            "source": "BrainRuntime/notes/00/003ba7bc22645668c0691e09c11526dd53e14583c64c796c0256e9a0829c2c1c.md",
+            "target": "0f17ec4a5dd782d1a5359c3bb627f5f02b43171cb38c02ee8bb38d84e92064b5.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/003c52449dfc532eac3fc547ec6dacac974d57a87be3c9a05c3fef5697febc2c.md",
+            "target": "6a18b292bdf629d8b52b9bbc165e74c67ed228b6d6093993421e66cdd49a55df.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00565225223107242f4c32743a8a34c053530f316e5a2daeac6a82be413b8933.md",
+            "target": "ae4bb9281160a02d8d494b09aeb3e4740985d73a86de11dd67888b9de89d4ec1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/0056d9aca08d78dd4e4bc9a7c215ea16358000218c35dd40657389a533064584.md",
+            "target": "7d831a4606580a8772f88b3ed2e5bd89f04bc15bf8e68c7004e4bee1bb849601.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/0078a081bb965185c523f130232b87481f1990837d5f3d279ed1f6bdce7edf5c.md",
+            "target": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/009c6544716882b662f9573c32b78c1a17a7a04d3b0c8eea3ad98a3c96f26d9b.md",
+            "target": "36ec1a9e18b50b2d0ca36374354c73793973fb914ca4b08cc1e08b99e92cbc62.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00ac89c72d3359682321221e70df42cd57401b983b12bd2b9ebc6e3ea4d61aaf.md",
+            "target": "249ef74a0300b1b61fbf1f6964d22b0d1eea1d88b403f1bed3b6b5a3c9ebe020.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00b0d776da2ca7ce665c2e410703807350d60c9456c5ed54584518c3d98f0b00.md",
+            "target": "ebd185386e5dc2115cdb3f9a5a453983d1bb801f53ed8a0d8e961b90b83cff3a.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00b297d39ccf09030f1988eaad26a2cfd7c0b07839fcfbca9978d3d5a549a9de.md",
+            "target": "408316381811fafe994708cfe40b92dcccfd24d7c3cdd60bedddf3035ae06396.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00cf230f1bfba65c4bf75ac1227e4d28724df8be91360e8721bd293f9a84396a.md",
+            "target": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00d0ef7c9d886c83044769658bea9c8764a6f8b8c57b32f11e8b9fd670a1c248.md",
+            "target": "7587f3f32acd47f8ad1c51c36e34237ba21f7930f4a8f1a62ecb4d4ec06856e1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00e5ecd0b211f58c48e1bfd973e154a115b7c509fd1ec5c9ecdf1dbc8690b321.md",
+            "target": "6c108bc7944e1db0db0c1b982129ac98987f96570d4d1fe91328ff7ce0bf821a.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01005aada290ec344a8fb7166e69150db970dfdc113408749603db4baa6150c3.md",
+            "target": "7b5458810faa71c8dc5f97cca5601519ce70c1433a4c85f88009008b63460c96.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0113162fc354a853d728c565b88b65a7933d1dfb0662bfed27c86c4b9d945e04.md",
+            "target": "5ee1ef9017e12861bbc4db30bae1e65b9a9a9339cc72f7da4df57f161ed753a9.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0117b393cda5e7202f8a715985a764e43d73fb30a452a7a99af03d23c96fd5a5.md",
+            "target": "b6e274f3cbd6cfa8ca7233f701d01f3421b87c756da1b2d0d409413f87174e86.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0120bcabb5db4b5f694938386d39b111b49d411ae3029b692b971726df2e2cf1.md",
+            "target": "e6326053fa31fb6f1654bd1a72bce3c5abbc0032e8f4d6be273a96f452dc5091.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01411d70fb96412853ac47a017a03e3d37b72d2de148c7001ceec3a026286e09.md",
+            "target": "a5e7c1fe516e6b9f6b96367ba59a81fe9395c05290e28e773ccae5453d594a36.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01822b0f98a4f6a5ef1126ff14dbefab3a851af2203bf8e16ca22b4697e5d15b.md",
+            "target": "139b4b6c1be3d705ed9b30bb0361c180925372e6c52c875eea7c22627156dc3d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01af727e367e178d0e6d05f0137502712ab3755a5ebb12f4a1c13409f51c515e.md",
+            "target": "e8c86844c7c2858dae3fc8916551513a2dd8f7e4744f2e9f6105d23681bac9e3.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01c478b04bfc4bfedae1af8aaba066b5d1cc246c0930a19dc82a84e7ecdd86c9.md",
+            "target": "aa0ddc71d2ec60bf1f1e06bdb3d657a3d90bd9bcab39cf537a7fdea98ddef608.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01ca0141d977a025627c8e3749c69f19c2541ad3216c23b84abfb450b76f013e.md",
+            "target": "302bde0dbc9f02a533cc6c8eb7dddb933cc265f42401eefd4386aeeee2bc2500.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01e4c57d6b551429186102c9b30ece9094d5fc7187127bdf7a2e6ef6d66f8256.md",
+            "target": "73ec62e6736d75735f119ca2db36e2737bb3b7934977177118c38777d8d22b81.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/021a48dae71b56dd2f93b54f9e29e540e677beb018fa3d026ae48873fd9064af.md",
+            "target": "bc0a6fbfdcde91c727f34a0db9f9a5d53218f126cca1654e212a63142b9b3bdc.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/022b0b44ef058e35f42bbd5c66b5492329da8ab0a815e0c9ff34d8c1811c5146.md",
+            "target": "9f34228dc42ed005be5ee2d21c9c50bd874f03eebe4f717c9364dbd40153f4f7.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/026e968a086de781a8e87a69d357d33791714be852271b147bf044a9c7bab1fb.md",
+            "target": "172bf73c9db36347a3b05a76fc34e5d2d71bcf4c450f06f960a7f0c2b1472d08.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02719a51674657488b8c6d68698fafe175395447101cf66e607e99a92b241cf6.md",
+            "target": "05e4e8dd2fd84d10b16ba0bc52bcb4704ea09803841c90a5dee5de52be86c055.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02b2b076610518eb5a6142ad7552361fe122b9e52a9f5cd6129cdfc073c7f562.md",
+            "target": "6af58e15dab602ebc88b4937f142fca5fd48602115a26ba8e6e6ac3fdbbd10d0.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02cbd2c8010a8a3f1f20335c5f23ffd8d0f48326018952293249f8d4f7ad29de.md",
+            "target": "69b878a218f37fceeb30fb9558c27b9732db7ace1a92667f199c0935b7cbc220.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02ecf711af8460e515fa64fce0ec4ae111b00b8a015440b88ac4395a8be31c7b.md",
+            "target": "7c8703c42ec51cce1bcfc0f78224d30d3ca4f031f4509dc3dedfa4d663f0b68d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0313dc76e8e9fa80a52f60d2fd13944360eb04eb3768cad63dbb34a87d2c5a52.md",
+            "target": "a3f869a3c65a2c86efd1779953b60f582e9aded02752f1a7256a5a544fb1e7e8.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0327bba1c8719982664ee35df1642022a680a7659ed30c58afc28ff075d38f55.md",
+            "target": "98cb585e66a96c0ab3037c85d96022cd876ccbacc4224affb00d925e0ff8b4da.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/032aa07bd8f709353a057f2659508078b8898ee365b34236d609f905848c1298.md",
+            "target": "317b6d50c3887b5e2e3b070837461666049b682eac46b25c849ed12a5cdc3029.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03481bc7b8f35d8b1532dbea82cfb1dfb5bb657425b3a7db38bd37f8a5ac1cde.md",
+            "target": "e763ac882f7db0cb2608864741dc110b8c190a8030d93f793c4bb4cb23e2c10b.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0391a5e24436eb003d49a09dea6a5bbde05b07ff1089ce2aa4337667f5b6fec2.md",
+            "target": "d8990b9335a9a1d448e3c840cb53e88400632a71b8542cc5a954c0ff1abaca97.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03b198c00cfd596f97997268dc67e5191d8a8487499cb67cc00e984ba83f6a99.md",
+            "target": "1afb2f7759bf6cf4733f833de3f0f33ea78025c748e7e00a2cf97808a7cbdde3.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03e28715e0bd0f099014262b83e38c90b53e9049cbf8ed36c7788be966f450cc.md",
+            "target": "7f14aa75ef5536d4de53ee7b3f0ce3c70668df95ce7fff0550541be6cfbcbfc8.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/044d0fcda451242789ca1e60971989371c039c2e7c74c68a97033b2c77f2088e.md",
+            "target": "61480511ea77c401cf33c6866a7943fc9d9b899e5315dcc6e880c1c495dcd6be.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/045566a645864656851b9d6620f2e2c49cbd398f6aa369d5e525a3ae7c40bff1.md",
+            "target": "4bcca20d5666b2733d0741b57d657901fe01ddd08ee3a1f123428bba04749dcd.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/049eabb0735ca7dd6f0a0e1be4588a8f2c64a277e83b02fd0ff24ba9a3f44129.md",
+            "target": "550b5b98195d400d6888a3ec459dac17914780c24dc96e7a49a54b8b67aa3320.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/04f115bb089523be5453d480fb927730cdaa4719965f17ab1853a9648cfb14ab.md",
+            "target": "5817014fa46c2417e71d73fbe80e369195ef9be8cb268e5267277613867c1888.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/050548831e1d9387e945d8716a4fdfce2ed6f19380a9ca90bd06494781b71742.md",
+            "target": "ce6c529d6e73ef26165e3f94f019cd52eed85191568ed056c5da3900d3d0dba0.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/05121e7e8d29a4e7311b2934abcb94caf259dbca61802249a65f9482e60ab731.md",
+            "target": "17f927b31e732e8624d7aab761630a17547697a33c007ba0be3ae60533801d3d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/053b6cbe87ad58947e5b918cbc97fa509d9c29168d38baa8c2520c9a7134d5fa.md",
+            "target": "8760042320484e368f316e2e1601631daf1cc824dfc2b94b2b371cc3f0343383.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/0563fa02392421a84a3d2a467551251343baa74ecd853975b17bbf61f39d2a4e.md",
+            "target": "b49f315aee907f971a58d26d14f801a5ee9dc517e071d4b9a298ac59d6464adf.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/057181ad48dd1e4b62b24eabe50b37704750e8a496ffd40d1dd86ce7ec80b757.md",
+            "target": "c60fad8ce38876408f664e6cf1634dcde01469f977b91c4629dbea521df646e1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/05800b566576aa3387ed4e4345b5125f970386e905414c5432bf9c147a2d2273.md",
+            "target": "dd79eba3534c455ca72bf395b242f7d212499c60cb9697da08977366b8bc9260.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/058c0384ea514c9e9f466bcdeb3423b7986cbdd1bafb2caab85ff33c9a209cb8.md",
+            "target": "756a2d43b1f1260308ede846005a88fb4e923df1f771366f6665450468d43940.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/058e783c5dd64db9f401a55e48e221c1c42b323bba6db4719f96f3fa6ac3bd05.md",
+            "target": "c50af0a7c20e0028a707c40b0199dd13f4b2b75d00ef19f7a212dfa283f6e385.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/05904009c8a5260183c64974e017b96f7090b898606217ea31dd863ec45ffe3f.md",
+            "target": "adda12b1b047bd22146daea6a8e47d7ede0dd0d04d1828a0032e45e48284efe6.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/059b88537e60a14e1e8f859147a49d14f0da96f600ac6c9fb990680245c36d44.md",
+            "target": "52f2d40478705eeb249a2c2c2bdb505bd27b318e7a54445294722d5a93561827.bin"
+          }
+        ],
         "personal_dangling_samples": [
           {
             "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
@@ -132,18 +333,21 @@
             "target": "satellite ai 사용 사례"
           }
         ],
-        "generated_dangling_sample_source_count": 0,
+        "generated_dangling_sample_source_count": 2247,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 84953,
-        "runtime_links": 360905,
+        "runtime_nodes": 88633,
+        "runtime_links": 11874,
         "runtime_dangling_generated": 0,
-        "runtime_consistent": true,
-        "anomaly": false,
-        "anomaly_reasons": []
+        "runtime_consistent": false,
+        "anomaly": true,
+        "anomaly_reasons": [
+          "runtime_nodes_mismatch:runtime=88633,actual=88689",
+          "actual_generated_dangling=2247"
+        ]
       }
     },
     "shopify": {
-      "s_count": 10
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 0
@@ -152,31 +356,43 @@
       {
         "team": "sourcing",
         "kind": "auto_remediable",
-        "text": "운영 상품 마지막 유효 수집 2026-09-29T00:48:58.284474+00:00",
+        "text": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
+        "source": "action"
+      },
+      {
+        "team": "institutions",
+        "kind": "external_dependency",
+        "text": "일부 출처 수집 실패. 원래 수집 시각으로 지난 자료를 보존했다.",
+        "source": "waiting"
+      },
+      {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 2건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
         "source": "action"
       },
       {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+        "text": "카피 6건, 고시 2건, 영문라벨 3건, 법률 3건 원본 자료 또는 무료 생성 경로 확보 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 3건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
         "source": "waiting"
       },
       {
         "team": "design",
         "kind": "external_dependency",
-        "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+        "text": "다음 단계: 스토어 기본 설정 (Markets·배송·결제)",
         "source": "waiting"
       }
     ],
     "source_errors": {
-      "broken": 5,
-      "generated_at": "2026-10-03T11:54:46.244649+00:00",
+      "broken": 10,
+      "generated_at": "2026-10-22T10:02:44.584353+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -194,24 +410,49 @@
           "reason": "IR 피드 URL 없음"
         },
         {
-          "team": "채널 운영팀",
-          "item": "FDA 화장품 리콜·조치 이력",
-          "reason": "요청 실패: HTTP 404"
+          "team": "기관 수집팀",
+          "item": "rss: Broadcom",
+          "reason": "HTTPError: HTTP 403"
         },
         {
-          "team": "마케팅 조사팀",
-          "item": "1067500",
-          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
+          "team": "기관 수집팀",
+          "item": "rss: C3 AI",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "rss: Leidos",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "rss: Booz Allen Hamilton",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "sitemap: ASML",
+          "reason": "lastmod 있는 매칭 URL 0건"
+        },
+        {
+          "team": "채널 운영팀",
+          "item": "FDA 화장품 리콜·조치 이력",
+          "reason": "HTTP 404"
+        },
+        {
+          "team": "지식 수집팀",
+          "item": "institutions",
+          "reason": "출처 수집 실패 5건; 지난 관측 시각 보존"
         }
       ]
     }
   },
   "snapshot_after": {
     "collection": {
-      "requested": 4,
+      "requested": 110,
       "ok": 0,
       "parse_failed": 0,
-      "finished_at": "2026-10-03T00:46:32.753823+00:00"
+      "finished_at": "2026-10-20T00:08:18.691253+00:00"
     },
     "channels": {
       "live": 13,
@@ -220,8 +461,8 @@
         {
           "channel": "amazon_movers_beauty",
           "count": 0,
-          "status": "empty",
-          "reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함"
+          "status": "unverified",
+          "reason": "collected_at missing: 최신성 검증 불가. 페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함"
         }
       ],
       "disabled_expected": [
@@ -234,19 +475,220 @@
       ]
     },
     "graph": {
-      "nodes": 84953,
-      "links": 360905,
-      "dangling_generated": 0,
-      "runtime_nodes": 84953,
-      "runtime_links": 360905,
+      "nodes": 88745,
+      "links": 12252,
+      "dangling_generated": 2297,
+      "runtime_nodes": 88689,
+      "runtime_links": 12063,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 84953,
-        "actual_links": 360905,
-        "actual_dangling_generated": 0,
+        "actual_nodes": 88745,
+        "actual_links": 12252,
+        "actual_dangling_generated": 2297,
         "actual_dangling_personal": 21,
-        "generated_dangling_samples": [],
+        "generated_dangling_samples": [
+          {
+            "source": "BrainRuntime/notes/00/003ba7bc22645668c0691e09c11526dd53e14583c64c796c0256e9a0829c2c1c.md",
+            "target": "0f17ec4a5dd782d1a5359c3bb627f5f02b43171cb38c02ee8bb38d84e92064b5.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/003c52449dfc532eac3fc547ec6dacac974d57a87be3c9a05c3fef5697febc2c.md",
+            "target": "6a18b292bdf629d8b52b9bbc165e74c67ed228b6d6093993421e66cdd49a55df.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00565225223107242f4c32743a8a34c053530f316e5a2daeac6a82be413b8933.md",
+            "target": "ae4bb9281160a02d8d494b09aeb3e4740985d73a86de11dd67888b9de89d4ec1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/0056d9aca08d78dd4e4bc9a7c215ea16358000218c35dd40657389a533064584.md",
+            "target": "7d831a4606580a8772f88b3ed2e5bd89f04bc15bf8e68c7004e4bee1bb849601.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/0078a081bb965185c523f130232b87481f1990837d5f3d279ed1f6bdce7edf5c.md",
+            "target": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/009c6544716882b662f9573c32b78c1a17a7a04d3b0c8eea3ad98a3c96f26d9b.md",
+            "target": "36ec1a9e18b50b2d0ca36374354c73793973fb914ca4b08cc1e08b99e92cbc62.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00ac89c72d3359682321221e70df42cd57401b983b12bd2b9ebc6e3ea4d61aaf.md",
+            "target": "249ef74a0300b1b61fbf1f6964d22b0d1eea1d88b403f1bed3b6b5a3c9ebe020.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00b0d776da2ca7ce665c2e410703807350d60c9456c5ed54584518c3d98f0b00.md",
+            "target": "ebd185386e5dc2115cdb3f9a5a453983d1bb801f53ed8a0d8e961b90b83cff3a.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00b297d39ccf09030f1988eaad26a2cfd7c0b07839fcfbca9978d3d5a549a9de.md",
+            "target": "408316381811fafe994708cfe40b92dcccfd24d7c3cdd60bedddf3035ae06396.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00cf230f1bfba65c4bf75ac1227e4d28724df8be91360e8721bd293f9a84396a.md",
+            "target": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00d0ef7c9d886c83044769658bea9c8764a6f8b8c57b32f11e8b9fd670a1c248.md",
+            "target": "7587f3f32acd47f8ad1c51c36e34237ba21f7930f4a8f1a62ecb4d4ec06856e1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/00/00e5ecd0b211f58c48e1bfd973e154a115b7c509fd1ec5c9ecdf1dbc8690b321.md",
+            "target": "6c108bc7944e1db0db0c1b982129ac98987f96570d4d1fe91328ff7ce0bf821a.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01005aada290ec344a8fb7166e69150db970dfdc113408749603db4baa6150c3.md",
+            "target": "7b5458810faa71c8dc5f97cca5601519ce70c1433a4c85f88009008b63460c96.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0113162fc354a853d728c565b88b65a7933d1dfb0662bfed27c86c4b9d945e04.md",
+            "target": "5ee1ef9017e12861bbc4db30bae1e65b9a9a9339cc72f7da4df57f161ed753a9.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0117b393cda5e7202f8a715985a764e43d73fb30a452a7a99af03d23c96fd5a5.md",
+            "target": "b6e274f3cbd6cfa8ca7233f701d01f3421b87c756da1b2d0d409413f87174e86.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/0120bcabb5db4b5f694938386d39b111b49d411ae3029b692b971726df2e2cf1.md",
+            "target": "e6326053fa31fb6f1654bd1a72bce3c5abbc0032e8f4d6be273a96f452dc5091.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01411d70fb96412853ac47a017a03e3d37b72d2de148c7001ceec3a026286e09.md",
+            "target": "a5e7c1fe516e6b9f6b96367ba59a81fe9395c05290e28e773ccae5453d594a36.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01822b0f98a4f6a5ef1126ff14dbefab3a851af2203bf8e16ca22b4697e5d15b.md",
+            "target": "139b4b6c1be3d705ed9b30bb0361c180925372e6c52c875eea7c22627156dc3d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01af727e367e178d0e6d05f0137502712ab3755a5ebb12f4a1c13409f51c515e.md",
+            "target": "e8c86844c7c2858dae3fc8916551513a2dd8f7e4744f2e9f6105d23681bac9e3.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01c478b04bfc4bfedae1af8aaba066b5d1cc246c0930a19dc82a84e7ecdd86c9.md",
+            "target": "aa0ddc71d2ec60bf1f1e06bdb3d657a3d90bd9bcab39cf537a7fdea98ddef608.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01ca0141d977a025627c8e3749c69f19c2541ad3216c23b84abfb450b76f013e.md",
+            "target": "302bde0dbc9f02a533cc6c8eb7dddb933cc265f42401eefd4386aeeee2bc2500.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/01/01e4c57d6b551429186102c9b30ece9094d5fc7187127bdf7a2e6ef6d66f8256.md",
+            "target": "73ec62e6736d75735f119ca2db36e2737bb3b7934977177118c38777d8d22b81.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/021a48dae71b56dd2f93b54f9e29e540e677beb018fa3d026ae48873fd9064af.md",
+            "target": "bc0a6fbfdcde91c727f34a0db9f9a5d53218f126cca1654e212a63142b9b3bdc.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/022b0b44ef058e35f42bbd5c66b5492329da8ab0a815e0c9ff34d8c1811c5146.md",
+            "target": "9f34228dc42ed005be5ee2d21c9c50bd874f03eebe4f717c9364dbd40153f4f7.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/026e968a086de781a8e87a69d357d33791714be852271b147bf044a9c7bab1fb.md",
+            "target": "172bf73c9db36347a3b05a76fc34e5d2d71bcf4c450f06f960a7f0c2b1472d08.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02719a51674657488b8c6d68698fafe175395447101cf66e607e99a92b241cf6.md",
+            "target": "05e4e8dd2fd84d10b16ba0bc52bcb4704ea09803841c90a5dee5de52be86c055.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02b2b076610518eb5a6142ad7552361fe122b9e52a9f5cd6129cdfc073c7f562.md",
+            "target": "6af58e15dab602ebc88b4937f142fca5fd48602115a26ba8e6e6ac3fdbbd10d0.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02cbd2c8010a8a3f1f20335c5f23ffd8d0f48326018952293249f8d4f7ad29de.md",
+            "target": "69b878a218f37fceeb30fb9558c27b9732db7ace1a92667f199c0935b7cbc220.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/02/02ecf711af8460e515fa64fce0ec4ae111b00b8a015440b88ac4395a8be31c7b.md",
+            "target": "7c8703c42ec51cce1bcfc0f78224d30d3ca4f031f4509dc3dedfa4d663f0b68d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0313dc76e8e9fa80a52f60d2fd13944360eb04eb3768cad63dbb34a87d2c5a52.md",
+            "target": "a3f869a3c65a2c86efd1779953b60f582e9aded02752f1a7256a5a544fb1e7e8.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/031968caa5c3ea8742f69cd4fb7cbdbf6ab8e8faf79afaf314852323122874de.md",
+            "target": "cf8d5525a7716bab34daf7e9580c42619e678552d6426f6b5fe5b542168ef46e.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0327bba1c8719982664ee35df1642022a680a7659ed30c58afc28ff075d38f55.md",
+            "target": "98cb585e66a96c0ab3037c85d96022cd876ccbacc4224affb00d925e0ff8b4da.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/032aa07bd8f709353a057f2659508078b8898ee365b34236d609f905848c1298.md",
+            "target": "317b6d50c3887b5e2e3b070837461666049b682eac46b25c849ed12a5cdc3029.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03481bc7b8f35d8b1532dbea82cfb1dfb5bb657425b3a7db38bd37f8a5ac1cde.md",
+            "target": "e763ac882f7db0cb2608864741dc110b8c190a8030d93f793c4bb4cb23e2c10b.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0375e15fc6a53a7c5f494482714a438cc3bc9593fb9c9f4d4d7c673ff0e12676.md",
+            "target": "43bfafddab95cbac63fbdf7ba645072959c6dd432a1d4f11d633497a5386b9ba.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/0391a5e24436eb003d49a09dea6a5bbde05b07ff1089ce2aa4337667f5b6fec2.md",
+            "target": "d8990b9335a9a1d448e3c840cb53e88400632a71b8542cc5a954c0ff1abaca97.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03b198c00cfd596f97997268dc67e5191d8a8487499cb67cc00e984ba83f6a99.md",
+            "target": "1afb2f7759bf6cf4733f833de3f0f33ea78025c748e7e00a2cf97808a7cbdde3.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/03/03e28715e0bd0f099014262b83e38c90b53e9049cbf8ed36c7788be966f450cc.md",
+            "target": "7f14aa75ef5536d4de53ee7b3f0ce3c70668df95ce7fff0550541be6cfbcbfc8.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/044d0fcda451242789ca1e60971989371c039c2e7c74c68a97033b2c77f2088e.md",
+            "target": "61480511ea77c401cf33c6866a7943fc9d9b899e5315dcc6e880c1c495dcd6be.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/045566a645864656851b9d6620f2e2c49cbd398f6aa369d5e525a3ae7c40bff1.md",
+            "target": "4bcca20d5666b2733d0741b57d657901fe01ddd08ee3a1f123428bba04749dcd.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/049eabb0735ca7dd6f0a0e1be4588a8f2c64a277e83b02fd0ff24ba9a3f44129.md",
+            "target": "550b5b98195d400d6888a3ec459dac17914780c24dc96e7a49a54b8b67aa3320.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/04/04f115bb089523be5453d480fb927730cdaa4719965f17ab1853a9648cfb14ab.md",
+            "target": "5817014fa46c2417e71d73fbe80e369195ef9be8cb268e5267277613867c1888.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/050548831e1d9387e945d8716a4fdfce2ed6f19380a9ca90bd06494781b71742.md",
+            "target": "ce6c529d6e73ef26165e3f94f019cd52eed85191568ed056c5da3900d3d0dba0.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/05121e7e8d29a4e7311b2934abcb94caf259dbca61802249a65f9482e60ab731.md",
+            "target": "17f927b31e732e8624d7aab761630a17547697a33c007ba0be3ae60533801d3d.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/053b6cbe87ad58947e5b918cbc97fa509d9c29168d38baa8c2520c9a7134d5fa.md",
+            "target": "8760042320484e368f316e2e1601631daf1cc824dfc2b94b2b371cc3f0343383.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/0563fa02392421a84a3d2a467551251343baa74ecd853975b17bbf61f39d2a4e.md",
+            "target": "b49f315aee907f971a58d26d14f801a5ee9dc517e071d4b9a298ac59d6464adf.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/057181ad48dd1e4b62b24eabe50b37704750e8a496ffd40d1dd86ce7ec80b757.md",
+            "target": "c60fad8ce38876408f664e6cf1634dcde01469f977b91c4629dbea521df646e1.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/05800b566576aa3387ed4e4345b5125f970386e905414c5432bf9c147a2d2273.md",
+            "target": "dd79eba3534c455ca72bf395b242f7d212499c60cb9697da08977366b8bc9260.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/058c0384ea514c9e9f466bcdeb3423b7986cbdd1bafb2caab85ff33c9a209cb8.md",
+            "target": "756a2d43b1f1260308ede846005a88fb4e923df1f771366f6665450468d43940.bin"
+          },
+          {
+            "source": "BrainRuntime/notes/05/058e783c5dd64db9f401a55e48e221c1c42b323bba6db4719f96f3fa6ac3bd05.md",
+            "target": "c50af0a7c20e0028a707c40b0199dd13f4b2b75d00ef19f7a212dfa283f6e385.bin"
+          }
+        ],
         "personal_dangling_samples": [
           {
             "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
@@ -329,18 +771,21 @@
             "target": "satellite ai 사용 사례"
           }
         ],
-        "generated_dangling_sample_source_count": 0,
+        "generated_dangling_sample_source_count": 2297,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 84953,
-        "runtime_links": 360905,
+        "runtime_nodes": 88689,
+        "runtime_links": 12063,
         "runtime_dangling_generated": 0,
-        "runtime_consistent": true,
-        "anomaly": false,
-        "anomaly_reasons": []
+        "runtime_consistent": false,
+        "anomaly": true,
+        "anomaly_reasons": [
+          "runtime_nodes_mismatch:runtime=88689,actual=88745",
+          "actual_generated_dangling=2297"
+        ]
       }
     },
     "shopify": {
-      "s_count": 10
+      "s_count": 6
     },
     "queue": {
       "blacklist_count": 0
@@ -349,31 +794,43 @@
       {
         "team": "sourcing",
         "kind": "auto_remediable",
-        "text": "운영 상품 마지막 유효 수집 2026-09-29T00:48:58.284474+00:00",
+        "text": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
+        "source": "action"
+      },
+      {
+        "team": "institutions",
+        "kind": "external_dependency",
+        "text": "일부 출처 수집 실패. 원래 수집 시각으로 지난 자료를 보존했다.",
+        "source": "waiting"
+      },
+      {
+        "team": "market",
+        "kind": "auto_remediable",
+        "text": "고시 표 2건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
         "source": "action"
       },
       {
         "team": "listing",
         "kind": "human_approval_required",
-        "text": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+        "text": "카피 6건, 고시 2건, 영문라벨 3건, 법률 3건 원본 자료 또는 무료 생성 경로 확보 대기",
         "source": "waiting"
       },
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 3건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
         "source": "waiting"
       },
       {
         "team": "design",
         "kind": "external_dependency",
-        "text": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+        "text": "다음 단계: 스토어 기본 설정 (Markets·배송·결제)",
         "source": "waiting"
       }
     ],
     "source_errors": {
-      "broken": 5,
-      "generated_at": "2026-10-03T11:54:46.244649+00:00",
+      "broken": 10,
+      "generated_at": "2026-10-22T10:02:44.584353+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -391,38 +848,264 @@
           "reason": "IR 피드 URL 없음"
         },
         {
-          "team": "채널 운영팀",
-          "item": "FDA 화장품 리콜·조치 이력",
-          "reason": "요청 실패: HTTP 404"
+          "team": "기관 수집팀",
+          "item": "rss: Broadcom",
+          "reason": "HTTPError: HTTP 403"
         },
         {
-          "team": "마케팅 조사팀",
-          "item": "1067500",
-          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
+          "team": "기관 수집팀",
+          "item": "rss: C3 AI",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "rss: Leidos",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "rss: Booz Allen Hamilton",
+          "reason": "HTTPError: HTTP 403"
+        },
+        {
+          "team": "기관 수집팀",
+          "item": "sitemap: ASML",
+          "reason": "lastmod 있는 매칭 URL 0건"
+        },
+        {
+          "team": "채널 운영팀",
+          "item": "FDA 화장품 리콜·조치 이력",
+          "reason": "HTTP 404"
+        },
+        {
+          "team": "지식 수집팀",
+          "item": "institutions",
+          "reason": "출처 수집 실패 5건; 지난 관측 시각 보존"
         }
       ]
     }
   },
   "improvement": {
-    "graph_dangling_before": 0,
-    "graph_dangling_after": 0,
-    "graph_nodes_before": 84953,
-    "graph_nodes_after": 84953,
-    "graph_links_before": 360905,
-    "graph_links_after": 360905,
+    "graph_dangling_before": 2247,
+    "graph_dangling_after": 2297,
+    "graph_nodes_before": 88689,
+    "graph_nodes_after": 88745,
+    "graph_links_before": 12063,
+    "graph_links_after": 12252,
     "parse_failed_before": 0,
     "parse_failed_after": 0,
-    "s_count_before": 10,
-    "s_count_after": 10,
+    "s_count_before": 6,
+    "s_count_after": 6,
     "channels_live_before": 13,
     "channels_live_after": 13,
     "obsidian_truth_before": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 84953,
-      "actual_links": 360905,
-      "actual_dangling_generated": 0,
+      "actual_nodes": 88689,
+      "actual_links": 12063,
+      "actual_dangling_generated": 2247,
       "actual_dangling_personal": 21,
-      "generated_dangling_samples": [],
+      "generated_dangling_samples": [
+        {
+          "source": "BrainRuntime/notes/00/003ba7bc22645668c0691e09c11526dd53e14583c64c796c0256e9a0829c2c1c.md",
+          "target": "0f17ec4a5dd782d1a5359c3bb627f5f02b43171cb38c02ee8bb38d84e92064b5.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/003c52449dfc532eac3fc547ec6dacac974d57a87be3c9a05c3fef5697febc2c.md",
+          "target": "6a18b292bdf629d8b52b9bbc165e74c67ed228b6d6093993421e66cdd49a55df.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00565225223107242f4c32743a8a34c053530f316e5a2daeac6a82be413b8933.md",
+          "target": "ae4bb9281160a02d8d494b09aeb3e4740985d73a86de11dd67888b9de89d4ec1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/0056d9aca08d78dd4e4bc9a7c215ea16358000218c35dd40657389a533064584.md",
+          "target": "7d831a4606580a8772f88b3ed2e5bd89f04bc15bf8e68c7004e4bee1bb849601.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/0078a081bb965185c523f130232b87481f1990837d5f3d279ed1f6bdce7edf5c.md",
+          "target": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/009c6544716882b662f9573c32b78c1a17a7a04d3b0c8eea3ad98a3c96f26d9b.md",
+          "target": "36ec1a9e18b50b2d0ca36374354c73793973fb914ca4b08cc1e08b99e92cbc62.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00ac89c72d3359682321221e70df42cd57401b983b12bd2b9ebc6e3ea4d61aaf.md",
+          "target": "249ef74a0300b1b61fbf1f6964d22b0d1eea1d88b403f1bed3b6b5a3c9ebe020.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00b0d776da2ca7ce665c2e410703807350d60c9456c5ed54584518c3d98f0b00.md",
+          "target": "ebd185386e5dc2115cdb3f9a5a453983d1bb801f53ed8a0d8e961b90b83cff3a.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00b297d39ccf09030f1988eaad26a2cfd7c0b07839fcfbca9978d3d5a549a9de.md",
+          "target": "408316381811fafe994708cfe40b92dcccfd24d7c3cdd60bedddf3035ae06396.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00cf230f1bfba65c4bf75ac1227e4d28724df8be91360e8721bd293f9a84396a.md",
+          "target": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00d0ef7c9d886c83044769658bea9c8764a6f8b8c57b32f11e8b9fd670a1c248.md",
+          "target": "7587f3f32acd47f8ad1c51c36e34237ba21f7930f4a8f1a62ecb4d4ec06856e1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00e5ecd0b211f58c48e1bfd973e154a115b7c509fd1ec5c9ecdf1dbc8690b321.md",
+          "target": "6c108bc7944e1db0db0c1b982129ac98987f96570d4d1fe91328ff7ce0bf821a.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01005aada290ec344a8fb7166e69150db970dfdc113408749603db4baa6150c3.md",
+          "target": "7b5458810faa71c8dc5f97cca5601519ce70c1433a4c85f88009008b63460c96.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0113162fc354a853d728c565b88b65a7933d1dfb0662bfed27c86c4b9d945e04.md",
+          "target": "5ee1ef9017e12861bbc4db30bae1e65b9a9a9339cc72f7da4df57f161ed753a9.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0117b393cda5e7202f8a715985a764e43d73fb30a452a7a99af03d23c96fd5a5.md",
+          "target": "b6e274f3cbd6cfa8ca7233f701d01f3421b87c756da1b2d0d409413f87174e86.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0120bcabb5db4b5f694938386d39b111b49d411ae3029b692b971726df2e2cf1.md",
+          "target": "e6326053fa31fb6f1654bd1a72bce3c5abbc0032e8f4d6be273a96f452dc5091.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01411d70fb96412853ac47a017a03e3d37b72d2de148c7001ceec3a026286e09.md",
+          "target": "a5e7c1fe516e6b9f6b96367ba59a81fe9395c05290e28e773ccae5453d594a36.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01822b0f98a4f6a5ef1126ff14dbefab3a851af2203bf8e16ca22b4697e5d15b.md",
+          "target": "139b4b6c1be3d705ed9b30bb0361c180925372e6c52c875eea7c22627156dc3d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01af727e367e178d0e6d05f0137502712ab3755a5ebb12f4a1c13409f51c515e.md",
+          "target": "e8c86844c7c2858dae3fc8916551513a2dd8f7e4744f2e9f6105d23681bac9e3.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01c478b04bfc4bfedae1af8aaba066b5d1cc246c0930a19dc82a84e7ecdd86c9.md",
+          "target": "aa0ddc71d2ec60bf1f1e06bdb3d657a3d90bd9bcab39cf537a7fdea98ddef608.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01ca0141d977a025627c8e3749c69f19c2541ad3216c23b84abfb450b76f013e.md",
+          "target": "302bde0dbc9f02a533cc6c8eb7dddb933cc265f42401eefd4386aeeee2bc2500.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01e4c57d6b551429186102c9b30ece9094d5fc7187127bdf7a2e6ef6d66f8256.md",
+          "target": "73ec62e6736d75735f119ca2db36e2737bb3b7934977177118c38777d8d22b81.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/021a48dae71b56dd2f93b54f9e29e540e677beb018fa3d026ae48873fd9064af.md",
+          "target": "bc0a6fbfdcde91c727f34a0db9f9a5d53218f126cca1654e212a63142b9b3bdc.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/022b0b44ef058e35f42bbd5c66b5492329da8ab0a815e0c9ff34d8c1811c5146.md",
+          "target": "9f34228dc42ed005be5ee2d21c9c50bd874f03eebe4f717c9364dbd40153f4f7.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/026e968a086de781a8e87a69d357d33791714be852271b147bf044a9c7bab1fb.md",
+          "target": "172bf73c9db36347a3b05a76fc34e5d2d71bcf4c450f06f960a7f0c2b1472d08.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02719a51674657488b8c6d68698fafe175395447101cf66e607e99a92b241cf6.md",
+          "target": "05e4e8dd2fd84d10b16ba0bc52bcb4704ea09803841c90a5dee5de52be86c055.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02b2b076610518eb5a6142ad7552361fe122b9e52a9f5cd6129cdfc073c7f562.md",
+          "target": "6af58e15dab602ebc88b4937f142fca5fd48602115a26ba8e6e6ac3fdbbd10d0.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02cbd2c8010a8a3f1f20335c5f23ffd8d0f48326018952293249f8d4f7ad29de.md",
+          "target": "69b878a218f37fceeb30fb9558c27b9732db7ace1a92667f199c0935b7cbc220.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02ecf711af8460e515fa64fce0ec4ae111b00b8a015440b88ac4395a8be31c7b.md",
+          "target": "7c8703c42ec51cce1bcfc0f78224d30d3ca4f031f4509dc3dedfa4d663f0b68d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0313dc76e8e9fa80a52f60d2fd13944360eb04eb3768cad63dbb34a87d2c5a52.md",
+          "target": "a3f869a3c65a2c86efd1779953b60f582e9aded02752f1a7256a5a544fb1e7e8.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0327bba1c8719982664ee35df1642022a680a7659ed30c58afc28ff075d38f55.md",
+          "target": "98cb585e66a96c0ab3037c85d96022cd876ccbacc4224affb00d925e0ff8b4da.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/032aa07bd8f709353a057f2659508078b8898ee365b34236d609f905848c1298.md",
+          "target": "317b6d50c3887b5e2e3b070837461666049b682eac46b25c849ed12a5cdc3029.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03481bc7b8f35d8b1532dbea82cfb1dfb5bb657425b3a7db38bd37f8a5ac1cde.md",
+          "target": "e763ac882f7db0cb2608864741dc110b8c190a8030d93f793c4bb4cb23e2c10b.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0391a5e24436eb003d49a09dea6a5bbde05b07ff1089ce2aa4337667f5b6fec2.md",
+          "target": "d8990b9335a9a1d448e3c840cb53e88400632a71b8542cc5a954c0ff1abaca97.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03b198c00cfd596f97997268dc67e5191d8a8487499cb67cc00e984ba83f6a99.md",
+          "target": "1afb2f7759bf6cf4733f833de3f0f33ea78025c748e7e00a2cf97808a7cbdde3.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03e28715e0bd0f099014262b83e38c90b53e9049cbf8ed36c7788be966f450cc.md",
+          "target": "7f14aa75ef5536d4de53ee7b3f0ce3c70668df95ce7fff0550541be6cfbcbfc8.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/044d0fcda451242789ca1e60971989371c039c2e7c74c68a97033b2c77f2088e.md",
+          "target": "61480511ea77c401cf33c6866a7943fc9d9b899e5315dcc6e880c1c495dcd6be.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/045566a645864656851b9d6620f2e2c49cbd398f6aa369d5e525a3ae7c40bff1.md",
+          "target": "4bcca20d5666b2733d0741b57d657901fe01ddd08ee3a1f123428bba04749dcd.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/049eabb0735ca7dd6f0a0e1be4588a8f2c64a277e83b02fd0ff24ba9a3f44129.md",
+          "target": "550b5b98195d400d6888a3ec459dac17914780c24dc96e7a49a54b8b67aa3320.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/04f115bb089523be5453d480fb927730cdaa4719965f17ab1853a9648cfb14ab.md",
+          "target": "5817014fa46c2417e71d73fbe80e369195ef9be8cb268e5267277613867c1888.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/050548831e1d9387e945d8716a4fdfce2ed6f19380a9ca90bd06494781b71742.md",
+          "target": "ce6c529d6e73ef26165e3f94f019cd52eed85191568ed056c5da3900d3d0dba0.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/05121e7e8d29a4e7311b2934abcb94caf259dbca61802249a65f9482e60ab731.md",
+          "target": "17f927b31e732e8624d7aab761630a17547697a33c007ba0be3ae60533801d3d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/053b6cbe87ad58947e5b918cbc97fa509d9c29168d38baa8c2520c9a7134d5fa.md",
+          "target": "8760042320484e368f316e2e1601631daf1cc824dfc2b94b2b371cc3f0343383.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/0563fa02392421a84a3d2a467551251343baa74ecd853975b17bbf61f39d2a4e.md",
+          "target": "b49f315aee907f971a58d26d14f801a5ee9dc517e071d4b9a298ac59d6464adf.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/057181ad48dd1e4b62b24eabe50b37704750e8a496ffd40d1dd86ce7ec80b757.md",
+          "target": "c60fad8ce38876408f664e6cf1634dcde01469f977b91c4629dbea521df646e1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/05800b566576aa3387ed4e4345b5125f970386e905414c5432bf9c147a2d2273.md",
+          "target": "dd79eba3534c455ca72bf395b242f7d212499c60cb9697da08977366b8bc9260.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/058c0384ea514c9e9f466bcdeb3423b7986cbdd1bafb2caab85ff33c9a209cb8.md",
+          "target": "756a2d43b1f1260308ede846005a88fb4e923df1f771366f6665450468d43940.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/058e783c5dd64db9f401a55e48e221c1c42b323bba6db4719f96f3fa6ac3bd05.md",
+          "target": "c50af0a7c20e0028a707c40b0199dd13f4b2b75d00ef19f7a212dfa283f6e385.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/05904009c8a5260183c64974e017b96f7090b898606217ea31dd863ec45ffe3f.md",
+          "target": "adda12b1b047bd22146daea6a8e47d7ede0dd0d04d1828a0032e45e48284efe6.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/059b88537e60a14e1e8f859147a49d14f0da96f600ac6c9fb990680245c36d44.md",
+          "target": "52f2d40478705eeb249a2c2c2bdb505bd27b318e7a54445294722d5a93561827.bin"
+        }
+      ],
       "personal_dangling_samples": [
         {
           "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
@@ -505,22 +1188,226 @@
           "target": "satellite ai 사용 사례"
         }
       ],
-      "generated_dangling_sample_source_count": 0,
+      "generated_dangling_sample_source_count": 2247,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 84953,
-      "runtime_links": 360905,
+      "runtime_nodes": 88633,
+      "runtime_links": 11874,
       "runtime_dangling_generated": 0,
-      "runtime_consistent": true,
-      "anomaly": false,
-      "anomaly_reasons": []
+      "runtime_consistent": false,
+      "anomaly": true,
+      "anomaly_reasons": [
+        "runtime_nodes_mismatch:runtime=88633,actual=88689",
+        "actual_generated_dangling=2247"
+      ]
     },
     "obsidian_truth_after": {
       "vault": "obsidian/JARVIS_LUNA",
-      "actual_nodes": 84953,
-      "actual_links": 360905,
-      "actual_dangling_generated": 0,
+      "actual_nodes": 88745,
+      "actual_links": 12252,
+      "actual_dangling_generated": 2297,
       "actual_dangling_personal": 21,
-      "generated_dangling_samples": [],
+      "generated_dangling_samples": [
+        {
+          "source": "BrainRuntime/notes/00/003ba7bc22645668c0691e09c11526dd53e14583c64c796c0256e9a0829c2c1c.md",
+          "target": "0f17ec4a5dd782d1a5359c3bb627f5f02b43171cb38c02ee8bb38d84e92064b5.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/003c52449dfc532eac3fc547ec6dacac974d57a87be3c9a05c3fef5697febc2c.md",
+          "target": "6a18b292bdf629d8b52b9bbc165e74c67ed228b6d6093993421e66cdd49a55df.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00565225223107242f4c32743a8a34c053530f316e5a2daeac6a82be413b8933.md",
+          "target": "ae4bb9281160a02d8d494b09aeb3e4740985d73a86de11dd67888b9de89d4ec1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/0056d9aca08d78dd4e4bc9a7c215ea16358000218c35dd40657389a533064584.md",
+          "target": "7d831a4606580a8772f88b3ed2e5bd89f04bc15bf8e68c7004e4bee1bb849601.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/0078a081bb965185c523f130232b87481f1990837d5f3d279ed1f6bdce7edf5c.md",
+          "target": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/009c6544716882b662f9573c32b78c1a17a7a04d3b0c8eea3ad98a3c96f26d9b.md",
+          "target": "36ec1a9e18b50b2d0ca36374354c73793973fb914ca4b08cc1e08b99e92cbc62.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00ac89c72d3359682321221e70df42cd57401b983b12bd2b9ebc6e3ea4d61aaf.md",
+          "target": "249ef74a0300b1b61fbf1f6964d22b0d1eea1d88b403f1bed3b6b5a3c9ebe020.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00b0d776da2ca7ce665c2e410703807350d60c9456c5ed54584518c3d98f0b00.md",
+          "target": "ebd185386e5dc2115cdb3f9a5a453983d1bb801f53ed8a0d8e961b90b83cff3a.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00b297d39ccf09030f1988eaad26a2cfd7c0b07839fcfbca9978d3d5a549a9de.md",
+          "target": "408316381811fafe994708cfe40b92dcccfd24d7c3cdd60bedddf3035ae06396.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00cf230f1bfba65c4bf75ac1227e4d28724df8be91360e8721bd293f9a84396a.md",
+          "target": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00d0ef7c9d886c83044769658bea9c8764a6f8b8c57b32f11e8b9fd670a1c248.md",
+          "target": "7587f3f32acd47f8ad1c51c36e34237ba21f7930f4a8f1a62ecb4d4ec06856e1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/00/00e5ecd0b211f58c48e1bfd973e154a115b7c509fd1ec5c9ecdf1dbc8690b321.md",
+          "target": "6c108bc7944e1db0db0c1b982129ac98987f96570d4d1fe91328ff7ce0bf821a.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01005aada290ec344a8fb7166e69150db970dfdc113408749603db4baa6150c3.md",
+          "target": "7b5458810faa71c8dc5f97cca5601519ce70c1433a4c85f88009008b63460c96.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0113162fc354a853d728c565b88b65a7933d1dfb0662bfed27c86c4b9d945e04.md",
+          "target": "5ee1ef9017e12861bbc4db30bae1e65b9a9a9339cc72f7da4df57f161ed753a9.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0117b393cda5e7202f8a715985a764e43d73fb30a452a7a99af03d23c96fd5a5.md",
+          "target": "b6e274f3cbd6cfa8ca7233f701d01f3421b87c756da1b2d0d409413f87174e86.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/0120bcabb5db4b5f694938386d39b111b49d411ae3029b692b971726df2e2cf1.md",
+          "target": "e6326053fa31fb6f1654bd1a72bce3c5abbc0032e8f4d6be273a96f452dc5091.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01411d70fb96412853ac47a017a03e3d37b72d2de148c7001ceec3a026286e09.md",
+          "target": "a5e7c1fe516e6b9f6b96367ba59a81fe9395c05290e28e773ccae5453d594a36.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01822b0f98a4f6a5ef1126ff14dbefab3a851af2203bf8e16ca22b4697e5d15b.md",
+          "target": "139b4b6c1be3d705ed9b30bb0361c180925372e6c52c875eea7c22627156dc3d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01af727e367e178d0e6d05f0137502712ab3755a5ebb12f4a1c13409f51c515e.md",
+          "target": "e8c86844c7c2858dae3fc8916551513a2dd8f7e4744f2e9f6105d23681bac9e3.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01c478b04bfc4bfedae1af8aaba066b5d1cc246c0930a19dc82a84e7ecdd86c9.md",
+          "target": "aa0ddc71d2ec60bf1f1e06bdb3d657a3d90bd9bcab39cf537a7fdea98ddef608.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01ca0141d977a025627c8e3749c69f19c2541ad3216c23b84abfb450b76f013e.md",
+          "target": "302bde0dbc9f02a533cc6c8eb7dddb933cc265f42401eefd4386aeeee2bc2500.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/01/01e4c57d6b551429186102c9b30ece9094d5fc7187127bdf7a2e6ef6d66f8256.md",
+          "target": "73ec62e6736d75735f119ca2db36e2737bb3b7934977177118c38777d8d22b81.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/021a48dae71b56dd2f93b54f9e29e540e677beb018fa3d026ae48873fd9064af.md",
+          "target": "bc0a6fbfdcde91c727f34a0db9f9a5d53218f126cca1654e212a63142b9b3bdc.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/022b0b44ef058e35f42bbd5c66b5492329da8ab0a815e0c9ff34d8c1811c5146.md",
+          "target": "9f34228dc42ed005be5ee2d21c9c50bd874f03eebe4f717c9364dbd40153f4f7.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/026e968a086de781a8e87a69d357d33791714be852271b147bf044a9c7bab1fb.md",
+          "target": "172bf73c9db36347a3b05a76fc34e5d2d71bcf4c450f06f960a7f0c2b1472d08.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02719a51674657488b8c6d68698fafe175395447101cf66e607e99a92b241cf6.md",
+          "target": "05e4e8dd2fd84d10b16ba0bc52bcb4704ea09803841c90a5dee5de52be86c055.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02b2b076610518eb5a6142ad7552361fe122b9e52a9f5cd6129cdfc073c7f562.md",
+          "target": "6af58e15dab602ebc88b4937f142fca5fd48602115a26ba8e6e6ac3fdbbd10d0.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02cbd2c8010a8a3f1f20335c5f23ffd8d0f48326018952293249f8d4f7ad29de.md",
+          "target": "69b878a218f37fceeb30fb9558c27b9732db7ace1a92667f199c0935b7cbc220.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/02/02ecf711af8460e515fa64fce0ec4ae111b00b8a015440b88ac4395a8be31c7b.md",
+          "target": "7c8703c42ec51cce1bcfc0f78224d30d3ca4f031f4509dc3dedfa4d663f0b68d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0313dc76e8e9fa80a52f60d2fd13944360eb04eb3768cad63dbb34a87d2c5a52.md",
+          "target": "a3f869a3c65a2c86efd1779953b60f582e9aded02752f1a7256a5a544fb1e7e8.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/031968caa5c3ea8742f69cd4fb7cbdbf6ab8e8faf79afaf314852323122874de.md",
+          "target": "cf8d5525a7716bab34daf7e9580c42619e678552d6426f6b5fe5b542168ef46e.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0327bba1c8719982664ee35df1642022a680a7659ed30c58afc28ff075d38f55.md",
+          "target": "98cb585e66a96c0ab3037c85d96022cd876ccbacc4224affb00d925e0ff8b4da.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/032aa07bd8f709353a057f2659508078b8898ee365b34236d609f905848c1298.md",
+          "target": "317b6d50c3887b5e2e3b070837461666049b682eac46b25c849ed12a5cdc3029.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03481bc7b8f35d8b1532dbea82cfb1dfb5bb657425b3a7db38bd37f8a5ac1cde.md",
+          "target": "e763ac882f7db0cb2608864741dc110b8c190a8030d93f793c4bb4cb23e2c10b.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0375e15fc6a53a7c5f494482714a438cc3bc9593fb9c9f4d4d7c673ff0e12676.md",
+          "target": "43bfafddab95cbac63fbdf7ba645072959c6dd432a1d4f11d633497a5386b9ba.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/0391a5e24436eb003d49a09dea6a5bbde05b07ff1089ce2aa4337667f5b6fec2.md",
+          "target": "d8990b9335a9a1d448e3c840cb53e88400632a71b8542cc5a954c0ff1abaca97.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03b198c00cfd596f97997268dc67e5191d8a8487499cb67cc00e984ba83f6a99.md",
+          "target": "1afb2f7759bf6cf4733f833de3f0f33ea78025c748e7e00a2cf97808a7cbdde3.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/03/03e28715e0bd0f099014262b83e38c90b53e9049cbf8ed36c7788be966f450cc.md",
+          "target": "7f14aa75ef5536d4de53ee7b3f0ce3c70668df95ce7fff0550541be6cfbcbfc8.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/044d0fcda451242789ca1e60971989371c039c2e7c74c68a97033b2c77f2088e.md",
+          "target": "61480511ea77c401cf33c6866a7943fc9d9b899e5315dcc6e880c1c495dcd6be.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/045566a645864656851b9d6620f2e2c49cbd398f6aa369d5e525a3ae7c40bff1.md",
+          "target": "4bcca20d5666b2733d0741b57d657901fe01ddd08ee3a1f123428bba04749dcd.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/049eabb0735ca7dd6f0a0e1be4588a8f2c64a277e83b02fd0ff24ba9a3f44129.md",
+          "target": "550b5b98195d400d6888a3ec459dac17914780c24dc96e7a49a54b8b67aa3320.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/04/04f115bb089523be5453d480fb927730cdaa4719965f17ab1853a9648cfb14ab.md",
+          "target": "5817014fa46c2417e71d73fbe80e369195ef9be8cb268e5267277613867c1888.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/050548831e1d9387e945d8716a4fdfce2ed6f19380a9ca90bd06494781b71742.md",
+          "target": "ce6c529d6e73ef26165e3f94f019cd52eed85191568ed056c5da3900d3d0dba0.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/05121e7e8d29a4e7311b2934abcb94caf259dbca61802249a65f9482e60ab731.md",
+          "target": "17f927b31e732e8624d7aab761630a17547697a33c007ba0be3ae60533801d3d.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/053b6cbe87ad58947e5b918cbc97fa509d9c29168d38baa8c2520c9a7134d5fa.md",
+          "target": "8760042320484e368f316e2e1601631daf1cc824dfc2b94b2b371cc3f0343383.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/0563fa02392421a84a3d2a467551251343baa74ecd853975b17bbf61f39d2a4e.md",
+          "target": "b49f315aee907f971a58d26d14f801a5ee9dc517e071d4b9a298ac59d6464adf.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/057181ad48dd1e4b62b24eabe50b37704750e8a496ffd40d1dd86ce7ec80b757.md",
+          "target": "c60fad8ce38876408f664e6cf1634dcde01469f977b91c4629dbea521df646e1.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/05800b566576aa3387ed4e4345b5125f970386e905414c5432bf9c147a2d2273.md",
+          "target": "dd79eba3534c455ca72bf395b242f7d212499c60cb9697da08977366b8bc9260.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/058c0384ea514c9e9f466bcdeb3423b7986cbdd1bafb2caab85ff33c9a209cb8.md",
+          "target": "756a2d43b1f1260308ede846005a88fb4e923df1f771366f6665450468d43940.bin"
+        },
+        {
+          "source": "BrainRuntime/notes/05/058e783c5dd64db9f401a55e48e221c1c42b323bba6db4719f96f3fa6ac3bd05.md",
+          "target": "c50af0a7c20e0028a707c40b0199dd13f4b2b75d00ef19f7a212dfa283f6e385.bin"
+        }
+      ],
       "personal_dangling_samples": [
         {
           "source": "Personal/Claude/Projects/kms/JARVIS_그래프데이터화_심도있는작업계획.md",
@@ -603,25 +1490,28 @@
           "target": "satellite ai 사용 사례"
         }
       ],
-      "generated_dangling_sample_source_count": 0,
+      "generated_dangling_sample_source_count": 2297,
       "personal_dangling_sample_source_count": 8,
-      "runtime_nodes": 84953,
-      "runtime_links": 360905,
+      "runtime_nodes": 88689,
+      "runtime_links": 12063,
       "runtime_dangling_generated": 0,
-      "runtime_consistent": true,
-      "anomaly": false,
-      "anomaly_reasons": []
+      "runtime_consistent": false,
+      "anomaly": true,
+      "anomaly_reasons": [
+        "runtime_nodes_mismatch:runtime=88689,actual=88745",
+        "actual_generated_dangling=2297"
+      ]
     }
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-10-03T11:54:59.007715+00:00",
+    "generated_at": "2026-10-22T10:03:46.435809+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 7,
-    "auto_remediable_count": 0,
+    "active_count": 10,
+    "auto_remediable_count": 1,
     "waiting_human_count": 2,
-    "waiting_external_count": 4,
+    "waiting_external_count": 5,
     "issues": {
       "dashboard:listing:TEAM_WAITING_LISTING": {
         "key": "dashboard:listing:TEAM_WAITING_LISTING",
@@ -630,10 +1520,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+        "reason": "카피 6건, 고시 2건, 영문라벨 3건, 법률 3건 원본 자료 또는 무료 생성 경로 확보 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 27,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 28,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -644,10 +1534,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
+        "reason": "차단 3건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 27,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 28,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -658,10 +1548,10 @@
         "priority": "P4",
         "classification": "external_dependency",
         "state": "waiting_external_dependency",
-        "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
+        "reason": "다음 단계: 스토어 기본 설정 (Markets·배송·결제)",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 27,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 28,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -672,10 +1562,10 @@
         "priority": "P4",
         "classification": "external_dependency",
         "state": "waiting_external_dependency",
-        "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+        "reason": "외부 소스 고장 10건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 기관 수집팀:rss: Broadcom)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 25,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 26,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -685,13 +1575,13 @@
         "action": "TEAM_ACTION_MARKET",
         "priority": "P3",
         "classification": "revalidate_only",
-        "state": "resolved",
-        "reason": "고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
+        "state": "escalated_monitoring",
+        "reason": "고시 표 2건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사 · 공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
         "first_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
-        "detected_runs": 11,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 12,
         "auto_attempts": 0,
-        "resolved_at": "2026-10-02T22:02:11.616216+00:00"
+        "resolved_at": null
       },
       "signals:INVESTIGATE_EMPTY_CHANNELS": {
         "key": "signals:INVESTIGATE_EMPTY_CHANNELS",
@@ -702,8 +1592,8 @@
         "state": "waiting_external_dependency",
         "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 20,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 21,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -716,8 +1606,8 @@
         "state": "waiting_external_dependency",
         "reason": "글로벌 신호 채널 저하",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 20,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 21,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -728,10 +1618,38 @@
         "priority": "P3",
         "classification": "revalidate_only",
         "state": "escalated_monitoring",
-        "reason": "운영 상품 마지막 유효 수집 2026-09-29T00:48:58.284474+00:00",
+        "reason": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
         "first_seen_at": "2026-09-30T14:55:12.706099+00:00",
-        "last_seen_at": "2026-10-03T11:54:59.007715+00:00",
-        "detected_runs": 12,
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 13,
+        "auto_attempts": 0,
+        "resolved_at": null
+      },
+      "obsidian:NORMALIZE_AND_REBUILD_GRAPH": {
+        "key": "obsidian:NORMALIZE_AND_REBUILD_GRAPH",
+        "area": "obsidian",
+        "action": "NORMALIZE_AND_REBUILD_GRAPH",
+        "priority": "P1",
+        "classification": "auto_remediable",
+        "state": "retry_scheduled",
+        "reason": "생성된 dangling 링크가 실제 검사에서 2297건 존재한다 / Truth Guard: runtime_nodes_mismatch:runtime=88689,actual=88745; actual_generated_dangling=2297",
+        "first_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 1,
+        "auto_attempts": 1,
+        "resolved_at": null
+      },
+      "dashboard:institutions:TEAM_WAITING_INSTITUTIONS": {
+        "key": "dashboard:institutions:TEAM_WAITING_INSTITUTIONS",
+        "area": "dashboard:institutions",
+        "action": "TEAM_WAITING_INSTITUTIONS",
+        "priority": "P4",
+        "classification": "external_dependency",
+        "state": "waiting_external_dependency",
+        "reason": "일부 출처 수집 실패. 원래 수집 시각으로 지난 자료를 보존했다.",
+        "first_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "last_seen_at": "2026-10-22T10:03:46.435809+00:00",
+        "detected_runs": 1,
         "auto_attempts": 0,
         "resolved_at": null
       }
@@ -746,16 +1664,80 @@
       "reason": "Chief of Staff did not approve SAFE_BLACKLIST_SYNC"
     },
     {
-      "action": "normalize_obsidian_links",
-      "changed": false,
-      "skipped": true,
-      "reason": "Chief of Staff did not approve NORMALIZE_AND_REBUILD_GRAPH"
+      "label": "normalize_obsidian_links",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.11.17/x64/bin/python",
+        "/home/runner/work/jarvis-luna/jarvis-luna/scripts/normalize_obsidian_links.py"
+      ],
+      "started_at": "2026-10-22T10:03:20.337893+00:00",
+      "returncode": 0,
+      "ok": true,
+      "stdout": "4760897ee407b01 => 093fcb85ec324831a6ab6d89be297891b50967e602dd975774760897ee407b01\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/13/138e34d37e6863b4e560f1de1c7a5b103db1e9477e5017f75a5cacc1dcb18508 => 138e34d37e6863b4e560f1de1c7a5b103db1e9477e5017f75a5cacc1dcb18508\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/16/16208c95fe36763f3286aaa9a7d004fc5cfc51053d2051579dcd54f2256e751c => 16208c95fe36763f3286aaa9a7d004fc5cfc51053d2051579dcd54f2256e751c\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/21/213a321347610b36301163668b81d351ba290d76a7e30caf8205dea0e544589b => 213a321347610b36301163668b81d351ba290d76a7e30caf8205dea0e544589b\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/24/24bf998308f6e90db7210fbdd239ee489cba4dbfc3e1da1ee898efbccfcf9694 => 24bf998308f6e90db7210fbdd239ee489cba4dbfc3e1da1ee898efbccfcf9694\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/36/36d3bed7ccc400e50e126a82d92bfea491b804dc20ac8aae2bd09ebe7df95088 => 36d3bed7ccc400e50e126a82d92bfea491b804dc20ac8aae2bd09ebe7df95088\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/3c/3cd4540b330ceedb561809354a1cf50071c50d58951440846d3a93e6eeea90ac => 3cd4540b330ceedb561809354a1cf50071c50d58951440846d3a93e6eeea90ac\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/3c/3cfc3fb184ef64724cb54d9b0c1a7d7c09818aeda623e81fdf80191c1c6107cc => 3cfc3fb184ef64724cb54d9b0c1a7d7c09818aeda623e81fdf80191c1c6107cc\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/3e/3e367b7587d2da89c0156eeb712e500bf3f89d5a3c48ca3bd2cd07f71a328119 => 3e367b7587d2da89c0156eeb712e500bf3f89d5a3c48ca3bd2cd07f71a328119\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/42/4227df66bc49344a8778a66b78af520ca85768f1b30d0ee50fed85bb541ba007 => 4227df66bc49344a8778a66b78af520ca85768f1b30d0ee50fed85bb541ba007\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/49/494569d7292ca9709722282836e6c61284adb45c1363e6d93e724a9b9adb7a80 => 494569d7292ca9709722282836e6c61284adb45c1363e6d93e724a9b9adb7a80\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/57/57b21d25a0adcb52e78345a45751b58e46a15b69666b9e2c63d9515bb443b8ff => 57b21d25a0adcb52e78345a45751b58e46a15b69666b9e2c63d9515bb443b8ff\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/5f/5f220cb6210cee256fbb1371aa1b3925a996335bfb10e46bd4bd57a488eb6b11 => 5f220cb6210cee256fbb1371aa1b3925a996335bfb10e46bd4bd57a488eb6b11\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/5f/5fec09bc4bb372ef07b227778d11e6d413801582d00416b8cfbc4e1cc4504707 => 5fec09bc4bb372ef07b227778d11e6d413801582d00416b8cfbc4e1cc4504707\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/65/65236b1c96ebaddbf995985bd60dce8de7a65138bc703014b0ef2f4e497eed90 => 65236b1c96ebaddbf995985bd60dce8de7a65138bc703014b0ef2f4e497eed90\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/68/68f605959e1f6fb972edb9385d7790f891c5407ee4358c08079c598cbba5637b => 68f605959e1f6fb972edb9385d7790f891c5407ee4358c08079c598cbba5637b\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/6e/6e3895e14ad7d4e46db7e4a798cd5b5263bebc585c73ea5d577f4ebe5af75e56 => 6e3895e14ad7d4e46db7e4a798cd5b5263bebc585c73ea5d577f4ebe5af75e56\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/7b/7b910fbcdd49ad909a2eb0c07f6a0aa0f5116d6e0bf791438a33d05fcda4dba2 => 7b910fbcdd49ad909a2eb0c07f6a0aa0f5116d6e0bf791438a33d05fcda4dba2\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/80/80fee2cdbe976e8a6fab0940f3e618cd8ef5f277418fb4985e90e4847655c818 => 80fee2cdbe976e8a6fab0940f3e618cd8ef5f277418fb4985e90e4847655c818\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/81/81cd657abaa142946ec946543122c5cd8d0a0fc0ed5147a616c72950c7720ed1 => 81cd657abaa142946ec946543122c5cd8d0a0fc0ed5147a616c72950c7720ed1\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/95/95ddd7cf37272cf0c1f9426748a9ac24a08279d99793b742fed8edbb51b4d317 => 95ddd7cf37272cf0c1f9426748a9ac24a08279d99793b742fed8edbb51b4d317\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/ad/ad967ac410093d5981448cc7c048260a82f138edc94fd0d00410ec3776bdfac4 => ad967ac410093d5981448cc7c048260a82f138edc94fd0d00410ec3776bdfac4\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/b4/b4fb6f6f888176ba4245e99a3a1e62f519cbfe1756c225c2145e7914b269fb9e => b4fb6f6f888176ba4245e99a3a1e62f519cbfe1756c225c2145e7914b269fb9e\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/b5/b58a21530da588481830f254cb342ce42e71ecb220f82247f8d417c94bd6684d => b58a21530da588481830f254cb342ce42e71ecb220f82247f8d417c94bd6684d\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/b7/b7f33d9c1c0083b9dee980d5a1ff7f126d89a1c41e1443b171e986708fcbe074 => b7f33d9c1c0083b9dee980d5a1ff7f126d89a1c41e1443b171e986708fcbe074\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/b9/b98a0196fe9ed6515ba0f72dbd7dd7be46d3f35ca05e9f606c294e0247d09745 => b98a0196fe9ed6515ba0f72dbd7dd7be46d3f35ca05e9f606c294e0247d09745\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/bb/bbf27b272457b203d660e378a177f3a913421559ea69ee42b29cce4ece8f1a65 => bbf27b272457b203d660e378a177f3a913421559ea69ee42b29cce4ece8f1a65\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/bf/bfdb571c15d6d95bfdafdb35746fd43813519b42a1de251153bdbab15f98aed4 => bfdb571c15d6d95bfdafdb35746fd43813519b42a1de251153bdbab15f98aed4\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/c0/c0a167281abe7da41cb77c996099fc8940be88b9007a30e08cbf53abf653b15f => c0a167281abe7da41cb77c996099fc8940be88b9007a30e08cbf53abf653b15f\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/c7/c793ef1aa20bf02517f9f0b41e48f9c946ee51cf821a8066ae6e108033216414 => c793ef1aa20bf02517f9f0b41e48f9c946ee51cf821a8066ae6e108033216414\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/c7/c7e76b116be7104006177fb4eab8c60e17466a0911d9c128284deeff1ef968aa => c7e76b116be7104006177fb4eab8c60e17466a0911d9c128284deeff1ef968aa\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/ce/cefe9d9567d56b592bff00228f412edce2144f2096de295d01ff3b2e2ac61388 => cefe9d9567d56b592bff00228f412edce2144f2096de295d01ff3b2e2ac61388\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/d6/d6c7d118ece835fcbe9c0e463b0fa52a91bc007c809009a91fe93d8e882df2ab => d6c7d118ece835fcbe9c0e463b0fa52a91bc007c809009a91fe93d8e882df2ab\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/df/df1cb500f5225c587e1e1b5ebe5653c1e4221e6036b536e06c8e1aa4dcfa5e07 => df1cb500f5225c587e1e1b5ebe5653c1e4221e6036b536e06c8e1aa4dcfa5e07\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/e3/e303b00b4e61cf6e64cc342eb2b60f1ffedfea7f4d70f77d0870733721254592 => e303b00b4e61cf6e64cc342eb2b60f1ffedfea7f4d70f77d0870733721254592\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/e4/e49bfd93dcb24c0bc9c352032623b40b929b3dcf37110dc359dfc5c989e3a335 => e49bfd93dcb24c0bc9c352032623b40b929b3dcf37110dc359dfc5c989e3a335\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/e6/e6bb745beccc591c439daa5ee8aa86b4eb3e76f9c24019f38a4154772b4e9067 => e6bb745beccc591c439daa5ee8aa86b4eb3e76f9c24019f38a4154772b4e9067\nambiguous-resolved: BrainRuntime/notes/17/17de048ff9d8d8514fe8681034412c6844f91d5d5b717a1f1b9f84dd1e29e56c.md -> BrainRuntime/notes/e8/e88ce96164f47fc85435ebfd174f75b8c3f6ca2c8803e8cc2c3ec7e84cbab92f => e88ce96164f47fc85435ebfd174f75b8c3f6ca2c8803e8cc2c3ec7e84cbab92f\n",
+      "stderr": "",
+      "timed_out": false,
+      "finished_at": "2026-10-22T10:03:27.413842+00:00"
     },
     {
-      "action": "runtime_refresh",
-      "changed": false,
-      "skipped": true,
-      "reason": "no safe autofix output changed and runtime refresh not explicitly enabled"
+      "action": "graph_rebuild",
+      "results": [
+        {
+          "label": "organize_obsidian_graph",
+          "command": [
+            "/opt/hostedtoolcache/Python/3.11.17/x64/bin/python",
+            "/home/runner/work/jarvis-luna/jarvis-luna/organize_obsidian_graph.py"
+          ],
+          "started_at": "2026-10-22T10:03:27.413903+00:00",
+          "returncode": 0,
+          "ok": true,
+          "stdout": "{\"records\": 8406, \"source_nodes\": 7, \"topic_nodes\": 22, \"output\": \"/home/runner/work/jarvis-luna/jarvis-luna/obsidian/JARVIS_LUNA/Knowledge\"}\n  유지: obsidian/JARVIS_LUNA/Knowledge/Records (85564개)\n  유지: obsidian/JARVIS_LUNA/Knowledge/Sources (7개)\n  유지: obsidian/JARVIS_LUNA/Knowledge/Topics (28개)\norganized vault: /home/runner/work/jarvis-luna/jarvis-luna/obsidian/JARVIS_LUNA\nremoved and regenerated: Records, Sources, Topics\nhub: /home/runner/work/jarvis-luna/jarvis-luna/obsidian/JARVIS_LUNA/JARVIS Graph Hub.md\n",
+          "stderr": "",
+          "timed_out": false,
+          "finished_at": "2026-10-22T10:03:32.773649+00:00"
+        },
+        {
+          "label": "expand_obsidian_graph",
+          "command": [
+            "/opt/hostedtoolcache/Python/3.11.17/x64/bin/python",
+            "/home/runner/work/jarvis-luna/jarvis-luna/expand_obsidian_graph.py"
+          ],
+          "started_at": "2026-10-22T10:03:32.773709+00:00",
+          "returncode": 0,
+          "ok": true,
+          "stdout": "{\"records\": 8406, \"source_nodes\": 7, \"topic_nodes\": 22, \"output\": \"/home/runner/work/jarvis-luna/jarvis-luna/obsidian/JARVIS_LUNA/Knowledge\"}\n",
+          "stderr": "",
+          "timed_out": false,
+          "finished_at": "2026-10-22T10:03:37.377229+00:00"
+        },
+        {
+          "label": "build_team_hubs",
+          "command": [
+            "/opt/hostedtoolcache/Python/3.11.17/x64/bin/python",
+            "/home/runner/work/jarvis-luna/jarvis-luna/scripts/build_team_hubs.py"
+          ],
+          "started_at": "2026-10-22T10:03:37.377352+00:00",
+          "returncode": 0,
+          "ok": true,
+          "stdout": "팀 허브 10개 · Topic 에 팀 링크 20개 추가\n  볼트(origin/main) Records 85,438 · Topics 28 · Orgs 35\n  마케팅 조사팀      주제  5개 · 이번 수집 3,665건 · 수집원 google,us_beauty\n  기관 수집팀       주제  3개 · 이번 수집 2,660건 · 수집원 institutions\n  지식 수집팀       주제 15개 · 이번 수집 2,563건 · 수집원 arxiv,google,youtube\n  상품 소싱팀       주제  1개 · 이번 수집 2,349건 · 수집원 us_beauty\n  AI 수집팀       주제  5개 · 이번 수집   819건 · 수집원 robotics\n  디자인팀         주제  2개 · 이번 수집   227건 · 수집원 youtube\n  리스팅 제작팀      주제  3개 · 이번 수집     0건 · 수집원 -\n  가격 정책팀       주제  2개 · 이번 수집     0건 · 수집원 -\n  법률·규제팀       주제  3개 · 이번 수집     0건 · 수집원 -\n  채널 운영팀       주제  2개 · 이번 수집     0건 · 수집원 -\n  팀이 없는 주제 2개: 로보틱스, 미분류\n",
+          "stderr": "",
+          "timed_out": false,
+          "finished_at": "2026-10-22T10:03:37.506129+00:00"
+        }
+      ],
+      "ok": true
+    },
+    {
+      "label": "generate_dashboard_runtime",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.11.17/x64/bin/python",
+        "/home/runner/work/jarvis-luna/jarvis-luna/scripts/generate_dashboard_runtime.py"
+      ],
+      "started_at": "2026-10-22T10:03:37.506188+00:00",
+      "returncode": 0,
+      "ok": true,
+      "stdout": "저장: /home/runner/work/jarvis-luna/jarvis-luna/data/dashboard_runtime.json\n  생성 2026-10-22T19:03:42.747746+09:00\n  팀 11개 · 파이프라인 5/5\n  노트 88689 · 링크 12063 · 코퍼스 8406\n",
+      "stderr": "",
+      "timed_out": false,
+      "finished_at": "2026-10-22T10:03:44.349859+00:00"
     }
   ],
   "queue": {

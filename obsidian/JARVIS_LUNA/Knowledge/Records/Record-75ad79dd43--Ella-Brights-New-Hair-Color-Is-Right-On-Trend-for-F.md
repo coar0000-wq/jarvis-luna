@@ -2,10 +2,10 @@
 title: "Record 75ad79dd43 · Ella-Brights-New-Hair-Color-Is-Right-On-Trend-for-Fall-2026See-the-Pho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:42.290600+00:00
+updated_at: 2026-10-22T09:40:44.265276+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.allure.com"
 url: "https://www.allure.com/story/ella-bright-vmas-2026-dark-hair"
 ---

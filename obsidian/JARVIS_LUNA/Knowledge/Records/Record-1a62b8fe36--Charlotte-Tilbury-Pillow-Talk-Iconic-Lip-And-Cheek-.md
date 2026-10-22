@@ -2,10 +2,10 @@
 title: "Record 1a62b8fe36 · Charlotte-Tilbury-Pillow-Talk-Iconic-Lip-And-Cheek-Kit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-21T05:14:15.595442+00:00
+updated_at: 2026-10-22T09:40:44.336737+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.amazon.com"
 url: "https://www.amazon.com/Charlotte-Tilbury-PILLOW-ICONIC-CHEEK/dp/B0G2YKQVZM/ref=zg_bsnr_g_beauty_d_sccl_44/147-7281039-1485407"
 ---

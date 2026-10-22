@@ -2,10 +2,10 @@
 title: "Record 93701acacf · 6-Best-Lip-Masks-2026-to-Soothe-Dry-Chapped-Lips-Overnight"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:41.919112+00:00
+updated_at: 2026-10-22T09:40:44.253694+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.allure.com"
 url: "https://www.allure.com/gallery/best-lip-mask"
 ---

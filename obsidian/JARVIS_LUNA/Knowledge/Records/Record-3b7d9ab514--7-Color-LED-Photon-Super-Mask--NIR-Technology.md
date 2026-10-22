@@ -2,10 +2,10 @@
 title: "Record 3b7d9ab514 · 7-Color-LED-Photon-Super-Mask--NIR-Technology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-17T16:14:09.691896+00:00
+updated_at: 2026-10-22T09:40:44.786086+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/7-color-led-photon-super-mask-nir-technology-mkt77005106"
 ---

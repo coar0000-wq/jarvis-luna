@@ -2,10 +2,10 @@
 title: "Record e86590baad · OXX-Coconut-face-mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:41.808052+00:00
+updated_at: 2026-10-22T09:40:44.250779+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "world.openbeautyfacts.org"
 url: "https://world.openbeautyfacts.org/product/9341106912899"
 ---

@@ -2,10 +2,10 @@
 title: "Record b5acd84a1c · Canonical-Color-as-a-Lens-into-Concept-Decodability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:12.553985+00:00
+updated_at: 2026-10-22T09:40:43.157770+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["컴퓨터-비전"]
+topics: ["컴퓨터-비전", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.09124v1"
 ---

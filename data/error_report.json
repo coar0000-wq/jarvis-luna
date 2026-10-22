@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:54:46.244649+00:00",
+  "generated_at": "2026-10-22T10:02:44.584353+00:00",
   "generator": "scripts/build_error_report.py",
   "구분": {
     "막힘": "robots.txt 나 규정 때문에 앞으로도 못 한다. 고칠 대상이 아니다",
@@ -8,27 +8,27 @@
     "대기": "사람이 값을 줘야 진행된다",
     "보류": "기술적으로 가능하지만 안 하기로 정했다"
   },
-  "total": 34,
+  "total": 49,
   "counts": {
-    "고장": 5,
-    "대기": 9,
+    "고장": 10,
+    "대기": 11,
     "대체됨": 5,
-    "막힘": 11,
-    "보류": 4
+    "막힘": 13,
+    "보류": 10
   },
   "by_team": {
     "기관 수집팀": {
       "막힘": 3,
-      "고장": 3,
+      "고장": 8,
       "대체됨": 2,
       "대기": 0,
       "보류": 4
     },
     "법률·규제팀": {
-      "막힘": 1,
+      "막힘": 3,
       "고장": 0,
       "대체됨": 3,
-      "대기": 2,
+      "대기": 4,
       "보류": 0
     },
     "디자인팀": {
@@ -46,6 +46,13 @@
       "보류": 0
     },
     "마케팅 조사팀": {
+      "막힘": 0,
+      "고장": 0,
+      "대체됨": 0,
+      "대기": 0,
+      "보류": 6
+    },
+    "지식 수집팀": {
       "막힘": 0,
       "고장": 1,
       "대체됨": 0,
@@ -76,16 +83,51 @@
       "fix": ""
     },
     {
+      "team": "기관 수집팀",
+      "item": "rss: Broadcom",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: C3 AI",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: Leidos",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: Booz Allen Hamilton",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "sitemap: ASML",
+      "reason": "lastmod 있는 매칭 URL 0건",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
       "team": "채널 운영팀",
       "item": "FDA 화장품 리콜·조치 이력",
-      "reason": "요청 실패: HTTP 404",
+      "reason": "HTTP 404",
       "kind": "고장",
       "fix": ""
     },
     {
-      "team": "마케팅 조사팀",
-      "item": "1067500",
-      "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   ",
+      "team": "지식 수집팀",
+      "item": "institutions",
+      "reason": "출처 수집 실패 5건; 지난 관측 시각 보존",
       "kind": "고장",
       "fix": ""
     }
@@ -118,6 +160,20 @@
       "reason": "수동 입력분에 출처 URL 이 없다. 나중에 다시 확인할 수 없다",
       "kind": "대기",
       "fix": "CSV 에 상품 URL 열을 추가하면 해결된다"
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "내용량",
+      "reason": "MoCRA 책임자 정보. 회사명과 주소가 필요하다",
+      "kind": "대기",
+      "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "전성분",
+      "reason": "MoCRA 책임자 정보. 회사명과 주소가 필요하다",
+      "kind": "대기",
+      "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
     },
     {
       "team": "법률·규제팀",
@@ -175,14 +231,14 @@
       "item": "Intel 뉴스룸",
       "reason": "RSS 없음, 사이트맵 없음 (OpenAlex 논문만 수집)",
       "kind": "대체됨",
-      "fix": "OpenAlex 논문 경로는 살아 있다"
+      "fix": "OpenAlex 현재 수집 상태는 별도 실패 기록 확인"
     },
     {
       "team": "기관 수집팀",
       "item": "Citigroup 사이트",
       "reason": "robots.txt 응답 실패 (OpenAlex 논문만 수집)",
       "kind": "막힘",
-      "fix": "OpenAlex 논문 경로는 살아 있다"
+      "fix": "OpenAlex 현재 수집 상태는 별도 실패 기록 확인"
     },
     {
       "team": "기관 수집팀",
@@ -217,7 +273,7 @@
       "item": "Dataiku 블로그 RSS",
       "reason": "피드 URL 없음 (OpenAlex 논문만 수집)",
       "kind": "대체됨",
-      "fix": "OpenAlex 논문 경로는 살아 있다"
+      "fix": "OpenAlex 현재 수집 상태는 별도 실패 기록 확인"
     },
     {
       "team": "기관 수집팀",
@@ -241,25 +297,60 @@
       "fix": ""
     },
     {
+      "team": "기관 수집팀",
+      "item": "rss: Broadcom",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: C3 AI",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: Leidos",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "rss: Booz Allen Hamilton",
+      "reason": "HTTPError: HTTP 403",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
+      "team": "기관 수집팀",
+      "item": "sitemap: ASML",
+      "reason": "lastmod 있는 매칭 URL 0건",
+      "kind": "고장",
+      "fix": "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요"
+    },
+    {
       "team": "법률·규제팀",
       "item": "openFDA cosmetic/enforcement",
       "reason": "HTTP 404 - 해당 엔드포인트 없음",
       "kind": "대체됨",
-      "fix": "현재 법률 자료 236건 수신 중 (최근 62건)"
+      "fix": "현재 법률 자료 287건 수신 중 (최근 57건)"
     },
     {
       "team": "법률·규제팀",
       "item": "FDA 화장품 전용 RSS",
       "reason": "HTTP 404 - 주소 없음. 리콜 RSS 로 대체",
       "kind": "대체됨",
-      "fix": "현재 법률 자료 236건 수신 중 (최근 62건)"
+      "fix": "현재 법률 자료 287건 수신 중 (최근 57건)"
     },
     {
       "team": "법률·규제팀",
       "item": "FDA 수입경보 66-41 페이지",
       "reason": "HTTP 404",
       "kind": "대체됨",
-      "fix": "현재 법률 자료 236건 수신 중 (최근 62건)"
+      "fix": "현재 법률 자료 287건 수신 중 (최근 57건)"
     },
     {
       "team": "디자인팀",
@@ -327,30 +418,86 @@
     {
       "team": "채널 운영팀",
       "item": "Open Beauty Facts 신규 등록순",
-      "reason": "robots.txt 금지 경로: /api",
+      "reason": "robots denied",
       "kind": "막힘",
       "fix": ""
     },
     {
       "team": "채널 운영팀",
       "item": "FDA 화장품 리콜·조치 이력",
-      "reason": "요청 실패: HTTP 404",
+      "reason": "HTTP 404",
       "kind": "고장",
       "fix": ""
     },
     {
       "team": "채널 운영팀",
       "item": "r/KoreanBeauty 신규글 RSS",
-      "reason": "robots.txt 금지 경로: /",
+      "reason": "robots denied",
       "kind": "막힘",
       "fix": ""
     },
     {
       "team": "마케팅 조사팀",
       "item": "1067500",
-      "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   ",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1068721",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1068733",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1072801",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1074979",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "마케팅 조사팀",
+      "item": "1084687",
+      "reason": "공급자 중단 기록: gemini HTTP 429 · 대기시간 경과 후 접근·할당량 복구 확인 필요",
+      "kind": "보류",
+      "fix": ""
+    },
+    {
+      "team": "지식 수집팀",
+      "item": "institutions",
+      "reason": "출처 수집 실패 5건; 지난 관측 시각 보존",
       "kind": "고장",
       "fix": ""
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "내용량",
+      "reason": "MoCRA 책임자 정보. 회사명과 주소가 필요하다",
+      "kind": "대기",
+      "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "전성분",
+      "reason": "MoCRA 책임자 정보. 회사명과 주소가 필요하다",
+      "kind": "대기",
+      "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
     },
     {
       "team": "법률·규제팀",
@@ -389,8 +536,22 @@
     },
     {
       "team": "법률·규제팀",
-      "item": "바세린 마스크팩 집중보습",
-      "reason": "자동 점검 미통과: label_fields",
+      "item": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "kind": "막힘",
+      "fix": "Drug Facts 라벨을 갖추면 다시 볼 수 있다"
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "kind": "막힘",
+      "fix": "Drug Facts 라벨을 갖추면 다시 볼 수 있다"
+    },
+    {
+      "team": "법률·규제팀",
+      "item": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "kind": "막힘",
       "fix": "Drug Facts 라벨을 갖추면 다시 볼 수 있다"
     }

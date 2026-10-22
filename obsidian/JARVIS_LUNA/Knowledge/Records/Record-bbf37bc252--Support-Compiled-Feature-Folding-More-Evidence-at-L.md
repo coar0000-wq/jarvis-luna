@@ -2,10 +2,10 @@
 title: "Record bbf37bc252 · Support-Compiled-Feature-Folding-More-Evidence-at-Lower-Memory-Across-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:24.520236+00:00
+updated_at: 2026-10-22T09:40:43.616884+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["머신러닝-연구"]
+topics: ["머신러닝-연구", "뷰티스킨케어"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2609.28208"
 ---

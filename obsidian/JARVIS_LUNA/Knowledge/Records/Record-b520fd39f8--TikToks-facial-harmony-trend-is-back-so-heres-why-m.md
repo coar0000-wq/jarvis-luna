@@ -2,10 +2,10 @@
 title: "Record b520fd39f8 · TikToks-facial-harmony-trend-is-back-so-heres-why-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:35.695182+00:00
+updated_at: 2026-10-22T09:40:44.064122+00:00
 tags: [record, real-data]
 source: "Google-Search"
-topics: ["소셜콘텐츠"]
+topics: ["소셜콘텐츠", "뷰티스킨케어"]
 domain: "news.google.com"
 url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVU1KX1lCV24xVDJ1UlpmaUNHT1JHQTNLemZmTnFad3NOUkNoNWtGVVpfNHM3cGlNZ185SlBWV1UtRjFxLTNYVE51ME9NT2IwV2s5SjllYks1b3hrUTI0UV9tdTRvRVl2STI4QkVfUU5VVW5qUTNja2ZwOHNVUjdNSU5rWS1ibElzYi05R3lnVGs0UnhJSGtFQU5lZ2tlNnFsNnRMckMxRWhFOGNtQXVRVw?oc=5"
 ---

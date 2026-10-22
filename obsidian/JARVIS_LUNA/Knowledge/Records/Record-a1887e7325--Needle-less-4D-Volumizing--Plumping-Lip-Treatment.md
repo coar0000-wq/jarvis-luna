@@ -2,10 +2,10 @@
 title: "Record a1887e7325 · Needle-less-4D-Volumizing--Plumping-Lip-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-17T16:14:09.712645+00:00
+updated_at: 2026-10-22T09:40:44.808528+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/needle-less-4d-volumizing-plumping-lip-treatment-pimprod2061529"
 ---

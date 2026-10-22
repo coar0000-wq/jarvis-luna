@@ -2,10 +2,10 @@
 title: "Record d37d46d485 · From-Labubus-to-lip-stains-TikTok-reveals-the-bigge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-13T14:32:13.719765+00:00
+updated_at: 2026-10-22T09:40:43.895864+00:00
 tags: [record, real-data]
 source: "Google-Search"
-topics: ["소셜콘텐츠"]
+topics: ["소셜콘텐츠", "뷰티스킨케어"]
 domain: "news.google.com"
 url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5"
 ---

@@ -2,10 +2,10 @@
 title: "Record e47384bbbf · Memory-as-Plans-World-Action-Modeling-with-Memory-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:13.203173+00:00
+updated_at: 2026-10-22T09:40:43.186041+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["컴퓨터-비전", "로보틱스"]
+topics: ["컴퓨터-비전", "로보틱스", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.11561v1"
 ---

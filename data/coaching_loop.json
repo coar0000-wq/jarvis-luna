@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:16:19.313603+09:00",
+  "generated_at": "2026-10-22T19:14:44.184919+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -7,12 +7,12 @@
   "summary": {
     "ready_to_list": 0,
     "ready_with_notes": 0,
-    "fix_then_list": 7,
+    "fix_then_list": 6,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-10-03T11:42:28.608821+00:00",
+      "collected_at": "2026-10-22T09:39:53.444349+00:00",
       "keyword_pool": 40
     }
   },
@@ -78,14 +78,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['skin']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Ampoule — Daiso Find — glass · K-beauty",
+          "primary_text": "Ampoule — Daiso Find — skin · K-beauty",
           "headline": "Ampoule — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -94,7 +94,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -102,137 +102,9 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
-        ],
-        "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
-        ],
-        "score": 5,
-        "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 4,
-        "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
-      }
-    },
-    {
-      "pd_no": "1055167",
-      "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 98,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
-      "readiness": "fix_then_list",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=98",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=7438",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'serum', 'skin', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Serum — Daiso Find — glass · K-beauty",
-          "headline": "Serum — Daiso Find",
-          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
-          "headline": "Serum — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "serum",
-          "K-beauty",
-          "glass skin",
-          "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
           "skin"
         ],
         "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "serum",
           "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
@@ -240,17 +112,12 @@
       },
       "reddit_match": {
         "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "serum",
-          "skin",
-          "skincare"
+          "skin"
         ],
-        "score": 6,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'serum', 'skin', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['skin']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 4,
@@ -320,14 +187,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
-          "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+          "evidence": "matched=['skin']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Ampoule — Daiso Find — glass · K-beauty",
+          "primary_text": "Ampoule — Daiso Find — skin · K-beauty",
           "headline": "Ampoule — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -336,7 +203,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Ampoule — Daiso Find — Affordable hydrating pick",
           "headline": "Ampoule — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -344,34 +211,131 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "skin"
         ],
         "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "skin"
         ],
-        "score": 5,
+        "score": 1,
         "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
-        "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
+        "evidence": "matched=['skin']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+      },
+      "coach_summary": {
+        "pass": 4,
+        "warn": 3,
+        "fail": 1,
+        "next_action": "실패 항목 수정"
+      }
+    },
+    {
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 97,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "readiness": "fix_then_list",
+      "checklist": [
+        {
+          "id": "grade_s",
+          "label": "S등급 유지",
+          "status": "pass",
+          "evidence": "grade=S, score=97",
+          "tip": "S가 아니면 1차 등록 보류"
+        },
+        {
+          "id": "margin",
+          "label": "마진 확인",
+          "status": "warn",
+          "evidence": "pricing 미연결",
+          "tip": "pricing_model 재실행"
+        },
+        {
+          "id": "price_band",
+          "label": "권장가",
+          "status": "warn",
+          "evidence": "suggested_price 없음",
+          "tip": "pricing_model 확인"
+        },
+        {
+          "id": "listing_copy",
+          "label": "영문 리스팅 카피",
+          "status": "fail",
+          "evidence": "카피 미생성",
+          "tip": "shopify-listing-copy 워크플로 실행"
+        },
+        {
+          "id": "listing_ready_flag",
+          "label": "등록 준비 플래그",
+          "status": "warn",
+          "evidence": "listing_ready=False",
+          "tip": "카피·이미지 준비되면 true"
+        },
+        {
+          "id": "global_signal",
+          "label": "글로벌 수요 시그널",
+          "status": "pass",
+          "evidence": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
+        },
+        {
+          "id": "social_proof",
+          "label": "국내 리뷰(대리지표)",
+          "status": "pass",
+          "evidence": "review_count=7438",
+          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
+        },
+        {
+          "id": "reddit_community",
+          "label": "Reddit 뷰티 커뮤니티 키워드",
+          "status": "pass",
+          "evidence": "matched=['skin']",
+          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
+        }
+      ],
+      "ad_copy_ab": {
+        "variant_a": {
+          "label": "A · 성분/커뮤니티 후킹",
+          "primary_text": "Serum — Daiso Find — skin · K-beauty",
+          "headline": "Serum — Daiso Find",
+          "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
+          "cta": "Shop now"
+        },
+        "variant_b": {
+          "label": "B · 가성비/가격 후킹",
+          "primary_text": "Serum — Daiso Find — Affordable hydrating pick",
+          "headline": "Serum — Daiso Find",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
+          "cta": "See price"
+        },
+        "suggested_keywords": [
+          "serum",
+          "K-beauty",
+          "glass skin",
+          "hydrating",
+          "skin"
+        ],
+        "reddit_keywords_used": [
+          "skin"
+        ],
+        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
+        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
+      },
+      "reddit_match": {
+        "matched": [
+          "skin"
+        ],
+        "score": 1,
+        "status": "pass",
+        "evidence": "matched=['skin']",
+        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 4,
@@ -441,14 +405,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['moisturizer', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cream Pdrn — Daiso Find — glass · K-beauty",
+          "primary_text": "Cream Pdrn — Daiso Find — moisturizer · K-beauty",
           "headline": "Cream Pdrn — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -457,7 +421,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream Pdrn — Daiso Find — Affordable hydrating pick",
           "headline": "Cream Pdrn — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -466,33 +430,24 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
-        "score": 5,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['moisturizer', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -563,14 +518,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['moisturizer', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cream — Daiso Find — glass · K-beauty",
+          "primary_text": "Cream — Daiso Find — moisturizer · K-beauty",
           "headline": "Cream — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -579,7 +534,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream — Daiso Find — Affordable hydrating pick",
           "headline": "Cream — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -587,33 +542,24 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
-        "score": 5,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['moisturizer', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
       },
       "coach_summary": {
@@ -684,14 +630,14 @@
           "id": "reddit_community",
           "label": "Reddit 뷰티 커뮤니티 키워드",
           "status": "pass",
-          "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+          "evidence": "matched=['moisturizer', 'skin']",
           "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
         }
       ],
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cream — Daiso Find — glass · K-beauty",
+          "primary_text": "Cream — Daiso Find — moisturizer · K-beauty",
           "headline": "Cream — Daiso Find",
           "description": "Daiso-sourced K-beauty. Lightweight daily use. Target US shoppers searching glass skin.",
           "cta": "Shop now"
@@ -700,7 +646,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Cream — Daiso Find — Affordable hydrating pick",
           "headline": "Cream — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: [9types] MEDIHEAL Toner Pad 100 + 100 Pa.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable hydrating pick. Nearby US ref: AESTURA Atobarrier365 Cream 2.70 fl. oz..",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -708,141 +654,25 @@
           "K-beauty",
           "glass skin",
           "hydrating",
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "reddit_keywords_used": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
         "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
         "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
       },
       "reddit_match": {
         "matched": [
-          "glass",
-          "j-beauty",
-          "k-beauty",
-          "skin",
-          "skincare"
+          "moisturizer",
+          "skin"
         ],
-        "score": 5,
+        "score": 2,
         "status": "pass",
-        "evidence": "matched=['glass', 'j-beauty', 'k-beauty', 'skin', 'skincare']",
+        "evidence": "matched=['moisturizer', 'skin']",
         "tip": "커뮤니티에서 회자되는 키워드와 겹침 — 광고 키워드로 우선 사용"
-      },
-      "coach_summary": {
-        "pass": 4,
-        "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
-      }
-    },
-    {
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "bucket": "메이크업",
-      "shopify_score": 75,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
-      "readiness": "fix_then_list",
-      "checklist": [
-        {
-          "id": "grade_s",
-          "label": "S등급 유지",
-          "status": "pass",
-          "evidence": "grade=S, score=75",
-          "tip": "S가 아니면 1차 등록 보류"
-        },
-        {
-          "id": "margin",
-          "label": "마진 확인",
-          "status": "warn",
-          "evidence": "pricing 미연결",
-          "tip": "pricing_model 재실행"
-        },
-        {
-          "id": "price_band",
-          "label": "권장가",
-          "status": "warn",
-          "evidence": "suggested_price 없음",
-          "tip": "pricing_model 확인"
-        },
-        {
-          "id": "listing_copy",
-          "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
-          "tip": "shopify-listing-copy 워크플로 실행"
-        },
-        {
-          "id": "listing_ready_flag",
-          "label": "등록 준비 플래그",
-          "status": "warn",
-          "evidence": "listing_ready=False",
-          "tip": "카피·이미지 준비되면 true"
-        },
-        {
-          "id": "global_signal",
-          "label": "글로벌 수요 시그널",
-          "status": "pass",
-          "evidence": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
-          "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
-        },
-        {
-          "id": "social_proof",
-          "label": "국내 리뷰(대리지표)",
-          "status": "pass",
-          "evidence": "review_count=1267",
-          "tip": "리뷰 적으면 첫 광고 예산을 더 보수적으로"
-        },
-        {
-          "id": "reddit_community",
-          "label": "Reddit 뷰티 커뮤니티 키워드",
-          "status": "pass",
-          "evidence": "matched=['cushion']",
-          "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
-        }
-      ],
-      "ad_copy_ab": {
-        "variant_a": {
-          "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Cushion — Daiso Find — cushion · cushion",
-          "headline": "Cushion — Daiso Find",
-          "description": "Daiso-sourced cushion. Lightweight daily use. Target US shoppers searching natural finish.",
-          "cta": "Shop now"
-        },
-        "variant_b": {
-          "label": "B · 가성비/가격 후킹",
-          "primary_text": "Cushion — Daiso Find — Affordable buildable pick",
-          "headline": "Cushion — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable buildable pick. Nearby US ref: [3colors] WAKEMAKE Bold Lip Blur Tint Se.",
-          "cta": "See price"
-        },
-        "suggested_keywords": [
-          "cushion",
-          "natural finish",
-          "buildable"
-        ],
-        "reddit_keywords_used": [
-          "cushion"
-        ],
-        "test_plan": "각 안 3~5일 · CTR·ATC 비교 후 승자 유지. 예산은 소액부터.",
-        "human_gate": "광고 계정에 올리기 전 문구·랜딩 링크 사람 확인 필수"
-      },
-      "reddit_match": {
-        "matched": [
-          "cushion"
-        ],
-        "score": 1,
-        "status": "pass",
-        "evidence": "matched=['cushion']",
-        "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
         "pass": 4,

@@ -1,18 +1,18 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-10-22T09:17:24.309818+00:00",
-  "s_count": 7,
+  "generated_at": "2026-10-22T10:15:24.640278+00:00",
+  "s_count": 6,
   "registerable_count": 0,
   "csv_path": "data/shopify_exports/products.csv",
   "manifest_path": "data/shopify_exports/manifest.json",
   "items": [],
   "legal_blocks": [
-    "차단 4건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+    "차단 3건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
   ],
   "suggestions": [
     {
       "action": "resolve_legal_blocks",
-      "detail": "차단 4건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+      "detail": "차단 3건: 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab), [01 페일화이트]밀크터치 디(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
     }
   ]
 }

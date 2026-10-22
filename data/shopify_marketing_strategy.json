@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T18:16:19.246776+09:00",
+  "generated_at": "2026-10-22T19:14:44.140247+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3377,41 +3377,6 @@
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
-      "canonical_product_id": "CP000130",
-      "pd_no": "1055167",
-      "product": "본셉 레티놀 500 IU 세럼 30 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "score": 98,
-      "agent_ready": false,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-047",
-        "MKT-049",
-        "MKT-051",
-        "MKT-013",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
-    },
-    {
       "canonical_product_id": "CP000178",
       "pd_no": "1061918",
       "product": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
@@ -3445,6 +3410,41 @@
       ],
       "paid_action_status": "blocked_until_explicit_user_approval",
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "product": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 97,
+      "agent_ready": false,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
+        "MKT-032",
+        "MKT-034",
+        "MKT-035",
+        "MKT-047",
+        "MKT-049",
+        "MKT-051",
+        "MKT-013",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_user_approval",
+      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
       "canonical_product_id": "CP000216",
@@ -3540,40 +3540,6 @@
         "MKT-049",
         "MKT-051",
         "MKT-013",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
-    },
-    {
-      "canonical_product_id": "CP000256",
-      "pd_no": "1072800",
-      "product": "줌 바이 정샘물 세범다운 쿠션",
-      "bucket": "메이크업",
-      "grade": "S",
-      "score": 75,
-      "agent_ready": false,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-047",
-        "MKT-049",
-        "MKT-051",
         "MKT-014",
         "MKT-015"
       ],
@@ -3736,9 +3702,9 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-22T09:16:19.084860+00:00",
-    "s_product_count": 7,
-    "product_playbook_count": 7,
+    "listing_gate_generated_at": "2026-10-22T10:14:44.027924+00:00",
+    "s_product_count": 6,
+    "product_playbook_count": 6,
     "public_ready_count": 0,
     "agent_ready_count": 0
   }

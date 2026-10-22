@@ -2,24 +2,24 @@
 title: "모델 라우팅·MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-21T21:57:19.139665+00:00
+updated_at: 2026-10-22T10:03:56.601750+00:00
 tags: [topic, real-data]
-record_count: 150
+record_count: 155
 ---
 
 # 모델 라우팅·MoE
 
-실제 수집 레코드 **150건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **155건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[Source--arXiv]] | 72 |
+| [[Source--arXiv]] | 68 |
 | [[Source--Google-Search]] | 31 |
+| [[Source--robotics]] | 24 |
 | [[Source--institutions]] | 16 |
 | [[Source--us_beauty]] | 16 |
-| [[Source--robotics]] | 15 |
 
 ### 최근 레코드 12건
 
@@ -58,3 +58,7 @@ views:
 ## Connected nodes
 
 [[JARVIS Real Knowledge Index]]
+
+## 담당 팀
+
+[[팀 · 지식 수집팀]]

@@ -2,7 +2,7 @@
 title: "기관 · Databricks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.802980+00:00
+updated_at: 2026-10-22T09:40:45.695152+00:00
 tags: [org, real-data]
 record_count: 116
 ---
@@ -29,6 +29,7 @@ record_count: 116
 | [[머신러닝-연구]] | 1 |
 | [[과학수학]] | 1 |
 | [[반도체하드웨어]] | 1 |
+| [[뷰티스킨케어]] | 1 |
 | [[컴퓨터-비전]] | 1 |
 | [[이커머스Shopify]] | 1 |
 

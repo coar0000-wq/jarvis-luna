@@ -2,10 +2,10 @@
 title: "Record 18dadcf4ce · Antioxidant-Facial-Oil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:50.247507+00:00
+updated_at: 2026-10-22T09:40:44.718655+00:00
 tags: [record, real-data]
 source: "organic_skincare"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.madhippie.com"
 url: "https://www.madhippie.com/"
 ---

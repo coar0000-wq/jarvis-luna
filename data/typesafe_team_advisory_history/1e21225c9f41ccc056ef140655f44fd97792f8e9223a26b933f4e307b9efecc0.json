@@ -1,0 +1,673 @@
+{
+  "state": {
+    "scope": "observed_cached_not_independently_verified",
+    "approval": false,
+    "rule": "Missing/unknown evidence=review, not approval. All roles advisory only.",
+    "teams": {
+      "sourcing": {
+        "card_present": true,
+        "status": "failed",
+        "action_kind": "auto_remediable",
+        "waiting_kind": "unknown",
+        "has_action": true,
+        "has_waiting": false,
+        "collection_freshness": {
+          "status": "unknown",
+          "success_age_hours": 560.473,
+          "attempt_age_hours": 57.15,
+          "candidate_success_age_hours": 57.15,
+          "candidates_new": 91,
+          "candidates_updated": 0,
+          "data_stale": true,
+          "attempt_stale": true,
+          "is_failure": false,
+          "is_no_change": false,
+          "is_candidate_collection": true,
+          "last_success_at": "2026-09-29T00:48:58.284474+00:00",
+          "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
+          "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00"
+        },
+        "learning": {
+          "status": "학습 중",
+          "insights": 16,
+          "videos_available": 13,
+          "pending_count": 0,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 5,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "failed",
+          "state": "unknown",
+          "blocker_kind": "auto_remediable",
+          "has_open_action": true,
+          "streak": 1,
+          "stale": false,
+          "since": "2026-10-22T09:27:41.897972+00:00"
+        }
+      },
+      "institutions": {
+        "card_present": true,
+        "status": "warning",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": true,
+        "learning": {
+          "status": "학습 중",
+          "insights": 7,
+          "videos_available": 95,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 7,
+            "confidence": {
+              "high": 7
+            },
+            "with_locator": 4,
+            "with_summary": 7
+          }
+        },
+        "improvement": {
+          "status": "warning",
+          "state": "정체",
+          "blocker_kind": "unknown",
+          "has_open_action": true,
+          "streak": 32,
+          "stale": false,
+          "since": "2026-10-20T11:03:32.197868+00:00"
+        }
+      },
+      "market": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "auto_remediable",
+        "waiting_kind": "unknown",
+        "has_action": true,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 84,
+          "videos_available": 116,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 6,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "정체",
+          "blocker_kind": "auto_remediable",
+          "has_open_action": true,
+          "streak": 35,
+          "stale": true,
+          "since": "2026-10-20T03:17:17.167965+00:00"
+        }
+      },
+      "listing": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": true,
+        "learning": {
+          "status": "학습 중",
+          "insights": 66,
+          "videos_available": 71,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 6,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "정체",
+          "blocker_kind": "unknown",
+          "has_open_action": true,
+          "streak": 25,
+          "stale": false,
+          "since": "2026-10-20T23:26:13.896510+00:00"
+        }
+      },
+      "pricing": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 34,
+          "videos_available": 54,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 6,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "unknown",
+          "blocker_kind": "unknown",
+          "has_open_action": false,
+          "streak": 0,
+          "stale": false
+        }
+      },
+      "legal": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": true,
+        "learning": {
+          "status": "학습 중",
+          "insights": 55,
+          "videos_available": 55,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 6,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "정체",
+          "blocker_kind": "unknown",
+          "has_open_action": true,
+          "streak": 53,
+          "stale": false,
+          "since": "2026-10-19T00:23:20.723685+00:00"
+        }
+      },
+      "robotics": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 10,
+          "videos_available": 69,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 5,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "unknown",
+          "blocker_kind": "unknown",
+          "has_open_action": false,
+          "streak": 0,
+          "stale": false
+        }
+      },
+      "design": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": true,
+        "learning": {
+          "status": "학습 중",
+          "insights": 36,
+          "videos_available": 91,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 6,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "정체",
+          "blocker_kind": "unknown",
+          "has_open_action": true,
+          "streak": 88,
+          "stale": false,
+          "since": "2026-10-17T11:14:25.441205+00:00"
+        }
+      },
+      "channels": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 10,
+          "videos_available": 37,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 5,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "unknown",
+          "blocker_kind": "unknown",
+          "has_open_action": false,
+          "streak": 0,
+          "stale": false
+        }
+      },
+      "knowledge": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 34,
+          "videos_available": 94,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 5,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "unknown",
+          "blocker_kind": "unknown",
+          "has_open_action": false,
+          "streak": 0,
+          "stale": false
+        }
+      },
+      "graph": {
+        "card_present": true,
+        "status": "ok",
+        "action_kind": "unknown",
+        "waiting_kind": "unknown",
+        "has_action": false,
+        "has_waiting": false,
+        "learning": {
+          "status": "학습 중",
+          "insights": 11,
+          "videos_available": 40,
+          "pending_count": 2,
+          "last_review": "2026-10-19T09:49:00+00:00",
+          "evidence": {
+            "items": 10,
+            "confidence": {
+              "high": 10
+            },
+            "with_locator": 5,
+            "with_summary": 10
+          }
+        },
+        "improvement": {
+          "status": "ok",
+          "state": "unknown",
+          "blocker_kind": "unknown",
+          "has_open_action": false,
+          "streak": 0,
+          "stale": false
+        }
+      },
+      "secretary": {
+        "card_present": true,
+        "status": "failed",
+        "action_kind": "revalidate_only",
+        "waiting_kind": "unknown",
+        "has_action": true,
+        "has_waiting": false,
+        "collection_freshness": {
+          "status": "unknown",
+          "success_age_hours": 560.473,
+          "attempt_age_hours": 57.151,
+          "candidate_success_age_hours": 57.151,
+          "candidates_new": 91,
+          "candidates_updated": 0,
+          "data_stale": true,
+          "attempt_stale": true,
+          "is_failure": false,
+          "is_no_change": false,
+          "is_candidate_collection": true,
+          "last_success_at": "2026-09-29T00:48:58.284474+00:00",
+          "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
+          "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00"
+        },
+        "heartbeat": {
+          "status": "warning",
+          "age_hours": 453.373,
+          "is_failure": false,
+          "delayed": true,
+          "last_attempt_at": "2026-10-03T11:54:59.008115+00:00"
+        },
+        "learning": {},
+        "improvement": {},
+        "steps": {
+          "count": 6,
+          "dated": 4,
+          "source_dates": [
+            "2026-10-02T17:37:28.124430+00:00",
+            "2026-10-20T11:01:41.079033+00:00",
+            "2026-10-22T09:16:18.472969+00:00",
+            "2026-10-22T09:16:19.084860+00:00"
+          ],
+          "source_ages_hours": [
+            0.0,
+            0.0,
+            46.3,
+            471.7
+          ]
+        }
+      }
+    },
+    "audits": {
+      "collector_audit": {
+        "products_total": 356,
+        "severity": false,
+        "failure_types_count": 0,
+        "requested": 110,
+        "ok": 0,
+        "parse_failed": 0,
+        "last_run_finished_at": "2026-10-20T00:08:18.691253+00:00"
+      },
+      "signal_audit": {
+        "live_channels": 4,
+        "total_channels": 14,
+        "severity": true,
+        "empty_or_failed_count": 1,
+        "stale_or_manual_count": 10
+      }
+    },
+    "material_inputs_sha256": "7d925052b037eab3c529dc0f5ba47aecffba23d92b7fde7d31f594561d0aefc9"
+  },
+  "model": "jev-1.14.0",
+  "question_version": "jarvis-teams-v1",
+  "model_policy_version": "jarvis-jev-1.14-text-v1",
+  "questions": {
+    "sourcing_quality": {
+      "type": "score",
+      "instructions": "Rate sourcing evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "sourcing_next_action": {
+      "type": "choice",
+      "instructions": "Route sourcing.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "institutions_quality": {
+      "type": "score",
+      "instructions": "Rate institutions evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "institutions_next_action": {
+      "type": "choice",
+      "instructions": "Route institutions.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "market_quality": {
+      "type": "score",
+      "instructions": "Rate market evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "market_next_action": {
+      "type": "choice",
+      "instructions": "Route market.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "listing_quality": {
+      "type": "score",
+      "instructions": "Rate listing evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "listing_next_action": {
+      "type": "choice",
+      "instructions": "Route listing.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "pricing_quality": {
+      "type": "score",
+      "instructions": "Rate pricing evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "pricing_next_action": {
+      "type": "choice",
+      "instructions": "Route pricing.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "legal_quality": {
+      "type": "score",
+      "instructions": "Rate legal evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "legal_next_action": {
+      "type": "choice",
+      "instructions": "Route legal.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "robotics_quality": {
+      "type": "score",
+      "instructions": "Rate robotics evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "robotics_next_action": {
+      "type": "choice",
+      "instructions": "Route robotics.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "design_quality": {
+      "type": "score",
+      "instructions": "Rate design evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "design_next_action": {
+      "type": "choice",
+      "instructions": "Route design.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "channels_quality": {
+      "type": "score",
+      "instructions": "Rate channels evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "channels_next_action": {
+      "type": "choice",
+      "instructions": "Route channels.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "knowledge_quality": {
+      "type": "score",
+      "instructions": "Rate knowledge evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "knowledge_next_action": {
+      "type": "choice",
+      "instructions": "Route knowledge.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "graph_quality": {
+      "type": "score",
+      "instructions": "Rate graph evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "graph_next_action": {
+      "type": "choice",
+      "instructions": "Route graph.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    },
+    "secretary_quality": {
+      "type": "score",
+      "instructions": "Rate secretary evidence.",
+      "criteria": [
+        "insufficient",
+        "review",
+        "usable",
+        "strong"
+      ]
+    },
+    "secretary_next_action": {
+      "type": "choice",
+      "instructions": "Route secretary.",
+      "criteria": {
+        "local": "Sufficient",
+        "source_check": "Missing/stale",
+        "human_review": "Blocked/uncertain"
+      }
+    }
+  }
+}

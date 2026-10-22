@@ -2,10 +2,10 @@
 title: "Record ff58fea799 · EpiGuard-An-Autonomous-Infectious-Disease-Early-Warning-Agent-Platform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-17T16:14:08.051603+00:00
+updated_at: 2026-10-22T09:40:43.321152+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["AI-에이전트"]
+topics: ["AI-에이전트", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2610.19396"
 ---

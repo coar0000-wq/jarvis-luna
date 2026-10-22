@@ -1,7 +1,7 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-22T09:17:24.309805+00:00",
-  "s_count": 7,
+  "generated_at": "2026-10-22T10:15:24.640264+00:00",
+  "s_count": 6,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
     {
@@ -16,18 +16,6 @@
       ]
     },
     {
-      "pd_no": "1055167",
-      "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "score": 98,
-      "why": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
-      "global": "Expert Retinol Super Bounce Serum",
-      "channel": "sokoglam_us",
-      "tokens": [
-        "retinol",
-        "serum"
-      ]
-    },
-    {
       "pd_no": "1061918",
       "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "score": 98,
@@ -37,6 +25,18 @@
       "tokens": [
         "brightening",
         "vitaminc"
+      ]
+    },
+    {
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "score": 97,
+      "why": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "global": "Expert Retinol Super Bounce Serum",
+      "channel": "sokoglam_us",
+      "tokens": [
+        "retinol",
+        "serum"
       ]
     },
     {
@@ -73,15 +73,6 @@
       "tokens": [
         "cream"
       ]
-    },
-    {
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "score": 75,
-      "why": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
-      "global": null,
-      "channel": null,
-      "tokens": []
     }
   ],
   "gaps": [],

@@ -2,10 +2,10 @@
 title: "Record 07d9fc7ed0 · High-Dimensional-Online-Change-Point-Detection-with-Adaptive-Threshold"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:14.465598+00:00
+updated_at: 2026-10-22T09:40:43.243687+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["보안프라이버시"]
+topics: ["보안프라이버시", "뷰티스킨케어"]
 domain: "arxiv.org"
 url: "https://arxiv.org/abs/2609.24278"
 ---

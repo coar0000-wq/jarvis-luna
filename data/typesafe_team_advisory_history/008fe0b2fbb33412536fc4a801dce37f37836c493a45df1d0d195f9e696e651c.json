@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "meaning": "historical_advisory_not_current_evidence_or_approval",
+  "approval": false,
+  "enforced": false,
+  "baseline_sha256": "b8646e38d5966e5f338d2356ed0cd5063820aa030b0df35e6994c423a584b4bd",
+  "previous_sha256": "b8646e38d5966e5f338d2356ed0cd5063820aa030b0df35e6994c423a584b4bd",
+  "current_sha256": "caf878321acbb23d790b85fc3f96ef3bbcc63929bc9cacd5373e4be5620e59dd",
+  "payload_sha256": "1e21225c9f41ccc056ef140655f44fd97792f8e9223a26b933f4e307b9efecc0",
+  "previous_transition_sha256": null,
+  "removed_tokens": [
+    "legend",
+    "probabilities",
+    "type"
+  ],
+  "previous_source": "typesafe",
+  "current_source": "deterministic_local"
+}

@@ -2,7 +2,7 @@
 title: "기관 · Palantir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.924048+00:00
+updated_at: 2026-10-22T09:40:45.765308+00:00
 tags: [org, real-data]
 record_count: 38
 ---
@@ -20,9 +20,9 @@ record_count: 38
 | [[데이터분석]] | 38 |
 | [[의료바이오]] | 6 |
 | [[경영전략]] | 2 |
+| [[뷰티스킨케어]] | 2 |
 | [[법률규제]] | 2 |
 | [[AI-에이전트]] | 1 |
-| [[뷰티스킨케어]] | 1 |
 | [[머신러닝-연구]] | 1 |
 | [[LLM언어모델]] | 1 |
 | [[인프라클라우드]] | 1 |

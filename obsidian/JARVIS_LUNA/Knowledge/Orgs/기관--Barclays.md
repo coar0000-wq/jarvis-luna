@@ -2,7 +2,7 @@
 title: "기관 · Barclays"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.757857+00:00
+updated_at: 2026-10-22T09:40:45.668634+00:00
 tags: [org, real-data]
 record_count: 99
 ---
@@ -25,6 +25,7 @@ record_count: 99
 | [[데이터분석]] | 4 |
 | [[AI-에이전트]] | 2 |
 | [[법률규제]] | 2 |
+| [[뷰티스킨케어]] | 2 |
 | [[과학수학]] | 1 |
 | [[LLM언어모델]] | 1 |
 | [[컴퓨터-비전]] | 1 |

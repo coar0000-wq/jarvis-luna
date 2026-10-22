@@ -2,9 +2,9 @@
 title: "Record d89c4b409b · LOOP-Recovery-Aligned-Iterative-Layer-Pruning-via-On-Policy-Distillati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-21T12:16:58.961650+00:00
+updated_at: 2026-10-22T09:40:43.734951+00:00
 tags: [record, real-data]
-source: "arXiv"
+source: "robotics"
 topics: ["LLM언어모델", "머신러닝-연구", "인프라클라우드"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2610.25679"
@@ -19,4 +19,4 @@ url: "https://doi.org/10.48550/arxiv.2610.25679"
 LOOP: Recovery-Aligned Iterative Layer Pruning via On-Policy Distillation
 Layer-level pruning is attractive for large language model (LLM) deployment as it reduces the model size while preserving a dense architecture that can be efficiently executed on standard hardware. Current methods typically follow a one-shot paradigm, which first removes selected layers to reach a target model size and then performs additional training to recover model capabilities. However, pruni
 
-**출처:** Source · arXiv
+**출처:** Source · robotics

@@ -3,7 +3,7 @@
   "license": "Open Database License (ODbL) - 재사용 허용",
   "auth_required": false,
   "note": "수요 신호가 아니라 상품 정보 보강용 오픈데이터. 각 항목은 바코드(code)와 원본 URL 로 검증 가능하다.",
-  "collected_at": "2026-10-03T11:42:14.985203+00:00",
+  "collected_at": "2026-10-22T09:39:39.044001+00:00",
   "category_map": {
     "스킨케어": "skin-care",
     "마스크팩": "face-masks",
@@ -28,12 +28,12 @@
     "바디케어": 10,
     "구강용품": 10,
     "향수": 11,
-    "핸드케어": 11,
+    "핸드케어": 12,
     "데오드란트": 12,
     "립케어": 12
   },
   "errors": {},
-  "count": 123,
+  "count": 124,
   "products": [
     {
       "code": "4005900963499",
@@ -245,17 +245,17 @@
       "url": "https://world.openbeautyfacts.org/product/8809990942121"
     },
     {
-      "code": "4070765070989",
-      "product_name": "Tuchmaske Selfcare Moments",
-      "brands": "Balea",
+      "code": "4003573021959",
+      "product_name": "AHA Peeling Tuchmaske",
+      "brands": "Schaebens",
       "category": "마스크팩",
       "obf_category": "face-masks",
       "countries": [
         "Germany"
       ],
-      "ingredients_text": "Aqua, Glycerin, Pentylene Glycol, Hydroxyacetophenone, Xanthan Gum, Caprylic/Capric Triglyceride, Sodium Citrate, Citric Acid, Sodium Phytate, Sodium Hyaluronate, Parfum, Albizia Julibrissin Flower Extract",
-      "image_url": "",
-      "url": "https://world.openbeautyfacts.org/product/4070765070989"
+      "ingredients_text": "Aqua, Pentylene Glycol, Acer Saccharum Extract, Allantoin, Citrus Limon Peel Oil, Glucose, Glycolic Acid, Niacinamide, Panthenol, Sodium Ascorbyl Phosphate, Sodium Hyaluronate, Tartaric Acid, Citric Acid, Lactic Acid, Parfum, Sodium Hydroxide, Xanthan Gum.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/400/357/302/1959/front_de.3.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/4003573021959"
     },
     {
       "code": "3337875597333",
@@ -864,6 +864,19 @@
       "url": "https://world.openbeautyfacts.org/product/8717163607268"
     },
     {
+      "code": "3574661701028",
+      "product_name": "crème lavante main lait",
+      "brands": "le Petit Marseillais",
+      "category": "바디케어",
+      "obf_category": "soaps",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661701028"
+    },
+    {
       "code": "8714789700045",
       "product_name": "Palmolive Naturals zeeptablet original",
       "brands": "Palmolive",
@@ -876,19 +889,6 @@
       "ingredients_text": "Sodium Palmate, Sodium Oleate, Aqua, Glycerin, Kaolin, Sodium Laurate, Sodium Chloride, Parfum, Sodium Adipe Lac, Olea Europaea Fruit Oil, Aloe Barbadensis Leaf Juice Powder, Citrus Aurantium Dulcis Peel Powder, Prunus Amygdalus Dulcis Oil, Alpha-Isomethyl Ionone, Benzyl Salicylate, Citronellol, Coumarin, Limonene, Linalool, CI 77891",
       "image_url": "https://images.openbeautyfacts.org/images/products/871/478/970/0045/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/8714789700045"
-    },
-    {
-      "code": "3574661701028",
-      "product_name": "crème lavante main lait",
-      "brands": "le Petit Marseillais",
-      "category": "바디케어",
-      "obf_category": "soaps",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/170/1028/front_fr.7.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661701028"
     },
     {
       "code": "8003520012944",
@@ -1025,19 +1025,6 @@
       "url": "https://world.openbeautyfacts.org/product/3178040661950"
     },
     {
-      "code": "8720181416316",
-      "product_name": "Integral 8 actions Complet",
-      "brands": "Signal",
-      "category": "구강용품",
-      "obf_category": "toothpastes",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Aqua, Hydrogenated Starch Hydrolysate, Hydrated Silica, Zinc Citrate, Kaolin, Sodium Lauryl Sulfate, Aroma, Cellulose Gum, Sodium Fluoride, Sodium Saccharin, Mica, Anethole, Beta-Caryophyllene, Carvone, Limonene, Mentha Piperita Oil, Mentha Viridis Leaf Oil, Menthol, Cl 77491.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/872/018/141/6316/front_fr.5.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8720181416316"
-    },
-    {
       "code": "3538396705102",
       "product_name": "Dentifrice Fraîcheur Menthol Coslys",
       "brands": "Coslys",
@@ -1049,6 +1036,19 @@
       "ingredients_text": "aqua (water), glycerin, calcium carbonate, cellulose gum, aloe barbadensis leaf juice powder*, xanthan gum, carrageenan, mentha piperita (peppermint) oil*,menthol, sodium coco-sulfate, stevia rebaudiana extract, alcohol**, coconut alcohol, sodium sulfate, sodium benzoate. * ingredients issus de l'agriculture biologique. ** transformés à partir d'ingrédients biologiques.",
       "image_url": "https://images.openbeautyfacts.org/images/products/353/839/670/5102/front_fr.6.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3538396705102"
+    },
+    {
+      "code": "8720181416316",
+      "product_name": "Integral 8 actions Complet",
+      "brands": "Signal",
+      "category": "구강용품",
+      "obf_category": "toothpastes",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Aqua, Hydrogenated Starch Hydrolysate, Hydrated Silica, Zinc Citrate, Kaolin, Sodium Lauryl Sulfate, Aroma, Cellulose Gum, Sodium Fluoride, Sodium Saccharin, Mica, Anethole, Beta-Caryophyllene, Carvone, Limonene, Mentha Piperita Oil, Mentha Viridis Leaf Oil, Menthol, Cl 77491.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/872/018/141/6316/front_fr.5.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8720181416316"
     },
     {
       "code": "3450601040139",
@@ -1208,17 +1208,20 @@
       "url": "https://world.openbeautyfacts.org/product/3346131400003"
     },
     {
-      "code": "3600551020419",
-      "product_name": "La Crème des peaux extra-sèches",
-      "brands": "Mixa",
+      "code": "8002110383709",
+      "product_name": "neutrogena creme main",
+      "brands": "Freeos, Neutrogena",
       "category": "핸드케어",
       "obf_category": "hand-creams",
       "countries": [
-        "France"
+        "France",
+        "Italy",
+        "Morocco",
+        "United Kingdom"
       ],
-      "ingredients_text": "Eau, glycérine, palmitate d'isopropyle (isopropyl palmitate), alcool cétéarylique (cetearyl alcohol), propanediol, glyceril stearate, diméthicone, esters de cétyle, huile d'amande douce (Prunus amygdalus dulcis), huile de noyau d'abricot (Prunus armeniaca), beurre de karité (Butyrospermum parkii), allantoïne, PEG-100 stearate, ammonium polyacryloyldimethyl taurate, hydroxyacetophenone, caprylyl glycol, acide citrique, gomme xanthane, parfum (FIL Z280662/1).",
-      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/102/0419/front_en.21.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3600551020419"
+      "ingredients_text": "Aqua, Glycerin, Cetearyl Alcohol, Ethylhexylglycerin, Palmitic Acid, Stearic Acid, Sodium Cetearyl Sulfate, Sodium Sulfate, Tocopherol, Phenoxyethanol.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/800/211/038/3709/front_fr.25.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8002110383709"
     },
     {
       "code": "4005808801053",
@@ -1234,6 +1237,19 @@
       "ingredients_text": "Aqua, Paraffinum Liquidum, Cera Microcristallina, Glycerin, Lanolin Alcohol (Eucerit®), Paraffin, Panthenol, Magnesium Sulfate, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Citric Acid, Magnesium Stearate, Limonene, Geraniol, Hydroxycitronellal, Linalool, Citronellol, Benzyl Benzoate, Cinnamyl Alcohol, Parfum",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/580/880/1053/front_en.27.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005808801053"
+    },
+    {
+      "code": "3600551020419",
+      "product_name": "La Crème des peaux extra-sèches",
+      "brands": "Mixa",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Eau, glycérine, palmitate d'isopropyle (isopropyl palmitate), alcool cétéarylique (cetearyl alcohol), propanediol, glyceril stearate, diméthicone, esters de cétyle, huile d'amande douce (Prunus amygdalus dulcis), huile de noyau d'abricot (Prunus armeniaca), beurre de karité (Butyrospermum parkii), allantoïne, PEG-100 stearate, ammonium polyacryloyldimethyl taurate, hydroxyacetophenone, caprylyl glycol, acide citrique, gomme xanthane, parfum (FIL Z280662/1).",
+      "image_url": "https://images.openbeautyfacts.org/images/products/360/055/102/0419/front_en.21.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3600551020419"
     },
     {
       "code": "4012273123009",
@@ -1263,19 +1279,6 @@
       "url": "https://world.openbeautyfacts.org/product/3600550240276"
     },
     {
-      "code": "3282779416139",
-      "product_name": "Cicalfate",
-      "brands": "Avène, Pierre Fabre",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "France"
-      ],
-      "ingredients_text": "Eau thermal Avène, paraffine (Paraffinum liquidum). Myreth-3 myristate. PEG-45/dodecyl glycol copolymer. Diméthicone. Aluminium sucrose, octasulfate. Octyldodecanol PEG-7 glyceryl cocoate. Aluminum starch octenylsuccinate. Glycérine. Cire d'abeille (cera alba). Alcool cetyl, sulfate de cuivre. Dimethiconol, disteardimonium hectorite. Glyceryl stearate,. Sulfate de magnésium. Phenoxyethanol sodium benzoate. Gomme xanthane. Sulfate de zinc.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/328/277/941/6139/front_fr.19.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3282779416139"
-    },
-    {
       "code": "3574661687018",
       "product_name": "Handcreme - sofort einziehende",
       "brands": "Neutrogena, neutrogena",
@@ -1290,6 +1293,19 @@
       "url": "https://world.openbeautyfacts.org/product/3574661687018"
     },
     {
+      "code": "3282779416139",
+      "product_name": "Cicalfate",
+      "brands": "Avène, Pierre Fabre",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Eau thermal Avène, paraffine (Paraffinum liquidum). Myreth-3 myristate. PEG-45/dodecyl glycol copolymer. Diméthicone. Aluminium sucrose, octasulfate. Octyldodecanol PEG-7 glyceryl cocoate. Aluminum starch octenylsuccinate. Glycérine. Cire d'abeille (cera alba). Alcool cetyl, sulfate de cuivre. Dimethiconol, disteardimonium hectorite. Glyceryl stearate,. Sulfate de magnésium. Phenoxyethanol sodium benzoate. Gomme xanthane. Sulfate de zinc.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/328/277/941/6139/front_fr.19.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3282779416139"
+    },
+    {
       "code": "3337872412684",
       "product_name": "Lipikar xerand",
       "brands": "La roche posay",
@@ -1301,33 +1317,6 @@
       "ingredients_text": "AQUA/WATER, GLYCERIN, OCTYLDODECANOL, STEARIC ACID, PEG-100 STEARATE, PALMITIC ACID, STEARETH-10, PARAFFINUM LIQUIDUM/MINERAL OIL, DIMETHICONE, ALLANTOIN, MYRISTIC ACID, CAPRYLOYL GLYCINE, TETRASODIUM EDTA, XANTHAN GUM, CETYL ALCOHOL, SODIUM BENZOATE, PHENOXETHANOL, PARFUM/FRAGRANCE",
       "image_url": "https://images.openbeautyfacts.org/images/products/333/787/241/2684/front_fr.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/3337872412684"
-    },
-    {
-      "code": "8436024790016",
-      "product_name": "Gel aloe Vera puro",
-      "brands": "Atlantia",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "Spain"
-      ],
-      "ingredients_text": "GEL ALOE VERA PURO Aloe Vera Atlantia: Procede de plantaciones ecológicas de las Islas Canarias. Estabilizado en frio. Mantiene todas las propiedades de la planta. Composición: Rico en vitaminas, aminoácidos, oligoelementos, enzimas, etc. Propiedades: Hidratante y regeneradora celular. Calmante de quemaduras solares, picaduras de insectos, picores en la piel, cortes menores, quemaduras, etc. • Modo de empleo: Aplicar sobre la piel realizando un suave masaje hasta su completa absorción. Se recomienda su utilización 2-3 veces al dia. Puro jugo de aloe vera bio sin agua añadida.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/843/602/479/0016/front_en.20.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8436024790016"
-    },
-    {
-      "code": "3574661365305",
-      "product_name": "Nutrition peaux très sèches",
-      "brands": "Le Petit Marseillais",
-      "category": "핸드케어",
-      "obf_category": "hand-creams",
-      "countries": [
-        "France",
-        "Morocco"
-      ],
-      "ingredients_text": "Aqua, Paraffinum Liquidum, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Argania Spinosa Kernel Oil, Caprylyl Glycol, Hydrogenated Palm Glycerides, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum [PR-0001914]",
-      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/3574661365305"
     },
     {
       "code": "3549621020426",
@@ -1344,17 +1333,44 @@
       "url": "https://world.openbeautyfacts.org/product/3549621020426"
     },
     {
-      "code": "4305615609997",
-      "product_name": "Intensiv Handcreme Urea",
-      "brands": "Isana, Rossmann",
+      "code": "3574661365305",
+      "product_name": "Nutrition peaux très sèches",
+      "brands": "Le Petit Marseillais",
       "category": "핸드케어",
       "obf_category": "hand-creams",
       "countries": [
-        "Germany"
+        "France",
+        "Morocco"
       ],
-      "ingredients_text": "Aqua, Olea Europaea Fruit Oil, Urea, Cetearyl Alcohol, Glycerin, Gylceryl Stearate Citrate, Glyceryl Stearate SE, Ethylhexyl Stearate, Butyrospermum Parkii Butter, Stearic Acid, Persea Gratissima Oil, Cera Alba, Panthenol, Tocopheryl Acetate, Gum, Xantan, Phenoxyethanol, Ethylhexylglycerin.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/430/561/560/9997/front_de.20.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/4305615609997"
+      "ingredients_text": "Aqua, Paraffinum Liquidum, Glycerin, Butyrospermum Parkii Butter, Prunus Amygdalus Dulcis Oil, Argania Spinosa Kernel Oil, Caprylyl Glycol, Hydrogenated Palm Glycerides, Potassium Cetyl Phosphate, Carbomer, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Parfum [PR-0001914]",
+      "image_url": "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3574661365305"
+    },
+    {
+      "code": "8436024790016",
+      "product_name": "Gel aloe Vera puro",
+      "brands": "Atlantia",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "Spain"
+      ],
+      "ingredients_text": "GEL ALOE VERA PURO Aloe Vera Atlantia: Procede de plantaciones ecológicas de las Islas Canarias. Estabilizado en frio. Mantiene todas las propiedades de la planta. Composición: Rico en vitaminas, aminoácidos, oligoelementos, enzimas, etc. Propiedades: Hidratante y regeneradora celular. Calmante de quemaduras solares, picaduras de insectos, picores en la piel, cortes menores, quemaduras, etc. • Modo de empleo: Aplicar sobre la piel realizando un suave masaje hasta su completa absorción. Se recomienda su utilización 2-3 veces al dia. Puro jugo de aloe vera bio sin agua añadida.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/843/602/479/0016/front_en.20.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8436024790016"
+    },
+    {
+      "code": "3337875766326",
+      "product_name": "La Roche-Posay - Cicaplast Mains",
+      "brands": "La Roche-Posay",
+      "category": "핸드케어",
+      "obf_category": "hand-creams",
+      "countries": [
+        "France"
+      ],
+      "ingredients_text": "Aqua/Water/Eau, Glycerin, Butylene Glycol, Cetearyl Alcohol, Niacinamide, Glyceryl Stearate, Butyrospermum Parkii Butter/Shea Butter, Dimethicone, Peg/Ppg-18/18 Dimethicone, Glyceryl Stearate Se, Sodium Polyacrylate, Caprylyl Glycol, Citric Acid, Tocopherol, Phenoxyethanol",
+      "image_url": "https://images.openbeautyfacts.org/images/products/333/787/576/6326/front_en.4.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/3337875766326"
     },
     {
       "code": "8718951254183",
@@ -1426,23 +1442,6 @@
       "url": "https://world.openbeautyfacts.org/product/59095842"
     },
     {
-      "code": "8714789913919",
-      "product_name": "Dermo Protector",
-      "brands": "Sanex",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "France",
-        "Israel",
-        "Morocco",
-        "Portugal",
-        "Spain"
-      ],
-      "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
-      "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/8714789913919"
-    },
-    {
       "code": "4005900243553",
       "product_name": "Nivea men Protect & Care",
       "brands": "Nivea Men",
@@ -1455,6 +1454,23 @@
       "ingredients_text": "Aqua, Aluminium chlorohydrate, PPG-15 stearyl ether, Steareth-2, Steareth-21, Parfum, Glycerin, Panthenol, Octyldodecanol, Persea Gratissima oil, Trisodium EDTA, Limoene, Linalool, Coumarin, Geraniol",
       "image_url": "https://images.openbeautyfacts.org/images/products/400/590/024/3553/front_en.13.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/4005900243553"
+    },
+    {
+      "code": "8714789913919",
+      "product_name": "Dermo Protector",
+      "brands": "Colgate-Palmolive Nederland B.V.",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "France",
+        "Israel",
+        "Morocco",
+        "Portugal",
+        "Spain"
+      ],
+      "ingredients_text": "Propylene Glycol, Aqua, Sodium Stearate, Parfum, Sodium Chloride, Stearyl Alcohol, Tetrasodium EDTA.",
+      "image_url": "https://images.openbeautyfacts.org/images/products/871/478/991/3919/front_en.52.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/8714789913919"
     },
     {
       "code": "3600551146188",
@@ -1471,6 +1487,19 @@
       "url": "https://world.openbeautyfacts.org/product/3600551146188"
     },
     {
+      "code": "42345275",
+      "product_name": "NIVEA Double Effect Antitranspirant Roller",
+      "brands": "Nivea",
+      "category": "데오드란트",
+      "obf_category": "deodorants",
+      "countries": [
+        "Netherlands"
+      ],
+      "ingredients_text": "Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Carbonate, Octyldodecanol, Glycerin, Glyceryl Isostearate, Parfum, Persea Gratissima Oil, PEG-150 Distearate, Citronellol, Alpha-Isomethyl Ionone, Coumarin",
+      "image_url": "https://images.openbeautyfacts.org/images/products/000/004/234/5275/front_nl.17.400.jpg",
+      "url": "https://world.openbeautyfacts.org/product/42345275"
+    },
+    {
       "code": "0012044038918",
       "product_name": "Desodorante",
       "brands": "Old Spice",
@@ -1483,19 +1512,6 @@
       "ingredients_text": "DIPROPYLENE GLYCOL, WATER, PROPYLENE GLYCOL, SODIUM STEARATE, POLOXAMINE 1307, FRAGRANCE, PPG-3 MYRISTYL ETHER, TETRASODIUM EDTA, VIOLET 2, GREEN 6",
       "image_url": "https://images.openbeautyfacts.org/images/products/001/204/403/8918/front_en.16.400.jpg",
       "url": "https://world.openbeautyfacts.org/product/0012044038918"
-    },
-    {
-      "code": "42345275",
-      "product_name": "NIVEA Double Effect Antitranspirant Roller",
-      "brands": "Nivea",
-      "category": "데오드란트",
-      "obf_category": "deodorants",
-      "countries": [
-        "Netherlands"
-      ],
-      "ingredients_text": "Aqua, Aluminum Chlorohydrate, Isoceteth-20, Dicaprylyl Carbonate, Octyldodecanol, Glycerin, Glyceryl Isostearate, Parfum, Persea Gratissima Oil, PEG-150 Distearate, Citronellol, Alpha-Isomethyl Ionone, Coumarin",
-      "image_url": "https://images.openbeautyfacts.org/images/products/000/004/234/5275/front_nl.17.400.jpg",
-      "url": "https://world.openbeautyfacts.org/product/42345275"
     },
     {
       "code": "4005808532452",

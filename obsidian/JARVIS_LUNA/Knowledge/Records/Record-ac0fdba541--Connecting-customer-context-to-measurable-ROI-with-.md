@@ -2,10 +2,10 @@
 title: "Record ac0fdba541 · Connecting-customer-context-to-measurable-ROI-with-agentic-marketing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:48.862233+00:00
+updated_at: 2026-10-22T09:40:44.689402+00:00
 tags: [record, real-data]
 source: "institutions"
-topics: ["마케팅광고", "AI-에이전트", "데이터분석"]
+topics: ["마케팅광고", "AI-에이전트", "뷰티스킨케어", "데이터분석"]
 org: "Databricks"
 domain: "www.databricks.com"
 url: "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing"

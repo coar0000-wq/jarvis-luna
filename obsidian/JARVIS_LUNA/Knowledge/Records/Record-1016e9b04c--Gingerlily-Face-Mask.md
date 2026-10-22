@@ -2,10 +2,10 @@
 title: "Record 1016e9b04c · Gingerlily-Face-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-21T05:14:16.278630+00:00
+updated_at: 2026-10-22T09:40:44.799684+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/gingerlily-face-mask-mkt77012430"
 ---

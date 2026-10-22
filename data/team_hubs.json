@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-10-03T11:55:34.113734+00:00",
+  "generated_at": "2026-10-22T10:04:02.914051+00:00",
   "generator": "scripts/build_team_hubs.py",
   "왜": "Records 가 볼트의 98.6% 라 그래프뷰가 허브 몇 개에 점 수만 개가 매달린 모습이었다. Record -> Topic -> 팀 으로 층을 하나 넣는다.",
   "방식": "Record 파일 3만 7천 개는 건드리지 않는다. Topic 노트에 팀 링크를 한 줄 더하는 것으로 층이 생긴다. 파일을 3만 개 고쳐 쓰면 커밋이 터진다.",
   "vault": {
     "ref": "origin/main",
-    "records": 84113,
+    "records": 85438,
     "topics": 28,
     "orgs": 35
   },
   "corpus_by_source": {
-    "arxiv": 769,
-    "us_beauty": 1696,
-    "robotics": 444,
-    "institutions": 2670,
+    "arxiv": 1020,
+    "us_beauty": 2349,
+    "robotics": 819,
+    "institutions": 2660,
     "organic_skincare": 15,
-    "google": 1134,
+    "google": 1316,
     "youtube": 227
   },
   "teams": 10,
-  "topics_linked": 21,
+  "topics_linked": 20,
   "topics_without_team": [
+    "로보틱스",
     "미분류"
   ],
   "topics_missing": [],
@@ -34,7 +35,7 @@
         "이커머스Shopify",
         "Shopify-Commerce"
       ],
-      "corpus_now": 2830,
+      "corpus_now": 3665,
       "sources": [
         "google",
         "us_beauty"
@@ -48,7 +49,7 @@
         "반도체하드웨어",
         "경영전략"
       ],
-      "corpus_now": 2670,
+      "corpus_now": 2660,
       "sources": [
         "institutions"
       ],
@@ -73,7 +74,7 @@
         "인프라클라우드",
         "과학수학"
       ],
-      "corpus_now": 2130,
+      "corpus_now": 2563,
       "sources": [
         "arxiv",
         "google",
@@ -86,22 +87,26 @@
       "topics": [
         "뷰티스킨케어"
       ],
-      "corpus_now": 1696,
+      "corpus_now": 2349,
       "sources": [
         "us_beauty"
       ],
       "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 상품 소싱팀.md"
     },
     {
-      "team": "로보틱스 수집",
+      "team": "AI 수집팀",
       "topics": [
-        "로보틱스"
+        "AI-Research",
+        "AI-Agents",
+        "AI-에이전트",
+        "LLM언어모델",
+        "AI-Image-Generation"
       ],
-      "corpus_now": 444,
+      "corpus_now": 819,
       "sources": [
         "robotics"
       ],
-      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · 로보틱스 수집.md"
+      "note": "obsidian/JARVIS_LUNA/Knowledge/Teams/팀 · AI 수집팀.md"
     },
     {
       "team": "디자인팀",

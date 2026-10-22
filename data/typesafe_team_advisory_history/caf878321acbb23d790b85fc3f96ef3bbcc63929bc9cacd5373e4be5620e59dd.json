@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "visibility": "private",
+  "generated_at": "2026-10-22T10:01:25.534871+00:00",
+  "source": "deterministic_local",
+  "mode": "proof_missing_or_invalid",
+  "enforced": false,
+  "approval": false,
+  "question_version": "jarvis-teams-v1",
+  "model_policy_version": "jarvis-jev-1.14-text-v1",
+  "requested_model": "jev-1.14.0",
+  "model": null,
+  "context_schema_sha256": "32d3044cc1cd317642e7599278c2d1de4c252d336e72673d8dcfa99507d81c4b",
+  "material_inputs_sha256": "7d925052b037eab3c529dc0f5ba47aecffba23d92b7fde7d31f594561d0aefc9",
+  "scope": "observed_cached_not_independently_verified",
+  "teams": {
+    "sourcing": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "institutions": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "market": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "listing": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "pricing": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "legal": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "robotics": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "design": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "channels": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "knowledge": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "graph": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "source_check",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    },
+    "secretary": {
+      "quality": {
+        "score": 1,
+        "confidence": 0.0
+      },
+      "next_action": {
+        "choice": "human_review",
+        "confidence": 0.0
+      },
+      "source": "deterministic_local",
+      "mode": "proof_missing_or_invalid",
+      "approval": false,
+      "enforced": false
+    }
+  },
+  "answers": {
+    "sourcing_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "sourcing_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    },
+    "institutions_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "institutions_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    },
+    "market_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "market_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "listing_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "listing_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    },
+    "pricing_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "pricing_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "legal_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "legal_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    },
+    "robotics_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "robotics_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "design_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "design_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    },
+    "channels_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "channels_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "knowledge_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "knowledge_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "graph_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "graph_next_action": {
+      "choice": "source_check",
+      "confidence": 0.0
+    },
+    "secretary_quality": {
+      "score": 1,
+      "confidence": 0.0
+    },
+    "secretary_next_action": {
+      "choice": "human_review",
+      "confidence": 0.0
+    }
+  },
+  "usage": null,
+  "paid_api_called": false
+}

@@ -2,7 +2,7 @@
 title: "Source · institutions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-20T13:10:05.654775+00:00
+updated_at: 2026-10-22T09:40:45.312250+00:00
 tags: [source, real-data]
 record_count: 2660
 ---
@@ -32,9 +32,9 @@ record_count: 2660
 | [[마케팅광고]] | 23 |
 | [[음성오디오]] | 20 |
 | [[로보틱스]] | 18 |
+| [[뷰티스킨케어]] | 16 |
 | [[모델-라우팅MoE]] | 16 |
 | [[물류통관]] | 16 |
-| [[뷰티스킨케어]] | 10 |
 | [[이커머스Shopify]] | 3 |
 
 ### 최근 레코드 12건

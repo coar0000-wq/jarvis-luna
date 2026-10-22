@@ -2,10 +2,10 @@
 title: "Record 3df302229c · Lilac-Is-Fall-2026s-Unexpected-Nail-Color-TrendSee-Photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:42.466053+00:00
+updated_at: 2026-10-22T09:40:44.270483+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.allure.com"
 url: "https://www.allure.com/story/lilac-nail-trend-2026"
 ---

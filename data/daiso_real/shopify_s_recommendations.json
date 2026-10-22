@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T09:16:18.174232+00:00",
+  "generated_at": "2026-10-22T10:14:43.331164+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 7,
+  "count": 6,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -72,79 +72,10 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
     },
     {
       "rank": 2,
-      "canonical_product_id": "CP000130",
-      "pd_no": "1055167",
-      "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 5000,
-      "shopify_score": 98,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
-      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
-      "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Expert Retinol Super Bounce Serum",
-        "similarity": 0.853,
-        "demand_weight": 0.475,
-        "matched_tokens": [
-          "retinol",
-          "serum"
-        ],
-        "match_score": 0.405
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
-    },
-    {
-      "rank": 3,
       "canonical_product_id": "CP000178",
       "pd_no": "1061918",
       "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
@@ -218,7 +149,76 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
+    },
+    {
+      "rank": 3,
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "bucket": "스킨케어",
+      "desk": "skincare",
+      "price_krw": 5000,
+      "shopify_score": 97,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "matched_global": {
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "retinol",
+          "serum"
+        ],
+        "match_score": 0.405
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      },
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
     },
     {
       "rank": 6,
@@ -448,74 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
-    },
-    {
-      "rank": 7,
-      "canonical_product_id": "CP000256",
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "bucket": "메이크업",
-      "desk": "makeup",
-      "price_krw": 5000,
-      "shopify_score": 75,
-      "grade": "S",
-      "s_rule": "category_desk_us_evidence",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
-      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
-      "matched_global": null,
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "market_price_review",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 9,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
-          "legal hard block",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-22T09:16:19.084860+00:00"
+      "gate_generated_at": "2026-10-22T10:14:44.027924+00:00"
     }
   ],
   "agent_ready_count": 0,

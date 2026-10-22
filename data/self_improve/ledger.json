@@ -270,5 +270,70 @@
     "source": "us_beauty",
     "source_fit": 0.887,
     "newly_classified": 5
+  },
+  {
+    "at": "2026-10-22T09:40:36.042360+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "lip",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.857,
+    "support": 14,
+    "uncategorized_hits": 13,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 13
+  },
+  {
+    "at": "2026-10-22T09:40:36.042360+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "facial",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.972,
+    "support": 72,
+    "uncategorized_hits": 10,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 10
+  },
+  {
+    "at": "2026-10-22T09:40:36.042360+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "face",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.915,
+    "support": 284,
+    "uncategorized_hits": 8,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 8
+  },
+  {
+    "at": "2026-10-22T09:40:36.042360+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "color",
+    "topic": "뷰티·스킨케어",
+    "precision": 0.861,
+    "support": 36,
+    "uncategorized_hits": 8,
+    "source": "us_beauty",
+    "source_fit": 0.884,
+    "newly_classified": 7
+  },
+  {
+    "at": "2026-10-22T09:40:36.042360+00:00",
+    "loop": "topics",
+    "action": "adopt",
+    "keyword": "scenes",
+    "topic": "컴퓨터 비전",
+    "precision": 0.852,
+    "support": 27,
+    "uncategorized_hits": 6,
+    "source": "arxiv",
+    "source_fit": 0.494,
+    "newly_classified": 6
   }
 ]

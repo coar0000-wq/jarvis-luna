@@ -2,10 +2,10 @@
 title: "Record 7b8d7d687d · WeatherNext-3-More-accurate-timely-and-local-weather-forecasts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:14.138072+00:00
+updated_at: 2026-10-22T09:40:44.869872+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.youtube.com"
 url: "https://www.youtube.com/watch?v=_6jZlnRsXXQ"
 ---

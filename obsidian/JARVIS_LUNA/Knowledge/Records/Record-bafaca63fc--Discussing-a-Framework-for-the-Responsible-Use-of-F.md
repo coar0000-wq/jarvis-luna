@@ -2,10 +2,10 @@
 title: "Record bafaca63fc · Discussing-a-Framework-for-the-Responsible-Use-of-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:20.445789+00:00
+updated_at: 2026-10-22T09:40:43.479367+00:00
 tags: [record, real-data]
 source: "institutions"
-topics: ["법률규제", "데이터분석"]
+topics: ["법률규제", "뷰티스킨케어", "데이터분석"]
 org: "Palantir"
 domain: "doi.org"
 url: "https://doi.org/10.2139/ssrn.5149595"

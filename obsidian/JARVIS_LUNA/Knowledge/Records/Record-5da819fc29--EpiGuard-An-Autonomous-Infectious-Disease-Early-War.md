@@ -2,10 +2,10 @@
 title: "Record 5da819fc29 · EpiGuard-An-Autonomous-Infectious-Disease-Early-Warning-Agent-Platform"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-16T11:51:09.634036+00:00
+updated_at: 2026-10-22T09:40:43.703245+00:00
 tags: [record, real-data]
 source: "arXiv"
-topics: ["AI-에이전트"]
+topics: ["AI-에이전트", "뷰티스킨케어"]
 domain: "doi.org"
 url: "https://doi.org/10.48550/arxiv.2610.19396"
 ---

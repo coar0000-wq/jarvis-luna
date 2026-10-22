@@ -2,10 +2,10 @@
 title: "Record f2fee9e003 · Robot-Finger-Feels-in-Color"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.404948+00:00
+updated_at: 2026-10-22T09:40:44.186994+00:00
 tags: [record, real-data]
 source: "robotics"
-topics: ["컴퓨터-비전", "로보틱스"]
+topics: ["컴퓨터-비전", "로보틱스", "뷰티스킨케어"]
 domain: "spectrum.ieee.org"
 url: "https://spectrum.ieee.org/robot-finger"
 ---

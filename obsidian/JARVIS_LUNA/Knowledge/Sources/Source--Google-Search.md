@@ -2,7 +2,7 @@
 title: "Source · Google Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-22T06:20:36.343850+00:00
+updated_at: 2026-10-22T09:40:45.007016+00:00
 tags: [source, real-data]
 record_count: 1316
 ---
@@ -15,14 +15,14 @@ record_count: 1316
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 865 |
+| [[뷰티스킨케어]] | 870 |
 | [[이커머스Shopify]] | 393 |
 | [[소셜콘텐츠]] | 211 |
 | [[경영전략]] | 96 |
 | [[마케팅광고]] | 84 |
 | [[AI-에이전트]] | 50 |
 | [[모델-라우팅MoE]] | 31 |
-| [[미분류]] | 29 |
+| [[미분류]] | 27 |
 | [[의료바이오]] | 25 |
 | [[물류통관]] | 11 |
 | [[LLM언어모델]] | 9 |

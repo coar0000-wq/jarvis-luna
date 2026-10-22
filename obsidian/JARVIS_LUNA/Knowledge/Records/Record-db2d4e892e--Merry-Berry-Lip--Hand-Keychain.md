@@ -2,10 +2,10 @@
 title: "Record db2d4e892e · Merry-Berry-Lip--Hand-Keychain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-18T13:20:48.442022+00:00
+updated_at: 2026-10-22T09:40:44.806343+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/merry-berry-lip-hand-keychain-pimprod2061163"
 ---

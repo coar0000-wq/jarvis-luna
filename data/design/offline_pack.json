@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:13:43.085713+00:00",
+  "generated_at": "2026-10-22T09:37:31.803234+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -43,17 +43,15 @@
         "products": [
           "1049276",
           "1055167",
-          "1049275",
+          "1061918",
           "1067498"
         ]
       },
       {
         "section": "featured-collection",
-        "collection": "마스크팩",
+        "collection": "메이크업",
         "products": [
-          "1059834",
-          "1027327",
-          "1042619"
+          "1072800"
         ]
       },
       {
@@ -71,63 +69,17 @@
     ]
   },
   "seo": {
-    "status": "초안 완료",
+    "status": "대기",
     "source": "data/shopify_listing_copy.json",
     "rule": "seo_title ≤60자, seo_description 70~160자",
-    "passed": 9,
-    "eligible": 9,
-    "items": [
-      {
-        "pd_no": "1049276",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1055167",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1049275",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1067498",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1072554",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1075857",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1049285",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1059834",
-        "ok": true,
-        "issues": []
-      },
-      {
-        "pd_no": "1042619",
-        "ok": true,
-        "issues": []
-      }
-    ]
+    "passed": 0,
+    "eligible": 0,
+    "items": []
   },
   "assets": {
     "status": "대기",
     "source": "S등급 추천 image_url",
-    "original_images": 10,
+    "original_images": 7,
     "processed_square_white": 0,
     "note": "원본 이미지는 있으나 흰 배경 정사각 가공은 아직 없다. 가공본이 생기면 완료로 올린다."
   }

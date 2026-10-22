@@ -2,10 +2,10 @@
 title: "Record a1a9c9a4fa · 24K-Facial-Peeling-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-19T05:41:09.258268+00:00
+updated_at: 2026-10-22T09:40:44.784222+00:00
 tags: [record, real-data]
 source: "us_beauty"
-topics: ["미분류"]
+topics: ["뷰티스킨케어"]
 domain: "www.ulta.com"
 url: "https://www.ulta.com/p/24k-facial-peeling-gel-mkt77008296"
 ---
