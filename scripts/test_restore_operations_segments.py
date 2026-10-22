@@ -1,5 +1,7 @@
 """Offline immutable-history restore regressions. No providers or remote writes."""
 import copy
+import gc
+import weakref
 import io
 from pathlib import Path
 from unittest.mock import patch
@@ -271,6 +273,71 @@ class SegmentedRestoreTests(fixtures.RestoreTests):
             with self.assertRaises(ValueError):
                 restore._validate_sizes({restore.STATE: b'{}', member: b'x' * 8,
                     restore.LEDGER: b'x' * 8, 'data/operations/reports/r.json': b'x' * 3})
+
+    def test_migration_pair_releases_decoded_states_before_bridge_checks(self):
+        class TrackedDict(dict):
+            pass
+        later = copy.deepcopy(self.new)
+        core.create_task(later, goal='after retained checkpoint', team='design')
+        final = segmented({**self.incoming, restore.STATE: fixtures.body(later)}, self.incoming)
+        unchanged = (dict(self.current), dict(final))
+        state_refs, pair_calls = [], []
+        validate = restore._validate_files
+        validate_pair = restore._nonregression_pair
+
+        def tracked_validate(files):
+            state, ledger = validate(files)
+            tracked_state, tracked_ledger = TrackedDict(state), TrackedDict(ledger)
+            state_refs.extend((weakref.ref(tracked_state), weakref.ref(tracked_ledger)))
+            return tracked_state, tracked_ledger
+
+        def observed_pair(before, after):
+            gc.collect()
+            self.assertTrue(all(ref() is None for ref in state_refs),
+                            'previous pair retained decoded state or ledger')
+            pair_calls.append((dict(before), dict(after)))
+            return validate_pair(before, after)
+
+        with patch.object(restore, '_validate_files', side_effect=tracked_validate), \
+                patch.object(restore, '_nonregression_pair', side_effect=observed_pair):
+            self.assertIsNone(restore._nonregression(self.current, final))
+        bridge = {**final, restore.STATE: self.incoming[restore.STATE]}
+        self.assertEqual(pair_calls, [(self.current, final), (self.current, bridge), (bridge, final)])
+        self.assertEqual(len(state_refs), 12)
+        gc.collect()
+        self.assertTrue(all(ref() is None for ref in state_refs))
+        self.assertEqual((self.current, final), unchanged)
+
+    def test_non_bridge_continuations_validate_exactly_one_pair(self):
+        segmented_current = segmented(self.current)
+        cases = [
+            ('legacy', self.current, self.incoming),
+            ('same raw migration', self.current, segmented_current),
+            ('segmented', segmented_current, segmented(self.incoming, segmented_current)),
+        ]
+        for label, before, after in cases:
+            with self.subTest(label=label), patch.object(restore, '_nonregression_pair',
+                    wraps=restore._nonregression_pair) as pair:
+                self.assertIsNone(restore._nonregression(before, after))
+                self.assertEqual(pair.call_count, 1)
+
+    def test_unexpected_nested_migration_bridge_is_blocked(self):
+        with patch.object(restore, '_nonregression_pair', return_value=dict(self.incoming)) as pair:
+            with self.assertRaisesRegex(restore.Blocked, 'operations_migration_nested_bridge'):
+                restore._nonregression(self.current, self.incoming)
+            self.assertEqual(pair.call_count, 2)
+
+    def test_nested_bridge_never_stages_authenticated_artifact(self):
+        self.replace_archive(segmented(self.incoming))
+        with patch.object(restore, '_nonregression_pair', return_value=dict(self.incoming)) as pair, \
+                patch.object(restore, '_stage') as stage:
+            with self.assertRaisesRegex(restore.Blocked, 'operations_migration_nested_bridge'):
+                self.perform()
+            # Both forward and exact-head reverse checks fail closed.
+            self.assertEqual(pair.call_count, 4)
+            stage.assert_not_called()
+        self.assertEqual(restore.verify_current(self.root), self.current)
+
 
 
 if __name__ == '__main__':

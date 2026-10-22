@@ -356,13 +356,16 @@ def _audit_continuation(old, new, old_sequence):
     # _validate_files has rechecked the complete future event/record/receipt chain.
 
 
-def _nonregression(current, incoming):
+def _nonregression_pair(current, incoming):
     old, before = _validate_files(current)
     new, after = _validate_files(incoming)
     storage.validate_operations_storage_continuation(current[STATE], incoming[STATE],
         current.__getitem__, incoming.__getitem__)
-    old_manifest, new_manifest = _json(current[STATE]), _json(incoming[STATE])
-    if storage.STORAGE_KEY not in old_manifest and storage.STORAGE_KEY in new_manifest:
+    # Retain only flags, not another two complete decoded state dictionaries.
+    old_segmented = storage.STORAGE_KEY in _json(current[STATE])
+    new_segmented = storage.STORAGE_KEY in _json(incoming[STATE])
+    migration_bridge = None
+    if not old_segmented and new_segmented:
         original = storage.operations_migration_bytes(incoming[STATE], incoming.__getitem__)
         if original is None:
             raise Blocked('operations_migration_original_missing')
@@ -375,10 +378,9 @@ def _nonregression(current, incoming):
         if original != current[STATE]:
             # A first migration must itself descend from the legacy baseline;
             # an unrelated or older raw snapshot is not migration provenance.
-            _nonregression(current, {**incoming, STATE: original})
-            # This recursive check terminates: its legacy state is exactly the
-            # migration's original bytes, so this branch cannot recurse again.
-            _nonregression({**incoming, STATE: original}, incoming)
+            # Validate both bridge edges only after this pair's fully decoded
+            # states leave scope. The exact raw snapshot is still preserved.
+            migration_bridge = {**incoming, STATE: original}
     for relative, raw in current.items():
         if relative not in (STATE, LEDGER) and incoming.get(relative) != raw:
             if storage.is_operations_state_member(relative):
@@ -428,6 +430,17 @@ def _nonregression(current, incoming):
     _audit_continuation(old.get('audit'), new.get('audit'), old['sequence'])
     skip = {'sequence','events','receipts','tasks','handoffs','watch','source_recovery','decisions','audit'}
     _extension({k:v for k,v in old.items() if k not in skip}, {k:v for k,v in new.items() if k not in skip})
+    return migration_bridge
+
+
+def _nonregression(current, incoming):
+    # All three original comparisons remain mandatory, but never retain one
+    # comparison's decoded old/new states while running another comparison.
+    bridge = _nonregression_pair(current, incoming)
+    if bridge is not None:
+        for before, after in ((current, bridge), (bridge, incoming)):
+            if _nonregression_pair(before, after) is not None:
+                raise Blocked('operations_migration_nested_bridge')
 
 
 def _archive(raw):

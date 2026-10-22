@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T21:14:39.564123+00:00",
+  "generated_at": "2026-10-22T03:10:01.543158+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -37,9 +37,9 @@
       "business_ready": false,
       "score": 98,
       "evidence": {
-        "global_product": "Anti-Aging Retinol Facial Serum",
-        "channel": "ulta_beauty",
-        "similarity": 0.88
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "channel": "sokoglam_us",
+        "similarity": 0.853
       },
       "added_at": "2026-09-29T10:03:26.384563+00:00",
       "status": "active",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:14:38.962805+00:00",
+  "generated_at": "2026-10-22T03:10:01.048425+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 59,
   "items": [
@@ -104,6 +104,16 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
+      "canonical_product_id": "CP000262",
+      "pd_no": "1073405",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Pro-5 Collagen Anti-Ageing Facial Serum' (ulta_beauty) 유사 26% · 토큰 serum · S제외:weak_solo_token"
+    },
+    {
       "canonical_product_id": "CP000083",
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
@@ -112,16 +122,6 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000262",
-      "pd_no": "1073405",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000134",
@@ -271,7 +271,7 @@
       "shopify_score": 90,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
+      "recommend_reason": "글로벌 'medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.' (amazon_best_sellers) 유사 91% · 토큰 collagen, cream, pdrn"
     },
     {
       "canonical_product_id": "CP000344",
@@ -331,7 +331,7 @@
       "shopify_score": 88,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '7-Color LED Photon Rejuvenation Super Mask + NIR Technology (Limited Edition)' (ulta_beauty) 유사 26% · 토큰 mask · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000157",

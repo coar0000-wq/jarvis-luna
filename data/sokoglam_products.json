@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-20T23:23:12.058519+00:00",
+  "collected_at": "2026-10-21T23:37:07.149226+00:00",
   "is_stale": false,
-  "count": 236,
+  "count": 238,
   "by_collection": {
-    "Best Sellers": 82,
-    "Skincare": 154
+    "Best Sellers": 83,
+    "Skincare": 155
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 236,
+    "n": 238,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -200,6 +200,29 @@
         "fragrance free",
         "Free_Of::Alcohol_Products",
         "Free_Of::Artificial_Colors"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Bio-Lipid Restoring Body Lotion",
+      "brand": "NATURIUM",
+      "price_usd": 16.0,
+      "category": "Body",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/bio-lipid-restoring-body-lotion",
+      "tags": [
+        "badge-vegan",
+        "Body",
+        "body care",
+        "Body Lotion",
+        "cruelty free",
+        "female founded",
+        "female founders",
+        "fragrance free",
+        "Free_of::Parabens",
+        "Lotion",
+        "NATURIUM",
+        "Product_Type::Body"
       ]
     },
     {
@@ -2448,29 +2471,6 @@
         "reedle shot",
         "retinol",
         "serum"
-      ]
-    },
-    {
-      "rank": 39,
-      "name": "Retinol Serum In Gel Mask Set (6 ea)",
-      "brand": "IOPE",
-      "price_usd": 35.0,
-      "category": "Sheet Mask",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/retinol-serum-in-gel-mask-set-6-ea",
-      "tags": [
-        "anti-aging",
-        "Anti-Aging/Wrinkles",
-        "badge-exclusive",
-        "collagen mask",
-        "exclusive",
-        "IOPE",
-        "retinol",
-        "sheet mask",
-        "sheet masks",
-        "Skin_Concern::Anti-Aging/Wrinkles",
-        "Skin_Type::Combination",
-        "Skin_Type::Dry"
       ]
     },
     {
@@ -4920,6 +4920,29 @@
       ]
     },
     {
+      "rank": 220,
+      "name": "Niacinamide Serum 12% Plus Zinc 2%",
+      "brand": "NATURIUM",
+      "price_usd": 17.0,
+      "category": "Serum/Ampoule",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/naturium-niacinamide-serum-12-plus-zinc-2",
+      "tags": [
+        "badge-beautyforgood",
+        "badge-femalefounded",
+        "badge-vegan",
+        "female founded",
+        "female founders",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Animal_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil",
+        "Free_Of::Mineral_Oil",
+        "Free_of::Parabens"
+      ]
+    },
+    {
       "rank": 221,
       "name": "Dear, Klairs Fundamental Ampule Mist",
       "brand": "KLAIRS",
@@ -5170,6 +5193,29 @@
         "depuff",
         "eye serum",
         "eyecream"
+      ]
+    },
+    {
+      "rank": 235,
+      "name": "Niacinamide Cleansing Gel 3%",
+      "brand": "NATURIUM",
+      "price_usd": 18.0,
+      "category": "Water Cleanser",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/naturium-niacinamide-cleansing-gelee-3",
+      "tags": [
+        "badge-beautyforgood",
+        "badge-femalefounded",
+        "badge-vegan",
+        "Cleanser",
+        "Cruelty-free",
+        "female founded",
+        "female founders",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Animal_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil"
       ]
     },
     {
