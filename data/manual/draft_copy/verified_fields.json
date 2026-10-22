@@ -86,6 +86,38 @@
           "sha256": "89796fa7401397e7b976d9fe25922d00348a2f3e81c1f95fd9485838d02d18c4"
         }
       ]
+    },
+    {
+      "pd_no": "1076498",
+      "product_id": "gid://shopify/Product/9708428820737",
+      "mode": "exact_body_only_missing_quantity",
+      "expected_title": "블리스텍스 센시티브 립밤",
+      "variant_identity": [
+        {
+          "id": "gid://shopify/ProductVariant/50919380713729",
+          "sku": "DS-1076498-1"
+        },
+        {
+          "id": "gid://shopify/ProductVariant/50919380746497",
+          "sku": "DS-1076498-2"
+        }
+      ],
+      "before_body_sha256": "c866ef5c3d490032b90375370cb65757ebbfaeaa5606f43fc96049d69cf66913",
+      "after_body_sha256": "e4ef775529f657c0558770d7517d0cbb56c09860ffcb3d5803c212c2f5e3614c",
+      "replacements": [
+        {
+          "old": "<strong>Net contents:</strong> 의 스틱형",
+          "new": "<strong>Net contents:</strong> Source verification pending."
+        }
+      ],
+      "sources": [
+        {
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/1F6KSkBlP5gf2mCXKoxU1076498_01_001F6KSkBlP5gf2mCXKoxU.jpg",
+          "local_file": "sources/1076498-01.webp",
+          "sha256": "891537d57585dd3e5db55072a0d7fec508bdc31871fe41261ee64cc0ea5b8e60"
+        }
+      ],
+      "review_note": "Remove the malformed quantity fragment only. Supplier artwork contains 4.25g and approximately 4.5g; country evidence also conflicts. No quantity, country, title, ingredient or safety claim is selected or approved."
     }
   ]
 }

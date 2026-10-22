@@ -61,6 +61,8 @@ import json
 import os
 import re
 import sys
+import unicodedata
+from decimal import Decimal
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -149,8 +151,44 @@ def clean_maker(value: str) -> str:
     return value if residue and real(value) else ""
 
 
+_NET_AMOUNT = re.compile(
+    r"(?<![0-9A-Za-z_.,+\-])([+\-]?(?:(?:[0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)"
+    r"(?:\.[0-9]+)?|\.[0-9]+))\s*"
+    r"(?:fl\.?\s*oz\.?|kg|mg|ml|g|l|oz|ea|pcs?|pieces?|sheets?|count|"
+    r"밀리리터|리터|밀리그램|킬로그램|그램|개입|개|매|장|포|입)(?![A-Za-z])", re.I,
+)
+_NET_UNVERIFIED = re.compile(
+    r"미\s*(?:확인|제공|표기|기재|상)|확인\s*(?:필요|불가|중)|추정|추측|예상|미정|"
+    r"아님|아니[다며라고]|아닙|아냐|불명|알\s*수\s*없|(?:해당|정보)\s*없|오(?:기|타)|"
+    r"(?:제공|표기|확인|기재)\s*(?:되지|안\s*(?:됨|된|함))|"
+    r"상세\s*페이지\s*참조|별도\s*표기|"
+    r"\bnot\s*(?:available|verified|provided|confirmed|known|correct|applicable|specified|[0-9])|"
+    r"pending|unknown|estimated|unverified|unconfirmed|unspecified|uncertain|\bTB[CD]\b", re.I,
+)
+
+
+def clean_net_contents(value: str) -> str:
+    """Require an explicit positive quantity and unit; never infer from a title.
+
+    1076498 yielded '의 스틱형' and incorrectly passed collection completeness.
+    This is only a syntax check, not product identity, label or safety approval.
+    Preserve valid source text, including wet/dry quantities and pack counts.
+    """
+    if not isinstance(value, str) or not real(value):
+        return ""
+    normalized = unicodedata.normalize("NFKC", value).replace("−", "-")
+    if _NET_UNVERIFIED.search(normalized):
+        return ""
+    quantities = _NET_AMOUNT.findall(normalized)
+    if not quantities or any(Decimal(n.replace(",", "")) <= 0 for n in quantities):
+        return ""
+    return value.strip()
+
+
 def notice_value(field: str, value: str) -> str:
-    return clean_maker(value) if field == "maker" else value
+    if field == "maker":
+        return clean_maker(value)
+    return clean_net_contents(value) if field == "volume" else value
 
 
 def _label_position(line: str, name: str) -> int:
@@ -199,7 +237,7 @@ def parse_alt(alt: str) -> dict[str, str]:
                 else:
                     # 값이 '(주)메가코스'처럼 괄호로 시작할 수 있으므로
                     # 구분자만 제거하고 값의 괄호는 보존한다.
-                    rest = tail.lstrip(" :：·-").strip()
+                    rest = tail.lstrip(" :：·" if field == "volume" else " :：·-").strip()
                 if rest:
                     value = notice_value(field, rest)
                     if real(value):

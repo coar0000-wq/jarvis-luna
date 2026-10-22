@@ -21,6 +21,16 @@ class CopyPlanTests(unittest.TestCase):
         self.now, self.root = self.fixture.now, self.fixture.root
         self.policy = planner.read_json(planner.POLICY)
         self.original_policy = deepcopy(self.policy)
+        # Synthetic body hashes are patched only inside offline fixtures. The
+        # production constants and reviewed policy retain the observed hashes.
+        rule = next(r for r in self.policy['products'] if r['pd_no'] == planner.BODY_ONLY_PD)
+        before = '<p>' + rule['replacements'][0]['old'] + '</p>'
+        before += '<p>Preserve existing directions, warnings, ingredients and custom content.</p>'
+        after = before.replace(rule['replacements'][0]['old'], rule['replacements'][0]['new'])
+        rule['before_body_sha256'], rule['after_body_sha256'] = planner.text_sha(before), planner.text_sha(after)
+        hashes = patch.multiple(planner, BODY_ONLY_BEFORE_SHA=rule['before_body_sha256'],
+                                BODY_ONLY_AFTER_SHA=rule['after_body_sha256'])
+        hashes.start(); self.addCleanup(hashes.stop)
         for rule in self.policy['products']:
             for i, source in enumerate(rule['sources']):
                 p = self.root / source['local_file']; p.parent.mkdir(parents=True, exist_ok=True)
@@ -36,7 +46,7 @@ class CopyPlanTests(unittest.TestCase):
         self.rule = rule
         self.snapshot['shop']['id'] = self.policy['shop_id']
         p = self.snapshot['product']
-        p.update(id=rule['product_id'], title=rule['old_title'], status='DRAFT',
+        p.update(id=rule['product_id'], title=rule.get('old_title', rule.get('expected_title')), status='DRAFT',
                  tags=['daiso-pd-' + pid], publishedAt=None, publications=[])
         template = deepcopy(p['variants'][0])
         p['variants'] = []
@@ -55,13 +65,67 @@ class CopyPlanTests(unittest.TestCase):
         self.assertEqual(before, self.snapshot)
 
     def test_both_products_exact_minimal_changes(self):
-        for pid in planner.ALLOWED:
+        for pid in ('1073406', '1033789'):
             self.prepare(pid); before = deepcopy(self.snapshot); result = self.plan()
             self.assertEqual(before, self.snapshot)
             self.assertEqual(set(result['changes']), {'title','descriptionHtml'})
             self.assertIn('Preserve existing directions',result['changes']['descriptionHtml'])
             self.assertTrue(all(result[k] is False for k in planner.FLAGS))
             self.assertFalse(result['apply_allowed'])
+
+    def test_blistex_exact_body_only_and_idempotent(self):
+        self.prepare('1076498'); before = deepcopy(self.snapshot); result = self.plan()
+        self.assertEqual(set(result['changes']), {'descriptionHtml'})
+        self.assertEqual(result['changes']['descriptionHtml'],
+                         before['product']['descriptionHtml'].replace(planner.BODY_ONLY_REPLACEMENT['old'], planner.BODY_ONLY_REPLACEMENT['new']))
+        self.assertEqual(self.snapshot, before)
+        self.assertEqual(planner.allowed_fields('1076498'), ['descriptionHtml'])
+        self.assertEqual(planner.protected(before)['product']['title'], planner.BODY_ONLY_TITLE)
+        self.snapshot['product'].update(result['changes'])
+        self.assertEqual(planner.verify_readback(result, self.snapshot, now=self.now)['state'], 'copy_readback_verified')
+        self.assertEqual(self.plan()['changes'], {})
+
+    def test_blistex_whole_body_drift_and_mixed_markers_hold(self):
+        self.prepare('1076498'); original = self.snapshot['product']['descriptionHtml']
+        for body in (original + ' ', original.replace('directions', 'unreviewed'),
+                     original * 2, original + planner.BODY_ONLY_REPLACEMENT['new'],
+                     original.replace(planner.BODY_ONLY_REPLACEMENT['old'], planner.BODY_ONLY_REPLACEMENT['new']) + '<p>extra</p>'):
+            with self.subTest(body=body):
+                self.snapshot['product']['descriptionHtml'] = body; self.held()
+
+    def test_blistex_identity_status_title_and_variant_changes_hold(self):
+        self.prepare('1076498'); original = deepcopy(self.snapshot)
+        for alter in (lambda p: p.update(id=planner.ALLOWED['1033789']),
+                      lambda p: p.update(status='ACTIVE'), lambda p: p.update(title='New English title'),
+                      lambda p: p.update(tags=['daiso-pd-1033789']),
+                      lambda p: p['variants'][0].update(sku='wrong')):
+            self.snapshot = deepcopy(original); alter(self.snapshot['product']); self.held()
+
+    def test_blistex_policy_cannot_change_replacement_or_hashes(self):
+        self.prepare('1076498'); original = deepcopy(self.rule)
+        for changes in ({'before_body_sha256': 'a'*64}, {'after_body_sha256': 'b'*64},
+                        {'expected_title':'Changed'}, {'mode':'general_copy'},
+                        {'replacements':[{'old':planner.BODY_ONLY_REPLACEMENT['old'],'new':'4.25 g'}]}):
+            self.rule.update(changes); self.held(); self.rule.clear(); self.rule.update(deepcopy(original))
+
+    def test_blistex_rehashed_title_or_body_plan_is_rejected(self):
+        self.prepare('1076498'); original = self.plan()
+        for changes in ({'title':'Changed'}, {'descriptionHtml':'4.25 g'}, {},
+                        {**original['changes'], 'title':planner.BODY_ONLY_TITLE}):
+            plan = deepcopy(original); plan['changes'] = changes
+            plan['plan_sha256'] = planner.sha({k:v for k,v in plan.items() if k != 'plan_sha256'})
+            with self.assertRaises(planner.Hold): planner.verify_readback(plan, self.snapshot, now=self.now)
+
+    def test_blistex_readback_protects_title_and_other_fields(self):
+        self.prepare('1076498'); plan = self.plan(); after = deepcopy(self.snapshot)
+        after['product'].update(plan['changes'])
+        for field, value in (('title','Changed'), ('status','ACTIVE'), ('media',[]), ('tags',[])):
+            changed = deepcopy(after)
+            if changed['product'][field] == value: continue
+            changed['product'][field] = value
+            with self.assertRaises(planner.Hold): planner.verify_readback(plan, changed, now=self.now)
+        changed = deepcopy(after); changed['product']['variants'][0]['price'] = '999'
+        with self.assertRaises(planner.Hold): planner.verify_readback(plan, changed, now=self.now)
 
     def test_idempotent(self):
         result = self.plan(); self.snapshot['product'].update(result['changes'])

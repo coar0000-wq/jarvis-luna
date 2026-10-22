@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "pd_no": "1076498",
+  "product_id": "gid://shopify/Product/9708428820737",
+  "shop_id": "gid://shopify/Shop/82748997889",
+  "canonical_shop": "rb3zh1-i1.myshopify.com",
+  "transport_shop": "coarfamily.myshopify.com",
+  "expected_status": "DRAFT",
+  "execution_ticket": "owner-blistex-20261022-8829e8e9",
+  "authorized_at": "2026-10-22T22:33:51.507299+00:00",
+  "expires_at": "2026-10-23T22:33:51.507299+00:00",
+  "allowed_fields": [
+    "descriptionHtml"
+  ],
+  "authorization_evidence": {
+    "message_id": "Sentinel_8829e8e9812081919bc5c0a18f170435",
+    "user_text": "계속진행해줘 승인할테니",
+    "verified_sent_at": "2026-10-22T22:33:51.507299+00:00",
+    "request_message_id": "Sentinel_8c7b820d6dac81919e17815fc776aa6e",
+    "request_sent_at": "2026-10-22T22:00:09.715022+00:00",
+    "authorized_scope": "Upload, test, merge, deploy and verify the reviewed 23-file repair bundle, including the six-file exact Blistex DRAFT body correction and execution record. Replace only the malformed net-contents fragment with Source verification pending.; do not change prices, activation, sales publication or payments."
+  },
+  "scope_note": "Exact product and pinned before/after body hashes in the reviewed code. descriptionHtml only, one replacement. Preserve title, DRAFT status, variants, inventory, prices, media, publications, ingredients, country and false review flags. No quantity or country conflict resolution is claimed. The 24-hour expiry is an execution restriction, not an additional user statement.",
+  "transport_evidence": {
+    "run_id": 38991111290,
+    "head_sha": "1953068aefabe2ef8e62482ae43317952027a7d2",
+    "verification": "Successful exact environment equality guard and canonical shop identity guard; current environment is rechecked by deployed read-only prepare before any apply."
+  }
+}

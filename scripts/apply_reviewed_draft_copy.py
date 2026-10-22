@@ -46,8 +46,9 @@ class ShopifyClient(gallery.ShopifyClient):
         return snapshot
 
     def update_once(self, product_id, changes):
-        require(product_id in copy.ALLOWED.values() and changes and
-                set(changes) <= {'title','descriptionHtml'}, 'copy_mutation_scope_invalid')
+        require(product_id in copy.ALLOWED.values() and changes, 'copy_mutation_scope_invalid')
+        pd_no = next(pd for pd, product in copy.ALLOWED.items() if product == product_id)
+        copy.validate_changes(pd_no, changes)
         response = self.gql(COPY_MUTATION, {'product': {'id': product_id, **changes}}).get('productUpdate')
         require(isinstance(response, dict) and response.get('userErrors') == [] and
                 (response.get('product') or {}).get('id') == product_id, 'copy_response_unverified')
@@ -73,7 +74,7 @@ def validate_scope(scope, snapshot, now, *, expiry=True):
     start, end = stamp(scope.get('authorized_at')), stamp(scope.get('expires_at'))
     require(timedelta(0) < end-start <= timedelta(hours=24), 'scope_window_invalid')
     require(not expiry or start <= now <= end, 'scope_expired_or_future')
-    require(scope.get('allowed_fields') == ['title','descriptionHtml'], 'scope_fields_invalid')
+    require(scope.get('allowed_fields') == copy.allowed_fields(scope['pd_no']), 'scope_fields_invalid')
 
 
 def implementation_digest():
@@ -106,7 +107,8 @@ def validate_plan_digest(plan, expected):
     validate_scope(plan['scope'], plan['before'], utcnow(), expiry=False)
     require(plan['copy_plan']['product_id'] == plan['scope']['product_id'] and
             plan['copy_plan']['pd_no'] == plan['scope']['pd_no'], 'copy_identity_mismatch')
-    require(set(plan['copy_plan']['changes']) <= {'title','descriptionHtml'}, 'copy_fields_invalid')
+    copy.validate_changes(plan['scope']['pd_no'], plan['copy_plan']['changes'])
+    copy.validate_body_only_plan(plan['copy_plan'])
     unsigned = {k:v for k,v in plan['copy_plan'].items() if k != 'plan_sha256'}
     require(copy.sha(unsigned) == plan['copy_plan']['plan_sha256'], 'copy_plan_digest_mismatch')
 

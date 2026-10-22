@@ -791,7 +791,7 @@ def _inci_resolver():
 
 
 def _net_contents(raw, name_kr=""):
-    raw = _clean(raw)
+    raw = notice_value("volume", _clean(raw))
     # "2ml*6개입" 같은 세트는 개당 용량 x 개수로 쓰고 단위 환산은 하지 않는다 (총량으로 오해될 수 있다)
     sm = re.search(r"[*xX×]\s*(\d+)\s*(?:개입|개|ea|매|입)", name_kr or "")
     if sm and re.fullmatch(r"\d+(?:\.\d+)?\s*(?:ml|mL|ML|g|G)", raw):
@@ -852,8 +852,11 @@ def build_us_label(pd_no, name_kr, g):
         log(f"  inci failed: {exc}")
         reasons.append("inci_error")
 
-    if g.get("volume"):
-        label["net_contents"] = _net_contents(g["volume"], name_kr)
+    net_contents = _net_contents(g.get("volume"), name_kr)
+    if net_contents:
+        label["net_contents"] = net_contents
+    else:
+        reasons.append("net_contents_missing_or_invalid")
     origin = ORIGIN_EN.get(_clean(g.get("origin")).lower().replace(" ", "")) or ORIGIN_EN.get(_clean(g.get("origin")).lower())
     if origin:
         label["origin"] = origin
@@ -882,6 +885,8 @@ def build_us_label(pd_no, name_kr, g):
     li = []
     if label.get("net_contents"):
         li.append(("Net contents", label["net_contents"]))
+    else:
+        li.append(("Net contents", "Source verification pending."))
     if label.get("ingredients_inci"):
         li.append(("Ingredients (INCI)", label["ingredients_inci"]))
     if label.get("maker"):
