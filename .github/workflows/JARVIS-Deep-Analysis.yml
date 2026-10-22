@@ -1136,6 +1136,7 @@ jobs:
           name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             data/operations/state.json
+            data/operations/state
             data/operations/reports
           include-hidden-files: true
           if-no-files-found: error

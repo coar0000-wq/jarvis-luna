@@ -10,6 +10,7 @@ import copy
 import hashlib
 import json
 import os
+import re
 import tempfile
 from contextlib import contextmanager
 from pathlib import Path
@@ -21,6 +22,7 @@ import jarvis_watch as watch
 import jarvis_recovery as recovery
 import jarvis_audit as audit
 import brain_plane
+import operations_storage as storage
 from operations_storage import OPS_STATE_MAX_BYTES
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,6 +41,12 @@ INPUTS = ('data/product_master.json','data/pricing_model.json','data/listing_gat
 
 def read(root, relative, default=None):
     file = execution._safe(root, relative)
+    if relative == STATE:
+        if not file.exists():
+            return copy.deepcopy(default)
+        brain_plane.brain.note_exclusion(file, root)
+        return storage.load_operations_state(_storage_bytes(root, relative),
+                                             lambda name: _storage_bytes(root, name))
     if brain_plane.brain.current_execution(root) is not None:
         value = brain_plane.read_json(file, root, copy.deepcopy(default))
         core.canonical(value)
@@ -75,19 +83,107 @@ def serialized_output(relative, value):
     return body
 
 
-def atomic(root, relative, value):
-    body = serialized_output(relative, value)
+def _storage_bytes(root, relative):
+    path = execution._safe(root, relative)
+    limit = storage.operations_file_max_bytes(relative)
+    if not path.is_file() or path.stat().st_size > limit:
+        raise ValueError('operations storage member missing or oversized')
+    with path.open('rb') as stream:
+        body = stream.read(limit + 1)
+    if len(body) > limit:
+        raise ValueError('operations storage member oversized')
+    return body
+
+
+def _require_state_with_history(root):
+    history = execution._safe(root, storage.OPS_STATE_DIRECTORY)
+    if (execution._safe(root, execution.ExecutionStore.filename).exists()
+            or history.exists() and (not history.is_dir() or next(history.iterdir(), None) is not None)):
+        raise ValueError('task state missing with execution history; reconcile, do not reset')
+
+
+def _prepare_state_output(root, state):
+    """Check the complete retained safety set before writing any checkpoint."""
+    path = execution._safe(root, STATE)
+    previous = _storage_bytes(root, STATE) if path.exists() else None
+    if previous is None:
+        _require_state_with_history(root)
+    checked_reads = {}
+    def read_member(name):
+        body = _storage_bytes(root, name)
+        checked_reads[name] = body
+        return body
+    files = storage.prepare_operations_state(state, previous, read_member)
+    sizes = {STATE: len(files[STATE])}
+    directory = execution._safe(root, storage.OPS_STATE_DIRECTORY)
+    if directory.exists():
+        if not directory.is_dir():
+            raise ValueError('operations storage directory invalid')
+        for member in directory.iterdir():
+            name = storage.OPS_STATE_DIRECTORY + '/' + member.name
+            # prepare has already checked the bytes/hash/schema of every
+            # referenced member read in this call. Orphans get the same full
+            # member validation here; nothing is cached across checkpoints.
+            if name in checked_reads:
+                body = checked_reads[name]
+            else:
+                body = _storage_bytes(root, name)
+                storage.validate_operations_state_member(name, body)
+            sizes[name] = len(body)
+    reports = execution._safe(root, 'data/operations/reports')
+    if reports.exists():
+        for report in reports.iterdir():
+            name = 'data/operations/reports/' + report.name
+            if name == execution.ExecutionStore.lockname:
+                continue
+            if name != execution.ExecutionStore.filename and not re.fullmatch(
+                    r'data/operations/reports/[A-Za-z0-9][A-Za-z0-9_.-]{0,190}\.json', name):
+                raise ValueError('unexpected operations report')
+            path = execution._safe(root, name, reports=True)
+            if not path.is_file() or path.stat().st_size > storage.OPS_MEMBER_MAX_BYTES:
+                raise ValueError('operations report storage capacity reached')
+            sizes[name] = path.stat().st_size
+    for name, body in files.items():
+        if name != STATE:
+            storage.validate_operations_state_member(name, body)
+            if name in sizes and _storage_bytes(root, name) != body:
+                raise ValueError('operations storage immutable member conflict')
+        sizes[name] = len(body)
+    if (len(sizes) > storage.OPS_SNAPSHOT_MAX_FILES
+            or sum(name.startswith(storage.OPS_STATE_DIRECTORY + '/') for name in sizes) > storage.OPS_STORAGE_MAX_MEMBERS
+            or sum(sizes.values()) > storage.operations_snapshot_max_bytes(sizes[STATE])):
+        raise ValueError('operations snapshot storage capacity reached; pruning/reset forbidden')
+    return files
+
+
+def _atomic_bytes(root, relative, body, *, immutable=False):
     dest = execution._safe(root, relative)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest = execution._safe(root, relative)
-    fd, temp = tempfile.mkstemp(prefix='.operations-', dir=dest.parent)
+    if immutable and dest.exists():
+        if _storage_bytes(root, relative) != body:
+            raise ValueError('operations storage immutable member conflict')
+        return
+    # Never stage partial bytes inside the strict immutable namespace. A killed
+    # process can leave a temporary file without poisoning the old manifest.
+    staging = execution._safe(root, 'data/operations') if immutable else dest.parent
+    fd, temp = tempfile.mkstemp(prefix='.operations-', dir=staging)
     try:
         with os.fdopen(fd, 'wb') as stream:
             stream.write(body)
             stream.flush()
             os.fsync(stream.fileno())
         execution._safe(root, relative)
-        os.replace(temp, dest)
+        if immutable:
+            # A digest path must never be overwritten, even under a collision or
+            # unexpected concurrent writer. Hard-link only fully durable bytes.
+            try:
+                os.link(temp, dest)
+            except FileExistsError:
+                if _storage_bytes(root, relative) != body:
+                    raise ValueError('operations storage immutable member conflict')
+        else:
+            os.replace(temp, dest)
         if os.name != 'nt':
             directory = os.open(dest.parent, os.O_RDONLY)
             try:
@@ -98,6 +194,18 @@ def atomic(root, relative, value):
         if os.path.exists(temp):
             os.unlink(temp)
     brain_plane.record(dest, root)
+
+
+def atomic(root, relative, value):
+    if relative == STATE:
+        files = _prepare_state_output(root, value)
+        for name, body in files.items():
+            if name != STATE:
+                _atomic_bytes(root, name, body, immutable=True)
+        # The sole mutable pointer is replaced only after every member fsync.
+        _atomic_bytes(root, STATE, files[STATE])
+    else:
+        _atomic_bytes(root, relative, serialized_output(relative, value))
 
 
 @contextmanager
@@ -360,8 +468,8 @@ def run(root=ROOT, *, now=None, execute_local=True, goal=None):
         raise ValueError('organizational roster changed')
     with transaction(root):
         exists = execution._safe(root, STATE).exists()
-        if not exists and execution._safe(root, execution.ExecutionStore.filename).exists():
-            raise ValueError('task state missing with execution history; reconcile, do not reset')
+        if not exists:
+            _require_state_with_history(root)
         state = read(root, STATE, core.empty_state())
         validate_state(root, state)
         if not state['watch'] and state['sequence']:
@@ -480,7 +588,10 @@ def run(root=ROOT, *, now=None, execute_local=True, goal=None):
         # never reset/replay them or partially update decisions before rejecting
         # an oversized graph. IO/integrity failures still fail closed as before.
         for relative, value in outputs:
-            serialized_output(relative, value)
+            if relative == STATE:
+                _prepare_state_output(root, value)
+            else:
+                serialized_output(relative, value)
         for relative, value in outputs:
             atomic(root, relative, value)
         return board
