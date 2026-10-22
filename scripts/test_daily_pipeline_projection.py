@@ -61,7 +61,8 @@ class DailyProjectionTests(unittest.TestCase):
             # This renderer shares its capacity formatter with the history list.
             formatter=re.search(r'function formatProductSize\([\s\S]*?\n}',html)
             self.assertIsNotNone(formatter)
-            script=formatter.group(0)+'\n'+script
+            helpers=html.split('function draftRoute(item){')[1].split('(async function(){')[0]
+            script=formatter.group(0)+'\nfunction draftRoute(item){'+helpers+'\n'+script
             script=script.replace('renderDailyPipeline();\nsetInterval(renderDailyPipeline,300000);','')
             data=json.loads((out/'data/shopify_daily_registry.json').read_text())
             observed_data=json.loads((out/'data/shopify_public_observations.json').read_text())

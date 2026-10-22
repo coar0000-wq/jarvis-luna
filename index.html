@@ -444,7 +444,7 @@ nav a{font-size:12px;}
 <!-- 오늘의 상품 등록 파이프라인 -->
 <div class="dp-section" id="daily-pipeline">
   <div class="dp-head"><h3>최근 상품 등록 기록 · 준비 상태</h3><span class="dp-when" id="dp-when">불러오는 중…</span></div>
-  <div class="dp-sub">스킨케어·메이크업·바디 전담팀은 정규 S상품만 검토 · 적격 후보가 없으면 보류, A등급 대체 없음 · 아래 카드는 과거 등록 이력이며 Shopify 현재 상태는 별도 확인 필요 · 단품 + 1+1 · 선케어 제외</div>
+  <div class="dp-sub">정규 S 준비 현황과 승인된 대체 DRAFT 생성 이력은 별도 경로입니다. 정규 S 적격 후보가 없으면 보류하며, 별도 승인된 메이크업 랭킹·바디 카테고리 대체는 비공개 초안만 허용합니다. 아래는 과거 생성 기록이며 현재 승인·Shopify 상태는 별도 확인이 필요합니다. · 단품 + 1+1 · 선케어 제외</div>
   <div class="dp-kpis" id="dp-kpis"></div>
   <div class="dp-grid" id="dp-grid"></div>
 </div>
@@ -1083,11 +1083,12 @@ function linkify(s){
 const act = t.action ? teamFlag(linkify(esc(t.action)), t.action_kind) : '';
 const wait = t.waiting ? teamFlag(linkify(esc(t.waiting)), t.waiting_kind) : '';
 const notice = t.notice ? teamFlag(linkify(esc(t.notice)), 'informational') : '';
+const copyPrerequisite = t.id==='listing' ? '<div class="team-summary">카피 선행조건: 제품별 제조사 안전자료가 미확인이면 AI 입력과 카피 생성도 보류됩니다. 고시·영문 라벨·법률 등 다른 선행조건도 충족해야 하며, 모델 재실행만으로 해제되지 않습니다.</div>' : '';
 return '<li class="team-row">'
 +'<div class="team-icon">'+mark+'</div>'
 +'<div class="team-body">'
 +'<div class="team-name">'+esc(t.name)+badge+'<span class="team-when">'+esc(teamWhen(t.when))+'</span></div>'
-+'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act+wait+notice+renderTeamVideoReview(t.youtube_learning)
++'<div class="team-summary">'+esc(t.summary||'')+'</div>'+copyPrerequisite+act+wait+notice+renderTeamVideoReview(t.youtube_learning)
 +'</div></li>';
 }).join('');
 // 노란색 숫자는 비서실장이 자동 해결·재검증할 항목만 센다.
@@ -1892,7 +1893,7 @@ function renderBeautyStrategy(doc){
   add('h4','스킨케어 · 메이크업 · 바디케어 | 가격 조사 범위');
   add('p','마진·손익은 경고만 · 가격 근거, 안전자료, 영문 라벨, 재고, 이미지와 중복 검증은 유지합니다.');
   const counts=['skincare','makeup','body'].map(k=>{const c=doc.categories[k];return c?c.daiso_name+' 조사 '+c.product_count+'개':k+' 확인 전';});
-  add('p',counts.join(' · ')+' · 조사 범위는 실제 등록 큐가 아닙니다. 등록은 위 전담팀의 정규 S큐만 검토하며, A등급 대체는 없습니다.');
+  add('p',counts.join(' · ')+' · 조사 범위는 실제 등록 큐가 아닙니다. 정규 S 준비 큐와 별도 승인된 비공개 대체 초안 경로는 구분합니다. A등급을 S로 승격하지 않습니다.');
   add('p','상업 우선순위 = 수요 점수 × 0.6 + 검증된 배송 포함 최저가 우위 점수(최대 40). 동일 품목·세트총량·통화·시장·시각을 맞추며, 미검증 가격은 가점 0입니다.');
   const coverage=doc.input_coverage||{}, positions=coverage.price_position||{};
   const verified=(positions.verified_below||0)+(positions.verified_not_below||0);
@@ -2028,7 +2029,29 @@ syncNavigation();
 </script>
 <script>
 /* 내부 사유 코드를 사람이 읽는 말로 바꾼다. 모르는 코드는 원문 그대로 둔다(숨기지 않는다). */
-function reasonText(codes){
+function draftRoute(item){
+  var reasons=Array.isArray(item&&item.draft_reasons)?item.draft_reasons:[];
+  if(reasons.includes('ranking_fallback_draft_only')) return '메이크업 랭킹 대체';
+  if(reasons.includes('owner_category_fallback_draft_only')) return '바디 카테고리 대체';
+  return '';
+}
+function displayProductId(item){
+  var value=item&&item.pd_no;
+  return typeof value==='string' && /^[0-9]+$/.test(value)?value:null;
+}
+function canonicalCounts(doc){
+  if(!doc || doc.canonical!==true || !Array.isArray(doc.recommendations) ||
+     doc.recommendations.some(function(r){return !displayProductId(r);})) return null;
+  var counts=Object.create(null);
+  doc.recommendations.forEach(function(r){var key=String(r.pd_no);counts[key]=(counts[key]||0)+1;});
+  return counts;
+}
+function registrationRouteText(item, counts){
+  var route=draftRoute(item), id=displayProductId(item), count=id&&counts&&counts[id];
+  if(route) return '생성 경로: 승인 대체 DRAFT 이력 · '+route+' (현재 승인·공개 허용 아님)';
+  return count===1?'현재 정규 S 후보 · 생성 당시 경로는 별도 기록 참고':'생성 경로: 확인 필요 · 정규 S 여부는 현재 후보 기준';
+}
+function reasonText(codes, item, counts){
   var map={
     listing_gate_public_not_ready:'공개 게이트 미통과', listing_gate_draft_not_ready:'초안 게이트 미통과',
     listing_gate_legal_full_incomplete:'법률 전체 검토 미완료', listing_gate_legal_hard_block:'법률 차단',
@@ -2039,7 +2062,13 @@ function reasonText(codes){
   var seen={}, out=[];
   (codes||[]).forEach(function(c){
     c=String(c); var t;
-    if(map[c]) t=map[c];
+    if(c==='listing_gate_product_missing_or_ambiguous'){
+      var id=displayProductId(item), count=id&&counts&&counts[id];
+      if(draftRoute(item) && id && counts && !count) t='대체 초안: 현재 정규 S 공개 게이트 대상 아님 · 공개 불가 (생성 당시 게이트 미연결 기록)';
+      else if(count>1) t='현재 정규 S 상품번호 중복 · 식별 확인 필요 (생성 당시 게이트 미연결 기록)';
+      else t='생성 당시 공개 게이트 상품 미확인 또는 식별 모호 · 재검증 필요';
+    }
+    else if(map[c]) t=map[c];
     else if(c.indexOf('listing_gate_public_blocked_by:')===0) t='공개 차단: '+c.split(':')[1].split(',').map(function(x){return part[x]||x;}).join('·');
     else if(c.indexOf('manufacturer_safety_record_missing')===0) t='제조사 안전자료 없음';
     else if(c.indexOf('brand_english_unverified:')===0) t='영문 브랜드명 미확인('+c.split(':')[1]+')';
@@ -2054,6 +2083,8 @@ function reasonText(codes){
   if(!sum||!list) return;
   try{
     var d=await getJSON('data/shopify_daily_registry.json');
+    var historyCounts=null;
+    try{historyCounts=canonicalCounts(await getJSON('data/daiso_real/shopify_s_recommendations.json'));}catch(e){}
     // 2026-10-16: 공개가 아니면 전부 '초안' 으로 셌다. deleted_by_owner(사용자가 지운 것)까지
     // 초안 5 로 나왔다(실제 초안 4). 목록도 배열 역순이라 날짜가 뒤섞였다. 상태별로 세고 날짜순으로 둔다.
     var items=((d&&d.items)||[]).slice().sort(function(a,b){return String(a.date||'').localeCompare(String(b.date||''));});
@@ -2071,10 +2102,10 @@ function reasonText(codes){
       var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'가격 미산정';
       var cmp=i.shop_com_lowest_usd?(' · shop.com 최저 $'+Number(i.shop_com_lowest_usd).toFixed(2)):' · shop.com 비교 없음';
       var st={ACTIVE:'당시 ACTIVE',DRAFT:'당시 DRAFT',deleted_by_owner:'삭제 이력'}[i.status]||'상태 확인 필요';
-      var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+reasonText(i.draft_reasons)):'';
+      var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+reasonText(i.draft_reasons,i,historyCounts)):'';
       var head=document.createElement('strong'); head.textContent='['+cat+'] '+i.title;
       var meta=document.createElement('div'); meta.style.color='#8b949e';
-      meta.textContent='생성 당시 '+i.date+' · '+st+' · '+sz+' · 당시 이미지 '+(i.images||0)+'장 · '+price+cmp+why;
+      meta.textContent='생성 당시 '+i.date+' · '+st+' · '+registrationRouteText(i,historyCounts)+' · '+sz+' · 당시 이미지 '+(i.images||0)+'장 · '+price+cmp+why;
       li.appendChild(head); li.appendChild(meta); list.appendChild(li);
     });
   }catch(err){ sum.textContent='등록 현황을 불러오지 못했습니다.'; }
@@ -2088,8 +2119,8 @@ async function renderDailyPipeline(){
   var CATS=[['skincare','스킨케어 전담팀','S등급 · 스킨/토너·에센스/세럼/앰플·크림·로션·미스트/픽서'],['makeup','메이크업 전담팀','S등급 · 미국 실판매 근거'],['body','바디 전담팀','S등급 · 미국 실판매 근거']];
   var DESK_OF={'스킨케어':'skincare','메이크업':'makeup','바디케어':'body'};
   var deskS={skincare:0,makeup:0,body:0};
-  var sSet={};
-  try{ var sr=await getJSON('data/daiso_real/shopify_s_recommendations.json'); ((sr&&sr.recommendations)||[]).forEach(function(r){ var d=r.desk||DESK_OF[r.bucket]; if(d&&deskS[d]!=null) deskS[d]++; sSet[String(r.pd_no)]=1; }); }catch(e){}
+  var sSet={}, currentCounts=null;
+  try{ var sr=await getJSON('data/daiso_real/shopify_s_recommendations.json'); currentCounts=canonicalCounts(sr); ((sr&&sr.recommendations)||[]).forEach(function(r){ var d=r.desk||DESK_OF[r.bucket]; if(d&&deskS[d]!=null) deskS[d]++; sSet[String(r.pd_no)]=1; }); }catch(e){}
   var observedByPd={};
   try{ var observationData=await getJSON('data/shopify_public_observations.json');
     ((observationData&&observationData.items)||[]).forEach(function(o){if(o&&o.pd_no) observedByPd[String(o.pd_no)]=o;});
@@ -2148,6 +2179,7 @@ async function renderDailyPipeline(){
     toggle.setAttribute('aria-controls','dp-detail-'+c[0]);
     card.appendChild(toggle);
     if(it){
+      card.appendChild(el('div','dp-price',registrationRouteText(it,currentCounts)));
       var links=el('div','dp-links');
       function addProductLink(label,url){
         var a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent=label;
@@ -2210,7 +2242,8 @@ async function renderDailyPipeline(){
       row('색 의미', '파랑 = 단계 완료, 노랑 = 현재 확인 대기, 빨강 = 현재 보완 필요, 회색 = 이전 단계 대기');
       row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
       row('가격 근거', it.price_basis||'-');
-      row('생성 당시 초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
+      row('초안 사유 설명', (it.draft_reasons&&it.draft_reasons.length)? reasonText(it.draft_reasons,it,currentCounts) : '기록 없음');
+      row('생성 당시 사유 코드', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
     } else { row('상태','등록 이력 없음'); row('담당 기준', c[2]); }
     card.appendChild(det);
     // Native button activation handles Enter/Space and bubbles here exactly once.

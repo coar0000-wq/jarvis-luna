@@ -9,6 +9,7 @@ const navigation = first?.slice(first.indexOf('function syncNavigation(){'));
 const pipeline = scripts.find(script => script.includes('async function renderDailyPipeline()'))
   ?.replace('\nrenderDailyPipeline();\nsetInterval(renderDailyPipeline,300000);', '');
 const history = scripts.find(script => script.includes('shopify-daily-summary'));
+const displayHelpers = history?.slice(0, history.indexOf('(async function(){'));
 assert(formatter && navigation && pipeline && history, 'Expected dashboard scripts are present');
 
 // Minimal DOM fixture checks the native-button contract;
@@ -48,7 +49,7 @@ class Element {
     }
   }
 }
-function context({hash = '', items = [], observations = []} = {}) {
+function context({hash = '', items = [], observations = [], recommendations = [], canonical = true} = {}) {
   const ids = {}, host = new Element('section');
   for (const id of ['dp-grid', 'dp-kpis', 'dp-when', 'shopify-daily-summary', 'shopify-daily-list']) {
     ids[id] = new Element('div'); host.appendChild(ids[id]);
@@ -62,21 +63,48 @@ function context({hash = '', items = [], observations = []} = {}) {
     createTextNode: text => ({textContent: String(text)}),
     querySelectorAll: selector => { assert.equal(selector, 'nav a'); return nav; },
   };
-  const data = {items}, observed = {items: observations};
+  const data = {items}, observed = {items: observations}, sources = {canonical, recommendations};
   const ctx = vm.createContext({document, window, URL, console, setInterval() {},
     getJSON: async path => {
       if (ctx.fail) throw Error('network unavailable');
-      if (path.includes('recommendations')) return {recommendations: []};
+      if (path.includes('recommendations')) return sources;
       if (path.includes('observations')) return observed;
       return data;
     }});
   vm.runInContext(formatter, ctx);
-  return {ctx, ids, host, nav, window, events, data, observed};
+  vm.runInContext(displayHelpers, ctx);
+  return {ctx, ids, host, nav, window, events, data, observed, sources};
 }
 function state(card) { return card.querySelector('.dp-steps').children.map(step => step.className.replace('dp-step ', '')); }
 function row(values) { return {pd_no: '1074979', category: 'makeup', date: '2026-10-19', title: 'Fixture product', status: 'DRAFT', ...values}; }
 
 (async () => {
+  const helpers = context().ctx;
+  const missing = ['listing_gate_product_missing_or_ambiguous'];
+  const fallback = row({draft_reasons: [...missing, 'ranking_fallback_draft_only']});
+  const emptyCounts = helpers.canonicalCounts({canonical: true, recommendations: []});
+  assert.match(helpers.registrationRouteText(fallback, emptyCounts), /승인 대체 DRAFT 이력/);
+  assert.match(helpers.reasonText(missing, fallback, emptyCounts), /현재 정규 S 공개 게이트 대상 아님/);
+  for (const pd_no of [undefined, null, '', ' ', {}, 'abc', 1074979]) {
+    assert.match(helpers.reasonText(missing, {...fallback, pd_no}, emptyCounts), /미확인 또는 식별 모호/);
+  }
+  assert.match(helpers.reasonText(missing, fallback, null), /미확인 또는 식별 모호/);
+  assert.match(helpers.reasonText(missing, row({}), emptyCounts), /미확인 또는 식별 모호/);
+  const duplicateCounts = helpers.canonicalCounts({canonical: true, recommendations: [{pd_no:'1074979'}, {pd_no:'1074979'}]});
+  assert.match(helpers.reasonText(missing, fallback, duplicateCounts), /상품번호 중복/);
+  const singleCounts = helpers.canonicalCounts({canonical: true, recommendations: [{pd_no:'1074979'}]});
+  assert.doesNotMatch(helpers.reasonText(missing, fallback, singleCounts), /대상 아님/);
+  assert.match(helpers.registrationRouteText(row({}), singleCounts), /현재 정규 S 후보/);
+  for (const pd_no of [1074979, ['1074979'], null, ' ']) {
+    assert.doesNotMatch(helpers.registrationRouteText(row({pd_no}), singleCounts), /현재 정규 S 후보/);
+  }
+  for (const invalid of [null, {}, {canonical:false,recommendations:[]}, {canonical:true,recommendations:[{}]}]) {
+    assert.equal(helpers.canonicalCounts(invalid), null);
+  }
+  assert.equal(helpers.draftRoute(row({draft_reasons:['owner_category_fallback_draft_only']})), '바디 카테고리 대체');
+  assert.equal(helpers.draftRoute(row({grade:'RANK'})), '', 'A grade alone does not establish an approved fallback history');
+  assert.match(html, /카피 선행조건: 제품별 제조사 안전자료가 미확인이면 AI 입력과 카피 생성도 보류/);
+  assert.match(html, /정규 S 준비 현황과 승인된 대체 DRAFT 생성 이력은 별도 경로/);
   const f = context().ctx.formatProductSize;
   for (const size of [null, undefined, {}, [], '', {unit: 10}, {base: 'ml'},
     {unit: '10', base: 'ml'}, {unit: NaN, base: 'ml'}, {unit: Infinity, base: 'ml'},
@@ -156,6 +184,17 @@ function row(values) { return {pd_no: '1074979', category: 'makeup', date: '2026
   assert(fixture.ids['dp-grid'].textContent.includes('표기 없음'));
   assert(!/NaN|undefined/.test(fixture.ids['shopify-daily-list'].textContent + fixture.ids['dp-grid'].textContent));
 
+  fixture.data.items = [fallback];
+  await fixture.ctx.renderDailyPipeline();
+  assert.match(fixture.ids['dp-grid'].textContent, /승인 대체 DRAFT 이력/);
+  assert.match(fixture.ids['dp-grid'].textContent, /현재 정규 S 공개 게이트 대상 아님/);
+  assert.match(fixture.ids['dp-grid'].textContent, /listing_gate_product_missing_or_ambiguous/, 'Original reason code is retained');
+  await vm.runInContext(history, fixture.ctx);
+  assert.match(fixture.ids['shopify-daily-list'].textContent, /현재 정규 S 공개 게이트 대상 아님/);
+  fixture.sources.canonical = false;
+  await fixture.ctx.renderDailyPipeline();
+  assert.doesNotMatch(fixture.ids['dp-grid'].textContent, /현재 정규 S 공개 게이트 대상 아님/);
+  fixture.sources.canonical = true;
   const card = fixture.ids['dp-grid'].children[1];
   const toggle = card.querySelector('.dp-toggle'), detail = card.querySelector('.dp-detail');
   assert.equal(toggle.tagName, 'BUTTON'); assert.equal(toggle.type, 'button');
