@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:25:09.060682+00:00",
+  "generated_at": "2026-10-22T23:34:47.218991+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -45,6 +45,7 @@
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
+        "market_price_review",
         "legal_full"
       ],
       "typesafe": {
@@ -66,13 +67,13 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     },
     {
       "rank": 2,
@@ -149,7 +150,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     },
     {
       "rank": 3,
@@ -218,7 +219,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +288,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +369,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     },
     {
       "rank": 6,
@@ -448,7 +449,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
+      "gate_generated_at": "2026-10-22T23:34:48.130941+00:00"
     }
   ],
   "agent_ready_count": 0,

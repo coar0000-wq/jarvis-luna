@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T22:25:09.974160+00:00",
+  "generated_at": "2026-10-22T23:34:48.130941+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,9 +8,9 @@
       "data/product_master.json": "c3e1c9e4cd29084533b6e2dfab871275ebfe78e5e159b9202d1ee431dafc8284",
       "data/gosi.json": "4ae98da826650bc8756ec9e13917f13a6f1bca3163d779b85cffda77325a42a4",
       "data/daiso_real/daiso_us_labels.json": "87045c2b154f0ff488cd5a6928315539a3c61a751c760d2755946bb450199d65",
-      "data/pricing_model.json": "982ff67399e04e93ee3ed02dfaf7abc566380a5caba8a1f302eec1c24e904671",
-      "data/legal_products.json": "bffa96bf83881797d0e5ce7d9fcf87e4e08bb0b8f90d91c8dbf4e8ea90923d0e",
-      "data/daiso_real/shopify_s_recommendations.json": "04638415a961b842b7b43caea2b871737c1348385645a959f63eb8eef702440d",
+      "data/pricing_model.json": "78034fdad5ff8a00f10092ee74f0ff02800303724bf652a0249ace4b388762df",
+      "data/legal_products.json": "b2a07106cdf89a550a12f9244fefc0466fcd46b3814db57b1a9d23856f893c6d",
+      "data/daiso_real/shopify_s_recommendations.json": "17e182e693bd9f60099b1c71b12c338322ef71033eead236b46ce78725a5cc7a",
       "data/shopify_listing_copy.json": "24045f6b5454b64a76fae0440ca8e503cd08fdd605c9d77dfa8ed64659f6cc49",
       "data/shopify_shortlist.json": "21ac915c501d5351aa2ed8f9d1924507ddaaef9638cb78463faa0140310774b9",
       "data/legal_full.json": "28983a18dbd9e3b77e44465ef4ead461365bcabe3d64c766984f1edf01d1dd75",
@@ -25,7 +25,7 @@
       "masked/product_accuracy_evidence": "cd9090be39707d44b060e9a53e93df00f73ba518eb154a86cf8d80387e9c3428",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "911b15f4105f1ea1c99238a1a86798a0d5b5b68cccd9e5dcfebef0279b55c33a"
+    "recommendations_sha256": "7f7c1b7aabab0a02e4f78e0ba9803bc106983c4beef3bd7240a5ee2d5502039a"
   },
   "total": 6,
   "agent_ready": 0,
@@ -54,7 +54,7 @@
     "strategy_file": "config/daiso_commerce_strategy.json",
     "strategy_sha256": "94071a8903880c4b5993b0caa4dea76bfa35f99ac36c92e6bd1c7c3327f10634",
     "margin_hard_block": false,
-    "products_with_profit_warnings": 0,
+    "products_with_profit_warnings": 1,
     "note": "시장가격 미확인은 비용 기반 임시 가격이 있는 초안 등록을 막지 않는다. 공개 전 가격 검토는 별도다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
   },
   "typesafe_summary": {
@@ -130,12 +130,14 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 60.7,
+        "price_usd": 15.42,
+        "margin_pct": 40.0,
         "register_blocked": false,
-        "price_evidence_ok": true,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [],
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
         "profit_warnings": [],
         "blocks_registration": false
       },
@@ -162,6 +164,7 @@
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
+        "market_price_review",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -184,7 +187,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -366,13 +369,15 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 19.99,
-        "margin_pct": 44.6,
+        "price_usd": 17.99,
+        "margin_pct": 38.6,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
-        "profit_warnings": [],
+        "profit_warnings": [
+          "margin_below_target:38.6%<40.0%"
+        ],
         "blocks_registration": false
       },
       "legal": {
@@ -479,8 +484,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 31.99,
-        "margin_pct": 62.2,
+        "price_usd": 20.99,
+        "margin_pct": 43.5,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
