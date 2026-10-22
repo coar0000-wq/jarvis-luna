@@ -2,7 +2,7 @@
 title: "Record 01392d2439 · 3colors-WAKEMAKE-Any-proof-Pen-Eyeliner-001-oz05g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:40.029327+00:00
+updated_at: 2026-10-22T12:43:29.496254+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://us.oliveyoung.com/products/UA34434982"
 **제목:** [3colors] WAKEMAKE Any-proof Pen Eyeliner 0.01 oz.(0.5g)
 
 [3colors] WAKEMAKE Any-proof Pen Eyeliner 0.01 oz.(0.5g)
-[3colors] WAKEMAKE Any-proof Pen Eyeliner 0.01 oz.(0.5g) · 평점 4.7 · 리뷰 53
+[3colors] WAKEMAKE Any-proof Pen Eyeliner 0.01 oz.(0.5g) · 평점 4.7 · 리뷰 60
 
 **출처:** Source · us_beauty

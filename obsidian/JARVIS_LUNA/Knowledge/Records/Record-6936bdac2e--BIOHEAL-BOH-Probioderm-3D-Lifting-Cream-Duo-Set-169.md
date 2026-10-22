@@ -2,7 +2,7 @@
 title: "Record 6936bdac2e · BIOHEAL-BOH-Probioderm-3D-Lifting-Cream-Duo-Set-169-fl-oz50ml-X-2eaCre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.657752+00:00
+updated_at: 2026-10-22T12:43:29.479025+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["의료바이오", "뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://us.oliveyoung.com/products/UA14716690"
 **제목:** BIOHEAL BOH Probioderm™ 3D Lifting Cream Duo Set 1.69 fl. oz.(50ml) X 2ea+Cream Mask 1.23 oz.(35g) X 2ea
 
 BIOHEAL BOH Probioderm™ 3D Lifting Cream Duo Set 1.69 fl. oz.(50ml) X 2ea+Cream Mask 1.23 oz.(35g) X 2ea
-BIOHEAL BOH Probioderm™ 3D Lifting Cream Duo Set 1.69 fl. oz.(50ml) X 2ea+Cream Mask 1.23 oz.(35g) X 2ea
+BIOHEAL BOH Probioderm™ 3D Lifting Cream Duo Set 1.69 fl. oz.(50ml) X 2ea+Cream Mask 1.23 oz.(35g) X 2ea · 평점 5 · 리뷰 1
 
 **출처:** Source · us_beauty

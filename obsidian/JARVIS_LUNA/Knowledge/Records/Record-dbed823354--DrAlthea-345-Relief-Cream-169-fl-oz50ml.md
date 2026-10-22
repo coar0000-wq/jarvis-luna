@@ -2,7 +2,7 @@
 title: "Record dbed823354 · DrAlthea-345-Relief-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:40.870061+00:00
+updated_at: 2026-10-22T12:43:29.533734+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://us.oliveyoung.com/products/UA73639757"
 **제목:** Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)
 
 Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml)
-Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml) · 평점 4.8 · 리뷰 1,659
+Dr.Althea 345 Relief Cream 1.69 fl. oz.(50ml) · 평점 4.8 · 리뷰 1,666
 
 **출처:** Source · us_beauty

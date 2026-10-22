@@ -2,7 +2,7 @@
 title: "Record c68549b22e · LAGOM-Cellup-Micro-Foam-Cleanser-405-fl-oz120ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:40.500535+00:00
+updated_at: 2026-10-22T12:43:29.519595+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://us.oliveyoung.com/products/UA54607798"
 **제목:** [2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml)
 
 [2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml)
-[2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml) · 평점 4.8 · 리뷰 5,358
+[2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml) · 평점 4.8 · 리뷰 5,490
 
 **출처:** Source · us_beauty

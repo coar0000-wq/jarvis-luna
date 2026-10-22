@@ -2,7 +2,7 @@
 title: "Record 4f409a9437 · AESTURA-Atobarrier365-Cream-Set-270-fl-oz80ml--Hydro-Essence-085-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:41.097488+00:00
+updated_at: 2026-10-22T12:43:29.543612+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -14,9 +14,9 @@ url: "https://us.oliveyoung.com/products/UA84445797"
 
 > 실제 수집 레코드입니다. 원문: [us.oliveyoung.com](https://us.oliveyoung.com/products/UA84445797)
 
-**제목:** AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) + Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml)
+**제목:** AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) (+ Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml))
 
-AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) + Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml)
-AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) + Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml) · 평점 4.9 · 리뷰 264
+AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) (+ Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml))
+AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) (+ Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml)) · 평점 4.9 · 리뷰 269
 
 **출처:** Source · us_beauty

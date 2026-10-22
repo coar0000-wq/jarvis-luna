@@ -2,20 +2,20 @@
 title: "LLM·언어모델"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-22T10:03:56.597874+00:00
+updated_at: 2026-10-22T12:43:31.382384+00:00
 tags: [topic, real-data]
-record_count: 626
+record_count: 638
 ---
 
 # LLM·언어모델
 
-실제 수집 레코드 **626건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **638건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[Source--arXiv]] | 308 |
+| [[Source--arXiv]] | 320 |
 | [[Source--institutions]] | 146 |
 | [[Source--robotics]] | 144 |
 | [[Source--YouTube]] | 19 |
@@ -58,7 +58,3 @@ views:
 ## Connected nodes
 
 [[JARVIS Real Knowledge Index]]
-
-## 담당 팀
-
-[[팀 · 지식 수집팀]] [[팀 · AI 수집팀]]

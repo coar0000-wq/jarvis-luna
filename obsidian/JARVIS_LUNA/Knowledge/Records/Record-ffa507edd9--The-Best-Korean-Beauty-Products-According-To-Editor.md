@@ -2,9 +2,9 @@
 title: "Record ffa507edd9 · The-Best-Korean-Beauty-Products-According-To-Editor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:29.614111+00:00
+updated_at: 2026-10-22T12:43:29.035867+00:00
 tags: [record, real-data]
-source: "Google-Search"
+source: "us_beauty"
 topics: ["뷰티스킨케어", "모델-라우팅MoE"]
 domain: "news.google.com"
 url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ueDcxeXh1TTFoT3FhbHFneENjaW9lMVJxQkRYNzRSU1RjZ3R1bkZyYkRLMmJ6VXdQLWNTRktaVDdnWFl6c0dBc2NaRFI4V3A2d0IwRVJXOHoyT1Z5?oc=5"
@@ -17,5 +17,6 @@ url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ueDcxeXh1TTFoT3FhbHFne
 **제목:** The Best Korean Beauty Products, According To Editors & Experts - Coveteur
 
 The Best Korean Beauty Products, According To Editors & Experts - Coveteur
+The Best Korean Beauty Products, According To Editors & Experts - Coveteur
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
