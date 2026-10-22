@@ -87,6 +87,7 @@ jobs:
           python -B scripts/test_plan_draft_product_copy.py
           python -B scripts/test_apply_reviewed_draft_copy.py
           python -B scripts/test_reviewed_draft_copy_workflow.py
+          python -B scripts/test_dr_cpu_active_copy.py
           python scripts/test_gosi_image_sources.py
           python scripts/test_source_health_access.py
           python scripts/test_agent_draft_suggestions.py
