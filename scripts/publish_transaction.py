@@ -74,6 +74,13 @@ def git(root, *args, check=True):
 
 
 def at_ref(root, ref, name):
+    if name == 'data/operations/knowledge_graph.json' or name.startswith('data/operations/knowledge_graph/'):
+        from scripts import operations_graph_publication as graph
+        try:
+            entry = graph.git_inventory(root, ref).get(name)
+            return graph.read_git_blob(root, entry) if entry is not None else None
+        except (ValueError, TypeError, OSError) as exc:
+            raise PublishError('operations graph Git capture invalid: ' + str(exc)) from exc
     p = git(root, 'show', f'{ref}:{name}', check=False)
     return p.stdout if p.returncode == 0 else None
 
@@ -384,7 +391,12 @@ CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None, learning_evidence=None, export_evidence=None, team_advisory_evidence=None):
     from scripts import operations_publication as operations
+    from scripts import operations_graph_publication as graph
     try:
+        segmented_graph = name == graph.GRAPH and any(
+            raw is not None and graph.segmented({name: raw}) for raw in (base, local, remote))
+        if name.startswith(graph.PREFIX) or segmented_graph:
+            raise PublishError('segmented operations graph requires complete snapshot publication')
         segmented_state = name == operations.STATE and any(
             raw is not None and operations.segmented({name: raw}) for raw in (base, local, remote))
     except (ValueError, TypeError) as exc:
@@ -576,10 +588,13 @@ class Transaction:
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
         self.operations_guard = None
+        self.graph_guard = None
         if self.publication_profile == 'full':
             from scripts.operations_publication import SnapshotGuard
             try:
                 self.operations_guard = SnapshotGuard.capture(self.root, self.base, self.delta, self.policy, self.manifest)
+                from scripts.operations_graph_publication import SnapshotGuard as GraphSnapshotGuard
+                self.graph_guard = GraphSnapshotGuard.capture(self.root, self.base, self.delta, self.policy, self.manifest)
             except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
                 raise PublishError('operations snapshot capture/evidence invalid: ' + str(exc)) from exc
         self.team_advisory_evidence = None
@@ -693,6 +708,14 @@ class Transaction:
         self.attempts = []
 
     def capture(self):
+        from scripts import operations_graph_publication as graph
+        graph_base, graph_local = {}, {}
+        if self.publication_profile == 'full':
+            try:
+                graph_local = graph.disk_inventory(self.root)
+                graph_base = graph.git_inventory(self.root, self.base)
+            except (ValueError, TypeError, OSError) as exc:
+                raise PublishError('operations graph capture capacity/integrity invalid: ' + str(exc)) from exc
         # Include index, unstaged edits and untracked files, never a blanket add.
         names = set(git(self.root, 'diff', '--name-only', '-z', 'HEAD').stdout.decode().split('\0'))
         names.update(git(self.root, 'ls-files', '--others', '--exclude-standard', '-z').stdout.decode().split('\0'))
@@ -704,7 +727,17 @@ class Transaction:
             p = self.root/name
             if p.is_symlink():
                 raise PublishError(f'publication symlink not permitted: {name}')
-            changes[name] = (at_ref(self.root, self.base, name), p.read_bytes() if p.exists() else None)
+            if graph.owns(name):
+                try:
+                    if name not in graph_local and p.exists():
+                        raise ValueError('operations graph changed after inventory')
+                    before = graph.read_git_blob(self.root, graph_base[name]) if name in graph_base else None
+                    after = graph.read_file(self.root, name, expected=graph_local[name]) if name in graph_local else None
+                    changes[name] = (before, after)
+                except (ValueError, TypeError, OSError) as exc:
+                    raise PublishError('operations graph bounded capture invalid: ' + str(exc)) from exc
+            else:
+                changes[name] = (at_ref(self.root, self.base, name), p.read_bytes() if p.exists() else None)
         for required in self.paths:
             p = self.root/required
             deleted = any(n == required or n.startswith(required.rstrip('/')+'/') for n, (_, v) in changes.items() if v is None)
@@ -721,6 +754,11 @@ class Transaction:
                     raise PublishError(f'non-operations profile forbids operations delta: {name}')
 
     def operations_snapshot(self, work):
+        from scripts import operations_graph_publication as graph
+        try:
+            graph_files = graph.disk_inventory(work)
+        except (ValueError, TypeError, OSError) as exc:
+            raise PublishError('operations graph snapshot capacity/integrity invalid: ' + str(exc)) from exc
         directory = work/'data/operations'
         if directory.is_symlink():
             raise PublishError('operations directory symlink not permitted')
@@ -730,7 +768,14 @@ class Transaction:
                 if p.is_symlink():
                     raise PublishError('operations artifact symlink not permitted')
                 if p.is_file():
-                    result[p.relative_to(work).as_posix()] = p.read_bytes()
+                    name = p.relative_to(work).as_posix()
+                    if graph.owns(name):
+                        try:
+                            result[name] = graph.read_file(work, name, expected=graph_files[name])
+                        except (ValueError, TypeError, KeyError, OSError) as exc:
+                            raise PublishError('operations graph bounded snapshot invalid: ' + str(exc)) from exc
+                    else:
+                        result[name] = p.read_bytes()
         return result
 
     def verify_operations_unchanged(self, work, before):
@@ -881,12 +926,22 @@ class Transaction:
                             operations_remote, operations_installed = self.operations_guard.install(work)
                         except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
                             raise PublishError('operations snapshot overlay invalid: ' + str(exc)) from exc
+                    graph_remote = graph_installed = None
+                    if self.graph_guard is not None:
+                        try:
+                            graph_remote, graph_installed = self.graph_guard.install(work)
+                        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                            raise PublishError('operations graph snapshot overlay invalid: ' + str(exc)) from exc
                     safety_before = None
                     if set(self.delta) & PERSISTENT_SOURCE_FILES:
                         from source_safety_checkpoint import _validate, _nonregression, ALLOWLIST
                         safety_before = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
                         _validate(safety_before)
+                    from scripts import operations_graph_publication as graph
                     for name, (base, local) in self.delta.items():
+                        if self.graph_guard is not None and self.graph_guard.active:
+                            if graph.owns(name):
+                                continue  # Complete manifest and immutable members already installed.
                         if self.operations_guard is not None and self.operations_guard.active:
                             from scripts.operations_publication import owns
                             if owns(name):
@@ -894,7 +949,7 @@ class Transaction:
                         if self.is_derived(name):
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
-                        remote = p.read_bytes() if p.exists() else None
+                        remote = (graph.read_file(work, name) if graph.owns(name) else p.read_bytes()) if p.exists() else None
                         value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence, learning_evidence=self.learning_evidence, export_evidence=self.export_evidence, team_advisory_evidence=self.team_advisory_evidence)
                         if value is None:
                             p.unlink(missing_ok=True)
@@ -910,6 +965,9 @@ class Transaction:
                     if self.operations_guard is not None:
                         from scripts.operations_publication import raw_snapshot
                         operations_installed = raw_snapshot(work)
+                    if self.graph_guard is not None:
+                        from scripts.operations_graph_publication import snapshot as graph_snapshot
+                        graph_installed = graph_snapshot(work)
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     with timed_phase('regenerate_validate'):
                         self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
@@ -948,6 +1006,11 @@ class Transaction:
                             self.operations_guard.verify_final(work, operations_remote, operations_installed)
                         except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
                             raise PublishError('final operations snapshot invalid: ' + str(exc)) from exc
+                    if self.graph_guard is not None:
+                        try:
+                            self.graph_guard.verify_final(work, graph_remote, graph_installed)
+                        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                            raise PublishError('final operations graph snapshot invalid: ' + str(exc)) from exc
                     self.verify_operations_unchanged(work, operations_before)
                     self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True,
                                           'publication_profile': self.publication_profile})
