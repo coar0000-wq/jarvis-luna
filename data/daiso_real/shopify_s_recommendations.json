@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:07:56.229298+00:00",
+  "generated_at": "2026-10-22T22:25:09.060682+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     },
     {
       "rank": 2,
@@ -149,7 +149,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     },
     {
       "rank": 3,
@@ -218,7 +218,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     },
     {
       "rank": 6,
@@ -448,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-22T11:07:56.803572+00:00"
+      "gate_generated_at": "2026-10-22T22:25:09.974160+00:00"
     }
   ],
   "agent_ready_count": 0,
