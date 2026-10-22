@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-21T23:38:42.902962+00:00",
+  "generated_at": "2026-10-22T03:10:01.698418+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "f08ac40a1396f343df7a6280cd0f65f7e2ccb19c21e2b0fad25f9adc8d2da238",
-      "data/gosi.json": "c03d339d56924260f9db880b10f92af2e5497bddef3137c014fc18168dd281d7",
-      "data/daiso_real/daiso_us_labels.json": "3281461f33600495023e5280be073e5241d2864a62d6919cd5bda49f09ae44a6",
-      "data/pricing_model.json": "3bb5d3f56356d51347dc872aa2c86b56aa84f7ce71b87c8c9dc538b139949044",
-      "data/legal_products.json": "658d3f9f66739b471ad91e5c2186b3e846e56d067277d95e98755947a8715001",
-      "data/daiso_real/shopify_s_recommendations.json": "3755458592900f36ea0453315695490bb1790444e236b2f412390d8f61de7124",
+      "data/product_master.json": "6241d6199de7b6842fe92e2b5e3da1f5e56ae638f48431ada7de9efa732e67dc",
+      "data/gosi.json": "b1afca006130f7d1c20a56f70d1b1f7959d3f46e7b3a85b134d4d1d0b42a20a1",
+      "data/daiso_real/daiso_us_labels.json": "892c282fd72b4291fe5ec2fa97acf0cc1be5eac6452282b4d842af1d48a7d81b",
+      "data/pricing_model.json": "f44e88fabf68f6246b27a6f700397bdb679d00c66fb2129ecf6fee25116a8f56",
+      "data/legal_products.json": "563ca51b303b6b9268ad4f8bbfa644e1732c654108bf13659a774e1187cbfad3",
+      "data/daiso_real/shopify_s_recommendations.json": "fb2892b65d4012ac8cfdd7ef9810d7d80769925e8ebdb1006d6be43a82abfc23",
       "data/shopify_listing_copy.json": "d7c09e7a0fac3e8f7f799f784cf18391569723da061236f30a25f291138b75c4",
-      "data/shopify_shortlist.json": "0deb346d559634b4fb8ac425efa7baa43523447de122257237660d9028e7f670",
+      "data/shopify_shortlist.json": "687e27ad69165400f2eee18795a76147e5112d029fca30b41af322b47ec4b7d2",
       "data/legal_full.json": "fb2df7df543d548ca43f0ed94620aebf201b3df71449cba5e23bb9ad3c81eb4c",
       "data/mocra_readiness.json": "857118b47584577a0e281ad293caa925d6d26ffbee8417d1a63da223281b1982",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -25,7 +25,7 @@
       "masked/product_accuracy_evidence": "a8554db0aa047990a80bc9cb4156a7de51d609c9e6e6d9f1558c9a674757d069",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "25cd1bb041da243ace1e5c4eb6e15aa59e1f67db6a3643ebc8d3013271d5370d"
+    "recommendations_sha256": "fb69a87ad30087a62488d5b53bf56a5078dcd95a16b1e11d4c1ac7db644ee8c0"
   },
   "total": 7,
   "agent_ready": 0,

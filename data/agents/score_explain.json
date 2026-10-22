@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-21T23:39:47.826594+00:00",
+  "generated_at": "2026-10-22T03:10:44.751947+00:00",
   "s_count": 7,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -19,9 +19,9 @@
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
       "score": 98,
-      "why": "글로벌 'Anti-Aging Retinol Facial Serum' (ulta_beauty) 유사 88% · 토큰 retinol, serum",
-      "global": "Anti-Aging Retinol Facial Serum",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "global": "Expert Retinol Super Bounce Serum",
+      "channel": "sokoglam_us",
       "tokens": [
         "retinol",
         "serum"

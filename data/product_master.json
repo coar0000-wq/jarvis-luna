@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-21T23:38:42.632747+00:00",
+  "generated_at": "2026-10-22T03:10:01.497823+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -503,10 +503,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.4092,
         "review_score": 0.8543,
-        "final_score": 0.493,
+        "final_score": 0.4898,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -919,10 +919,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.8677,
         "review_score": 0.9057,
-        "final_score": 0.6689,
+        "final_score": 0.6657,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -1751,10 +1751,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.4554,
         "review_score": 0.5,
-        "final_score": 0.4028,
+        "final_score": 0.3997,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2827,7 +2827,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/7X8B9SzPXsE15nzdihuK1040079_00_007X8B9SzPXsE15nzdihuK.png",
       "shopify_score": 83,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "weak_solo_token",
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
@@ -2836,17 +2836,17 @@
         "keyword": 0,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.251,
         "demand_score": 0.7723,
         "review_score": 0.9371,
-        "final_score": 0.5515,
+        "final_score": 0.6393,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2888,17 +2888,17 @@
         "keyword": 0,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.251,
         "demand_score": 0.7262,
         "review_score": 0.9114,
-        "final_score": 0.5276,
+        "final_score": 0.6154,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3467,10 +3467,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.653,
+        "match_score": 0.68,
         "demand_score": 0.8277,
         "review_score": 0.9057,
-        "final_score": 0.79,
+        "final_score": 0.7994,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4760,7 +4760,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5158,7 +5158,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -6279,17 +6279,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.653,
         "demand_score": 0.9138,
         "review_score": 0.0,
-        "final_score": 0.5578,
+        "final_score": 0.5484,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6435,17 +6435,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.88,
+        "match_score": 0.853,
         "demand_score": 0.9969,
         "review_score": 0.9514,
-        "final_score": 0.9424,
+        "final_score": 0.9329,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6461,7 +6461,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -6490,17 +6490,17 @@
         "keyword": 0,
         "us_market_fit": 13.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 13,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "주름개선 - 미국에서 의약품 주장",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.853,
         "demand_score": 0.7508,
         "review_score": 0.0,
-        "final_score": 0.5428,
+        "final_score": 0.5613,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7277,10 +7277,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.5385,
         "review_score": 0.9514,
-        "final_score": 0.5673,
+        "final_score": 0.5642,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7537,10 +7537,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.5015,
         "review_score": 0.9514,
-        "final_score": 0.5544,
+        "final_score": 0.5513,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7589,10 +7589,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.853,
+        "match_score": 0.88,
         "demand_score": 0.8862,
         "review_score": 0.94,
-        "final_score": 0.8907,
+        "final_score": 0.9002,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9253,10 +9253,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.5015,
         "review_score": 0.6829,
-        "final_score": 0.4738,
+        "final_score": 0.4707,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9298,7 +9298,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9326,7 +9326,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -9511,7 +9511,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "이름의 '트리트먼트' 로 마스크팩 -> 헤어케어 재분류",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9979,17 +9979,17 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.634,
+        "match_score": 0.911,
         "demand_score": 0.9308,
         "review_score": 0.8457,
-        "final_score": 0.8014,
+        "final_score": 0.8983,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11062,7 +11062,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/2UUKBdK8jzSspPiyY3ul1067024_00_002UUKBdK8jzSspPiyY3ul.png",
       "shopify_score": 82,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "weak_solo_token",
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
@@ -11071,17 +11071,17 @@
         "keyword": 0,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.251,
         "demand_score": 0.7723,
         "review_score": 0.9057,
-        "final_score": 0.542,
+        "final_score": 0.6299,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11357,7 +11357,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -12010,7 +12010,7 @@
         "keyword": 5,
         "us_market_fit": 19.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12062,7 +12062,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12091,7 +12091,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -12120,7 +12120,7 @@
         "keyword": 5,
         "us_market_fit": 19.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "otc_drug",
         "us_block_reason": "고시 확인: 고시 기능성 화장품: 미백 / 주름개선 / 자외선차단(SPF50+, PA++++) 3중 기능성 - 미국에서 OTC 의약품(Drug Facts 라벨 필요)",
@@ -12172,7 +12172,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12224,17 +12224,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.689,
         "demand_score": 0.9231,
         "review_score": 0.0,
-        "final_score": 0.6031,
+        "final_score": 0.5642,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12276,17 +12276,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.689,
         "demand_score": 0.9231,
         "review_score": 0.8514,
-        "final_score": 0.8585,
+        "final_score": 0.8197,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13004,17 +13004,17 @@
         "keyword": 5,
         "us_market_fit": 17.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 5,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.46,
+        "match_score": 0.403,
         "demand_score": 0.8846,
         "review_score": 0.0,
-        "final_score": 0.4706,
+        "final_score": 0.4507,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13056,17 +13056,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.622,
         "demand_score": 0.5385,
         "review_score": 0.8657,
-        "final_score": 0.6862,
+        "final_score": 0.6659,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13108,17 +13108,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.622,
         "demand_score": 0.5015,
         "review_score": 0.8029,
-        "final_score": 0.6544,
+        "final_score": 0.6341,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13212,17 +13212,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.653,
         "demand_score": 0.9969,
         "review_score": 0.8914,
-        "final_score": 0.8544,
+        "final_score": 0.8449,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13264,7 +13264,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -13500,7 +13500,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -13529,7 +13529,7 @@
         "keyword": 0,
         "us_market_fit": 20.3,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -13832,7 +13832,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
       "shopify_score": 96,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "weak_solo_token",
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
@@ -13841,17 +13841,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.263,
         "demand_score": 0.9969,
         "review_score": 0.8886,
-        "final_score": 0.6155,
+        "final_score": 0.7075,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -14130,7 +14130,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-21T23:38:42.524344+00:00"
+        "gate_generated_at": "2026-10-22T03:10:01.420205+00:00"
       }
     },
     {
@@ -14159,17 +14159,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.32,
+        "match_score": 0.357,
         "demand_score": 1.0,
         "review_score": 0.0,
-        "final_score": 0.462,
+        "final_score": 0.4749,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15258,10 +15258,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.4554,
         "review_score": 0.8057,
-        "final_score": 0.4945,
+        "final_score": 0.4914,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15355,17 +15355,17 @@
         "keyword": 0,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.251,
         "demand_score": 0.7262,
         "review_score": 0.8486,
-        "final_score": 0.5087,
+        "final_score": 0.5966,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15882,10 +15882,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.3631,
         "review_score": 0.0,
-        "final_score": 0.2205,
+        "final_score": 0.2174,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15927,17 +15927,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.653,
         "demand_score": 0.8215,
         "review_score": 0.0,
-        "final_score": 0.5255,
+        "final_score": 0.5161,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16142,10 +16142,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.258,
         "demand_score": 0.7754,
         "review_score": 0.0,
-        "final_score": 0.3648,
+        "final_score": 0.3617,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16291,17 +16291,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.622,
         "demand_score": 0.4,
         "review_score": 0.0,
-        "final_score": 0.378,
+        "final_score": 0.3577,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16343,17 +16343,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.653,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5385,
+        "final_score": 0.529,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16395,7 +16395,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
@@ -16551,17 +16551,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.263,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.3005,
+        "final_score": 0.3925,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16811,17 +16811,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.88,
+        "match_score": 0.853,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.6085,
+        "final_score": 0.599,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17383,17 +17383,17 @@
         "keyword": 5,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.5,
+        "match_score": 0.553,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.4496,
+        "final_score": 0.4682,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17539,17 +17539,17 @@
         "keyword": 0,
         "us_market_fit": 13.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 13,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "claim_risk",
         "us_block_reason": "주름개선 - 미국에서 의약품 주장",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.853,
         "demand_score": 0.6123,
         "review_score": 0.0,
-        "final_score": 0.4943,
+        "final_score": 0.5129,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17695,7 +17695,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17851,17 +17851,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.689,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.5546,
+        "final_score": 0.5158,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18371,7 +18371,7 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -18527,7 +18527,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -18579,17 +18579,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.8,
+        "match_score": 0.689,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.5546,
+        "final_score": 0.5158,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18683,17 +18683,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.68,
+        "match_score": 0.622,
         "demand_score": 0.4,
         "review_score": 0.0,
-        "final_score": 0.378,
+        "final_score": 0.3577,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18787,17 +18787,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.32,
+        "match_score": 0.357,
         "demand_score": 0.8615,
         "review_score": 0.0,
-        "final_score": 0.4135,
+        "final_score": 0.4265,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },

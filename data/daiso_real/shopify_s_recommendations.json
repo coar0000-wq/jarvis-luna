@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:38:42.018092+00:00",
+  "generated_at": "2026-10-22T03:10:01.048425+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 2,
@@ -87,17 +87,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
-      "recommend_reason": "글로벌 'Anti-Aging Retinol Facial Serum' (ulta_beauty) 유사 88% · 토큰 retinol, serum",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
       "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Anti-Aging Retinol Facial Serum",
-        "similarity": 0.88,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.524
+        "match_score": 0.405
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -141,7 +141,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 3,
@@ -161,12 +161,12 @@
         "channel": "ulta_beauty",
         "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
         "similarity": 0.634,
-        "demand_weight": 0.68,
+        "demand_weight": 0.722,
         "matched_tokens": [
           "brightening",
           "vitaminc"
         ],
-        "match_score": 0.431
+        "match_score": 0.458
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -218,7 +218,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 5,
@@ -307,12 +307,12 @@
         "channel": "ulta_beauty",
         "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
         "similarity": 0.634,
-        "demand_weight": 0.68,
+        "demand_weight": 0.722,
         "matched_tokens": [
           "brightening",
           "vitaminc"
         ],
-        "match_score": 0.431
+        "match_score": 0.458
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 6,
@@ -448,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     },
     {
       "rank": 7,
@@ -515,7 +515,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-21T23:38:42.902962+00:00"
+      "gate_generated_at": "2026-10-22T03:10:01.698418+00:00"
     }
   ],
   "agent_ready_count": 0,
