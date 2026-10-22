@@ -45,7 +45,8 @@ jobs:
             -o APT::Update::Error-Mode=any
           )
           sudo apt-get "${apt_options[@]}" update
-          sudo apt-get "${apt_options[@]}" install --no-install-recommends -y tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng fonts-noto-cjk
+          # Nanum supplies the Korean fixture font without the 61 MB pan-CJK bundle.
+          sudo apt-get "${apt_options[@]}" install --no-install-recommends -y tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng fonts-nanum
       - name: Run offline OCR tests and require real Korean integration
         run: |
           python -B - <<'PY'

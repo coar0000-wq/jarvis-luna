@@ -331,7 +331,7 @@ class ActiveWorkflowTests(unittest.TestCase):
                     self.assertIn('Acquire::https::Timeout=20', command)
                     self.assertIn('APT::Update::Error-Mode=any', command)
                 if status == 0:
-                    for package in ('tesseract-ocr', 'tesseract-ocr-kor', 'tesseract-ocr-eng', 'fonts-noto-cjk'):
+                    for package in ('tesseract-ocr', 'tesseract-ocr-kor', 'tesseract-ocr-eng', 'fonts-nanum'):
                         self.assertIn(package, commands[1].split())
         integration = job['steps'][-1]['run']
         self.assertIn('tests.has_korean_ocr()', integration)
