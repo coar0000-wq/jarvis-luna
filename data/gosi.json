@@ -1866,6 +1866,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:15:20.935974+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "origin": "한국",
@@ -3027,6 +3036,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:16:24.030325+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -9308,6 +9326,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:17:41.673673+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -10395,6 +10422,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:18:58.786118+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "expiry": "또는개봉후사용기간 제조일로부터36개월 개봉후12개월",
@@ -12946,6 +12982,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:20:16.814479+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -13136,6 +13181,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:21:34.546254+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "origin": "대한민국",
@@ -13692,6 +13746,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:22:52.273652+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
@@ -13779,6 +13842,15 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-22T22:24:10.462884+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ],
       "retained_source_stale": true,
