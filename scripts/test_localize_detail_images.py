@@ -7,6 +7,7 @@ import io
 import hashlib
 import http.client
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -447,11 +448,54 @@ class ReviewArtifactTest(unittest.TestCase):
         self.assertEqual(first["sources"][0]["source_file"], second["sources"][0]["source_file"])
         self.assertEqual(len(list(self.out.glob("source-*.bin"))), 1)
 
+    def assert_review_upload_pin(self, section, manifest):
+        # The reviewed manifest owns the pin. Do not copy another release SHA here,
+        # or silently accept multiple (possibly stale) upload-artifact approvals.
+        repository = "actions/upload-artifact"
+        rows = [row for row in manifest["actions"] if row["repository"] == repository]
+        self.assertEqual(len(rows), 1, "Require one authoritative upload-artifact approval")
+        row = rows[0]
+        self.assertRegex(row["sha"], r"\A[0-9a-f]{40}\Z")
+        self.assertEqual(row["type"], "commit")
+        self.assertEqual(row["ref"], f"{repository}@{row['tag']}")
+        self.assertEqual(row["source"], f"https://api.github.com/repos/{repository}/git/ref/tags/{row['tag']}")
+        refs = re.findall(r"(?m)^\s*uses:\s*([^\s#]+)", section)
+        self.assertEqual(len(refs), 1, "Require exactly one executable upload action")
+        self.assertRegex(refs[0], r"\Aactions/upload-artifact@[0-9a-f]{40}\Z")
+        self.assertEqual(refs[0], f"{repository}@{row['sha']}")
+
+    def test_review_upload_pin_tracks_manifest_and_rejects_unapproved_refs(self):
+        # Synthetic approvals only: no provider lookup or second real pin table.
+        repository = "actions/upload-artifact"
+        old_sha, updated_sha = "1" * 40, "2" * 40
+        row = {"repository": repository, "sha": updated_sha, "type": "commit",
+               "tag": "v-next", "ref": f"{repository}@v-next",
+               "source": f"https://api.github.com/repos/{repository}/git/ref/tags/v-next"}
+        manifest = {"actions": [row]}
+        section = f"        uses: {repository}@{updated_sha} # reviewed update\n"
+        self.assert_review_upload_pin(section, manifest)
+        for ref in (f"{repository}@{old_sha}", f"{repository}@v-next",
+                    f"{repository}@{'3' * 40}", f"{repository}@{'2' * 39}",
+                    f"other/upload-artifact@{updated_sha}"):
+            with self.subTest(ref=ref), self.assertRaises(AssertionError):
+                self.assert_review_upload_pin(f"        uses: {ref}\n", manifest)
+        for invalid in (f"        # uses: {repository}@{updated_sha}\n", section + section):
+            with self.subTest(section=invalid), self.assertRaises(AssertionError):
+                self.assert_review_upload_pin(invalid, manifest)
+        for rows in ([], [row, dict(row, sha=old_sha)]):
+            with self.subTest(rows=rows), self.assertRaises(AssertionError):
+                self.assert_review_upload_pin(section, {"actions": rows})
+        for changes in ({"sha": "v-next"}, {"type": "tag"}, {"ref": "other@v-next"},
+                        {"source": "https://unreviewed.invalid/tag"}):
+            with self.subTest(changes=changes), self.assertRaises(AssertionError):
+                self.assert_review_upload_pin(section, {"actions": [dict(row, **changes)]})
+
     def test_workflow_preserves_only_review_assets_always_for_30_days(self):
         workflow = (HERE.parent / ".github/workflows/daiso-daily-beauty-shopify.yml").read_text(encoding="utf-8")
         section = workflow.split("      - name: 상세 이미지 검토 자산 보관\n", 1)[1].split("      - name:", 1)[0]
         self.assertIn("if: ${{ always() }}", section)
-        self.assertIn("uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02", section)
+        manifest = json.loads((HERE.parent / "requirements/lock-manifest.json").read_text(encoding="utf-8"))
+        self.assert_review_upload_pin(section, manifest)
         self.assertIn("name: daiso-daily-beauty-image-review", section)
         self.assertIn("retention-days: 30", section)
         paths = section.split("          path: |\n", 1)[1].split("          if-no-files-found:", 1)[0]

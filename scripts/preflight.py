@@ -469,8 +469,17 @@ def check_undefined():
     if not targets:
         warn("이름검사", "검사할 스크립트가 없다")
         return
-    r = subprocess.run([sys.executable, "-m", "pyflakes", *targets],
-                       capture_output=True, text=True)
+    # Let pyflakes recurse into the directory. Passing every absolute filename
+    # exceeds Windows' command-line limit in a long checkout path.
+    try:
+        r = subprocess.run([sys.executable, "-m", "pyflakes", str(ROOT / "scripts")],
+                           capture_output=True, text=True)
+    except OSError as e:
+        fail("이름검사", f"pyflakes 실행 실패: {str(e)[:160]}")
+        return
+    if r.returncode not in (0, 1):
+        fail("이름검사", f"pyflakes 실행 실패 (exit {r.returncode}): {r.stderr.strip()[:160]}")
+        return
     bad = [ln for ln in (r.stdout + r.stderr).splitlines()
            if "undefined name" in ln]
     if bad:

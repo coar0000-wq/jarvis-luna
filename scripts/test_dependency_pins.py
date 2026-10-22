@@ -7,6 +7,8 @@ import sys
 import re
 import unittest
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 LINE = re.compile(r'^([a-z0-9][a-z0-9-]*)==([0-9][A-Za-z0-9.+-]*)((?: --hash=sha256:[0-9a-f]{64})+)$')
 HASH = re.compile(r'--hash=sha256:([0-9a-f]{64})')
@@ -55,6 +57,65 @@ def reconcile_package(name, version, digests, expected):
         approved.add(digest)
     if digests != approved:
         raise ValueError(f'{name}: lock hashes differ from reviewed manifest artifacts')
+
+
+def approved_action_refs(manifest):
+    """Resolve only canonical reviewed Action evidence, never arbitrary SHAs."""
+    approved = set()
+    rows = manifest.get('actions')
+    if not isinstance(rows, list) or not rows:
+        raise ValueError('Missing reviewed Action evidence')
+    for row in rows:
+        repository, tag, digest = (row.get(key, '') for key in ('repository', 'tag', 'sha'))
+        if (not isinstance(repository, str) or
+                not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repository) or
+                not isinstance(tag, str) or not tag or
+                not isinstance(digest, str) or not SHA.fullmatch(digest) or
+                row.get('type') != 'commit' or row.get('ref') != f'{repository}@{tag}' or
+                row.get('source') != f'https://api.github.com/repos/{repository}/git/ref/tags/{tag}'):
+            raise ValueError('Noncanonical reviewed Action evidence')
+        ref = f'{repository}@{digest}'
+        if ref in approved:
+            raise ValueError('Duplicate reviewed Action evidence')
+        approved.add(ref)
+    return approved
+
+
+def workflow_action_refs(text):
+    """Read YAML semantics, including quoted keys, flow maps and composites."""
+    document = yaml.safe_load(text)
+    if not isinstance(document, dict):
+        raise ValueError('Workflow/action must be a YAML mapping')
+
+    def walk(node, ancestors):
+        if not isinstance(node, (dict, list)):
+            return
+        identity = id(node)
+        if identity in ancestors:
+            raise ValueError('Cyclic YAML aliases are unsupported')
+        ancestors = ancestors | {identity}
+        if isinstance(node, dict):
+            for key, value in node.items():
+                if key == 'uses':
+                    if not isinstance(value, str) or not value:
+                        raise ValueError('Action uses must be a nonempty string')
+                    yield value
+                else:
+                    yield from walk(value, ancestors)
+        else:
+            for value in node:
+                yield from walk(value, ancestors)
+
+    return list(walk(document, set()))
+
+
+def validate_action_ref(ref, approved):
+    if ref.startswith('./'):
+        return
+    if '@' not in ref or not SHA.fullmatch(ref.rsplit('@', 1)[1]):
+        raise ValueError(f'Action is not pinned to a full commit SHA: {ref}')
+    if ref not in approved:
+        raise ValueError(f'Action lacks matching reviewed manifest evidence: {ref}')
 
 
 def active_yaml():
@@ -159,13 +220,65 @@ class LockTests(unittest.TestCase):
 
 class ActiveWorkflowTests(unittest.TestCase):
     def test_public_actions_use_commit_sha_not_mutable_tags(self):
+        manifest = json.loads((ROOT / 'requirements/lock-manifest.json').read_text(encoding='utf-8'))
+        approved = approved_action_refs(manifest)
         for file in active_yaml():
-            for ref in re.findall(r'(?m)^\s*-?\s*uses:\s*([^\s#]+)', file.read_text(encoding='utf-8')):
-                if ref.startswith('./'):
-                    continue
+            for ref in workflow_action_refs(file.read_text(encoding='utf-8')):
                 with self.subTest(file=file.name, action=ref):
-                    self.assertIn('@', ref)
-                    self.assertRegex(ref.rsplit('@', 1)[1], SHA)
+                    validate_action_ref(ref, approved)
+
+    def test_yaml_action_forms_require_reviewed_full_sha(self):
+        digest = '1' * 40  # Synthetic fixture, not a production approval.
+        row = {'repository': 'actions/checkout', 'tag': 'v4', 'sha': digest,
+               'type': 'commit', 'ref': 'actions/checkout@v4',
+               'source': 'https://api.github.com/repos/actions/checkout/git/ref/tags/v4'}
+        approved = approved_action_refs({'actions': [row]})
+        forms = ('jobs:\n  test:\n    steps:\n      - uses: {ref}\n',
+                 'jobs:\n  test:\n    steps:\n      - "uses": "{ref}"\n',
+                 'jobs: {{test: {{steps: [{{uses: "{ref}"}}]}}}}\n',
+                 'jobs: {{reuse: {{uses: "{ref}"}}}}\n',
+                 'runs: {{using: composite, steps: [{{uses: "{ref}"}}]}}\n')
+        for form in forms:
+            for ref in (f'actions/checkout@{digest}', './.github/actions/publish'):
+                with self.subTest(form=form, ref=ref):
+                    self.assertEqual(workflow_action_refs(form.format(ref=ref)), [ref])
+                    validate_action_ref(ref, approved)
+            for ref in ('actions/checkout@main', 'actions/checkout@v4',
+                        'actions/checkout@' + '2' * 40,
+                        'unreviewed/action@' + digest):
+                with self.subTest(form=form, ref=ref), self.assertRaises(ValueError):
+                    for actual in workflow_action_refs(form.format(ref=ref)):
+                        validate_action_ref(actual, approved)
+        self.assertEqual(workflow_action_refs('jobs: {test: {steps: [{run: "echo uses: actions/checkout@main"}]}}'), [])
+
+    def test_action_parser_and_manifest_fail_closed(self):
+        for text in ('jobs: {test: {uses: true}}', 'jobs: {test: {uses: []}}',
+                     'jobs: {test: {uses: null}}', '[]', 'cycle: &cycle {nested: *cycle}'):
+            with self.subTest(text=text), self.assertRaises(ValueError):
+                workflow_action_refs(text)
+        row = {'repository': 'actions/checkout', 'tag': 'v4', 'sha': '1' * 40,
+               'type': 'commit', 'ref': 'actions/checkout@v4',
+               'source': 'https://api.github.com/repos/actions/checkout/git/ref/tags/v4'}
+        for field, value in (('sha', 'main'), ('type', 'tag'), ('ref', 'wrong@v4'),
+                             ('source', 'https://example.invalid/approval')):
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                approved_action_refs({'actions': [{**row, field: value}]})
+        for rows in ([], [row, row]):
+            with self.subTest(rows=len(rows)), self.assertRaises(ValueError):
+                approved_action_refs({'actions': rows})
+
+    def test_validator_parser_is_bootstrapped_from_locked_profile(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/dependency-profiles.yml').read_text(encoding='utf-8'))
+        steps = workflow['jobs']['verify-profiles']['steps']
+        bootstrap = next(i for i, step in enumerate(steps)
+                         if step.get('name') == 'Install locked validator dependencies')
+        validation = next(i for i, step in enumerate(steps)
+                          if step.get('run') == 'python scripts/test_dependency_pins.py')
+        self.assertLess(bootstrap, validation)
+        self.assertEqual(steps[bootstrap]['run'].strip(),
+                         'python -m pip install --require-hashes --only-binary=:all: '
+                         '-r requirements/requirements-verification.txt')
+        self.assertNotIn('continue-on-error', steps[bootstrap])
 
     def test_active_pip_installs_use_locked_hash_checked_profiles(self):
         for file in active_yaml():

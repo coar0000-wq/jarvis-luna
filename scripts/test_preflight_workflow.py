@@ -233,6 +233,11 @@ source "$1" "$2"
         self.assertEqual(steps["regression"]["run"], "python scripts/test_preflight_workflow.py")
         for key in ("regression", "pf", "graph"):
             self.assertTrue(steps[key]["continue-on-error"])
+        for suite in ("test_agent_draft_suggestions.py", "test_model_replay.py",
+                      "test_never_started_runs.py", "test_serpapi_scoped_refresh.py",
+                      "test_typesafe_decision_support.py", "test_preflight_static.py"):
+            with self.subTest(required_suite=suite):
+                self.assertIn("python scripts/" + suite, steps["repairs"]["run"].splitlines())
         self.assertNotIn("continue-on-error", steps["repairs"])
         self.assertNotIn("continue-on-error", steps["gate"])
         self.assertNotIn("continue-on-error", steps["summary"])
