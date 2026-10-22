@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:07:56.333471+00:00",
+  "generated_at": "2026-10-22T16:36:50.718140+00:00",
   "exchange_rate": {
     "usd_to_krw": 1326.14,
     "as_of": "2026-10-22",
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
@@ -206,7 +206,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
@@ -259,7 +259,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
@@ -422,7 +422,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
@@ -529,7 +529,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
@@ -582,7 +582,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 4.31,
+            "age_days": 4.54,
             "volume_status": "match"
           }
         },
