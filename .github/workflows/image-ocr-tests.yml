@@ -33,11 +33,36 @@ jobs:
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-shopify.txt
       - name: Install Korean OCR from Ubuntu repositories
         timeout-minutes: 4
+        env:
+          UBUNTU_SOURCES: /etc/apt/sources.list.d/ubuntu.sources
         run: |
-          # Hosted runners include unrelated third-party APT sources. OCR only
-          # needs Ubuntu packages; do not wait on those other repository indexes.
+          # Keep the runner's suites/components/architectures/signing key, but
+          # avoid its slow HTTP Azure mirror. Only this command uses the copy.
+          python - "$UBUNTU_SOURCES" "$RUNNER_TEMP/ocr-ubuntu.sources" <<'PY'
+          import pathlib, re, sys
+          source = pathlib.Path(sys.argv[1]).read_text()
+          result = []
+          for stanza in re.split(r'\n[ \t]*\n', source.strip()):
+              if not re.search(r'^Types:', stanza, re.M):
+                  continue
+              fields = dict(re.findall(r'^([A-Za-z-]+):[ \t]*(.*)$', stanza, re.M))
+              assert fields.get('Signed-By') == '/usr/share/keyrings/ubuntu-archive-keyring.gpg', 'Ubuntu signing key required'
+              assert 'URIs' in fields and 'Suites' in fields, 'Ubuntu source fields missing'
+              suites = fields['Suites'].split()
+              assert suites and all(s == 'noble' or s.startswith('noble-') for s in suites), 'Expected Noble suites'
+              for security in (False, True):
+                  selected = [s for s in suites if s.endswith('-security') == security]
+                  if not selected:
+                      continue
+                  host = 'security.ubuntu.com' if security else 'archive.ubuntu.com'
+                  copied = re.sub(r'^URIs:.*$', f'URIs: https://{host}/ubuntu', stanza, flags=re.M)
+                  copied = re.sub(r'^Suites:.*$', 'Suites: ' + ' '.join(selected), copied, flags=re.M)
+                  result.append(copied)
+          assert result, 'No Ubuntu sources found'
+          pathlib.Path(sys.argv[2]).write_text('\n\n'.join(result) + '\n')
+          PY
           apt_options=(
-            -o Dir::Etc::sourcelist=/etc/apt/sources.list.d/ubuntu.sources
+            -o "Dir::Etc::sourcelist=$RUNNER_TEMP/ocr-ubuntu.sources"
             -o Dir::Etc::sourceparts=-
             -o Acquire::Retries=2
             -o Acquire::http::Timeout=20
