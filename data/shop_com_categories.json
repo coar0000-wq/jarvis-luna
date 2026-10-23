@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-22T05:53:24+00:00",
+  "collected_at": "2026-10-23T05:58:49+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -118,7 +118,7 @@
       "price_usd": 50.0,
       "discount_pct": 32,
       "rating": 5.0,
-      "reviews": 3,
+      "reviews": 4,
       "url": "https://shop.com/products/15255774429547/mini-discovery-hair-trio",
       "page": "Explore"
     },
@@ -156,8 +156,8 @@
       "list_price_text": "",
       "price_usd": 20.0,
       "discount_pct": null,
-      "rating": 4.5,
-      "reviews": 4,
+      "rating": 4.6,
+      "reviews": 5,
       "url": "https://shop.com/products/8144926441572/grand-lift-root-boosting-spray-foam",
       "page": "Explore"
     },
@@ -170,7 +170,7 @@
       "price_usd": 60.0,
       "discount_pct": null,
       "rating": 5.0,
-      "reviews": 2,
+      "reviews": 3,
       "url": "https://shop.com/products/15400749957210/the-musky-layers-set",
       "page": "Explore"
     },
@@ -195,8 +195,8 @@
       "list_price_text": "",
       "price_usd": 49.0,
       "discount_pct": null,
-      "rating": 5.0,
-      "reviews": 2,
+      "rating": 4.3,
+      "reviews": 3,
       "url": "https://shop.com/products/15398035062851/musky-lily-of-the-valley",
       "page": "Explore"
     },
@@ -222,7 +222,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 6804,
+      "reviews": 6816,
       "url": "https://shop.com/products/8532767277309/le-chouchou",
       "page": "Beauty"
     },
@@ -235,7 +235,7 @@
       "price_usd": 13.6,
       "discount_pct": 20,
       "rating": 4.9,
-      "reviews": 2893,
+      "reviews": 2896,
       "url": "https://shop.com/products/6805117370533/glow-serum-propolis-niacinamide",
       "page": "Beauty"
     },
@@ -261,7 +261,7 @@
       "price_usd": 16.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 799,
+      "reviews": 802,
       "url": "https://shop.com/products/6646186311735/bio-lipid-restoring-body-lotion",
       "page": "Beauty"
     },
@@ -313,7 +313,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2859,
+      "reviews": 2862,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -339,7 +339,7 @@
       "price_usd": 16.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 1163,
+      "reviews": 1167,
       "url": "https://shop.com/products/1535432392759/shineon-lip-oil-jelly",
       "page": "Beauty"
     },
@@ -352,7 +352,7 @@
       "price_usd": 38.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 415,
+      "reviews": 416,
       "url": "https://shop.com/products/10520246485295/vanilla-verve-vitamin-c-body-oil",
       "page": "Beauty"
     },

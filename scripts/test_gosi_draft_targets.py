@@ -1,16 +1,18 @@
 """실제 등록 초안도 수집하고, 실패 후보가 한도를 독점하지 않는다."""
 import importlib.util
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
+from test_gosi_recovery_workflow import AuthenticatedGosiFixture
 
 spec = importlib.util.spec_from_file_location('collector', Path(__file__).parent / 'daiso/collect_gosi_alt.py')
 c = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(c)
 
-class DraftTargetsTests(unittest.TestCase):
+class DraftTargetsTests(AuthenticatedGosiFixture, unittest.TestCase):
     def test_role_only_maker_is_still_a_recollection_target(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
@@ -30,11 +32,24 @@ class DraftTargetsTests(unittest.TestCase):
 
     def test_provider_stop_is_not_a_successful_collection(self):
         with tempfile.TemporaryDirectory() as td:
-            path = Path(td)/'gosi.json'
-            path.write_text(json.dumps({'items': {}}))
-            with patch.object(c, 'GOSI', path), patch.object(c, 'validate_document', return_value={}), \
-                 patch.object(c, 'assert_not_stopped', side_effect=c.ProviderStop('daiso', 403)):
+            self.prepare_continuity_fixture(td, {'items': {}, 'provider_stops': [
+                {'provider': 'daiso', 'code': 403, 'category': 'auth', 'stopped_at': c.utcnow()}]})
+            with patch.dict(os.environ, self.actions_env), patch.object(c, 'ROOT', self.root), \
+                 patch.object(c, 'GOSI', self.source), patch.object(c, 'run_collection_supervisor') as collect:
                 self.assertEqual(c.main(), 2)
+            collect.assert_not_called()
+            self.assertEqual(self.source.read_bytes(), self.before)
+
+    def test_missing_actions_proof_blocks_before_collection(self):
+        with tempfile.TemporaryDirectory() as td:
+            self.prepare_continuity_fixture(td, {'items': {}})
+            (self.root / '.gosi-safety-verified.json').unlink()
+            with patch.dict(os.environ, self.actions_env), patch.object(c, 'ROOT', self.root), \
+                 patch.object(c, 'GOSI', self.source), patch.object(c, 'run_collection_supervisor') as collect:
+                with self.assertRaisesRegex(ValueError, 'authenticated continuity proof required'):
+                    c.main()
+            collect.assert_not_called()
+            self.assertEqual(self.source.read_bytes(), self.before)
 
     def test_drafts_and_s_candidates_rotate_without_deleted_or_complete(self):
         with tempfile.TemporaryDirectory() as td:

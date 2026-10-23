@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "product_id": "1025282",
+  "title_en": "엘라스틴 오가니스트 크랜베리 바디워시 200 ml",
+  "generated_at": "2026-10-23T05:56:56.054049+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20231124/description/850/8LWKzeaWdTBrn561Lp351025282_01_008LWKzeaWdTBrn561Lp35.jpg",
+      "preservation_status": "stored",
+      "bytes": 27196,
+      "sha256": "e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee",
+      "source_file": "source-e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20231124/description/850/ZsyXONGPXhNo2ZKcMmvT1025282_01_01ZsyXONGPXhNo2ZKcMmvT.jpg",
+      "preservation_status": "stored",
+      "bytes": 48514,
+      "sha256": "74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745",
+      "source_file": "source-74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20231124/description/850/j48qUKMyuTLtsrirF6g01025282_01_02j48qUKMyuTLtsrirF6g0.jpg",
+      "preservation_status": "stored",
+      "bytes": 42638,
+      "sha256": "5eea38dfe8cb5e5b3c1468e35fc2bfd54bcc9bb37d3ae423ab5c00645b5d8b70",
+      "source_file": "source-5eea38dfe8cb5e5b3c1468e35fc2bfd54bcc9bb37d3ae423ab5c00645b5d8b70.bin",
+      "format": "WEBP"
+    },
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20231124/description/850/LGAVa954Tos3691Errvr1025282_01_99LGAVa954Tos3691Errvr.jpg",
+      "preservation_status": "stored",
+      "bytes": 71806,
+      "sha256": "a99873a626c9ed855a0b817cf4344b1bb4fff222cbfd3aef86aba7d20ddba16b",
+      "source_file": "source-a99873a626c9ed855a0b817cf4344b1bb4fff222cbfd3aef86aba7d20ddba16b.bin",
+      "format": "WEBP"
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee",
+      "source_file": "source-e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee.bin",
+      "y": [
+        0,
+        1016
+      ],
+      "panel_sha256": "d92cbb6bbff2e41f57ded417ea7e5424d09a5ae306096de50d9e1c72422d6123",
+      "status": "used",
+      "korean_boxes": 4,
+      "file": "01-organist-en.jpg"
+    },
+    {
+      "source_sha256": "74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745",
+      "source_file": "source-74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745.bin",
+      "y": [
+        0,
+        1356
+      ],
+      "panel_sha256": "08306997cbfe5b01955298e4294422053ebf08b06f50238b7fd2a6752da7bbaa",
+      "status": "used",
+      "korean_boxes": 0,
+      "file": "02-product-en.jpg"
+    },
+    {
+      "source_sha256": "5eea38dfe8cb5e5b3c1468e35fc2bfd54bcc9bb37d3ae423ab5c00645b5d8b70",
+      "source_file": "source-5eea38dfe8cb5e5b3c1468e35fc2bfd54bcc9bb37d3ae423ab5c00645b5d8b70.bin",
+      "y": [
+        0,
+        638
+      ],
+      "panel_sha256": "6e5d2e681a1088a02d1552b68c4c9dab6b124e0821f5b0a788bf72d9e9cf622f",
+      "status": "excluded",
+      "korean_boxes": 0,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "베리"
+      ]
+    },
+    {
+      "source_sha256": "a99873a626c9ed855a0b817cf4344b1bb4fff222cbfd3aef86aba7d20ddba16b",
+      "source_file": "source-a99873a626c9ed855a0b817cf4344b1bb4fff222cbfd3aef86aba7d20ddba16b.bin",
+      "y": [
+        0,
+        1054
+      ],
+      "panel_sha256": "088e59644ef79bd03a0d459d295a37fad983ac7dbec3bef078e1613b81d2933b",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:HTTPError"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-organist-en.jpg",
+      "sha256": "35a4ebc855a234c695bd4195168e4e148af00ce2c4948c5bf016bebf1ce82426",
+      "bytes": 48717,
+      "source_sha256": "e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee",
+      "source_file": "source-e7da50cd5b7a952bf20859420c5d1d09346b9b0883547d161e05759efaa3acee.bin",
+      "width": 640,
+      "height": 1016,
+      "alt": "엘라스틴 오가니스트 크랜베리 바디워시 200 ml — ORGANIST",
+      "english": {
+        "1": "ORGANIST",
+        "2": "Cranberry Body Wash",
+        "3": "",
+        "4": ""
+      }
+    },
+    {
+      "file": "02-product-en.jpg",
+      "sha256": "c938802f070d1c7a293dadf4f2a4b4364309912c676d763e2c5ccfacbd921bb1",
+      "bytes": 72289,
+      "source_sha256": "74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745",
+      "source_file": "source-74061e2e7bf5ad6e199bedd01e1ca19150a1914924b62790355d94a9d5919745.bin",
+      "width": 640,
+      "height": 1356,
+      "alt": "엘라스틴 오가니스트 크랜베리 바디워시 200 ml",
+      "english": {}
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 4,
+    "used": 2,
+    "excluded": {
+      "korean_text_remaining": 1,
+      "translation_failed": 1
+    }
+  },
+  "upload_allowed": false
+}

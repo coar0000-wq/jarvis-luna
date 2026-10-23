@@ -464,12 +464,15 @@ class GosiCheckpointTests(unittest.TestCase):
         s.h.require_continuity(self.root)
         self.assertEqual(sorted(p.relative_to(self.root).as_posix() for p in self.root.rglob('*')), before)
         with patch.dict(os.environ, {'GITHUB_ACTIONS': 'true', 'GITHUB_REPOSITORY': s.REPOSITORY,
-                                    'GITHUB_RUN_ID': '99', 'GITHUB_RUN_ATTEMPT': '2'}):
+                                    'GITHUB_RUN_ID': '99', 'GITHUB_RUN_ATTEMPT': '2',
+                                    'GITHUB_SHA': self.commit}):
             with self.assertRaises(ValueError):
                 s.h.require_continuity(self.root)
             s._proof(self.root, s._snapshot(self.root), run_id='99', run_attempt='2', source={})
             s.h.require_continuity(self.root)
             with patch.dict(os.environ, {'GITHUB_RUN_ATTEMPT': '3'}), self.assertRaises(ValueError):
+                s.h.require_continuity(self.root)
+            with patch.dict(os.environ, {'GITHUB_SHA': '0' * 40}), self.assertRaises(ValueError):
                 s.h.require_continuity(self.root)
 
     def test_shared_collector_entrypoints_stop_before_network(self):

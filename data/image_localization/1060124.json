@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "product_id": "1060124",
+  "title_en": "머지 렛츠 픽싱 슬림 젤 아이라이너 블랙오닉스",
+  "generated_at": "2026-10-23T05:44:48.285969+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20240926/description/850/o6lpGIpOGUJUbFLJnwRF1060124_01_00o6lpGIpOGUJUbFLJnwRF.jpg",
+      "preservation_status": "stored",
+      "bytes": 2726400,
+      "sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "format": "JPEG"
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        0,
+        1718
+      ],
+      "panel_sha256": "1fc7cb0b84d4f8beb0b33821c81a16016c6defa972eee438bd0f2dac7f85c883",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        1718,
+        3618
+      ],
+      "panel_sha256": "1adb630499a9dbb68a09d40b583643ea369de4831be5653b1d305c78b4ead36f",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        3618,
+        4950
+      ],
+      "panel_sha256": "0ce55b6948774543aa1a7200840448b0067f8371d4feefabf659dd391dfcfe5f",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        4950,
+        6432
+      ],
+      "panel_sha256": "b64e911658a20b69e2ea21e5679cdc61cd99acb5798bf4dfd5cff3efcaff3560",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        6432,
+        7656
+      ],
+      "panel_sha256": "ed5dc926ca0d7b76089a01c74ca1d92f3c21186fc4808847faaea3918ca62919",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        7656,
+        9366
+      ],
+      "panel_sha256": "d0a51f7dc4504b51e2920cdbbfa2e33b7035a016a57a7560ec0b0f4e3cf102af",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        9366,
+        11070
+      ],
+      "panel_sha256": "daf691d161ca46b8808597d8672e1c8cc7c3ac06bf67a8dd01711cdfef999786",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        11070,
+        12965
+      ],
+      "panel_sha256": "db275511861b1a1d514049a6ee0b4b1c09d1bd5f7cf63314f7e5b2dd81fa3e9c",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        12965,
+        14865
+      ],
+      "panel_sha256": "24d0d6cd59319457f3974b68bc2b553205b6a2f0bfb9b9c14cc5d2e31f7d0212",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        14865,
+        16205
+      ],
+      "panel_sha256": "26f0a373497fa3abd38f75042dfd4826dff6a5c867b9a4faa748d89cf4c9b69e",
+      "status": "excluded",
+      "korean_boxes": 7,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        16205,
+        16994
+      ],
+      "panel_sha256": "36c7cb648b07a266f9834f1c2f86d6888531fd98e9ef3db3eba4dcd4ab9943a1",
+      "status": "excluded",
+      "korean_boxes": 3,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        16994,
+        18277
+      ],
+      "panel_sha256": "0ae008e6ee9a1346074fb614e331ca0fe6b0736ac78bb61d6e3c02e0cd5ca125",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        18277,
+        19042
+      ],
+      "panel_sha256": "f06f763fb4cf373927ce128d872f03c2429ef969434e64437f771c22829ce621",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        19042,
+        20234
+      ],
+      "panel_sha256": "18177dc4c0951684ab29a2bb6a0b4d0b85496874449f18851b9eeea38e40dc5f",
+      "status": "excluded",
+      "korean_boxes": 1,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        20234,
+        21556
+      ],
+      "panel_sha256": "5302691bea4642bf50d611e307105736f058783bd2ad6bb3efbcf17fdd4adb7b",
+      "status": "excluded",
+      "korean_boxes": 9,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        21556,
+        23176
+      ],
+      "panel_sha256": "58c1b1c019a8d38d34b970f52f1b1da35477043b76b2df04ed6792ac64c4cdf7",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        23176,
+        24029
+      ],
+      "panel_sha256": "3f74faf4b8de75e3e445d5b51907cd3b00db5c908b4b93a5c231389eb7e57d23",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    },
+    {
+      "source_sha256": "54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0",
+      "source_file": "source-54af765663605871e3f9f2149f80ef749ba9c7b91bd8b49e232543aee42016f0.bin",
+      "y": [
+        24029,
+        25746
+      ],
+      "panel_sha256": "551e69f8f02c1655471039a81165ff280eec15c56e294657506cefca6a7e7912",
+      "status": "excluded",
+      "reason": "korean_regulatory_panel"
+    }
+  ],
+  "outputs": [],
+  "status": "failed",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable",
+    "no_localized_panels"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "localized_conversion_not_upload_authorization"
+  ],
+  "summary": {
+    "panels": 18,
+    "used": 0,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 2,
+      "korean_regulatory_panel": 1,
+      "translation_failed": 14
+    }
+  },
+  "upload_allowed": false
+}

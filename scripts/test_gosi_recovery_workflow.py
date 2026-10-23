@@ -7,7 +7,9 @@ No production data, network, legal approvals or publication are changed.
 """
 from __future__ import annotations
 
+from datetime import datetime, timezone
 import hashlib
+import io
 import json
 import os
 from pathlib import Path
@@ -17,6 +19,8 @@ import sys
 import tempfile
 import time
 import unittest
+from unittest.mock import patch
+import zipfile
 
 import yaml
 
@@ -27,7 +31,98 @@ sys.path.insert(0, str(ROOT))
 WORKFLOW = ROOT / ".github/workflows/JARVIS-Deep-Analysis.yml"
 
 
-class GosiRecoveryWorkflowTests(unittest.TestCase):
+class AuthenticatedGosiFixture:
+    """Reusable offline Actions prerequisite for collector entrypoint tests."""
+
+    def prepare_continuity_fixture(self, root, document):
+        self.root = Path(root)
+        (self.root / "data").mkdir()
+        self.source = self.root / "data/gosi.json"
+        self.source.write_text(json.dumps(document))
+        self.before = self.source.read_bytes()
+        # The real CLI derives ROOT from __file__. Copy only that entrypoint;
+        # imports still use the checkout's production helpers via PYTHONPATH.
+        entrypoint = self.root / "scripts/daiso/collect_gosi_alt.py"
+        entrypoint.parent.mkdir(parents=True)
+        entrypoint.write_bytes((ROOT / "scripts/daiso/collect_gosi_alt.py").read_bytes())
+        (self.root / "playwright.py").write_text(
+            "raise AssertionError('workflow fixture must never import a browser')\n")
+        (self.root / "config").mkdir()
+        (self.root / "config/publish_policy.json").write_text(json.dumps({"identity_fields": ["product_id"]}))
+        for arguments in (("init", "-q"), ("add", "data", "config"),
+                          ("-c", "user.name=Offline Fixture", "-c", "user.email=fixture@example.invalid",
+                           "commit", "-qm", "isolated workflow fixture")):
+            subprocess.run(["git", "-C", str(self.root), *arguments],
+                           check=True, capture_output=True)
+        self.head = subprocess.check_output(
+            ["git", "-C", str(self.root), "rev-parse", "HEAD"], text=True).strip()
+        from scripts import gosi_safety_checkpoint as checkpoint
+        self.actions_env = dict(GITHUB_ACTIONS="true", GITHUB_REPOSITORY=checkpoint.REPOSITORY,
+            GITHUB_RUN_ID="99", GITHUB_RUN_ATTEMPT="1", GITHUB_SHA=self.head,
+            GITHUB_WORKSPACE=str(self.root), PYTHONDONTWRITEBYTECODE="1",
+            PYTHONPATH=str(self.root) + os.pathsep + str(ROOT))
+        self.restore_authenticated_fixture()
+
+    def restore_authenticated_fixture(self):
+        """Real restore verification/proof writer; only GitHub transport is fake.
+
+        The ZIP models an authenticated predecessor fixture, not a production
+        activation or hand-written current-run continuity proof.
+        """
+        from scripts import gosi_safety_checkpoint as checkpoint
+        workflow = ".github/workflows/JARVIS-Deep-Analysis.yml"
+        lineage = dict(repository=checkpoint.REPOSITORY, run_id="11", run_attempt="1", commit=self.head)
+        manifest = dict(schema_version=1, lineage=lineage, checkout_commit=self.head,
+            base=dict(commit=self.head, history_tree=None,
+                      inventory_sha256=hashlib.sha256(b"{}\n").hexdigest(), file_count=0),
+            coverage={"11": [1, checkpoint.WORKFLOW_ORDER.index(workflow), self.head]},
+            files={"data/gosi.json": dict(sha256=hashlib.sha256(self.before).hexdigest(), size=len(self.before))})
+        payload = io.BytesIO()
+        with zipfile.ZipFile(payload, "w") as archive:
+            archive.writestr(checkpoint.MANIFEST, json.dumps(manifest))
+            archive.writestr("data/gosi.json", self.before)
+        outer = io.BytesIO()
+        with zipfile.ZipFile(outer, "w") as archive:
+            archive.writestr("gosi-safety.zip", payload.getvalue())
+        raw = outer.getvalue()
+        run = dict(id=11, run_attempt=1, path=workflow, head_branch="main",
+            head_repository={"full_name": checkpoint.REPOSITORY}, head_sha=self.head,
+            status="completed", conclusion="failure")
+        download = checkpoint.BASE + "artifacts/71/zip"
+        artifact = dict(id=71, name="gosi-safety-11-1", expired=False,
+            workflow_run=dict(id=11, head_sha=self.head, head_branch="main"),
+            archive_download_url=download, digest="sha256:" + hashlib.sha256(raw).hexdigest())
+        self.restore_requests = []
+
+        def fetch_json(url):
+            self.restore_requests.append(url)
+            if url == checkpoint.BASE + "runs/99/attempts/1":
+                return dict(run, id=99, status="in_progress", conclusion=None)
+            if url == checkpoint.BASE + "runs/11/attempts/1":
+                return run
+            if url in (checkpoint.BASE + "artifacts?per_page=100&page=1",
+                       checkpoint.BASE + "runs/11/artifacts?per_page=100"):
+                return dict(total_count=1, artifacts=[artifact])
+            if url == checkpoint.BASE + "runs/11/attempts/1/jobs?per_page=100":
+                return dict(total_count=1, jobs=[dict(completed_at="2026-01-01T00:00:00+00:00")])
+            for name in checkpoint.WORKFLOWS:
+                if url == checkpoint.BASE + "workflows/" + name.rsplit("/", 1)[1] + "/runs?per_page=100&page=1":
+                    return dict(total_count=int(name == workflow), workflow_runs=[run] if name == workflow else [])
+            raise AssertionError("Unexpected offline GitHub request: " + url)
+
+        def fetch_bytes(url):
+            self.assertEqual(url, download)
+            return raw
+
+        with patch.dict(os.environ, self.actions_env):
+            restored = checkpoint.restore_latest(self.root, fetch_json=fetch_json,
+                fetch_bytes=fetch_bytes, current_run_id="99", current_attempt="1")
+            self.assertEqual(restored["status"], "unchanged")
+            checkpoint.h.require_continuity(self.root)
+        self.assertEqual(self.source.read_bytes(), self.before)
+
+
+class GosiRecoveryWorkflowTests(AuthenticatedGosiFixture, unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.bash = shutil.which("bash")
@@ -39,15 +134,11 @@ class GosiRecoveryWorkflowTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(prefix="gosi-workflow-", dir=ROOT.parent)
         self.addCleanup(self.tmp.cleanup)
-        self.root = Path(self.tmp.name)
-        (self.root / "data").mkdir()
-        self.source = self.root / "data/gosi.json"
-        self.source.write_text(json.dumps({
+        self.prepare_continuity_fixture(self.tmp.name, {
             "items": {"1041749": {"maker": "retained source fact", "captured_at": "original"}},
-            # Missing stop time fails closed without depending on today's clock.
-            "provider_stops": [{"provider": "daiso", "code": 403, "category": "auth"}],
-        }))
-        self.before = self.source.read_bytes()
+            "provider_stops": [{"provider": "daiso", "code": 403, "category": "auth",
+                                "stopped_at": datetime.now(timezone.utc).isoformat()}],
+        })
         self.result_dir = self.root / "release-results"
         self.report = self.root / "report.json"
         self.runtime = self.root / "data/dashboard_runtime.json"
@@ -73,6 +164,55 @@ class GosiRecoveryWorkflowTests(unittest.TestCase):
                 self.assertEqual(output.read_text(), f'count={count}\n')
                 self.assertEqual(self.source.read_bytes(), before)
 
+    def test_actions_restore_proof_is_bound_to_isolated_cli_root(self):
+        proof = json.loads((self.root / '.gosi-safety-verified.json').read_bytes())
+        self.assertEqual(self.actions_env['GITHUB_ACTIONS'], 'true')
+        self.assertEqual(proof['head'], self.head)
+        self.assertEqual(proof['event_sha'], self.actions_env['GITHUB_SHA'])
+        self.assertEqual(proof['run_id'], self.actions_env['GITHUB_RUN_ID'])
+        self.assertEqual(proof['run_attempt'], self.actions_env['GITHUB_RUN_ATTEMPT'])
+        self.assertEqual(proof['source']['run_id'], '11')
+        self.assertTrue(any('/artifacts?' in url for url in self.restore_requests))
+        process = self.run_stage()
+        self.assertEqual(process.returncode, 2, process.stderr)
+        self.assertIn('auth circuit stopped (403)', process.stderr)
+        self.assertEqual(self.calls.read_text().splitlines(), ['access-check'])
+
+    def test_actions_cli_rejects_missing_stale_or_pending_proof_before_setup(self):
+        proof_path = self.root / '.gosi-safety-verified.json'
+        original = proof_path.read_bytes()
+        cases = [("missing", None), ("run_id", "100"), ("run_attempt", "2"),
+                 ("repository", "foreign/repository"), ("head", "0" * 40),
+                 ("event_sha", "0" * 40),
+                 (".gosi-safety-restore.pending", "interrupted"),
+                 (".gosi-collection.pending", "interrupted")]
+        for key, value in cases:
+            with self.subTest(case=key):
+                self.calls.unlink(missing_ok=True)
+                proof_path.write_bytes(original)
+                pending = self.root / key if key.endswith('.pending') else None
+                if key == "missing":
+                    proof_path.unlink()
+                elif pending:
+                    pending.write_text(value)
+                else:
+                    proof = json.loads(original)
+                    proof[key] = value
+                    proof_path.write_text(json.dumps(proof))
+                try:
+                    process = self.run_stage()
+                    self.assertNotEqual(process.returncode, 0, process.stderr)
+                    self.assertIn('gosi ', process.stderr)
+                    self.assertNotIn('auth circuit stopped (403)', process.stderr)
+                    self.assertEqual(self.calls.read_text().splitlines(), ['access-check'])
+                    self.assertEqual(self.recorded()['status'], 'failed')
+                    self.assertIsNone(self.recorded()['last_successful_fetch_at'])
+                    self.assertEqual(self.source.read_bytes(), self.before)
+                finally:
+                    if pending:
+                        pending.unlink()
+                    proof_path.write_bytes(original)
+
     def run_stage(self, count="1", pip_code=0, browser_code=0, collector_mode="stopped", source_stopped=True, hang_phase="", pip_delay="0", continuity="success", deadline=None):
         if not source_stopped:
             doc = json.loads(self.source.read_bytes())
@@ -81,15 +221,6 @@ class GosiRecoveryWorkflowTests(unittest.TestCase):
             self.before = self.source.read_bytes()
         # Execute the workflow shell verbatim. Only external/installation calls
         # are replaced; collector_result.py remains the real subprocess wrapper.
-        stopped = "\n".join((
-            "from pathlib import Path",
-            "import os",
-            "from unittest.mock import patch",
-            "from scripts.daiso import collect_gosi_alt as collector",
-            "collector.GOSI = Path('data/gosi.json')",
-            "with patch.dict('sys.modules', {'playwright': None, 'playwright.sync_api': None}):",
-            "    raise SystemExit(collector.main(check_access_only=os.getenv('FIXTURE_CHECK_ONLY') == '1'))",
-        ))
         script = r'''
 python() {
   if [[ "$1" == scripts/collector_result.py ]]; then
@@ -107,14 +238,14 @@ python() {
   elif [[ "$1" == -u && "$2" == scripts/daiso/collect_gosi_alt.py ]]; then
     if [[ "${3:-}" == --check-access-only ]]; then
       printf 'access-check\n' >> "$FIXTURE_CALLS"
-      FIXTURE_CHECK_ONLY=1 command "$FIXTURE_PYTHON" -c "$FIXTURE_STOPPED_SCRIPT"
+      command "$FIXTURE_PYTHON" "$@"
       return $?
     fi
     printf 'collector\n' >> "$FIXTURE_CALLS"
     if [[ "$FIXTURE_COLLECTOR_MODE" == hung_worker ]]; then
       command "$FIXTURE_PYTHON" -c "$FIXTURE_HANGING_COLLECTOR"
     elif [[ "$FIXTURE_COLLECTOR_MODE" == stopped ]]; then
-      command "$FIXTURE_PYTHON" -c "$FIXTURE_STOPPED_SCRIPT"
+      command "$FIXTURE_PYTHON" "$@"
     else
       return 0
     fi
@@ -135,7 +266,7 @@ export -f python playwright
                    RELEASE_EXECUTION_ID="gosi-fixture:1", FIXTURE_PYTHON=sys.executable,
                    FIXTURE_REPO=str(ROOT), FIXTURE_CALLS=str(self.calls),
                    FIXTURE_PIP_CODE=str(pip_code), FIXTURE_BROWSER_CODE=str(browser_code),
-                   FIXTURE_COLLECTOR_MODE=collector_mode, FIXTURE_STOPPED_SCRIPT=stopped,
+                   FIXTURE_COLLECTOR_MODE=collector_mode,
                    FIXTURE_HANG_PHASE=hang_phase, FIXTURE_PIP_DELAY=pip_delay,
                    FIXTURE_DESCENDANT_PID=str(self.root/'installer-child.json'),
                    FIXTURE_STUCK_DESCENDANT="\n".join((
@@ -154,7 +285,7 @@ export -f python playwright
                    GOSI_STAGE_BUDGET_SECONDS="0.6", GOSI_STAGE_CLEANUP_SECONDS="0.1",
                    GOSI_CONTINUITY_OUTCOME=continuity,
                    DAISO_GOSI_DEADLINE_MONOTONIC=str(deadline if deadline is not None else time.monotonic()+0.6),
-                   PYTHONPATH=str(ROOT))
+                   **self.actions_env)
         return subprocess.run([self.bash, "--noprofile", "--norc", "-e", "-o", "pipefail",
                                "-c", script + self.stage["run"]], cwd=self.root,
                               env=env, capture_output=True, text=True, timeout=30)
@@ -177,7 +308,7 @@ export -f python playwright
         fixture.chmod(0o700)
         output = self.root / "github-env"
         environment = dict(os.environ, PATH=str(binary)+os.pathsep+os.environ['PATH'],
-            GITHUB_ENV=str(output), GITHUB_WORKSPACE=str(self.root),
+            GITHUB_ENV=str(output), **self.actions_env,
             GOSI_STAGE_BUDGET_SECONDS=budget, GOSI_STAGE_CLEANUP_SECONDS="0.1",
             FIXTURE_RESTORE_MODE=mode, FIXTURE_RESTORE_DELAY=delay)
         process = subprocess.run([self.bash, "-e", "-o", "pipefail", "-c", restore["run"]],

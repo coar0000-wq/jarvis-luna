@@ -1,6 +1,7 @@
 """Synthetic offline regression fixtures; never invoke providers."""
 import copy
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
@@ -15,8 +16,9 @@ from scripts.daiso import collect_gosi_alt as a
 import urllib.error
 import io
 from types import SimpleNamespace
+from test_gosi_recovery_workflow import AuthenticatedGosiFixture
 
-class ProvenanceTests(unittest.TestCase):
+class ProvenanceTests(AuthenticatedGosiFixture, unittest.TestCase):
     def test_s_grade_seed_is_identity_only_and_preserves_existing_evidence(self):
         with tempfile.TemporaryDirectory() as tmp:
             src=Path(tmp)/'recommendations.json'
@@ -221,16 +223,35 @@ class ProvenanceTests(unittest.TestCase):
                     self.assertEqual(h.classify_stop(source, 'fixture').code, code)
 
     def test_persisted_stop_force_bypasses_nothing(self):
-        doc = {'items': {'a': {}}, 'provider_stops': [{'provider': 'gemini', 'code': 429, 'category': 'quota'}]}
+        for module, provider, argv, request, code in (
+                (v, 'gemini', ['vision', '--force'], 'pick_models', 0),
+                (c, 'daiso', ['collector'], 'collect_one', 0),
+                (a, 'daiso', ['alt', '--force', 'a'], 'run_collection_supervisor', 2)):
+            with self.subTest(provider=provider, entrypoint=argv[0]), tempfile.TemporaryDirectory() as tmp:
+                doc = {'items': {'a': {}}, 'provider_stops': [{'provider': provider, 'code': 429,
+                    'category': 'quota', 'stopped_at': h.utcnow()}]}
+                self.prepare_continuity_fixture(tmp, doc)
+                with patch.dict(os.environ, self.actions_env), patch.object(module, 'ROOT', self.root), \
+                     patch.object(module, 'GOSI', self.source), patch.object(sys, 'argv', argv), \
+                     patch.object(module, request) as call, patch.object(module, 'publish_observation') as publish:
+                    self.assertEqual(module.main(), code)
+                call.assert_not_called()
+                publish.assert_not_called()
+                self.assertEqual(self.source.read_bytes(), self.before)
+
+    def test_vision_missing_actions_proof_blocks_before_provider(self):
         with tempfile.TemporaryDirectory() as tmp:
-            f = Path(tmp) / 'gosi.json'; f.write_text(json.dumps(doc))
-            with patch.object(v, 'GOSI', f), patch.object(v, 'pick_models') as call, patch.object(v.sys, 'argv', ['vision', '--force']):
-                self.assertEqual(v.main(), 0); call.assert_not_called()
-            doc['provider_stops'][0]['provider'] = 'daiso'; f.write_text(json.dumps(doc))
-            with patch.object(c, 'GOSI', f), patch.object(c, 'collect_one') as call:
-                self.assertEqual(c.main(), 0); call.assert_not_called()
-            with patch.object(a, 'GOSI', f), patch.object(a.sys, 'argv', ['alt', '--force', 'a']):
-                self.assertEqual(a.main(), 2)  # 중단된 alt 수집은 Actions 성공이 아니다.
+            self.prepare_continuity_fixture(tmp, {'items': {'a': {'maker': 'human'}}})
+            (self.root / h.CONTINUITY_PROOF).unlink()
+            with patch.dict(os.environ, self.actions_env), patch.object(v, 'ROOT', self.root), \
+                 patch.object(v, 'GOSI', self.source), patch.object(v, 'pick_models') as models, \
+                 patch.object(v, 'read_table') as read, patch.object(v, 'publish_observation') as publish:
+                with self.assertRaisesRegex(ValueError, 'authenticated continuity proof required'):
+                    v.main()
+            models.assert_not_called()
+            read.assert_not_called()
+            publish.assert_not_called()
+            self.assertEqual(self.source.read_bytes(), self.before)
 
     def test_stop_cooldown_expires_but_fails_closed(self):
         # 2026-10-16 회귀: 10-11 정지가 영구로 남아 고시 수집이 5일간 매 회차 즉시 종료됐다.
@@ -338,11 +359,18 @@ class ProvenanceTests(unittest.TestCase):
     def test_current_run_stop_persisted_no_fact_missing_refresh(self):
         doc = {'items': {'a': {'maker': 'human', 'captured_at': 'original', '텍스트_미수집': ['origin']}}}
         with tempfile.TemporaryDirectory() as tmp:
-            f = Path(tmp) / 'gosi.json'; f.write_text(json.dumps(doc))
-            with patch.object(v, 'GOSI', f), patch.object(v.os.environ, 'get', return_value='synthetic'), patch.object(v, 'pick_models', side_effect=h.ProviderStop('gemini', 429)) as call, patch.object(v, 'publish_observation') as publish:
+            self.prepare_continuity_fixture(tmp, doc)
+            with patch.dict(os.environ, {**self.actions_env, 'GEMINI_API_KEY': 'synthetic'}), \
+                 patch.object(v, 'ROOT', self.root), patch.object(v, 'GOSI', self.source), \
+                 patch.object(v, 'pick_models', side_effect=h.ProviderStop('gemini', 429)) as call, \
+                 patch.object(v, 'read_table') as read, \
+                 patch.object(v, 'publish_observation', wraps=h.publish_observation) as publish:
                 self.assertEqual(v.main(), 0)
                 self.assertEqual(call.call_count, 1)
-                saved = publish.call_args.args[1]
+                read.assert_not_called()
+                publish.assert_called_once()
+                self.assertEqual(publish.call_args.args[0], self.root)
+                saved = json.loads(self.source.read_bytes())
                 self.assertEqual(saved['provider_stops'][0]['code'], 429)
                 self.assertEqual(saved['items'], doc['items'])
                 self.assertNotIn('generated_at', saved)
