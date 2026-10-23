@@ -61,6 +61,8 @@ MANIFEST_DIR = DATA / "image_localization"
 CLAIM_RULES = DATA / "us_claim_rules.json"
 LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
 sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(ROOT))
+from scripts.gemini_stop_guard import assert_gemini_not_stopped  # noqa: E402
 
 PAGE = "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo={}"
 UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
@@ -583,7 +585,6 @@ class GeminiTranslator:
             raise RuntimeError(f"translator_stopped:{cls.stopped}")
         if cls.calls >= cls.MAX_CALLS:
             raise RuntimeError("translation_call_budget_exhausted")
-        cls.calls += 1
         try:
             return self._translate(panel_png, boxes, title)
         except urllib.error.HTTPError as exc:
@@ -604,6 +605,8 @@ class GeminiTranslator:
         req = urllib.request.Request(
             f"https://generativelanguage.googleapis.com/v1beta/models/{self.model}:generateContent?key={self.key}",
             data=json.dumps(body).encode(), headers={"Content-Type": "application/json"}, method="POST")
+        assert_gemini_not_stopped(ROOT)
+        GeminiTranslator.calls += 1
         with urllib.request.urlopen(req, timeout=90) as r:
             doc = json.loads(r.read())
         text = doc["candidates"][0]["content"]["parts"][0]["text"]

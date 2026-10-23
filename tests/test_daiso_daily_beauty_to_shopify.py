@@ -3,6 +3,7 @@ import importlib.util
 import copy
 import json
 import os
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -2523,6 +2524,183 @@ class GalleryRepairExecutionTests(unittest.TestCase):
                 self.assertIsNone(daily.gallery_media_hash(url))
             self.assertEqual(opener.call_count, 1)
 
+
+
+class PersistedGeminiStopTests(unittest.TestCase):
+    """Exercise real guard paths with isolated state and sockets disabled."""
+
+    def setUp(self):
+        folder = tempfile.TemporaryDirectory()
+        self.addCleanup(folder.cleanup)
+        self.root = Path(folder.name)
+        (self.root / "data").mkdir()
+        self.path = self.root / "data/gosi.json"
+        self.save_stops([])
+        self.product = {"pdNo": "9001", "pdNm": "Fixture Cream 30 ml", "brndNm": "Fixture"}
+        self.cat = daily.CATEGORIES[0]
+        for patcher in (
+            patch.object(daily, "ROOT", self.root),
+            patch.dict(os.environ, {"GEMINI_API_KEY": "offline-fixture-key"}),
+            patch("socket.create_connection", side_effect=AssertionError("network forbidden")),
+            patch("socket.socket.connect", side_effect=AssertionError("network forbidden")),
+        ):
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def stop(self, **changes):
+        return dict(dict(provider="gemini", code=429, category="quota",
+                         stopped_at=datetime.now(timezone.utc).isoformat()), **changes)
+
+    def save_stops(self, stops, items=None):
+        self.path.write_text(json.dumps({"items": items or {}, "provider_stops": stops}))
+
+    def response(self):
+        return 200, {"candidates": [{"content": {"parts": [{"text": json.dumps({
+            "title": "Fixture Cream 30 ml", "description": "A neutral fixture description."})}]}}]}
+
+    def test_saved_stop_skips_copy_but_keeps_rule_fallback_for_any_key_model(self):
+        self.save_stops([self.stop()])
+        before = self.path.read_bytes()
+        with patch.object(daily, "http_json") as requests, patch.object(daily, "log"):
+            for key, model in (("first-key", "gemini-flash-lite-latest"), ("second-key", "gemini-flash-latest")):
+                with self.subTest(model=model), patch.dict(os.environ, {"GEMINI_API_KEY": key, "GEMINI_MODEL": model}):
+                    self.assertIsNone(daily.gemini_copy(self.product, self.cat))
+                    result = daily.gemini_copy(self.product, self.cat) or daily.fallback_copy(self.product, self.cat)
+                    self.assertEqual(result[0], "Fixture Cream 30 ml")
+            requests.assert_not_called()
+        self.assertEqual(self.path.read_bytes(), before)
+
+    def test_copy_rechecks_state_each_time_without_caching(self):
+        with patch.object(daily, "http_json", return_value=self.response()) as requests, patch.object(daily, "log"):
+            self.assertEqual(daily.gemini_copy(self.product, self.cat)[0], "Fixture Cream 30 ml")
+            self.save_stops([self.stop()])
+            self.assertIsNone(daily.gemini_copy(self.product, self.cat))
+            requests.assert_called_once()
+
+    def test_expired_and_other_provider_stops_follow_existing_policy_without_writes(self):
+        expired = self.stop(stopped_at=(datetime.now(timezone.utc) - timedelta(hours=25)).isoformat())
+        for stops in ([expired], [self.stop(provider="daiso", code=403, category="auth")]):
+            with self.subTest(stops=stops):
+                self.save_stops(stops)
+                before = self.path.read_bytes()
+                with patch.object(daily, "http_json", return_value=self.response()) as requests:
+                    self.assertIsNotNone(daily.gemini_copy(self.product, self.cat))
+                    requests.assert_called_once()
+                self.assertEqual(self.path.read_bytes(), before)
+
+    def test_invalid_or_missing_state_skips_copy_without_disabling_rules(self):
+        for raw in (None, b"{", b'{"items": {}, "provider_stops": null}'):
+            with self.subTest(raw=raw):
+                self.path.unlink(missing_ok=True)
+                if raw is not None:
+                    self.path.write_bytes(raw)
+                with patch.object(daily, "http_json") as requests, patch.object(daily, "log"):
+                    self.assertIsNone(daily.gemini_copy(self.product, self.cat))
+                    self.assertTrue(daily.fallback_copy(self.product, self.cat)[0])
+                    requests.assert_not_called()
+
+    def test_active_or_missing_state_blocks_vision_before_source_or_gemini_request(self):
+        self.save_stops([self.stop()])
+        for missing in (False, True):
+            with self.subTest(missing=missing):
+                if missing:
+                    self.path.unlink()
+                with patch.object(daily.urllib.request, "urlopen") as source, patch.object(daily, "http_json") as gemini:
+                    with self.assertRaises((daily.ProviderStop, daily.GeminiStopStateError)):
+                        daily.vision_read("https://example.invalid/source.png", "9001", "fixture-key", "fixture-model")
+                    source.assert_not_called()
+                    gemini.assert_not_called()
+
+    def test_stop_arriving_during_source_read_blocks_vision_transmission(self):
+        response = MagicMock()
+        def source_bytes():
+            self.save_stops([self.stop()])
+            return b"fixture image bytes"
+        response.__enter__.return_value.read.side_effect = source_bytes
+        response.__enter__.return_value.headers.get_content_type.return_value = "image/png"
+        with patch.object(daily.urllib.request, "urlopen", return_value=response) as source, \
+             patch.object(daily, "http_json") as gemini:
+            with self.assertRaises(daily.ProviderStop):
+                daily.vision_read("https://example.invalid/source.png", "9001", "fixture-key", "fixture-model")
+            source.assert_called_once()
+            gemini.assert_not_called()
+
+    def test_vision_without_stop_keeps_existing_request_behavior(self):
+        response = MagicMock()
+        response.__enter__.return_value.read.return_value = b"fixture image bytes"
+        response.__enter__.return_value.headers.get_content_type.return_value = "image/png"
+        body = {"candidates": [{"content": {"parts": [{"text": '{"volume":"30 ml"}'}]}}]}
+        with patch.object(daily.urllib.request, "urlopen", return_value=response) as source, \
+             patch.object(daily, "http_json", return_value=(200, body)) as gemini:
+            result = daily.vision_read("https://example.invalid/source.png", "9001", "fixture-key", "fixture-model")
+            self.assertEqual(result["volume"], "30 ml")
+            source.assert_called_once()
+            gemini.assert_called_once()
+
+    def test_stopped_vision_retains_cache_api_alt_and_local_ocr_without_retries(self):
+        self.save_stops([self.stop()], items={"9001": {"ingredients": "Cached INCI"}})
+        before = self.path.read_bytes()
+        with patch.object(daily, "GOSI_RENDERED_ALT", True), \
+             patch.object(daily, "gosi_from_api", return_value={"volume": "30 ml"}) as api, \
+             patch.object(daily, "gosi_from_rendered_alt", return_value={"maker": "Fixture Manufacturer"}) as alt, \
+             patch("daiso_notice_recovery.rendered_notice", return_value={"fields": {}, "images": ["fixture"]}) as rendered, \
+             patch("daiso_notice_recovery.ocr_notice", return_value={"review_required": True}) as ocr, \
+             patch.object(daily, "detail_image_urls", return_value=["https://example.invalid/a", "https://example.invalid/b"]), \
+             patch.object(daily.urllib.request, "urlopen") as source, \
+             patch.object(daily, "http_json") as gemini, \
+             patch.object(daily.time, "sleep") as sleep, patch.object(daily, "log"):
+            result = daily.collect_gosi("9001")
+            self.assertEqual(result["ingredients"], "Cached INCI")
+            self.assertEqual(result["volume"], "30 ml")
+            self.assertEqual(result["maker"], "Fixture Manufacturer")
+            self.assertEqual(result["missing"], ["origin"])
+            api.assert_called_once()
+            alt.assert_called_once()
+            rendered.assert_called_once()
+            ocr.assert_called_once()
+            source.assert_not_called()
+            gemini.assert_not_called()
+            sleep.assert_not_called()
+        self.assertEqual(self.path.read_bytes(), before)
+
+    def test_shopify_read_does_not_inherit_gemini_stop(self):
+        self.save_stops([self.stop()])
+        shop = daily.Shopify.__new__(daily.Shopify)
+        shop.store, shop.token = "fixture.myshopify.com", "fixture-token"
+        with patch.object(daily, "http_json", return_value=(200, {"data": {"shop": {"name": "Fixture"}}})) as requests:
+            self.assertEqual(shop.gql("query { shop { name } }")["shop"]["name"], "Fixture")
+            requests.assert_called_once()
+            self.assertIn("fixture.myshopify.com", requests.call_args.args[0])
+
+    def test_github_actions_script_import_from_foreign_cwd_keeps_guard_active(self):
+        self.save_stops([self.stop()])
+        code = f'''
+import importlib.util, socket, sys, urllib.request
+from pathlib import Path
+def blocked(*args, **kwargs): raise AssertionError("network forbidden")
+socket.create_connection = blocked
+socket.socket.connect = blocked
+urllib.request.urlopen = blocked
+# Python supplies the script's directory for normal direct-script execution.
+sys.path.insert(0, {str(SCRIPT.parent)!r})
+spec = importlib.util.spec_from_file_location("isolated_daily", {str(SCRIPT)!r})
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+module.ROOT = Path({str(self.root)!r})
+before = (module.ROOT / "data/gosi.json").read_bytes()
+assert module.gemini_copy({{"pdNm": "Fixture"}}, module.CATEGORIES[0]) is None
+try:
+    module.vision_read("https://example.invalid/source", "fixture", "offline-key", "fixture-model")
+except module.ProviderStop:
+    pass
+else:
+    raise AssertionError("persisted STOP was not applied")
+assert (module.ROOT / "data/gosi.json").read_bytes() == before
+'''
+        result = subprocess.run([sys.executable, "-I", "-B", "-c", code], cwd=self.root,
+                                env={**os.environ, "GITHUB_ACTIONS": "true", "GEMINI_API_KEY": "offline-key", "PYTHONPATH": ""},
+                                capture_output=True, text=True, timeout=10)
+        self.assertEqual(result.returncode, 0, result.stderr)
 
 
 if __name__ == "__main__":
