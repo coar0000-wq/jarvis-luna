@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T17:29:53.799321+00:00",
+  "generated_at": "2026-10-23T21:40:03.377603+00:00",
   "generator": "scripts/team_history_evidence.py",
   "ref": "HEAD",
-  "ref_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+  "ref_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
   "window_days": 21,
   "method": "build_team_baselines.measure() applied to the exact file bytes of the last first-parent commit of each KST day (git show <commit>:<path>). No interpolation.",
   "not_business_verification": true,
@@ -14,14 +14,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 4,
         "denominator": 7,
         "source_path": "data/channel_candidates.json",
         "source_clock": "2026-10-05T02:25:21.582807+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -30,7 +30,7 @@
         "to_value": 4,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-05T02:25:21.582807+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -41,7 +41,7 @@
         "to_value": 4,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-05T02:25:21.582807+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -52,7 +52,7 @@
         "to_value": 4,
         "change": 0,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "source_refreshes_in_window": 3,
@@ -290,14 +290,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 4,
           "denominator": 7,
           "source_path": "data/channel_candidates.json",
           "source_clock": "2026-10-05T02:25:21.582807+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -306,14 +306,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 42,
         "denominator": 78,
         "source_path": "data/design_team.json#references.quality",
         "source_clock": "2026-10-22T09:37:31.804582+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -322,7 +322,7 @@
         "to_value": 42,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-22T09:37:31.804582+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -333,7 +333,7 @@
         "to_value": 42,
         "change": 8,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "improved"
       },
       "vs_window_start": {
@@ -343,7 +343,7 @@
         "to_value": 42,
         "change": 8,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "improved"
       },
       "source_refreshes_in_window": 3,
@@ -581,14 +581,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 42,
           "denominator": 78,
           "source_path": "data/design_team.json#references.quality",
           "source_clock": "2026-10-22T09:37:31.804582+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -597,14 +597,14 @@
       "direction": "decrease",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 638,
         "denominator": 8406,
         "source_path": "data/self_improve/status.json#loops.topics",
         "source_clock": "2026-10-22T09:40:36.042360+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -613,7 +613,7 @@
         "to_value": 638,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-22T09:40:36.042360+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -624,7 +624,7 @@
         "to_value": 638,
         "change": 126,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 6955,
         "to_denominator": 8406,
         "denominator_changed": true,
@@ -639,7 +639,7 @@
         "to_value": 638,
         "change": 126,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 6955,
         "to_denominator": 8406,
         "denominator_changed": true,
@@ -882,14 +882,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 638,
           "denominator": 8406,
           "source_path": "data/self_improve/status.json#loops.topics",
           "source_clock": "2026-10-22T09:40:36.042360+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -898,14 +898,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 1073,
         "denominator": 35,
         "source_path": "data/institution_sources.json",
         "source_clock": "2026-10-03T11:39:17.808691+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -914,7 +914,7 @@
         "to_value": 1073,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-03T11:39:17.808691+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -925,7 +925,7 @@
         "to_value": 1073,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "vs_window_start": {
@@ -935,7 +935,7 @@
         "to_value": 1073,
         "change": 0,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "source_refreshes_in_window": 2,
@@ -1173,14 +1173,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 1073,
           "denominator": 35,
           "source_path": "data/institution_sources.json",
           "source_clock": "2026-10-03T11:39:17.808691+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -1189,14 +1189,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 2186,
         "denominator": 6,
         "source_path": "data/knowledge/real_sources.json",
         "source_clock": null,
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -1205,7 +1205,7 @@
         "to_value": 2186,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "vs_7_days": {
@@ -1215,7 +1215,7 @@
         "to_value": 2186,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "vs_window_start": {
@@ -1225,7 +1225,7 @@
         "to_value": 2186,
         "change": 169,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "improved"
       },
       "source_refreshes_in_window": 0,
@@ -1463,14 +1463,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 2186,
           "denominator": 6,
           "source_path": "data/knowledge/real_sources.json",
           "source_clock": null,
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -1479,14 +1479,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 0,
         "denominator": 6,
         "source_path": "data/legal_full.json",
         "source_clock": "2026-10-23T04:23:42.502769+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -1495,7 +1495,7 @@
         "to_value": 0,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-23T04:23:42.502769+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -1506,7 +1506,7 @@
         "to_value": 0,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 7,
         "to_denominator": 6,
         "denominator_changed": true,
@@ -1521,7 +1521,7 @@
         "to_value": 0,
         "change": 0,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 10,
         "to_denominator": 6,
         "denominator_changed": true,
@@ -1764,14 +1764,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 0,
           "denominator": 6,
           "source_path": "data/legal_full.json",
           "source_clock": "2026-10-23T04:23:42.502769+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -1780,14 +1780,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 0,
         "denominator": null,
         "source_path": "data/shopify_listing_copy.json",
         "source_clock": "2026-10-22T10:01:25.939392+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -1796,7 +1796,7 @@
         "to_value": 0,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-22T10:01:25.939392+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -1807,7 +1807,7 @@
         "to_value": 0,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "vs_window_start": {
@@ -1817,7 +1817,7 @@
         "to_value": 0,
         "change": -9,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 9,
         "to_denominator": null,
         "denominator_changed": true,
@@ -2059,14 +2059,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 0,
           "denominator": null,
           "source_path": "data/shopify_listing_copy.json",
           "source_clock": "2026-10-22T10:01:25.939392+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -2075,14 +2075,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 185,
         "denominator": null,
         "source_path": "data/amazon_products.json+walmart+oliveyoung",
         "source_clock": "2026-09-15T11:19:23.782Z",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -2091,7 +2091,7 @@
         "to_value": 185,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-15T11:19:23.782Z 이다. 다시 재지 않은 값이다."
       },
@@ -2102,7 +2102,7 @@
         "to_value": 185,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-15T11:19:23.782Z 이다. 다시 재지 않은 값이다."
       },
@@ -2113,7 +2113,7 @@
         "to_value": 185,
         "change": 0,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-15T11:19:23.782Z 이다. 다시 재지 않은 값이다."
       },
@@ -2352,14 +2352,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 185,
           "denominator": null,
           "source_path": "data/amazon_products.json+walmart+oliveyoung",
           "source_clock": "2026-09-15T11:19:23.782Z",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -2368,14 +2368,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 6,
         "denominator": 6,
         "source_path": "data/listing_gate.json",
         "source_clock": "2026-10-23T04:23:43.054399+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -2384,7 +2384,7 @@
         "to_value": 6,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-23T04:23:43.054399+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -2395,7 +2395,7 @@
         "to_value": 6,
         "change": 5,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 7,
         "to_denominator": 6,
         "denominator_changed": true,
@@ -2410,7 +2410,7 @@
         "to_value": 6,
         "change": -4,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "from_denominator": 10,
         "to_denominator": 6,
         "denominator_changed": true,
@@ -2653,14 +2653,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 6,
           "denominator": 6,
           "source_path": "data/listing_gate.json",
           "source_clock": "2026-10-23T04:23:43.054399+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -2669,14 +2669,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 235,
         "denominator": 2,
         "source_path": "data/robotics_sources.json",
         "source_clock": "2026-10-22T09:36:14.282602+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -2685,7 +2685,7 @@
         "to_value": 235,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-10-22T09:36:14.282602+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -2696,7 +2696,7 @@
         "to_value": 235,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "same"
       },
       "vs_window_start": {
@@ -2706,7 +2706,7 @@
         "to_value": 235,
         "change": 169,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "improved"
       },
       "source_refreshes_in_window": 4,
@@ -2944,14 +2944,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 235,
           "denominator": 2,
           "source_path": "data/robotics_sources.json",
           "source_clock": "2026-10-22T09:36:14.282602+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     },
@@ -2960,14 +2960,14 @@
       "direction": "increase",
       "latest": {
         "date": "2026-10-24",
-        "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "committed_at": "2026-10-23T21:46:24+09:00",
-        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+        "committed_at": "2026-10-24T05:27:46+09:00",
+        "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "value": 10,
         "denominator": 110,
         "source_path": "data/daiso_real/collection_status.json#last_success",
         "source_clock": "2026-09-29T00:48:58.284474+00:00",
-        "repeat_commit": true
+        "repeat_commit": false
       },
       "vs_previous_day": {
         "from": "2026-10-23",
@@ -2976,7 +2976,7 @@
         "to_value": 10,
         "change": 0,
         "from_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-29T00:48:58.284474+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -2987,7 +2987,7 @@
         "to_value": 10,
         "change": 0,
         "from_commit": "8bc97137ccdfa61ed737188f17ef309697015d76",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-29T00:48:58.284474+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -2998,7 +2998,7 @@
         "to_value": 10,
         "change": 0,
         "from_commit": "45810a59e626f5de9c94d4906b1f1924f35bc8d9",
-        "to_commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
+        "to_commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
         "verdict": "source_not_refreshed",
         "note": "근거 파일 시각이 두 시점 모두 2026-09-29T00:48:58.284474+00:00 이다. 다시 재지 않은 값이다."
       },
@@ -3237,14 +3237,14 @@
         },
         {
           "date": "2026-10-24",
-          "commit": "6c34f977356d050b7fdf618b79c7136b16c4e564",
-          "committed_at": "2026-10-23T21:46:24+09:00",
-          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/6c34f977356d050b7fdf618b79c7136b16c4e564",
+          "commit": "1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
+          "committed_at": "2026-10-24T05:27:46+09:00",
+          "commit_url": "https://github.com/coar0000-wq/jarvis-luna/commit/1e6a9b361fd9f3d6b32c291a9bf7a54212bba120",
           "value": 10,
           "denominator": 110,
           "source_path": "data/daiso_real/collection_status.json#last_success",
           "source_clock": "2026-09-29T00:48:58.284474+00:00",
-          "repeat_commit": true
+          "repeat_commit": false
         }
       ]
     }
