@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:36:44.541325+00:00",
+  "generated_at": "2026-10-22T23:34:40.428963+00:00",
   "generator": "scripts/collect_via_gemini.py",
   "model": "gemini-flash-lite-latest",
   "method": "Gemini API url_context 도구",
@@ -13,10 +13,556 @@
       "count": 0,
       "status": "failed",
       "reason": "페이지에서 상품을 얻지 못함",
-      "url_context_result": "{\"call_id\": \"call_79912\", \"signature\": \"CAIS2okDAWkUfRMHCaL836r90ZHp4UwqytXJDm2lLb2QtP1464zmkodoNz1Hhr3Sf+qjGQjh9rYMNMIF/2RN7RHeXW59gWAFsLc+jBS15Qd+lV71Di5GApj4aGe8u7591vwwhACSvn15yx4nqVp3+rHXZyjSbRGzSgFvqotKXohRllbIMMJRkth1G+J3UvfCbUhqmZ9ojuxPhd22dbo8/0aRz38m8lS4zUUyi+kgz/xRUW15INTGl+4A5A+2RcYNwjDX",
+      "url_context_result": "{\"call_id\": \"call_154932\", \"signature\": \"CAIS0g8BaRR9E/bdze1txFeNv+xatGPYkG2p6G3B5XvJ9GrhLKPf723s2D2CDEZbIfDcbBMM2xjPLlrgqPc5dOD5yKELcMZpKnKcw5JjiK7gVZa/c22Ep4Wl7MXG0xXv9e34PU2INGeQuoJ9FWlR5L7FIW42IM0ZP4fF3uIuz0yr5zR1uoodMruF+mIGskeaRPdLT4+CldbU3yHTi1D2hui+r2lKAeV08hXL/RpBL2CGeuabnb5kOKJ0WsI5lzqiAUF",
       "products": []
     },
     "sephora": {
+      "label": "Sephora",
+      "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+      "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
+      "count": 40,
+      "status": "ok",
+      "reason": "",
+      "url_context_result": "{\"call_id\": \"call_174480\", \"signature\": \"CAIS9n0BaRR9EzpmUhEykzpg8BuejwCvYjR5J65qHU7dBa0pKWx9h2zl4LIdqnTJIwIuiaU02T49bPOCOohB4atSLZarTUcIvutnALxo4rSCJ0WMrbWwoWtO1YCGYR9vCCjQHfDjtTiA8JuMZ+fEYy0RJKr8aeEe6e6tqixJNOCiEIlwAf6zDw2GWpb0fWbs78BSPYvs3TMpbjmUFjuAU+XAADIqRlCxaqZePXQ9Ihdseb2VIRdV69aY1Y1gyU7qOo8",
+      "products": [
+        {
+          "rank": 1,
+          "product": "Glazing Milk Hydrating Ceramide Facial Essence",
+          "brand": "rhode",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 2900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 2,
+          "product": "ATOBARRIER365 Cream Moisturizer with Ceramides & Niacinamide for Skin Moisture Barrier Repair",
+          "brand": "AESTURA",
+          "price_usd": 21.0,
+          "rating": null,
+          "review_count": 836,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 3,
+          "product": "Instant Angel Lipid-Rich Firming Moisturizer",
+          "brand": "Dieux",
+          "price_usd": 25.0,
+          "rating": null,
+          "review_count": 2400,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 4,
+          "product": "The Dewy Skin Cream Hydrating & Firming Refillable Moisturizer",
+          "brand": "Tatcha",
+          "price_usd": 25.0,
+          "rating": null,
+          "review_count": 4400,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 5,
+          "product": "Barrier Butter Intensive Moisturizing Balm",
+          "brand": "rhode",
+          "price_usd": 22.0,
+          "rating": null,
+          "review_count": 943,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 6,
+          "product": "Highlight Milk Multipurpose Luminizer",
+          "brand": "rhode",
+          "price_usd": 28.0,
+          "rating": null,
+          "review_count": 630,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 7,
+          "product": "Air Angel Peptide Plumping Gel Cream",
+          "brand": "Dieux",
+          "price_usd": 22.0,
+          "rating": null,
+          "review_count": 1100,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 8,
+          "product": "Korean Jeju Green Tea Ceramide Refillable Milk Toner with Hyaluronic Acid for Hydration +",
+          "brand": "innisfree",
+          "price_usd": 15.0,
+          "rating": null,
+          "review_count": 558,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 9,
+          "product": "Natural Moisturizing Factors + Hyaluronic Acid Daily Moisturizer",
+          "brand": "The Ordinary",
+          "price_usd": 6.7,
+          "rating": null,
+          "review_count": 2900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 10,
+          "product": "Dayscreen 2-In-1 Moisturizer and SPF 30 Sunscreen with",
+          "brand": "Beauty of Joseon",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 201,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 11,
+          "product": "Ultra Facial Refillable Moisturizing Cream with Squalane and Pro-Ceramides",
+          "brand": "Kiehl's Since 1851",
+          "price_usd": 26.0,
+          "rating": null,
+          "review_count": 3700,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 12,
+          "product": "Green Tea Hyaluronic Acid Korean Hydrating Moisturizer for Skin Barrier Repair​",
+          "brand": "innisfree",
+          "price_usd": 18.0,
+          "rating": null,
+          "review_count": 867,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 13,
+          "product": "Extreme Cream Firming & Barrier Repair Anti-Aging Refillable Moisturizer with Peptides",
+          "brand": "INNBEAUTY PROJECT",
+          "price_usd": 21.0,
+          "rating": null,
+          "review_count": 1900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 14,
+          "product": "Pro-Collagen Peptide Intensive Rich Cream Moisturizer for Plumping and Dry Skin",
+          "brand": "Paula's Choice",
+          "price_usd": 49.0,
+          "rating": null,
+          "review_count": 845,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 15,
+          "product": "The Dewy Milk Lightweight Plumping and Hydrating Moisturizer",
+          "brand": "Tatcha",
+          "price_usd": 24.0,
+          "rating": null,
+          "review_count": 565,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 16,
+          "product": "Cloud Cushion Dewy Plumping Moisturizer — Ceramide & Peptide-Rich for Supple,",
+          "brand": "EADEM",
+          "price_usd": 48.0,
+          "rating": null,
+          "review_count": 1100,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 17,
+          "product": "The Water Cream Pore Minimizing Refillable Gel Moisturizer",
+          "brand": "Tatcha",
+          "price_usd": 25.0,
+          "rating": null,
+          "review_count": 5000,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 18,
+          "product": "Skin Mercy Intense Recovery Cream for Sensitive & Eczema-Prone Skin",
+          "brand": "Dieux",
+          "price_usd": 38.0,
+          "rating": null,
+          "review_count": 385,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 19,
+          "product": "SOS Daily Hypochlorous Acid Spray for Breakouts & Redness",
+          "brand": "Tower 28 Beauty",
+          "price_usd": 12.0,
+          "rating": null,
+          "review_count": 5000,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 20,
+          "product": "Dynasty Cream for Hydration with Squalene + Rice Bran Water",
+          "brand": "Beauty of Joseon",
+          "price_usd": 16.0,
+          "rating": null,
+          "review_count": 102,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 21,
+          "product": "Mini Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic",
+          "brand": "Bobbi Brown",
+          "price_usd": 25.0,
+          "rating": null,
+          "review_count": 61,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 22,
+          "product": "Cream Skin Milky Toner with Ceramides & Peptides for Nourishing Hydration",
+          "brand": "LANEIGE",
+          "price_usd": 6.0,
+          "rating": null,
+          "review_count": 1700,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 23,
+          "product": "Azelaic Acid Suspension 10% Cream for Redness and Blemish-Prone Skin",
+          "brand": "The Ordinary",
+          "price_usd": 12.2,
+          "rating": null,
+          "review_count": 1600,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 24,
+          "product": "SOS Daily Skin Barrier Redness Recovery Moisturizer",
+          "brand": "Tower 28 Beauty",
+          "price_usd": 14.0,
+          "rating": null,
+          "review_count": 1400,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 25,
+          "product": "Ultra Repair® Cream Intense Hydration – Face and Body Moisturizer for",
+          "brand": "First Aid Beauty",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 10700,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 26,
+          "product": "Triple Lipid-Peptide Cream Refillable Barrier Moisturizer with Ceramides",
+          "brand": "Skinfix",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 925,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 27,
+          "product": "Green Tea Korean Ceramide Mist with Hyaluronic Acid for Redness & Soothing",
+          "brand": "innisfree",
+          "price_usd": 17.0,
+          "rating": null,
+          "review_count": 217,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 28,
+          "product": "ATOBARRIER365 Cooling Hydro Soothing Water Cream Moisturizer with Ceramides & Hyaluronic Acid for Moisture",
+          "brand": "AESTURA",
+          "price_usd": 32.0,
+          "rating": null,
+          "review_count": 264,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 29,
+          "product": "Water Bank Blue Hyaluronic Intensive Moisturizer with Peptides + Squalane",
+          "brand": "LANEIGE",
+          "price_usd": 22.0,
+          "rating": null,
+          "review_count": 1000,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 30,
+          "product": "Mini SOS Daily Hypochlorous Acid Spray for Breakouts & Redness",
+          "brand": "Tower 28 Beauty",
+          "price_usd": 12.0,
+          "rating": null,
+          "review_count": 5000,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 31,
+          "product": "Jet Lag Mask + Moisturizer Deep Hydration Treatment with Ceramides",
+          "brand": "Summer Fridays",
+          "price_usd": 26.0,
+          "rating": null,
+          "review_count": 6900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 32,
+          "product": "Aqua Squalane Moisturizing Lightweight Hydrating Face Cream",
+          "brand": "S.NATURE",
+          "price_usd": 28.0,
+          "rating": null,
+          "review_count": 106,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 33,
+          "product": "Superfood Air-Whip Hydrating Face Moisturizer with Hyaluronic Acid",
+          "brand": "Youth To The People",
+          "price_usd": 16.0,
+          "rating": null,
+          "review_count": 2800,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 34,
+          "product": "Mini Glazing Milk Ceramide Facial Essence",
+          "brand": "rhode",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 2900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 35,
+          "product": "Glow Replenishing Rice Milk Toner for Intense Hydration with Rice + Amino",
+          "brand": "Beauty of Joseon",
+          "price_usd": 8.0,
+          "rating": null,
+          "review_count": 184,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 36,
+          "product": "Mini ATOBARRIER365 Cream Moisturizer with Ceramides & Niacinamide for Skin Moisture Barrier Repair",
+          "brand": "AESTURA",
+          "price_usd": 21.0,
+          "rating": null,
+          "review_count": 836,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 37,
+          "product": "Full-Size Hydration Haul 2-Piece Skincare Gift Set with",
+          "brand": "Peter Thomas Roth",
+          "price_usd": 55.0,
+          "rating": null,
+          "review_count": 1,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 38,
+          "product": "Pro-Collagen Peptide Plumping Gel-Cream Moisturizer",
+          "brand": "Paula's Choice",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 1200,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 39,
+          "product": "So Soft Daily Barrier Strengthening Lightweight Moisturizer with Hyaluronic Acid, Ceramides and",
+          "brand": "Sincerely Yours",
+          "price_usd": 26.0,
+          "rating": null,
+          "review_count": 426,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 40,
+          "product": "Glazing Mist Hydrating Face Spray",
+          "brand": "rhode",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 763,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        }
+      ]
+    }
+  },
+  "last_successful_channels": {
+    "ulta_beauty": {
+      "observed_at": "2026-10-19T23:55:41.323730+00:00",
+      "label": "Ulta Beauty",
+      "url": "https://www.ulta.com/shop/skin-care/moisturizers",
+      "robots_note": "ulta.com robots.txt: Google-Extended 에 상품 경로 허용",
+      "count": 12,
+      "status": "ok",
+      "reason": "",
+      "url_context_result": "{\"call_id\": \"call_65041\", \"signature\": \"CAIS2okDAWkUfRPvOQqcSxvUf0PJsGj4D9Pk2uV0/6Jt5I/kc4YxOFbK5Jrv0j157EmWE3kNB2vesvRseOMxdmwJxbnHRV8W/pkcJlGCHfLzmnpB/jIVR74ZWowKk4PhDNis2hbCc9iYs8THFz9vjcutFpFD/dysM8dsVb3yMiJ0nyQEblm1UPEnUfii/P7CW58Y5M7xNvD658BPUPDSrm0HQ7U28ubce+2Itn5q1+Gp4pClgPhdARmQtpbzoS1kQdwz",
+      "products": [
+        {
+          "rank": 1,
+          "product": "The Dewy Skin Cream Line-Plumping Moisturizer",
+          "brand": "TATCHA",
+          "price_usd": 25.0,
+          "rating": 4.6,
+          "review_count": 1249,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 2,
+          "product": "Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid",
+          "brand": "BOBBI BROWN",
+          "price_usd": 25.0,
+          "rating": 4.7,
+          "review_count": 4953,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 3,
+          "product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+          "brand": "La Roche-Posay",
+          "price_usd": 20.99,
+          "rating": 4.7,
+          "review_count": 3116,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 4,
+          "product": "COMPLEXION RESCUE Tinted Moisturizer with Hyaluronic Acid and Mineral SPF 30",
+          "brand": "bareMinerals",
+          "price_usd": 39.5,
+          "rating": 4.4,
+          "review_count": 8598,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 5,
+          "product": "Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid",
+          "brand": "Clinique",
+          "price_usd": 18.0,
+          "rating": 4.6,
+          "review_count": 44652,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 6,
+          "product": "345 Relief Cream",
+          "brand": "Dr. Althea",
+          "price_usd": 27.0,
+          "rating": 3.9,
+          "review_count": 89,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 7,
+          "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
+          "brand": "La Roche-Posay",
+          "price_usd": 12.99,
+          "rating": 4.0,
+          "review_count": 2021,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 8,
+          "product": "PDRN Hyaluronic Acid 100 Moisturizing Cream",
+          "brand": "ANUA",
+          "price_usd": 24.0,
+          "rating": 4.8,
+          "review_count": 175,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 9,
+          "product": "Pout Preserve Hydrating Peptide Lip Treatment",
+          "brand": "OLEHENRIKSEN",
+          "price_usd": 24.0,
+          "rating": 4.5,
+          "review_count": 922,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 10,
+          "product": "Do It All Hydrating Sheer Tinted Moisturizer Balm",
+          "brand": "IT Cosmetics",
+          "price_usd": 34.0,
+          "rating": 4.5,
+          "review_count": 3821,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 11,
+          "product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
+          "brand": "La Roche-Posay",
+          "price_usd": 28.99,
+          "rating": 4.1,
+          "review_count": 1730,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 12,
+          "product": "CC+ Nude Glow Lightweight Foundation + Glow Serum with SPF 40",
+          "brand": "IT Cosmetics",
+          "price_usd": 39.0,
+          "rating": 4.4,
+          "review_count": 4812,
+          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
+          "extraction_method": "gemini_url_context"
+        }
+      ]
+    },
+    "sephora": {
+      "observed_at": "2026-10-21T23:36:44.541325+00:00",
       "label": "Sephora",
       "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
       "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
@@ -422,182 +968,6 @@
           "price_usd": 20.0,
           "rating": null,
           "review_count": 1200,
-          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
-          "extraction_method": "gemini_url_context"
-        }
-      ]
-    }
-  },
-  "last_successful_channels": {
-    "ulta_beauty": {
-      "observed_at": "2026-10-19T23:55:41.323730+00:00",
-      "label": "Ulta Beauty",
-      "url": "https://www.ulta.com/shop/skin-care/moisturizers",
-      "robots_note": "ulta.com robots.txt: Google-Extended 에 상품 경로 허용",
-      "count": 12,
-      "status": "ok",
-      "reason": "",
-      "url_context_result": "{\"call_id\": \"call_65041\", \"signature\": \"CAIS2okDAWkUfRPvOQqcSxvUf0PJsGj4D9Pk2uV0/6Jt5I/kc4YxOFbK5Jrv0j157EmWE3kNB2vesvRseOMxdmwJxbnHRV8W/pkcJlGCHfLzmnpB/jIVR74ZWowKk4PhDNis2hbCc9iYs8THFz9vjcutFpFD/dysM8dsVb3yMiJ0nyQEblm1UPEnUfii/P7CW58Y5M7xNvD658BPUPDSrm0HQ7U28ubce+2Itn5q1+Gp4pClgPhdARmQtpbzoS1kQdwz",
-      "products": [
-        {
-          "rank": 1,
-          "product": "The Dewy Skin Cream Line-Plumping Moisturizer",
-          "brand": "TATCHA",
-          "price_usd": 25.0,
-          "rating": 4.6,
-          "review_count": 1249,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 2,
-          "product": "Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid",
-          "brand": "BOBBI BROWN",
-          "price_usd": 25.0,
-          "rating": 4.7,
-          "review_count": 4953,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 3,
-          "product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-          "brand": "La Roche-Posay",
-          "price_usd": 20.99,
-          "rating": 4.7,
-          "review_count": 3116,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 4,
-          "product": "COMPLEXION RESCUE Tinted Moisturizer with Hyaluronic Acid and Mineral SPF 30",
-          "brand": "bareMinerals",
-          "price_usd": 39.5,
-          "rating": 4.4,
-          "review_count": 8598,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 5,
-          "product": "Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid",
-          "brand": "Clinique",
-          "price_usd": 18.0,
-          "rating": 4.6,
-          "review_count": 44652,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 6,
-          "product": "345 Relief Cream",
-          "brand": "Dr. Althea",
-          "price_usd": 27.0,
-          "rating": 3.9,
-          "review_count": 89,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 7,
-          "product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
-          "brand": "La Roche-Posay",
-          "price_usd": 12.99,
-          "rating": 4.0,
-          "review_count": 2021,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 8,
-          "product": "PDRN Hyaluronic Acid 100 Moisturizing Cream",
-          "brand": "ANUA",
-          "price_usd": 24.0,
-          "rating": 4.8,
-          "review_count": 175,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 9,
-          "product": "Pout Preserve Hydrating Peptide Lip Treatment",
-          "brand": "OLEHENRIKSEN",
-          "price_usd": 24.0,
-          "rating": 4.5,
-          "review_count": 922,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 10,
-          "product": "Do It All Hydrating Sheer Tinted Moisturizer Balm",
-          "brand": "IT Cosmetics",
-          "price_usd": 34.0,
-          "rating": 4.5,
-          "review_count": 3821,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 11,
-          "product": "Toleriane Double Repair Face Moisturizer UV SPF 30",
-          "brand": "La Roche-Posay",
-          "price_usd": 28.99,
-          "rating": 4.1,
-          "review_count": 1730,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 12,
-          "product": "CC+ Nude Glow Lightweight Foundation + Glow Serum with SPF 40",
-          "brand": "IT Cosmetics",
-          "price_usd": 39.0,
-          "rating": 4.4,
-          "review_count": 4812,
-          "source_url": "https://www.ulta.com/shop/skin-care/moisturizers",
-          "extraction_method": "gemini_url_context"
-        }
-      ]
-    },
-    "sephora": {
-      "observed_at": "2026-10-20T23:24:04.861729+00:00",
-      "label": "Sephora",
-      "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
-      "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
-      "count": 3,
-      "status": "ok",
-      "reason": "",
-      "url_context_result": "{\"call_id\": \"call_799945\", \"signature\": \"CAISqyIBaRR9E20W3uA2VRJbaCdoSapWbP8KWQG+VEldutBKYzkr6QAqkgzK24Zy0/Xxq8SotLDw39BpS6zH37t+Uj+sWI8XOO3L5S72m2qovUZ8ppwqRHV47mIoyBbIibzW/fm/FLB4bjV2A81m7amLcHYWYGwPuHs3XLq10RETKDNEMUSFAej5rsmiI9C261zj3KF37l8Eue2Ab7u6Xiz0kAqhqNe65a/KdPXXGyunpTI9MrMhyetvd0ikaAYVxq9",
-      "products": [
-        {
-          "rank": 1,
-          "product": "Glazing Milk Hydrating Ceramide Facial Essence",
-          "brand": "rhode",
-          "price_usd": 20.0,
-          "rating": null,
-          "review_count": 2900,
-          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 2,
-          "product": "ATOBARRIER365 Cream Moisturizer with Ceramides & Niacinamide for Skin Moisture Barrier Repair",
-          "brand": "AESTURA",
-          "price_usd": 21.0,
-          "rating": null,
-          "review_count": 835,
-          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
-          "extraction_method": "gemini_url_context"
-        },
-        {
-          "rank": 3,
-          "product": "The Dewy Skin Cream Hydrating & Firming Refillable Moisturizer",
-          "brand": "Tatcha",
-          "price_usd": 25.0,
-          "rating": null,
-          "review_count": 4400,
           "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
           "extraction_method": "gemini_url_context"
         }
