@@ -513,12 +513,14 @@ jobs:
             data/channel_candidates.json
             data/knowledge/cumulative_history.json
             data/agents
+            data/operations
             data/publish_deletions.json
           message: "${{ github.event_name == 'workflow_dispatch' && !inputs.refresh_auxiliary_sources && '다이소 관측 발행 [source-recovery-offline]' || '다이소 실수집 + Shopify 수요 점수 갱신' }}"
           regenerate-dashboard: 'true'
           audit: 'true'
 
-      # 비교 후보·정상 무변경은 별도 후보/관측만 발행한다. 운영 상품/판매 파생 데이터는 발행하지 않는다.
+      # 비교 후보·정상 무변경도 복원된 운영 기록 전체를 원자적으로 보존한다.
+      # 운영 상품/판매 파생 데이터는 발행하지 않는다.
       - name: 정상 무변경 관측 metadata 발행
         if: steps.collection.outputs.mode == 'no_change' || steps.collection.outputs.mode == 'candidates'
         uses: ./.github/actions/publish
@@ -536,6 +538,7 @@ jobs:
             data/daiso_real/shortlist_observations.json
             data/daiso_real/.shortlist_observation_claim.json
             data/agents
+            data/operations
             data/publish_deletions.json
             data/dashboard_runtime.json
             data/health_check.json
