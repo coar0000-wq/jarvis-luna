@@ -2,20 +2,20 @@
 title: "Source · us_beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-23T05:16:28.357165+00:00
+updated_at: 2026-10-23T12:00:00.079592+00:00
 tags: [source, real-data]
-record_count: 2512
+record_count: 2511
 ---
 
 # Source · us_beauty
 
-실제 수집 레코드 **2,512건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **2,511건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 주제별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 2,276 |
+| [[뷰티스킨케어]] | 2,275 |
 | [[미분류]] | 197 |
 | [[의료바이오]] | 139 |
 | [[모델-라우팅MoE]] | 18 |

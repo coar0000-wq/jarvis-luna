@@ -2,14 +2,14 @@
 title: "AI 에이전트"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-23T05:16:28.359004+00:00
+updated_at: 2026-10-23T12:00:00.081366+00:00
 tags: [topic, real-data]
-record_count: 842
+record_count: 843
 ---
 
 # AI 에이전트
 
-실제 수집 레코드 **842건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **843건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
@@ -17,7 +17,7 @@ record_count: 842
 |---|---|
 | [[Source--institutions]] | 553 |
 | [[Source--robotics]] | 114 |
-| [[Source--arXiv]] | 110 |
+| [[Source--arXiv]] | 111 |
 | [[Source--Google-Search]] | 50 |
 | [[Source--us_beauty]] | 14 |
 | [[Source--YouTube]] | 1 |
