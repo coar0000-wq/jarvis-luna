@@ -12,6 +12,7 @@ import hashlib
 import io
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -227,7 +228,7 @@ python() {
     shift
     command "$FIXTURE_PYTHON" "$FIXTURE_REPO/scripts/collector_result.py" "$@"
   elif [[ "$1" == -c ]]; then
-    command "$FIXTURE_PYTHON" "$@"
+    command "$FIXTURE_PYTHON" -c "${FIXTURE_CLOCK_PREFIX:-}$2" "${@:3}"
   elif [[ "$1" == -m && "$2" == pip ]]; then
     printf 'pip\n' >> "$FIXTURE_CALLS"
     if [[ "$FIXTURE_PIP_DELAY" != 0 ]]; then sleep "$FIXTURE_PIP_DELAY"; fi
@@ -247,6 +248,7 @@ python() {
     elif [[ "$FIXTURE_COLLECTOR_MODE" == stopped ]]; then
       command "$FIXTURE_PYTHON" "$@"
     else
+      printf 'GOSI_FIXTURE_COLLECTION_DEADLINE=%s\n' "$DAISO_GOSI_DEADLINE_MONOTONIC"
       return 0
     fi
   else
@@ -262,7 +264,23 @@ playwright() {
 }
 export -f python playwright
 '''
-        env = dict(os.environ, RUNNER_TEMP=str(self.root), GOSI_GAP_COUNT=count,
+        clock_environment = {}
+        if deadline is None:
+            # Ordinary outcome assertions must not compete with Python imports
+            # for a subsecond deadline. Only the selected hanging phase gets a
+            # short *real* timeout; all earlier setup gets ample probe budget.
+            deadline = 1030.0
+            phases = dict.fromkeys(("access_precheck", "pip_install",
+                                    "chromium_install", "collection"), 1000.0)
+            timed_phase = ("pip_install" if hang_phase.startswith("pip") else
+                           "chromium_install" if hang_phase.startswith("chromium") else
+                           "collection" if collector_mode == "hung_worker" else None)
+            if timed_phase:
+                phases[timed_phase] = deadline - 0.6
+            with self.workflow_clock(1000, **phases):
+                clock_environment = {key: os.environ[key] for key in
+                                     ("FIXTURE_WORKFLOW_CLOCK", "FIXTURE_CLOCK_PREFIX")}
+        env = dict(os.environ, **clock_environment, RUNNER_TEMP=str(self.root), GOSI_GAP_COUNT=count,
                    RELEASE_EXECUTION_ID="gosi-fixture:1", FIXTURE_PYTHON=sys.executable,
                    FIXTURE_REPO=str(ROOT), FIXTURE_CALLS=str(self.calls),
                    FIXTURE_PIP_CODE=str(pip_code), FIXTURE_BROWSER_CODE=str(browser_code),
@@ -281,10 +299,13 @@ export -f python playwright
                        "signal.signal(signal.SIGTERM,signal.SIG_DFL)",
                        "while True: time.sleep(1)",
                    )),
-                   FIXTURE_HANGING_COLLECTOR="from pathlib import Path; import os,sys,time; from scripts.daiso.gosi_collection_runtime import run_supervised; result=run_supervised([sys.executable, '-c', 'import time; time.sleep(30)'], journal_dir=Path(os.environ['RUNNER_TEMP'])/'hang-journal', baseline_bytes=Path('data/gosi.json').read_bytes(), deadline=float(os.environ['DAISO_GOSI_DEADLINE_MONOTONIC']), cleanup_seconds=float(os.environ['DAISO_GOSI_CLEANUP_SECONDS']), on_event=lambda event: None); raise SystemExit(result['exit_code'])",
-                   GOSI_STAGE_BUDGET_SECONDS="0.6", GOSI_STAGE_CLEANUP_SECONDS="0.1",
+                   # Translate the shell probe's remaining fixture budget to
+                   # a real supervisor deadline at collector entry. The runtime
+                   # and its child keep their actual monotonic clocks/signals.
+                   FIXTURE_HANGING_COLLECTOR="from pathlib import Path; import os,sys,time; from scripts.daiso.gosi_collection_runtime import run_supervised; remaining=float(os.environ['DAISO_GOSI_DEADLINE_MONOTONIC'])-float(Path(os.environ['FIXTURE_WORKFLOW_CLOCK']).read_text()); result=run_supervised([sys.executable, '-c', \"from pathlib import Path; import time; Path('hung-worker-started').write_text('started'); time.sleep(30)\"], journal_dir=Path(os.environ['RUNNER_TEMP'])/'hang-journal', baseline_bytes=Path('data/gosi.json').read_bytes(), deadline=time.monotonic()+remaining, cleanup_seconds=float(os.environ['DAISO_GOSI_CLEANUP_SECONDS']), on_event=lambda event: None); raise SystemExit(result['exit_code'])",
+                   GOSI_STAGE_BUDGET_SECONDS="30", GOSI_STAGE_CLEANUP_SECONDS="0.1",
                    GOSI_CONTINUITY_OUTCOME=continuity,
-                   DAISO_GOSI_DEADLINE_MONOTONIC=str(deadline if deadline is not None else time.monotonic()+0.6),
+                   DAISO_GOSI_DEADLINE_MONOTONIC=str(deadline),
                    **self.actions_env)
         return subprocess.run([self.bash, "--noprofile", "--norc", "-e", "-o", "pipefail",
                                "-c", script + self.stage["run"]], cwd=self.root,
@@ -298,10 +319,13 @@ export -f python playwright
         fixture.write_text("#!" + sys.executable + "\n" + "\n".join((
             "import os,sys,time",
             "from pathlib import Path",
-            "if sys.argv[1] == '-c': os.execv(sys.executable, [sys.executable, *sys.argv[1:]])",
+            "if sys.argv[1] == '-c': os.execv(sys.executable, [sys.executable, '-c', os.environ.get('FIXTURE_CLOCK_PREFIX', '') + sys.argv[2], *sys.argv[3:]])",
             "assert sys.argv[1:4] == ['-u','scripts/gosi_safety_checkpoint.py','restore']",
             "pending=Path('.gosi-safety-restore.pending'); pending.write_text('fixture pending')",
-            "time.sleep(float(os.environ['FIXTURE_RESTORE_DELAY']))",
+            "if os.environ.get('FIXTURE_WORKFLOW_CLOCK'):",
+            "    clock=Path(os.environ['FIXTURE_WORKFLOW_CLOCK'])",
+            "    clock.write_text(str(float(clock.read_text())+float(os.environ['FIXTURE_RESTORE_DELAY'])))",
+            "else: time.sleep(float(os.environ['FIXTURE_RESTORE_DELAY']))",
             "if os.environ['FIXTURE_RESTORE_MODE']=='hang': time.sleep(30)",
             "pending.unlink()",
         )))
@@ -318,7 +342,10 @@ export -f python playwright
 
     def test_hanging_restore_keeps_pending_and_records_optional_failure(self):
         started = time.monotonic()
-        restored, _ = self.run_restore("hang")
+        # Freeze only restore's arithmetic probes; its pending marker and GNU
+        # TERM timeout remain real, without losing budget to probe startup.
+        with self.workflow_clock(1000):
+            restored, _ = self.run_restore("hang")
         self.assertEqual(restored.returncode, 124, restored.stderr)
         self.assertLess(time.monotonic()-started, 1.5)
         self.assertTrue((self.root/'.gosi-safety-restore.pending').exists())
@@ -327,14 +354,90 @@ export -f python playwright
         self.assertFalse(self.calls.exists())
         self.assertEqual(self.source.read_bytes(), self.before)
 
+    def workflow_clock(self, now, **phase_times):
+        """Control only the shell's Python clock probes, never timeout/children.
+
+        Restore advances the shared clock in its fixture process. Subsequent
+        probes model time spent between phases without charging Python startup
+        and host scheduling against a subsecond arithmetic assertion.
+        """
+        clock = self.root / "workflow-clock"
+        clock.write_text(str(now))
+        prefix = ("import os,time; from pathlib import Path; "
+                  f"_clock=Path({str(clock)!r}); _phases={phase_times!r}; "
+                  "_phase=os.environ.get('GOSI_PHASE');\n"
+                  "if _phase in _phases: _clock.write_text(str(_phases[_phase]))\n"
+                  "time.monotonic=lambda: float(_clock.read_text());\n")
+        return patch.dict(os.environ, FIXTURE_WORKFLOW_CLOCK=str(clock),
+                          FIXTURE_CLOCK_PREFIX=prefix)
+
     def test_restore_time_consumes_same_setup_collection_budget(self):
-        restored, cutoff = self.run_restore("success", budget="0.8", delay="0.4")
-        self.assertEqual(restored.returncode, 0, restored.stderr)
-        process = self.run_stage(source_stopped=False, pip_delay="0.5", deadline=cutoff)
-        self.assertEqual(process.returncode, 137, process.stderr)
+        with self.workflow_clock(1000, access_precheck=1400, pip_install=1500,
+                                 chromium_install=1600, collection=1750):
+            restored, cutoff = self.run_restore("success", budget="800", delay="400")
+            self.assertEqual(restored.returncode, 0, restored.stderr)
+            self.assertEqual(cutoff, 1800)
+            process = self.run_stage(source_stopped=False, collector_mode="success", deadline=cutoff)
+        self.assertEqual(process.returncode, 0, process.stdout + process.stderr)
+        remaining = [(phase, float(value)) for phase, value in re.findall(
+            r"GOSI_PHASE_START phase=(\w+) .*remaining_seconds=([0-9.]+)", process.stdout)]
+        self.assertEqual(remaining, [("access_precheck", 399.9), ("pip_install", 299.9),
+                                     ("chromium_install", 199.9), ("collection", 50.0)])
+        self.assertIn("GOSI_FIXTURE_COLLECTION_DEADLINE=1800.0", process.stdout)
+        self.assertEqual(self.calls.read_text().splitlines(),
+                         ["access-check", "pip", "browser-install", "collector"])
+        self.assertEqual(self.recorded()["status"], "success")
+        self.assertIsNone(self.recorded()["last_successful_fetch_at"])
+        self.assertEqual(self.source.read_bytes(), self.before)
+
+    def test_expired_shared_deadline_prevents_setup_or_collection(self):
+        phases = ("access_precheck", "pip_install", "chromium_install", "collection")
+        calls = ["access-check", "pip", "browser-install", "collector"]
+        for index, expired in enumerate(phases):
+            with self.subTest(expired=expired):
+                self.calls.unlink(missing_ok=True)
+                (self.root / "github-env").unlink(missing_ok=True)
+                times = {phase: 1400 + i * 100 if i < index else 1800
+                         for i, phase in enumerate(phases)}
+                with self.workflow_clock(1000, **times):
+                    restored, cutoff = self.run_restore("success", budget="800", delay="400")
+                    self.assertEqual(restored.returncode, 0, restored.stderr)
+                    self.assertEqual(cutoff, 1800)
+                    process = self.run_stage(source_stopped=False, collector_mode="success", deadline=cutoff)
+                # An expired budget is rejected before the next child starts;
+                # it is exactly 124, distinct from a running group killed (137).
+                self.assertEqual(process.returncode, 124, process.stdout + process.stderr)
+                self.assertNotIn(f"GOSI_PHASE_START phase={expired}", process.stdout)
+                observed = self.calls.read_text().splitlines() if self.calls.exists() else []
+                self.assertEqual(observed, calls[:index])
+                row = self.recorded()
+                self.assertEqual(row["status"], "failed")
+                self.assertEqual(row["process_exit_code"], 124)
+                self.assertEqual(row["wrapper_exit_code"], 124)
+                self.assertIsNone(row["last_successful_fetch_at"])
+                self.assertEqual(self.source.read_bytes(), self.before)
+
+    def test_restored_budget_reaches_real_setup_timeout(self):
+        # Only clock arithmetic is controlled. GNU timeout, its dedicated Bash
+        # process group, TERM/KILL handling and result recorder are all real.
+        # Give the real continuity precheck ample time, then exactly 1 second
+        # of setup time plus its unchanged 0.1-second cleanup reserve.
+        with self.workflow_clock(1000, access_precheck=1400, pip_install=1798.9):
+            restored, cutoff = self.run_restore("success", budget="800", delay="400")
+            self.assertEqual(restored.returncode, 0, restored.stderr)
+            self.assertEqual(cutoff, 1800)
+            process = self.run_stage(source_stopped=False, hang_phase="pip_install", deadline=cutoff)
+        self.assertEqual(process.returncode, 137, process.stdout + process.stderr)
         self.assertEqual(self.calls.read_text().splitlines(), ["access-check", "pip"])
-        self.assertEqual(self.recorded()["status"], "failed")
-        self.assertLess(time.monotonic(), cutoff+0.5)
+        budget = re.search(r"phase=pip_install .*remaining_seconds=([0-9.]+)", process.stdout)
+        self.assertIsNotNone(budget, process.stdout)
+        self.assertAlmostEqual(float(budget[1]), 1)
+        row = self.recorded()
+        self.assertEqual(row["status"], "failed")
+        self.assertEqual(row["process_exit_code"], 137)
+        self.assertEqual(row["wrapper_exit_code"], 137)
+        self.assertIsNone(row["last_successful_fetch_at"])
+        self.assertEqual(self.source.read_bytes(), self.before)
 
     def recorded(self):
         return json.loads((self.result_dir / "deep_gosi_alt.json").read_text())
@@ -479,12 +582,19 @@ export -f python playwright
 
     def test_setup_and_collection_consume_one_deadline(self):
         import re
-        process = self.run_stage(source_stopped=False, hang_phase="chromium_install", pip_delay="0.15")
+        # Account for phase time deterministically while the final browser
+        # fixture still hangs under the real GNU timeout/process-group wrapper.
+        with self.workflow_clock(1000, access_precheck=1000, pip_install=1000.15,
+                                 chromium_install=1000.30):
+            process = self.run_stage(source_stopped=False, hang_phase="chromium_install",
+                                     deadline=1000.9)
         self.assertEqual(process.returncode, 137, process.stdout + process.stderr)
         values = [float(x) for x in re.findall(r"remaining_seconds=([0-9.]+)", process.stdout)]
         self.assertEqual(len(values), 3)
         self.assertGreater(values[0], values[1])
         self.assertGreater(values[1] - values[2], 0.1)
+        for actual, expected in zip(values, (0.8, 0.65, 0.5)):
+            self.assertAlmostEqual(actual, expected)
         self.assertEqual(self.calls.read_text().splitlines(), ["access-check", "pip", "browser-install"])
 
     def test_term_ignoring_setup_still_records_kill_failure(self):
@@ -537,6 +647,9 @@ export -f python playwright
         process = self.run_stage(source_stopped=False, collector_mode="hung_worker")
         self.assertLess(time.monotonic() - started, 3)
         self.assertEqual(process.returncode, 124, process.stdout + process.stderr)
+        self.assertEqual(self.calls.read_text().splitlines(),
+                         ["access-check", "pip", "browser-install", "collector"])
+        self.assertEqual((self.root / 'hung-worker-started').read_text(), 'started')
         row = self.recorded()
         self.assertEqual(row["status"], "failed")
         self.assertEqual(row["process_exit_code"], 124)
@@ -593,12 +706,12 @@ export -f python playwright
         stop.write_bytes(b'exact durable STOP event')
         binary=self.root/'bin';binary.mkdir()
         executable=binary/'python'
-        executable.write_text("#!"+sys.executable+"\n"+"\n".join((
-            "import os,signal,time",
-            "from pathlib import Path",
-            "Path(os.environ['RUNNER_TEMP'],'gosi-safety.zip').write_bytes(b'incomplete fixture ZIP')",
-            "signal.signal(signal.SIGTERM,signal.SIG_IGN)",
-            "time.sleep(30)",
+        # This is a TERM-ignoring pack fixture, not a Python-startup test.
+        # Install its trap before writing the partial artifact or spawning sleep.
+        executable.write_text("#!"+self.bash+"\n"+"\n".join((
+            'trap "" TERM',
+            'printf %s "incomplete fixture ZIP" > "$RUNNER_TEMP/gosi-safety.zip"',
+            'sleep 30',
         )))
         executable.chmod(0o700)
         environment=dict(os.environ,PATH=str(binary)+os.pathsep+os.environ['PATH'],
@@ -612,6 +725,7 @@ export -f python playwright
         # a remaining shell reports the equivalent conventional 128+9 code.
         self.assertIn(result.returncode,(-9,137),result.stderr)
         self.assertLess(time.monotonic()-started,1.5)
+        self.assertEqual((self.root/'gosi-safety.zip').read_bytes(), b'incomplete fixture ZIP')
         self.assertEqual(marker.read_bytes(),b'exact pending marker')
         self.assertEqual(stop.read_bytes(),b'exact durable STOP event')
         self.assertEqual(self.source.read_bytes(),self.before)

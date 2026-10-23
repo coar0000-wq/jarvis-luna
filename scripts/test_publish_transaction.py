@@ -815,6 +815,14 @@ class RestrictedTransactionTests(unittest.TestCase):
 class AuthenticatedRestrictedPublisherTests(unittest.TestCase):
     """Complete production publisher/engine with only GitHub transport substituted."""
     def setUp(self):
+        # Housekeeping must finish before unittest removes these temporary Git
+        # repositories, including the bare receive-pack target and worktrees.
+        count = int(os.environ.get('GIT_CONFIG_COUNT', '0'))
+        config = {'GIT_CONFIG_COUNT': str(count + 2)}
+        for index, key in enumerate(('maintenance.autoDetach', 'gc.autoDetach'), count):
+            config.update({f'GIT_CONFIG_KEY_{index}': key, f'GIT_CONFIG_VALUE_{index}': 'false'})
+        git_config = patch.dict(os.environ, config)
+        git_config.start(); self.addCleanup(git_config.stop)
         import continuity_reconciliation as continuity
         import check_release_quality as quality
         from test_continuity_reconciliation import RestrictedFixture, NOW
@@ -846,6 +854,8 @@ class AuthenticatedRestrictedPublisherTests(unittest.TestCase):
         self.folder = Path(self.folder_context.name)
         self.remote = self.folder / 'remote.git'
         pub.git(self.folder, 'init', '--bare', str(self.remote))
+        for key in ('maintenance.autoDetach', 'gc.autoDetach'):
+            pub.git(self.remote, 'config', key, 'false')
         f.git('remote', 'add', 'origin', str(self.remote))
         f.git('push', '-u', 'origin', 'main')
         real_authenticate = continuity.authenticate_evidence
