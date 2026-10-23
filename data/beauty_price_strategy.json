@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-23T02:07:17.831259Z",
+  "as_of": "2026-10-23T02:44:24.217509Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-23T02:07:16.334322+00:00",
+        "timestamp": "2026-10-23T02:44:22.697773+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-23T02:07:16.957906+00:00",
+        "timestamp": "2026-10-23T02:44:23.329450+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-23T02:07:16.492295+00:00",
+        "timestamp": "2026-10-23T02:44:22.859023+00:00",
         "record_count": null
       },
       {
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-23T02:07:17.641058+00:00",
+        "timestamp": "2026-10-23T02:44:24.024467+00:00",
         "record_count": 0
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-22T09:39:39.746220+00:00",
-        "age_hours": 16.46,
+        "age_hours": 17.08,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -345,7 +345,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-22T23:40:16.324678+00:00",
-        "age_hours": 2.45,
+        "age_hours": 3.07,
         "verified": true,
         "reasons": [],
         "items_total": 238,
@@ -357,7 +357,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782000+00:00",
-        "age_hours": 902.8,
+        "age_hours": 903.42,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -373,7 +373,7 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782000+00:00",
-        "age_hours": 902.8,
+        "age_hours": 903.42,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -388,7 +388,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 902.8,
+        "age_hours": 903.42,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -404,7 +404,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-22T23:40:12.029300+00:00",
-        "age_hours": 2.45,
+        "age_hours": 3.07,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -416,7 +416,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-22T23:40:12.031356+00:00",
-        "age_hours": 2.45,
+        "age_hours": 3.07,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -1138,7 +1138,7 @@
             "price_usd": 15.42,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": true,
@@ -1261,7 +1261,7 @@
           "median_usd": 33.99,
           "max_usd": 55.99,
           "freshness": "fresh",
-          "age_hours": 3.17,
+          "age_hours": 3.79,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1444,7 +1444,7 @@
             "price_usd": 17.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": false,
@@ -1494,7 +1494,7 @@
           "median_usd": 18.55,
           "max_usd": 150.0,
           "freshness": "fresh",
-          "age_hours": 3.17,
+          "age_hours": 3.79,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1681,7 +1681,7 @@
             "price_usd": 18.42,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": false,
@@ -1894,7 +1894,7 @@
             "price_usd": 20.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": true,
@@ -1958,7 +1958,7 @@
           "median_usd": 21.5,
           "max_usd": 34.95,
           "freshness": "fresh",
-          "age_hours": 3.17,
+          "age_hours": 3.79,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2136,7 +2136,7 @@
             "price_usd": 19.73,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": false,
@@ -22443,7 +22443,7 @@
             "price_usd": 16.73,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-23T02:07:16.492295+00:00"
+            "observed_on": "2026-10-23T02:44:22.859023+00:00"
           }
         ],
         "conflict": false,

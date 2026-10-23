@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:08:20.364374+00:00",
+  "generated_at": "2026-10-23T02:45:28.575778+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -9,7 +9,7 @@
     "failed": "예외 - 자동화 장애"
   },
   "kpi": {
-    "last_success": "2026-10-23T01:26:12Z",
+    "last_success": "2026-10-23T02:23:43Z",
     "last_success_source": "github_actions_snapshot",
     "collection_last_attempt": "2026-10-20T00:08:18.691253+00:00",
     "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
@@ -18,7 +18,7 @@
     "candidate_rechecked_this_attempt": 0,
     "failed_jobs": 4,
     "failed_checks": 2,
-    "actions_observed_at": "2026-10-23T01:51:47.511833Z",
+    "actions_observed_at": "2026-10-23T02:26:15.167247Z",
     "actions_observation_fresh": true,
     "queue": 3021,
     "stale_source": "marketing",
@@ -34,8 +34,8 @@
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
-      "deep_heartbeat": "16.1 hours ago",
-      "actions_monitor": "16 min ago",
+      "deep_heartbeat": "16.7 hours ago",
+      "actions_monitor": "19 min ago",
       "gosi": "20.4 days ago",
       "product_discovery": "1 min ago"
     }
@@ -91,7 +91,7 @@
     {
       "team": "daiso",
       "status": "degraded",
-      "reason": "수집 시도 74.0시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 74.6시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -99,9 +99,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 74.0,
-      "attempt_age_hours": 74.0,
-      "success_age_hours": 577.323,
+      "candidate_success_age_hours": 74.619,
+      "attempt_age_hours": 74.619,
+      "success_age_hours": 577.942,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
@@ -1803,7 +1803,7 @@
         ],
         "operating_staleness": {
           "status": "degraded",
-          "reason": "수집 시도 74.0시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+          "reason": "수집 시도 74.6시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
           "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
           "last_success_at": "2026-09-29T00:48:58.284474+00:00",
           "last_attempt_status": "candidates_collected",
@@ -1811,9 +1811,9 @@
           "candidates_new": 91,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-          "candidate_success_age_hours": 74.0,
-          "attempt_age_hours": 74.0,
-          "success_age_hours": 577.323,
+          "candidate_success_age_hours": 74.619,
+          "attempt_age_hours": 74.619,
+          "success_age_hours": 577.942,
           "data_stale": true,
           "attempt_stale": true,
           "is_no_change": false,
@@ -1872,27 +1872,27 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (16.1시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (16.7시간)",
       "last_attempt_at": "2026-10-22T10:03:46.436271+00:00",
-      "age_hours": 16.076,
+      "age_hours": 16.695,
       "next_expected_at": "2026-10-22T12:03:46.436271+00:00",
       "grace_deadline_at": "2026-10-22T14:33:46.436271+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "16.1 hours ago"
+      "freshness": "16.7 hours ago"
     },
     {
       "team": "actions_monitor",
       "status": "failed",
       "reason": "GitHub Actions 관측: 14/14개 · 실패 4",
       "is_failure": true,
-      "observed_at": "2026-10-23T01:51:47.511833Z",
-      "freshness": "16 min ago"
+      "observed_at": "2026-10-23T02:26:15.167247Z",
+      "freshness": "19 min ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "488.5h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "489.1h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
       "freshness": "20.4 days ago"
@@ -3602,7 +3602,7 @@
     ],
     "operating_staleness": {
       "status": "degraded",
-      "reason": "수집 시도 74.0시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 74.6시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-20T00:08:18.691253+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -3610,9 +3610,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 74.0,
-      "attempt_age_hours": 74.0,
-      "success_age_hours": 577.323,
+      "candidate_success_age_hours": 74.619,
+      "attempt_age_hours": 74.619,
+      "success_age_hours": 577.942,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,

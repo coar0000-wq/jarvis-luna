@@ -1590,26 +1590,33 @@
       "delete_file": false
     },
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "271cfbea0735d07ee1632aeda67792236115300bb0a660f6e1f6fbf46eed1d6b",
-      "replacement_sha256": "13029b726b4dadeb6ad3103aadb8683595de888d19b4a351b5cbbe800740336e",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/operations/state.json",
-      "base_sha256": "fddcfd158e00d1d5f7551a09738d5e9cc522849d189c8826f6306bac8021f72d",
+      "base_sha256": "fe7d19961e7d320e09930d6e703c3fd2e9bcf1a13d21b78fbed66fb391765f9f",
       "ids": [
-        "finished_at"
+        "029d306ade337f8b05d0572b74d26e4613caf2236a947a0194f68b67d7946cb2",
+        "1155f08641de177755a4e6d31ade95993369a66b11fcee6d5d710dd001084a86",
+        "124ba69a9a412e9db8e1e2a5b778c381147d8e9f91b93a03e1f7a0616d55f0d9",
+        "32fc06f4c03dab7894d59ed9b3829357a0ec27dbcac8facf271c1418a3dd1787",
+        "449a76b8ffeb7e948b1a36639b5d6d5ce687a1132b2f4d657f33e68864211593",
+        "4a834d85dcaa5b5c907f30c817ff0e7f25a1489155370589e4185bc4c4a8560a",
+        "4b90018bf45a271dec919d61caa9c5de420b3b58e12a1ade4596d52c427915ec",
+        "551e23388aea52b6c635d1cc1758007901b2b1fcf8e7d11a873c2c79c8c5a8b2",
+        "5c0287c32a34d5cf4be1c26d7728dc0a503003f3556e327248c10924519d53e3",
+        "5feb4b809f026b9f0fb458f6699697f3c5be35dc9f5674e8e1078cd1002da8ae",
+        "7f20a0cadecb005907075cf36aef844330ea67e0b7b0a8e44d0f6ee89c4173a5",
+        "94f82449d6e45885e2b1722f1202da39fc2de392d89489138e5c52efbc6b8429",
+        "acf2f38e6fe7a671cf2c5062f919ac521b15b5b7b782b118a2368df2b07661bf",
+        "af90e54e45ff38cc488ecda04baee1afbc39cf722bcd51d267e4b7a4c97d6403",
+        "ce244fb1f9eb5072a559060d079bba5e4bdef39e2b6b480f3282d758e324fffe",
+        "cf2f90a7fa23dc9f2d95bd64f264f0d5ed669ff28a5ed9bf8ca6654ff7e48c20",
+        "d5bc57e2c7bd372877ff56e552925785a0ff4d047d61172647599720410b03e4",
+        "d649d9904b4a74f4fae6d0df0c47b030a4b51665690fa8126aec6c4b0138aea8",
+        "faea458f7e17f834b3a6cdf9d0d60334236509ef41283dbb7dbbda4dda793ec5"
       ],
       "reason": "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false,
-      "replacement_sha256": "fe7d19961e7d320e09930d6e703c3fd2e9bcf1a13d21b78fbed66fb391765f9f"
+      "replacement_sha256": "caf462c1635f137d7b3f1b038cb0b319600dc6d89b2828644170d445d6ad31bd"
     }
   ]
 }
