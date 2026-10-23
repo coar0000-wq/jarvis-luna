@@ -30,7 +30,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from scripts.gosi_observation_history import (validate_document, attempt, observe_field, merge_images, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop)
+from scripts.gosi_observation_history import (validate_document, attempt, observe_field, merge_images, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop, require_continuity)
 from scripts.gosi_image_sources import (IMAGE_MIMES, image_candidates, image_url, diagnostic_url, denial_diagnostic)
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
@@ -278,6 +278,7 @@ def collect_one(pd_no, row):
 
 def main() -> int:
     try:
+        require_continuity(ROOT)
         doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
         items = validate_document(doc)
         assert_not_stopped(doc, {'daiso'})
