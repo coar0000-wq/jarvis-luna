@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-22T18:15:37.282554+00:00",
-  "real_records": 8505,
-  "train_records": 6878,
-  "validation_records": 1627,
+  "updated_at": "2026-10-23T05:19:58.203972+00:00",
+  "real_records": 8639,
+  "train_records": 6981,
+  "validation_records": 1658,
   "steps_per_candidate": 300,
-  "features": "TF-IDF + L2 (min_df 3, 어휘 7587)",
+  "features": "TF-IDF + L2 (min_df 3, 어휘 7654)",
   "class_weighting": "balanced",
   "search_space": {
     "experts": [
@@ -26,152 +26,152 @@
     "lr": 5.0,
     "l2": 0.0001,
     "temperature": 0.9,
-    "train_accuracy": 0.9502762430939227,
-    "validation_accuracy": 0.9471419791026429,
-    "validation_macro_f1": 0.8775198854485997,
+    "train_accuracy": 0.9494341784844578,
+    "validation_accuracy": 0.9475271411338962,
+    "validation_macro_f1": 0.8784875865224033,
     "validation_recall": {
-      "ai-image": 0.9082,
-      "ai-research": 0.9483,
-      "shopify-commerce-image": 0.9747
+      "ai-image": 0.91,
+      "ai-research": 0.9485,
+      "shopify-commerce-image": 0.9753
     },
-    "initial_loss": 1.096239323385038,
-    "final_loss": 0.2687527873033208,
-    "best_loss": 0.2687527873033208,
-    "expert_weight_l2": 26.175362372539812,
-    "gate_weight_l2": 0.8949264512666477,
-    "gate_load_std": 0.4698328534317945,
+    "initial_loss": 1.0962305899258655,
+    "final_loss": 0.2682509087719479,
+    "best_loss": 0.2682509087719479,
+    "expert_weight_l2": 26.158334114875412,
+    "gate_weight_l2": 0.8949265339186365,
+    "gate_load_std": 0.4698296995153222,
     "loss_history": [
       {
         "step": 1,
-        "data_loss": 1.0961363937043642,
-        "weight_loss": 0.00010292968067374978,
-        "total_loss": 1.096239323385038
+        "data_loss": 1.096126774392592,
+        "weight_loss": 0.00010381553327349773,
+        "total_loss": 1.0962305899258655
       },
       {
         "step": 15,
-        "data_loss": 0.9781244873904448,
-        "weight_loss": 0.000839149580582523,
-        "total_loss": 0.9789636369710273
+        "data_loss": 0.9777084193892017,
+        "weight_loss": 0.0008418306836784323,
+        "total_loss": 0.9785502500728801
       },
       {
         "step": 30,
-        "data_loss": 0.8734311490176457,
-        "weight_loss": 0.002486798031457612,
-        "total_loss": 0.8759179470491033
+        "data_loss": 0.872646755080545,
+        "weight_loss": 0.0024933475471936076,
+        "total_loss": 0.8751401026277387
       },
       {
         "step": 45,
-        "data_loss": 0.7587843475232477,
-        "weight_loss": 0.0045761474586473545,
-        "total_loss": 0.7633604949818951
+        "data_loss": 0.7572368251796469,
+        "weight_loss": 0.004587814727027823,
+        "total_loss": 0.7618246399066747
       },
       {
         "step": 60,
-        "data_loss": 0.6224624105490938,
-        "weight_loss": 0.006935742471923803,
-        "total_loss": 0.6293981530210176
+        "data_loss": 0.6207088232032903,
+        "weight_loss": 0.006952399748914124,
+        "total_loss": 0.6276612229522045
       },
       {
         "step": 75,
-        "data_loss": 0.5340074017098333,
-        "weight_loss": 0.00932150776773046,
-        "total_loss": 0.5433289094775637
+        "data_loss": 0.5323399495560649,
+        "weight_loss": 0.009340908468918921,
+        "total_loss": 0.5416808580249838
       },
       {
         "step": 90,
-        "data_loss": 0.47362793792672586,
-        "weight_loss": 0.011619968418076632,
-        "total_loss": 0.48524790634480247
+        "data_loss": 0.4720900910779004,
+        "weight_loss": 0.011640041208076497,
+        "total_loss": 0.4837301322859769
       },
       {
         "step": 105,
-        "data_loss": 0.42949561864184893,
-        "weight_loss": 0.013804367469380964,
-        "total_loss": 0.4432999861112299
+        "data_loss": 0.42809360842770117,
+        "weight_loss": 0.013823422357861813,
+        "total_loss": 0.441917030785563
       },
       {
         "step": 120,
-        "data_loss": 0.3955894967131138,
-        "weight_loss": 0.015873084469669646,
-        "total_loss": 0.41146258118278345
+        "data_loss": 0.3943162881201962,
+        "weight_loss": 0.015889810557123178,
+        "total_loss": 0.4102060986773194
       },
       {
         "step": 135,
-        "data_loss": 0.36854615670141216,
-        "weight_loss": 0.017832466173545045,
-        "total_loss": 0.3863786228749572
+        "data_loss": 0.3673903810505127,
+        "weight_loss": 0.017845871701092687,
+        "total_loss": 0.3852362527516054
       },
       {
         "step": 150,
-        "data_loss": 0.3463433879817052,
-        "weight_loss": 0.019691087747124532,
-        "total_loss": 0.36603447572882974
+        "data_loss": 0.3452929108720247,
+        "weight_loss": 0.019700433587535655,
+        "total_loss": 0.36499334445956033
       },
       {
         "step": 165,
-        "data_loss": 0.3276933985577537,
-        "weight_loss": 0.021457665926997424,
-        "total_loss": 0.34915106448475114
+        "data_loss": 0.3267367087813672,
+        "weight_loss": 0.02146240867391673,
+        "total_loss": 0.3481991174552839
       },
       {
         "step": 180,
-        "data_loss": 0.3117371588668118,
-        "weight_loss": 0.023140313041562065,
-        "total_loss": 0.33487747190837386
+        "data_loss": 0.3108638468721832,
+        "weight_loss": 0.02314006014765056,
+        "total_loss": 0.3340039070198338
       },
       {
         "step": 195,
-        "data_loss": 0.2978792547324989,
-        "weight_loss": 0.02474631589098739,
-        "total_loss": 0.3226255706234863
+        "data_loss": 0.29708010842648336,
+        "weight_loss": 0.024740791322395598,
+        "total_loss": 0.32182089974887895
       },
       {
         "step": 210,
-        "data_loss": 0.28569345357660875,
-        "weight_loss": 0.026282122654374646,
-        "total_loss": 0.3119755762309834
+        "data_loss": 0.2849603985306547,
+        "weight_loss": 0.02627114081340864,
+        "total_loss": 0.31123153934406333
       },
       {
         "step": 225,
-        "data_loss": 0.274866106529838,
-        "weight_loss": 0.02775340801170892,
-        "total_loss": 0.3026195145415469
+        "data_loss": 0.2741920902271055,
+        "weight_loss": 0.027736853913900315,
+        "total_loss": 0.3019289441410058
       },
       {
         "step": 240,
-        "data_loss": 0.2651608511368109,
-        "weight_loss": 0.02916516205252546,
-        "total_loss": 0.2943260131893364
+        "data_loss": 0.26453971487756744,
+        "weight_loss": 0.029142976171678187,
+        "total_loss": 0.2936826910492456
       },
       {
         "step": 255,
-        "data_loss": 0.25639583322467374,
-        "weight_loss": 0.030521780406243298,
-        "total_loss": 0.28691761363091706
+        "data_loss": 0.2558221900400195,
+        "weight_loss": 0.030493946996555138,
+        "total_loss": 0.28631613703657466
       },
       {
         "step": 270,
-        "data_loss": 0.24842856420582468,
-        "weight_loss": 0.03182714686690984,
-        "total_loss": 0.2802557110727345
+        "data_loss": 0.24789768961064,
+        "weight_loss": 0.03179368488466511,
+        "total_loss": 0.2796913744953051
       },
       {
         "step": 285,
-        "data_loss": 0.24114558774809913,
-        "weight_loss": 0.0330847058296915,
-        "total_loss": 0.2742302935777906
+        "data_loss": 0.24065332496538153,
+        "weight_loss": 0.03304566181127804,
+        "total_loss": 0.27369898677665955
       },
       {
         "step": 300,
-        "data_loss": 0.2344552628689733,
-        "weight_loss": 0.034297524434347484,
-        "total_loss": 0.2687527873033208
+        "data_loss": 0.23399794191361958,
+        "weight_loss": 0.03425296685832832,
+        "total_loss": 0.2682509087719479
       }
     ]
   },
   "baseline_majority": {
-    "accuracy": 0.8912108174554395,
-    "macro_f1": 0.3141588126963493,
+    "accuracy": 0.890832328106152,
+    "macro_f1": 0.31408825093035614,
     "recall": {
       "ai-image": 0.0,
       "ai-research": 1.0,
@@ -181,9 +181,9 @@
   "effective": true,
   "verdict": "기준선보다 나음: 운영 가중치 교체",
   "mean_gate_load": [
-    0.001041,
-    0.001183,
-    0.997776
+    0.001043,
+    0.001185,
+    0.997772
   ],
   "model_file": "data/knowledge/real_knowledge_moe_tuned.npz",
   "promoted": true,
