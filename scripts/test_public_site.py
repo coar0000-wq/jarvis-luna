@@ -161,17 +161,25 @@ class PublicSiteTests(unittest.TestCase):
         html=(ROOT/'index.html').read_text(encoding='utf-8')
         self.assertIn(".live-indicator[data-continuity-state='restricted']{color:#d29922;}", html)
         self.assertIn(".live-indicator[data-continuity-state='unverified']{color:#f85149;}", html)
-        self.assertIn('.live-indicator[data-continuity-state] .live-dot{background:currentColor;box-shadow:none;animation:none;}', html)
+        self.assertIn(".live-indicator[data-continuity-state] .live-dot,.live-indicator[data-operating-state='unknown'] .live-dot{background:currentColor;box-shadow:none;animation:none;}", html)
+        self.assertIn(".live-indicator[data-operating-state='unknown']{color:#d29922;}", html)
         start=html.index('function renderContinuityReview(review){')
         end=html.index('\nasync function loadData(){',start)
         code="""const assert=require('assert');const nodes={};
-const indicator={attributes:{},setAttribute(k,v){this.attributes[k]=v;}};
+const indicator={attributes:{},setAttribute(k,v){this.attributes[k]=v;},hasAttribute(k){return Object.hasOwn(this.attributes,k);},removeAttribute(k){delete this.attributes[k];}};
 const $=id=>nodes[id]||(nodes[id]={hidden:true,textContent:'',parentElement:indicator});
 const set=(id,text)=>{$(id).textContent=text;};const KST=x=>x;
 """+html[start:end]+"\nconst valid="+json.dumps(self.restricted_review())+";"+"""
+set('live-text','OFFLINE');
+renderContinuityReview(null);
+assert.equal($('live-text').textContent,'OFFLINE');
+assert.deepEqual(indicator.attributes,{});
 renderContinuityReview(valid);
 assert.equal($('continuity-review-banner').hidden,false);
-assert.equal($('live-text').textContent,'제한 운영');
+assert.equal($('live-text').textContent,'제한 분석');
+assert.ok($('team-meta').textContent.includes('제한 분석 완료'));
+assert.ok($('team-meta').textContent.includes('전체 자동화 복구는 미완료'));
+assert.ok(!$('team-meta').textContent.includes('미실행'));
 assert.equal(indicator.attributes['data-continuity-state'],'restricted');
 assert.equal(indicator.attributes.role,'status');
 assert.ok(indicator.attributes['aria-label'].includes('전체 자동화 복구 미완료'));
@@ -189,16 +197,52 @@ for(const bad of [{...valid,continuity:'verified'},{...valid,production_recovere
  assert.equal(indicator.attributes['data-continuity-state'],'unverified');
  assert.ok(indicator.attributes['aria-label'].includes('정상 운영 확인 불가'));
  assert.ok($('continuity-review-title').textContent.includes('근거 불일치'));
+ assert.ok($('team-meta').textContent.includes('분석 상태 미확인'));
+ assert.ok(!$('team-meta').textContent.includes('분석 완료'));
 }
 renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_BLOCKED',analyzed_at:null});
 assert.equal($('live-text').textContent,'확인 필요');
 assert.equal(indicator.attributes['data-continuity-state'],'unverified');
 assert.ok($('continuity-review-title').textContent.includes('근거 불일치'));
 assert.ok(!$('continuity-review-detail').textContent.includes('분석 시각:'));
-renderContinuityReview(null);assert.equal($('continuity-review-banner').hidden,true);
+assert.ok($('team-meta').textContent.includes('제한 분석 미실행'));
+assert.ok($('team-meta').textContent.includes('재개 대기'));
+assert.ok(!$('team-meta').textContent.includes('부분 재개'));
+for(const previous of [valid,{...valid,status:'RESTRICTED_ANALYSIS_BLOCKED',analyzed_at:null}]){
+ renderContinuityReview(previous);
+ // loadData refreshes the general team metadata before rendering continuity.
+ set('team-meta','현재 자료 기반 팀 요약');
+ renderContinuityReview(null);
+ assert.equal($('continuity-review-banner').hidden,true);
+ assert.equal($('continuity-review-title').textContent,'');
+ assert.equal($('continuity-review-detail').textContent,'');
+ assert.equal($('team-meta').textContent,'현재 자료 기반 팀 요약');
+ assert.equal($('live-text').textContent,'상태 미확인');
+ assert.equal(indicator.attributes['data-continuity-state'],undefined);
+ assert.equal(indicator.attributes['data-operating-state'],'unknown');
+ assert.equal(indicator.attributes['aria-label'],'현재 운영 상태 미확인');
+}
+renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_BLOCKED',analyzed_at:null});
+assert.equal(indicator.attributes['data-operating-state'],undefined);
+assert.equal(indicator.attributes['data-continuity-state'],'unverified');
+assert.equal($('live-text').textContent,'확인 필요');
 renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_PENDING',analyzed_at:null});
 assert.ok($('continuity-review-title').textContent.includes('검증 대기'));
 assert.ok(!$('continuity-review-detail').textContent.includes('분석 시각:'));
+assert.equal($('live-text').textContent,'재개 대기');
+assert.ok(indicator.attributes['aria-label'].includes('미실행'));
+assert.ok($('team-meta').textContent.includes('제한 분석 미실행'));
+assert.ok(!$('team-meta').textContent.includes('부분 재개'));
+for(const bad of [{...valid,status:'RESTRICTED_ANALYSIS_BLOCKED',analyzed_at:'invalid'},
+ {...valid,status:'RESTRICTED_ANALYSIS_PENDING',analyzed_at:valid.analyzed_at},
+ {...valid,status:'RESTRICTED_ANALYSIS_COMPLETE',analyzed_at:null},
+ {...valid,status:'unexpected'}]){
+ renderContinuityReview(bad);
+ assert.equal($('live-text').textContent,'확인 필요');
+ assert.ok($('team-meta').textContent.includes('분석 상태 미확인'));
+ assert.ok(!$('team-meta').textContent.includes('분석 완료'));
+ assert.ok(!$('team-meta').textContent.includes('미실행'));
+}
 """
         result=subprocess.run(['node','-e',code],text=True,capture_output=True,timeout=10)
         self.assertEqual(result.returncode,0,result.stderr)
