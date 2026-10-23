@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: main-publish
@@ -37,11 +38,24 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Restore authenticated GOSI safety before provider work
+        id: gosi_safety
+        timeout-minutes: 2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: timeout --signal=TERM --kill-after=5s 110s python -u scripts/gosi_safety_checkpoint.py restore --root "$GITHUB_WORKSPACE"
+
       - name: Install dependencies
+        # Standalone setup cap; Deep instead shares one 1,200-second stage budget.
+        timeout-minutes: 5
         run: |
           # pillow: 세로로 긴 상세 이미지를 조각내려서 보내려고 쓴다.
           # 850 x 22,534 를 통째로 보내면 전성분이 뭉개져 안 읽힌다.
-          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-vision.txt
+          timeout --signal=TERM --kill-after=5s 280s bash -e -c '
+            # Keep the group leader alive until timeout can KILL stuck descendants.
+            trap "while :; do sleep 1; done" TERM
+            python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-vision.txt
+          '
 
       - name: Collect DAISO GOSI images
         run: python scripts/collect_daiso_gosi.py
@@ -53,6 +67,25 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY_LUNA }}
           VISION_BUDGET_SEC: "1200"
         run: python scripts/extract_gosi_vision.py
+
+      - name: Pack GOSI evidence before downstream publication
+        id: gosi_checkpoint
+        timeout-minutes: 2
+        if: always()
+        run: |
+          timeout --signal=TERM --kill-after=5s 110s python -u scripts/gosi_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
+            --output "$RUNNER_TEMP/gosi-safety.zip" --repository "$GITHUB_REPOSITORY" \
+            --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
+
+      - name: Retain authenticated GOSI safety checkpoint
+        timeout-minutes: 2
+        if: always() && steps.gosi_checkpoint.outcome == 'success'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: gosi-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/gosi-safety.zip
+          if-no-files-found: error
+          retention-days: 14
 
       # ------------------------------------------------------------
       # 고시를 채웠으면 그다음까지 이어서 간다.

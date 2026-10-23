@@ -28,7 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from scripts.gosi_observation_history import validate_document, attempt, observe_field, mark_stale, publish_observation, sha, receipt, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop
+from scripts.gosi_observation_history import validate_document, attempt, observe_field, mark_stale, publish_observation, sha, receipt, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop, require_continuity
 
 class DeadlineStop(RuntimeError):
     pass
@@ -470,6 +470,7 @@ def apply_vision(row, got, img, pd_no):
             observe_field(row, f, got[f], evidence)]
 
 def main() -> int:
+    require_continuity(ROOT)
     doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
     items = validate_document(doc)
     try:

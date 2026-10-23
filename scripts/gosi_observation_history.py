@@ -16,6 +16,41 @@ HISTORY_PATH = 'data/knowledge/gosi_observation_history'
 POLICY_REF = 'scripts/gosi_observation_history.py'
 FIELDS = ('volume', 'ingredients', 'maker', 'origin', 'warnings', 'expiry', 'functional', 'usage')
 
+CONTINUITY_PROOF = '.gosi-safety-verified.json'
+CONTINUITY_PENDING = '.gosi-safety-restore.pending'
+COLLECTION_PENDING = '.gosi-collection.pending'
+
+
+def require_continuity(root, *, forensic=False):
+    """Fail closed on interrupted work; Actions also needs authenticated restore.
+
+    Local/offline parser users do not acquire a network dependency. The proof is
+    a local receipt written only by the authenticated restore entrypoint, never
+    a substitute for GitHub authentication or a provider-success receipt.
+    """
+    root = Path(root).absolute()
+    if not forensic:
+        for name in (CONTINUITY_PENDING, COLLECTION_PENDING):
+            if safe_path(root, name).exists():
+                raise ValueError('gosi continuity reconciliation required')
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        return
+    path = safe_path(root, CONTINUITY_PROOF)
+    if not path.is_file() or path.stat().st_size > 512 * 1024:
+        raise ValueError('gosi authenticated continuity proof required')
+    proof = json.loads(path.read_bytes())
+    import subprocess
+    head = subprocess.run(['git', '-C', str(root), 'rev-parse', 'HEAD'],
+                          capture_output=True, check=True).stdout.decode().strip()
+    expected = {key: os.environ.get(env) for key, env in (
+        ('repository', 'GITHUB_REPOSITORY'), ('run_id', 'GITHUB_RUN_ID'),
+        ('run_attempt', 'GITHUB_RUN_ATTEMPT'))}
+    if (proof.get('schema_version') != 1 or proof.get('head') != head
+            or proof.get('event_sha') != os.environ.get('GITHUB_SHA', head)
+            or not all(value and proof.get(key) == value for key, value in expected.items())
+            or not re.fullmatch(r'[0-9a-f]{64}', str(proof.get('baseline_sha256', '')))):
+        raise ValueError('gosi continuity proof identity invalid')
+
 def validate_document(doc):
     if not isinstance(doc, dict) or not isinstance(doc.get('items'), dict):
         raise ValueError('gosi items must be an object; list conversion is forbidden')
@@ -135,8 +170,13 @@ def assert_not_stopped(doc, providers, now=None):
         if stop.get('provider') in providers:
             raise ProviderStop(stop['provider'], stop.get('code'), stop.get('category', 'persisted_stop'))
 
-def persist_stop(doc, exc):
-    event = {'provider': exc.provider, 'code': exc.code, 'category': exc.category, 'stopped_at': utcnow()}
+def persist_stop(doc, exc, *, stopped_at=None):
+    if stopped_at is not None:
+        when = datetime.fromisoformat(str(stopped_at).replace('Z', '+00:00'))
+        if not isinstance(stopped_at, str) or when.tzinfo is None or when > datetime.now(timezone.utc):
+            raise ValueError('invalid observed provider stop clock')
+    event = {'provider': exc.provider, 'code': exc.code, 'category': exc.category,
+             'stopped_at': stopped_at if stopped_at is not None else utcnow()}
     if getattr(exc, 'diagnostic', None):
         event['diagnostic'] = deepcopy(exc.diagnostic)
     stops = doc.setdefault('provider_stops', [])

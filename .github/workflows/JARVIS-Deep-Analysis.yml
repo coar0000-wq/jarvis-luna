@@ -538,17 +538,68 @@ jobs:
       # 고시 보강은 선택 수집이다. 접근 중단/설치 실패는 현재 회차 증적으로
       # 남기되 독립적인 라벨·법률·게이트·runtime 재계산은 계속한다.
       # collector의 403 종료 코드를 바꾸거나 등록/발행 검증을 완화하지 않는다.
+      - name: Restore authenticated GOSI continuity
+        id: gosi_safety
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GOSI_STAGE_BUDGET_SECONDS: '1200'
+          GOSI_STAGE_CLEANUP_SECONDS: '20'
+        run: |
+          # One runner-monotonic cutoff starts before authenticated restoration.
+          DAISO_GOSI_DEADLINE_MONOTONIC="$(python -c 'import math,os,time; b=float(os.environ["GOSI_STAGE_BUDGET_SECONDS"]); r=float(os.environ["GOSI_STAGE_CLEANUP_SECONDS"]); assert math.isfinite(b) and math.isfinite(r) and b>r>0; print(time.monotonic()+b)')"
+          export DAISO_GOSI_DEADLINE_MONOTONIC
+          echo "DAISO_GOSI_DEADLINE_MONOTONIC=$DAISO_GOSI_DEADLINE_MONOTONIC" >> "$GITHUB_ENV"
+          remaining="$(python -c 'import os,sys,time; left=float(os.environ["DAISO_GOSI_DEADLINE_MONOTONIC"])-time.monotonic()-float(os.environ["GOSI_STAGE_CLEANUP_SECONDS"]); print(max(0,left)); sys.exit(0 if left>0 else 124)')"
+          echo "GOSI_PHASE_START phase=continuity_restore remaining_seconds=$remaining"
+          code=0
+          timeout --signal=TERM --kill-after="${GOSI_STAGE_CLEANUP_SECONDS}s" "${remaining}s" \
+            python -u scripts/gosi_safety_checkpoint.py restore --root "$GITHUB_WORKSPACE" || code=$?
+          echo "GOSI_PHASE_END phase=continuity_restore elapsed_seconds=$SECONDS exit_code=$code"
+          exit "$code"
+
       - name: 렌더링된 공식 alt에서 S등급 고시 자동 복구
         id: gosi_recovery
         continue-on-error: true
         env:
           GOSI_GAP_COUNT: ${{ steps.s_gosi_gap.outputs.count }}
+          GOSI_CONTINUITY_OUTCOME: ${{ steps.gosi_safety.outcome }}
           DAISO_DELAY: '30'
           DAISO_GOSI_MAX: '12'
+          GOSI_STAGE_BUDGET_SECONDS: '1200'
+          GOSI_STAGE_CLEANUP_SECONDS: '20'
+          GOSI_COLLECTION_REPORT: ${{ runner.temp }}/release-results/deep_gosi_collection.json
         run: |
           cat > "$RUNNER_TEMP/deep_gosi_alt.sh" <<'RELEASE_STAGE_deep_gosi_alt'
+          # Failed continuity is a truthful optional failure before any source/setup.
+          if [[ "$GOSI_CONTINUITY_OUTCOME" != success ]]; then
+            echo "GOSI_CONTINUITY_UNVERIFIED: ${GOSI_CONTINUITY_OUTCOME:-missing}" >&2
+            exit 2
+          fi
+          # The same monotonic deadline covers restore, precheck, setup and collection.
+          # The outer result recorder survives child failures and timeouts.
+          # Inherited from restore; never allocate a fresh setup/collection budget.
+          : "${DAISO_GOSI_DEADLINE_MONOTONIC:?GOSI stage deadline missing}"
+          export DAISO_GOSI_DEADLINE_MONOTONIC
+          export DAISO_GOSI_CLEANUP_SECONDS="$GOSI_STAGE_CLEANUP_SECONDS"
+          gosi_phase() {
+            local phase="$1" code=0 started=$SECONDS budget
+            shift
+            budget="$(GOSI_PHASE="$phase" python -c 'import os,sys,time; reserve=0 if os.environ["GOSI_PHASE"]=="collection" else float(os.environ["GOSI_STAGE_CLEANUP_SECONDS"]); left=float(os.environ["DAISO_GOSI_DEADLINE_MONOTONIC"])-time.monotonic()-reserve; print(max(0,left)); sys.exit(0 if left>0 else 124)')" || return $?
+            echo "GOSI_PHASE_START phase=$phase elapsed_seconds=$SECONDS remaining_seconds=$budget"
+            if [[ "$phase" == collection ]]; then
+              "$@" || code=$?
+            else
+              # Keep a dedicated group leader alive after TERM. Otherwise an
+              # installer can exit before timeout kills its stuck descendants.
+              timeout --signal=TERM --kill-after="${GOSI_STAGE_CLEANUP_SECONDS}s" "${budget}s" \
+                bash -c 'expired() { trap "" TERM; while :; do sleep 1; done; }; trap expired TERM; "$@"; code=$?; exit "$code"' -- "$@" || code=$?
+            fi
+            echo "GOSI_PHASE_END phase=$phase elapsed_seconds=$SECONDS duration_seconds=$((SECONDS-started)) exit_code=$code"
+            return "$code"
+          }
           # 누락이 없어도 공급자 정지는 확인한다. 파일/정지 이력은 바꾸지 않는다.
-          python -u scripts/daiso/collect_gosi_alt.py --check-access-only
+          gosi_phase access_precheck bash -e -c 'python -u scripts/daiso/collect_gosi_alt.py --check-access-only'
           case "$GOSI_GAP_COUNT" in
             0)
               echo "GOSI_RECOVERY_NOT_NEEDED: no missing S-grade notices"
@@ -558,15 +609,40 @@ jobs:
               exit 1
               ;;
             *)
-              python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-browser.txt
-              playwright install --with-deps chromium
-              python -u scripts/daiso/collect_gosi_alt.py
+              gosi_phase pip_install bash -e -c 'python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-browser.txt'
+              gosi_phase chromium_install bash -e -c 'playwright install --with-deps chromium'
+              gosi_phase collection python -u scripts/daiso/collect_gosi_alt.py
               ;;
           esac
           RELEASE_STAGE_deep_gosi_alt
           python scripts/collector_result.py run --name deep_gosi_alt --optional \
             --artifact data/gosi.json \
             --output "$RUNNER_TEMP/release-results/deep_gosi_alt.json" -- bash -e "$RUNNER_TEMP/deep_gosi_alt.sh"
+
+      - name: Preserve GOSI checkpoints before downstream work
+        id: gosi_checkpoint
+        if: always()
+        timeout-minutes: 2
+        env:
+          GOSI_PACK_BUDGET_SECONDS: '110'
+          GOSI_PACK_KILL_SECONDS: '5'
+        run: |
+          # Preservation has its own finite bound after the collection cutoff.
+          # Timeout leaves canonical/journal inputs intact and prevents upload.
+          timeout --signal=TERM --kill-after="${GOSI_PACK_KILL_SECONDS}s" "${GOSI_PACK_BUDGET_SECONDS}s" \
+            python -u scripts/gosi_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
+            --output "$RUNNER_TEMP/gosi-safety.zip" --repository "$GITHUB_REPOSITORY" \
+            --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
+
+      - name: Upload GOSI safety checkpoint
+        if: always() && steps.gosi_checkpoint.outcome == 'success'
+        timeout-minutes: 2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # actions/upload-artifact@v7.0.2
+        with:
+          name: gosi-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/gosi-safety.zip
+          if-no-files-found: error
+          retention-days: 14
 
       # ------------------------------------------------------------
       # 고시 → 영문 라벨

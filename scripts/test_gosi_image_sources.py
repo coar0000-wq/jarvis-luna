@@ -2,6 +2,7 @@
 import copy
 import io
 import json
+import os
 from pathlib import Path
 import socket
 import sys
@@ -9,6 +10,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
+from test_gosi_recovery_workflow import AuthenticatedGosiFixture
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from PIL import Image, UnidentifiedImageError
@@ -33,7 +35,7 @@ class Response(io.BytesIO):
         self.headers = {'Content-Type': mime}
 
 
-class ImageSelectionTests(unittest.TestCase):
+class ImageSelectionTests(AuthenticatedGosiFixture, unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.network = patch.object(socket.socket, 'connect', side_effect=AssertionError('Offline tests prohibit network'))
@@ -234,20 +236,35 @@ class ImageSelectionTests(unittest.TestCase):
         self.assertEqual(row['maker'], 'existing fact')
         doc = {'items': {'1234567': row, '7654321': {}}}
         with tempfile.TemporaryDirectory() as td:
-            path = Path(td) / 'gosi.json'
-            path.write_text(json.dumps(doc))
-            with patch.object(c, 'GOSI', path), patch.object(c, 'seed_from_s_grade'), patch.object(c, 'collect_one', side_effect=stop) as collect, patch.object(c, 'publish_observation') as publish:
+            self.prepare_continuity_fixture(td, doc)
+            with patch.dict(os.environ, self.actions_env), patch.object(c, 'ROOT', self.root), patch.object(c, 'GOSI', self.source), patch.object(c, 'seed_from_s_grade'), patch.object(c, 'collect_one', side_effect=stop) as collect, patch.object(c, 'publish_observation', wraps=h.publish_observation) as publish:
                 c.main()
             collect.assert_called_once()
-            persisted = publish.call_args.args[1]
+            self.assertEqual(collect.call_args.args[0], '1234567')
+            publish.assert_called_once()
+            self.assertEqual(publish.call_args.args[0], self.root)
+            persisted = json.loads(self.source.read_bytes())
             self.assertEqual(persisted['provider_stops'][0]['code'], 403)
-            path.write_text(json.dumps(persisted))
-            before = path.read_bytes()
-            with patch.object(c, 'GOSI', path), patch.object(c, 'collect_one') as collect, patch.object(c, 'publish_observation') as publish:
+            self.assertEqual(persisted['items']['1234567']['maker'], 'existing fact')
+            self.assertEqual(persisted['items']['1234567']['gosi_images'], ['data/first.jpg'])
+            self.assertEqual(persisted['items']['1234567']['image_observations']['data/first.jpg']['received_at'], 'original')
+            before = self.source.read_bytes()
+            with patch.dict(os.environ, self.actions_env), patch.object(c, 'ROOT', self.root), patch.object(c, 'GOSI', self.source), patch.object(c, 'collect_one') as collect, patch.object(c, 'publish_observation') as publish:
                 c.main()
             collect.assert_not_called()
             publish.assert_not_called()
-            self.assertEqual(path.read_bytes(), before)
+            self.assertEqual(self.source.read_bytes(), before)
+
+    def test_missing_actions_proof_blocks_before_source_or_publication(self):
+        with tempfile.TemporaryDirectory() as td:
+            self.prepare_continuity_fixture(td, {'items': {'1234567': {'maker': 'existing fact'}}})
+            (self.root / '.gosi-safety-verified.json').unlink()
+            with patch.dict(os.environ, self.actions_env), patch.object(c, 'ROOT', self.root), patch.object(c, 'GOSI', self.source), patch.object(c, 'seed_from_s_grade') as seed, patch.object(c, 'collect_one') as collect, patch.object(c, 'publish_observation') as publish:
+                self.assertEqual(c.main(), 1)
+            seed.assert_not_called()
+            collect.assert_not_called()
+            publish.assert_not_called()
+            self.assertEqual(self.source.read_bytes(), self.before)
 
 
 if __name__ == '__main__':
