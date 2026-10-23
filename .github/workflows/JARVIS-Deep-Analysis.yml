@@ -41,26 +41,6 @@ jobs:
     # 시크릿이 없으면 호출 없이 로컬 advisory 로 가므로 그대로 두어도 된다.
     # 크레딧 구매·자동충전은 하지 않는다. 한도에 닿거나 402·429 를 받으면
     # 그 회차는 거기서 멈추고 나머지는 무료 로컬 판정을 쓴다.
-    env:
-      TYPESAFE_ENABLED: ${{ github.ref == 'refs/heads/main' && '1' || '0' }}
-      TYPESAFE_FREE_CREDITS_ONLY: '1'
-      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_SHARED_API_KEY }}
-      TYPESAFE_ORG_ID: ${{ vars.TYPESAFE_ORG_ID }}
-      TYPESAFE_BILLING_PROOF_JSON: ${{ secrets.TYPESAFE_BILLING_PROOF_JSON }}
-      TYPESAFE_SHARED_LEDGER_PATH: ${{ github.workspace }}/data/typesafe_shared_state.json
-      TYPESAFE_WORKFLOW_ID: ${{ github.workflow }}:${{ github.run_id }}:${{ github.run_attempt }}
-      TYPESAFE_MODEL: 'jev-1.14.0'
-      TYPESAFE_MODEL_POLICY_VERSION: 'jarvis-jev-1.14-text-v1'
-      TYPESAFE_CACHE_TTL_SEC: '86400'
-      TYPESAFE_ACCOUNT_MAX_COST_USD: '1.0'
-      TYPESAFE_MAX_CALLS: '40'
-      TYPESAFE_MAX_INPUT_TOKENS: '60000'
-      # Jev/로컬 판정이 부족하다고 구조적으로 확인된 회차에만 1회 호출한다.
-      # 결과는 진단 advisory뿐이며 외부 실행·게시·결제에는 사용하지 않는다.
-      GEMINI_FALLBACK_ENABLED: '1'
-      GEMINI_FREE_TIER_ONLY: '1'
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
     steps:
 
       # =========================
@@ -78,23 +58,61 @@ jobs:
           python-version: '3.11'
           cache: pip
 
-      - name: Stage TypeSafe billing proof and restore shared allowance
-        env:
-          GH_TOKEN: ${{ github.token }}
-          TYPESAFE_BILLING_PROOF_PATH: ${{ runner.temp }}/typesafe-billing-proof.json
-        run: |
-          printf 'TYPESAFE_BILLING_PROOF_PATH=%s\n' "$TYPESAFE_BILLING_PROOF_PATH" >> "$GITHUB_ENV"
-          python scripts/setup_typesafe_shared.py
-
-      - name: Install runtime dependencies
-        run: |
-          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-deep.txt
-
       - name: Fast-forward a queued checkout to latest main (data-only commits)
         # main-publish 대기열에서 기다리는 동안 다른 생산자가 데이터만 발행했으면 최신 main 에서 시작한다.
         run: python -B scripts/fast_forward_queued_checkout.py
 
+      - name: Select authenticated continuity mode before provider setup
+        id: continuity_mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/restricted"
+          python -B scripts/continuity_reconciliation.py decide --root "$GITHUB_WORKSPACE" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --output "$RUNNER_TEMP/restricted/decision.json" --github-output "$GITHUB_OUTPUT"
+
+      - name: Stage TypeSafe billing proof and restore shared allowance
+        if: steps.continuity_mode.outputs.mode == 'normal'
+        env:
+          TYPESAFE_ENABLED: ${{ github.ref == 'refs/heads/main' && '1' || '0' }}
+          TYPESAFE_FREE_CREDITS_ONLY: '1'
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_SHARED_API_KEY }}
+          TYPESAFE_ORG_ID: ${{ vars.TYPESAFE_ORG_ID }}
+          TYPESAFE_BILLING_PROOF_JSON: ${{ secrets.TYPESAFE_BILLING_PROOF_JSON }}
+          TYPESAFE_SHARED_LEDGER_PATH: ${{ github.workspace }}/data/typesafe_shared_state.json
+          TYPESAFE_WORKFLOW_ID: ${{ github.workflow }}:${{ github.run_id }}:${{ github.run_attempt }}
+          TYPESAFE_MODEL: 'jev-1.14.0'
+          TYPESAFE_MODEL_POLICY_VERSION: 'jarvis-jev-1.14-text-v1'
+          TYPESAFE_CACHE_TTL_SEC: '86400'
+          TYPESAFE_ACCOUNT_MAX_COST_USD: '1.0'
+          TYPESAFE_MAX_CALLS: '40'
+          TYPESAFE_MAX_INPUT_TOKENS: '60000'
+          GEMINI_FALLBACK_ENABLED: '1'
+          GEMINI_FREE_TIER_ONLY: '1'
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          TYPESAFE_BILLING_PROOF_PATH: ${{ runner.temp }}/typesafe-billing-proof.json
+        run: |
+          printf 'TYPESAFE_BILLING_PROOF_PATH=%s\n' "$TYPESAFE_BILLING_PROOF_PATH" >> "$GITHUB_ENV"
+          python - <<'PY_ENV'
+          import os, uuid
+          keys = ['TYPESAFE_ENABLED', 'TYPESAFE_FREE_CREDITS_ONLY', 'TYPESAFE_API_KEY', 'TYPESAFE_ORG_ID', 'TYPESAFE_BILLING_PROOF_JSON', 'TYPESAFE_SHARED_LEDGER_PATH', 'TYPESAFE_WORKFLOW_ID', 'TYPESAFE_MODEL', 'TYPESAFE_MODEL_POLICY_VERSION', 'TYPESAFE_CACHE_TTL_SEC', 'TYPESAFE_ACCOUNT_MAX_COST_USD', 'TYPESAFE_MAX_CALLS', 'TYPESAFE_MAX_INPUT_TOKENS', 'GEMINI_FALLBACK_ENABLED', 'GEMINI_FREE_TIER_ONLY', 'GEMINI_API_KEY']
+          with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as out:
+              for key in keys:
+                  delimiter = 'CONTINUITY_' + uuid.uuid4().hex
+                  out.write(key+'<<'+delimiter+'\n'+os.environ[key]+'\n'+delimiter+'\n')
+          PY_ENV
+          python scripts/setup_typesafe_shared.py
+
+      - name: Install runtime dependencies
+        if: steps.continuity_mode.outputs.mode == 'normal'
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-deep.txt
+
       - name: Restore durable source safety before observation
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: source_safety
         continue-on-error: true
         env:
@@ -103,6 +121,7 @@ jobs:
         run: python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
 
       - name: Restore immutable operations safety before execution
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: operations_safety
         continue-on-error: true
         env:
@@ -110,11 +129,30 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
 
+      - name: Require verified source and operations restoration before normal work
+        id: normal_continuity_gate
+        if: steps.continuity_mode.outputs.mode == 'normal'
+        env:
+          SOURCE_OUTCOME: ${{ steps.source_safety.outcome }}
+          SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
+          OPERATIONS_OUTCOME: ${{ steps.operations_safety.outcome }}
+          OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+        run: |
+          python - <<'PY_NORMAL_CONTINUITY'
+          import os
+          expected = {'SOURCE_OUTCOME': 'success', 'SOURCE_CONTINUITY': 'verified',
+                      'OPERATIONS_OUTCOME': 'success', 'OPERATIONS_CONTINUITY': 'verified'}
+          if any(os.environ.get(key) != value for key, value in expected.items()):
+              raise SystemExit('NORMAL_CONTINUITY_BLOCKED restoration outcome and evidence must both be verified')
+          print('NORMAL_CONTINUITY_VERIFIED')
+          PY_NORMAL_CONTINUITY
+
       # =========================
       # REAL KNOWLEDGE
       # =========================
 
       - name: AI 자료 수집 (논문 OpenAlex AI 주제 + AI 블로그·뉴스 RSS + AI 유튜브 채널) - 예전 로보틱스
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_01.sh" <<'RELEASE_STAGE_deep_01'
@@ -124,6 +162,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_01.json" -- bash -e "$RUNNER_TEMP/deep_01.sh"
 
       - name: Collect institution reports and papers (35 orgs)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_02.sh" <<'RELEASE_STAGE_deep_02'
@@ -133,6 +172,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_02.json" -- bash -e "$RUNNER_TEMP/deep_02.sh"
 
       - name: 디자인 소스 수집 (폰트·팔레트·기사)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -143,6 +183,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_03.json" -- bash -e "$RUNNER_TEMP/deep_03.sh"
 
       - name: Build design team board (checklist + references)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_04.sh" <<'RELEASE_STAGE_deep_04'
@@ -152,6 +193,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_04.json" -- bash -e "$RUNNER_TEMP/deep_04.sh"
 
       - name: 지정 YouTube 채널 수집 (최신 영상 목록)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 8
         run: |
@@ -162,6 +204,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_05.json" -- bash -e "$RUNNER_TEMP/deep_05.sh"
 
       - name: 지정 YouTube 영상 수집 (사람이 넣은 링크)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -172,6 +215,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_06.json" -- bash -e "$RUNNER_TEMP/deep_06.sh"
 
       - name: 논문 수집 (사람 지정)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 10
         run: |
@@ -182,6 +226,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_07.json" -- bash -e "$RUNNER_TEMP/deep_07.sh"
 
       - name: Build per-team feeds (route pools + FDA for legal)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_08.sh" <<'RELEASE_STAGE_deep_08'
@@ -191,6 +236,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_08.json" -- bash -e "$RUNNER_TEMP/deep_08.sh"
 
       - name: Collect real public sources
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_09.sh" <<'RELEASE_STAGE_deep_09'
@@ -209,6 +255,7 @@ jobs:
       # =========================
 
       - name: Collect Open Beauty Facts (오픈데이터, 인증 불필요)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_10.sh" <<'RELEASE_STAGE_deep_10'
@@ -218,6 +265,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_10.json" -- bash -e "$RUNNER_TEMP/deep_10.sh"
 
       - name: Collect OliveYoung US 베스트셀러 (실수집)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_11.sh" <<'RELEASE_STAGE_deep_11'
@@ -227,6 +275,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_11.json" -- bash -e "$RUNNER_TEMP/deep_11.sh"
 
       - name: Collect Reddit beauty RSS (AsianBeauty 등, 키 불필요)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_12.sh" <<'RELEASE_STAGE_deep_12'
@@ -236,6 +285,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_12.json" -- bash -e "$RUNNER_TEMP/deep_12.sh"
 
       - name: Collect public trend RSS (HN + Google News)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_13.sh" <<'RELEASE_STAGE_deep_13'
@@ -245,6 +295,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_13.json" -- bash -e "$RUNNER_TEMP/deep_13.sh"
 
       - name: Collect Google Trends beauty-only
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_14.sh" <<'RELEASE_STAGE_deep_14'
@@ -257,6 +308,7 @@ jobs:
           python scripts/collector_result.py run --name deep_14 --optional \
             --output "$RUNNER_TEMP/release-results/deep_14.json" -- bash -e "$RUNNER_TEMP/deep_14.sh"
       - name: Collect Google CSE (시크릿 있을 때만)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         env:
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
@@ -270,6 +322,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_15.json" -- bash -e "$RUNNER_TEMP/deep_15.sh"
 
       - name: 수동 입력 채널 반영 (data/manual/)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_16.sh" <<'RELEASE_STAGE_deep_16'
@@ -283,6 +336,7 @@ jobs:
       # =========================
 
       - name: Prepare transparent real-data corpus
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_17.sh" <<'RELEASE_STAGE_deep_17'
           python prepare_real_training_corpus.py
@@ -296,6 +350,7 @@ jobs:
       # 그래프 재생성 앞에 둔다. 채택한 분류 키워드가 같은 회차에 바로 반영된다.
       # 한 루프가 죽어도 발행은 막지 않는다. status.json 에 error 로 남는다.
       - name: 팀 자기개선 루프
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_18.sh" <<'RELEASE_STAGE_deep_18'
@@ -305,6 +360,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_18.json" -- bash -e "$RUNNER_TEMP/deep_18.sh"
 
       - name: Normalize Obsidian wikilinks
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_19.sh" <<'RELEASE_STAGE_deep_19'
@@ -317,6 +373,7 @@ jobs:
           python scripts/collector_result.py run --name deep_19 --optional \
             --output "$RUNNER_TEMP/release-results/deep_19.json" -- bash -e "$RUNNER_TEMP/deep_19.sh"
       - name: Rebuild Obsidian graph from real records
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_20.sh" <<'RELEASE_STAGE_deep_20'
           python organize_obsidian_graph.py
@@ -328,6 +385,7 @@ jobs:
           python scripts/collector_result.py run --name deep_20 --required \
             --output "$RUNNER_TEMP/release-results/deep_20.json" -- bash -e "$RUNNER_TEMP/deep_20.sh"
       - name: 팀 허브 생성 (그래프 층 나누기)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -342,6 +400,7 @@ jobs:
       # =========================
 
       - name: MoE 튜닝 후 승격 (실측 말뭉치만)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 10
         run: |
@@ -360,6 +419,7 @@ jobs:
       # 출처가 확실한 정답만 쓰고, 다수 클래스 기준선을 못 넘으면 승격하지 않는다.
       # 다음 회차의 영상 팀 배정(team_routing.py)과 주간 검토 큐가 이 모델을 쓴다.
       - name: MoE 팀 배정기 학습·조건부 승격
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 8
         run: |
@@ -373,6 +433,7 @@ jobs:
       # 주간 자막 검토 큐를 만들고 팀별 학습 보드를 갱신한다. 검토 자체는
       # Aside 정기 루틴이 Gemini Notebook 으로 하고 ingest_notebook_review.py 로 합친다.
       - name: YouTube 검토 큐·팀 학습 보드
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_24.sh" <<'RELEASE_STAGE_deep_24'
@@ -388,6 +449,7 @@ jobs:
 
       # 미국 K뷰티 편집숍 판매 목록 (2026-09-28, 공개 상품 JSON · robots 허용)
       - name: Collect Soko Glam (미국 K뷰티 편집숍)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_25.sh" <<'RELEASE_STAGE_deep_25'
@@ -397,6 +459,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_25.json" -- bash -e "$RUNNER_TEMP/deep_25.sh"
 
       - name: Sync Global Channels and Fix Dashboard UI
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_26.sh" <<'RELEASE_STAGE_deep_26'
           if [ -f sync_channels.py ]; then
@@ -406,6 +469,7 @@ jobs:
           python scripts/collector_result.py run --name deep_26 --required \
             --output "$RUNNER_TEMP/release-results/deep_26.json" -- bash -e "$RUNNER_TEMP/deep_26.sh"
       - name: K뷰티 미국 기사 수집 (상품군·성분 언급 집계)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -416,6 +480,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_27.json" -- bash -e "$RUNNER_TEMP/deep_27.sh"
 
       - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_28.sh" <<'RELEASE_STAGE_deep_28'
@@ -429,6 +494,7 @@ jobs:
       # =========================
 
       - name: 환율 갱신 (USD/KRW)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 3
         run: |
@@ -439,6 +505,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_29.json" -- bash -e "$RUNNER_TEMP/deep_29.sh"
 
       - name: Build product master (canonical_product_id)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_30.sh" <<'RELEASE_STAGE_deep_30'
@@ -448,6 +515,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_30.json" -- bash -e "$RUNNER_TEMP/deep_30.sh"
 
       - name: Score Shopify demand (다이소 실측 지표 기반)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_31.sh" <<'RELEASE_STAGE_deep_31'
@@ -457,6 +525,7 @@ jobs:
           python scripts/collector_result.py run --name deep_31 --optional \
             --output "$RUNNER_TEMP/release-results/deep_31.json" -- bash -e "$RUNNER_TEMP/deep_31.sh"
       - name: 한국→미국 실배송 원가 모델 계산
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_32.sh" <<'RELEASE_STAGE_deep_32'
@@ -479,6 +548,7 @@ jobs:
       # 빼는 일은 줄이기만 하므로 한 번이면 끝난다.
       # ------------------------------------------------------------
       - name: 손익 미달 상품 제외
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_33.sh" <<'RELEASE_STAGE_deep_33'
@@ -490,6 +560,7 @@ jobs:
           python scripts/collector_result.py run --name deep_33 --optional \
             --output "$RUNNER_TEMP/release-results/deep_33.json" -- bash -e "$RUNNER_TEMP/deep_33.sh"
       - name: 제외 반영해 점수·원가 다시 계산
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_34.sh" <<'RELEASE_STAGE_deep_34'
           python -u scripts/build_product_master.py --inject-s
@@ -508,6 +579,7 @@ jobs:
       # 결제·유료 API·추정 생성은 없고 robots Crawl-delay를 지킨다.
       # ------------------------------------------------------------
       - name: S등급 고시 필수 항목 누락 감지
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: s_gosi_gap
         run: |
           cat > "$RUNNER_TEMP/deep_35.sh" <<'RELEASE_STAGE_deep_35'
@@ -539,6 +611,7 @@ jobs:
       # 남기되 독립적인 라벨·법률·게이트·runtime 재계산은 계속한다.
       # collector의 403 종료 코드를 바꾸거나 등록/발행 검증을 완화하지 않는다.
       - name: Restore authenticated GOSI continuity
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: gosi_safety
         continue-on-error: true
         env:
@@ -559,6 +632,7 @@ jobs:
           exit "$code"
 
       - name: 렌더링된 공식 alt에서 S등급 고시 자동 복구
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: gosi_recovery
         continue-on-error: true
         env:
@@ -621,7 +695,7 @@ jobs:
 
       - name: Preserve GOSI checkpoints before downstream work
         id: gosi_checkpoint
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         timeout-minutes: 2
         env:
           GOSI_PACK_BUDGET_SECONDS: '110'
@@ -635,7 +709,7 @@ jobs:
             --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
 
       - name: Upload GOSI safety checkpoint
-        if: always() && steps.gosi_checkpoint.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.gosi_checkpoint.outcome == 'success')
         timeout-minutes: 2
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # actions/upload-artifact@v7.0.2
         with:
@@ -654,6 +728,7 @@ jobs:
       # 판단이 갈리는 것은 사람확인_필요 로 남는다.
       # ------------------------------------------------------------
       - name: 고시 → 영문 라벨 동기화 (표기 되돌림 포함)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_36.sh" <<'RELEASE_STAGE_deep_36'
@@ -663,6 +738,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_36.json" -- bash -e "$RUNNER_TEMP/deep_36.sh"
 
       - name: Legal auto-check (claims / functional / OTC / label)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_37.sh" <<'RELEASE_STAGE_deep_37'
           python -u scripts/check_legal_products.py
@@ -672,6 +748,7 @@ jobs:
           python scripts/collector_result.py run --name deep_37 --required \
             --output "$RUNNER_TEMP/release-results/deep_37.json" -- bash -e "$RUNNER_TEMP/deep_37.sh"
       - name: Build listing gate (copy/gosi/price/legal)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_38.sh" <<'RELEASE_STAGE_deep_38'
           python scripts/evaluate_team_typesafe.py
@@ -689,6 +766,7 @@ jobs:
       # 유료 모델은 부르지 않는다. 검증된 카피는 덮지 않는다.
       # ------------------------------------------------------------
       - name: 빈 영문 카피 무료 보완
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_39.sh" <<'RELEASE_STAGE_deep_39'
@@ -700,6 +778,7 @@ jobs:
           python scripts/collector_result.py run --name deep_39 --optional \
             --output "$RUNNER_TEMP/release-results/deep_39.json" -- bash -e "$RUNNER_TEMP/deep_39.sh"
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -710,6 +789,7 @@ jobs:
           python scripts/collector_result.py run --name deep_40 --optional \
             --output "$RUNNER_TEMP/release-results/deep_40.json" -- bash -e "$RUNNER_TEMP/deep_40.sh"
       - name: Product Master 게이트 동기화 + Shopify Export·Action 큐
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_41.sh" <<'RELEASE_STAGE_deep_41'
           python -u scripts/run_commerce_pipeline.py
@@ -721,6 +801,7 @@ jobs:
       # =========================
 
       - name: 내 사이트 수집 (브랜드 기준)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 3
         run: |
@@ -731,6 +812,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_42.json" -- bash -e "$RUNNER_TEMP/deep_42.sh"
 
       - name: 브랜드 키트 준비 (색·글꼴·규격·정책)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 3
         run: |
@@ -741,6 +823,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_43.json" -- bash -e "$RUNNER_TEMP/deep_43.sh"
 
       - name: 마케팅 조사 분석팀 보드 생성
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_44.sh" <<'RELEASE_STAGE_deep_44'
@@ -750,6 +833,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_44.json" -- bash -e "$RUNNER_TEMP/deep_44.sh"
 
       - name: 신규 수집 채널 발굴 (제안만, 자동 등록 안 함)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_45.sh" <<'RELEASE_STAGE_deep_45'
@@ -761,7 +845,7 @@ jobs:
       # 다른 endpoint라도 같은 공급자다. 고시 수집이 실패한 회차에
       # shortlist 읽기로 접근 중단을 우회하지 않는다.
       - name: Observe active shortlist source prices without operating writes
-        if: steps.source_safety.outputs.continuity == 'verified' && steps.gosi_recovery.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.source_safety.outputs.continuity == 'verified' && steps.gosi_recovery.outcome == 'success')
         continue-on-error: true
         timeout-minutes: 12
         env:
@@ -774,6 +858,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/watch_shortlist.json" -- bash -e "$RUNNER_TEMP/watch_shortlist.sh"
 
       - name: 기관 수집팀 + 채널 운영팀 지속 확장
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -789,6 +874,7 @@ jobs:
       # =========================
 
       - name: 수집원 생존 확인 (러너에서 직접 호출)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 5
         run: |
@@ -799,7 +885,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_47.json" -- bash -e "$RUNNER_TEMP/deep_47.sh"
 
       - name: Bounded existing-team source recovery
-        if: steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified')
         continue-on-error: true
         timeout-minutes: 12
         env:
@@ -818,6 +904,7 @@ jobs:
           python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" "${source_read_args[@]}"
 
       - name: Observe actual Actions freshness (read-only)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -829,6 +916,7 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_48.json" -- bash -e "$RUNNER_TEMP/deep_48.sh"
 
       - name: 에러 보고서 생성 (막힘·고장·대기·보류)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         timeout-minutes: 3
         run: |
@@ -848,6 +936,7 @@ jobs:
       # =========================
 
       - name: Generate final dashboard snapshot
+        if: steps.continuity_mode.outputs.mode == 'normal'
         timeout-minutes: 10
         run: |
           cat > "$RUNNER_TEMP/deep_50.sh" <<'RELEASE_STAGE_deep_50'
@@ -861,7 +950,7 @@ jobs:
       # =========================
 
       - name: JARVIS multi-agent + Safe Auto-Fix
-        if: steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.operations_safety.outputs.operations_continuity == 'verified')
         continue-on-error: true
         env:
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
@@ -881,6 +970,7 @@ jobs:
       # =========================
 
       - name: Rebuild Obsidian graph after Safe Auto-Fix
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_52.sh" <<'RELEASE_STAGE_deep_52'
@@ -905,10 +995,12 @@ jobs:
       # =========================
 
       - name: 팀 자기개선 기준선·현재값 측정
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: python -u scripts/build_team_baselines.py
 
       - name: Generate final dashboard runtime after Auto-Fix
+        if: steps.continuity_mode.outputs.mode == 'normal'
         timeout-minutes: 10
         run: |
           cat > "$RUNNER_TEMP/deep_53.sh" <<'RELEASE_STAGE_deep_53'
@@ -918,7 +1010,7 @@ jobs:
           python scripts/collector_result.py run --name deep_53 --required \
             --output "$RUNNER_TEMP/release-results/deep_53.json" -- bash -e "$RUNNER_TEMP/deep_53.sh"
       - name: Refresh typed ops plan and conditional Gemini escalation
-        if: steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.operations_safety.outputs.operations_continuity == 'verified')
         env:
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
         run: |
@@ -931,6 +1023,7 @@ jobs:
           python scripts/collector_result.py run --name deep_54 --required \
             --output "$RUNNER_TEMP/release-results/deep_54.json" -- bash -e "$RUNNER_TEMP/deep_54.sh"
       - name: 최종 커머스·운영 heartbeat 안전 검증
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_55.sh" <<'RELEASE_STAGE_deep_55'
           python -u scripts/validate_commerce_architecture.py --require-ops-runtime
@@ -943,6 +1036,7 @@ jobs:
       # =========================
 
       - name: Validate Safe Auto-Fix report and remediation ledger
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_56.sh" <<'RELEASE_STAGE_deep_56'
           python -m json.tool data/agents/autofix_report.json >/dev/null
@@ -971,6 +1065,7 @@ jobs:
       # =========================
 
       - name: Validate real-data artifacts
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: |
           cat > "$RUNNER_TEMP/deep_57.sh" <<'RELEASE_STAGE_deep_57'
           python -m json.tool data/knowledge/real_sources.json >/dev/null
@@ -1059,7 +1154,7 @@ jobs:
 
       - name: Aggregate actual Deep outcomes before publication
         id: release_outcomes
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           python scripts/collector_result.py aggregate --results "$RUNNER_TEMP/release-results" \
             --report data/agents/deep_run_results.json --runtime data/dashboard_runtime.json \
@@ -1124,17 +1219,18 @@ jobs:
 
       - name: Required Deep candidate release quality
         id: release_quality
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           python scripts/check_release_quality.py --phase candidate \
             --collector-report data/agents/deep_run_results.json \
             --report data/agents/release_quality_candidate.json
 
       - name: AI 수집 목록 교체 사유 기록 (가드 유지)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         run: python -B scripts/collector_snapshot_history.py data/robotics_sources.json data/operations/board.json data/agents/daiso_pipeline_health.json data/operations/knowledge_graph.json data/operations/state.json --all-declared
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success')
         uses: ./.github/actions/publish
         env:
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
@@ -1154,7 +1250,7 @@ jobs:
       # =========================
 
       - name: Complete summary
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           echo "JARVIS Deep Analysis finished."
           echo "Workflow: ${{ job.status }}"
@@ -1180,7 +1276,7 @@ jobs:
           fi
 
       - name: Upload TypeSafe budget receipt (best effort)
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         continue-on-error: true
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # actions/upload-artifact@v7.0.2
         with:
@@ -1190,14 +1286,14 @@ jobs:
           retention-days: 21
 
       - name: Pack durable source safety even after publication failure
-        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.source_safety.outputs.continuity == 'verified')
         run: |
           python -u scripts/source_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
             --output "$RUNNER_TEMP/source-safety.zip" --repository "$GITHUB_REPOSITORY" \
             --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
 
       - name: Retain source safety checkpoint
-        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.source_safety.outputs.continuity == 'verified')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: source-safety-${{ github.run_id }}-${{ github.run_attempt }}
@@ -1206,7 +1302,7 @@ jobs:
           retention-days: 14
 
       - name: Retain immutable operations safety history
-        if: always() && steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.operations_safety.outputs.operations_continuity == 'verified')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
@@ -1218,3 +1314,87 @@ jobs:
           if-no-files-found: error
           retention-days: 30  # 3일이면 체인이 3일만 멈춰도 이력이 만료돼 영구 교착(2026-10-12~17). 공개 저장소라 보관 무료
           compression-level: 9
+
+      - name: Analyze saved inputs under the approved unresolved gap
+        id: restricted_analysis
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        run: |
+          python -B scripts/continuity_reconciliation.py analyze --root "$GITHUB_WORKSPACE" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --output "$RUNNER_TEMP/restricted/analysis.json"
+
+      - name: Aggregate the distinct restricted review contract
+        id: restricted_outcomes
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_analysis.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -B scripts/collector_result.py aggregate-restricted --root "$GITHUB_WORKSPACE" \
+            --review data/agents/continuity_review.json \
+            --report "$RUNNER_TEMP/restricted/collector.json" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT"
+
+      - name: Validate restricted review and complete protected inventory
+        id: restricted_quality
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_outcomes.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -B scripts/check_release_quality.py --phase candidate \
+            --collector-report "$RUNNER_TEMP/restricted/collector.json" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --report "$RUNNER_TEMP/restricted/quality.json"
+
+      - name: Publish only the validated restricted review
+        id: restricted_publication
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_quality.outcome == 'success'
+        uses: ./.github/actions/publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        with:
+          collector-report: ${{ runner.temp }}/restricted/collector.json
+          execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
+          paths: data/agents/continuity_review.json data/agents/continuity_review_history
+          message: Publish restricted saved-input review with unresolved continuity gap
+
+      - name: Record the truthful restricted result
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        env:
+          RESTRICTED_MODE: ${{ steps.continuity_mode.outputs.mode }}
+          RESTRICTED_PUBLICATION: ${{ steps.restricted_publication.outcome }}
+        run: |
+          printf 'Continuity: unresolved_gap; mode: %s; publication step: %s\n' "$RESTRICTED_MODE" "$RESTRICTED_PUBLICATION" >> "$GITHUB_STEP_SUMMARY"
+          echo 'This is saved-input analysis only. Full Core/Deep recovery and unknown past provider usage are not verified.' >> "$GITHUB_STEP_SUMMARY"
+          mkdir -p "$RUNNER_TEMP/restricted"
+          if [ -f data/agents/continuity_review.json ]; then
+            cp data/agents/continuity_review.json "$RUNNER_TEMP/restricted/review.json"
+          fi
+
+      - name: Retain restricted evidence without impersonating a normal checkpoint
+        id: restricted_retention
+        timeout-minutes: 2
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: restricted-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/restricted
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Report actual restricted artifact retention result
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        env:
+          RESTRICTED_RETENTION: ${{ steps.restricted_retention.outcome }}
+        run: |
+          printf 'Restricted artifact retention step: %s; continuity remains unresolved_gap.\n' "$RESTRICTED_RETENTION" >> "$GITHUB_STEP_SUMMARY"
+          echo 'A published review alone does not prove artifact retention or ordinary automation recovery.' >> "$GITHUB_STEP_SUMMARY"

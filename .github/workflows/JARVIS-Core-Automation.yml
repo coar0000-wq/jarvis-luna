@@ -28,15 +28,28 @@ jobs:
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.11'
-      - name: Runtime dependencies
-        run: |
-          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
-
       - name: Fast-forward a queued checkout to latest main (data-only commits)
         # main-publish 대기열에서 기다리는 동안 다른 생산자가 데이터만 발행했으면 최신 main 에서 시작한다.
         run: python -B scripts/fast_forward_queued_checkout.py
 
+      - name: Select authenticated continuity mode before provider setup
+        id: continuity_mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/restricted"
+          python -B scripts/continuity_reconciliation.py decide --root "$GITHUB_WORKSPACE" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --output "$RUNNER_TEMP/restricted/decision.json" --github-output "$GITHUB_OUTPUT"
+
+      - name: Runtime dependencies
+        if: steps.continuity_mode.outputs.mode == 'normal'
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
+
       - name: Restore durable source safety before observation
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: source_safety
         continue-on-error: true
         env:
@@ -45,6 +58,7 @@ jobs:
         run: python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
 
       - name: Restore immutable operations safety before execution
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: operations_safety
         continue-on-error: true
         env:
@@ -52,7 +66,26 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
 
+      - name: Require verified source and operations restoration before normal work
+        id: normal_continuity_gate
+        if: steps.continuity_mode.outputs.mode == 'normal'
+        env:
+          SOURCE_OUTCOME: ${{ steps.source_safety.outcome }}
+          SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
+          OPERATIONS_OUTCOME: ${{ steps.operations_safety.outcome }}
+          OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+        run: |
+          python - <<'PY_NORMAL_CONTINUITY'
+          import os
+          expected = {'SOURCE_OUTCOME': 'success', 'SOURCE_CONTINUITY': 'verified',
+                      'OPERATIONS_OUTCOME': 'success', 'OPERATIONS_CONTINUITY': 'verified'}
+          if any(os.environ.get(key) != value for key, value in expected.items()):
+              raise SystemExit('NORMAL_CONTINUITY_BLOCKED restoration outcome and evidence must both be verified')
+          print('NORMAL_CONTINUITY_VERIFIED')
+          PY_NORMAL_CONTINUITY
+
       - name: Optional YouTube source status (RSS robots blocked)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: youtube_collect
         continue-on-error: true
         run: |
@@ -62,6 +95,7 @@ jobs:
             --artifact data/youtube_real_videos.json -- python scripts/youtube_dropshipping_analysis.py
 
       - name: Synthetic Google Trends refresher disabled
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: google_collect
         run: |
           python scripts/collector_result.py run --name google --optional \
@@ -69,7 +103,7 @@ jobs:
             --skip-reason 'Hardcoded growth collector disabled; cached keywords unverified, no source fetch attempted'
 
       - name: Bounded existing-team source recovery
-        if: steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified')
         continue-on-error: true
         timeout-minutes: 12
         env:
@@ -80,6 +114,7 @@ jobs:
         run: python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" --allow-source-reads
 
       - name: Observe actual Actions freshness (read-only)
+        if: steps.continuity_mode.outputs.mode == 'normal'
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -87,12 +122,14 @@ jobs:
 
       # 2026-10-11 사용자 지시: 자기개선 '비교 자료 없음' 대신 팀별 기준선을 두고 매 실행 현재값을 잰다.
       - name: 팀 자기개선 기준선·현재값 측정
+        if: steps.continuity_mode.outputs.mode == 'normal'
         continue-on-error: true
         run: python -u scripts/build_team_baselines.py
 
       # Regenerate the entire existing commerce chain after source recovery.
       # A master-only refresh leaves listing_gate input signatures stale.
       - name: Required canonical source processing
+        if: steps.continuity_mode.outputs.mode == 'normal'
         id: obsidian_sync
         run: |
           python scripts/collector_result.py run --name canonical_source --required \
@@ -101,7 +138,7 @@ jobs:
 
       - name: Required current canonical runtime
         id: runtime_refresh
-        if: steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (steps.operations_safety.outputs.operations_continuity == 'verified')
         env:
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
         run: |
@@ -117,7 +154,7 @@ jobs:
 
       - name: Aggregate actual Core outcomes before publication
         id: outcomes
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           python scripts/collector_result.py aggregate --results "$RUNNER_TEMP/release-results" \
             --report data/agents/core_run_results.json --runtime data/dashboard_runtime.json \
@@ -126,22 +163,22 @@ jobs:
 
       - name: Required candidate release quality
         id: quality
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           python scripts/check_release_quality.py --phase candidate \
             --collector-report data/agents/core_run_results.json \
             --report data/agents/release_quality_candidate.json
 
       - name: JARVIS 두뇌(옵시디언) 동기화 - 팀·전담팀·S상품·Shopify
-        if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success')
         run: python -B scripts/sync_jarvis_brain.py
 
       - name: 파생 상태 보고서 교체 사유 기록 (가드 유지)
-        if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success')
         run: python -B scripts/collector_snapshot_history.py data/agents/daiso_pipeline_health.json data/operations/board.json data/operations/knowledge_graph.json data/operations/state.json --all-declared
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success')
         uses: ./.github/actions/publish
         env:
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
@@ -153,7 +190,7 @@ jobs:
           message: JARVIS Core validated outcomes
 
       - name: Record truthful Core result
-        if: always()
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always())
         run: |
           if [ -f data/agents/core_run_results.json ]; then
             python -m json.tool data/agents/core_run_results.json >> "$GITHUB_STEP_SUMMARY"
@@ -162,14 +199,14 @@ jobs:
           fi
 
       - name: Pack durable source safety even after publication failure
-        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.source_safety.outputs.continuity == 'verified')
         run: |
           python -u scripts/source_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
             --output "$RUNNER_TEMP/source-safety.zip" --repository "$GITHUB_REPOSITORY" \
             --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
 
       - name: Retain source safety checkpoint
-        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.source_safety.outputs.continuity == 'verified')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: source-safety-${{ github.run_id }}-${{ github.run_attempt }}
@@ -181,11 +218,11 @@ jobs:
       # independently: restore outcome success alone is not continuity evidence.
       - name: Verify restored operations snapshot before retention
         id: operations_retention
-        if: always() && steps.operations_safety.outcome == 'success'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.operations_safety.outcome == 'success')
         run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE" --verify-current
 
       - name: Retain immutable operations safety history
-        if: always() && steps.operations_safety.outcome == 'success' && steps.operations_retention.outputs.operations_continuity == 'verified'
+        if: steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.operations_safety.outcome == 'success' && steps.operations_retention.outputs.operations_continuity == 'verified')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
@@ -197,3 +234,87 @@ jobs:
           if-no-files-found: error
           retention-days: 30  # 3일이면 체인이 3일만 멈춰도 이력이 만료돼 영구 교착(2026-10-12~17). 공개 저장소라 보관 무료
           compression-level: 9
+
+      - name: Analyze saved inputs under the approved unresolved gap
+        id: restricted_analysis
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        run: |
+          python -B scripts/continuity_reconciliation.py analyze --root "$GITHUB_WORKSPACE" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --output "$RUNNER_TEMP/restricted/analysis.json"
+
+      - name: Aggregate the distinct restricted review contract
+        id: restricted_outcomes
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_analysis.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -B scripts/collector_result.py aggregate-restricted --root "$GITHUB_WORKSPACE" \
+            --review data/agents/continuity_review.json \
+            --report "$RUNNER_TEMP/restricted/collector.json" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT"
+
+      - name: Validate restricted review and complete protected inventory
+        id: restricted_quality
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_outcomes.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -B scripts/check_release_quality.py --phase candidate \
+            --collector-report "$RUNNER_TEMP/restricted/collector.json" \
+            --execution-id "$GITHUB_RUN_ID:$GITHUB_RUN_ATTEMPT" \
+            --report "$RUNNER_TEMP/restricted/quality.json"
+
+      - name: Publish only the validated restricted review
+        id: restricted_publication
+        if: steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_quality.outcome == 'success'
+        uses: ./.github/actions/publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        with:
+          collector-report: ${{ runner.temp }}/restricted/collector.json
+          execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
+          paths: data/agents/continuity_review.json data/agents/continuity_review_history
+          message: Publish restricted saved-input review with unresolved continuity gap
+
+      - name: Record the truthful restricted result
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        env:
+          RESTRICTED_MODE: ${{ steps.continuity_mode.outputs.mode }}
+          RESTRICTED_PUBLICATION: ${{ steps.restricted_publication.outcome }}
+        run: |
+          printf 'Continuity: unresolved_gap; mode: %s; publication step: %s\n' "$RESTRICTED_MODE" "$RESTRICTED_PUBLICATION" >> "$GITHUB_STEP_SUMMARY"
+          echo 'This is saved-input analysis only. Full Core/Deep recovery and unknown past provider usage are not verified.' >> "$GITHUB_STEP_SUMMARY"
+          mkdir -p "$RUNNER_TEMP/restricted"
+          if [ -f data/agents/continuity_review.json ]; then
+            cp data/agents/continuity_review.json "$RUNNER_TEMP/restricted/review.json"
+          fi
+
+      - name: Retain restricted evidence without impersonating a normal checkpoint
+        id: restricted_retention
+        timeout-minutes: 2
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: restricted-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/restricted
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Report actual restricted artifact retention result
+        if: always() && steps.continuity_mode.outputs.mode != 'normal'
+        env:
+          RESTRICTED_RETENTION: ${{ steps.restricted_retention.outcome }}
+        run: |
+          printf 'Restricted artifact retention step: %s; continuity remains unresolved_gap.\n' "$RESTRICTED_RETENTION" >> "$GITHUB_STEP_SUMMARY"
+          echo 'A published review alone does not prove artifact retention or ordinary automation recovery.' >> "$GITHUB_STEP_SUMMARY"

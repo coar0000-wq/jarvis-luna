@@ -83,6 +83,7 @@ jobs:
           python scripts/test_collector_result.py
           python scripts/test_gosi_recovery_workflow.py
           python -B scripts/test_gosi_alt_runtime.py
+          python -B scripts/test_continuity_reconciliation.py
           python -B scripts/test_gosi_safety_checkpoint.py
           python -B scripts/test_gosi_alt_parser.py
           python -B scripts/test_gosi_draft_targets.py

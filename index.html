@@ -48,6 +48,9 @@ nav a:hover{color:#fff;}
 line-height:1;color:#3fb950;flex-shrink:0;justify-self:end;white-space:nowrap;}
 .live-dot{width:11px;height:11px;background:#3fb950;border-radius:50%;flex-shrink:0;
 box-shadow:0 0 10px rgba(63,185,80,0.65);animation:pulse 2s infinite;}
+.live-indicator[data-continuity-state='restricted']{color:#d29922;}
+.live-indicator[data-continuity-state='unverified']{color:#f85149;}
+.live-indicator[data-continuity-state] .live-dot{background:currentColor;box-shadow:none;animation:none;}
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.5;}}
 
 .container{max-width:1400px;margin:0 auto;padding:40px;}
@@ -427,6 +430,11 @@ nav a{font-size:12px;}
 <span id="live-text">LIVE</span>
 </div>
 </header>
+
+<section id="continuity-review-banner" role="status" hidden style="margin:16px 24px;padding:16px;border:1px solid #d29922;border-radius:8px;background:#261d0d;color:#f2cc60;">
+<strong id="continuity-review-title">제한 운영 상태 확인 중</strong>
+<p id="continuity-review-detail" style="margin:8px 0 0;"></p>
+</section>
 
 <div class="container">
 <!-- Hero -->
@@ -1905,6 +1913,31 @@ function renderBeautyStrategy(doc){
   add('p','팀 업무 계획: '+owners.join(' · ')+' | 근거 수집·검토 제안이며 완료·승인·매출 성과를 뜻하지 않습니다.');
 }
 
+function renderContinuityReview(review){
+  const banner=$('continuity-review-banner');
+  if(!banner) return;
+  if(review==null){banner.hidden=true;return;}
+  banner.hidden=false;
+  const pending=review.status==='RESTRICTED_ANALYSIS_PENDING' && review.analyzed_at===null;
+  const complete=review.status==='RESTRICTED_ANALYSIS_COMPLETE'
+    && typeof review.analyzed_at==='string' && Number.isFinite(Date.parse(review.analyzed_at));
+  const valid=review.mode==='restricted_gap' && review.continuity==='unresolved_gap'
+    && review.production_recovered===false && review.operations_execution_verified===false
+    && (pending || complete);
+  set('continuity-review-title',valid?(pending?'제한 분석 검증 대기 · 전체 자동화 복구 미완료':'저장 자료 분석만 제한 재개 · 전체 자동화 복구 미완료'):'제한 운영 근거 불일치 · 상태 확인 필요');
+  set('continuity-review-detail',valid
+    ? '실패 실행의 확인되지 않은 기록 공백을 유지합니다. Core·Deep의 이 제한 분석은 외부 수집·AI 호출·상품 변경을 실행하지 않습니다. 다른 독립 워크플로의 자료는 해당 실행의 근거로 따로 확인하며, 이 분석 완료가 새 수집 성공을 뜻하지 않습니다. 후속 보존 업로드 결과는 별도 확인이 필요합니다.'+(pending?' 제한 분석 실행 결과는 아직 없습니다.':' 분석 시각: '+KST(review.analyzed_at))
+    : '현재 표시로 정상 운영이나 기록 연속성 회복을 확인할 수 없습니다.');
+  set('live-text',valid?'제한 운영':'확인 필요');
+  const indicator=$('live-text')?.parentElement;
+  if(indicator){
+    indicator.setAttribute('data-continuity-state',valid?'restricted':'unverified');
+    indicator.setAttribute('role','status');
+    indicator.setAttribute('aria-label',valid?'제한 운영: 전체 자동화 복구 미완료':'운영 근거 불일치: 정상 운영 확인 불가');
+  }
+  set('team-meta','보존 자료 기준 · 현재 분석은 부분 재개이며 전체 실행 완료가 아닙니다.');
+}
+
 async function loadData(){
 const [rt,tr,src,daiso,sd,sRec,pm,mkt,mRev,opsPlan,regJ,beautyJ]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
@@ -1958,6 +1991,7 @@ const rec=ts.corpus_records||((d.cumulative||{}).totals||{}).records||(d.sources
 meta.innerHTML='<span>코퍼스 '+Number(rec).toLocaleString()+'개 레코드</span>'
 +'<span>파이프라인 '+done+'/'+total+' 단계 완료</span>';
 }
+renderContinuityReview(d.continuity_review);
 }else{
 console.error(rt.reason);
 markOffline('실시간 데이터 연결 실패');

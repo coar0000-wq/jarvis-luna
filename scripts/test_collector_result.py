@@ -151,4 +151,84 @@ class ResultTests(unittest.TestCase):
             c.attach_runtime({'schema_version':1, 'execution_id':'old', 'status':'success'}, self.root/'rt.json')
 
 
+class RestrictedAggregateTests(unittest.TestCase):
+    def setUp(self):
+        self.review = {'execution_id': 'fixture:1', 'run_id': 1, 'run_attempt': 1,
+            'actor': {'login': 'fixture', 'id': 1}, 'triggering_actor': {'login': 'fixture', 'id': 1}, 'decision_digest': 'd' * 64,
+            'gap_ids': ['39893237129:1'], 'input_commit': 'a' * 40,
+            'input_digests': {'data/input.json': 'b' * 64}, 'code_contract_digest': 'c' * 64,
+            'analysis_id': 'e' * 64, 'protected_inventory_digest': 'f' * 64}
+        self.engine = SimpleNamespace(validate_review_bindings=lambda *a, **kw: {},
+                                      validate_restricted_report=lambda *a, **kw: {})
+        self.patch = patch.dict(sys.modules, {'continuity_reconciliation': self.engine})
+        self.patch.start(); self.addCleanup(self.patch.stop)
+
+    def aggregate(self):
+        return c.restricted_aggregate(self.review, root=ROOT, identity='fixture:1')
+
+    def test_separate_explicit_success_never_normal_or_verified_continuity(self):
+        doc = self.aggregate()
+        self.assertEqual(doc['status'], 'restricted_analysis_complete')
+        self.assertEqual(doc['continuity'], 'unresolved_gap')
+        self.assertFalse(doc['production_recovered'])
+        self.assertFalse(doc['operations_execution_verified'])
+        self.assertIsNone(doc['old_run_provider_calls'])
+        self.assertIsNone(doc['old_run_provider_cost'])
+        self.assertEqual(doc['results'], [])
+        with self.assertRaises(ValueError): c.attach_runtime(doc, 'unread', 'fixture:1')
+
+    def test_mode_status_stage_and_binding_tampering_fail_closed(self):
+        from copy import deepcopy
+        original = self.aggregate()
+        for field, value in [('mode', 'normal'), ('mode', 'unknown'), ('status', 'success'),
+             ('production_recovered', True), ('operations_execution_verified', True),
+             ('old_run_provider_calls', 0), ('old_run_provider_cost', 0),
+             ('execution_id', 'old:1'), ('decision_digest', 'x' * 64), ('gap_ids', []),
+             ('restricted_stages', []), ('input_commit', 'x' * 40),
+             ('actor', {'login': 'forged', 'id': 2}), ('run_attempt', 2), ('unrecognized_success', True)]:
+            with self.subTest(field=field, value=value):
+                doc = deepcopy(original); doc[field] = value
+                with self.assertRaises(ValueError):
+                    c.validate_restricted_aggregate(doc, root=ROOT, identity='fixture:1')
+        for stage in c.RESTRICTED_STAGES:
+            doc = deepcopy(original)
+            doc['restricted_stages'] = [row for row in doc['restricted_stages'] if row['name'] != stage]
+            with self.assertRaises(ValueError):
+                c.validate_restricted_aggregate(doc, root=ROOT, identity='fixture:1')
+
+    def test_engine_rejection_cannot_be_overridden_by_valid_wrapper(self):
+        with patch.object(self.engine, 'validate_review_bindings', side_effect=ValueError('tampered decision/input/new gap')):
+            with self.assertRaisesRegex(ValueError, 'tampered'):
+                self.aggregate()
+
+    def test_offline_aggregation_and_supplied_evidence_never_start_discovery(self):
+        token = object()
+        with patch.object(self.engine, 'validate_review_bindings', return_value={}) as offline, \
+             patch.object(self.engine, 'validate_restricted_report', return_value={}) as sealed:
+            doc = self.aggregate()
+            offline.assert_called_once()
+            sealed.assert_not_called()
+            c.validate_restricted_aggregate(doc, root=ROOT, identity='fixture:1', evidence=token)
+            self.assertIs(sealed.call_args.kwargs['evidence'], token)
+            self.assertEqual(offline.call_count, 1)
+
+    def test_every_declared_normal_required_stage_stays_required(self):
+        import re
+        for workflow in ('JARVIS-Core-Automation.yml', 'JARVIS-Deep-Analysis.yml'):
+            text = (ROOT / '.github/workflows' / workflow).read_text()
+            names = sorted(set(re.findall(r'--expected ([a-zA-Z0-9_]+):required', text)))
+            self.assertTrue(names)
+            with tempfile.TemporaryDirectory() as folder:
+                root = Path(folder)
+                for name in names:
+                    c.write(root / (name + '.json'), {'schema_version': 1, 'execution_id': 'fixture:1',
+                        'name': name, 'required': True, 'status': 'success', 'process_exit_code': 0})
+                for name in names:
+                    path = root / (name + '.json'); raw = path.read_bytes(); path.unlink()
+                    self.assertEqual(c.aggregate(root, [(n, True) for n in names], root / 'aggregate.json', identity='fixture:1'), 1)
+                    path.write_bytes(raw)
+                row = json.loads(path.read_text()); row['mode'] = 'restricted_gap'; c.write(path, row)
+                self.assertEqual(c.aggregate(root, [(n, True) for n in names], root / 'aggregate.json', identity='fixture:1'), 1)
+
+
 if __name__ == '__main__': unittest.main(verbosity=2)

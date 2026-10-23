@@ -381,8 +381,21 @@ class PublicationIntegration(unittest.TestCase):
             text=(ROOT/'.github/workflows'/name).read_text(encoding='utf-8')
             self.assertIn('group: main-publish',text)
             self.assertIn("steps.source_safety.outputs.continuity == 'verified'",text)
-            self.assertIn('name: Retain source safety checkpoint\n        if: always()',text)
-            self.assertIn('name: Retain immutable operations safety history\n        if: always()',text)
+            import yaml
+            document=yaml.safe_load(text)
+            steps=[step for job in document['jobs'].values() for step in job['steps']]
+            source=next(step for step in steps if step.get('name')=='Retain source safety checkpoint')
+            operations=next(step for step in steps if step.get('name')=='Retain immutable operations safety history')
+            source_condition="always() && steps.source_safety.outputs.continuity == 'verified'"
+            operations_condition="always() && steps.operations_safety.outputs.operations_continuity == 'verified'"
+            if name=='JARVIS-Core-Automation.yml':
+                operations_condition=("always() && steps.operations_safety.outcome == 'success' && "
+                    "steps.operations_retention.outputs.operations_continuity == 'verified'")
+            if name in ('JARVIS-Core-Automation.yml','JARVIS-Deep-Analysis.yml'):
+                source_condition="steps.continuity_mode.outputs.mode == 'normal' && ("+source_condition+")"
+                operations_condition="steps.continuity_mode.outputs.mode == 'normal' && ("+operations_condition+")"
+            self.assertEqual(source['if'],source_condition)
+            self.assertEqual(operations['if'],operations_condition)
             self.assertIn('include-hidden-files: true',text)
         daiso=(ROOT/'.github/workflows/daiso-real-collection.yml').read_text()
         candidate=daiso[daiso.index('- name: 정상 무변경 관측 metadata 발행'):daiso.index('- name: 수집 시도 진단 보존')]

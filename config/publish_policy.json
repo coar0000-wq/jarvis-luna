@@ -236,5 +236,26 @@
     [
       "scripts/build_team_improvement.py"
     ]
-  ]
+  ],
+  "restricted_gap": {
+    "schema_version": 1,
+    "review_path": "data/agents/continuity_review.json",
+    "history_prefix": "data/agents/continuity_review_history/",
+    "allowed_effects": [
+      "local_analysis",
+      "review_publication"
+    ],
+    "runtime_commands": [],
+    "commerce_commands": [],
+    "fixed_local_actions": [
+      "validate_review_bindings",
+      "authenticate_evidence",
+      "reanalyze_for_publication",
+      "write_review",
+      "validate_restricted_report",
+      "validate_publication_freshness"
+    ],
+    "canonical_dashboard_mutable": false,
+    "max_attempts": 2
+  }
 }

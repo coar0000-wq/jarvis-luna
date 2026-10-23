@@ -581,7 +581,7 @@ export -f python playwright
                 self.assertIn("scripts/run_source_procedures.py", process.stdout)
                 self.assertEqual("--allow-source-reads" in process.stdout, outcome == "success")
         observer = next(s for s in self.steps if s["name"] == "Observe active shortlist source prices without operating writes")
-        self.assertEqual(observer["if"], "steps.source_safety.outputs.continuity == 'verified' && steps.gosi_recovery.outcome == 'success'")
+        self.assertEqual(observer["if"], "steps.continuity_mode.outputs.mode == 'normal' && (steps.source_safety.outputs.continuity == 'verified' && steps.gosi_recovery.outcome == 'success')")
 
     def test_hanging_pack_preserves_pending_journal_and_cannot_upload(self):
         pack = next(s for s in self.steps if s.get("id") == "gosi_checkpoint")
@@ -616,7 +616,7 @@ export -f python playwright
         self.assertEqual(stop.read_bytes(),b'exact durable STOP event')
         self.assertEqual(self.source.read_bytes(),self.before)
         upload=next(s for s in self.steps if s.get('name')=='Upload GOSI safety checkpoint')
-        self.assertEqual(upload['if'],"always() && steps.gosi_checkpoint.outcome == 'success'")
+        self.assertEqual(upload['if'],"steps.continuity_mode.outputs.mode == 'normal' && (always() && steps.gosi_checkpoint.outcome == 'success')")
         self.assertEqual(pack['timeout-minutes'],2)
         self.assertEqual(upload['timeout-minutes'],2)
 
@@ -638,7 +638,7 @@ export -f python playwright
         self.assertEqual(restore["env"]["GITHUB_TOKEN"], "${{ github.token }}")
         self.assertIn("gosi_safety_checkpoint.py restore", restore["run"])
         self.assertEqual(self.steps.index(pack), self.steps.index(self.stage) + 1)
-        self.assertEqual(pack["if"], "always()")
+        self.assertEqual(pack["if"], "steps.continuity_mode.outputs.mode == 'normal' && (always())")
         self.assertEqual(pack["timeout-minutes"], 2)
         self.assertEqual(upload["timeout-minutes"], 2)
         self.assertEqual(pack["env"]["GOSI_PACK_BUDGET_SECONDS"], "110")
@@ -651,9 +651,46 @@ export -f python playwright
         self.assertIn("python -B scripts/test_gosi_alt_runtime.py", preflight)
         self.assertIn("python -B scripts/test_gosi_safety_checkpoint.py", preflight)
 
+    def test_restricted_and_blocked_modes_cannot_upload_normal_safety_prefixes(self):
+        import re
+        import ast
+        def allowed(expression, mode, checkpoint='success'):
+            values = {'steps.continuity_mode.outputs.mode': mode,
+                      'steps.gosi_checkpoint.outcome': checkpoint}
+            def value(match):
+                key = match.group(0)
+                return repr(values.get(key, 'verified' if 'continuity' in key else 'success'))
+            expression = re.sub(r'steps\.[A-Za-z0-9_]+\.(?:outputs\.[A-Za-z0-9_]+|outcome)', value, expression)
+            expression = expression.replace('always()', 'True').replace('success()', 'True')
+            expression = expression.replace('&&', ' and ').replace('||', ' or ')
+            syntax = ast.parse(expression, mode='eval')
+            self.assertTrue(all(isinstance(node, (ast.Expression, ast.BoolOp, ast.And, ast.Or,
+                ast.Compare, ast.Eq, ast.NotEq, ast.Constant)) for node in ast.walk(syntax)))
+            return eval(compile(syntax, '<fixed-workflow-condition>', 'eval'), {'__builtins__': {}})
+        prefixes = ('gosi-safety-', 'source-safety-', 'operations-safety-', 'typesafe-budget-receipt-')
+        seen = set()
+        for filename in ('JARVIS-Core-Automation.yml', 'JARVIS-Deep-Analysis.yml'):
+            document = yaml.safe_load((ROOT / '.github/workflows' / filename).read_text())
+            for job in document['jobs'].values():
+                for step in job['steps']:
+                    if 'upload-artifact@' not in step.get('uses', ''):
+                        continue
+                    name = step['with']['name']
+                    if not name.startswith(prefixes):
+                        continue
+                    seen.add(next(prefix for prefix in prefixes if name.startswith(prefix)))
+                    condition = step['if']
+                    self.assertIn('always()', condition)
+                    for mode in ('normal', 'restricted_gap', 'blocked', ''):
+                        with self.subTest(workflow=filename, artifact=name, mode=mode):
+                            self.assertEqual(allowed(condition, mode), mode == 'normal')
+                    if name.startswith('gosi-safety-'):
+                        self.assertFalse(allowed(condition, 'normal', checkpoint='failure'))
+        self.assertEqual(seen, set(prefixes))
+
     def test_workflow_contract_preserves_required_gates_and_standalone_failure(self):
         self.assertTrue(self.stage["continue-on-error"])
-        self.assertNotIn("if", self.stage)  # No-gap runs must also leave evidence.
+        self.assertEqual(self.stage["if"], "steps.continuity_mode.outputs.mode == 'normal'")  # Normal no-gap runs still leave evidence.
         self.assertEqual(self.stage["env"]["GOSI_GAP_COUNT"], "${{ steps.s_gosi_gap.outputs.count }}")
         self.assertIn("--artifact data/gosi.json", self.stage["run"])
         aggregate = next(s for s in self.steps if s.get("id") == "release_outcomes")
@@ -663,7 +700,7 @@ export -f python playwright
             stage = next(s for s in self.steps if f"--name {name} --required" in s.get("run", ""))
             self.assertFalse(stage.get("continue-on-error", False), name)
         publish = next(s for s in self.steps if s.get("uses") == "./.github/actions/publish")
-        self.assertEqual(publish["if"], "success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success'")
+        self.assertEqual(publish["if"], "steps.continuity_mode.outputs.mode == 'normal' && (success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success')")
         self.assertEqual(publish["with"]["collector-report"], "data/agents/deep_run_results.json")
         standalone = yaml.safe_load((ROOT / ".github/workflows/gosi-alt.yml").read_text())
         collection = next(s for s in standalone["jobs"]["collect"]["steps"]

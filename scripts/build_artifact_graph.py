@@ -312,10 +312,121 @@ def scripts_in_text(text: str) -> list[str]:
 _PUBLISH_WRAPPER = "scripts/publish_transaction.py"
 _RUNTIME_CHAIN = [["scripts/ingest_obsidian_data.py","--root","."],["scripts/health_check_v2.py"],["scripts/generate_dashboard_runtime.py"],["scripts/run_jarvis_agents.py","--force"],["scripts/run_jarvis_operations.py"],["scripts/build_team_improvement.py"]]
 _NON_OPERATIONS_RUNTIME_CHAIN = [args for args in _RUNTIME_CHAIN if args[0] != "scripts/run_jarvis_operations.py"]
+_RESTRICTED_POLICY = {
+    'schema_version': 1, 'review_path': 'data/agents/continuity_review.json',
+    'history_prefix': 'data/agents/continuity_review_history/',
+    'allowed_effects': ['local_analysis', 'review_publication'],
+    'runtime_commands': [], 'commerce_commands': [],
+    'fixed_local_actions': ['validate_review_bindings', 'authenticate_evidence', 'reanalyze_for_publication',
+                            'write_review', 'validate_restricted_report', 'validate_publication_freshness'],
+    'canonical_dashboard_mutable': False, 'max_attempts': 2}
+_RESTRICTED_GUARD = "steps.continuity_mode.outputs.mode == 'restricted_gap' && steps.restricted_quality.outcome == 'success'"
 _COMMERCE_CHAIN = [["scripts/build_product_master.py"],["scripts/daiso/score_shopify_demand.py"],["scripts/build_product_master.py","--inject-s"],["scripts/pricing_model.py"],["scripts/check_legal_products.py"],["scripts/build_legal_full.py"],["scripts/build_listing_gate.py"],["scripts/build_product_master.py","--inject-s"],["scripts/build_shopify_shortlist.py"],["scripts/build_mocra_readiness.py"],["scripts/build_listing_gate.py"],["scripts/build_market_team.py"],["scripts/export_shopify_operational.py","--blocked-noop"],["scripts/build_shopify_action_queue.py"],["scripts/discover_channels.py","--cached-only"],["scripts/build_beauty_price_strategy.py","--as-of","now","--output","data/beauty_price_strategy.json","--overwrite"]]
 
 def _ast_matches(node, expression):
     return ast.dump(node) == ast.dump(ast.parse(expression, mode="eval").body)
+
+
+def _restricted_policy_matches(value):
+    return (isinstance(value, dict) and value == _RESTRICTED_POLICY
+            and type(value.get('schema_version')) is int and type(value.get('max_attempts')) is int
+            and value.get('canonical_dashboard_mutable') is False)
+
+
+def _restricted_wrapper_contract(tree, methods, policy):
+    """Recognize the restricted branch without weakening normal-chain checks."""
+    def require(ok):
+        if not ok:
+            raise ValueError("publish graph contract: restricted dispatch/validation changed")
+    def call(node, expression):
+        return next((n for n in ast.walk(node) if isinstance(n, ast.Call) and _ast_matches(n, expression)), None)
+    def guard(node, expression):
+        return next((n for n in ast.walk(node) if isinstance(n, ast.If) and _ast_matches(n.test, expression)), None)
+    def rejecting(node, expression):
+        found = guard(node, expression)
+        require(found is not None and len(found.body) == 1 and isinstance(found.body[0], ast.Raise))
+        return found
+    declaration = next((n.value for n in tree.body if isinstance(n, ast.Assign)
+                        and any(isinstance(t, ast.Name) and t.id == 'RESTRICTED_POLICY' for t in n.targets)), None)
+    require(declaration is not None and _restricted_policy_matches(ast.literal_eval(declaration)) and
+            _restricted_policy_matches(policy.get('restricted_gap')))
+    require({'capture', 'regenerate_restricted', 'verify_restricted_preserved', 'verify_restricted_freshness'} <= methods.keys())
+    allowed_calls = {
+        'regenerate_restricted': {'PublishError', 'check_restricted', 'continuity.authenticate_evidence',
+            'continuity.reanalyze_for_publication', 'continuity.restricted_output_paths', 'continuity.write_review',
+            'fresh.get', 'isinstance', 'json.dumps', 'restricted_aggregate', 'self.executed_local_actions.append',
+            'self.restricted_review.get', 'self.verify_restricted_preserved', 'set', 'str',
+            "(report_dir / (phase + '.json')).write_text"},
+        'verify_restricted_preserved': {'PublishError', 'after.get', 'any', 'continuity.assert_protected_unchanged',
+            'continuity.protected_inventory', 'self.restricted_history_before.items', 'self.restricted_history_inventory', 'str'},
+        'verify_restricted_freshness': {'PublishError', 'continuity.validate_publication_freshness',
+            'self.executed_local_actions.append', 'self.restricted_freshness_checks.append', 'self.verify_restricted_preserved', 'str'}}
+    for method, allowed in allowed_calls.items():
+        require({ast.unparse(n.func) for n in ast.walk(methods[method]) if isinstance(n, ast.Call)} <= allowed)
+    init = methods['__init__']
+    require(any(isinstance(n, ast.Assign) and _ast_matches(n.value, 'self.capture()') for n in init.body))
+    capture = guard(init, 'self.collector_report is not None')
+    require(capture is not None and capture in init.body)
+    rejecting(capture, "not isinstance(doc, dict) or doc.get('mode') not in (None, 'normal', 'restricted_gap')")
+    rejecting(capture, "doc.get('mode') in (None, 'normal') and ('restricted_review' in doc or 'restricted_stages' in doc or doc.get('continuity') == 'unresolved_gap')")
+    restricted = guard(capture, "doc.get('mode') == 'restricted_gap'")
+    require(restricted is not None and restricted in capture.body)
+    policy_guard = rejecting(restricted, "self.policy.get('restricted_gap') != RESTRICTED_POLICY")
+    validation = call(restricted, 'validate_restricted_capture(doc, root=self.root, identity=self.execution_id)')
+    require(validation is not None and policy_guard in restricted.body and policy_guard.lineno < validation.lineno
+            and any(isinstance(n, ast.Try) and any(isinstance(s, ast.Expr) and s.value is validation for s in n.body)
+                    for n in restricted.body))
+    require(call(restricted, 'set(continuity.restricted_output_paths(self.restricted_review))') is not None)
+    require(any(isinstance(n, ast.Assign) and _ast_matches(n.value, "self.restricted_allowed | {RESTRICTED_POLICY['history_prefix'].rstrip('/')}")
+                for n in restricted.body))
+    paths = rejecting(restricted, "any(p.rstrip('/') not in permitted_requests for p in self.paths)")
+    selection = next((n for n in restricted.body if isinstance(n, ast.Assign) and _ast_matches(n.value, "'restricted_gap'")
+                      and any(isinstance(t, ast.Attribute) and t.attr == 'publication_profile'
+                              and _ast_matches(t.value, 'self') for t in n.targets)), None)
+    require(selection is not None and paths in restricted.body and validation.lineno < paths.lineno < selection.lineno)
+    branch = methods['regenerate_and_validate'].body[0]
+    require(isinstance(branch, ast.If) and _ast_matches(branch.test, "self.publication_profile == 'restricted_gap'")
+            and not branch.orelse and len(branch.body) == 1 and isinstance(branch.body[0], ast.Return)
+            and _ast_matches(branch.body[0].value, 'self.regenerate_restricted(work, remote_changed or self.base, report_dir)'))
+    command_guard = rejecting(methods['command'], "getattr(self, 'publication_profile', None) == 'restricted_gap'")
+    require(command_guard is methods['command'].body[0])
+    local = methods['regenerate_restricted']
+    expected = ["continuity.authenticate_evidence(work, execution_id=self.execution_id, purpose='publication')",
+                'continuity.reanalyze_for_publication(work, self.restricted_review, input_commit=latest, execution_id=self.execution_id, evidence=evidence)',
+                'continuity.write_review(work, fresh)',
+                'restricted_aggregate(fresh, root=work, identity=self.execution_id, before_inventory=self.restricted_before, evidence=evidence)',
+                'check_restricted(work, aggregate, phase=phase, execution_id=self.execution_id, before_inventory=self.restricted_before, evidence=evidence)',
+                'self.verify_restricted_preserved(work)']
+    calls = [call(local, expression) for expression in expected]
+    require(all(calls) and [n.lineno for n in calls] == sorted(n.lineno for n in calls))
+    body = next((n.body for n in local.body if isinstance(n, ast.Try)), [])
+    require(all(any(isinstance(n, (ast.Assign, ast.Expr)) and n.value is calls[i] for n in body)
+                for i in (0, 1, 2, 3, 5)))
+    require(not any(isinstance(n, ast.Call) and _ast_matches(n.func, 'self.command') for n in ast.walk(local)))
+    quality = next((n for n in body if isinstance(n, ast.For) and _ast_matches(n.iter, "('candidate', 'final')")
+                    and any(isinstance(s, ast.Assign) and s.value is calls[4] for s in n.body)), None)
+    require(quality is not None)
+    require(rejecting(quality, "not report['publish_allowed']") in quality.body)
+    for method, expression in (
+            ('capture', 'name not in self.restricted_allowed'),
+            ('stage', 'name not in self.restricted_allowed or not (work/name).is_file() or (work/name).is_symlink()')):
+        scope_guard = rejecting(methods[method], expression)
+        require(any(isinstance(n, ast.For) and _ast_matches(n.iter, "sorted(names - {''})")
+                    and isinstance(n.body[0], ast.If) and _ast_matches(n.body[0].test, "self.publication_profile == 'restricted_gap'")
+                    and scope_guard in n.body[0].body for n in methods[method].body))
+    for method, expression, statement_type in (
+            ('verify_restricted_preserved', 'continuity.assert_protected_unchanged(self.restricted_before, continuity.protected_inventory(work))', ast.Expr),
+            ('verify_restricted_freshness', 'continuity.validate_publication_freshness(work, self.restricted_review, evidence=self.restricted_evidence, execution_id=self.execution_id)', ast.Assign)):
+        actual = call(methods[method], expression)
+        require(actual is not None and any(isinstance(n, ast.Try) and any(
+                isinstance(s, statement_type) and s.value is actual for s in n.body) for n in methods[method].body))
+    require(any(isinstance(n, ast.Try) and any(
+                isinstance(statement, ast.With) and call(statement, 'self.push(work)') is not None
+                and index > 0 and isinstance(n.body[index - 1], ast.If)
+                and _ast_matches(n.body[index - 1].test, "self.publication_profile == 'restricted_gap'")
+                and len(n.body[index - 1].body) == 1 and isinstance(n.body[index - 1].body[0], ast.Expr)
+                and _ast_matches(n.body[index - 1].body[0].value, 'self.verify_restricted_freshness(work)')
+                for index, statement in enumerate(n.body)) for n in ast.walk(methods['run'])))
 
 
 def publish_wrapper_contract(action_text):
@@ -439,6 +550,7 @@ def publish_wrapper_contract(action_text):
     invariant_line = min((line for line, name in calls if name == "verify_operations_unchanged"), default=0)
     if not 0 < order[0] < invariant_line < order[1] < order[2]:
         raise ValueError("publish graph contract: validation must precede stage/push")
+    _restricted_wrapper_contract(tree, methods, policy)
     return policy
 
 
@@ -465,6 +577,31 @@ def _transaction_profiles(text, policy, scripts):
             paths = shlex.split(str(params.get("paths") or ""))
             if not paths or any("${{" in p for p in paths):
                 raise ValueError("publish graph contract: explicit publication paths required")
+            condition = ' '.join(str(step.get('if') or '').strip().removeprefix('${{').removesuffix('}}').split())
+            restricted_hint = ('restricted' in condition or 'restricted' in str(params.get('collector-report') or '')
+                               or 'restricted' in str(step.get('name') or '').lower()
+                               or step.get('id') == 'restricted_publication'
+                               or ('steps.continuity_mode.outputs.mode' in condition and "'normal'" not in condition)
+                               or any(p.startswith('data/agents/continuity_review') for p in paths))
+            if restricted_hint:
+                exact_paths = [_RESTRICTED_POLICY['review_path'], _RESTRICTED_POLICY['history_prefix'].rstrip('/')]
+                if (not _restricted_policy_matches(policy.get('restricted_gap')) or condition != _RESTRICTED_GUARD
+                        or paths != exact_paths or params.get('collector-report') != '${{ runner.temp }}/restricted/collector.json'
+                        or params.get('execution-id') != '${{ github.run_id }}:${{ github.run_attempt }}'):
+                    raise ValueError('publish graph contract: restricted workflow scope/guard changed')
+                profiles.append({'step': step.get('name'), 'condition': step.get('if'), 'paths': paths,
+                    'candidate_only': False, 'commerce_regeneration': False, 'commerce_triggers': [],
+                    'commands': [], 'declared_runtime_commands': [], 'commerce_commands': [],
+                    'operations_commands': [], 'provider_commands': [], 'publication_profile': 'restricted_gap',
+                    'local_validation_actions': list(_RESTRICTED_POLICY['fixed_local_actions']) +
+                        ['candidate_restricted_quality', 'final_restricted_quality', 'protected_state_equality', 'immutable_history_validation'],
+                    'publication_actions': ['latest_main_fetch', 'exact_output_stage', 'ordinary_non_force_push'],
+                    'producer_status': 'declared_conditional_not_execution_evidence',
+                    'operations_producer_status': 'quarantined_by_profile',
+                    'profile_selection': 'validated typed restricted collector; exact workflow guard and paths',
+                    'profile_variants': {'restricted_gap': []},
+                    'runtime_condition': 'never; restricted review validation and publication only'})
+                continue
             sources = [p for p in paths if not _graph_path_allowed(p, policy["derived_paths"])]
             candidate = bool(sources) and all(p.startswith(prefixes) for p in sources)
             triggers = sorted(n for n in produced if _graph_path_allowed(n, paths)

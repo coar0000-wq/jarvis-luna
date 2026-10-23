@@ -2,9 +2,11 @@
 """Offline failures use isolated copied fixtures, never mutate operating sources."""
 import json
 from pathlib import Path
+import subprocess
 import tempfile
 import unittest
-from build_public_site import ROOT, STATIC_FILES, SCHEMAS, build, project, PRODUCT, COMPARISON, encoded, digest
+from unittest.mock import patch
+from build_public_site import ROOT, STATIC_FILES, SCHEMAS, build, project, PRODUCT, COMPARISON, encoded, digest, restricted_public_summary
 from check_public_site import validate, local_reference
 
 
@@ -20,6 +22,103 @@ class PublicSiteTests(unittest.TestCase):
     @classmethod
     def tearDownClass(cls): cls.tmp.cleanup()
     def setUp(self): self.manifest=build(self.root,self.output,'a'*40)
+
+    def restricted_review(self):
+        return {'mode':'restricted_gap','continuity':'unresolved_gap',
+                'production_recovered':False,'operations_execution_verified':False,
+                'status':'RESTRICTED_ANALYSIS_COMPLETE',
+                'analyzed_at':'2026-10-23T05:00:00Z'}
+
+    def test_restricted_summary_never_exposes_private_receipts_or_approval(self):
+        review=dict(self.restricted_review(), receipt={'nonce':'private'},
+                    approval={'message':'private'}, old_run_provider_cost=None,
+                    provider_api_key='private', input_digests={'private':'value'})
+        self.assertEqual(restricted_public_summary(review),self.restricted_review())
+        runtime=project({'continuity_review':review},SCHEMAS['data/dashboard_runtime.json'])
+        self.assertEqual(runtime,{'continuity_review':self.restricted_review()})
+
+    def test_restricted_summary_cannot_claim_verified_or_normal_recovery(self):
+        for key,value in (('mode','normal'),('continuity','verified'),
+                          ('status','RESTRICTED_ANALYSIS_PUBLISHED'),
+                          ('production_recovered',True),('operations_execution_verified',True),
+                          ('production_recovered',0),('analyzed_at','not a date'),
+                          ('analyzed_at','2026-10-23T05:00:00')):
+            with self.subTest(key=key,value=value),self.assertRaises(ValueError):
+                restricted_public_summary(dict(self.restricted_review(),**{key:value}))
+        for key in self.restricted_review():
+            row=self.restricted_review();row.pop(key)
+            with self.subTest(missing=key),self.assertRaises(ValueError):restricted_public_summary(row)
+
+    def test_restricted_pending_display_cannot_claim_analysis_already_ran(self):
+        pending=dict(self.restricted_review(),status='RESTRICTED_ANALYSIS_PENDING',analyzed_at=None)
+        self.assertEqual(restricted_public_summary(pending),pending)
+        with self.assertRaises(ValueError):
+            restricted_public_summary(dict(pending,analyzed_at='2026-10-23T05:00:00Z'))
+
+    def test_restricted_build_injects_public_copy_only_after_validation(self):
+        path=self.root/'data/agents/continuity_review.json'
+        canonical=self.root/'data/dashboard_runtime.json';before=canonical.read_bytes()
+        path.write_text(json.dumps(self.restricted_review()),encoding='utf-8')
+        try:
+            with patch('continuity_reconciliation.validate_published_review',return_value={}) as validator:
+                manifest=build(self.root,self.output,'a'*40)
+                validator.assert_called_once()
+            self.assertEqual(canonical.read_bytes(),before)
+            self.assertEqual(set(manifest['files']),set(self.manifest['files']))
+            self.assertEqual(json.loads((self.output/'data/dashboard_runtime.json').read_text())['continuity_review'],self.restricted_review())
+            validate(self.output)
+            with patch('continuity_reconciliation.validate_published_review',side_effect=ValueError('binding changed')):
+                with self.assertRaisesRegex(ValueError,'binding changed'):build(self.root,self.output,'a'*40)
+        finally:path.unlink()
+
+    def test_restricted_public_display_tampering_rejected_even_with_rehashed_manifest(self):
+        name='data/dashboard_runtime.json';path=self.output/name
+        data=json.loads(path.read_text());data['continuity_review']=dict(self.restricted_review(),production_recovered=True)
+        path.write_bytes(encoded(data));manifest=self.manifest
+        manifest['files'][name]=digest(path.read_bytes());manifest['site_hash']=digest(encoded(manifest['files']))
+        (self.output/'deployment.json').write_bytes(encoded(manifest))
+        with self.assertRaisesRegex(ValueError,'restricted review'):validate(self.output)
+
+    def test_restricted_browser_label_cannot_turn_green_on_spoofed_mode(self):
+        html=(ROOT/'index.html').read_text(encoding='utf-8')
+        self.assertIn(".live-indicator[data-continuity-state='restricted']{color:#d29922;}", html)
+        self.assertIn(".live-indicator[data-continuity-state='unverified']{color:#f85149;}", html)
+        self.assertIn('.live-indicator[data-continuity-state] .live-dot{background:currentColor;box-shadow:none;animation:none;}', html)
+        start=html.index('function renderContinuityReview(review){')
+        end=html.index('\nasync function loadData(){',start)
+        code="""const assert=require('assert');const nodes={};
+const indicator={attributes:{},setAttribute(k,v){this.attributes[k]=v;}};
+const $=id=>nodes[id]||(nodes[id]={hidden:true,textContent:'',parentElement:indicator});
+const set=(id,text)=>{$(id).textContent=text;};const KST=x=>x;
+"""+html[start:end]+"\nconst valid="+json.dumps(self.restricted_review())+";"+"""
+renderContinuityReview(valid);
+assert.equal($('continuity-review-banner').hidden,false);
+assert.equal($('live-text').textContent,'제한 운영');
+assert.equal(indicator.attributes['data-continuity-state'],'restricted');
+assert.equal(indicator.attributes.role,'status');
+assert.ok(indicator.attributes['aria-label'].includes('전체 자동화 복구 미완료'));
+assert.ok($('continuity-review-title').textContent.includes('전체 자동화 복구 미완료'));
+assert.ok($('continuity-review-detail').textContent.includes('Core·Deep의 이 제한 분석'));
+assert.ok($('continuity-review-detail').textContent.includes('다른 독립 워크플로'));
+assert.ok(!$('continuity-review-detail').textContent.includes('중단된 상태입니다'));
+for(const upload of ['success','failure','cancelled','unknown']){
+ renderContinuityReview({...valid,artifact_upload_outcome:upload});
+ assert.ok($('continuity-review-detail').textContent.includes('후속 보존 업로드 결과는 별도 확인'));
+ assert.ok(!$('continuity-review-detail').textContent.includes('보존 완료'));
+}
+for(const bad of [{...valid,continuity:'verified'},{...valid,production_recovered:true},{...valid,mode:'normal'}]){
+ renderContinuityReview(bad);assert.equal($('live-text').textContent,'확인 필요');
+ assert.equal(indicator.attributes['data-continuity-state'],'unverified');
+ assert.ok(indicator.attributes['aria-label'].includes('정상 운영 확인 불가'));
+ assert.ok($('continuity-review-title').textContent.includes('근거 불일치'));
+}
+renderContinuityReview(null);assert.equal($('continuity-review-banner').hidden,true);
+renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_PENDING',analyzed_at:null});
+assert.ok($('continuity-review-title').textContent.includes('검증 대기'));
+assert.ok(!$('continuity-review-detail').textContent.includes('분석 시각:'));
+"""
+        result=subprocess.run(['node','-e',code],text=True,capture_output=True,timeout=10)
+        self.assertEqual(result.returncode,0,result.stderr)
 
     def test_product_desk_survives_public_projection(self):
         row = {'pd_no': '1072800', 'desk': 'makeup', 'site_category': '베이스메이크업',
