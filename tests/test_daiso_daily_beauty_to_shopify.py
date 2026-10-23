@@ -1985,6 +1985,42 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
         images.assert_called_once_with("9001")
         vision.assert_called_once()
 
+    def test_non_quantity_is_missing_across_cached_api_alt_and_vision_sources(self):
+        import os
+        facts = {"ingredients": "정제수", "maker": "Fixture Manufacturer", "origin": "한국"}
+        for source in ("cache", "api", "alt", "vision"):
+            with self.subTest(source=source), tempfile.TemporaryDirectory() as folder:
+                root = Path(folder)
+                (root / "data").mkdir()
+                retained = dict(facts, **({"volume": "의 스틱형"} if source == "cache" else {}))
+                (root / "data/gosi.json").write_text(json.dumps({"items": {"1076498": retained}}))
+                with patch.object(daily, "ROOT", root), \
+                     patch.object(daily, "GOSI_RENDERED_ALT", source == "alt"), \
+                     patch.dict(os.environ, {"GEMINI_API_KEY": "offline-test-key" if source == "vision" else ""}), \
+                     patch.object(daily, "gosi_from_api", return_value={"volume": "의 스틱형"} if source == "api" else {}), \
+                     patch.object(daily, "gosi_from_rendered_alt", return_value={"volume": "의 스틱형"}), \
+                     patch("daiso_notice_recovery.rendered_notice", return_value={"fields": {}, "images": []}), \
+                     patch("daiso_notice_recovery.ocr_notice", return_value={}), \
+                     patch.object(daily, "detail_image_urls", return_value=["fixture"]), \
+                     patch.object(daily, "vision_read", return_value={"volume": "의 스틱형"}), \
+                     patch.object(daily.time, "sleep"):
+                    gosi = daily.collect_gosi("1076498", allow_ai=source == "vision")
+                self.assertFalse(gosi["gosi_ok"])
+                self.assertEqual(gosi["missing"], ["volume"])
+                self.assertNotIn("volume", gosi)
+                self.assertEqual(gosi["maker"], facts["maker"])
+
+    def test_label_does_not_render_invalid_quantity_or_infer_it_from_title(self):
+        for raw in ("의 스틱형", "", "0 g", "30"):
+            with self.subTest(raw=raw):
+                label = daily.build_us_label("1076498", "Fixture lip balm 99g", {
+                    "ingredients": "정제수", "volume": raw, "maker": "Fixture Manufacturer", "origin": "한국"})
+                self.assertNotIn("net_contents", label["label"])
+                self.assertIn("net_contents_missing_or_invalid", label["reasons"])
+                self.assertIn("Source verification pending.", label["html"])
+                self.assertNotIn("의 스틱형", label["html"])
+                self.assertNotIn("99g", label["html"])
+
     def test_real_lookup_requires_positive_current_detail_not_search_defaults(self):
         hit = {"pdNo": "9001", "pdNm": "Body 9001", "pdPrc": "3000", "soldOutYn": "N",
                "ONL_STCK_QY": 10, "pdImgUrl": "/body.jpg"}

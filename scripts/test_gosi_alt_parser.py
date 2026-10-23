@@ -6,7 +6,9 @@ import importlib.util
 import hashlib
 import json
 import sys
+import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 SCRIPT = Path(__file__).resolve().parent / "daiso" / "collect_gosi_alt.py"
@@ -93,6 +95,54 @@ class SoapNoticeTests(unittest.TestCase):
             self.assertNotIn("ingredients", module.parse_alt(raw))
         fields = module.parse_alt("성분명\n정제수, 글리세린\n제조원 및 책임판매원: (주)엘지생활건강")
         self.assertEqual(fields["ingredients"], "정제수, 글리세린")
+
+
+class NetContentsTests(unittest.TestCase):
+    def test_observed_blistex_fragment_and_non_quantities_are_missing(self):
+        # Run 39729258276 / product 1076498 retained this malformed field.
+        # These strings are test inputs, not inferred replacement product facts.
+        for value in ("의 스틱형", "스틱형", "30", "g", "0 g", "-30 ml", "−30 ml",
+                      "0g x 1개", "1..2g", "30mm x 20mm", "100 ppm", "30%",
+                      "30ml 추정", "30 ml pending", "상세페이지 참조", None, True):
+            with self.subTest(value=value):
+                self.assertEqual(module.notice_value("volume", value), "")
+        self.assertNotIn("volume", module.parse_alt("내용물의 용량 또는 중량: 의 스틱형\n제조국: 한국"))
+        self.assertNotIn("volume", module.parse_alt("용량: -30 ml\n제조국: 한국"))
+
+    def test_negated_or_unverified_quantity_is_missing(self):
+        for value in ("30ml 아님", "30ml 아닙니다", "30ml 확인 불가", "30ml 미제공",
+                      "30ml 미 제공", "30ml 미표기", "30ml 제공되지 않음", "30ml 확인 중",
+                      "30ml 정보 없음", "30ml 해당 없음", "30ml 단위 미상", "30ml 오기",
+                      "30ml unverified", "30ml unconfirmed", "30ml not confirmed", "not 30ml",
+                      "30ml not specified", "30ml is not correct", "확인 불가", "미제공", "아님"):
+            with self.subTest(value=value):
+                self.assertEqual(module.notice_value("volume", value), "")
+
+    def test_explicit_source_quantities_are_preserved_without_conversion(self):
+        for value in ("30 ml", "90g (수분포함), 72g (건조시)", "50mg + 10ml",
+                      "2ml x 6개입", "30매 (내용량 110g)", "1개", "12 sheets",
+                      "10.14 fl. oz. / 300 mL", "0.13oz", ".5 g", "1,000 mL",
+                      "３０ｍＬ", "15㎖", "3.7그램", "0.5리터",
+                      "90g (water included) / 72g (not including water)"):
+            with self.subTest(value=value):
+                self.assertEqual(module.notice_value("volume", value), value)
+
+    def test_invalid_early_field_does_not_hide_later_explicit_quantity(self):
+        fields = module.parse_alt("용량: 의 스틱형\n내용물의 용량 또는 중량: 3.7g\n제조국: 한국")
+        self.assertEqual(fields["volume"], "3.7g")
+
+    def test_invalid_cached_quantity_remains_a_recollection_target(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "gosi.json").write_text(json.dumps({"items": {"1076498": {
+                "ingredients": "정제수", "volume": "의 스틱형", "maker": "Fixture Maker", "origin": "한국"}}}))
+            (root / "registry.json").write_text(json.dumps({"items": [{"pd_no": "1076498", "status": "DRAFT",
+                "shopify_id": "gid://shopify/Product/9708428820737"}]}))
+            (root / "score.json").write_text(json.dumps({"all_scored": []}))
+            with patch.object(module, "GOSI", root / "gosi.json"), \
+                 patch.object(module, "REGISTRY", root / "registry.json"), \
+                 patch.object(module, "SCORE", root / "score.json"), patch("sys.argv", ["collector"]):
+                self.assertEqual(module.targets(), ["1076498"])
 
 
 if __name__ == "__main__":
