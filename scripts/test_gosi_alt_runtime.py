@@ -625,7 +625,10 @@ pid=os.fork()
 if pid:
     os._exit(0)
 signal.signal(signal.SIGTERM, signal.SIG_IGN)
-Path('unrelated-orphan.pid').write_text(str(os.getpid()))
+# Existence is the reader's ready signal: publish only after the PID is closed.
+pending=Path('unrelated-orphan.pid.pending')
+pending.write_text(str(os.getpid()))
+pending.replace('unrelated-orphan.pid')
 while True: time.sleep(1)
 '''
         code = '''
