@@ -209,13 +209,29 @@ class ListingGatePriceTests(unittest.TestCase):
                 "output": data / "listing_gate.json",
                 "typesafe": data / "typesafe_advisory.json",
             }
-            write(files["recs"], {"recommendations": [{"pd_no": "1", "grade": "S", "rank": 1, "name": "테스트 세럼 50 ml",
+            write(files["recs"], {"recommendations": [{"pd_no": "1", "grade": "S", "rank": 1, "name": "테스트 시카 세럼 50 ml",
                                                        "bucket": "스킨케어", "price_krw": 5000, "shopify_score": 90,
                                                        "canonical_product_id": "CP000001"}]})
+            # Fresh synthetic product/market observations satisfy the independent
+            # current-S gate. These price-policy tests never refresh real sources.
+            stamp = iso(1)
+            write(data / "daiso_real/products.json", {"products": [{
+                "pd_no": "1", "name": "테스트 시카 세럼 50 ml", "bucket": "스킨케어",
+                "site_category": "에센스/세럼/앰플", "rating": 4.9, "review_count": 5000,
+                "price_krw": 5000, "collected_at": stamp,
+                "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1"}]})
+            write(data / "dashboard_runtime.json", {
+                "global_channels": {"oliveyoung_us": [
+                    {"product": "Test Centella Serum 50 ml", "price_usd": 30,
+                     "url": "https://fixture.example/products/serum-1"},
+                    {"product": "Test Centella Serum 50 ml", "price_usd": 30,
+                     "url": "https://fixture.example/products/serum-2"}]},
+                "global_channels_status": {"oliveyoung_us": {
+                    "status": "ok", "trust": "verified", "collected_at": stamp}}})
             write(files["master"], {"pd_no_to_cp": {"1": "CP000001"}})
             write(files["copy"], {"items": [{"pd_no": "1", "copy_status": "ok",
                                              "copy": candidate if candidate is not None else
-                                             gate.local_copy_builder.local_copy("테스트 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})}]})
+                                             gate.local_copy_builder.local_copy("테스트 시카 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})}]})
             write(files["pricing"], {"offers_by_product": {"single": [price] if price else []}})
             write(files["legal"], {"items": {"1": legal}})
             write(files["legal_full"], {"items": {"1": {"complete": True}}})
@@ -256,10 +272,10 @@ class ListingGatePriceTests(unittest.TestCase):
         return doc, doc["items"][0]
 
     def _offer(self, **over):
-        row = {"pd_no": "1", "name": "테스트 세럼 50 ml", "qty": 1, "price_usd": 2.99, "margin_pct": -120.0,
+        row = {"pd_no": "1", "name": "테스트 시카 세럼 50 ml", "qty": 1, "price_usd": 2.99, "margin_pct": -120.0,
                "net_profit_usd": -6.0, "register_blocked": False, "market_price_source": "serpapi_google_shopping",
                "price_evidence": {"source": "serpapi_google_shopping", "median_usd": 3.0, "sample_n": 12,
-                                  "query": "Test Serum 50 ml", "collected_at": iso(2)}}
+                                  "query": "Test Centella Serum 50 ml", "collected_at": iso(2)}}
         row.update(over)
         return row
 
@@ -278,7 +294,7 @@ class ListingGatePriceTests(unittest.TestCase):
         architecture.validate_public_gate(doc, {"items": {"1": {"complete": True}}})
 
     def test_saved_ok_cannot_bypass_current_copy_accuracy_review(self):
-        candidate = gate.local_copy_builder.local_copy("테스트 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})
+        candidate = gate.local_copy_builder.local_copy("테스트 시카 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})
         candidate["description_html"] = "<p>Contains 5% niacinamide and guarantees results.</p>"
         _, item = self._gate(self._offer(), candidate=candidate)
         self.assertEqual(item["copy"], candidate)
@@ -304,7 +320,7 @@ class ListingGatePriceTests(unittest.TestCase):
             "stale evidence": self._offer(price_evidence={**evidence, "collected_at": iso(60)}),
             "undated evidence": self._offer(price_evidence={**evidence, "collected_at": None}),
             "thin sample": self._offer(price_evidence={**evidence, "sample_n": 1}),
-            "volume mismatch": self._offer(price_evidence={**evidence, "query": "Test Serum 100 ml"}),
+            "volume mismatch": self._offer(price_evidence={**evidence, "query": "Test Centella Serum 100 ml"}),
             "category benchmark": self._offer(price_evidence={**evidence, "source": "oliveyoung_us_benchmark"}),
         }
         for label, row in bad_rows.items():

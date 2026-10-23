@@ -6,63 +6,18 @@ observations with per-item URLs enter candidate comparison. No operating grade,
 product, gate, shortlist, export or approval is written. Replacement is proposal
 only, constrained to same category/form, and still requires evidence/approval.
 """
-from copy import deepcopy
 from datetime import timedelta
 import json
-import math
 from pathlib import Path
 
 from daiso_candidate_store import (pool_document, now_utc, timestamp, file_digest,
                                    canonical_digest)
-from daiso.score_shopify_demand import (score_one, extract_signals, MATCH_CHANNELS,
-                                       form_of, form_compatible)
+from daiso.score_shopify_demand import score_one, form_of, form_compatible
+from current_s_eligibility import market_universe
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 OUT = DATA / 'daiso_real' / 'candidate_comparison.json'
-
-
-def market_universe(dashboard, now=None):
-    clock = now_utc(now)
-    channels, prices, evidence, excluded = {}, [], [], {}
-    statuses = dashboard.get('global_channels_status') or {}
-    for channel, rows in (dashboard.get('global_channels') or {}).items():
-        if channel not in MATCH_CHANNELS or not isinstance(rows, list):
-            continue
-        meta = statuses.get(channel) or {}
-        try:
-            captured = timestamp(meta.get('collected_at'))
-            age = clock - captured
-            fresh = -timedelta(minutes=5) <= age <= timedelta(hours=48)
-        except (ValueError, TypeError, OverflowError):
-            fresh = False
-        if not fresh or meta.get('status') != 'ok' or meta.get('trust') not in {'verified', 'manual'}:
-            excluded[channel] = 'unverified_or_stale_source'
-            continue
-        usable = []
-        for row in rows:
-            if not isinstance(row, dict) or not str(row.get('url') or '').startswith('https://'):
-                continue
-            name = str(row.get('product') or row.get('name') or '').strip()
-            if not name:
-                continue
-            usable.append(deepcopy(row))
-            value = row.get('price')
-            if value is None:
-                value = row.get('price_usd')
-            try:
-                value = float(value)
-            except (ValueError, TypeError, OverflowError):
-                continue
-            if math.isfinite(value) and value > 0:
-                prices.append({'name': name.lower(), 'price': value})
-        if usable:
-            channels[channel] = usable
-            evidence.append({'channel': channel, 'collected_at': captured.isoformat(),
-                             'count': len(usable), 'trust': meta.get('trust')})
-        else:
-            excluded[channel] = 'per_item_source_urls_missing'
-    return extract_signals(channels), prices, evidence, excluded
 
 
 def build_comparison(pool, operating, dashboard, *, now=None, operating_sha256=None):

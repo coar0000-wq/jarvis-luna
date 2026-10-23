@@ -103,16 +103,27 @@ class CategoryTeamsTests(unittest.TestCase):
         self.assertTrue(any(t["kind"] == "fresh_gate" for t in scope["evidence_tasks"]))
 
     def test_real_signature_rejects_changed_inputs_and_old_clock(self):
+        from datetime import datetime
+        from test_current_s_eligibility import product, dashboard, put
+        import current_s_eligibility
+        stamp = datetime.fromisoformat(AS_OF.replace("Z", "+00:00"))
+        source = product(); source.update(pd_no="1", collected_at=AS_OF,
+            url="https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1")
+        market = dashboard(); market["global_channels_status"]["oliveyoung_us"]["collected_at"] = AS_OF
+        put(self.root, "data/daiso_real/products.json", {"products": [source]})
+        put(self.root, "data/dashboard_runtime.json", market)
+        put(self.root, "data/daiso_real/shopify_s_recommendations.json", {"recommendations": [{"pd_no": "1", "grade": "S"}]})
         gate = self.docs["listing_gate"]
         self.persist()
         module = teams._gate_module(self.root)
-        gate["agent_input_signature"] = module.agent_input_signature(module.current_recommendations())
-        self.persist()
-        self.assertTrue(teams._gate_freshness(self.root, gate, AS_OF)[0])
-        self.assertFalse(teams._gate_freshness(self.root, gate, "2026-10-13T09:00:00Z")[0])
-        self.docs["category_config"]["extra_policy"] = "changed"
-        self.persist()
-        self.assertFalse(teams._gate_freshness(self.root, gate, AS_OF)[0])
+        with patch.object(current_s_eligibility, "now_utc", side_effect=lambda value=None: value or stamp):
+            gate["agent_input_signature"] = module.agent_input_signature(module.current_recommendations())
+            self.persist()
+            self.assertTrue(teams._gate_freshness(self.root, gate, AS_OF)[0])
+            self.assertFalse(teams._gate_freshness(self.root, gate, "2026-10-13T09:00:00Z")[0])
+            self.docs["category_config"]["extra_policy"] = "changed"
+            self.persist()
+            self.assertFalse(teams._gate_freshness(self.root, gate, AS_OF)[0])
 
     def test_zero_s_local_analysis_not_fake_human_work(self):
         result = self.build()

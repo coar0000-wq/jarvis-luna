@@ -48,6 +48,7 @@ jobs:
           python scripts/test_preflight_static.py
           python scripts/test_daiso_collection_validation.py
           python scripts/test_daiso_candidates.py
+          python -B -m unittest discover -s scripts -p "test_current_s_eligibility.py"
           python scripts/test_recover_daiso_candidates.py
           python -B -m unittest discover -s tests -p "test_product_accuracy.py"
           python -B -m unittest discover -s tests -p "test_gallery_review.py"
