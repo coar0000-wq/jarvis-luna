@@ -536,6 +536,8 @@ def _latest(root, fetch_json, current_run_id):
             continue
         if run.get('id') == 37299237632:
             _incident_run(run, _ABORT_RUN)
+        if run.get('head_branch') != 'main' or (run.get('head_repository') or {}).get('full_name') != REPOSITORY:
+            continue
         # 2026-10-18: only a producer that is actually executing can race this restore. A run still
         # queued/pending/waiting behind main-publish has started no job (Daiso 39075747249 was blocked by
         # the pending run queued after it, and the artifactless result then broke the chain).
@@ -548,6 +550,7 @@ def _latest(root, fetch_json, current_run_id):
             continue
         if type(run.get('id')) is not int or run['id'] <= 0 or type(run.get('run_attempt')) is not int or run['run_attempt'] <= 0:
             raise Blocked('run_identity_invalid')
+        transport.identity.POLICY.run_repository(run, strict=fetch_json is transport.fetch_github_json)
         candidates.append(run)
     if not candidates:
         raise Blocked('run_history_missing')
@@ -1082,6 +1085,7 @@ def restore_latest(root, *, fetch_json=transport.fetch_github_json,
     raw = fetch_bytes(artifact['archive_download_url'])
     if not isinstance(raw, bytes) or _sha(raw) != digest[7:]:
         raise Blocked('artifact_digest_mismatch')
+    transport.identity.POLICY.artifact_repository(run, artifact)
     normalization = None
     if digest == _ABORT_ARTIFACT_DIGEST:
         incoming, normalization = _compact_reviewed_archive(raw)
@@ -1154,8 +1158,7 @@ def main(argv=None):
             verify_current(args.root)
             result = {'continuity':'verified', 'status':'verified_current'}
         else:
-            if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_REPOSITORY') != REPOSITORY:
-                raise Blocked('authenticated_github_runner_required')
+            transport.identity.POLICY.runner(os.environ)
             commit = os.environ.get('GITHUB_SHA', '')
             head = _git(args.root, 'rev-parse', '--verify', 'HEAD')
             if not re.fullmatch('[0-9a-f]{40}', commit) or head.returncode:

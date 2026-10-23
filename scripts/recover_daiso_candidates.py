@@ -166,6 +166,7 @@ def main():
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     try:
+        proof.identity.POLICY.runner(os.environ)
         expected = proof.REPOSITORY + '/.github/workflows/daiso-candidate-recovery.yml@refs/heads/main'
         if (os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_WORKFLOW_REF') != expected
                 or args.run_id <= 0 or args.artifact_id <= 0):

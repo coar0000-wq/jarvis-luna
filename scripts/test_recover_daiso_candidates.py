@@ -85,6 +85,10 @@ class CounterRecoveryTests(unittest.TestCase):
 
 
 class PreparationTests(unittest.TestCase):
+    def setUp(self):
+        from scripts.repository_identity_fixture import isolate_source
+        isolate_source(self)
+
     fixture = CounterRecoveryTests.fixture
     def prepare_fixture(self):
         temp = tempfile.TemporaryDirectory(); self.addCleanup(temp.cleanup)

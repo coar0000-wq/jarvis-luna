@@ -23,6 +23,7 @@ if str(ROOT) not in sys.path: sys.path.insert(0,str(ROOT))
 if str(ROOT/'scripts') not in sys.path: sys.path.insert(0,str(ROOT/'scripts'))
 from scripts.github_artifact_io import REPOSITORY, fetch_github_json, fetch_artifact_bytes
 from scripts import source_safety_checkpoint as safety
+from scripts import repository_identity as repository_identity
 
 WORKFLOWS = frozenset(('.github/workflows/daiso-real-collection.yml',
  '.github/workflows/JARVIS-Core-Automation.yml', '.github/workflows/JARVIS-Deep-Analysis.yml'))
@@ -79,6 +80,7 @@ def restore_latest(root, *, fetch_json=fetch_github_json, fetch_bytes=fetch_arti
         if run.get('head_branch') != 'main' or (run.get('head_repository') or {}).get('full_name') != REPOSITORY: continue
         if run.get('status') != 'completed': continue
         if type(run.get('id')) is not int or type(run.get('run_attempt')) is not int: raise ValueError('source_run_identity_invalid')
+        repository_identity.POLICY.run_repository(run, strict=fetch_json is fetch_github_json)
         candidates.append(run)
     candidates = [r for r in sorted(candidates, key=lambda r:r['id'], reverse=True)]
     while candidates and never_started(candidates[0], fetch_json, BASE): candidates.pop(0)
@@ -108,10 +110,11 @@ def restore_latest(root, *, fetch_json=fetch_github_json, fetch_bytes=fetch_arti
     outer = fetch_bytes(artifact['archive_download_url'])
     if hashlib.sha256(outer).hexdigest() != digest.split(':',1)[1]:
         raise ValueError('source_artifact_digest_mismatch')
+    producer_repository = repository_identity.POLICY.artifact_repository(run, artifact)
     inner = _inner(outer)
     with tempfile.TemporaryDirectory(prefix='source-safety-read-',dir=os.environ.get('RUNNER_TEMP') or root.parent) as folder:
         path = Path(folder)/'source-safety.zip'; path.write_bytes(inner)
-        expected = safety._lineage(REPOSITORY,run['id'],run['run_attempt'],commit)
+        expected = safety._lineage(producer_repository,run['id'],run['run_attempt'],commit)
         incoming = safety._archive(path, expected)
         current = verify_current(root)
         try:
@@ -123,7 +126,7 @@ def restore_latest(root, *, fetch_json=fetch_github_json, fetch_bytes=fetch_arti
                 raise ValueError('source_main_snapshot_not_exact_head') from None
             safety._nonregression(incoming,current)
             return {'continuity':'verified','status':'artifact_history_already_preserved_in_main','run_id':run['id']}
-        safety.restore(root,path,expected_repository=REPOSITORY,expected_run_id=run['id'],
+        safety.restore(root,path,expected_repository=producer_repository,expected_run_id=run['id'],
           expected_run_attempt=run['run_attempt'],expected_commit=commit)
     verify_current(root)
     return {'continuity':'verified','status':'authenticated_source_safety_restored','run_id':run['id']}
@@ -138,8 +141,7 @@ def main():
         if args.verify_current:
             verify_current(args.root); result={'continuity':'verified','status':'verified_current'}
         else:
-            if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_REPOSITORY') != REPOSITORY:
-                raise ValueError('authenticated_github_runner_required')
+            repository_identity.POLICY.runner(os.environ)
             result=restore_latest(args.root,current_run_id=os.environ.get('GITHUB_RUN_ID'))
         output=os.environ.get('GITHUB_OUTPUT')
         if output:

@@ -35,6 +35,7 @@ def observe(root, *, report=None, now=None, fetch_json=None, fetch_artifact_byte
         rows = current.get('workflow_runs')
         if not isinstance(rows, list) or len(rows) != 1 or (rows[0].get('id'), rows[0].get('run_attempt')) != (rid, attempt):
             raise ValueError('report_not_current_workflow_attempt')
+        transport.identity.POLICY.run_repository(rows[0])
         p.execution_identity(rows[0])
         run_base = base + 'runs/' + str(rid)
         run = get(run_base + '/attempts/' + str(attempt))

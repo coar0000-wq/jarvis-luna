@@ -21,6 +21,8 @@ CONTEXT = {'GITHUB_ACTIONS': 'true', 'GITHUB_RUN_ID': '11', 'GITHUB_RUN_ATTEMPT'
 
 class InputsTests(unittest.TestCase):
     def setUp(self):
+        from scripts.repository_identity_fixture import isolate_source
+        isolate_source(self)
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
