@@ -9,6 +9,9 @@ from pathlib import Path
 import subprocess
 import sys
 
+RESTRICTED_STAGES = ('reconciliation_decision', 'exact_input_validation', 'pure_review',
+                     'protected_state_equality', 'restricted_publication_validation')
+
 METADATA = {'generated_at', 'updated_at', 'collected_at', 'last_synced', 'timestamp',
             'started_at', 'finished_at', 'observed_at', 'at', 'captured_at'}
 
@@ -169,10 +172,102 @@ def run_stage(name, required, paths, command, output, *, skip_reason=None, fetch
     return code
 
 
+def _restricted_aggregate_shape(doc, identity):
+    fields = {'schema_version', 'mode', 'continuity', 'execution_id', 'generated_at',
+              'status', 'result', 'publish_allowed', 'production_recovered',
+              'operations_execution_verified', 'old_run_provider_calls', 'old_run_provider_cost',
+              'required_failures', 'optional_failures', 'evidence_errors', 'results',
+              'restricted_review', 'restricted_stages', 'decision_digest', 'gap_ids',
+              'input_commit', 'input_digests', 'code_contract_digest', 'analysis_id',
+              'protected_inventory_digest', 'run_id', 'run_attempt', 'actor', 'triggering_actor'}
+    if (not isinstance(doc, dict) or set(doc) != fields or type(doc.get('schema_version')) is not int or doc.get('schema_version') != 1 or
+            doc.get('mode') != 'restricted_gap' or doc.get('continuity') != 'unresolved_gap' or
+            doc.get('status') != 'restricted_analysis_complete' or
+            doc.get('result') != 'restricted_analysis_complete' or
+            doc.get('execution_id') != identity or doc.get('publish_allowed') is not True or
+            doc.get('production_recovered') is not False or
+            doc.get('operations_execution_verified') is not False or
+            'old_run_provider_calls' not in doc or doc['old_run_provider_calls'] is not None or
+            'old_run_provider_cost' not in doc or doc['old_run_provider_cost'] is not None or
+            doc.get('required_failures') != [] or doc.get('evidence_errors') != [] or
+            doc.get('optional_failures') != [] or doc.get('results') != []):
+        raise ValueError('restricted aggregate identity/mode/status invalid')
+    expected = [{'name': name, 'required': True, 'status': 'verified_restricted',
+                 'execution_id': identity} for name in RESTRICTED_STAGES]
+    if (doc.get('restricted_stages') != expected or
+            any(type(row.get('required')) is not bool for row in doc['restricted_stages'])):
+        raise ValueError('restricted aggregate stages missing or untyped')
+    review = doc.get('restricted_review')
+    if not isinstance(review, dict):
+        raise ValueError('restricted review missing')
+    # The annotation belongs to this run, even when the immutable analysis is reused.
+    if review.get('execution_id') != identity:
+        raise ValueError('restricted review current execution mismatch')
+    for field in ('decision_digest', 'gap_ids', 'input_commit', 'input_digests',
+                  'code_contract_digest', 'analysis_id', 'protected_inventory_digest',
+                  'run_id', 'run_attempt', 'actor', 'triggering_actor'):
+        if field not in review or doc.get(field) != review[field]:
+            raise ValueError('restricted aggregate binding mismatch: ' + field)
+    return review
+
+
+def validate_restricted_capture(doc, *, root, identity=None, now=None):
+    """Validate the old caller capture only; this never authorizes publication.
+
+    Latest-main data may have advanced while queued. Live approval/gap/identity
+    validation is mandatory on the fresh transaction worktree before publication.
+    """
+    import continuity_reconciliation as continuity
+    identity = identity or execution_id()
+    review = _restricted_aggregate_shape(doc, identity)
+    return continuity.validate_review_bindings(root, review, execution_id=identity, now=now)
+
+
+def validate_restricted_aggregate(doc, *, root, identity=None, evidence=None,
+                                  before_inventory=None, now=None):
+    """Validate offline bindings or explicitly supplied sealed in-process evidence.
+
+    JSON claims never authorize publication. The publisher must authenticate the
+    latest main and pass its actual engine evidence object to this same gate.
+    """
+    import continuity_reconciliation as continuity
+    identity = identity or execution_id()
+    review = _restricted_aggregate_shape(doc, identity)
+    if evidence is None:
+        return continuity.validate_review_bindings(root, review, execution_id=identity,
+                                before_inventory=before_inventory, now=now)
+    return continuity.validate_restricted_report(review, root=root, evidence=evidence,
+                                before_inventory=before_inventory, now=now)
+
+
+def restricted_aggregate(review, *, root, identity=None, evidence=None, before_inventory=None):
+    identity = identity or execution_id()
+    if not isinstance(review, dict):
+        review = json.loads(Path(review).read_text(encoding='utf-8'))
+    doc = {'schema_version': 1, 'mode': 'restricted_gap', 'continuity': 'unresolved_gap',
+           'execution_id': identity, 'generated_at': now(),
+           'status': 'restricted_analysis_complete', 'result': 'restricted_analysis_complete',
+           'publish_allowed': True, 'production_recovered': False,
+           'operations_execution_verified': False, 'old_run_provider_calls': None,
+           'old_run_provider_cost': None, 'required_failures': [], 'optional_failures': [],
+           'evidence_errors': [], 'results': [], 'restricted_review': review,
+           'restricted_stages': [{'name': name, 'required': True, 'status': 'verified_restricted',
+                                  'execution_id': identity} for name in RESTRICTED_STAGES]}
+    for field in ('decision_digest', 'gap_ids', 'input_commit', 'input_digests',
+                  'code_contract_digest', 'analysis_id', 'protected_inventory_digest',
+                  'run_id', 'run_attempt', 'actor', 'triggering_actor'):
+        doc[field] = review.get(field)
+    validate_restricted_aggregate(doc, root=root, identity=identity, evidence=evidence,
+                                  before_inventory=before_inventory)
+    return doc
+
+
 def attach_runtime(report, runtime_path, identity=None):
     doc = report if isinstance(report, dict) else json.loads(Path(report).read_text(encoding='utf-8'))
     identity = identity or execution_id()
     if (not isinstance(doc, dict) or doc.get('schema_version') != 1 or
+        doc.get('mode') not in (None, 'normal') or 'restricted_review' in doc or
+        'restricted_stages' in doc or doc.get('continuity') == 'unresolved_gap' or
         doc.get('execution_id') != identity or doc.get('status') not in {'success', 'degraded', 'failed'}):
         raise ValueError('collector report identity/schema invalid')
     rt = json.loads(Path(runtime_path).read_text(encoding='utf-8'))
@@ -193,6 +288,7 @@ def aggregate(results, expected, report, runtime=None, *, identity=None):
         try:
             row = json.loads(p.read_text(encoding='utf-8'))
             if (not isinstance(row, dict) or row.get('schema_version') != 1 or
+                row.get('mode') not in (None, 'normal') or row.get('continuity') == 'unresolved_gap' or
                 row.get('execution_id') != identity or row.get('name') != name or
                 row.get('required') is not required or row.get('status') not in {'success', 'degraded', 'failed', 'skipped'} or
                 type(row.get('process_exit_code')) is not int):
@@ -209,7 +305,7 @@ def aggregate(results, expected, report, runtime=None, *, identity=None):
             # Missing evidence is never assumed optional success. Missing any
             # expected result blocks publication until the run is accounted for.
     status = 'failed' if required_failures or errors else 'degraded' if optional_failures else 'success'
-    doc = {'schema_version': 1, 'execution_id': identity, 'generated_at': now(),
+    doc = {'schema_version': 1, 'mode': 'normal', 'execution_id': identity, 'generated_at': now(),
            'status': status, 'publish_allowed': status != 'failed',
            'required_failures': required_failures, 'optional_failures': optional_failures,
            'evidence_errors': errors, 'results': rows}
@@ -238,7 +334,16 @@ def main():
     agg.add_argument('--results', required=True); agg.add_argument('--report', required=True)
     agg.add_argument('--runtime'); agg.add_argument('--execution-id')
     agg.add_argument('--expected', action='append', required=True)
+    restricted = subs.add_parser('aggregate-restricted')
+    restricted.add_argument('--root', type=Path, default=Path.cwd())
+    restricted.add_argument('--review', required=True); restricted.add_argument('--report', required=True)
+    restricted.add_argument('--execution-id')
     args = parser.parse_args()
+    if args.mode == 'aggregate-restricted':
+        doc = restricted_aggregate(args.review, root=args.root, identity=args.execution_id)
+        write(args.report, doc)
+        print('RELEASE_OUTCOMES RESTRICTED_ANALYSIS_COMPLETE continuity=unresolved_gap')
+        return 0
     if args.mode == 'attach-runtime':
         attach_runtime(args.report, args.runtime, args.execution_id)
         return 0

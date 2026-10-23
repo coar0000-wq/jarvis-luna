@@ -63,6 +63,20 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
 
+      - name: Fetch the fixed continuity audit baseline for offline verification
+        if: hashFiles('data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json') != ''
+        timeout-minutes: 2
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Fixed repository and reviewed object identities, never decision-supplied commands/URLs.
+          baseline=c5eda8151c9287f592cb08cf873723b87e1cf2f1
+          expected_tree=7197f9031fdbce60bbbc11aed750d841ce7d59ad
+          timeout --signal=TERM --kill-after=5s 90s git fetch --no-tags --depth=1 \
+            https://github.com/coar0000-wq/jarvis-luna.git "$baseline"
+          test "$(git rev-parse "$baseline^{commit}")" = "$baseline"
+          test "$(git rev-parse "$baseline^{tree}")" = "$expected_tree"
+
       - name: Validate the exact deployment snapshot
         id: site
         shell: bash

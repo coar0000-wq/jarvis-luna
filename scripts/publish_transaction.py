@@ -39,6 +39,16 @@ IMMUTABLE_HISTORY_PREFIXES = ('data/agents/workflow_status_history/',
     'data/legal_export_history/', 'data/typesafe_team_advisory_history/')
 
 
+RESTRICTED_POLICY = {
+    'schema_version': 1, 'review_path': 'data/agents/continuity_review.json',
+    'history_prefix': 'data/agents/continuity_review_history/',
+    'allowed_effects': ['local_analysis', 'review_publication'],
+    'runtime_commands': [], 'commerce_commands': [],
+    'fixed_local_actions': ['validate_review_bindings', 'authenticate_evidence', 'reanalyze_for_publication',
+                            'write_review', 'validate_restricted_report', 'validate_publication_freshness'],
+    'canonical_dashboard_mutable': False, 'max_attempts': 2}
+
+
 class PublishError(RuntimeError):
     pass
 
@@ -568,7 +578,8 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
 
 class Transaction:
     def __init__(self, root, paths, message, regenerate_dashboard=True, audit=True,
-                 max_attempts=3, dry_run=False, collector_report=None, execution_id=None):
+                 max_attempts=3, dry_run=False, collector_report=None, execution_id=None,
+                 *, retain_restricted_evidence=False):
         self.root = Path(root).resolve()
         self.paths = normalize_paths(paths)
         self.message = message
@@ -581,9 +592,43 @@ class Transaction:
         self.policy = json.loads((self.root/'config/publish_policy.json').read_text(encoding='utf-8'))
         self.collector_report = Path(collector_report).read_bytes() if collector_report else None
         self.execution_id = execution_id
+        self.retain_restricted_evidence = retain_restricted_evidence
         self.publication_profile = ('non_operations' if os.environ.get('GITHUB_ACTIONS') == 'true'
                                     and os.environ.get('JARVIS_OPERATIONS_CONTINUITY') != 'verified' else 'full')
         self.executed_commands = []
+        self.executed_local_actions = []
+        self.restricted_review = None
+        self.restricted_evidence = None
+        self.restricted_freshness_checks = []
+        self.restricted_allowed = set()
+        if self.collector_report is not None:
+            doc = parse_json(self.collector_report)
+            if not isinstance(doc, dict) or doc.get('mode') not in (None, 'normal', 'restricted_gap'):
+                raise PublishError('unknown collector publication mode')
+            if doc.get('mode') in (None, 'normal') and ('restricted_review' in doc or
+                    'restricted_stages' in doc or doc.get('continuity') == 'unresolved_gap'):
+                raise PublishError('restricted lineage cannot be relabelled normal')
+            if doc.get('mode') == 'restricted_gap':
+                import continuity_reconciliation as continuity
+                from collector_result import validate_restricted_capture, execution_id as current_execution_id
+                self.execution_id = self.execution_id or current_execution_id()
+                if self.policy.get('restricted_gap') != RESTRICTED_POLICY:
+                    raise PublishError('restricted fixed publication policy mismatch')
+                try:
+                    validate_restricted_capture(doc, root=self.root, identity=self.execution_id)
+                    self.restricted_review = doc['restricted_review']
+                    self.restricted_allowed = set(continuity.restricted_output_paths(self.restricted_review))
+                except (ValueError, RuntimeError, OSError, TypeError, KeyError) as exc:
+                    raise PublishError('restricted publication authorization invalid: ' + str(exc)) from exc
+                permitted_requests = self.restricted_allowed | {RESTRICTED_POLICY['history_prefix'].rstrip('/')}
+                if any(p.rstrip('/') not in permitted_requests for p in self.paths):
+                    raise PublishError('restricted publication paths must be exact review/history paths')
+                self.publication_profile = 'restricted_gap'
+                self.max_attempts = min(self.max_attempts, RESTRICTED_POLICY['max_attempts'])
+                self.captured_restricted_allowed = set(self.restricted_allowed)
+                self.restricted_base_history = {name: sha(at_ref(self.root, self.base, name))
+                    for name in git(self.root, 'ls-tree', '-r', '--name-only', '-z', self.base, '--',
+                                    RESTRICTED_POLICY['history_prefix']).stdout.decode().split('\0') if name}
         self.delta = self.capture()
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
@@ -721,6 +766,14 @@ class Transaction:
         names.update(git(self.root, 'ls-files', '--others', '--exclude-standard', '-z').stdout.decode().split('\0'))
         changes = {}
         for name in sorted(names - {''}):
+            if self.publication_profile == 'restricted_gap':
+                if name not in self.restricted_allowed:
+                    raise PublishError('restricted caller changed protected/unknown path: ' + name)
+                base_bytes = at_ref(self.root, self.base, name)
+                if not (self.root/name).is_file():
+                    raise PublishError('restricted publication cannot delete output: ' + name)
+                if name.startswith(RESTRICTED_POLICY['history_prefix']) and base_bytes not in (None, (self.root/name).read_bytes()):
+                    raise PublishError('restricted immutable history changed: ' + name)
             if not path_allowed(name, self.paths):
                 continue
             self.reject_operations_delta([name])
@@ -783,11 +836,68 @@ class Transaction:
             raise PublishError('non-operations profile changed fetched remote operations bytes')
 
     def result(self, **values):
+        if self.publication_profile == 'restricted_gap':
+            statuses = {'published': 'restricted_analysis_published',
+                        'dry_run_validated': 'restricted_dry_run_validated',
+                        'no_change': 'restricted_analysis_unchanged'}
+            if 'status' in values:
+                values['status'] = statuses.get(values['status'], values['status'])
+            result = dict(values, publication_profile='restricted_gap', mode='restricted_gap',
+                        continuity='unresolved_gap', result='restricted_analysis_complete', production_recovered=False,
+                        operations_execution_verified=False, old_run_provider_calls=None,
+                        old_run_provider_cost=None, declared_runtime_commands=[],
+                        executed_commands=list(self.executed_commands),
+                        executed_local_actions=list(self.executed_local_actions),
+                        publication_freshness_checks=list(self.restricted_freshness_checks),
+                        operations_producer_status='quarantined_not_attempted',
+                        analysis_id=self.restricted_review['analysis_id'],
+                        decision_digest=self.restricted_review['decision_digest'],
+                        execution_id=self.execution_id,
+                        input_commit=self.restricted_review['input_commit'],
+                        input_digests=self.restricted_review['input_digests'],
+                        code_contract_digest=self.restricted_review['code_contract_digest'],
+                        protected_inventory_digest=self.restricted_review['protected_inventory_digest'],
+                        gap_ids=self.restricted_review['gap_ids'],
+                        actor=self.restricted_review['actor'],
+                        triggering_actor=self.restricted_review['triggering_actor'],
+                        run_id=self.restricted_review['run_id'], run_attempt=self.restricted_review['run_attempt'])
+            if self.retain_restricted_evidence:
+                try:
+                    self.export_restricted_evidence(result)
+                except (PublishError, ValueError, OSError, TypeError) as exc:
+                    # The transaction may already be published. Preserve its
+                    # actual status/commit; only the CLI job must fail retention.
+                    result['retention_error'] = type(exc).__name__
+            return result
         chain = self.policy['non_operations_runtime_commands'] if self.publication_profile == 'non_operations' else self.policy['runtime_commands']
         return dict(values, publication_profile=self.publication_profile,
                     declared_runtime_commands=chain, executed_commands=list(self.executed_commands),
                     operations_producer_status=('executed' if ['scripts/run_jarvis_operations.py'] in self.executed_commands
                                                 else 'excluded_by_profile' if self.publication_profile == 'non_operations' else 'not_run'))
+
+    def export_restricted_evidence(self, result):
+        """Retain actual transaction output, not the caller's possibly stale review."""
+        if self.publication_profile != 'restricted_gap':
+            return None
+        parent = Path(os.environ.get('RUNNER_TEMP') or tempfile.gettempdir()).resolve()
+        directory = parent / 'restricted'
+        if directory.resolve().is_relative_to(self.root) or directory.is_symlink():
+            raise PublishError('restricted retention must stay outside the repository')
+        directory.mkdir(parents=True, exist_ok=True)
+        published = result['status'] in {'restricted_analysis_published', 'restricted_analysis_unchanged'}
+        filename = 'published-review.json' if published else 'validated-review.json'
+        raw = (json.dumps(self.restricted_review, ensure_ascii=False, sort_keys=True,
+                          indent=2, allow_nan=False) + '\n').encode('utf-8')
+        metadata = dict(result, schema_version=1, review_file=filename,
+                        review_sha256=sha(raw), remote_publication_verified=published)
+        for name, payload in ((filename, raw), ('publication-result.json',
+                (json.dumps(metadata, ensure_ascii=False, sort_keys=True, indent=2,
+                            allow_nan=False) + '\n').encode('utf-8'))):
+            target = directory / name
+            if target.is_symlink():
+                raise PublishError('restricted retention target symlink')
+            target.write_bytes(payload)
+        return metadata
 
     def is_derived(self, name):
         return path_allowed(name, self.policy['derived_paths'])
@@ -805,6 +915,8 @@ class Transaction:
 
     @timed_phase('command')
     def command(self, work, args):
+        if getattr(self, 'publication_profile', None) == 'restricted_gap':
+            raise PublishError('restricted publication forbids subprocess generators')
         env = dict(os.environ, TYPESAFE_ENABLED='0', GEMINI_FALLBACK_ENABLED='0',
                    GEMINI_ENABLED='0', TYPESAFE_ALLOW_PAID='0', PYTHONIOENCODING='utf-8')
         for key in ('TYPESAFE_API_KEY', 'GEMINI_API_KEY', 'GOOGLE_API_KEY'):
@@ -827,6 +939,8 @@ class Transaction:
         return ['--collector-report', str(report_path)] + (['--execution-id', self.execution_id] if self.execution_id else [])
 
     def regenerate_and_validate(self, work, baseline, remote_changed, report_dir):
+        if self.publication_profile == 'restricted_gap':
+            return self.regenerate_restricted(work, remote_changed or self.base, report_dir)
         candidate = self.candidate_only()
         protected = {}
         if candidate:
@@ -866,13 +980,100 @@ class Transaction:
             if not (work/name).exists() or (work/name).read_bytes() != before:
                 raise PublishError(f'candidate-only publication changed canonical bytes: {name}')
 
+    def restricted_history_inventory(self, work):
+        import continuity_reconciliation as continuity
+        directory = Path(work) / RESTRICTED_POLICY['history_prefix']
+        if directory.is_symlink():
+            raise PublishError('restricted history directory symlink')
+        result = {}
+        if directory.exists():
+            for path in directory.rglob('*'):
+                if path.is_symlink() or (not path.is_file() and not path.is_dir()):
+                    raise PublishError('restricted history special file')
+                if path.is_file():
+                    name = path.relative_to(work).as_posix()
+                    if not re.fullmatch(r'[0-9a-f]{64}\.json', name[len(RESTRICTED_POLICY['history_prefix']):]):
+                        raise PublishError('restricted history unknown member')
+                    try:
+                        continuity.validate_history_member(work, name)
+                    except (ValueError, RuntimeError, OSError, TypeError, KeyError) as exc:
+                        raise PublishError('restricted immutable history integrity invalid: ' + str(exc)) from exc
+                    result[name] = (sha(path.read_bytes()), path.stat().st_mode & 0o777)
+        return result
+
+    def verify_restricted_preserved(self, work):
+        import continuity_reconciliation as continuity
+        try:
+            continuity.assert_protected_unchanged(self.restricted_before, continuity.protected_inventory(work))
+        except (ValueError, RuntimeError, OSError) as exc:
+            raise PublishError('restricted protected bytes changed: ' + str(exc)) from exc
+        after = self.restricted_history_inventory(work)
+        if any(after.get(name) != value for name, value in self.restricted_history_before.items()):
+            raise PublishError('restricted prior immutable history changed/deleted')
+        if any(name not in self.restricted_history_before and name not in self.restricted_allowed for name in after):
+            raise PublishError('restricted unexpected immutable history output')
+
+    def regenerate_restricted(self, work, latest, report_dir):
+        import continuity_reconciliation as continuity
+        from collector_result import restricted_aggregate
+        from check_release_quality import check_restricted
+        try:
+            # Never overlay the old mutable report. A data-only main advance is
+            # reauthenticated and reanalyzed under the same exact approval.
+            evidence = continuity.authenticate_evidence(work, execution_id=self.execution_id, purpose='publication')
+            self.executed_local_actions.append('authenticate_evidence')
+            fresh = continuity.reanalyze_for_publication(work, self.restricted_review,
+                        input_commit=latest, execution_id=self.execution_id, evidence=evidence)
+            for field in ('decision_digest', 'gap_ids', 'code_contract_digest'):
+                if fresh.get(field) != self.restricted_review.get(field):
+                    raise PublishError('restricted reanalysis changed approved binding: ' + field)
+            if fresh.get('input_commit') != latest or fresh.get('execution_id') != self.execution_id:
+                raise PublishError('restricted reanalysis latest-input/run binding mismatch')
+            self.executed_local_actions.append('reanalyze_for_publication')
+            self.restricted_allowed = self.captured_restricted_allowed | set(continuity.restricted_output_paths(fresh))
+            continuity.write_review(work, fresh)
+            self.executed_local_actions.append('write_review')
+            aggregate = restricted_aggregate(fresh, root=work, identity=self.execution_id,
+                                             before_inventory=self.restricted_before, evidence=evidence)
+            for phase in ('candidate', 'final'):
+                report = check_restricted(work, aggregate, phase=phase,
+                            execution_id=self.execution_id, before_inventory=self.restricted_before, evidence=evidence)
+                (report_dir / (phase + '.json')).write_text(json.dumps(report) + '\n', encoding='utf-8')
+                if not report['publish_allowed']:
+                    raise PublishError('restricted ' + phase + ' quality validation failed')
+            self.restricted_review = fresh
+            self.restricted_evidence = evidence
+            self.verify_restricted_preserved(work)
+        except (ValueError, RuntimeError, OSError, TypeError, KeyError) as exc:
+            if isinstance(exc, PublishError):
+                raise
+            raise PublishError('restricted reanalysis/quality blocked: ' + str(exc)) from exc
+
+    def verify_restricted_freshness(self, work):
+        """One final complete run inventory; never trust an evidence JSON flag."""
+        import continuity_reconciliation as continuity
+        self.verify_restricted_preserved(work)
+        try:
+            result = continuity.validate_publication_freshness(work, self.restricted_review,
+                         evidence=self.restricted_evidence, execution_id=self.execution_id)
+            self.verify_restricted_preserved(work)
+        except (ValueError, RuntimeError, OSError, TypeError, KeyError) as exc:
+            raise PublishError('restricted pre-push freshness blocked: ' + str(exc)) from exc
+        self.restricted_freshness_checks.append(result)
+        self.executed_local_actions.append('validate_publication_freshness')
+
     def stage(self, work):
         names = set(git(work, 'diff', '--name-only', '-z', 'HEAD').stdout.decode().split('\0'))
         names.update(git(work, 'ls-files', '--others', '--exclude-standard', '-z').stdout.decode().split('\0'))
         self.reject_operations_delta(names - {''})
         allowed = self.paths + self.policy['derived_paths'] + self.policy['generated_extra']
+        if self.publication_profile == 'restricted_gap':
+            self.verify_restricted_preserved(work)
         for name in sorted(names - {''}):
-            if not path_allowed(name, allowed):
+            if self.publication_profile == 'restricted_gap':
+                if name not in self.restricted_allowed or not (work/name).is_file() or (work/name).is_symlink():
+                    raise PublishError('restricted generator wrote/deleted undeclared artifact: ' + name)
+            elif not path_allowed(name, allowed):
                 raise PublishError(f'generator wrote undeclared artifact: {name}')
             git(work, 'add', '-A', '--', name)  # Exact named path, including deletion.
         return git(work, 'diff', '--cached', '--quiet', check=False).returncode != 0
@@ -898,7 +1099,7 @@ class Transaction:
 
     def run(self):
         self.reject_operations_delta(self.delta)
-        if not self.delta:
+        if not self.delta and self.publication_profile != 'restricted_gap':
             return self.result(status='no_change', base_sha=self.base, attempts=[])
         temp_root = Path(os.environ.get('RUNNER_TEMP') or os.environ.get('TEMP') or self.root.parent)
         with tempfile.TemporaryDirectory(prefix='publish-transaction-', dir=temp_root) as folder:
@@ -919,6 +1120,13 @@ class Transaction:
                 work = temp/f'work-{number}'
                 git(self.root, 'worktree', 'add', '--detach', str(work), latest)
                 try:
+                    if self.publication_profile == 'restricted_gap':
+                        import continuity_reconciliation as continuity
+                        self.restricted_before = continuity.protected_inventory(work)
+                        self.restricted_history_before = self.restricted_history_inventory(work)
+                        if any(self.restricted_history_before.get(name, (None,))[0] != digest
+                               for name, digest in self.restricted_base_history.items()):
+                            raise PublishError('latest main rewrote/deleted prior restricted history')
                     operations_before = self.operations_snapshot(work) if self.publication_profile == 'non_operations' else None
                     operations_remote = operations_installed = None
                     if self.operations_guard is not None:
@@ -939,6 +1147,15 @@ class Transaction:
                         _validate(safety_before)
                     from scripts import operations_graph_publication as graph
                     for name, (base, local) in self.delta.items():
+                        if self.publication_profile == 'restricted_gap':
+                            if name.startswith(RESTRICTED_POLICY['history_prefix']):
+                                p = work / name
+                                remote = p.read_bytes() if p.exists() else None
+                                if local is None or remote not in (None, local) or base not in (None, local):
+                                    raise PublishError('restricted immutable history conflict/deletion')
+                                p.parent.mkdir(parents=True, exist_ok=True)
+                                p.write_bytes(local)
+                            continue
                         if self.graph_guard is not None and self.graph_guard.active:
                             if graph.owns(name):
                                 continue  # Complete manifest and immutable members already installed.
@@ -1012,19 +1229,27 @@ class Transaction:
                         except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
                             raise PublishError('final operations graph snapshot invalid: ' + str(exc)) from exc
                     self.verify_operations_unchanged(work, operations_before)
+                    if self.publication_profile == 'restricted_gap':
+                        self.verify_restricted_preserved(work)
                     self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True,
                                           'publication_profile': self.publication_profile})
                     with timed_phase('stage'):
                         staged = self.stage(work)
                     if not staged:
+                        if self.publication_profile == 'restricted_gap':
+                            self.verify_restricted_freshness(work)
                         return self.result(status='no_change', base_sha=self.base, attempts=self.attempts)
                     if self.dry_run:
+                        if self.publication_profile == 'restricted_gap':
+                            self.verify_restricted_freshness(work)
                         return self.result(status='dry_run_validated', base_sha=self.base, attempts=self.attempts)
                     git(work, 'config', 'user.name', 'JARVIS')
                     git(work, 'config', 'user.email', 'jarvis@luna.bot')
                     with timed_phase('commit'):
                         git(work, 'commit', '-m', self.message)
                         commit = git(work, 'rev-parse', 'HEAD').stdout.decode().strip()
+                    if self.publication_profile == 'restricted_gap':
+                        self.verify_restricted_freshness(work)
                     with timed_phase('push'):
                         pushed = self.push(work)
                     if pushed:
@@ -1033,7 +1258,8 @@ class Transaction:
                 finally:
                     with timed_phase('cleanup'):
                         git(self.root, 'worktree', 'remove', '--force', str(work))
-        raise PublishError(f'normal push rejected after {self.max_attempts} independently validated attempts')
+        kind = 'restricted' if self.publication_profile == 'restricted_gap' else 'normal'
+        raise PublishError(f'{kind} push rejected after {self.max_attempts} independently validated attempts')
 
 
 def main():
@@ -1050,8 +1276,17 @@ def main():
     try:
         result = Transaction(Path.cwd(), args.paths, args.message,
                              args.regenerate_dashboard == 'true', args.audit == 'true',
-                             args.max_attempts, args.dry_run, args.collector_report, args.execution_id).run()
-        print('PUBLISH_TRANSACTION_OK', json.dumps(result, ensure_ascii=False))
+                             args.max_attempts, args.dry_run, args.collector_report, args.execution_id,
+                             retain_restricted_evidence=True).run()
+        label = ({'restricted_analysis_published': 'RESTRICTED_ANALYSIS_PUBLISHED',
+                  'restricted_analysis_unchanged': 'RESTRICTED_ANALYSIS_UNCHANGED',
+                  'restricted_dry_run_validated': 'RESTRICTED_DRY_RUN_VALIDATED'}[result['status']]
+                 if result.get('publication_profile') == 'restricted_gap' else 'PUBLISH_TRANSACTION_OK')
+        print(label, json.dumps(result, ensure_ascii=False))
+        if result.get('retention_error'):
+            print('::error::Transaction already ended with status ' + result['status'] +
+                  '; restricted evidence export failed: ' + result['retention_error'])
+            return 1
         out = os.environ.get('GITHUB_OUTPUT')
         if out:
             with open(out, 'a', encoding='utf-8') as handle:

@@ -31,9 +31,55 @@ def removal_evidence(root, baseline, removed_ids):
         return False, ['policy removal evidence unavailable/invalid: ' + type(exc).__name__]
 
 
+def check_restricted(root, report, *, phase, execution_id=None, now=None,
+                     before_inventory=None, evidence=None):
+    """Offline review bindings, or sealed evidence reused by the live publisher.
+
+    This gate never starts an independent API discovery pass.
+    """
+    from collector_result import validate_restricted_aggregate
+    clock = now or datetime.now(timezone.utc)
+    errors = []
+    identity = execution_id or os.environ.get('RELEASE_EXECUTION_ID') or ':'.join(
+        (os.environ.get('GITHUB_RUN_ID', 'local'), os.environ.get('GITHUB_RUN_ATTEMPT', '1')))
+    try:
+        validate_restricted_aggregate(report, root=root, identity=identity,
+                before_inventory=before_inventory, evidence=evidence, now=clock)
+        stored = read(Path(root) / 'data/agents/continuity_review.json')
+        if stored != report['restricted_review']:
+            raise ValueError('restricted report differs from published review')
+    except (ValueError, RuntimeError, OSError, TypeError, KeyError, AttributeError) as exc:
+        errors.append('restricted validation blocked: ' + str(exc))
+    return {'schema_version': 1, 'phase': phase, 'generated_at': clock.isoformat(),
+            'mode': 'restricted_gap', 'continuity': 'unresolved_gap',
+            'status': 'failed' if errors else 'restricted_analysis_validated',
+            'result': 'blocked' if errors else 'restricted_analysis_complete',
+            'execution_id': identity, 'publish_allowed': not errors,
+            'validation_scope': 'offline_bindings' if evidence is None else 'sealed_in_process_evidence',
+            'production_recovered': False, 'operations_execution_verified': False,
+            'old_run_provider_calls': None, 'old_run_provider_cost': None,
+            'decision_digest': report.get('decision_digest'),
+            'analysis_id': report.get('analysis_id'), 'gap_ids': report.get('gap_ids'),
+            'input_commit': report.get('input_commit'), 'input_digests': report.get('input_digests'),
+            'code_contract_digest': report.get('code_contract_digest'),
+            'protected_inventory_digest': report.get('protected_inventory_digest'),
+            'actor': report.get('actor'), 'triggering_actor': report.get('triggering_actor'),
+            'run_id': report.get('run_id'), 'run_attempt': report.get('run_attempt'),
+            'errors': errors, 'warnings': ['unresolved historical gap; effects remain quarantined'],
+            'artifact_sha256': {}, 'paid_api_called': False}
+
+
 def check(root=ROOT, *, phase='candidate', baseline=None, collector_report=None,
-          execution_id=None, architecture=True, now=None):
+          execution_id=None, architecture=True, now=None, before_inventory=None, evidence=None):
     root = Path(root); clock = now or datetime.now(timezone.utc)
+    if collector_report:
+        try:
+            typed_report = read(collector_report)
+            if isinstance(typed_report, dict) and typed_report.get('mode') == 'restricted_gap':
+                return check_restricted(root, typed_report, phase=phase, execution_id=execution_id,
+                       now=clock, before_inventory=before_inventory, evidence=evidence)
+        except (OSError, ValueError, UnicodeError):
+            pass  # The unchanged normal gate below records malformed evidence as a failure.
     errors, warnings, hashes, documents = [], [], {}, {}
     def require(ok, message):
         if not ok: errors.append(message)
@@ -152,12 +198,15 @@ def check(root=ROOT, *, phase='candidate', baseline=None, collector_report=None,
             report = read(collector_report)
             identity = execution_id or os.environ.get('RELEASE_EXECUTION_ID') or ':'.join((os.environ.get('GITHUB_RUN_ID', 'local'), os.environ.get('GITHUB_RUN_ATTEMPT', '1')))
             require(report.get('schema_version') == 1 and report.get('execution_id') == identity, 'outcome current-run evidence missing')
+            require(report.get('mode') in (None, 'normal') and 'restricted_review' not in report
+                    and 'restricted_stages' not in report and report.get('continuity') != 'unresolved_gap',
+                    'normal outcome mode invalid')
             require(report.get('publish_allowed') is True and report.get('status') in {'success', 'degraded'}, 'required process/evidence failure blocks publication')
             require(not report.get('required_failures') and not report.get('evidence_errors'), 'required/evidence failures cannot be overridden by report status')
             if 'results' in report:
                 require(isinstance(report['results'], list), 'typed collector rows required')
                 for row in report['results']:
-                    require(row.get('execution_id') == identity and type(row.get('required')) is bool,
+                    require(row.get('mode') in (None, 'normal') and row.get('execution_id') == identity and type(row.get('required')) is bool,
                             'collector row stale/untyped')
                     if row.get('required'):
                         require(row.get('status') == 'success' and row.get('process_exit_code') == 0,

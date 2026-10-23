@@ -49,6 +49,8 @@ class HistoryWiringTests(unittest.TestCase):
                 if name in ('JARVIS-Core-Automation.yml', 'fx-refresh.yml'):
                     condition = ("always() && steps.operations_safety.outcome == 'success' && "
                                  "steps.operations_retention.outputs.operations_continuity == 'verified'")
+                if name in ('JARVIS-Core-Automation.yml', 'JARVIS-Deep-Analysis.yml'):
+                    condition = "steps.continuity_mode.outputs.mode == 'normal' && (" + condition + ")"
                 self.assertEqual(step['if'], condition)
 
     def test_new_regressions_run_in_both_exact_head_ci_and_deployment(self):

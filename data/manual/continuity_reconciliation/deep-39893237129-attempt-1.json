@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "mode": "restricted_gap",
+  "repository": "coar0000-wq/jarvis-luna",
+  "gap_inventory": [
+    {
+      "run_id": 39893237129,
+      "run_attempt": 1,
+      "head_sha": "52113c37396fcae41e3ac6e25af26c23b6d9c8b2",
+      "workflow": ".github/workflows/JARVIS-Deep-Analysis.yml"
+    }
+  ],
+  "baseline": {
+    "run_id": 39887036572,
+    "run_attempt": 1,
+    "artifact_id": 12475331670,
+    "artifact_sha256": "f384b0ba5c93cabe8124663d5a236c233d2465dd8a860ec88bea1989e66cf912",
+    "verified_receipts": 2007,
+    "verified_claims": 2007,
+    "original_publication_commit": "52113c37396fcae41e3ac6e25af26c23b6d9c8b2",
+    "protected_baseline_commit": "c5eda8151c9287f592cb08cf873723b87e1cf2f1"
+  },
+  "plan_digest": "df670a379701044cbb22ab4857552d71a48f846dab8fd7f9beb10807241b18e9",
+  "approval": {
+    "reference": "Sentinel_b1b2e3d15eb481919a7127db98b36508",
+    "approved_at": "2026-10-23T05:06:23Z",
+    "sha256": "453a5a9369a622a6e3a9fd98a59b163599e2672a3fa52c410cf1f9038b6f647c"
+  },
+  "expires_at": "2026-10-24T05:06:23Z",
+  "allowed_effects": [
+    "local_analysis",
+    "review_publication"
+  ],
+  "forbidden_effects": [
+    "provider_requests",
+    "ai_requests",
+    "operations_actions",
+    "shopify_mutations"
+  ],
+  "input_paths": [
+    "data/gosi.json",
+    "data/daiso_real/products.json",
+    "data/daiso_real/daiso_gosi.json",
+    "data/daiso_real/collection_status.json",
+    "data/product_master.json",
+    "data/pricing_model.json",
+    "data/listing_gate.json",
+    "data/legal_products.json",
+    "data/mocra_readiness.json",
+    "data/team_improvement.json"
+  ],
+  "report_path": "data/agents/continuity_review.json",
+  "history_directory": "data/agents/continuity_review_history/",
+  "code_contract_digest": "fc0f399e8f2a01daa31971092a85e22b003b57eb8ebaa07ff0abea1856027755",
+  "frozen_inventory_digest": "65a2b65c4a45ea1c4152cad0a06b70b4594cfd00217f0fa99fb44eac84e6b96e",
+  "analysis_kind": "cached_review_v1",
+  "provenance": "owner_scope_reference_bound_to_authenticated_main_policy",
+  "known_verified_input_runs": [
+    {
+      "run_id": 39893706651,
+      "run_attempt": 1,
+      "head_sha": "52113c37396fcae41e3ac6e25af26c23b6d9c8b2",
+      "workflow": ".github/workflows/gosi-vision.yml",
+      "published_commit": "c5eda8151c9287f592cb08cf873723b87e1cf2f1"
+    }
+  ],
+  "approved_history_inventory_digest": "7bc5e2889c53e9aa84d57b1959873160dfe863b354afe208763424e5b3839081",
+  "independent_input_profiles": [
+    {
+      "workflow": ".github/workflows/jarvis-real-knowledge.yml",
+      "job_name": "collect-and-sync",
+      "publication_step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+      "publication_profile": "non_operations"
+    }
+  ],
+  "approved_prior_code_contracts": [
+    {
+      "commit": "9e129db37ea51732c57eca30b3ee01d2f423041f",
+      "code_contract_digest": "416e316423b776f56e5899f3509b48aa6db33de28870abea01e7207e76f78e6e",
+      "scope": "verification_and_existing_input_profile"
+    },
+    {
+      "commit": "81a875638f4646e1a25b40f5e00402c335833b28",
+      "code_contract_digest": "ea5fab6715701097e4f0e522d121eb76cfdf248eb08f0a888656a66c1f9ed7ce",
+      "scope": "verification_and_existing_input_profile"
+    },
+    {
+      "commit": "20dac21182d30c52f4a2e350ea6c560daab905de",
+      "code_contract_digest": "34281625153db90b3697178c12a159845f7419c8afa60b963887275d53a074c5",
+      "scope": "verification_and_existing_input_profile"
+    },
+    {
+      "commit": "2ab9356cabff552288279fccee5e6531adc748ee",
+      "code_contract_digest": "2c40ce1d3b3eba71c6db80ff48414632fe069ac3d9a0be6422abef968643b833",
+      "scope": "verification_and_existing_input_profile"
+    }
+  ],
+  "preserved_publications": [
+    {
+      "run_id": 39906965295,
+      "run_attempt": 1,
+      "workflow": ".github/workflows/daiso-daily-beauty-shopify.yml",
+      "head_sha": "760529597a68ccec95a9fcbf69ca1732e22b7cb8",
+      "job_id": 120261030072,
+      "job_name": "register",
+      "publication_step": "등록 이력 저장 (중복 방지)",
+      "publication_commit": "435b51cf4addf749c71b86ebf8818229f5c784c8",
+      "parent_commit": "760529597a68ccec95a9fcbf69ca1732e22b7cb8",
+      "tree_sha": "5cd341178112ba3d4ed8ea14ce40372cbfbae58e",
+      "code_contract_digest": "ccb9c6ac1f11da9e4b9a706d21bc1a6861139ac5e5805c4d7dc159650f1d3542",
+      "scope": "preserve_exact_already_published_bytes_only",
+      "files": {
+        "data/image_localization/1025282.json": {
+          "before": null,
+          "after": {
+            "mode": "100644",
+            "git_blob": "7b85b4a2f0853155a2f16f36308cc4291525811e"
+          }
+        },
+        "data/image_localization/1060124.json": {
+          "before": null,
+          "after": {
+            "mode": "100644",
+            "git_blob": "1a8e88d1454b1e6a8499df8a8ca61118ebe06e9a"
+          }
+        },
+        "data/shop_com_categories.json": {
+          "before": {
+            "mode": "100644",
+            "git_blob": "7b1bb1c92163365ed2a02ae351d7d6e7b8b4cb95"
+          },
+          "after": {
+            "mode": "100644",
+            "git_blob": "9062e866cae316326b13d067e3c1f7d0f364eb4d"
+          }
+        },
+        "data/shopify_daily_registry.json": {
+          "before": {
+            "mode": "100644",
+            "git_blob": "5df99e6cc5db6f37c6ca2a5e233788e450656f1b"
+          },
+          "after": {
+            "mode": "100644",
+            "git_blob": "6386bee050eca099ab46d0b306eb451c857c2cf1"
+          }
+        }
+      },
+      "audit": {
+        "job_log_sha256": "90f71030fdb79a4405e9565d8333c0bac5b65242dcbd2bbbebc84d317bfd21bf",
+        "result_sha256": "ad247f05c7e57dcb7429ea8e3db47f66132d71d46a9e83276d7ac8b7b6cdc1ab",
+        "registry_preservation_sha256": "e7b3d3d193bb38246d07d164a52cc28edbf24096b45ab5c66e41bcd2100c6247",
+        "independent_admin_readback_sha256": "067364d9cfc43bd223278b79981b188fde06177ea332091e28c113a2e530ad9e"
+      }
+    }
+  ],
+  "reconciled_blocked_runs": [
+    {
+      "run_id": 39911582752,
+      "run_attempt": 1,
+      "head_sha": "3603173e75488f6aa2d17dd216daf79508927967",
+      "workflow": ".github/workflows/JARVIS-Core-Automation.yml",
+      "created_at": "2026-10-23T06:27:25Z",
+      "updated_at": "2026-10-23T06:28:48Z",
+      "event": "workflow_dispatch",
+      "actor": {
+        "login": "github-actions[bot]",
+        "id": 41898282
+      },
+      "triggering_actor": {
+        "login": "github-actions[bot]",
+        "id": 41898282
+      },
+      "job_id": 120275586332,
+      "job_name": "core-automation",
+      "code_contract_digest": "ea5fab6715701097e4f0e522d121eb76cfdf248eb08f0a888656a66c1f9ed7ce",
+      "job_projection_digest": "03556fbffdd18dfcdb7dbd0ca1ec41ef57c93db2b689778fe9ef25070529747c",
+      "scope": "exact_completed_blocked_run_no_remote_publication_or_provider_actuation",
+      "runner_local_changes": "discarded_not_restored",
+      "artifact_count": 0,
+      "canonical_job_log_sha256": "dafae585df196de7cd8a80efd075663459a321484cbddb4f5d7b8b05c4e3b405",
+      "job_log_normalization": "utf8_strict_remove_one_leading_bom_crlf_to_lf_one_trailing_lf"
+    }
+  ]
+}

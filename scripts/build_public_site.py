@@ -49,6 +49,7 @@ PUBLIC_TEXT = object()
 PUBLIC_FALSE = object()
 PUBLIC_ZERO = object()
 IMPROVEMENT_PHASE = object()
+CONTINUITY_REVIEW = object()
 def public_fields(names): return {k: PUBLIC_TEXT for k in names.split()}
 def public_obj(names='', **nested): return dict(public_fields(names), **nested)
 RECOVERY_ROW = dict(public_fields('recovery_id episode owner source_team status attempts attempt_limit escalation_code receipt_id first_detected_at last_detected_at next_action'), execution_enabled=PUBLIC_FALSE)
@@ -133,6 +134,38 @@ SCHEMAS = {
  'data/shopify_daily_registry.json': dict(items=[dict(fields('pd_no name_kr title category date status handle krw single_usd single_margin_pct pack_usd pack_margin_pct images price_basis shop_com_lowest_usd selection_recorded'), size=fields('unit base count total'), draft_reasons=[True])]),
 }
 UNSAFE = re.compile(r'(?i)(?:github_pat_[A-Za-z0-9_]+|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|AKIA[A-Z0-9]{16}|(?:authorization|api[_-]?key|password|access[_-]?token)\s*[:=]\s*\S+|[A-Z]:\\(?:Users|Windows)\\|/home/runner/|(?:localhost|127\.0\.0\.1):\d+)')
+SCHEMAS['data/dashboard_runtime.json']['continuity_review'] = CONTINUITY_REVIEW
+
+
+def restricted_public_summary(value):
+    """A fixed display contract cannot turn restricted success into recovery."""
+    if not isinstance(value, dict):
+        raise ValueError('restricted review display object required')
+    for key, expected in (('mode', 'restricted_gap'), ('continuity', 'unresolved_gap'),
+                          ('production_recovered', False), ('operations_execution_verified', False)):
+        if type(value.get(key)) is not type(expected) or value.get(key) != expected:
+            raise ValueError('restricted review display contract invalid: ' + key)
+    status = value.get('status')
+    if status not in ('RESTRICTED_ANALYSIS_COMPLETE', 'RESTRICTED_ANALYSIS_PENDING'):
+        raise ValueError('restricted review display status invalid')
+    analyzed_at = value.get('analyzed_at')
+    result = {'mode': 'restricted_gap', 'continuity': 'unresolved_gap',
+              'production_recovered': False, 'operations_execution_verified': False,
+              'status': status, 'analyzed_at': analyzed_at}
+    if status == 'RESTRICTED_ANALYSIS_PENDING':
+        if analyzed_at is not None:
+            raise ValueError('pending restricted review cannot claim an analysis clock')
+        return result
+    if not isinstance(analyzed_at, str) or len(analyzed_at) > 64:
+        raise ValueError('restricted review analysis clock missing')
+    from datetime import datetime
+    try:
+        when = datetime.fromisoformat(analyzed_at.replace('Z', '+00:00'))
+        if when.tzinfo is None:
+            raise ValueError('timezone missing')
+    except ValueError as exc:
+        raise ValueError('restricted review analysis clock invalid') from exc
+    return result
 
 
 def safe_scalar(value):
@@ -200,6 +233,7 @@ def public_youtube_url(value):
 
 
 def project(value, schema):
+    if schema is CONTINUITY_REVIEW: return restricted_public_summary(value)
     if isinstance(schema, ReviewText):
         text = safe_operation_scalar(value) if isinstance(value, str) else None
         return text[:schema.limit] if isinstance(text, str) else None
@@ -264,6 +298,20 @@ def build(root, output, commit=None):
     payload = {f:checked_source(root,f).read_bytes() for f in STATIC_FILES}
     for f,schema in SCHEMAS.items():
         source = json.loads(checked_source(root,f).read_text(encoding='utf-8'))
+        if f == 'data/dashboard_runtime.json':
+            # The canonical runtime remains byte-identical. Only the public copy
+            # receives this independently validated display-only restriction.
+            review_path = root / 'data/agents/continuity_review.json'
+            if review_path.exists() or review_path.is_symlink():
+                review = json.loads(checked_source(root, 'data/agents/continuity_review.json').read_text(encoding='utf-8'))
+                from continuity_reconciliation import validate_published_review
+                validate_published_review(root, review)
+                source = dict(source, continuity_review=restricted_public_summary(review))
+            elif (root / 'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json').exists():
+                from continuity_reconciliation import validate_pending_decision
+                source = dict(source, continuity_review=restricted_public_summary(validate_pending_decision(root)))
+            elif 'continuity_review' in source:
+                raise ValueError('restricted review source evidence missing')
         if f == 'data/shopify_daily_registry.json':
             source = registry_for_public_display(source)
         payload[f] = encoded(project(source, schema))

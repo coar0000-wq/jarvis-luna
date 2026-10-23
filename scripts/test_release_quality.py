@@ -102,6 +102,18 @@ class QualityTests(unittest.TestCase):
                 self.assertTrue(self.check(baseline=old)['publish_allowed'])
                 validator.assert_called_once_with(self.root, old, {'2'})
 
+    def test_restricted_or_unknown_report_cannot_be_relabelled_normal(self):
+        report = self.root / 'results.json'
+        for mode in ('normal', 'unknown'):
+            doc = {'schema_version': 1, 'execution_id': 'test:1', 'mode': mode,
+                   'status': 'success', 'publish_allowed': True, 'required_failures': [],
+                   'optional_failures': [], 'evidence_errors': [], 'restricted_review': {}}
+            report.write_text(json.dumps(doc))
+            self.docs['data/dashboard_runtime.json']['pipeline_health'] = {
+                'execution_id': 'test:1', 'status': 'success', 'required_failure_count': 0,
+                'optional_failure_count': 0, 'evidence_error_count': 0}
+            self.assertFalse(self.check(collector_report=report, execution_id='test:1')['publish_allowed'])
+
     def test_current_outcome_must_match_runtime(self):
         report=self.root/'results.json'
         doc={'schema_version':1,'execution_id':'test:1','status':'degraded','publish_allowed':True,'required_failures':[],'optional_failures':['youtube'],'evidence_errors':[]}
@@ -136,6 +148,33 @@ class WorkflowTests(unittest.TestCase):
             steps=next(iter(doc['jobs'].values()))['steps']
             publication=next(s for s in steps if s.get('uses')=='./.github/actions/publish')
             self.assertIn("outcome == 'success'",publication['if'])
+
+
+class RestrictedQualityTests(unittest.TestCase):
+    def test_restricted_quality_never_invokes_normal_architecture_or_commerce(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder); review = {'analysis_id': 'a' * 64}
+            path = root / 'data/agents/continuity_review.json'; path.parent.mkdir(parents=True)
+            path.write_text(json.dumps(review))
+            doc = {'mode': 'restricted_gap', 'restricted_review': review, 'analysis_id': 'a' * 64}
+            report = root / 'collector.json'; report.write_text(json.dumps(doc))
+            with patch('collector_result.validate_restricted_aggregate', return_value={}) as validate, patch.object(q.subprocess, 'run', side_effect=AssertionError('provider/action trap')):
+                result = q.check(root, collector_report=report, execution_id='fixture:1')
+                self.assertTrue(result['publish_allowed'])
+                self.assertEqual(result['status'], 'restricted_analysis_validated')
+                self.assertEqual(result['continuity'], 'unresolved_gap')
+                self.assertFalse(result['production_recovered'])
+                self.assertIsNone(result['old_run_provider_cost'])
+                validate.assert_called_once()
+                path.write_text(json.dumps({'analysis_id': 'tampered'}))
+                self.assertFalse(q.check(root, collector_report=report, execution_id='fixture:1')['publish_allowed'])
+
+    def test_engine_failures_always_block_restricted_release(self):
+        for reason in ('missing protected bytes', 'tampered decision', 'new ambiguous gap', 'wrong actor/run'):
+            with self.subTest(reason=reason), patch('collector_result.validate_restricted_aggregate', side_effect=ValueError(reason)):
+                result = q.check_restricted(ROOT, {'mode': 'restricted_gap'}, phase='final', execution_id='fixture:1')
+                self.assertFalse(result['publish_allowed'])
+                self.assertEqual(result['status'], 'failed')
 
 
 if __name__ == '__main__': unittest.main(verbosity=2)

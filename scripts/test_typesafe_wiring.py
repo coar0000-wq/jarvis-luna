@@ -20,7 +20,18 @@ class WiringTests(unittest.TestCase):
             doc=yaml.safe_load((WF/name).read_text(encoding='utf-8'))
             self.assertEqual(doc['concurrency']['group'],'main-publish')
             self.assertFalse(doc['concurrency']['cancel-in-progress'])
-            job=next(iter(doc['jobs'].values()));env=job['env'];envs.append(env)
+            job=next(iter(doc['jobs'].values()))
+            steps=job['steps'];bootstrap_step=next(s for s in steps if 'setup_typesafe_shared.py' in s.get('run',''))
+            if name == 'JARVIS-Deep-Analysis.yml':
+                self.assertNotIn('env', job)
+                self.assertEqual(bootstrap_step['if'], "steps.continuity_mode.outputs.mode == 'normal'")
+                env={key:value for key,value in bootstrap_step['env'].items()
+                     if key not in ('GH_TOKEN','TYPESAFE_BILLING_PROOF_PATH')}
+                for key in env:
+                    self.assertIn(repr(key), bootstrap_step['run'])
+            else:
+                env=job['env']
+            envs.append(env)
             self.assertIn("github.ref == 'refs/heads/main'",env['TYPESAFE_ENABLED'])
             self.assertEqual(env['TYPESAFE_API_KEY'],'${{ secrets.TYPESAFE_SHARED_API_KEY }}')
             self.assertEqual(env['TYPESAFE_FREE_CREDITS_ONLY'],'1')
@@ -39,11 +50,30 @@ class WiringTests(unittest.TestCase):
             self.assertEqual(run.count('python scripts/evaluate_team_typesafe.py'),1)
             self.assertLess(run.index('evaluate_team_typesafe.py'),run.index('build_listing_gate.py'))
             receipt=next(s for s in steps if 'typesafe-budget-receipt-' in s.get('with',{}).get('name',''))
-            self.assertEqual(receipt['if'],'always()')
+            self.assertEqual(receipt['if'], "steps.continuity_mode.outputs.mode == 'normal' && (always())"
+                             if name == 'JARVIS-Deep-Analysis.yml' else 'always()')
             self.assertEqual(receipt['with']['retention-days'],21)
             self.assertEqual(receipt['with']['path'],'${{ env.TYPESAFE_SHARED_LEDGER_PATH }}')
         keys=('TYPESAFE_ORG_ID','TYPESAFE_BILLING_PROOF_JSON','TYPESAFE_SHARED_LEDGER_PATH','TYPESAFE_WORKFLOW_ID')
         for key in keys:self.assertEqual(envs[0][key],envs[1][key])
+
+    def test_restricted_mode_never_inherits_or_receives_provider_credentials(self):
+        for name in ('JARVIS-Core-Automation.yml', 'JARVIS-Deep-Analysis.yml'):
+            document=yaml.safe_load((WF/name).read_text(encoding='utf-8'))
+            self.assertFalse(any('secrets.' in str(value) for value in document.get('env',{}).values()))
+            for job in document['jobs'].values():
+                self.assertFalse(any('secrets.' in str(value) for value in job.get('env',{}).values()))
+                for step in job['steps']:
+                    condition=step.get('if','')
+                    env=step.get('env',{})
+                    if any('secrets.' in str(value) for value in env.values()):
+                        self.assertEqual(condition, "steps.continuity_mode.outputs.mode == 'normal'")
+                    if 'restricted_gap' in condition or "mode != 'normal'" in condition:
+                        self.assertFalse(any('secrets.' in str(value) for value in env.values()))
+                        self.assertFalse(any(key.endswith('API_KEY') for key in env))
+                        for enabled in ('TYPESAFE_ENABLED','GEMINI_FALLBACK_ENABLED'):
+                            if enabled in env:
+                                self.assertEqual(env[enabled],'0')
 
     def test_mandatory_tests_in_both_gates(self):
         for name in ('preflight.yml','pages-verified.yml'):
@@ -103,7 +133,9 @@ class WiringTests(unittest.TestCase):
         self.assertEqual(team.MODEL_POLICY_VERSION, 'jarvis-jev-1.14-text-v1')
         for name in ('JARVIS-Deep-Analysis.yml', 'shopify-listing-copy.yml'):
             doc = yaml.safe_load((WF/name).read_text(encoding='utf-8'))
-            env = next(iter(doc['jobs'].values()))['env']
+            job = next(iter(doc['jobs'].values()))
+            env = (next(step for step in job['steps'] if 'setup_typesafe_shared.py' in step.get('run', ''))['env']
+                   if name == 'JARVIS-Deep-Analysis.yml' else job['env'])
             self.assertEqual(env['TYPESAFE_MODEL'], team.MODEL)
             self.assertEqual(env['TYPESAFE_MODEL_POLICY_VERSION'], team.MODEL_POLICY_VERSION)
         captured = {}
