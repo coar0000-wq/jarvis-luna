@@ -20,6 +20,7 @@ spec = importlib.util.spec_from_file_location("aeo_inspection", SCRIPTS / "apply
 aeo = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(aeo)
 INITIAL_REPORT = copy.deepcopy(aeo.REPORT)
+COLLECT_READINESS = aeo.collect_readiness
 
 
 class AeoInspectionTests(unittest.TestCase):
@@ -30,6 +31,7 @@ class AeoInspectionTests(unittest.TestCase):
             aeo.urllib.request, "urlopen", side_effect=AssertionError("offline test: no network")))
         self.stack.enter_context(patch.object(aeo, "APPLY", False))
         self.stack.enter_context(patch.dict(aeo.REPORT, copy.deepcopy(INITIAL_REPORT), clear=True))
+        self.readiness = self.stack.enter_context(patch.object(aeo, "collect_readiness", return_value={"status": "fixture_only"}))
         self.temp = self.stack.enter_context(tempfile.TemporaryDirectory())
         root = Path(self.temp)
         self.stack.enter_context(patch.object(aeo, "SHOPIFY_EXPORT_DIR", root / "templates_shopify"))
@@ -94,6 +96,7 @@ class AeoInspectionTests(unittest.TestCase):
         with patch.object(aeo, "resolve_token", return_value="fixture-only"), patch.object(aeo, "shopify_request", side_effect=response) as request:
             aeo.deploy_to_shopify_live()
         self.assertEqual(request.call_count, 3)
+        self.readiness.assert_called_once_with("fixture-only")
         self.assertEqual(products, before)
         self.network.assert_not_called()
 
@@ -252,6 +255,39 @@ class AeoInspectionTests(unittest.TestCase):
         self.assertEqual(report["products_already_done"], 0)
         self.assertIn("products_review", report)
         self.assertIn("theme_inspection", report)
+
+    def test_readiness_reuses_existing_token_and_never_exposes_project_facts(self):
+        from shopify_readiness_audit import project
+        stamp = '2026-10-23T09:00:00Z'
+        private = project({'variants': [{'variant_id': 'private-variant', 'facts': {
+            'admin_unit_cost_raw': {'value': '9876.54', 'source': 'private-source', 'captured_at': stamp},
+            'hold_reason': {'value': 'private-hold', 'source': 'private-source', 'captured_at': stamp},
+            'inventory_quantity': {'value': 876543, 'source': 'private-source', 'captured_at': stamp}}}]}, now=stamp)
+        self.assertEqual(private['variants'][0]['facts']['hold_reason']['value'], 'private-hold')
+        with patch.dict(os.environ, {'SHOPIFY_STORE': aeo.STORE_DOMAIN}), patch(
+                'shopify_readiness_snapshot.inspect_readiness', return_value=private) as inspect:
+            summary = COLLECT_READINESS('fixture-token')
+        inspect.assert_called_once_with(configured_host=aeo.STORE_DOMAIN, token='fixture-token', root=aeo.BASE_DIR)
+        self.assertEqual(summary['status'], 'observed')
+        for candidate in (summary, {'status': 'observed', 'report': private}, private):
+            aeo.REPORT['readiness'] = candidate
+            aeo.write_report()
+            output = aeo.REPORT_PATH.read_text()
+            for forbidden in ('9876.54', 'private-source', 'private-hold', '876543', 'private-variant', 'snapshot_sha256', '"facts"'):
+                self.assertNotIn(forbidden, output)
+            public = json.loads(output)['readiness']
+            self.assertEqual(public, aeo.public_readiness_summary(public))
+            self.assertFalse(public['publication_authorized'])
+
+    def test_readiness_error_and_unconfigured_host_are_redacted(self):
+        with patch.dict(os.environ, {'SHOPIFY_STORE': '', 'SHOPIFY_STORE_DOMAIN': ''}):
+            self.assertEqual(COLLECT_READINESS('fixture')['reason'], 'explicit_configured_shop_required')
+        with patch.dict(os.environ, {'SHOPIFY_STORE': aeo.STORE_DOMAIN}), patch(
+                'shopify_readiness_snapshot.inspect_readiness', side_effect=RuntimeError('private-token')):
+            output = COLLECT_READINESS('fixture')
+        self.assertEqual(output['status'], 'blocked')
+        self.assertNotIn('private-', json.dumps(output))
+        self.assertNotIn('private-', json.dumps(aeo.public_readiness_summary({'status': 'private-status', 'reason': 'private-reason'})))
 
     def test_workflow_is_main_only_and_inspection_only(self):
         text = (ROOT / ".github/workflows/shopify-aeo-apply.yml").read_text(encoding="utf-8")

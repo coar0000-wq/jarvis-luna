@@ -37,6 +37,10 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install verified inspection dependencies
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
+
       - name: AEO 적용 실행
         run: python scripts/apply_shopify_aeo_and_obsidian.py
 

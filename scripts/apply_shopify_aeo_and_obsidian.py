@@ -3,7 +3,7 @@
 
 APPLY=0 creates non-deployable *.review.md documents and a review hub. With
 existing configured authentication it can inspect a theme and the first product
-page using GET only. Local files, API fields, or HTML markers do not establish
+page using read-only requests. Local files, API fields, or HTML markers do not establish
 listing approval, regulatory compliance, public URLs, indexing, or performance.
 APPLY=1 is blocked before local generation, authentication, or network activity.
 Existing generated Liquid files and product bodies are not rewritten.
@@ -87,6 +87,8 @@ def resolve_token() -> str:
 
 
 def write_report() -> None:
+    if "readiness" in REPORT:
+        REPORT["readiness"] = public_readiness_summary(REPORT["readiness"])
     REPORT["finished_at"] = datetime.now(timezone.utc).isoformat()
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(REPORT, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -180,7 +182,7 @@ publication_verified: false
 
 - 연결: [[JARVIS LUNA Core]] | [[Shopify Dropshipping]]
 - 이 노트는 검토 계획이며 REA 실행, 상품 승인, 배포, 색인 또는 노출 성과의 증거가 아니다.
-- APPLY=1은 차단되며 API 점검은 GET 전용이다. 상품·테마·채널·결제 설정을 변경하지 않는다.
+- APPLY=1은 차단되며 API 점검은 읽기 전용이다. 상품·테마·채널·결제 설정을 변경하지 않는다.
 - 검토 문서는 `templates_shopify/review/*.review.md`에만 생성한다. 테마 업로드 대상으로 사용하지 않는다.
 - 기존 생성 Liquid와 기존 상품 본문은 보존한다. 그 존재나 옛 마커는 검증·완료를 뜻하지 않는다.
 
@@ -240,13 +242,45 @@ def shopify_request(method: str, endpoint: str, payload: dict | None = None) -> 
         return json.loads(body) if body else {}
 
 
+def public_readiness_summary(result: dict) -> dict:
+    """Only fixed status codes may enter public Git, Pages or job summaries."""
+    result = result if isinstance(result, dict) else {}
+    status = result.get('status')
+    status = status if status in ('observed', 'blocked', 'not_observed') else 'not_observed'
+    public = {'status': status, 'details': 'withheld_internal_evidence',
+              'execution_enabled': False, 'publication_authorized': False}
+    if status == 'observed':
+        public.update(economics='unverified', channel_eligibility='unknown',
+                      reason='verified_cost_shipping_fee_and_channel_evidence_required')
+    else:
+        reason = result.get('reason')
+        public['reason'] = reason if reason in ('explicit_configured_shop_required',
+            'readiness_read_failed', 'authentication_not_available') else 'readiness_not_observed'
+    return public
+
+
+def collect_readiness(token: str) -> dict:
+    require_inspection_only()
+    configured = (os.getenv('SHOPIFY_STORE') or os.getenv('SHOPIFY_STORE_DOMAIN') or '').strip()
+    if not configured or configured != STORE_DOMAIN:
+        return public_readiness_summary({'status': 'blocked', 'reason': 'explicit_configured_shop_required'})
+    try:
+        from shopify_readiness_snapshot import inspect_readiness
+        # Private report is intentionally discarded, never persisted or logged.
+        inspect_readiness(configured_host=configured, token=token, root=BASE_DIR)
+        return public_readiness_summary({'status': 'observed'})
+    except Exception:
+        return public_readiness_summary({'status': 'blocked', 'reason': 'readiness_read_failed'})
+
+
 def deploy_to_shopify_live() -> None:
     """Compatibility entry point: read-only observations, never upload candidates."""
     require_inspection_only()
     # Preserve original report keys, but do not label inspection as changes/done.
     REPORT.update(theme=None, assets=[], theme_liquid_patch="not_attempted_review_only",
                   products_seen=0, products_changed=[], products_already_done=0,
-                  theme_inspection={}, products_review=[], publication_verified=False)
+                  theme_inspection={}, products_review=[], publication_verified=False,
+                  readiness={"status": "not_observed", "reason": "authentication_not_available"})
     try:
         token = resolve_token()
     except Exception as e:
@@ -259,7 +293,9 @@ def deploy_to_shopify_live() -> None:
         print(f"[안내] {msg}. 로컬 검토 문서만 생성했습니다.")
         return
 
-    print(f"[Shopify 점검] {STORE_DOMAIN} / GET 전용, 검토만")
+    REPORT["readiness"] = collect_readiness(token)
+
+    print(f"[Shopify 점검] {STORE_DOMAIN} / 읽기 전용, 검토만")
     themes_resp = shopify_request("GET", "themes.json")
     main_theme = next((t for t in themes_resp.get("themes", []) if t.get("role") == "main"), None)
     if not main_theme:
