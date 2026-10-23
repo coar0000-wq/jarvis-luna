@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 """주요 금융·반도체·AI·데이터 기관의 공개 발표물과 학술 논문을 수집한다.
 
-수집 경로는 세 가지이고, 모두 2026-09-04 에 실제 호출로 응답을 확인한 것만 등록했다.
+기존 경로는 2026-09-04, ASML 공식 발표 목록은 2026-10-23 에 응답을 확인했다.
 응답이 없거나 robots.txt 가 전면 차단인 곳은 등록하지 않고 NOT_COLLECTED 에 사유를 남긴다.
 
   1) rss       공식 RSS/Atom 피드
   2) sitemap   robots.txt 가 허용하고 sitemap.xml 에 lastmod 가 있는 사이트
   3) openalex  OpenAlex API. 기관 ID 가 확인된 곳만 사용한다.
+  4) official_list  robots.txt 허용 확인 후 ASML 공식 발표일 목록
 
 주의: 'Anthropic' 과 'xAI' 는 OpenAlex 소속 문자열 검색에서 일반 단어 및
 'Anthropic (AI model)' 표기(= Claude 를 도구로 쓴 논문)와 섞인다. 기관 논문이
@@ -15,6 +16,7 @@
 """
 from __future__ import annotations
 import gzip, html, json, re, sys, time, urllib.error, urllib.parse, urllib.request
+import urllib.robotparser
 from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
@@ -57,7 +59,6 @@ SITEMAP = [
     ("Anthropic",      AI,  "https://www.anthropic.com/sitemap.xml",
      r"/(research|news|engineering)/", True),
     ("xAI",            AI,  "https://x.ai/sitemap.xml", r"/(news|blog)/", True),
-    ("ASML",           SEMI, "https://www.asml.com/sitemap.xml", r"/news/", True),
     ("Barclays",       IB,  "https://home.barclays/sitemap.xml", r"/news/", True),
     ("Goldman Sachs",  IB,  "https://www.goldmansachs.com/sitemap.xml", r"/insights/", False),
     ("JPMorgan Chase", IB,  "https://www.jpmorgan.com/sitemap.xml", r"/insights/", False),
@@ -318,6 +319,61 @@ def page_meta(url: str):
     return title[:300], (grab("og:description") or grab("description"))[:400]
 
 
+ASML_LIST = "https://investor.asml.com/news/press-releases"
+ASML_ROBOTS = "https://investor.asml.com/robots.txt"
+
+
+def parse_asml_list(text, *, today=None):
+    """Parse explicit publication dates; fail closed on a partial/broken list."""
+    today = today or datetime.now(timezone.utc).date()
+    rows, seen = [], set()
+    article_start = r'<article\b[^>]*class=["\'][^"\']*search-results__item[^"\']*["\'][^>]*>'
+    articles = re.findall(article_start + r'(.*?)</article\s*>', text, re.S | re.I)
+    if len(articles) != len(re.findall(article_start, text, re.I)):
+        raise ValueError("ASML list contains an incomplete article")
+    for article in articles:
+        stamp = re.search(r'<div\b[^>]*class=["\'][^"\']*search-results__date-posted[^"\']*["\'][^>]*>(.*?)</div\s*>', article, re.S | re.I)
+        link = re.search(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a\s*>', article, re.S | re.I)
+        if not stamp or not link:
+            raise ValueError("ASML article missing date or link")
+        raw_date = clean(stamp.group(1))
+        published = datetime.strptime(raw_date, "%B %d, %Y").date()
+        title = clean(link.group(2))
+        url = urllib.parse.urljoin(ASML_LIST, html.unescape(link.group(1)))
+        parsed = urllib.parse.urlsplit(url)
+        if (not title or parsed.scheme != "https" or
+                parsed.netloc != "investor.asml.com" or
+                not parsed.path.startswith("/news-releases/news-release-details/") or
+                parsed.query or parsed.fragment):
+            raise ValueError("ASML article has invalid title or noncanonical URL")
+        if published > today or url in seen:
+            continue
+        seen.add(url)
+        rows.append({"title": title, "url": url, "date": published.isoformat(),
+                     "date_raw": raw_date, "summary": "", "org": "ASML",
+                     "category": SEMI, "kind": "발표물", "source": "official_list",
+                     "feed": ASML_LIST, "title_source": "page",
+                     "date_source": "publication_date"})
+    if not rows:
+        raise ValueError("ASML list has no valid published articles")
+    return sorted(rows, key=lambda row: row["date"], reverse=True)[:PER_SITEMAP]
+
+
+def collect_official_lists():
+    """ASML official list, with robots permission checked before collection."""
+    try:
+        robots_text = fetch(ASML_ROBOTS, 100_000)
+        if not re.search(r"^\s*User-agent\s*:", robots_text, re.I | re.M):
+            raise ValueError("ASML robots response is not a robots policy")
+        policy = urllib.robotparser.RobotFileParser(ASML_ROBOTS)
+        policy.parse(robots_text.splitlines())
+        if not policy.can_fetch(UA, ASML_LIST):
+            return [], [failure("ASML", ASML_LIST, reason="robots.txt disallows collection")]
+        return parse_asml_list(fetch(ASML_LIST)), []
+    except Exception as exc:
+        return [], [failure("ASML", ASML_LIST, exc=exc)]
+
+
 def collect_sitemap():
     items, fails = [], []
     for org, cat, sm_url, pattern, want_meta in SITEMAP:
@@ -437,14 +493,15 @@ def main() -> int:
     for a in sys.argv[1:]:
         if a.startswith("--only="):
             only = a.split("=", 1)[1]
-    if only and only not in {"rss", "sitemap", "openalex"}:
-        raise ValueError("--only must be rss, sitemap or openalex")
+    if only and only not in {"rss", "sitemap", "openalex", "official_list"}:
+        raise ValueError("--only must be rss, sitemap, openalex or official_list")
     # A malformed previous snapshot must fail closed rather than silently erase it.
     previous = json.loads(OUT.read_text(encoding="utf-8-sig")) if OUT.exists() else {}
     if not isinstance(previous, dict):
         raise ValueError("institution snapshot must be an object")
     batches = {}
-    plan = [("rss", collect_rss), ("sitemap", collect_sitemap), ("openalex", collect_openalex)]
+    plan = [("rss", collect_rss), ("sitemap", collect_sitemap),
+            ("openalex", collect_openalex), ("official_list", collect_official_lists)]
     for key, fn in plan:
         if not only or only == key:
             batches[key] = fn()
