@@ -61,6 +61,49 @@ def classify(reason: str) -> str:
     return HELD
 
 
+LABEL_FIELD_GUIDANCE = {
+    "내용량": ("제품별 내용량 표기 근거 또는 라벨 초안이 미완료",
+            "공식 포장·고시에서 수량과 단위·구성을 확인하고 제품별 라벨 초안을 검토한다"),
+    "전성분": ("제품별 전성분 표기 근거 또는 영문 라벨 초안이 미완료",
+            "공식 전성분 원문과 제품별 영문 표기를 대조·검토한다"),
+    "제품 정체 표시": ("제품을 식별하는 영문 이름·용도 표기가 미완료",
+                 "공식 제품 정보에 맞는 제품명·용도 표기를 검토한다"),
+    "책임자 이름·주소": ("책임자 이름·주소 정보 또는 검토가 미완료",
+                  "지정 책임자의 이름·주소와 승인 근거를 확인한다; 제조사와 동일하다고 추정하지 않는다"),
+}
+LEGAL_BLOCKER_GUIDANCE = {
+    "label_fields": "누락·플레이스홀더·오래된 영문 라벨 필드를 공식 근거와 대조·검토",
+    "actual_label_review": "제품별 실제 라벨 근거와 사람의 검토 기록 확인",
+    "responsible_person": "명시적 책임자 이름·주소와 사람의 승인 근거 확인",
+    "manufacturer_product_safety": "제품별 제조사 안전 근거와 사람의 검토 기록 확인",
+    "human_legal_approval": "권한 있는 사람의 제품별 법률 검토·승인 기록 확인",
+    "banned_claim": "표시·광고 문구의 차단 사유와 원문을 검토",
+    "otc_sunscreen": "OTC·자외선차단 관련 분류와 표시 요건을 담당자가 검토",
+}
+
+
+def label_field_guidance(need):
+    return LABEL_FIELD_GUIDANCE.get(str(need),
+        (f"라벨 준비 보고서의 미완료 항목: {need}", "해당 항목의 원본 근거와 제품별 검토 기록을 확인한다"))
+
+
+def legal_block_guidance(product):
+    """Describe existing blockers only; never infer clearance or a legal classification."""
+    blockers = product.get("auto_blockers") or []
+    if not isinstance(blockers, list):
+        blockers = []
+    checks = product.get("auto_checks") or {}
+    if isinstance(checks, dict):
+        blockers = list(dict.fromkeys([str(b) for b in blockers] + [
+            str(key) for key, value in checks.items()
+            if isinstance(value, dict) and value.get("ok") is False]))
+    else:
+        blockers = [str(b) for b in blockers]
+    guidance = [f"{key}: {LEGAL_BLOCKER_GUIDANCE.get(key, '기존 점검의 원본 사유와 검토 근거 확인')}"
+                for key in blockers]
+    return ("; ".join(guidance) if guidance else "기존 hard_block_reason과 제품별 근거를 담당자가 검토") + "; 검토 전 차단 유지, 자동 승인 없음"
+
+
 def main() -> int:
     rows: list[dict] = []
 
@@ -147,16 +190,22 @@ def main() -> int:
     # 사람 대기
     ep = load(DATA / "legal_export_prep.json") or {}
     for need in (ep.get("사람이_채워야_하는_칸") or []):
-        add("법률·규제팀", need, "MoCRA 책임자 정보. 회사명과 주소가 필요하다", WAITING,
-            "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다")
+        reason, fix = label_field_guidance(need)
+        add("법률·규제팀", need, reason, WAITING, fix)
     bk = load(DATA / "brand_kit.json") or {}
     for need in (bk.get("사람이_해야_하는_것") or []):
-        add("디자인팀", need, "사람만 할 수 있는 일", WAITING)
+        # Older brand kits hardcoded creation without checking whether a store exists.
+        if need == "Shopify 스토어 개설 (계정·도메인)":
+            add("디자인팀", "Shopify 스토어 연결·기본 설정 상태 확인",
+                "이 보고서에는 스토어 개설 여부 확인 근거가 없음; 미개설로 단정하지 않음", WAITING,
+                "기존 스토어의 연결·계정·도메인 설정 상태를 확인한다")
+        else:
+            add("디자인팀", need, "준비 보고서의 검토·입력 항목; 완료 여부 확인 필요", WAITING)
     lp = load(DATA / "legal_products.json") or {}
     for k, v in (lp.get("items") or {}).items():
         if v.get("hard_block"):
             add("법률·규제팀", v.get("name"), v.get("hard_block_reason"), BLOCKED,
-                "Drug Facts 라벨을 갖추면 다시 볼 수 있다")
+                legal_block_guidance(v))
 
     by_kind: dict = {}
     for r in rows:
