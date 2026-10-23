@@ -47,6 +47,73 @@ class CopyExecutorTests(unittest.TestCase):
         plan=plan or self.prepare()
         return exe.execute(plan,root=self.root,expected_plan_digest=plan['plan_digest'],client=self.client,
             journal_path=self.path,checkpoint=self.checkpoint,apply=True,now=self.now)
+    def prepare_blistex(self):
+        self.fixture.prepare('1076498'); self.snapshot = self.fixture.snapshot
+        self.scope.update(pd_no='1076498', product_id=self.snapshot['product']['id'],
+                          allowed_fields=['descriptionHtml'])
+        self.client = Client(self.snapshot)
+    def test_blistex_one_body_write_and_idempotent_restart(self):
+        self.prepare_blistex(); original = deepcopy(self.snapshot); plan = self.prepare()
+        self.assertEqual(set(plan['copy_plan']['changes']), {'descriptionHtml'})
+        self.assertEqual(self.run_apply(plan)['state'], 'verified')
+        self.assertEqual(exe.copy.protected(self.client.live), exe.copy.protected(original))
+        self.assertEqual(self.run_apply(plan)['state'], 'verified'); self.assertEqual(self.client.writes, 1)
+    def test_blistex_scope_cannot_include_title_or_other_fields(self):
+        self.prepare_blistex()
+        for fields in (['title','descriptionHtml'], ['title'], ['status'], [], ['descriptionHtml','descriptionHtml']):
+            self.scope['allowed_fields'] = fields
+            with self.assertRaises(exe.Hold): self.plan()
+        self.assertEqual(self.client.writes, 0)
+    def test_blistex_transport_only_exact_after_body(self):
+        self.prepare_blistex(); plan = self.plan(); sent = []
+        def request(url, **kwargs):
+            sent.append(exe.strict_json(kwargs['body']))
+            return 200, {}, exe.json_bytes({'data':{'productUpdate':{
+                'product':{'id':self.scope['product_id']},'userErrors':[]}}})
+        client = exe.ShopifyClient('synthetic.myshopify.com','SYNTHETIC',request=request)
+        for changes in ({'title':'Changed'}, {'descriptionHtml':'4.25 g'},
+                        {**plan['copy_plan']['changes'], 'title':exe.copy.BODY_ONLY_TITLE},
+                        {'status':'ACTIVE'}, {}):
+            with self.assertRaises(exe.Hold): client.update_once(self.scope['product_id'], changes)
+        self.assertEqual(sent, [])
+        client.update_once(self.scope['product_id'], plan['copy_plan']['changes'])
+        self.assertEqual(sent[0]['variables'], {'product':{'id':self.scope['product_id'], **plan['copy_plan']['changes']}})
+        self.assertEqual(len(sent), 1)
+    def test_blistex_rehashed_plan_cannot_broaden_changes(self):
+        self.prepare_blistex(); original = self.plan()
+        for changes in ({'title':'Changed'}, {'descriptionHtml':'Unknown new body'}, {}):
+            plan = deepcopy(original); plan['copy_plan']['changes'] = changes
+            cp = plan['copy_plan']; cp['plan_sha256'] = exe.copy.sha({k:v for k,v in cp.items() if k != 'plan_sha256'})
+            plan['plan_digest'] = exe.compute_plan_digest(plan)
+            with self.assertRaises(exe.Hold): exe.validate_plan_digest(plan, plan['plan_digest'])
+        self.assertEqual(self.client.writes, 0)
+    def test_blistex_missing_protection_or_source_hash_holds(self):
+        self.prepare_blistex(); original = deepcopy(self.snapshot)
+        for field in ('publications','media','variants','options','vendor','productType'):
+            self.snapshot = deepcopy(original); self.snapshot['product'].pop(field)
+            with self.assertRaises(exe.Hold): self.plan()
+        self.snapshot = original
+        (self.root/self.fixture.rule['sources'][0]['local_file']).write_bytes(b'changed')
+        with self.assertRaises(exe.Hold): self.plan()
+        self.assertEqual(self.client.writes, 0)
+    def test_blistex_body_drift_and_checkpoint_failure_write_zero(self):
+        self.prepare_blistex(); plan = self.prepare()
+        self.client.live['product']['descriptionHtml'] += ' '
+        with self.assertRaises(exe.Hold): self.run_apply(plan)
+        self.assertEqual(self.client.writes, 0)
+        self.client = Client(self.snapshot); self.checkpoint.verify.return_value = False
+        with self.assertRaises(exe.Hold): self.run_apply(plan)
+        self.assertEqual(self.client.writes, 0)
+    def test_blistex_timeout_reconciles_without_second_write(self):
+        self.prepare_blistex(); plan = self.prepare(); self.client.error = TimeoutError('synthetic')
+        self.assertEqual(self.run_apply(plan)['state'], 'write_unknown')
+        self.assertEqual(self.run_apply(plan)['state'], 'verified'); self.assertEqual(self.client.writes, 1)
+    def test_blistex_postwrite_title_change_remains_pending(self):
+        self.prepare_blistex(); self.client.alter_after = lambda s:s['product'].update(title='Changed')
+        plan = self.prepare()
+        self.assertEqual(self.run_apply(plan)['state'], 'verification_pending')
+        self.assertEqual(self.run_apply(plan)['state'], 'verification_pending')
+        self.assertEqual(self.client.writes, 1)
     def test_exact_once_and_idempotent_restart(self):
         p=self.prepare();self.assertEqual(self.run_apply(p)['state'],'verified');self.assertEqual(self.client.writes,1)
         self.assertEqual(self.run_apply(p)['state'],'verified');self.assertEqual(self.client.writes,1)
@@ -256,8 +323,8 @@ class CopyExecutorTests(unittest.TestCase):
             exe.execute(plan,root=self.root,expected_plan_digest=plan['plan_digest'])
         self.assertEqual(self.client.writes,0)
 
-    def test_draft_allowlist_remains_two_products_and_rejects_active_target(self):
-        self.assertEqual(set(exe.copy.ALLOWED), {'1033789','1073406'})
+    def test_exact_draft_allowlist_rejects_active_target(self):
+        self.assertEqual(set(exe.copy.ALLOWED), {'1033789','1073406','1076498'})
         self.scope.update(pd_no='1084687',product_id='gid://shopify/Product/9590780723457',
                           expected_status='ACTIVE')
         self.snapshot['product'].update(id=self.scope['product_id'],status='ACTIVE')

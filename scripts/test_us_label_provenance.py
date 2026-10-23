@@ -64,6 +64,26 @@ def run_legal(labels, old=None, recommendations=None):
 
 
 class LabelProvenanceTests(unittest.TestCase):
+    def test_invalid_quantity_cannot_claim_notice_completeness(self):
+        source = {"items": {"101": {**SOURCE, "volume": "의 스틱형"}}}
+        fresh, report = run_sync({}, source)
+        self.assertNotIn("net_contents", fresh["101"])
+        self.assertFalse(fresh["101"]["gosi_ok"])
+        self.assertIn("net_contents", report["items"]["101"]["missing_fields"])
+        first, _ = run_sync()
+        changed, _ = run_sync(first, source)
+        self.assertEqual(changed["101"]["net_contents"], "30 ml")  # historical value only
+        self.assertFalse(changed["101"]["field_provenance"]["net_contents"]["eligible"])
+        self.assertFalse(changed["101"]["gosi_ok"])
+        for extra in ({}, {"field_provenance": {"net_contents": {"owner": "human"}}}):
+            legacy = {"101": {**complete_label(), "net_contents": "의 스틱형", **extra}}
+            output, report = run_sync(legacy, source)
+            self.assertEqual(output["101"]["net_contents"], "의 스틱형")
+            self.assertFalse(output["101"]["gosi_ok"])
+            self.assertIn("net_contents", report["items"]["101"]["missing_fields"])
+            if extra:
+                self.assertEqual(output["101"]["field_provenance"]["net_contents"], extra["field_provenance"]["net_contents"])
+
     def test_role_only_manufacturer_cannot_claim_completeness(self):
         source = {"items": {"101": {**SOURCE, "maker": "및 책임판매원"}}}
         fresh, report = run_sync({}, source)
