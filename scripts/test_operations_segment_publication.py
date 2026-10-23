@@ -102,6 +102,41 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(pub.at_ref(self.remote, 'main', 'data/unrelated.json'), before_unrelated)
         self.assertEqual(storage.operations_migration_bytes(expected[operations.STATE], expected.__getitem__), self.base[operations.STATE])
 
+    def test_daiso_publication_paths_preserve_complete_operations_snapshot(self):
+        import yaml
+        workflow = yaml.load((ROOT / '.github/workflows/daiso-real-collection.yml').read_text(),
+                             Loader=yaml.BaseLoader)
+        publishers = [step for step in workflow['jobs']['collect']['steps']
+                      if step.get('uses') == './.github/actions/publish']
+        self.assertEqual(len(publishers), 2)
+        for step in publishers:
+            paths = step['with']['paths'].split()
+            self.assertIn('data/operations', paths)
+            self.assertIn('data/publish_deletions.json', paths)
+            for name in (operations.STATE, operations.HISTORY + 'segment-example.json',
+                         safety.LEDGER, operations.REPORTS + 'new.json',
+                         'data/operations/knowledge_graph.json',
+                         'data/operations/knowledge_graph/segment-example.json'):
+                self.assertTrue(pub.path_allowed(name, paths), (step['name'], name))
+        no_change = next(step for step in publishers if "'no_change'" in step['if'])
+        self.assertIn("'candidates'", no_change['if'])
+        for name in ('data/daiso_real/products.json', 'data/product_master.json',
+                     'data/shopify_exports/products.csv', 'data/shopify_action_queue.json'):
+            self.assertFalse(pub.path_allowed(name, no_change['with']['paths'].split()), name)
+
+        # Exercise the real workflow's operations selection, not a guard bypass.
+        # Restored/migrated state and new reports must travel as one snapshot.
+        expected = self.migrate()
+        report = operations.REPORTS + 'restored-new.json'
+        expected[report] = b'{ "retained": true }\n'
+        write(self.root, {report: expected[report]})
+        paths = [name for name in no_change['with']['paths'].split()
+                 if name.startswith('data/operations') or name == operations.MANIFEST]
+        tx = self.transaction(paths=' '.join(paths))
+        self.assertTrue(tx.operations_guard.active)
+        self.assertEqual(tx.run()['status'], 'published')
+        self.assertEqual(operations.git_snapshot(self.remote, 'main'), expected)
+
     def test_missing_or_tampered_chunk_blocks_before_publish(self):
         expected = self.migrate()
         member = next(name for name in expected if name.startswith(operations.HISTORY))
