@@ -55,6 +55,84 @@ class PublicSiteTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             restricted_public_summary(dict(pending,analyzed_at='2026-10-23T05:00:00Z'))
 
+    def blocked_pending(self):
+        return dict(self.restricted_review(), status='RESTRICTED_ANALYSIS_BLOCKED', analyzed_at=None)
+
+    def test_blocked_pending_has_only_fixed_public_fields_and_no_analysis_clock(self):
+        row=dict(self.blocked_pending(), exception='secret /private/path', approval='private', receipts=[1])
+        self.assertEqual(restricted_public_summary(row), self.blocked_pending())
+        for key,value in (('analyzed_at','2026-10-23T05:00:00Z'),('production_recovered',True),
+                          ('operations_execution_verified',True),('continuity','verified'),('mode','normal')):
+            with self.subTest(key=key),self.assertRaises(ValueError):
+                restricted_public_summary(dict(row,**{key:value}))
+
+    def test_invalid_pending_decision_only_emits_blocked_display_and_preserves_all_inputs(self):
+        from continuity_reconciliation import ContinuityError
+        decision=self.root/'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+        decision.parent.mkdir(parents=True,exist_ok=True);decision.write_text('{}')
+        try:
+            before={p.relative_to(self.root).as_posix():p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+            for error in ('frozen_baseline_changed','code_contract_changed','private /home/runner/token=secret'):
+                with self.subTest(error=error),patch('continuity_reconciliation.validate_pending_decision',side_effect=ContinuityError(error)) as pending:
+                    manifest=build(self.root,self.output,'a'*40)
+                    pending.assert_called_once_with(self.root.resolve())
+                public=json.loads((self.output/'data/dashboard_runtime.json').read_text())
+                self.assertEqual(public['continuity_review'],self.blocked_pending())
+                self.assertEqual(set(manifest['files']),set(self.manifest['files']))
+                self.assertNotIn(error,json.dumps(public))
+                validate(self.output)
+                self.assertEqual(before,{p.relative_to(self.root).as_posix():p.read_bytes() for p in self.root.rglob('*') if p.is_file()})
+                self.assertFalse((self.root/'data/agents/continuity_review.json').exists())
+                # The same validator remains blocked; display projection did not authorize it.
+                with patch('continuity_reconciliation.validate_pending_decision',side_effect=ContinuityError(error)):
+                    from continuity_reconciliation import validate_pending_decision
+                    with self.assertRaises(ContinuityError):validate_pending_decision(self.root)
+        finally:decision.unlink()
+
+    def test_valid_pending_still_requires_validator_and_retains_pending_status(self):
+        decision=self.root/'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+        decision.parent.mkdir(parents=True,exist_ok=True);decision.write_text('{}')
+        expected=dict(self.restricted_review(),status='RESTRICTED_ANALYSIS_PENDING',analyzed_at=None)
+        try:
+            with patch('continuity_reconciliation.validate_pending_decision',return_value=expected) as pending:
+                build(self.root,self.output,'a'*40);pending.assert_called_once()
+            self.assertEqual(json.loads((self.output/'data/dashboard_runtime.json').read_text())['continuity_review'],expected)
+            with patch('continuity_reconciliation.validate_pending_decision',side_effect=RuntimeError('unexpected')):
+                with self.assertRaisesRegex(RuntimeError,'unexpected'):build(self.root,self.output,'a'*40)
+        finally:decision.unlink()
+
+    def test_invalid_published_review_cannot_fall_back_to_pending_policy(self):
+        from continuity_reconciliation import ContinuityError
+        decision=self.root/'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+        decision.parent.mkdir(parents=True,exist_ok=True);decision.write_text('{}')
+        review=self.root/'data/agents/continuity_review.json';review.write_text(json.dumps(self.restricted_review()))
+        try:
+            with patch('continuity_reconciliation.validate_published_review',side_effect=ContinuityError('invalid published')),patch('continuity_reconciliation.validate_pending_decision') as pending:
+                with self.assertRaisesRegex(ContinuityError,'invalid published'):build(self.root,self.output,'a'*40)
+                pending.assert_not_called()
+        finally:review.unlink();decision.unlink()
+
+    def test_missing_published_evidence_cannot_be_downgraded_when_pending_policy_exists(self):
+        decision=self.root/'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+        decision.parent.mkdir(parents=True,exist_ok=True);decision.write_text('{}')
+        runtime=self.root/'data/dashboard_runtime.json';before=runtime.read_bytes()
+        try:
+            for review in (self.restricted_review(),self.blocked_pending(),None):
+                source=json.loads(before);source['continuity_review']=review;runtime.write_text(json.dumps(source))
+                with patch('continuity_reconciliation.validate_pending_decision') as pending:
+                    with self.assertRaisesRegex(ValueError,'source evidence missing'):build(self.root,self.output,'a'*40)
+                    pending.assert_not_called()
+        finally:runtime.write_bytes(before);decision.unlink()
+
+    def test_pending_policy_symlink_fails_instead_of_showing_normal_or_blocked_state(self):
+        decision=self.root/'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+        decision.parent.mkdir(parents=True,exist_ok=True);decision.symlink_to(self.root/'absent-private-file')
+        try:
+            with patch('continuity_reconciliation.validate_pending_decision') as pending:
+                with self.assertRaisesRegex(ValueError,'symlink'):build(self.root,self.output,'a'*40)
+                pending.assert_not_called()
+        finally:decision.unlink()
+
     def test_restricted_build_injects_public_copy_only_after_validation(self):
         path=self.root/'data/agents/continuity_review.json'
         canonical=self.root/'data/dashboard_runtime.json';before=canonical.read_bytes()
@@ -112,6 +190,11 @@ for(const bad of [{...valid,continuity:'verified'},{...valid,production_recovere
  assert.ok(indicator.attributes['aria-label'].includes('정상 운영 확인 불가'));
  assert.ok($('continuity-review-title').textContent.includes('근거 불일치'));
 }
+renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_BLOCKED',analyzed_at:null});
+assert.equal($('live-text').textContent,'확인 필요');
+assert.equal(indicator.attributes['data-continuity-state'],'unverified');
+assert.ok($('continuity-review-title').textContent.includes('근거 불일치'));
+assert.ok(!$('continuity-review-detail').textContent.includes('분석 시각:'));
 renderContinuityReview(null);assert.equal($('continuity-review-banner').hidden,true);
 renderContinuityReview({...valid,status:'RESTRICTED_ANALYSIS_PENDING',analyzed_at:null});
 assert.ok($('continuity-review-title').textContent.includes('검증 대기'));

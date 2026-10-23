@@ -146,13 +146,13 @@ def restricted_public_summary(value):
         if type(value.get(key)) is not type(expected) or value.get(key) != expected:
             raise ValueError('restricted review display contract invalid: ' + key)
     status = value.get('status')
-    if status not in ('RESTRICTED_ANALYSIS_COMPLETE', 'RESTRICTED_ANALYSIS_PENDING'):
+    if status not in ('RESTRICTED_ANALYSIS_COMPLETE', 'RESTRICTED_ANALYSIS_PENDING', 'RESTRICTED_ANALYSIS_BLOCKED'):
         raise ValueError('restricted review display status invalid')
     analyzed_at = value.get('analyzed_at')
     result = {'mode': 'restricted_gap', 'continuity': 'unresolved_gap',
               'production_recovered': False, 'operations_execution_verified': False,
               'status': status, 'analyzed_at': analyzed_at}
-    if status == 'RESTRICTED_ANALYSIS_PENDING':
+    if status in ('RESTRICTED_ANALYSIS_PENDING', 'RESTRICTED_ANALYSIS_BLOCKED'):
         if analyzed_at is not None:
             raise ValueError('pending restricted review cannot claim an analysis clock')
         return result
@@ -307,11 +307,27 @@ def build(root, output, commit=None):
                 from continuity_reconciliation import validate_published_review
                 validate_published_review(root, review)
                 source = dict(source, continuity_review=restricted_public_summary(review))
-            elif (root / 'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json').exists():
-                from continuity_reconciliation import validate_pending_decision
-                source = dict(source, continuity_review=restricted_public_summary(validate_pending_decision(root)))
             elif 'continuity_review' in source:
+                # A missing/invalid published review must never be downgraded to
+                # a pending policy merely because a decision file also exists.
                 raise ValueError('restricted review source evidence missing')
+            else:
+                decision_name = 'data/manual/continuity_reconciliation/deep-39893237129-attempt-1.json'
+                decision_path = root / decision_name
+                if decision_path.exists() or decision_path.is_symlink():
+                    checked_source(root, decision_name)
+                    from continuity_reconciliation import ContinuityError, validate_pending_decision
+                    try:
+                        pending = validate_pending_decision(root)
+                    except ContinuityError:
+                        # Display-only failure projection: no report, policy,
+                        # input, or execution permission is changed. Never expose
+                        # exception text, private paths, receipts or approvals.
+                        pending = {'mode': 'restricted_gap', 'continuity': 'unresolved_gap',
+                                   'status': 'RESTRICTED_ANALYSIS_BLOCKED',
+                                   'production_recovered': False, 'operations_execution_verified': False,
+                                   'analyzed_at': None}
+                    source = dict(source, continuity_review=restricted_public_summary(pending))
         if f == 'data/shopify_daily_registry.json':
             source = registry_for_public_display(source)
         payload[f] = encoded(project(source, schema))
