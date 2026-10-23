@@ -6,6 +6,7 @@ import json
 import sys
 import tempfile
 from pathlib import Path
+from datetime import datetime, timezone
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature as gs
 import build_shopify_action_queue as q
@@ -38,6 +39,20 @@ with tempfile.TemporaryDirectory() as td:
         'GATE': 'listing_gate.json'}.items():
         setattr(gs, name, d / rel)
     write(gs.RECOMMENDATIONS, {'recommendations': [{'pd_no': '1', 'grade': 'S'}]})
+    # Synthetic current evidence for this positive ready-gate fixture. No clock
+    # is written to an operating source; the entire test uses its temporary root.
+    stamp = datetime.now(timezone.utc).isoformat()
+    write(d / 'daiso_real/products.json', {'products': [{
+        'pd_no': '1', 'name': '시카 수분 세럼 30 ml', 'bucket': '스킨케어',
+        'site_category': '에센스/세럼/앰플', 'rating': 4.9, 'review_count': 5000,
+        'price_krw': 3000, 'collected_at': stamp,
+        'url': 'https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1'}]})
+    write(d / 'dashboard_runtime.json', {
+        'global_channels': {'oliveyoung_us': [
+            {'product': 'Centella hydrating serum', 'price_usd': 30, 'url': 'https://example.test/1'},
+            {'product': 'Centella serum', 'price_usd': 30, 'url': 'https://example.test/2'}]},
+        'global_channels_status': {'oliveyoung_us': {
+            'status': 'ok', 'trust': 'verified', 'collected_at': stamp}}})
     write(gs.PRODUCT_MASTER, {'pd_no_to_cp': {'1': 'CP-1'}, 'products': [{'pd_no': '1',
         'canonical_product_id': 'CP-1', 'variant': {'group_id': 'VG-1'}}], 'variant_groups': []})
     write(d / 'shopify_shortlist.json', {'status': 'proposed', 'active_pd_nos': ['1']})

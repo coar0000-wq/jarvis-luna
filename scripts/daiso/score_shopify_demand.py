@@ -3,7 +3,8 @@
 """
 다이소 상품 × 글로벌 실판매 채널 유사도 점수.
 
-S등급 = Shopify 1차 등록 후보. 정본은 shopify_s_recommendations.json.
+S등급은 평가 이력. 현재 등록에는 별도 최신 관측 검증과 listing_gate가 필요하다.
+정본은 shopify_s_recommendations.json.
 
 2026-09-06 필터 강화
 - 펫/생활잡화/구강 하드 제외
@@ -18,11 +19,14 @@ from __future__ import annotations
 import json
 import math
 import re
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+
 PRODUCTS = ROOT / "data" / "daiso_real" / "products.json"
 OUT = ROOT / "data" / "daiso_real" / "shopify_demand_score.json"
 OUT_S = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
@@ -268,17 +272,14 @@ def form_compatible(a: str, b: str) -> bool:
     return any(a in g and b in g for g in FORM_EQUIV)
 
 
-def provenanced_channels(dashboard: dict) -> dict:
-    """수집 시각이 있는 채널만 매칭 근거로 넘긴다.
+def provenanced_channels(dashboard: dict, now=None) -> dict:
+    """Current verified sources only; historical scoring is explicitly separate."""
+    from current_s_eligibility import current_channels
+    return current_channels(dashboard, now)[0]
 
-    2026-10-16 실측: S등급 8개 중 4개가 tiktok_shop_us 행과 매칭돼 있었다.
-    그 채널은 status=unverified · collected_at 없음 · 행마다 원본 URL 없음이고,
-    data/tiktok_shop.json(2026-09-02) 의 조회수(2.4M·1.8M…)를 만든 수집기가 저장소에 없다.
-    가중치는 1.0 으로 전 채널 최고였다. 출처를 확인할 수 없는 행이 등급을 올리고 있었다.
-    build_daiso_candidate_comparison.py 는 이미 같은 채널을 'unverified_or_stale_source' 로
-    빼고 있어서 두 경로의 판단이 달랐다. 여기서도 같은 기준으로 뺀다.
-    낡았지만(stale) 수집 시각이 있는 실수집 채널은 그대로 쓴다. 오래된 것과 출처 없는 것은 다르다.
-    """
+
+def historical_channels(dashboard: dict) -> dict:
+    """Retain the previous scoring inputs, never current registration evidence."""
     gc = dashboard.get("global_channels") or {}
     st = dashboard.get("global_channels_status") or {}
     if not isinstance(gc, dict):
@@ -286,7 +287,7 @@ def provenanced_channels(dashboard: dict) -> dict:
     if not st:
         # 상태표가 없는 구버전 런타임은 판정할 근거가 없다. 조용히 다 빼면 점수가 0 이 되고
         # 조용히 다 쓰면 위 문제가 그대로다. 그대로 쓰되 로그에 남긴다.
-        print("  [경고] global_channels_status 없음 - 채널 출처 검사 생략")
+        print("  [이력 전용] global_channels_status 없음 - 현재 등록 근거로 사용 불가")
         return gc
     kept = {}
     for channel, items in gc.items():
@@ -526,7 +527,7 @@ def us_blockers(name: str, pd_no: str | None = None) -> tuple[str, str]:
 
 def qualify_s(name: str, bucket: str, total: int, matches: list,
               sold_out: bool = False, pd_no: str | None = None) -> tuple[bool, str]:
-    """S등급 단일 게이트. True면 등록 후보.
+    """S등급 점수/매칭 게이트. 현재 등록은 별도 최신 관측 검증이 필요하다.
 
     품절은 여기서 막는다.
 
@@ -897,11 +898,15 @@ def main() -> int:
             img_by_name[(p.get("name") or "").strip()] = p["image_url"]
 
     dashboard = load_json(DASHBOARD, {}) or {}
-    signals = extract_signals(provenanced_channels(dashboard))
+    signals = extract_signals(historical_channels(dashboard))
     scored = [score_one(p, signals) for p in products]
     for s in scored:
         s["canonical_product_id"] = cp_registry.get(str(s.get("pd_no") or ""))
     assign_grades(scored)
+    from current_s_eligibility import assess_rows
+    current = assess_rows(scored, products, dashboard)
+    for row in scored:
+        row["current_s_eligibility"] = current[str(row.get("pd_no") or "")]
     scored.sort(key=lambda x: (
         -x["shopify_score"],
         -(x.get("best_global_match") or {}).get("similarity", 0),
@@ -946,7 +951,8 @@ def main() -> int:
         "global_demand_signals": len(signals),
         "products_with_global_match": matched,
         "canonical": "shopify_s_recommendations.json",
-        "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
+        "priority_note": "S등급은 보존된 평가. 현재 등록에는 current_s_eligibility 및 listing_gate 통과 필요.",
+        "current_s_eligible_count": sum(r["current_s_eligibility"]["eligible"] for r in scored),
         "scoring_model": {
             "logic": "s_gate_v2",
             "formula": "category+rating+reviews+price+keyword+us_fit − non_core; S=qualify_s()",
@@ -975,7 +981,7 @@ def main() -> int:
         "canonical": True,
         "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
         "count": len(s_list),
-        "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
+        "priority_note": "S등급 평가 이력. 현재 등록에는 최신 시장·상품 관측과 listing_gate 통과 필요.",
         "recommendations": [
             {
                 "rank": i,
@@ -988,6 +994,7 @@ def main() -> int:
                 "shopify_score": x.get("shopify_score"),
                 "grade": "S",
                 "s_rule": x.get("s_rule"),
+                "current_s_eligibility": x.get("current_s_eligibility"),
                 "url": x.get("url"),
                 "image_url": (
                     x.get("image_url")

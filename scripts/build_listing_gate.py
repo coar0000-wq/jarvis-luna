@@ -30,6 +30,7 @@ DATA = ROOT / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+import current_s_eligibility  # noqa: E402
 import manufacturer_safety  # noqa: E402
 import product_accuracy  # noqa: E402
 import build_listing_copy_local as local_copy_builder  # noqa: E402
@@ -231,8 +232,10 @@ def main() -> int:
         label_by_id = by_pd_no(labels_doc)
     gosi_by_id = by_pd_no((gosi_doc or {}).get("items") or {})
 
+    current_s = current_s_eligibility.assess_current(recommendations, ROOT, now=gate_now)
     results: list[dict[str, Any]] = []
     blocker_counts = {
+        current_s_eligibility.BLOCKER: 0,
         "ontology": 0,
         "copy": 0,
         "gosi": 0,
@@ -306,7 +309,10 @@ def main() -> int:
         safety = manufacturer_safety.manufacturer_safety_record(pd_no, ROOT)
         has_safety = safety["covered"] is True
 
+        current_evidence = current_s[pd_no]
         agent_blocked_by: list[str] = []
+        if not current_evidence["eligible"]:
+            agent_blocked_by.append(current_s_eligibility.BLOCKER)
         if not has_ontology:
             agent_blocked_by.append("ontology")
         if not has_gosi:
@@ -321,6 +327,9 @@ def main() -> int:
             agent_blocked_by.append(manufacturer_safety.SAFETY_MISSING)
 
         blocked_by: list[str] = []
+        if not current_evidence["eligible"]:
+            blocked_by.append(current_s_eligibility.BLOCKER)
+            blocker_counts[current_s_eligibility.BLOCKER] += 1
         if not has_ontology:
             blocked_by.append("ontology")
             blocker_counts["ontology"] += 1
@@ -404,6 +413,7 @@ def main() -> int:
             "price_krw": product.get("price_krw"),
             "shopify_score": product.get("shopify_score"),
             "source_url": product.get("url", ""),
+            "current_s_eligibility": current_evidence,
             "copy": copy_data,
             "copy_status": "review_required" if copy_data and copy_held else copy_row.get("copy_status", "missing"),
             "product_accuracy": accuracy,
@@ -579,6 +589,7 @@ def main() -> int:
         row["canonical_product_id"] = (
             row.get("canonical_product_id") or cp_registry.get(pd_no)
         )
+        row["current_s_eligibility"] = gate_row["current_s_eligibility"]
         row["agent_ready"] = bool(gate_row["agent_ready"])
         row["agent_blocked_by"] = list(gate_row["agent_blocked_by"])
         row["registerable"] = bool(gate_row["ready"])

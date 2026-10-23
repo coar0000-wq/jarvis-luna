@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """S등급 shopify_s_recommendations.json → Shopify Products CSV + commit_summary 조각."""
 from __future__ import annotations
-import csv, json, re
+import csv, json, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+import current_s_eligibility
+
 IN_S = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
 OUT_CSV = ROOT / "data" / "daiso_real" / "shopify_s_products_import.csv"
 RUNTIME = ROOT / "data" / "dashboard_runtime.json"
@@ -30,6 +33,8 @@ def main() -> int:
     # data/shopify_exports/products.csv이며 이 파일은 진단/구버전 호환용이다.
     recs = [r for r in (data.get("recommendations") or [])
             if r.get("registerable") is True]
+    current = current_s_eligibility.assess_current(recs, ROOT)
+    recs = [r for r in recs if current[str(r.get("pd_no") or "")]["eligible"]]
     rows = []
     for r in recs:
         name = r.get("name") or ""

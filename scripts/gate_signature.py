@@ -27,6 +27,7 @@ import hashlib
 import json
 import manufacturer_safety
 import product_accuracy
+import current_s_eligibility
 from pathlib import Path
 from typing import Any
 
@@ -110,6 +111,18 @@ def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
             masked_accuracy[str(row['pd_no'])] = {
                 key: evidence.get(key) for key in ('status', 'reasons', 'evidence_digest')}
     hashes['masked/product_accuracy_evidence'] = sha256_bytes(_canonical(masked_accuracy))
+    # Wall-clock expiry matters even when every source byte is unchanged. This
+    # read-only assessment uses capture timestamps; no build clock becomes evidence.
+    ready_recommendations = [row for row in recommendations if isinstance(row, dict)
+                            and any(row.get(flag) is True for flag in ("registerable", "agent_ready", "public_ready"))]
+    # Fully blocked historical artifacts must remain valid for unrelated
+    # publication. Only an asserted readiness carries expiring authority.
+    # Preserve legacy fully blocked signatures: even hashing {} would add a
+    # new key and force an unrelated publication migration. Ready gate rows
+    # still undergo the independent current-evidence check in stale_reason.
+    if ready_recommendations:
+        current_s = current_s_eligibility.assess_current(ready_recommendations, DATA.parent)
+        hashes['masked/current_s_evidence'] = sha256_bytes(_canonical(current_s))
     sop = DATA / "manual" / "mocra_adverse_event_sop.md"
     try:
         # Newline encoding is not legal meaning; real text and readability still bind.
@@ -138,7 +151,14 @@ def stale_reason(gate: dict | None = None) -> str:
     if not recorded:
         return "listing_gate.json 에 agent_input_signature 가 없습니다"
 
-    current = agent_input_signature(current_recommendations())
+    recommendations = current_recommendations()
+    current_s = current_s_eligibility.assess_current(recommendations, DATA.parent)
+    # A newly signed, already-expired ready gate must not pass either.
+    for row in doc.get("items") or []:
+        if isinstance(row, dict) and any(row.get(flag) is True for flag in ("ready", "agent_ready", "public_ready")):
+            if not (current_s.get(str(row.get("pd_no") or "")) or {}).get("eligible"):
+                return "listing_gate.json current_s_evidence: 최신 시장·상품 S 검증이 없습니다"
+    current = agent_input_signature(recommendations)
     if recorded == current:
         return ""
 

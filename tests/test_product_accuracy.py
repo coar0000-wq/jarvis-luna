@@ -249,6 +249,10 @@ class ProductAccuracyTests(unittest.TestCase):
         report = self.root / "report.json"
         output = self.root / "out.csv"
         with ExitStack() as stack, redirect_stdout(io.StringIO()):
+            # Isolate copy-evidence expiry from the independent market/product
+            # freshness gate, exercised with real sources in test_current_s_eligibility.
+            stack.enter_context(patch.object(gate_signature.current_s_eligibility, "assess_current",
+                return_value={PRODUCT["pd_no"]: {"eligible": True, "reasons": []}}))
             stack.enter_context(patch.multiple(gate_signature, DATA=data,
                 COMMERCE_STRATEGY=self.root / "policy.json", **paths))
             stack.enter_context(patch.multiple(csv_builder, ROOT=self.root, COPY=source, PRICING=price,

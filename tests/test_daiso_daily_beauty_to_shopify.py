@@ -38,6 +38,18 @@ EVIDENCE_OK = {"ok": True, "source": "serpapi_google_shopping", "reasons": []}
 
 class DailySafetyTests(unittest.TestCase):
     def setUp(self):
+        # These tests isolate price, safety, public-gate and priority behavior.
+        # Actual source/time rechecks have dedicated offline integration fixtures
+        # in test_current_s_eligibility.py; no production evidence is changed.
+        current = patch.object(daily.current_s_eligibility, "assess_current",
+            side_effect=lambda rows, root, **kwargs: {
+                str(r.get("pd_no") or ""): {"eligible": True, "reasons": []} for r in rows})
+        current.start()
+        self.addCleanup(current.stop)
+        recommendations = patch.object(daily.gate_signature, "current_recommendations",
+                                       return_value=[{"pd_no": "123", "grade": "S"}])
+        recommendations.start()
+        self.addCleanup(recommendations.stop)
         # These are mocked Shopify runs. Never leave a fictitious product in
         # the repository's real price observation ledger.
         price_log = patch.object(daily, "log_price_position")
@@ -48,14 +60,20 @@ class DailySafetyTests(unittest.TestCase):
         self.addCleanup(covered.stop)
 
     def test_all_categories_s_only_without_a_fallback(self):
-        skin = daily.s_ranked(daily.CATEGORIES[0])
-        self.assertTrue(skin and all(x["grade"] == "S" for x in skin))
-        for cat in daily.CATEGORIES:
-            self.assertTrue(all(x["grade"] == "S" for x in daily.s_ranked(cat)))
-            self.assertEqual(daily.grade_label(cat), "S")
-            fixture={"all_scored":[{"pd_no":"a","bucket":cat[1],"grade":"A","shopify_score":99}]}
-            with patch.object(Path, "read_text", return_value=json.dumps(fixture)):
-                self.assertEqual(daily.s_ranked(cat), [])
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)):
+            path = Path(folder)/"data/daiso_real/shopify_demand_score.json"
+            path.parent.mkdir(parents=True)
+            for cat in daily.CATEGORIES:
+                fixture = {"all_scored": [
+                    {"pd_no": "s", "desk": cat[0], "grade": "S", "shopify_score": 90},
+                    {"pd_no": "a", "desk": cat[0], "grade": "A", "shopify_score": 99}]}
+                path.write_text(json.dumps(fixture), encoding="utf-8")
+                rows = daily.s_ranked(cat, priority={})
+                self.assertEqual([row["pd_no"] for row in rows], ["s"])
+                self.assertEqual(daily.grade_label(cat), "S")
+                fixture["all_scored"].pop(0)
+                path.write_text(json.dumps(fixture), encoding="utf-8")
+                self.assertEqual(daily.s_ranked(cat, priority={}), [])
 
     def test_pick_never_promotes_lower_grade_or_recommendations(self):
         rows = [{"pd_no": "1", "grade": "S", "shopify_score": 99}]
@@ -1100,6 +1118,17 @@ class DailySafetyTests(unittest.TestCase):
                 safety_patch.stop()
                 os.chdir(cwd)
         return code, result, registry, shop
+
+    def test_current_s_evidence_expiry_immediately_before_create_blocks_write(self):
+        expired = {"eligible": False, "reasons": ["product_observation_stale"]}
+        with patch.object(daily.current_s_eligibility, "assess_current", return_value={"123": expired}):
+            _, result, registry, shop = self._run_main(self._ok_pricing(), lambda candidate: [candidate])
+        self.assertEqual(result["results"][0]["status"], "skipped_current_s_evidence_expired")
+        self.assertEqual(result["results"][0]["current_s_eligibility"], expired)
+        self.assertEqual(registry["items"], [])
+        shop.create.assert_not_called()
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
 
     def test_loss_making_but_evidenced_s_product_registers_with_warning(self):
         warnings = ["single:price_at_or_below_breakeven", "pack:margin_below_target:-25.0%<40.0%"]

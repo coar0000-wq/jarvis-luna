@@ -50,6 +50,7 @@ import hashlib
 from html import escape
 import tempfile
 import gate_signature
+import current_s_eligibility
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -1524,11 +1525,12 @@ def apply_priority(rows, priority):
 
 
 def s_ranked(cat, priority=None):
-    """Canonical S-grade rows only; missing or invalid source is an error, not permission to improvise.
+    """Canonical S-grade rows with independently current market/product evidence only.
 
     Candidates and grades come only from the canonical score file (S only, config bucket map). The offline commercial
     priority (live_s_priority) may reorder those S rows and annotates each with transparent `_priority` metadata; it never
-    adds, removes or upgrades anything. Without a usable strategy the canonical order (grade, shopify_score) is kept."""
+    adds, removes or upgrades anything. The evidence check excludes expired registration eligibility while retaining
+    historical grades. Without a usable strategy the canonical order (grade, shopify_score) is kept."""
     d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
     if not isinstance(d.get("all_scored"), list):
         raise ValueError("Canonical grade list unavailable")
@@ -1536,6 +1538,9 @@ def s_ranked(cat, priority=None):
     # 2026-10-11 카테고리 전담팀: 점수 파일의 desk(다이소몰 카테고리 목록 기준)가 있으면 그것으로 고른다.
     rows = [r for r in d["all_scored"] if r.get("grade") in allowed
             and ((r.get("desk") == cat[0]) if "desk" in r else (r.get("bucket") in BUCKETS[cat[0]]))]
+    evidence = current_s_eligibility.assess_current(rows, ROOT)
+    rows = [dict(r, current_s_eligibility=evidence[str(r.get("pd_no") or "")])
+            for r in rows if evidence[str(r.get("pd_no") or "")]["eligible"]]
     rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
     if not rows:
         return rows
@@ -2527,6 +2532,14 @@ def main():
                     item["status"] = "DRAFT"
                     if "owner_category_fallback_draft_only" not in reasons:
                         reasons.append("owner_category_fallback_draft_only")
+                if p.get("_source") == "jarvis_s_list":
+                    current_evidence = current_s_eligibility.assess_current(
+                        [{"pd_no": str(p["pdNo"]), "grade": p.get("_grade")}], ROOT)[str(p["pdNo"])]
+                    rec["current_s_eligibility"] = current_evidence
+                    if not current_evidence["eligible"]:
+                        rec["status"] = "skipped_current_s_evidence_expired"
+                        results.append(rec)
+                        continue
                 cmpd = pr.get("shop_compare") or {}
                 entry = {"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])),
                          "name_kr": clean_name(p["pdNm"]), "title": title, "category": cat[0],
