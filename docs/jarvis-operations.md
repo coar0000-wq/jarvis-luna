@@ -95,3 +95,15 @@ GitHub의 정수 초 단위 완료/검증 메타데이터는 해당 초의 반�
 Watch의 원본 entity 이벤트는 모두 보존한다. 같은 관측에서 발생한 다수 이벤트는 기존 팀별 불변 event_batch 참조로 묶어 하나의 제한된 로컬 보고서 작업으로 검토한다. 원본 event ID/근거/시각을 삭제하거나 성과 개선으로 바꾸지 않는다. 묶음 참조와 정확한 event ID 목록의 해시는 무결성 증명일 뿐 승인 권한이 아니다.
 
 2026-10-06 로컬 실제 검증: 고정된 11팀 모두 제한된 저장 스냅샷 검토를 완료했다. 신규 13개 로컬 실행은 decision/preparation/outcome을 연결했고 external_verified=0이었다. 동일 목표 재실행에서 tasks/receipts/events/audit/handoffs/decisions/actions/event_batches와 실행 장부 바이트가 그대로였다. 원본 147 receipt/1042 event/151 task 및 authenticated Deep 714개 멤버(712개 보고서 바이트) 보존을 변경 없는 검증기로 확인했다. 이는 로컬 엔진 및 기록 무결성 검증이지 판매·게시 승인이나 측정된 사업 성과가 아니다. Git subtree ZIP의 CRLF export 문제는 검증용 TMP에서 원본 Git blob·receipt hash·authenticated Deep 바이트가 일치할 때만 복구했고 실제 운영 기록을 바꾸지 않았다.
+
+## 운영 지식 그래프의 무손실 분할 저장
+
+`data/operations/knowledge_graph.json`은 작은 그래프에는 기존 JSON을 유지하고, 32MiB를 넘는 그래프에는 버전이 있는 manifest를 저장한다. 실제 `nodes`/`edges`는 `data/operations/knowledge_graph/segment-<sha256>.json`의 불변 JSON 조각에 보관한다. 각 조각은 최대 8MiB이고 manifest도 기존 32MiB 한도를 넘지 않는다. 전체 논리 그래프와 보관 중인 manifest/조각의 총량은 각각 120MiB로 제한하며, 한도 도달 시 기록을 줄이거나 초기화하지 않고 중단한다.
+
+독자는 모든 참조 경로, 정확한 바이트 크기와 SHA256, 순서, 레코드 수, 전체 논리 해시를 검증한 뒤 원래 JSON을 복원한다. 노드/엣지 순서와 각 필드, 정체성, 근거, 영수증 내용이 유지된다. manifest는 그래프의 사업 의미나 승인 상태를 바꾸지 않는다. state/reports의 기존 연속성 복원과 private 경로 정책은 별개로 유지한다.
+
+다음 실행에서는 이전 조각의 개별 레코드를 정확한 내용 해시로 다시 확인하고, 새 레코드와 실제 변경된 버전만 추가 저장한다. manifest의 `(조각 번호, 레코드 번호)` 목록이 원래 순서를 보존하므로 여러 위치에 항목이 추가되어도 기존 전체 조각을 다시 쓰지 않는다. 이전 버전과 더 이상 현재 목록에서 선택하지 않는 레코드도 불변 조각 안에 남는다. Brain 소비자는 manifest와 참조 조각 모두를 검증된 vault에서 읽고, 원래 source timestamp와 각 바이트의 근거 연결을 유지한다. 조각은 별도 데이터셋으로 중복 집계하지 않는다.
+
+발행은 그래프 manifest와 모든 불변 조각을 한 스냅샷으로 검증한다. 조각을 먼저 저장하고 manifest를 마지막에 교체하며 기존 조각과 중단으로 남은 유효한 조각을 덮어쓰거나 지우지 않는다. 동시 그래프 변경은 자동 병합하지 않고 재조정을 요구한다. 최종 재생성 뒤에도 같은 검증을 반복한다.
+
+삭제 사유 검사는 저장 manifest가 아닌 복원된 전체 논리 그래프에 기존 `nodes`/`edges` 회전 규칙을 적용한다. 저장 형식 전환은 삭제 사유가 아니다. 실제 허용된 회전은 정확한 이전/교체 manifest 바이트 해시와 제거된 정체성 목록에 묶이며, 조각 삭제나 루트의 보호된 필드 삭제를 허용하지 않는다.

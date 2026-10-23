@@ -236,6 +236,13 @@ def update(root: Path, paths: list[str]) -> dict:
                 from scripts.restore_operations_safety import _nonregression
                 _nonregression(base_files, local_files)
                 operations_pair = operations.state_pair(base_files, local_files)
+        if rel == 'data/operations/knowledge_graph.json':
+            from scripts import operations_graph_publication as graph
+            base_files = graph.git_snapshot(root, 'HEAD')
+            local_files = graph.snapshot(root)
+            if graph.segmented(base_files) or graph.segmented(local_files):
+                graph.continuation(base_files, local_files)
+                operations_pair = graph.graph_pair(base_files, local_files)
         if base is None or not local_path.exists():
             report[rel] = "no_base_or_local"
             continue
@@ -269,6 +276,9 @@ def update(root: Path, paths: list[str]) -> dict:
         if rel == "data/operations/state.json":
             entry["replacement_sha256"] = sha(local)
             entry["reason"] = "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved."
+        if rel == "data/operations/knowledge_graph.json" and operations_pair is not None:
+            entry["replacement_sha256"] = sha(local)
+            entry["reason"] = "Declared derived nodes/edges rotation; full logical graph checked and all immutable member bytes retained."
         if rel == "data/team_learning.json":
             entry["replacement_sha256"] = sha(local)
             entry["reason"] = "Regenerated reviewed-source projection; exact prior actions and KPIs retained in append-only projection_history, not adopted as current goals."
@@ -323,6 +333,18 @@ def _main(paths) -> int:
         if has_state and (operations.worktree_segmented(ROOT) or
                           operations.segmented(operations.git_snapshot(ROOT, 'HEAD'))):
             changed.append(operations.STATE)
+        from scripts import operations_graph_publication as graph
+        base_graph_raw = head_bytes(ROOT, graph.GRAPH)
+        has_graph = (ROOT / graph.GRAPH).exists() or (ROOT / graph.DIRECTORY).exists()
+        if base_graph_raw is not None:
+            has_graph = has_graph or graph.storage.is_graph_manifest(base_graph_raw)
+        if has_graph:
+            base_graph = graph.git_snapshot(ROOT, 'HEAD')
+            local_graph = graph.snapshot(ROOT)
+            if graph.segmented(base_graph) or graph.segmented(local_graph):
+                # A changed/missing member must be checked even when pointer bytes
+                # are unchanged and it is not among the caller's explicit paths.
+                changed.append(graph.GRAPH)
         paths = sorted(set(paths) | set(changed))
     report = update(ROOT, paths)
     if "--all-declared" in sys.argv[1:]:
