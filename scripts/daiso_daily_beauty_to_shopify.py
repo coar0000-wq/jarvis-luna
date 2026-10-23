@@ -72,6 +72,9 @@ import owner_draft_approval  # noqa: E402
 import body_category_fallback as body_fallback  # noqa: E402
 import pricing_model  # noqa: E402
 from daiso.collect_gosi_alt import notice_value, clean_maker  # noqa: E402
+from scripts.gemini_stop_guard import (  # noqa: E402
+    GeminiStopStateError, ProviderStop, assert_gemini_not_stopped,
+)
 
 STRATEGY = pricing_model.load_commerce_strategy()
 CATEGORIES = [
@@ -494,6 +497,11 @@ def gemini_copy(p, cat):
         f"FACTS: {json.dumps(facts, ensure_ascii=False)}"
     )
     model = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+    try:
+        assert_gemini_not_stopped(ROOT)
+    except (ProviderStop, GeminiStopStateError) as exc:
+        log(f"  gemini skipped: {exc}")
+        return None
     status, body = http_json(
         f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
         {
@@ -605,10 +613,12 @@ def detail_image_urls(pd_no):
 
 
 def vision_read(img_url, pd_no, key, model):
+    assert_gemini_not_stopped(ROOT)
     req = urllib.request.Request(img_url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         data = r.read()
         mime = r.headers.get_content_type() or "image/jpeg"
+    assert_gemini_not_stopped(ROOT)
     status, body = http_json(
         f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
         {
@@ -740,6 +750,7 @@ def _collect_gosi(pd_no, allow_ai=True):
         imgs = detail_image_urls(pd_no)
         log(f"  gosi: detail images {len(imgs)}")
         started = time.monotonic()
+        ai_stopped = False
         for u in reversed(imgs[-6:]):
             if time.monotonic() - started > GOSI_BUDGET_SEC:
                 log("  gosi: 시간 예산 초과, 현재까지 읽은 값으로 계속 진행")
@@ -749,9 +760,15 @@ def _collect_gosi(pd_no, allow_ai=True):
                 try:
                     got = vision_read(u, pd_no, key, model)
                     break
+                except (ProviderStop, GeminiStopStateError) as exc:
+                    log(f"  gosi vision skipped: {exc}")
+                    ai_stopped = True
+                    break
                 except Exception as exc:  # noqa: BLE001
                     log(f"  gosi vision attempt {attempt} failed: {exc}")
                     time.sleep(5)
+            if ai_stopped:
+                break
             if got is None:
                 continue
             for k, v in got.items():

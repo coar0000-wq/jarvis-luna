@@ -7,6 +7,7 @@ import io
 import hashlib
 import http.client
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -14,12 +15,14 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from datetime import datetime, timedelta, timezone
 from unittest import mock
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE / "daiso"))
 import localize_detail_images as ldi  # noqa: E402
+from scripts import gemini_stop_guard as stop_guard  # noqa: E402
 
 import numpy as np  # noqa: E402
 from PIL import Image, ImageDraw, ImageFont  # noqa: E402
@@ -697,24 +700,268 @@ class FitAndResidualTest(unittest.TestCase):
 class TranslatorBudgetTest(unittest.TestCase):
     def setUp(self):
         ldi.GeminiTranslator.calls, ldi.GeminiTranslator.stopped = 0, None
+        self.folder = tempfile.TemporaryDirectory()
+        self.addCleanup(self.folder.cleanup)
+        self.root = Path(self.folder.name)
+        (self.root / "data").mkdir()
+        self.state = self.root / "data/gosi.json"
+        self.save_stops([])
+        for patcher in (
+            mock.patch.object(ldi, "ROOT", self.root),
+            mock.patch("socket.create_connection", side_effect=AssertionError("network forbidden")),
+            mock.patch("socket.socket.connect", side_effect=AssertionError("network forbidden")),
+        ):
+            patcher.start()
+            self.addCleanup(patcher.stop)
 
-    tearDown = setUp
+    def tearDown(self):
+        ldi.GeminiTranslator.calls, ldi.GeminiTranslator.stopped = 0, None
+
+    def save_stops(self, stops, **extra):
+        self.state.write_text(json.dumps(dict(items={}, provider_stops=stops, **extra)))
+
+    def active_stop(self, **extra):
+        return dict(provider="gemini", code=429, category="quota",
+                    stopped_at=datetime.now(timezone.utc).isoformat(), **extra)
+
+    def response(self):
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "candidates": [{"content": {"parts": [{"text": '{"items":[{"id":1,"en":"x"}]}'}]}}]
+        }).encode()
+        return response
 
     def test_call_budget_and_stop_on_quota(self):
         t = ldi.GeminiTranslator("k", "m")
         with mock.patch.object(ldi.GeminiTranslator, "MAX_CALLS", 2), \
-                mock.patch.object(t, "_translate", return_value={1: "x"}):
+                mock.patch.object(ldi.urllib.request, "urlopen", return_value=self.response()) as network:
             t.translate(b"", [], "T", "s")
             t.translate(b"", [], "T", "s")
             with self.assertRaises(RuntimeError):
                 t.translate(b"", [], "T", "s")
+            self.assertEqual(network.call_count, 2)
+            self.assertEqual(ldi.GeminiTranslator.calls, 2)
         ldi.GeminiTranslator.calls = 0
         err = ldi.urllib.error.HTTPError("u", 429, "quota", {}, None)
-        with mock.patch.object(t, "_translate", side_effect=err):
+        with mock.patch.object(ldi.urllib.request, "urlopen", side_effect=err) as network:
             with self.assertRaises(ldi.urllib.error.HTTPError):
                 t.translate(b"", [], "T", "s")
-        with self.assertRaises(RuntimeError):
-            t.translate(b"", [], "T", "s")          # 429 뒤에는 더 부르지 않는다
+            with self.assertRaises(RuntimeError):
+                t.translate(b"", [], "T", "s")          # 429 뒤에는 더 부르지 않는다
+            network.assert_called_once()
+
+    def test_saved_stop_blocks_all_keys_models_before_count_and_network(self):
+        for code, category in ((401, "auth"), (403, "auth"), (429, "quota")):
+            stop = dict(self.active_stop(), code=code, category=category)
+            self.save_stops([stop])
+            before = self.state.read_bytes()
+            with mock.patch.object(ldi.urllib.request, "urlopen") as network:
+                for key, model in (("key-one", "gemini-flash-latest"), ("key-two", "gemini-flash-lite-latest")):
+                    with self.subTest(code=code, model=model), self.assertRaises(stop_guard.ProviderStop):
+                        ldi.GeminiTranslator(key, model).translate(b"", [], "T", "s")
+                network.assert_not_called()
+            self.assertEqual(ldi.GeminiTranslator.calls, 0)
+            self.assertEqual(self.state.read_bytes(), before)
+
+    def test_each_request_rereads_saved_state(self):
+        translator = ldi.GeminiTranslator("k", "m")
+        with mock.patch.object(ldi.urllib.request, "urlopen", return_value=self.response()) as network:
+            self.assertEqual(translator.translate(b"", [], "T", "s"), {1: "x"})
+            self.save_stops([self.active_stop()])
+            with self.assertRaises(stop_guard.ProviderStop):
+                translator.translate(b"", [], "T", "s")
+            network.assert_called_once()
+        self.assertEqual(ldi.GeminiTranslator.calls, 1)
+
+    def test_stop_arriving_during_request_construction_is_checked_before_count(self):
+        request = ldi.urllib.request.Request
+        def build(*args, **kwargs):
+            self.save_stops([self.active_stop()])
+            return request(*args, **kwargs)
+        with mock.patch.object(ldi.urllib.request, "Request", side_effect=build), \
+             mock.patch.object(ldi.urllib.request, "urlopen") as network:
+            with self.assertRaises(stop_guard.ProviderStop):
+                ldi.GeminiTranslator("k", "m").translate(b"", [], "T", "s")
+            network.assert_not_called()
+        self.assertEqual(ldi.GeminiTranslator.calls, 0)
+
+    def test_existing_expiry_boundary_is_read_only_including_history(self):
+        now = datetime(2026, 10, 23, tzinfo=timezone.utc)
+        stop = dict(self.active_stop(), stopped_at=(now - timedelta(hours=24)).isoformat())
+        self.save_stops([stop], provider_stop_history=[dict(stop, expired_at="prior")])
+        before = self.state.read_bytes()
+        with self.assertRaises(stop_guard.ProviderStop):
+            stop_guard.assert_gemini_not_stopped(self.root, now=now - timedelta(microseconds=1))
+        stop_guard.assert_gemini_not_stopped(self.root, now=now)
+        self.assertEqual(self.state.read_bytes(), before)
+        self.assertEqual(list((self.root / "data").iterdir()), [self.state])
+
+    def test_future_missing_naive_and_invalid_clocks_remain_stopped(self):
+        now = datetime(2026, 10, 23, tzinfo=timezone.utc)
+        for value in ((now + timedelta(days=1)).isoformat(), None, "invalid", "2020-01-01T00:00:00"):
+            with self.subTest(clock=value):
+                self.save_stops([dict(self.active_stop(), stopped_at=value)])
+                with self.assertRaises(stop_guard.ProviderStop):
+                    stop_guard.assert_gemini_not_stopped(self.root, now=now)
+
+    def test_other_provider_stops_do_not_disable_gemini(self):
+        self.save_stops([dict(self.active_stop(), provider="daiso", code=403, category="auth")])
+        with mock.patch.object(ldi.urllib.request, "urlopen", return_value=self.response()) as network:
+            self.assertEqual(ldi.GeminiTranslator("k", "m").translate(b"", [], "T", "s"), {1: "x"})
+            network.assert_called_once()
+
+    def test_unavailable_malformed_oversize_state_fails_closed(self):
+        invalid = (None, b"{", b"[]", b'{"items": []}', b'{"items": {}, "provider_stops": {}}',
+                   b'{"items": {}, "provider_stops": [null]}',
+                   b'{"items": {}, "provider_stops": [{}]}',
+                   b'{"items": {}, "provider_stops": [{"provider": "gemini", "code": {}, "stopped_at": "2000-01-01T00:00:00Z"}]}',
+                   b'{"items": {}, "provider_stops": [{"provider": "gemini", "category": []}]}',
+                   b'{"items": {}, "provider_stop_history": {}}',
+                   b'{"items": {}, "provider_stops": [], "provider_stops": []}',
+                   b'{"items": {}, "value": NaN}')
+        for raw in invalid:
+            with self.subTest(raw=raw), mock.patch.object(ldi.urllib.request, "urlopen") as network:
+                self.state.unlink(missing_ok=True)
+                if raw is not None:
+                    self.state.write_bytes(raw)
+                with self.assertRaises(stop_guard.GeminiStopStateError):
+                    ldi.GeminiTranslator("k", "m").translate(b"", [], "T", "s")
+                network.assert_not_called()
+                self.assertEqual(ldi.GeminiTranslator.calls, 0)
+        self.state.write_bytes(b" " * 129)
+        with mock.patch.object(stop_guard, "MAX_BYTES", 128):
+            with self.assertRaises(stop_guard.GeminiStopStateError):
+                stop_guard.assert_gemini_not_stopped(self.root)
+
+    def test_unreadable_and_symlink_state_fails_closed(self):
+        with mock.patch.object(stop_guard.os, "open", side_effect=PermissionError("fixture")):
+            with self.assertRaises(stop_guard.GeminiStopStateError):
+                stop_guard.assert_gemini_not_stopped(self.root)
+        target = self.root / "retained.json"
+        self.state.replace(target)
+        self.state.symlink_to(target)
+        with self.assertRaises(stop_guard.GeminiStopStateError):
+            stop_guard.assert_gemini_not_stopped(self.root)
+
+    def test_file_replaced_before_descriptor_open_is_rejected_without_reading(self):
+        original_open = os.open
+        for replacement in ("regular", "symlink", "directory", "fifo"):
+            if replacement == "fifo" and not hasattr(os, "mkfifo"):
+                continue
+            with self.subTest(replacement=replacement):
+                if self.state.is_dir():
+                    self.state.rmdir()
+                else:
+                    self.state.unlink(missing_ok=True)
+                self.save_stops([])
+                target = self.root / "replacement.json"
+                target.write_text(json.dumps({"items": {}, "provider_stops": []}))
+                opened = []
+                def replace_before_open(path, flags, *args, **kwargs):
+                    self.assertEqual(Path(path), self.state)
+                    if hasattr(os, "O_NONBLOCK"):
+                        self.assertTrue(flags & os.O_NONBLOCK)
+                    if hasattr(os, "O_NOFOLLOW"):
+                        self.assertTrue(flags & os.O_NOFOLLOW)
+                    self.state.unlink()
+                    if replacement == "regular":
+                        target.replace(self.state)
+                    elif replacement == "symlink":
+                        self.state.symlink_to(target)
+                    elif replacement == "directory":
+                        self.state.mkdir()
+                    else:
+                        os.mkfifo(self.state)
+                    fd = original_open(path, flags, *args, **kwargs)
+                    opened.append(fd)
+                    return fd
+                with mock.patch.object(stop_guard.os, "open", side_effect=replace_before_open), \
+                     mock.patch.object(stop_guard.os, "fdopen") as reader:
+                    with self.assertRaises(stop_guard.GeminiStopStateError):
+                        stop_guard.assert_gemini_not_stopped(self.root)
+                    reader.assert_not_called()
+                for fd in opened:
+                    with self.assertRaises(OSError):
+                        os.fstat(fd)  # Failure paths close every descriptor.
+
+    def test_oversize_descriptor_and_growth_during_read_fail_closed(self):
+        original_open = os.open
+        def grow_before_open(path, flags, *args, **kwargs):
+            self.state.write_bytes(b" " * 129)
+            return original_open(path, flags, *args, **kwargs)
+        with mock.patch.object(stop_guard, "MAX_BYTES", 128), \
+             mock.patch.object(stop_guard.os, "open", side_effect=grow_before_open), \
+             mock.patch.object(stop_guard.os, "fdopen") as reader:
+            with self.assertRaises(stop_guard.GeminiStopStateError):
+                stop_guard.assert_gemini_not_stopped(self.root)
+            reader.assert_not_called()
+        self.save_stops([])
+        original_fdopen = os.fdopen
+        def growing_reader(fd, *args, **kwargs):
+            stream = original_fdopen(fd, *args, **kwargs)
+            wrapped = mock.MagicMock()
+            def read(limit):
+                self.assertEqual(limit, stop_guard.MAX_BYTES + 1)
+                raw = stream.read(limit)
+                with self.state.open("ab") as writer:
+                    writer.write(b" ")
+                return raw
+            wrapped.__enter__.return_value.read.side_effect = read
+            wrapped.__exit__.side_effect = lambda *exc: stream.close()
+            return wrapped
+        with mock.patch.object(stop_guard.os, "fdopen", side_effect=growing_reader):
+            with self.assertRaises(stop_guard.GeminiStopStateError):
+                stop_guard.assert_gemini_not_stopped(self.root)
+
+    def test_replacement_after_descriptor_open_rejects_stale_state(self):
+        original_fdopen = os.fdopen
+        def replace_after_open(fd, *args, **kwargs):
+            replacement = self.root / "new-stop.json"
+            replacement.write_text(json.dumps({"items": {}, "provider_stops": [self.active_stop()]}))
+            replacement.replace(self.state)
+            return original_fdopen(fd, *args, **kwargs)
+        with mock.patch.object(stop_guard.os, "fdopen", side_effect=replace_after_open):
+            with self.assertRaises(stop_guard.GeminiStopStateError):
+                stop_guard.assert_gemini_not_stopped(self.root)
+
+    def test_github_actions_import_from_foreign_cwd_keeps_guard_active(self):
+        self.save_stops([self.active_stop()])
+        code = f'''
+import importlib.util, socket, urllib.request
+from pathlib import Path
+def blocked(*args, **kwargs): raise AssertionError("network forbidden")
+socket.create_connection = blocked
+socket.socket.connect = blocked
+urllib.request.urlopen = blocked
+spec = importlib.util.spec_from_file_location("isolated_localize", {str(Path(ldi.__file__).resolve())!r})
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+module.ROOT = Path({str(self.root)!r})
+before = (module.ROOT / "data/gosi.json").read_bytes()
+from scripts.gemini_stop_guard import ProviderStop
+try:
+    module.GeminiTranslator("offline-key", "fixture-model").translate(b"", [], "T", "s")
+except ProviderStop:
+    pass
+else:
+    raise AssertionError("persisted STOP was not applied")
+assert module.GeminiTranslator.calls == 0
+assert (module.ROOT / "data/gosi.json").read_bytes() == before
+'''
+        result = subprocess.run([sys.executable, "-I", "-B", "-c", code], cwd=self.root,
+                                env={**os.environ, "GITHUB_ACTIONS": "true", "PYTHONPATH": ""},
+                                capture_output=True, text=True, timeout=10)
+        self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_reviewed_translation_is_independent_of_saved_gemini_stop(self):
+        self.save_stops([self.active_stop()])
+        path = self.root / "reviewed.json"
+        path.write_text(json.dumps({"translator": "fixture", "panels": {"panel": {"1": "Reviewed"}}}))
+        with mock.patch.object(ldi.urllib.request, "urlopen") as network:
+            translator = ldi.translator_from_env(str(path))
+            self.assertEqual(translator.translate(b"", [], "T", "panel"), {1: "Reviewed"})
+            network.assert_not_called()
+        self.assertEqual(ldi.GeminiTranslator.calls, 0)
 
 
 @unittest.skipUnless(has_korean_ocr() and korean_font(), "Korean OCR or font not installed")
