@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:40:23.393245+00:00",
+  "generated_at": "2026-10-23T02:07:16.334322+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 51,
   "items": [
@@ -104,16 +104,6 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000262",
-      "pd_no": "1073405",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Pro-5 Collagen Anti-Ageing Facial Serum' (ulta_beauty) 유사 26% · 토큰 serum · S제외:weak_solo_token"
-    },
-    {
       "canonical_product_id": "CP000083",
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
@@ -122,6 +112,16 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000262",
+      "pd_no": "1073405",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000052",
@@ -304,6 +304,16 @@
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
     },
     {
+      "canonical_product_id": "CP000234",
+      "pd_no": "1068861",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak"
+    },
+    {
       "canonical_product_id": "CP000088",
       "pd_no": "1044967",
       "name": "어퓨 더퓨어 티트리 에센스 50ml",
@@ -392,16 +402,6 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'Instant Angel Lipid-Rich Firming Moisturizer' (sokoglam_us) 유사 36% · 토큰 moisturizer · S제외:match_too_weak"
-    },
-    {
-      "canonical_product_id": "CP000080",
-      "pd_no": "1044110",
-      "name": "존슨즈 베이비 로션 핑크 200ml",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[3sizes] ILLIYOON Ceramide Ato Lotion' (oliveyoung_us) 유사 28% · 토큰 lotion · S제외:weak_solo_token"
     }
   ]
 }

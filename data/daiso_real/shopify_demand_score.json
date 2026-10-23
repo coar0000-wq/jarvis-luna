@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:40:23.393245+00:00",
+  "generated_at": "2026-10-23T02:07:16.334322+00:00",
   "total_products": 356,
   "grade_summary": {
     "S": 6,
@@ -58,8 +58,8 @@
     "amazon_movers_beauty",
     "amazon_new_beauty"
   ],
-  "global_demand_signals": 312,
-  "products_with_global_match": 171,
+  "global_demand_signals": 313,
+  "products_with_global_match": 169,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -270,7 +270,7 @@
         "keyword": 5,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -301,19 +301,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -385,12 +384,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.764,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.43
+          "match_score": 0.459
         },
         {
           "channel": "oliveyoung_us",
@@ -1142,7 +1141,7 @@
         "keyword": 5,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1173,19 +1172,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -1335,12 +1333,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.764,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.43
+          "match_score": 0.459
         },
         {
           "channel": "oliveyoung_us",
@@ -1668,63 +1666,6 @@
       "desk": "skincare"
     },
     {
-      "pd_no": "1073405",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "site_category": "미스트/픽서",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1616,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
-      "shopify_score": 96,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
-      "us_market_hits": 16,
-      "us_median_price_usd": 24.9,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 19.4,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Pro-5 Collagen Anti-Ageing Facial Serum",
-        "similarity": 0.263,
-        "demand_weight": 0.51,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.134
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pro-5 Collagen Anti-Ageing Facial Serum",
-          "similarity": 0.263,
-          "demand_weight": 0.51,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.134
-        }
-      ],
-      "recommend_reason": "글로벌 'Pro-5 Collagen Anti-Ageing Facial Serum' (ulta_beauty) 유사 26% · 토큰 serum · S제외:weak_solo_token",
-      "canonical_product_id": "CP000262",
-      "desk": "skincare"
-    },
-    {
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
       "bucket": "스킨케어",
@@ -1759,6 +1700,43 @@
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000083",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1073405",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "site_category": "미스트/픽서",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1616,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
+      "shopify_score": 96,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.9,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 19.4,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000262",
       "desk": "skincare"
     },
     {
@@ -1816,19 +1794,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -1900,12 +1877,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.564,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.317
+          "match_score": 0.339
         },
         {
           "channel": "oliveyoung_us",
@@ -2057,14 +2034,14 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Retinol Ceramide Line Erasing Eye Cream",
-          "similarity": 0.82,
+          "global_product": "Unicretinol++ Night Cream",
+          "similarity": 0.853,
           "demand_weight": 0.425,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.348
+          "match_score": 0.363
         },
         {
           "channel": "amazon_new_beauty",
@@ -2139,14 +2116,14 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Retinol Ceramide Line Erasing Eye Cream",
-          "similarity": 0.82,
+          "global_product": "Unicretinol++ Night Cream",
+          "similarity": 0.853,
           "demand_weight": 0.425,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.348
+          "match_score": 0.363
         },
         {
           "channel": "amazon_new_beauty",
@@ -2392,14 +2369,14 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.657,
+          "global_product": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
+          "similarity": 0.65,
           "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "moisturizer"
           ],
-          "match_score": 0.312
+          "match_score": 0.309
         }
       ],
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 71% · 토큰 cream, moisturizer",
@@ -2854,12 +2831,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.764,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.43
+          "match_score": 0.459
         },
         {
           "channel": "oliveyoung_us",
@@ -3101,30 +3078,30 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.647,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "hydrating",
           "mask"
         ],
-        "match_score": 0.312
+        "match_score": 0.307
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.733,
-          "demand_weight": 0.425,
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.647,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.312
+          "match_score": 0.307
         }
       ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 65% · 토큰 hydrating, mask",
       "canonical_product_id": "CP000038",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -3272,15 +3249,15 @@
           "match_score": 0.418
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "24K Gold & Collagen Facial Mask Set",
-          "similarity": 0.88,
-          "demand_weight": 0.468,
+          "channel": "sokoglam_us",
+          "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
+          "similarity": 0.853,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "collagen",
             "mask"
           ],
-          "match_score": 0.412
+          "match_score": 0.405
         }
       ],
       "recommend_reason": "글로벌 'Arocell Super Collagen Mask 4 Sheets 1.51 oz.(43g)' (oliveyoung_us) 유사 88% · 토큰 collagen, mask",
@@ -3369,88 +3346,6 @@
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
     },
     {
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "site_category": "페이셜팩",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 4.8,
-      "review_count": 3884,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "shopify_score": 90,
-      "grade": "A",
-      "s_rule": "no_category_desk",
-      "us_market_hits": 7,
-      "us_median_price_usd": 22.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 20.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 21.9,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.312
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.733,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.312
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
-          "similarity": 0.638,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.303
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen, Plump & Hydrate | Overnight Face Mask for Glass Glow Skin - Hydration, Firming, Moisturizing & Elasticity Care, Korean Skincare, 28g x 4ea",
-          "similarity": 0.638,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.303
-        }
-      ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
-      "canonical_product_id": "CP000109",
-      "desk": null,
-      "downgrade_reason": "전담팀 범위 밖 카테고리"
-    },
-    {
       "pd_no": "1071644",
       "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
       "bucket": "스킨케어",
@@ -3506,17 +3401,6 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.657,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "cream",
-            "hydrating"
-          ],
-          "match_score": 0.312
-        },
-        {
-          "channel": "amazon_best_sellers",
           "global_product": "medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.",
           "similarity": 0.647,
           "demand_weight": 0.475,
@@ -3525,6 +3409,17 @@
             "hydrating"
           ],
           "match_score": 0.307
+        },
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Erborian CC Cream, Color-Correct, Evens Tone, Korean Skincare Makeup Hybrid | Moisturizing, lightweight, skin blurring for natural radiant luminous finish, hydrating, buildable, everyday wear",
+          "similarity": 0.636,
+          "demand_weight": 0.375,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.239
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating",
@@ -3533,28 +3428,28 @@
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
     },
     {
-      "pd_no": "1068861",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
-      "site_category": "패치",
+      "site_category": "페이셜팩",
       "rebucketed": false,
-      "price_krw": 2000,
-      "rating": 4.7,
-      "review_count": 953,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068861",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "price_krw": 3000,
+      "rating": 4.8,
+      "review_count": 3884,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "shopify_score": 90,
       "grade": "A",
       "s_rule": "no_category_desk",
-      "us_market_hits": 18,
-      "us_median_price_usd": 27.0,
+      "us_market_hits": 7,
+      "us_median_price_usd": 22.0,
       "score_breakdown": {
         "category": 25.0,
-        "rating": 11.7,
-        "reviews": 18.1,
+        "rating": 13.3,
+        "reviews": 20.0,
         "price": 10.0,
         "keyword": 0,
-        "us_market_fit": 25.0,
+        "us_market_fit": 21.9,
         "rebucket_note": "",
         "global_similarity_reference_only": 8,
         "penalty": 0,
@@ -3564,51 +3459,53 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-        "similarity": 0.689,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.647,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "brightening",
-          "cream"
+          "hydrating",
+          "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.307
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-          "similarity": 0.689,
-          "demand_weight": 0.425,
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.647,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "brightening",
-            "cream"
+            "hydrating",
+            "mask"
           ],
-          "match_score": 0.293
+          "match_score": 0.307
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.722,
+          "channel": "amazon_best_sellers",
+          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
+          "similarity": 0.638,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "brightening"
+            "hydrating",
+            "mask"
           ],
-          "match_score": 0.258
+          "match_score": 0.303
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen, Plump & Hydrate | Overnight Face Mask for Glass Glow Skin - Hydration, Firming, Moisturizing & Elasticity Care, Korean Skincare, 28g x 4ea",
+          "similarity": 0.638,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "brightening"
+            "hydrating",
+            "mask"
           ],
-          "match_score": 0.144
+          "match_score": 0.303
         }
       ],
-      "recommend_reason": "글로벌 'Visible Brightening Clearly Radiant Bounce Cream' (ulta_beauty) 유사 69% · 토큰 brightening, cream",
-      "canonical_product_id": "CP000234",
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 65% · 토큰 hydrating, mask",
+      "canonical_product_id": "CP000109",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
     },
@@ -3682,18 +3579,75 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.564,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.317
+          "match_score": 0.339
         }
       ],
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000190",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
+    },
+    {
+      "pd_no": "1068861",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "site_category": "패치",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.7,
+      "review_count": 953,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068861",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "shopify_score": 90,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 18,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 18.1,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.357,
+        "demand_weight": 0.722,
+        "matched_tokens": [
+          "brightening"
+        ],
+        "match_score": 0.258
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.722,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.258
+        }
+      ],
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak",
+      "canonical_product_id": "CP000234",
+      "desk": null
     },
     {
       "pd_no": "1044967",
@@ -3835,15 +3789,15 @@
           "match_score": 0.32
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "24K Gold & Collagen Facial Mask Set",
-          "similarity": 0.68,
-          "demand_weight": 0.468,
+          "channel": "sokoglam_us",
+          "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
+          "similarity": 0.653,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "collagen",
             "mask"
           ],
-          "match_score": 0.318
+          "match_score": 0.31
         }
       ],
       "recommend_reason": "글로벌 'Arocell Super Collagen Mask 4 Sheets 1.51 oz.(43g)' (oliveyoung_us) 유사 68% · 토큰 collagen, mask",
@@ -4290,14 +4244,14 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.657,
+          "global_product": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
+          "similarity": 0.65,
           "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "moisturizer"
           ],
-          "match_score": 0.312
+          "match_score": 0.309
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -4498,7 +4452,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 85,
       "grade": "A",
-      "s_rule": "form_cap",
+      "s_rule": "no_category_desk",
       "us_market_hits": 25,
       "us_median_price_usd": 27.0,
       "score_breakdown": {
@@ -4543,12 +4497,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.564,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.317
+          "match_score": 0.339
         },
         {
           "channel": "oliveyoung_us",
@@ -4565,7 +4519,7 @@
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000325",
       "desk": null,
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
+      "downgrade_reason": "전담팀 범위 밖 카테고리"
     },
     {
       "pd_no": "1049277",
@@ -4622,17 +4576,6 @@
           "match_score": 0.209
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.433,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.184
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "SKIN1004 Madagascar Centella Light Cleansing Oil 6.76 fl. oz.(200ml)",
           "similarity": 0.35,
@@ -4641,6 +4584,17 @@
             "centella"
           ],
           "match_score": 0.171
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.347,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "hydrating",
+            "mask"
+          ],
+          "match_score": 0.165
         }
       ],
       "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak",
@@ -4873,12 +4827,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.344,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "firming"
           ],
-          "match_score": 0.194
+          "match_score": 0.207
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 41% · 토큰 cream, hydrating · S제외:match_too_weak",
@@ -4994,25 +4948,25 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.267,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.249,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "hydrating"
         ],
-        "match_score": 0.113
+        "match_score": 0.118
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.267,
-          "demand_weight": 0.425,
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.249,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.113
+          "match_score": 0.118
         },
         {
           "channel": "ulta_beauty",
@@ -5025,7 +4979,7 @@
           "match_score": 0.112
         }
       ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 27% · 토큰 hydrating · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 25% · 토큰 hydrating · S제외:weak_solo_token",
       "canonical_product_id": "CP000258",
       "desk": null
     },
@@ -6980,78 +6934,21 @@
             "moisturizer"
           ],
           "match_score": 0.274
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Multi-Active Night Moisturizer for Lines, Pores, Glow with Niacinamide",
+          "similarity": 0.64,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.272
         }
       ],
       "recommend_reason": "글로벌 'The Ceramide Skin Barrier Moisturizer For Sensitive Skin' (ulta_beauty) 유사 66% · 토큰 moisturizer · S제외:score_below_82",
       "canonical_product_id": "CP000026",
       "desk": "skincare"
-    },
-    {
-      "pd_no": "1062241",
-      "name": "메디필 물톡스 광채 보습 패드 2.0 50매입",
-      "bucket": "스킨케어",
-      "site_category": "패드",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 2362,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062241",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/8rCahwMC1vvVWRSqqZND1062241_00_008rCahwMC1vvVWRSqqZND.jpg",
-      "shopify_score": 68,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 20.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.267,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating"
-        ],
-        "match_score": 0.113
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.267,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.113
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pout Preserve Hydrating Peptide Lip Treatment",
-          "similarity": 0.263,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.112
-        }
-      ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 27% · 토큰 hydrating · S제외:score_below_82",
-      "canonical_product_id": "CP000187",
-      "desk": null
     },
     {
       "pd_no": "1059095",
@@ -7129,6 +7026,73 @@
       "recommend_reason": "글로벌 '7-Color LED Photon Rejuvenation Super Mask + NIR Technology (Limited Edition)' (ulta_beauty) 유사 26% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000145",
       "desk": "skincare"
+    },
+    {
+      "pd_no": "1062241",
+      "name": "메디필 물톡스 광채 보습 패드 2.0 50매입",
+      "bucket": "스킨케어",
+      "site_category": "패드",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 2362,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062241",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/8rCahwMC1vvVWRSqqZND1062241_00_008rCahwMC1vvVWRSqqZND.jpg",
+      "shopify_score": 68,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 20.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 3,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.249,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "hydrating"
+        ],
+        "match_score": 0.118
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.249,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "hydrating"
+          ],
+          "match_score": 0.118
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Pout Preserve Hydrating Peptide Lip Treatment",
+          "similarity": 0.263,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "hydrating"
+          ],
+          "match_score": 0.112
+        }
+      ],
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 25% · 토큰 hydrating · S제외:score_below_82",
+      "canonical_product_id": "CP000187",
+      "desk": null
     },
     {
       "pd_no": "1061880",
@@ -7656,14 +7620,14 @@
         },
         {
           "channel": "amazon_new_beauty",
-          "global_product": "LONDONTOWN Peptide Serum Concentrate for Nail & Cuticle Repair and Recovery | Lightweight, Non-Greasy, Intense Hydration for Flawless Nails",
-          "similarity": 0.657,
+          "global_product": "CeraVe Super Boost Anti-Aging Serum with Peptides & Hyaluronic Acid | Face Serum with Ceramides, Peptides, Hyaluronic Acid, Vitamin B12 & LHA, Fine Lines & Wrinkles, Hydrating Milky Texture",
+          "similarity": 0.647,
           "demand_weight": 0.375,
           "matched_tokens": [
             "hydrating",
             "serum"
           ],
-          "match_score": 0.246
+          "match_score": 0.243
         }
       ],
       "recommend_reason": "글로벌 'The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin' (amazon_best_sellers) 유사 67% · 토큰 hydrating, serum · S제외:score_below_82",
@@ -7852,7 +7816,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7863,22 +7827,32 @@
         "channel": "amazon_new_beauty",
         "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
         "similarity": 0.622,
-        "demand_weight": 0.562,
+        "demand_weight": 0.6,
         "matched_tokens": [
           "antiaging"
         ],
-        "match_score": 0.35
+        "match_score": 0.373
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.622,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "antiaging"
           ],
-          "match_score": 0.35
+          "match_score": 0.373
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Anti-Aging Cream Cleanser with Marine Collagen",
+          "similarity": 0.657,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "antiaging"
+          ],
+          "match_score": 0.279
         },
         {
           "channel": "amazon_new_beauty",
@@ -8074,7 +8048,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8101,6 +8075,16 @@
             "pore"
           ],
           "match_score": 0.152
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Multi-Active Night Moisturizer for Lines, Pores, Glow with Niacinamide",
+          "similarity": 0.34,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.144
         }
       ],
       "recommend_reason": "글로벌 'Day Routine Kit for Pore Care & Smooth Skin' (ulta_beauty) 유사 36% · 토큰 pore · S제외:score_below_82",
@@ -8813,7 +8797,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8824,22 +8808,32 @@
         "channel": "amazon_new_beauty",
         "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
         "similarity": 0.622,
-        "demand_weight": 0.562,
+        "demand_weight": 0.6,
         "matched_tokens": [
           "antiaging"
         ],
-        "match_score": 0.35
+        "match_score": 0.373
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.622,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "antiaging"
           ],
-          "match_score": 0.35
+          "match_score": 0.373
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Anti-Aging Cream Cleanser with Marine Collagen",
+          "similarity": 0.657,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "antiaging"
+          ],
+          "match_score": 0.279
         },
         {
           "channel": "amazon_new_beauty",
@@ -9148,97 +9142,18 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.657,
+          "global_product": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
+          "similarity": 0.65,
           "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "moisturizer"
           ],
-          "match_score": 0.312
+          "match_score": 0.309
         }
       ],
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 71% · 토큰 cream, moisturizer · S제외:score_below_82",
       "canonical_product_id": "CP000189",
-      "desk": "skincare"
-    },
-    {
-      "pd_no": "1068858",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 60,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-        "similarity": 0.689,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "brightening",
-          "cream"
-        ],
-        "match_score": 0.293
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-          "similarity": 0.689,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening",
-            "cream"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.722,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.258
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Visible Brightening Clearly Radiant Bounce Cream' (ulta_beauty) 유사 69% · 토큰 brightening, cream · S제외:score_below_82",
-      "canonical_product_id": "CP000233",
       "desk": "skincare"
     },
     {
@@ -9470,6 +9385,63 @@
       ],
       "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000246",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1068858",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 18,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.357,
+        "demand_weight": 0.722,
+        "matched_tokens": [
+          "brightening"
+        ],
+        "match_score": 0.258
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.722,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.258
+        }
+      ],
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
+      "canonical_product_id": "CP000233",
       "desk": "skincare"
     },
     {
@@ -9789,19 +9761,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -10231,17 +10202,6 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.457,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "cream",
-            "hydrating"
-          ],
-          "match_score": 0.217
-        },
-        {
-          "channel": "amazon_best_sellers",
           "global_product": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
           "similarity": 0.45,
           "demand_weight": 0.475,
@@ -10250,6 +10210,17 @@
             "repair"
           ],
           "match_score": 0.214
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.",
+          "similarity": 0.447,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 51% · 토큰 cream, hydrating · S제외:score_below_82",
@@ -12079,7 +12050,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12106,6 +12077,16 @@
             "pore"
           ],
           "match_score": 0.152
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Multi-Active Night Moisturizer for Lines, Pores, Glow with Niacinamide",
+          "similarity": 0.34,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.144
         }
       ],
       "recommend_reason": "글로벌 'Day Routine Kit for Pore Care & Smooth Skin' (ulta_beauty) 유사 36% · 토큰 pore · S제외:score_below_82",
@@ -12188,63 +12169,6 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:score_below_82",
       "canonical_product_id": "CP000300",
       "desk": null
-    },
-    {
-      "pd_no": "B202604026513",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "site_category": "미스트/픽서",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
-      "shopify_score": 56,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 16,
-      "us_median_price_usd": 24.9,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 5,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Pro-5 Collagen Anti-Ageing Facial Serum",
-        "similarity": 0.263,
-        "demand_weight": 0.51,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.134
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pro-5 Collagen Anti-Ageing Facial Serum",
-          "similarity": 0.263,
-          "demand_weight": 0.51,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.134
-        }
-      ],
-      "recommend_reason": "글로벌 'Pro-5 Collagen Anti-Ageing Facial Serum' (ulta_beauty) 유사 26% · 토큰 serum · S제외:score_below_82",
-      "canonical_product_id": "CP000297",
-      "desk": "skincare"
     },
     {
       "pd_no": "1061917",
@@ -12620,6 +12544,43 @@
       "desk": null
     },
     {
+      "pd_no": "B202604026513",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "site_category": "미스트/픽서",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
+      "shopify_score": 56,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 16,
+      "us_median_price_usd": 24.9,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 5,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000297",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "B202604026516",
       "name": "어퓨 더퓨어 티트리 스팟 세럼 8 ml",
       "bucket": "스킨케어",
@@ -12680,7 +12641,7 @@
         "keyword": 5,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12711,19 +12672,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -12735,65 +12695,6 @@
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000302",
       "desk": "skincare"
-    },
-    {
-      "pd_no": "B202604015989",
-      "name": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
-      "site_category": "시트팩",
-      "rebucketed": false,
-      "price_krw": 10000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604015989&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "shopify_score": 55,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 11,
-      "us_median_price_usd": 29.99,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 4.0,
-        "keyword": 3,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 7,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.733,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.312
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.733,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.312
-        }
-      ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask · S제외:score_below_82",
-      "canonical_product_id": "CP000283",
-      "desk": null
     },
     {
       "pd_no": "B202604016239",
@@ -12850,19 +12751,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -12873,6 +12773,65 @@
       ],
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000293",
+      "desk": null
+    },
+    {
+      "pd_no": "B202604015989",
+      "name": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "site_category": "시트팩",
+      "rebucketed": false,
+      "price_krw": 10000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604015989&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "shopify_score": 55,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 11,
+      "us_median_price_usd": 29.99,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 4.0,
+        "keyword": 3,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.647,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "hydrating",
+          "mask"
+        ],
+        "match_score": 0.307
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.647,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "hydrating",
+            "mask"
+          ],
+          "match_score": 0.307
+        }
+      ],
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 65% · 토큰 hydrating, mask · S제외:score_below_82",
+      "canonical_product_id": "CP000283",
       "desk": null
     },
     {
@@ -13229,12 +13188,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.764,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.43
+          "match_score": 0.459
         },
         {
           "channel": "oliveyoung_us",
@@ -13310,12 +13269,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.764,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.43
+          "match_score": 0.459
         },
         {
           "channel": "oliveyoung_us",
@@ -13806,19 +13765,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -14600,14 +14558,14 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Retinol Ceramide Line Erasing Eye Cream",
-          "similarity": 0.82,
+          "global_product": "Unicretinol++ Night Cream",
+          "similarity": 0.853,
           "demand_weight": 0.425,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.348
+          "match_score": 0.363
         },
         {
           "channel": "amazon_new_beauty",
@@ -14681,14 +14639,14 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Retinol Ceramide Line Erasing Eye Cream",
-          "similarity": 0.82,
+          "global_product": "Unicretinol++ Night Cream",
+          "similarity": 0.853,
           "demand_weight": 0.425,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.348
+          "match_score": 0.363
         },
         {
           "channel": "amazon_new_beauty",
@@ -14860,164 +14818,6 @@
       ],
       "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000312",
-      "desk": "skincare"
-    },
-    {
-      "pd_no": "B202608127176",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "site_category": "패치",
-      "rebucketed": false,
-      "price_krw": 32000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-        "similarity": 0.689,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "brightening",
-          "cream"
-        ],
-        "match_score": 0.293
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-          "similarity": 0.689,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening",
-            "cream"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.722,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.258
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Visible Brightening Clearly Radiant Bounce Cream' (ulta_beauty) 유사 69% · 토큰 brightening, cream · S제외:score_below_82",
-      "canonical_product_id": "CP000332",
-      "desk": null
-    },
-    {
-      "pd_no": "B202604026744",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-        "similarity": 0.689,
-        "demand_weight": 0.425,
-        "matched_tokens": [
-          "brightening",
-          "cream"
-        ],
-        "match_score": 0.293
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Bounce Cream",
-          "similarity": 0.689,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening",
-            "cream"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.722,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.258
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Visible Brightening Clearly Radiant Bounce Cream' (ulta_beauty) 유사 69% · 토큰 brightening, cream · S제외:score_below_82",
-      "canonical_product_id": "CP000321",
       "desk": "skincare"
     },
     {
@@ -15253,6 +15053,120 @@
       "recommend_reason": "글로벌 'Calming Lotus Cream' (sokoglam_us) 유사 40% · 토큰 calming · S제외:score_below_82",
       "canonical_product_id": "CP000140",
       "desk": null
+    },
+    {
+      "pd_no": "B202608127176",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "site_category": "패치",
+      "rebucketed": false,
+      "price_krw": 32000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 18,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.357,
+        "demand_weight": 0.722,
+        "matched_tokens": [
+          "brightening"
+        ],
+        "match_score": 0.258
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.722,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.258
+        }
+      ],
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
+      "canonical_product_id": "CP000332",
+      "desk": null
+    },
+    {
+      "pd_no": "B202604026744",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 18,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.357,
+        "demand_weight": 0.722,
+        "matched_tokens": [
+          "brightening"
+        ],
+        "match_score": 0.258
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.722,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.258
+        }
+      ],
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
+      "canonical_product_id": "CP000321",
+      "desk": "skincare"
     },
     {
       "pd_no": "B202608127273",
@@ -15922,7 +15836,7 @@
         "keyword": 3,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15954,17 +15868,6 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "CC Cream Color-Corrector with Korean 2% Centella Asiatica & Hyaluronic Acid",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "centella",
-            "cream"
-          ],
-          "match_score": 0.34
-        },
-        {
-          "channel": "ulta_beauty",
           "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
           "similarity": 0.793,
           "demand_weight": 0.425,
@@ -15973,6 +15876,16 @@
             "cream"
           ],
           "match_score": 0.337
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.5,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin | Skin healing cream with centella asiatica, shea butter & panthenol. Multi-purpose face, body & hand balm. Baby safe.' (amazon_best_sellers) 유사 76% · 토큰 centella, cream · S제외:score_below_82",
@@ -16411,17 +16324,6 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.657,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "cream",
-            "hydrating"
-          ],
-          "match_score": 0.312
-        },
-        {
-          "channel": "amazon_best_sellers",
           "global_product": "medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.",
           "similarity": 0.647,
           "demand_weight": 0.475,
@@ -16430,6 +16332,17 @@
             "hydrating"
           ],
           "match_score": 0.307
+        },
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Erborian CC Cream, Color-Correct, Evens Tone, Korean Skincare Makeup Hybrid | Moisturizing, lightweight, skin blurring for natural radiant luminous finish, hydrating, buildable, everyday wear",
+          "similarity": 0.636,
+          "demand_weight": 0.375,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.239
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating · S제외:score_below_82",
@@ -16468,25 +16381,25 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Smushy SOS Hydrating Lip Mask",
-        "similarity": 0.267,
-        "demand_weight": 0.425,
+        "channel": "amazon_best_sellers",
+        "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+        "similarity": 0.249,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "hydrating"
         ],
-        "match_score": 0.113
+        "match_score": 0.118
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.267,
-          "demand_weight": 0.425,
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz",
+          "similarity": 0.249,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.113
+          "match_score": 0.118
         },
         {
           "channel": "ulta_beauty",
@@ -16499,7 +16412,7 @@
           "match_score": 0.112
         }
       ],
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 27% · 토큰 hydrating · S제외:score_below_82",
+      "recommend_reason": "글로벌 'medicube Wrapping Mask Collagen - Overnight Peel Off Facial Mask | Elasticity & Hydration Care, Reduces Sagging & Dullness - Hydrolyzed Collagen For Glowing Skin, Korean Skin Care, 2.53 fl.oz' (amazon_best_sellers) 유사 25% · 토큰 hydrating · S제외:score_below_82",
       "canonical_product_id": "CP000288",
       "desk": null
     },
@@ -17430,13 +17343,13 @@
         },
         {
           "channel": "amazon_best_sellers",
-          "global_product": "Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin",
-          "similarity": 0.251,
+          "global_product": "medicube Capsule Cream with Salmon DNA PDRN, Glow & Firming Moisturizer | Lightweight Daily Cream with Pink PDRN & Collagen Capsules for Hydration, Glow & Uneven Tone Care, 1.94 oz.",
+          "similarity": 0.249,
           "demand_weight": 0.475,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.119
+          "match_score": 0.118
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 26% · 토큰 hydrating · S제외:score_below_82",
@@ -17786,7 +17699,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17797,22 +17710,32 @@
         "channel": "amazon_new_beauty",
         "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
         "similarity": 0.622,
-        "demand_weight": 0.562,
+        "demand_weight": 0.6,
         "matched_tokens": [
           "antiaging"
         ],
-        "match_score": 0.35
+        "match_score": 0.373
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.622,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "antiaging"
           ],
-          "match_score": 0.35
+          "match_score": 0.373
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Anti-Aging Cream Cleanser with Marine Collagen",
+          "similarity": 0.657,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "antiaging"
+          ],
+          "match_score": 0.279
         },
         {
           "channel": "amazon_new_beauty",
@@ -17853,7 +17776,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17864,22 +17787,32 @@
         "channel": "amazon_new_beauty",
         "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
         "similarity": 0.622,
-        "demand_weight": 0.562,
+        "demand_weight": 0.6,
         "matched_tokens": [
           "antiaging"
         ],
-        "match_score": 0.35
+        "match_score": 0.373
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
           "similarity": 0.622,
-          "demand_weight": 0.562,
+          "demand_weight": 0.6,
           "matched_tokens": [
             "antiaging"
           ],
-          "match_score": 0.35
+          "match_score": 0.373
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Anti-Aging Cream Cleanser with Marine Collagen",
+          "similarity": 0.657,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "antiaging"
+          ],
+          "match_score": 0.279
         },
         {
           "channel": "amazon_new_beauty",

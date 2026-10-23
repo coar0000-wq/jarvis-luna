@@ -246,17 +246,6 @@
       "reason": "Current canonical legal scope and computed label summary only; exact prior export drafts and source bytes retained as inactive history, not legal approval."
     },
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "2bca8ba4c846e4526ea1d034780cd2466de2156bbe9f0cbbcbaab0f2147553ab",
-      "replacement_sha256": "271cfbea0735d07ee1632aeda67792236115300bb0a660f6e1f6fbf46eed1d6b",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/agents/gemini_escalation.json",
       "base_sha256": "64ed6985371c76506bf78930fe404fe4da121d0b6eaf7ab67293490604fa1382",
       "replacement_sha256": "b496f97cd063011acaf5765c098fdc958844984adb4e9d4726704040894637c8",
@@ -892,26 +881,6 @@
       "delete_file": false
     },
     {
-      "path": "data/market_team.json",
-      "base_sha256": "5ccf0ed134c5852130de6d35e36bb1abf9101f48449a82647e34d89a849d8bca",
-      "ids": [
-        "1072800",
-        "AI 선행 게이트 차단 7건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, us_label",
-        "https://us.oliveyoung.com/products/UA16733220",
-        "https://us.oliveyoung.com/products/UA32407466",
-        "https://us.oliveyoung.com/products/UA49015923",
-        "https://us.oliveyoung.com/products/UA50320378",
-        "https://us.oliveyoung.com/products/UA65685472",
-        "https://us.oliveyoung.com/products/UA69419689",
-        "https://www.youtube.com/watch?v=DqCUQk1RWbw",
-        "https://www.youtube.com/watch?v=_1caEZ7t3UY",
-        "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/oliveyoung_us_products.json",
       "base_sha256": "8e354257b1c7b86250d4114a67b97d48c05952291190449bc1bdcd577273e1cd",
       "ids": [
@@ -981,18 +950,6 @@
       "ids": [
         "https://world.openbeautyfacts.org/product/4070765070989",
         "https://world.openbeautyfacts.org/product/4305615609997"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "5c71b5814a8ca0915a16616a8ee310651b87d3835cb345f220cef142a2d3dffc",
-      "ids": [
-        "action:intent:task_3593f19503f47004fc5cb0100b2e5ab5a40ab3825735a88a0ab5d79be4a1d138",
-        "relation:7f145df68096160f35f11e15",
-        "relation:90aecc7d2aa11836b12709b6"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
@@ -1406,34 +1363,6 @@
       "delete_file": false
     },
     {
-      "path": "data/operations/state.json",
-      "base_sha256": "b350af336804474548360ea68bf015960410b8d1b5be266a1a3f30c6e07bffed",
-      "ids": [
-        "STALE_SOURCE_CAPTURE",
-        "finished_at",
-        "org-url:0bda04879650212886c947e8d4e586828706c56128688c912367356b2d1fd22f",
-        "org-url:249cd63e4603cba23dfe18acc49357dffa95068c7e184608e1618bd090059fe9",
-        "org-url:589b0666e5296bd0c680da796e703d498dda1dfff16a310445f3d2b40f312209",
-        "org-url:627b0c0235c3959ad568234d74506dedcdba40fda5129bc2d226e1a91ed5a04c",
-        "org-url:c12ee338540b7bac4e27ba9a22cf8b986c16f89321f0873f459b614d000fedbb",
-        "org-url:c9c822dcebc87ccfd01938ce6cbf4672772eaa7f5f275e8997c478ba5ebd8087",
-        "org-url:f55407c40768f4a071afffabd76f1960939417e05c74bf6618c57d469ec9f677",
-        "url:0743e130ff03a2e0373741393c2bad8376edde8db0d9839c3c5e0f4745999220",
-        "url:47ca7dbb4b357d26e50c8a755b5ef14ab6f3f7fb99c8f02e4b52c62e9c1f9504",
-        "url:5e4968e8fa1c7d82d6f45a742dcc8d9ffbf704dbd988d0e4789f903e9ca71917",
-        "url:6fe796cd684ef4038c3f810d5cd171fb144b5abf5ec87e4c9646a707a0253dce",
-        "url:7bb4d2e1d754389bb49938b64105cb74c66a5739106604e00f535ec435ed2d39",
-        "url:96ab2909ee8ace674e95e126c0d74da32992e07844ed81bebc8850349dc5e443",
-        "url:cab7ee6c31d60063dce83b5c6e5598fd8f236ffcecc435c589778da8fbf21f3f",
-        "url:d751b4b1f68d4aa2c097df52bc26f397eb1e1789a2507eb824f7bb9c19536bd7",
-        "url:decbc5b6f6ee28b19c3428e33356afea26e54610983ee5dc43ae60f6842190cc"
-      ],
-      "reason": "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false,
-      "replacement_sha256": "fddcfd158e00d1d5f7551a09738d5e9cc522849d189c8826f6306bac8021f72d"
-    },
-    {
       "path": "data/knowledge/real_sources.json",
       "base_sha256": "4940650eb9cac1236b4e12aeb782479c58c0cce61a08e0c940c1a4cdaff59c83",
       "ids": [
@@ -1659,6 +1588,28 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "271cfbea0735d07ee1632aeda67792236115300bb0a660f6e1f6fbf46eed1d6b",
+      "replacement_sha256": "13029b726b4dadeb6ad3103aadb8683595de888d19b4a351b5cbbe800740336e",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "fddcfd158e00d1d5f7551a09738d5e9cc522849d189c8826f6306bac8021f72d",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false,
+      "replacement_sha256": "fe7d19961e7d320e09930d6e703c3fd2e9bcf1a13d21b78fbed66fb391765f9f"
     }
   ]
 }
