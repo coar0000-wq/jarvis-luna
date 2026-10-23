@@ -23,6 +23,17 @@ class VerifiedPagesTests(unittest.TestCase):
     def step(self, name):
         return next(s for s in self.steps if s.get('name') == name)
 
+    def test_pages_upload_preserves_allowlisted_nojekyll(self):
+        upload = self.step('Upload verified site')
+        self.assertEqual(upload['with']['path'], 'dist')
+        self.assertIs(upload['with']['include-hidden-files'], True)
+        # Hidden-file opt-in is confined to the already validated allowlist build.
+        gate = self.step('Validate the exact deployment snapshot')['run']
+        self.assertIn('python scripts/build_public_site.py --output dist', gate)
+        self.assertIn('python scripts/check_public_site.py --root dist', gate)
+        builder = (ROOT / 'scripts/build_public_site.py').read_text()
+        self.assertIn("'.nojekyll'", builder)
+
     def test_only_completed_main_workflows_trigger(self):
         self.assertEqual(set(self.trigger), {'workflow_run', 'workflow_dispatch'})
         trigger = self.trigger['workflow_run']
