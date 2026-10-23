@@ -248,7 +248,9 @@ def main() -> int:
             "products": rows,
         }
         total += len(rows)
-        print(f"[{t['label']:14s}] {len(rows):2d}건  {err[:70] if err else 'OK'}")
+        channel = channels[t["key"]]
+        outcome = "OK" if channel["status"] == "ok" else f"FAILED: {channel['reason']}"
+        print(f"[{t['label']:14s}] {len(rows):2d}건  {outcome[:100]}")
         if not setup_error:
             time.sleep(t["delay"])
 

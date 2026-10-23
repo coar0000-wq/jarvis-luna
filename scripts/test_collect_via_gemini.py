@@ -1,5 +1,7 @@
 """Offline regression tests for collector startup and truthful job outcomes."""
 import json
+import io
+from contextlib import redirect_stdout
 import os
 from pathlib import Path
 import tempfile
@@ -49,6 +51,19 @@ class CollectorTests(unittest.TestCase):
         row = [{'product': 'Product', 'brand': 'Brand', 'price_usd': 12}]
         code, report, calls = self.run_collector(responses=[(row, '', ''), ([], 'HTTP 403', '')])
         self.assertEqual((code, report['total'], calls), (1, 1, 2))
+
+    def test_empty_or_filtered_rows_log_final_failure_reason(self):
+        valid = [{'product': 'Product', 'brand': 'Brand', 'price_usd': 12}]
+        for rows in ([], [{'product': 'Invalid', 'price_usd': -1}]):
+            output = io.StringIO()
+            with redirect_stdout(output):
+                code, report, calls = self.run_collector(responses=[(rows, '', ''), (valid, '', '')])
+            self.assertEqual((code, calls), (1, 2))
+            channel = report['channels']['ulta_beauty']
+            self.assertEqual(channel['status'], 'failed')
+            self.assertIn('FAILED: ' + channel['reason'], output.getvalue())
+            self.assertNotIn('0건  OK', output.getvalue())
+            self.assertIn('1건  OK', output.getvalue())
 
     def test_all_channels_success(self):
         row = [{'product': 'Product', 'brand': 'Brand', 'price_usd': 12}]
