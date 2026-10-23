@@ -6,6 +6,8 @@ import os
 import sys
 import re
 import unittest
+import subprocess
+import tempfile
 
 import yaml
 
@@ -294,6 +296,74 @@ class ActiveWorkflowTests(unittest.TestCase):
                     self.assertNotIn('|| true', line)
             if re.search(r'-r\s+requirements/requirements-[a-z]+\.txt', text):
                 self.assertRegex(text, r'python-version:\s*[\'"]3\.11(?:\.\d+)?[\'"]')
+
+    def test_ocr_setup_is_bounded_and_uses_only_ubuntu_sources(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/image-ocr-tests.yml').read_text())
+        job = workflow['jobs']['korean-ocr']
+        self.assertEqual(job['runs-on'], 'ubuntu-24.04')
+        self.assertEqual(job['timeout-minutes'], 10)
+        step = next(step for step in job['steps']
+                    if step.get('name') == 'Install Korean OCR from Ubuntu repositories')
+        self.assertLessEqual(step['timeout-minutes'], 4)
+        self.assertNotIn('continue-on-error', step)
+        self.assertEqual(step['env']['UBUNTU_SOURCES'], '/etc/apt/sources.list.d/ubuntu.sources')
+        # Execute the actual workflow shell with a fake sudo: no network/root
+        # access. Check both normal execution and fail-closed update failure.
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'ubuntu.sources'
+            original = ('Types: deb\nURIs: mirror+file:/etc/apt/apt-mirrors.txt\n'
+                        'Suites: noble noble-updates noble-backports noble-security\n'
+                        'Components: main restricted universe multiverse\nArchitectures: amd64\n'
+                        'Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg\n')
+            source.write_text(original)
+            sudo = root / 'sudo'
+            sudo.write_text('#!/bin/bash\nprintf "%s\\n" "$*" >> "$APT_TEST_LOG"\n'
+                            'if [[ "$*" == *" update" ]]; then exit "$APT_UPDATE_EXIT"; fi\n')
+            sudo.chmod(0o755)
+            for status in (0, 42):
+                log = root / f'apt-{status}.log'
+                env = {**os.environ, 'PATH': directory + os.pathsep + os.environ['PATH'],
+                       'APT_TEST_LOG': str(log), 'APT_UPDATE_EXIT': str(status),
+                       'UBUNTU_SOURCES': str(source), 'RUNNER_TEMP': directory}
+                result = subprocess.run(['bash', '-e', '-c', step['run']], env=env,
+                                        capture_output=True, text=True, timeout=10)
+                self.assertEqual(result.returncode, status, result.stderr)
+                commands = log.read_text().splitlines()
+                self.assertEqual(len(commands), 2 if status == 0 else 1)
+                for command in commands:
+                    self.assertIn(f'Dir::Etc::sourcelist={directory}/ocr-ubuntu.sources', command)
+                    self.assertIn('Dir::Etc::sourceparts=-', command)
+                    self.assertIn('Acquire::Retries=2', command)
+                    self.assertIn('Acquire::http::Timeout=20', command)
+                    self.assertIn('Acquire::https::Timeout=20', command)
+                    self.assertIn('APT::Update::Error-Mode=any', command)
+                self.assertEqual(source.read_text(), original)
+                copied = (root / 'ocr-ubuntu.sources').read_text()
+                self.assertIn('URIs: https://archive.ubuntu.com/ubuntu', copied)
+                self.assertIn('URIs: https://security.ubuntu.com/ubuntu', copied)
+                self.assertIn('Suites: noble noble-updates noble-backports', copied)
+                self.assertIn('Suites: noble-security', copied)
+                self.assertEqual(copied.count('Components: main restricted universe multiverse'), 2)
+                self.assertEqual(copied.count('Architectures: amd64'), 2)
+                self.assertEqual(copied.count('Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg'), 2)
+                self.assertNotIn('trusted=yes', copied)
+                self.assertNotIn('Verify-Peer=false', step['run'])
+                self.assertNotIn('--allow-unauthenticated', step['run'])
+                if status == 0:
+                    for package in ('tesseract-ocr', 'tesseract-ocr-kor', 'tesseract-ocr-eng', 'fonts-nanum'):
+                        self.assertIn(package, commands[1].split())
+            source.write_text(original.replace('ubuntu-archive-keyring.gpg', 'untrusted.gpg'))
+            log = root / 'rejected.log'
+            env['APT_TEST_LOG'] = str(log)
+            result = subprocess.run(['bash', '-e', '-c', step['run']], env=env,
+                                    capture_output=True, text=True, timeout=10)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertFalse(log.exists(), 'Untrusted sources must fail before APT')
+        integration = job['steps'][-1]['run']
+        self.assertIn('tests.has_korean_ocr()', integration)
+        self.assertIn('tests.korean_font()', integration)
+        self.assertIn('result.skipped', integration)
 
     def test_archived_disabled_workflows_are_not_active(self):
         for file in active_yaml():

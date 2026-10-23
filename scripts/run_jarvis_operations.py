@@ -11,6 +11,7 @@ import hashlib
 import json
 import os
 import re
+import stat
 import tempfile
 from contextlib import contextmanager
 from pathlib import Path
@@ -23,6 +24,7 @@ import jarvis_recovery as recovery
 import jarvis_audit as audit
 import brain_plane
 import operations_storage as storage
+import operations_graph_storage as graph_storage
 from operations_storage import OPS_STATE_MAX_BYTES
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,6 +53,9 @@ def read(root, relative, default=None):
         value = brain_plane.read_json(file, root, copy.deepcopy(default))
         core.canonical(value)
         return value
+    if relative == GRAPH and file.exists():
+        return graph_storage.load_operations_graph(_graph_bytes(root, relative),
+                                                    lambda name: _graph_bytes(root, name))
     if not file.exists():
         return copy.deepcopy(default)
     raw = file.read_bytes()
@@ -100,6 +105,67 @@ def _require_state_with_history(root):
     if (execution._safe(root, execution.ExecutionStore.filename).exists()
             or history.exists() and (not history.is_dir() or next(history.iterdir(), None) is not None)):
         raise ValueError('task state missing with execution history; reconcile, do not reset')
+
+
+def _graph_bytes(root, relative):
+    if relative != GRAPH and not graph_storage.is_graph_member(relative):
+        raise ValueError('operations graph member scope invalid')
+    limit = (graph_storage.GRAPH_MAX_BYTES if relative == GRAPH
+             else graph_storage.GRAPH_MEMBER_MAX_BYTES)
+    path = execution._safe(root, relative)
+    before = path.stat()
+    if not stat.S_ISREG(before.st_mode) or before.st_nlink != 1 or before.st_size > limit:
+        raise ValueError('operations graph member missing, linked, or oversized')
+    fd = os.open(path, os.O_RDONLY | getattr(os, 'O_NOFOLLOW', 0))
+    with os.fdopen(fd, 'rb') as stream:
+        opened = os.fstat(stream.fileno())
+        body = stream.read(limit + 1)
+        after = os.fstat(stream.fileno())
+    final = execution._safe(root, relative).stat()
+    if (len(body) > limit or len(body) != before.st_size or any(
+            len({getattr(info, key) for info in (before, opened, after, final)}) != 1
+            for key in ('st_dev', 'st_ino', 'st_size', 'st_mtime_ns', 'st_ctime_ns', 'st_nlink'))):
+        raise ValueError('operations graph member changed during read')
+    return body
+
+
+def _prepare_graph_output(root, value):
+    """Retain immutable graph history; reject every capacity/integrity issue first."""
+    previous = execution._safe(root, GRAPH)
+    old = _graph_bytes(root, GRAPH) if previous.exists() else None
+    files = graph_storage.prepare_operations_graph(
+        value, previous_body=old, read_member=lambda name: _graph_bytes(root, name))
+    if len(files) == 1 and not graph_storage.is_graph_manifest(files[GRAPH]):
+        # Preserve the exact historical small-graph bytes and boundary tests.
+        files[GRAPH] = serialized_output(GRAPH, value)
+    sizes = {}
+    retained_bytes = len(files[GRAPH])
+    directory = execution._safe(root, graph_storage.GRAPH_DIRECTORY)
+    if directory.exists():
+        if not directory.is_dir() or old is None:
+            raise ValueError('operations graph manifest missing with retained history')
+        for member in directory.iterdir():
+            name = graph_storage.GRAPH_DIRECTORY + '/' + member.name
+            size = execution._safe(root, name).stat().st_size
+            retained_bytes += size
+            if (len(sizes) >= graph_storage.GRAPH_MAX_MEMBERS
+                    or retained_bytes > graph_storage.GRAPH_AGGREGATE_MAX_BYTES):
+                raise ValueError('operations graph retained storage capacity reached; pruning/reset forbidden')
+            body = _graph_bytes(root, name)
+            graph_storage.validate_graph_member(name, body)
+            sizes[name] = len(body)
+    for name, body in files.items():
+        if len(body) > brain_plane.brain.source_byte_limit(name):
+            raise brain_plane.brain.BrainError('byte_limit_exceeded')
+        if name != GRAPH:
+            graph_storage.validate_graph_member(name, body)
+            if name in sizes and _graph_bytes(root, name) != body:
+                raise ValueError('operations graph immutable member conflict')
+        sizes[name] = len(body)
+    if (len(sizes) > graph_storage.GRAPH_MAX_MEMBERS + 1
+            or sum(sizes.values()) > graph_storage.GRAPH_AGGREGATE_MAX_BYTES):
+        raise ValueError('operations graph retained storage capacity reached; pruning/reset forbidden')
+    return files
 
 
 def _prepare_state_output(root, state):
@@ -156,12 +222,13 @@ def _prepare_state_output(root, state):
     return files
 
 
-def _atomic_bytes(root, relative, body, *, immutable=False):
+def _atomic_bytes(root, relative, body, *, immutable=False, record=True):
     dest = execution._safe(root, relative)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest = execution._safe(root, relative)
     if immutable and dest.exists():
-        if _storage_bytes(root, relative) != body:
+        reader = _graph_bytes if graph_storage.is_graph_member(relative) else _storage_bytes
+        if reader(root, relative) != body:
             raise ValueError('operations storage immutable member conflict')
         return
     # Never stage partial bytes inside the strict immutable namespace. A killed
@@ -180,7 +247,8 @@ def _atomic_bytes(root, relative, body, *, immutable=False):
             try:
                 os.link(temp, dest)
             except FileExistsError:
-                if _storage_bytes(root, relative) != body:
+                reader = _graph_bytes if graph_storage.is_graph_member(relative) else _storage_bytes
+                if reader(root, relative) != body:
                     raise ValueError('operations storage immutable member conflict')
         else:
             os.replace(temp, dest)
@@ -193,7 +261,8 @@ def _atomic_bytes(root, relative, body, *, immutable=False):
     finally:
         if os.path.exists(temp):
             os.unlink(temp)
-    brain_plane.record(dest, root)
+    if record:
+        brain_plane.record(dest, root)
 
 
 def atomic(root, relative, value):
@@ -204,6 +273,13 @@ def atomic(root, relative, value):
                 _atomic_bytes(root, name, body, immutable=True)
         # The sole mutable pointer is replaced only after every member fsync.
         _atomic_bytes(root, STATE, files[STATE])
+    elif relative == GRAPH:
+        files = _prepare_graph_output(root, value)
+        for name, body in files.items():
+            if name != GRAPH:
+                # The complete manifest proof binds all member outputs once.
+                _atomic_bytes(root, name, body, immutable=True, record=False)
+        _atomic_bytes(root, GRAPH, files[GRAPH])
     else:
         _atomic_bytes(root, relative, serialized_output(relative, value))
 
@@ -590,6 +666,8 @@ def run(root=ROOT, *, now=None, execute_local=True, goal=None):
         for relative, value in outputs:
             if relative == STATE:
                 _prepare_state_output(root, value)
+            elif relative == GRAPH:
+                _prepare_graph_output(root, value)
             else:
                 serialized_output(relative, value)
         for relative, value in outputs:

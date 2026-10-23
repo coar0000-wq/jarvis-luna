@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # actions/checkout@v7.0.1
 
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # actions/setup-python@v7.0.0
         with:
           python-version: '3.11'
 
@@ -104,6 +104,7 @@ jobs:
           python -B -m unittest discover -s scripts -p "test_brain_plane.py"
           python -B -m unittest discover -s scripts -p "test_obsidian_brain.py"
           python -B -m unittest discover -s scripts -p "test_brain_large_graph.py"
+          python -B -m unittest discover -s scripts -p "test_brain_segmented_graph.py"
           python -B -m unittest discover -s scripts -p "test_brain_auth_plan_exclusion.py"
           python -B -m unittest discover -s scripts -p "test_ingest_obsidian_data.py"
           python -B -m unittest discover -s scripts -p "test_beauty_category_teams.py"
@@ -114,6 +115,8 @@ jobs:
           python -B -m unittest discover -s scripts -p "test_video_learning_visibility.py"
           python -B -m unittest discover -s scripts -p "test_payment_fees.py"
           python -B -m unittest discover -s scripts -p "test_operations_storage.py"
+          python -B -m unittest discover -s scripts -p "test_operations_graph_storage.py"
+          python -B -m unittest discover -s scripts -p "test_operations_graph_publication.py"
           python -B -m unittest discover -s scripts -p "test_operations_segments.py"
           python -B -m unittest discover -s scripts -p "test_restore_operations_segments.py"
           python -B -m unittest discover -s scripts -p "test_operations_segment_publication.py"

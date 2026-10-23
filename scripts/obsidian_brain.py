@@ -25,6 +25,7 @@ import subprocess
 import tempfile
 import time
 import uuid
+import operations_graph_storage as graph_storage
 
 BRAIN = Path('obsidian/JARVIS_LUNA/BrainRuntime')
 MAX_BYTES = 16 * 1024 * 1024
@@ -32,6 +33,8 @@ MAX_DERIVED_GRAPH_BYTES = 32 * 1024 * 1024
 
 def source_byte_limit(relative):
     """Only the durable derived operations graph gets a larger source bound."""
+    if graph_storage.is_graph_member(relative):
+        return min(MAX_BYTES, graph_storage.GRAPH_MEMBER_MAX_BYTES)
     return (MAX_DERIVED_GRAPH_BYTES if str(relative).replace("\\", "/").lower()
             == "data/operations/knowledge_graph.json" else MAX_BYTES)
 MAX_SCAN_FILES = 10000
@@ -475,11 +478,17 @@ def _timestamps(value):
 def _snapshot(root, relative, raw, info, value, role):
     _check_secrets(raw, value)
     digest, payload = _put(root, 'payloads', raw, '.bin')
+    timestamps = _timestamps(value)
+    if (relative == graph_storage.GRAPH_PATH and isinstance(value, dict)
+            and graph_storage.STORAGE_KEY in value):
+        # The strictly validated envelope changes physical storage only. Keep
+        # the original source clocks on the root artifact's metadata as well.
+        timestamps = _timestamps(value[graph_storage.STORAGE_KEY]['metadata'])
     artifact = {
         'type': 'artifact', 'role': role, 'source_path': relative,
         'source_workspace_id': _sha(os.path.normcase(str(root.resolve())).encode('utf-8')),
         'sha256': digest, 'size_bytes': len(raw), 'source_mtime_ns': info.st_mtime_ns,
-        'source_timestamps': _timestamps(value), 'write_at': _now(),
+        'source_timestamps': timestamps, 'write_at': _now(),
         'payload_path': payload, 'local_only': True,
         'relations': [{'type': 'snapshot_of', 'target': digest, 'target_type': 'payload',
                        'provenance_sha256': digest}],
@@ -612,6 +621,17 @@ def _parse_artifact(raw, suffix):
     return value, count, unit
 
 
+def _validate_graph_storage_source(relative, raw):
+    """Reject malformed/hash-invalid storage before creating a vault payload."""
+    try:
+        if relative == graph_storage.GRAPH_PATH:
+            graph_storage.is_graph_manifest(raw)
+        elif graph_storage.is_graph_member(relative):
+            graph_storage.validate_graph_member(relative, raw)
+    except (ValueError, KeyError, TypeError) as exc:
+        raise IntegrityError('operations_graph_storage_integrity_failed') from exc
+
+
 def _load_artifact(path, root, extensions):
     root = _root(root)
     run = _run(root)
@@ -623,6 +643,7 @@ def _load_artifact(path, root, extensions):
             raise ArtifactParseError('source_missing') from None
         suffix = source.suffix.lower()
         validated, _, _ = _parse_artifact(raw, suffix)
+        _validate_graph_storage_source(relative, raw)
         source_digest = _sha(raw)
         cache_key = (relative, source_digest, info.st_mtime_ns)
         cached = run.input_cache.get(cache_key) if run else None
@@ -642,7 +663,27 @@ def _load_artifact(path, root, extensions):
                 raise IntegrityError('cached_source_binding_mismatch')
         # Cache hits still freshly read the source and verify node AND payload.
         # All exposed values/counts come from the verified vault readback.
-        value, count, unit = _parse_artifact(_verified(root, payload, digest), suffix)
+        vault_raw = _verified(root, payload, digest)
+        value, count, unit = _parse_artifact(vault_raw, suffix)
+        if (relative == graph_storage.GRAPH_PATH and isinstance(value, dict)
+                and graph_storage.STORAGE_KEY in value):
+            def member_bytes(name):
+                member = _load_artifact(root / name, root, {'.json'})
+                identifier = member['payload_id']
+                return _verified(root, BRAIN / 'payloads' / identifier[:2] /
+                                 (identifier + '.bin'), identifier)
+            try:
+                value = graph_storage.load_operations_graph(vault_raw, member_bytes)
+            except PathExcluded:
+                raise
+            except (ValueError, OSError, KeyError) as exc:
+                raise IntegrityError('operations_graph_storage_integrity_failed') from exc
+            # A complete set of immutable members must belong to this exact
+            # mutable pointer, not a concurrently replaced manifest.
+            current, current_info = _read(source, limit=source_byte_limit(relative))
+            if current != raw or current_info.st_mtime_ns != info.st_mtime_ns:
+                raise IntegrityError('operations_graph_changed_during_read')
+            count, unit = len(value), 'top_level_entries'
         if run:
             run.consumed[artifact] = digest
             run.input_cache[cache_key] = (artifact, digest, payload)
@@ -743,14 +784,41 @@ def record_output(path, root, task, team, operation):
                     raise PathExcluded('excluded_credential_field')
             except UnicodeError:
                 raise BrainError('output_invalid_csv') from None
+        _validate_graph_storage_source(relative, raw)
         artifact, digest, payload = _snapshot(root, relative, raw, info, value, 'output')
-        _verified(root, payload, digest)
+        vault_raw = _verified(root, payload, digest)
+        graph_outputs = []
+        if (relative == graph_storage.GRAPH_PATH and isinstance(value, dict)
+                and graph_storage.STORAGE_KEY in value):
+            def member_bytes(name):
+                member_source, member_relative = _source_path(root / name, root, {'.json'})
+                member_raw, member_info = _read(member_source, limit=min(
+                    graph_storage.GRAPH_MEMBER_MAX_BYTES, source_byte_limit(member_relative)))
+                member_value, _, _ = _parse_artifact(member_raw, '.json')
+                _validate_graph_storage_source(member_relative, member_raw)
+                member_artifact, member_digest, member_payload = _snapshot(
+                    root, member_relative, member_raw, member_info, member_value, 'output')
+                verified = _verified(root, member_payload, member_digest)
+                graph_outputs.append((member_artifact, member_digest))
+                return verified
+            try:
+                graph_storage.load_operations_graph(vault_raw, member_bytes)
+            except PathExcluded:
+                raise
+            except (ValueError, OSError, KeyError) as exc:
+                raise IntegrityError('operations_graph_storage_integrity_failed') from exc
+            current, current_info = _read(source, limit=source_byte_limit(relative))
+            if current != raw or current_info.st_mtime_ns != info.st_mtime_ns:
+                raise IntegrityError('operations_graph_changed_during_read')
         verify_consumed(root)
         relations = [{'type': 'consumed', 'target': identifier, 'target_type': 'artifact',
                       'provenance_sha256': source_digest}
                      for identifier, source_digest in sorted(run.consumed.items())]
         relations.append({'type': 'generated', 'target': artifact,
                           'target_type': 'artifact', 'provenance_sha256': digest})
+        relations.extend({'type': 'generated', 'target': identifier,
+                          'target_type': 'artifact', 'provenance_sha256': member_digest}
+                         for identifier, member_digest in graph_outputs)
         execution_id = _node(root, {
             'type': 'execution', 'invocation': run.invocation, 'task': run.task,
             'team': run.team, 'operation': run.operation, 'write_at': _now(),
@@ -763,6 +831,7 @@ def record_output(path, root, task, team, operation):
                            'target_type': 'execution', 'provenance_sha256': execution_id}]})
         _require_exclusion(root, force=True)
         run.outputs.append(artifact)
+        run.outputs.extend(identifier for identifier, _ in graph_outputs)
         return {**run.proof(), 'output_sha256': digest, 'execution_id': execution_id,
                 'decision_id': decision_id}
     except PathExcluded as error:
@@ -810,6 +879,11 @@ def scan_public_data(root, *, limit=MAX_SCAN_FILES):
         kept = []
         for name in sorted(dirs):
             candidate = Path(directory) / name
+            if candidate.relative_to(root).as_posix() == graph_storage.GRAPH_DIRECTORY:
+                # One logical graph is indexed through its root manifest.
+                # Retained immutable history is not a new independent dataset.
+                exclude('excluded_graph_storage_members')
+                continue
             try:
                 _source_path(candidate / 'probe.json', root, {'.json'})
                 kept.append(name)
