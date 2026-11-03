@@ -11,7 +11,7 @@ from urllib.parse import parse_qs, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_PATH = '/jarvis-luna/'
-STATIC_FILES = ('index.html', '.nojekyll', 'hero-bg.jpg', 'images/jarvis.png', 'images/shopify.png') + tuple(
+STATIC_FILES = ('index.html', 'herder-control-room.html', '.nojekyll', 'hero-bg.jpg', 'images/jarvis.png', 'images/shopify.png') + tuple(
     f'images/teams/{name}.png' for name in ('secretary','sourcing','listing','channels','institutions','market','pricing','legal','robotics','design','knowledge','graph'))
 # A schema is an object field projection, [schema] for arrays, or {'*': schema}
 # for explicitly permitted data maps. True permits a sanitized primitive only.

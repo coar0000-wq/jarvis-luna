@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="ko" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JARVIS LUNA × Herder 11개 팀 엔드투엔드 관제 대시보드</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #090d16;
+      color: #e2e8f0;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 3px;
+    }
+    @keyframes pulse-border {
+      0%, 100% { border-color: rgba(239, 68, 68, 0.7); }
+      50% { border-color: rgba(239, 68, 68, 0.25); }
+    }
+    .blocked-card {
+      animation: pulse-border 2s infinite;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-indigo-500 selection:text-white">
+
+  <!-- Top Header Bar -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/20">
+          JL
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-bold text-base sm:text-lg text-white tracking-tight">JARVIS·LUNA × Herder 관제실</h1>
+            <span class="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+              Herder Core 상시 구동
+            </span>
+          </div>
+          <p class="text-xs text-slate-400">비서실장 총괄 · 11개 AI 에이전트 팀 · PR #4 읽기 전용 피드백 루프 연동</p>
+        </div>
+      </div>
+
+      <!-- Main Navigation Tabs -->
+      <nav class="flex items-center gap-1 bg-slate-950/80 p-1 rounded-lg border border-slate-800">
+        <button id="nav-control-room" type="button" class="px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition bg-indigo-600 text-white shadow">
+          관제실 (터미널 감독)
+        </button>
+        <button id="nav-e2e-flow" type="button" class="px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition text-slate-400 hover:text-white">
+          E2E 워크플로 & 다이어그램
+        </button>
+        <button id="nav-config-code" type="button" class="px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition text-slate-400 hover:text-white">
+          설정·실행 코드 (3종)
+        </button>
+      </nav>
+
+      <!-- Quick Action Controls -->
+      <div class="flex items-center gap-2">
+        <a href="index.html" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition">← 메인 대시보드</a>
+        <button id="btn-trigger-feedback" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30 hover:bg-amber-500/25 transition">
+          ⚡ 피드백 데이터 유입 시뮬레이션
+        </button>
+        <button id="btn-approve-all" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/25 transition">
+          ✓ 조치 필요 일괄 승인
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Global KPI Strip -->
+  <section class="bg-slate-900/40 border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 py-2.5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 text-xs">
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">동기화 조치 필요 (Blocked)</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span id="kpi-blocked-count" class="text-lg font-bold text-rose-400 mono">5건</span>
+          <span class="text-[11px] text-rose-300/80">최상단 자동 정렬됨</span>
+        </div>
+      </div>
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">코퍼스 누적 레코드</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span id="kpi-corpus" class="text-lg font-bold text-cyan-400 mono">3,205건</span>
+          <span class="text-[11px] text-slate-400">파이프라인 5/5</span>
+        </div>
+      </div>
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">옵시디언 지식 그래프</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span id="kpi-obsidian" class="text-lg font-bold text-indigo-400 mono">81,092노트</span>
+          <span id="kpi-broken-links" class="text-[11px] text-amber-300">끊어진 링크 110건</span>
+        </div>
+      </div>
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">MoE 학습 정확도 (3 Experts)</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span id="kpi-moe" class="text-lg font-bold text-emerald-400 mono">88.05%</span>
+          <span class="text-[11px] text-slate-400">검증 88.7% · Loss 0.4059</span>
+        </div>
+      </div>
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">S등급 Shopify 등록 가능</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span id="kpi-listing-ready" class="text-lg font-bold text-amber-400 mono">0 / 7건</span>
+          <span id="kpi-listing-note" class="text-[11px] text-slate-400">고시3·라벨7·법률1 대기</span>
+        </div>
+      </div>
+      <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
+        <div class="text-slate-400">원격 제어 & 스테이징 보호</div>
+        <div class="mt-1 flex items-baseline justify-between">
+          <span class="text-sm font-bold text-sky-400 mono">SSH · Claude Remote</span>
+          <span class="text-[11px] text-emerald-400">Auto-Deploy 잠금</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Workspace Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 py-4">
+
+    <!-- VIEW 1: HERDER CONTROL ROOM -->
+    <div id="view-control-room" class="space-y-4">
+      <!-- Filter & Priority Control Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-900/80 border border-slate-800 rounded-xl p-3">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="text-xs font-semibold text-slate-400 mr-1">에이전트 상태 필터:</span>
+          <button id="filter-all" type="button" class="px-2.5 py-1 rounded-md text-xs font-medium bg-indigo-600 text-white">전체 (12)</button>
+          <button id="filter-blocked" type="button" class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-rose-300 hover:bg-slate-700">🚨 확인 필요 / Blocked</button>
+          <button id="filter-working" type="button" class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-cyan-300 hover:bg-slate-700">⚙️ 작업 중 / Working</button>
+          <button id="filter-done" type="button" class="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-emerald-300 hover:bg-slate-700">✅ 완료 / Done</button>
+        </div>
+        <div class="flex items-center gap-3 text-xs">
+          <label class="flex items-center gap-1.5 cursor-pointer text-slate-300">
+            <input id="toggle-autofocus" type="checkbox" checked class="rounded border-slate-700 bg-slate-800 text-indigo-500 focus:ring-0" />
+            <span>확인 필요(Blocked) 최상단 자동 정렬</span>
+          </label>
+          <button id="btn-reset-demo" type="button" class="px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300">
+            초기 상태로 리셋
+          </button>
+        </div>
+      </div>
+
+      <!-- Split Grid: Left Agent Cards + Right Active Terminal Inspector -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <!-- Agent Roster Grid (7 cols) -->
+        <div class="lg:col-span-7 space-y-2.5 max-h-[680px] overflow-y-auto custom-scroll pr-1" id="agent-grid">
+          <!-- Populated dynamically by JS -->
+        </div>
+
+        <!-- Active Terminal Supervisor Panel (5 cols) -->
+        <div class="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-xl flex flex-col h-[680px] overflow-hidden shadow-xl">
+          <!-- Terminal Header -->
+          <div class="px-4 py-3 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-rose-500" id="term-status-dot"></span>
+                <h2 id="term-agent-title" class="font-bold text-sm text-white">비서실장 (JARVIS·LUNA 총괄)</h2>
+                <span id="term-agent-engine" class="px-2 py-0.5 text-[11px] rounded bg-indigo-500/20 text-indigo-300 mono">claude-code</span>
+              </div>
+              <p id="term-agent-role" class="text-xs text-slate-400 mt-0.5">전체 팀·자동화·우선순위·예외상황 상시 총괄</p>
+            </div>
+            <div class="text-right">
+              <div class="text-[11px] text-slate-400">탭 작업 경과 시간</div>
+              <div id="term-agent-timer" class="text-sm font-semibold text-cyan-400 mono">00:14:22</div>
+            </div>
+          </div>
+
+          <!-- Current Blocker / Feedback Alert Box -->
+          <div id="term-alert-banner" class="px-4 py-2.5 bg-rose-950/40 border-b border-rose-500/30 flex items-center justify-between gap-2">
+            <div class="text-xs text-rose-200">
+              <span class="font-semibold">현재 피드백 시그널:</span>
+              <span id="term-alert-text">5개 팀 동기화 조치 필요 — 최상단 우선순위 큐 대기 중</span>
+            </div>
+            <button id="btn-term-resolve" type="button" class="shrink-0 px-2.5 py-1 rounded bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold transition">
+              승인 및 해결
+            </button>
+          </div>
+
+          <!-- Terminal Buffer Output -->
+          <div id="term-buffer" class="flex-1 p-4 overflow-y-auto custom-scroll bg-slate-950/90 mono text-xs space-y-2 leading-relaxed">
+            <!-- Populated dynamically by JS -->
+          </div>
+
+          <!-- Mid-Execution Instruction Input -->
+          <div class="p-3 bg-slate-900 border-t border-slate-800 space-y-2">
+            <div class="flex items-center justify-between text-[11px] text-slate-400">
+              <span>실시간 터미널 감독 · 중간 지시 주입 (tmux 키맵 호환)</span>
+              <span id="term-target-dir" class="mono text-indigo-300">target: ./jarvis-luna</span>
+            </div>
+            <form id="form-terminal-cmd" class="flex gap-2">
+              <input id="input-terminal-cmd" type="text" placeholder="선택한 에이전트 터미널에 새 지시 입력 (예: 다이소 우회 헤더 적용 후 5건 재시도해)" class="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500" />
+              <button type="submit" class="px-3.5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold transition shrink-0">
+                지시 전송
+              </button>
+            </form>
+            <div class="flex flex-wrap gap-1.5 pt-0.5">
+              <button type="button" data-quick-cmd="다이소몰 상세 HTML 파서 User-Agent 및 셀렉터 패치 후 5건 재수집 실행해" class="quick-cmd-btn px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-slate-300">
+                ⚡ 다이소 HTML 오류 패치
+              </button>
+              <button type="button" data-quick-cmd="고시표 3건 캡처본 반영하고 US 라벨 6항목 통과분만 리스팅 패키지로 묶어줘" class="quick-cmd-btn px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-slate-300">
+                📋 고시표·라벨 반영 지시
+              </button>
+              <button type="button" data-quick-cmd="끊어진 옵시디언 링크 110건 자동 복구 후 dashboard_runtime.json 갱신해" class="quick-cmd-btn px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] text-slate-300">
+                🔗 끊어진 링크 110건 복구
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIEW 2: E2E WORKFLOW & ARCHITECTURE DIAGRAM -->
+    <div id="view-e2e-flow" class="hidden space-y-5">
+      <!-- Interactive 5-Stage E2E Step Simulator -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-5">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+          <div>
+            <h2 class="text-base font-bold text-white">실제 피드백 유입 시 자비스·루나 × 허더 5단계 엔드투엔드(E2E) 시뮬레이터</h2>
+            <p class="text-xs text-slate-400 mt-0.5">각 단계를 클릭하거나 [다음 단계 진행]을 눌러 GitHub PR #4 피드백부터 최종 대시보드 반영까지의 데이터 흐름을 확인하세요.</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button id="btn-prev-stage" type="button" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-medium text-slate-200">← 이전 단계</button>
+            <button id="btn-next-stage" type="button" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white">다음 단계 진행 →</button>
+          </div>
+        </div>
+
+        <!-- 5 Stage Pills -->
+        <div class="grid grid-cols-1 sm:grid-cols-5 gap-2.5 mb-4" id="e2e-stage-buttons">
+          <button type="button" data-stage="0" class="stage-btn text-left p-3 rounded-lg border border-indigo-500 bg-indigo-500/15 transition">
+            <div class="text-[11px] font-bold text-indigo-300 mono">STAGE 01</div>
+            <div class="text-xs font-semibold text-white mt-0.5">피드백 감지 & 코어 기동</div>
+          </button>
+          <button type="button" data-stage="1" class="stage-btn text-left p-3 rounded-lg border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+            <div class="text-[11px] font-bold text-slate-400 mono">STAGE 02</div>
+            <div class="text-xs font-semibold text-white mt-0.5">비서실장 작업 분할</div>
+          </button>
+          <button type="button" data-stage="2" class="stage-btn text-left p-3 rounded-lg border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+            <div class="text-[11px] font-bold text-slate-400 mono">STAGE 03</div>
+            <div class="text-xs font-semibold text-white mt-0.5">수집·분석·규제 병렬 검증</div>
+          </button>
+          <button type="button" data-stage="3" class="stage-btn text-left p-3 rounded-lg border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+            <div class="text-[11px] font-bold text-slate-400 mono">STAGE 04</div>
+            <div class="text-xs font-semibold text-white mt-0.5">Blocked 최상단 격상·승인</div>
+          </button>
+          <button type="button" data-stage="4" class="stage-btn text-left p-3 rounded-lg border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition">
+            <div class="text-[11px] font-bold text-slate-400 mono">STAGE 05</div>
+            <div class="text-xs font-semibold text-white mt-0.5">리스팅·그래프·MoE 완료</div>
+          </button>
+        </div>
+
+        <!-- Active Stage Detail Box -->
+        <div id="e2e-stage-detail" class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Visual Architecture Flowchart (SVG + Structured Cards) -->
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-5 space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <h3 class="text-sm sm:text-base font-bold text-white">자비스·루나 비서실장 & 11개 팀 오케스트레이션 구조도</h3>
+            <p class="text-xs text-slate-400">허더 코어(Background Daemon) 위에서 동작하는 3계층(수집 → 분석·규제 → 제작·그래프) 파이프라인과 5대 병목(Blocked) 지점</p>
+          </div>
+          <span class="text-xs mono text-cyan-400 bg-cyan-950/50 border border-cyan-500/30 px-2.5 py-1 rounded">Herder Control-Room Topology</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Tier 1: Collection Layer -->
+          <div class="bg-slate-950/90 border border-slate-800 rounded-xl p-4 space-y-2.5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">1계층 · 데이터 수집 (4개 팀)</span>
+              <span class="text-[11px] text-slate-400 mono">Claude Code × 4</span>
+            </div>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
+                <div class="font-semibold text-white flex justify-between"><span>① 상품 소싱팀</span><span class="text-rose-400 mono">Blocked (5건 실패)</span></div>
+                <p class="text-slate-400 mt-1">222개 상품(S 7) · 다이소몰 상세 HTML 기본 페이지 반환 오류 패치</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>② 기관 수집팀</span><span class="text-cyan-400 mono">Working</span></div>
+                <p class="text-slate-400 mt-1">35곳 1,061건 · 미수집 12건 사유 기록 분석 및 재수집</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>⑨ 로보틱스 수집팀</span><span class="text-emerald-400 mono">Done</span></div>
+                <p class="text-slate-400 mt-1">40건 (arXiv 0 / RSS 40) · 새 자료 76건 병합 완료</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>⑩ 지식 수집팀</span><span class="text-cyan-400 mono">Working</span></div>
+                <p class="text-slate-400 mt-1">470건 수집 · 누적 3,205건 코퍼스 및 MoE(88.05%) 학습 연동</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 2: Analysis & Compliance Layer -->
+          <div class="bg-slate-950/90 border border-slate-800 rounded-xl p-4 space-y-2.5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">2계층 · 분석·가격·규제 (3개 팀)</span>
+              <span class="text-[11px] text-slate-400 mono">Claude 1 · Codex 2</span>
+            </div>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
+                <div class="font-semibold text-white flex justify-between"><span>③ 마케팅 조사팀</span><span class="text-rose-400 mono">Blocked (고시표 3건)</span></div>
+                <p class="text-slate-400 mt-1">S등급 7개 분석 · 다이소 상세페이지 고시표 3건 캡처 확인 요청</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>④ 가격 정책팀</span><span class="text-emerald-400 mono">Done</span></div>
+                <p class="text-slate-400 mt-1">배송비 $6.26~$10.75 · 무게 64~520g · DDU/DDP 40%+ 마진 산출</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
+                <div class="font-semibold text-white flex justify-between"><span>⑤ 법률·규제팀</span><span class="text-rose-400 mono">Blocked (차단 7건)</span></div>
+                <p class="text-slate-400 mt-1">비프루브 무기자차(otc), 드롭비 앰플 40(lab) 등록 차단 · HS 14건</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 3: Production, Store & Graph Layer -->
+          <div class="bg-slate-950/90 border border-slate-800 rounded-xl p-4 space-y-2.5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">3계층 · 제작·채널·그래프 (4개 팀)</span>
+              <span class="text-[11px] text-slate-400 mono">Claude 2 · Codex 2</span>
+            </div>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
+                <div class="font-semibold text-white flex justify-between"><span>⑥ 리스팅 제작팀</span><span class="text-rose-400 mono">Blocked (등록 0/7)</span></div>
+                <p class="text-slate-400 mt-1">카피 7·가격 7 완료 / 고시 3건·us_label 7건·법률 1건 해제 대기</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
+                <div class="font-semibold text-white flex justify-between"><span>⑦ 디자인팀</span><span class="text-rose-400 mono">Blocked (스토어 2/12)</span></div>
+                <p class="text-slate-400 mt-1">폰트 1,946개·팔레트 13색조 · Shopify 스토어 개설 설정 대기</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>⑧ 채널 운영팀</span><span class="text-cyan-400 mono">Working</span></div>
+                <p class="text-slate-400 mt-1">가동 7/12채널 · 노후 4건 갱신 · 후보 7건 프리플라이트 점검</p>
+              </div>
+              <div class="p-2.5 rounded-lg bg-slate-900 border border-slate-800">
+                <div class="font-semibold text-white flex justify-between"><span>⑪ 옵시디언 그래프팀</span><span class="text-cyan-400 mono">Working</span></div>
+                <p class="text-slate-400 mt-1">81,092노트·320,853링크 · 끊어진 링크 110건 복구 및 JSON 빌드</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VIEW 3: HERDER CONFIG & SCRIPTS CODE VIEWER -->
+    <div id="view-config-code" class="hidden space-y-4">
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="code-tab-json" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white mono">1. herder.config.json (11개 팀 설정)</button>
+          <button id="code-tab-rules" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 mono">2. .herder_team_rules.md (협업 규칙)</button>
+          <button id="code-tab-sh" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 mono">3. start_herder_team.sh (실행 스크립트)</button>
+        </div>
+        <button id="btn-copy-code" type="button" class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold transition">
+          📋 현재 코드 전체 복사
+        </button>
+      </div>
+
+      <div class="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden">
+        <div class="px-4 py-2.5 bg-slate-900/90 border-b border-slate-800 flex items-center justify-between text-xs text-slate-400">
+          <span id="code-filename-label" class="mono font-semibold text-indigo-300">herder.config.json</span>
+          <span>프로젝트 루트(jarvis-luna / wep 상위 폴더)에 저장 후 실행</span>
+        </div>
+        <pre id="code-display-area" class="p-4 text-xs mono text-slate-200 overflow-x-auto max-h-[580px] overflow-y-auto custom-scroll leading-relaxed"></pre>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Bottom Herder Usage & Telemetry Footer -->
+  <footer class="border-t border-slate-800 bg-slate-950/90 px-4 py-2.5 text-xs text-slate-400 mt-auto">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-4">
+        <span><strong class="text-slate-200">Herder UI Mode:</strong> control-room (tmux keymap)</span>
+        <span><strong class="text-slate-200">Active Sessions:</strong> Claude Code × 8, Codex × 4</span>
+        <span id="footer-token-usage" class="mono text-cyan-400">Tokens: 142,890 / Cost: $0.00 (Herder Free Desktop)</span>
+      </div>
+      <div class="text-slate-400">
+        <span>Repository: <strong class="text-slate-300 mono">coarfamily-cyber/jarvis-luna</strong> (Staging Guardrail Active)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 hidden">
+    <div class="bg-slate-900 border border-indigo-500/50 text-white px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3 text-xs max-w-sm">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 shrink-0"></span>
+      <span id="toast-message">알림 메시지</span>
+    </div>
+  </div>
+
+  <script>
+    const CONFIG_FILES = {
+      json: "{\n  \"workspace\": \"coarfamily-cyber-jarvis-luna-workspace\",\n  \"version\": \"2.0.0\",\n  \"core\": {\n    \"backgroundDaemon\": true,\n    \"keepAliveOnClose\": true,\n    \"hostNode\": \"always-on-server-or-mac-mini\",\n    \"remoteAccess\": {\n      \"enabled\": true,\n      \"methods\": [\n        \"ssh\",\n        \"claude-remote\"\n      ],\n      \"syncTerminalBuffer\": true\n    },\n    \"feedbackTriggers\": {\n      \"githubReadOnlyLoop\": {\n        \"repo\": \"coarfamily-cyber/jarvis-luna\",\n        \"prRef\": \"pull/4\",\n        \"watchFiles\": [\n          \"data/agents/ops_plan.json\",\n          \"data/agents/collector_audit.json\",\n          \"data/agents/score_explain.json\",\n          \"dashboard_runtime.json\"\n        ]\n      }\n    }\n  },\n  \"ui\": {\n    \"layoutMode\": \"control-room\",\n    \"keymap\": \"tmux\",\n    \"autoFocusNeedsConfirmation\": true,\n    \"notifyOnCompletion\": true,\n    \"prioritySortOrder\": [\n      \"Blocked\",\n      \"Working\",\n      \"Done\",\n      \"Idle\"\n    ],\n    \"widgets\": {\n      \"tabWorkTimer\": {\n        \"enabled\": true,\n        \"format\": \"HH:mm:ss\",\n        \"position\": \"tab-header\"\n      },\n      \"usageDashboard\": {\n        \"enabled\": true,\n        \"position\": \"bottom-panel\",\n        \"metrics\": [\n          \"token_usage\",\n          \"active_agents\",\n          \"blocked_alerts\",\n          \"corpus_records\",\n          \"moe_accuracy\"\n        ]\n      }\n    }\n  },\n  \"orchestrator\": {\n    \"id\": \"jarvis-luna-chief\",\n    \"name\": \"\ube44\uc11c\uc2e4\uc7a5 (JARVIS\u00b7LUNA \ucd1d\uad04)\",\n    \"engine\": \"claude-code\",\n    \"role\": \"Chief Orchestrator (Team Lead)\",\n    \"targetDirs\": [\n      \"./jarvis-luna\",\n      \"./wep\",\n      \"./-\"\n    ],\n    \"responsibilities\": [\n      \"JARVIS \uc804\uccb4 11\uac1c \ud300\u00b7\uc790\ub3d9\ud654\u00b7\uc6b0\uc120\uc21c\uc704\u00b7\uc608\uc678\uc0c1\ud669 \uc0c1\uc2dc \ucd1d\uad04\",\n      \"ops_plan.json, collector_audit.json, score_explain.json \ubc0f PR #4 \ud53c\ub4dc\ubc31 \uac10\uc9c0 \uc2dc \ud558\uc704 11\uac1c \ud300\uc5d0 \uc791\uc5c5 \ubc30\ubd84\",\n      \"Blocked \uc0c1\ud0dc(\ud1b5\uad00 \ucc28\ub2e8, \uace0\uc2dc\ud45c \ub204\ub77d, HTML \ud30c\uc2f1 \uc5d0\ub7ec) \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1 \ubc0f \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uc694\uccad \uc54c\ub9bc \ubc1c\uc1a1\"\n    ]\n  },\n  \"teams\": [\n    {\n      \"id\": \"team-01-sourcing\",\n      \"name\": \"\u2460 \uc0c1\ud488 \uc18c\uc2f1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Product Sourcing & Crawler Repair\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"222\uac1c \uc0c1\ud488 (S 7 / A 34 / B 28 / C 153) \u00b7 \uc0c8 \uc790\ub8cc 223\uac74\",\n      \"feedbackSignal\": \"\uc9c1\uc804 \uc2e4\ud589 5\uac74 \uc2dc\ub3c4 \uc911 5\uac74 \uc2e4\ud328 (\uc0c1\ud488 \uc0c1\uc138 HTML\uc774 \ub2e4\uc774\uc18c\ubab0 \uae30\ubcf8 \ud398\uc774\uc9c0\ub85c \ubc18\ud658\ub428)\",\n      \"actionOnTrigger\": \"\ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138\ud398\uc774\uc9c0 \uc6b0\ud68c \ud5e4\ub354\u00b7\uc140\ub809\ud130 \ud328\uce58 \ubc0f \uc2e4\ud328 5\uac74 \uc7ac\uc218\uc9d1 \uc218\ud589\"\n    },\n    {\n      \"id\": \"team-02-institution\",\n      \"name\": \"\u2461 \uae30\uad00 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Institutional Data Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"35\uacf3 1,061\uac74 \u00b7 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \uae30\ub85d \u00b7 \uc0c8 \uc790\ub8cc 280\uac74\",\n      \"feedbackSignal\": \"collector_audit.json \ub0b4 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ucf54\ub4dc \uc720\uc785\",\n      \"actionOnTrigger\": \"\ubbf8\uc218\uc9d1 12\uacf3 \uc5d4\ub4dc\ud3ec\uc778\ud2b8 \uc751\ub2f5 \uc9c0\uc5f0\u00b7\uc2a4\ud0a4\ub9c8 \ubcc0\uacbd \uc810\uac80 \ubc0f \ud3f4\ubc31 \ud30c\uc11c \uac00\ub3d9\"\n    },\n    {\n      \"id\": \"team-03-marketing\",\n      \"name\": \"\u2462 \ub9c8\ucf00\ud305 \uc870\uc0ac\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Market Trend & Spec Sheet Analyst\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"S\ub4f1\uae09 7\uac1c \u00b7 \uace0\uc2dc\ud45c \uc785\ub825 \ub300\uae30 3\uac74 \u00b7 \uc0c8 \uc790\ub8cc 39\uac74\",\n      \"feedbackSignal\": \"Hydrating Serum(+24%), Ceramide(+18%) \uae09\uc0c1\uc2b9 \ubc0f \ub2e4\uc774\uc18c \uc0c1\uc138\ud398\uc774\uc9c0 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud544\uc694\",\n      \"actionOnTrigger\": \"S\ub4f1\uae09 \ud3ec\uc9c0\uc154\ub2dd \ud0a4\uc6cc\ub4dc \ucd94\ucd9c \ud6c4 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud655\uc778 \uc694\uccad\uc744 Blocked(\ucd5c\uc0c1\ub2e8)\ub85c \uaca9\uc0c1\"\n    },\n    {\n      \"id\": \"team-04-pricing\",\n      \"name\": \"\u2463 \uac00\uaca9 \uc815\ucc45\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Pricing, Weight & DDU/DDP Calculator\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uac1c\ub2f9 \ubc30\uc1a1\ube44 $6.26~$10.75 \u00b7 \ubb34\uac8c 64~520g (\uc774\ub984\ucd94\uc815 3 / \uace0\uc2dc\uc6a9\ub7c9 4) \u00b7 DDU/DDP 4\uac1c \u00b7 \uc0c8 \uc790\ub8cc 6\uac74\",\n      \"feedbackSignal\": \"S\ub4f1\uae09 7\uac1c \uc0c1\ud488\uc758 \ubb34\uac8c\u00b7\ubc30\uc1a1\ube44 \uae30\ubc18 \ub9c8\uc9c4\uc728 \uac80\uc99d \uc694\uccad\",\n      \"actionOnTrigger\": \"\uace0\uc2dc \uc6a9\ub7c9 \ubc0f \ucd94\uc815 \ubb34\uac8c \uae30\ubc18 DDP \ucd5c\uc885 \ud310\ub9e4\uac00\uc640 40% \uc774\uc0c1 \ub9c8\uc9c4 \uad6c\uac04 \uc0b0\ucd9c\"\n    },\n    {\n      \"id\": \"team-05-legal\",\n      \"name\": \"\u2464 \ubc95\ub960\u00b7\uaddc\uc81c\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"FDA/OTC Compliance & US Label Auditor\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uc790\ub3d9 \uc810\uac80 14\uac74 \u00b7 \ud1b5\uacfc 0 \u00b7 \ub4f1\ub85d \ucc28\ub2e8 7 \u00b7 \ucc38\uace0 \uc8fc\uc758 14 \u00b7 \uc218\ucd9c\uc11c\ub958 HS 14\uac74 \u00b7 \ub77c\ubca8 1/6\ud56d\ubaa9 \uc790\ub3d9\",\n      \"feedbackSignal\": \"\ucc28\ub2e8 7\uac74 \uac10\uc9c0: \ube44\ud504\ub8e8\ube0c \ub9c8\ub9b0 \ubb34\uae30\uc790\ucc28 \ub9c8\uc77c\ub4dc(otc), \ub4dc\ub86d\ube44 \uc7a1\ud2f0 \ub9d0\ub054 \uc570\ud50c 40(lab)\",\n      \"actionOnTrigger\": \"OTC/Lab \uc131\ubd84 \ucc28\ub2e8 7\uac74 \ub4f1\ub85d \uc7a0\uae08 \uc720\uc9c0, US \ub77c\ubca8 6\ud56d\ubaa9 \uc810\uac80 \ub9ac\ud3ec\ud2b8 \uc0dd\uc131 \ubc0f \ucd5c\uc0c1\ub2e8 \uc2b9\uc778 \ub300\uae30\"\n    },\n    {\n      \"id\": \"team-06-listing\",\n      \"name\": \"\u2465 \ub9ac\uc2a4\ud305 \uc81c\uc791\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Copywriting & Listing Assembler\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\ub4f1\ub85d \uac00\ub2a5 0/7 \u00b7 \uce74\ud53c 7 \u00b7 \uace0\uc2dc 4 \u00b7 \uac00\uaca9 7 \u00b7 \ubc95\ub960 6\",\n      \"feedbackSignal\": \"\uace0\uc2dc 3\uac74, us_label 7\uac74, \ubc95\ub960 1\uac74 \ube14\ub85c\ucee4 \ub300\uae30 \uc911\",\n      \"actionOnTrigger\": \"\uce74\ud53c 7\uac74\u00b7\uac00\uaca9 7\uac74 \uc120\ud589 \uacb0\ud569 \ud6c4 \uace0\uc2dc\u00b7\ub77c\ubca8\u00b7\ubc95\ub960 \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \uc989\uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc644\uc131\"\n    },\n    {\n      \"id\": \"team-07-design\",\n      \"name\": \"\u2466 \ub514\uc790\uc778\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Store UI, Brand Skin & Media Assets\",\n      \"targetDirs\": [\n        \"./wep\",\n        \"./-\"\n      ],\n      \"currentMetrics\": \"\uc2a4\ud1a0\uc5b4 2/12\ub2e8\uacc4 \u00b7 \ub808\ud37c\ub7f0\uc2a4 85\uac74 \u00b7 \ud3f0\ud2b8 1946\uac1c(\ud55c\uae00 38) \u00b7 \ud314\ub808\ud2b8 13\uc0c9\uc870 \u00b7 \uae30\uc0ac 60\uac74 \u00b7 \uc601\uc0c1 33\uac74\",\n      \"feedbackSignal\": \"\ub2e4\uc74c \ub2e8\uacc4: Shopify \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \ubc0f \uae30\ubcf8 \uc124\uc815 \uc694\uccad\",\n      \"actionOnTrigger\": \"13\uc0c9\uc870 \ud314\ub808\ud2b8\u00b7\ud3f0\ud2b8 \uae30\ubc18 Shopify \ud14c\ub9c8 \uc2a4\ud0a8 \ubc0f \uc20f\ud3fc/\uc378\ub124\uc77c \ud504\ub86c\ud504\ud2b8 \uc5d0\uc14b \uc0dd\uc131\"\n    },\n    {\n      \"id\": \"team-08-channel\",\n      \"name\": \"\u2467 \ucc44\ub110 \uc6b4\uc601\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Multi-Channel Sync & Staging Gatekeeper\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\uac00\ub3d9 7/12\ucc44\ub110 \u00b7 \ub0a1\uc74c 4\uac74 \u00b7 \uc218\ub3d9 \uc785\ub825 32\uac74 \u00b7 \ud6c4\ubcf4 7\uac74 \uac80\uc0ac, \ubbf8\uc5f0\ub3d9 0\uac74\",\n      \"feedbackSignal\": \"\ub178\ud6c4 \ucc44\ub110 4\uac74 \ud1a0\ud070/\ub370\uc774\ud130 \uac31\uc2e0 \ubc0f \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \uc804 \uc790\ub3d9\ud654 \uc7a0\uae08 \ud655\uc778\",\n      \"actionOnTrigger\": \"\ub0a1\uc74c 4\uac74 \ucc44\ub110 \ud30c\uc11c \uac31\uc2e0 \ubc0f Shopify bounded canary \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc810\uac80\"\n    },\n    {\n      \"id\": \"team-09-robotics\",\n      \"name\": \"\u2468 \ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Robotics & Tech Feed Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"40\uac74 \u00b7 arxiv 0 / rss 40 \u00b7 \uc0c8 \uc790\ub8cc 76\uac74\",\n      \"feedbackSignal\": \"RSS \uc2e0\uaddc \ud53c\ub4dc 76\uac74 \uc720\uc785 \ubc0f arXiv \uc218\uc9d1 \ucffc\ub9ac \uc810\uac80\",\n      \"actionOnTrigger\": \"\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4\uc5d0\uc11c RSS 76\uac74 \uc815\uaddc\ud654 \ubc0f arXiv API \ud3f4\ubc31 \uc218\uc9d1 \uc2e4\ud589\"\n    },\n    {\n      \"id\": \"team-10-knowledge\",\n      \"name\": \"\u2469 \uc9c0\uc2dd \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Domain Corpus & MoE Feature Builder\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"470\uac74 (arXiv 10 / \uc720\uae30\ub18d\uc2a4\ud0a8 30 / Google 300 / US\ubdf0\ud2f0 130) \u00b7 \ub204\uc801 \ucf54\ud37c\uc2a4 3,205\uac74\",\n      \"feedbackSignal\": \"\uc2e0\uaddc 470\uac74 \ucf54\ud37c\uc2a4 \uc720\uc785\uc5d0 \ub530\ub978 MoE(3 Experts, \uc815\ud655\ub3c4 88.05%) \uc7ac\ud559\uc2b5 \ud53c\ucc98 \uc900\ube44\",\n      \"actionOnTrigger\": \"3,205\uac74 \ucf54\ud37c\uc2a4 \uc815\uaddc\ud654 \ubc0f MoE \uac8c\uc774\ud2b8 \ud3b8\ucc28(0.152)\u00b7Loss(0.4059) \uac1c\uc120\uc6a9 \ub370\uc774\ud130\uc14b \uac31\uc2e0\"\n    },\n    {\n      \"id\": \"team-11-obsidian\",\n      \"name\": \"\u246a \uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Knowledge Graph Integrity & Runtime Publisher\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"81,092\ub178\ud2b8 \u00b7 320,853\ub9c1\ud06c \u00b7 \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \u00b7 \uac1c\uc778 \ub178\ud2b8 16\uac74 \ubcc4\ub3c4 \u00b7 \uacbd\uace0 \ud1b5\uacfc(\uc784\uacc4 300)\",\n      \"feedbackSignal\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uac10\uc9c0 \ubc0f dashboard_runtime.json \ubc30\ud3ec \ub300\uae30\",\n      \"actionOnTrigger\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uc790\ub3d9 \uc5ed\ucd94\uc801\u00b7\ubcf5\uad6c \ud6c4 dashboard_runtime.json \ube4c\ub4dc \ubc0f \ud300\uc7a5\uc5d0\uac8c \ubcf4\uace0\"\n    }\n  ],\n  \"workflowRules\": {\n    \"sequence\": [\n      \"1. [jarvis-luna-chief] GitHub PR #4 \ud53c\ub4dc\ubc31 \ub8e8\ud504 \ubc0f ops_plan.json / collector_audit.json / score_explain.json \uac10\uc9c0\",\n      \"2. [team-01, 02, 09, 10] \uc218\uc9d1 \uacc4\uce35 4\uac1c \ud300 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \ubcd1\ub82c \uc2e4\ud589 \ubc0f \ud30c\uc11c \uc624\ub958 \uc790\ub3d9 \ud328\uce58\",\n      \"3. [team-03, 04, 05] \ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 3\uac1c \ud300\uc774 S\ub4f1\uae09 7\uac74\uc5d0 \ub300\ud574 \ud2b8\ub80c\ub4dc\u00b7DDP \uac00\uaca9\u00b7FDA/OTC/\ub77c\ubca8 \uc810\uac80 \uc218\ud589\",\n      \"4. [Blocked \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1] \ub2e4\uc774\uc18c HTML \uc624\ub958(\uc18c\uc2f1\ud300), \uace0\uc2dc\ud45c 3\uac74(\ub9c8\ucf00\ud305\ud300), OTC/Lab \ucc28\ub2e8 7\uac74(\ubc95\ub960\ud300)\uc744 \ud5c8\ub354 \ubaa9\ub85d \ucd5c\uc0c1\ub2e8\uc5d0 \ubc30\uce58\ud558\uace0 \uc54c\ub9bc \ubc1c\uc1a1\",\n      \"5. [team-06, 07, 08, 11] \uc2b9\uc778 \uc644\ub8cc \uac74\uc5d0 \ub300\ud574 \ub9ac\uc2a4\ud305\u00b7\ub514\uc790\uc778\u00b7\ucc44\ub110 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8\u00b7\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504(dashboard_runtime.json) \uac31\uc2e0\"\n    ],\n    \"constraints\": [\n      \"jarvis-luna \uc800\uc7a5\uc18c\ub294 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d\uc774 \uc644\ub8cc\ub420 \ub54c\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9\ud654(Automation) \ube44\ud65c\uc131\ud654 \uc0c1\ud0dc \uc720\uc9c0\",\n      \"\ubc95\ub960\u00b7\uaddc\uc81c\ud300(team-05)\uc758 US \ub77c\ubca8 6\ud56d\ubaa9 \ubc0f OTC/Lab \uc810\uac80 \ud1b5\uacfc \uc804\uae4c\uc9c0 Shopify \ub77c\uc774\ube0c \ub4f1\ub85d \uc5c4\uaca9 \uae08\uc9c0\",\n      \"\ucf54\ub371\uc2a4(Codex) \uac80\uc99d \uc5d0\uc774\uc804\ud2b8\uc758 diff \ub9ac\ubdf0 \ud1b5\uacfc \uc804\uae4c\uc9c0 main \ube0c\ub79c\uce58 \ubcd1\ud569 \uae08\uc9c0\"\n    ]\n  }\n}",
+      rules: "# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coarfamily-cyber/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\n",
+      sh: "#!/usr/bin/env bash\nset -e\n\necho \"==================================================================\"\necho \"[Herder \u00d7 JARVIS-LUNA] \ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \ud300 \uc5d4\ub4dc\ud22c\uc5d4\ub4dc \uc624\ucf00\uc2a4\ud2b8\ub808\uc774\uc158 \uc2dc\uc791\"\necho \"==================================================================\"\n\nif [ ! -f \"herder.config.json\" ]; then\n  echo \"[\uc624\ub958] \ud604\uc7ac \uacbd\ub85c\uc5d0 herder.config.json \ud30c\uc77c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.\"\n  exit 1\nfi\n\ncat << 'EOF' > .herder_team_rules.md\n# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coarfamily-cyber/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\nEOF\n\necho \"[1/3] .herder_team_rules.md \ud611\uc5c5 \uaddc\uce59 \ud30c\uc77c \uc0dd\uc131 \uc644\ub8cc\"\necho \"[2/3] \ud5c8\ub354 \ucf54\uc5b4(Background Daemon) \ubc0f \uad00\uc81c\uc2e4(Control Room) UI \ub808\uc774\uc544\uc6c3 \ud655\uc778...\"\n\nif command -v herder &> /dev/null; then\n  echo \"[3/3] Herder CLI\ub97c \ud1b5\ud574 \ube44\uc11c\uc2e4\uc7a5(claude-code) \ubc0f 11\uac1c \ud300 \uc138\uc158\uc744 \uae30\ub3d9\ud569\ub2c8\ub2e4...\"\n  herder up --config herder.config.json --rules .herder_team_rules.md --daemon\nelse\n  echo \"[\uc548\ub0b4] Herder \ub370\uc2a4\ud06c\ud1b1 \uc571 \ub0b4 \ud130\ubbf8\ub110\uc5d0\uc11c \uc544\ub798 \ud55c \uc904 \uba85\ub839\uc5b4\ub97c AI\uc5d0\uac8c \uc785\ub825\ud558\uc138\uc694:\"\n  echo \"------------------------------------------------------------------\"\n  echo \"\ud83d\udc49 'herder.config.json\uc774\ub791 .herder_team_rules.md \uc77d\uc5b4\uc11c \ube44\uc11c\uc2e4\uc7a5 \ud074\ub85c\ub4dc 1\uac1c\ub791 11\uac1c \ud300(\ud074\ub85c\ub4dc 7, \ucf54\ub371\uc2a4 4) \uad00\uc81c\uc2e4 \ubaa8\ub4dc\ub85c \ub744\uc6cc\uc8fc\uace0, \ud0ed\ub9c8\ub2e4 \uc791\uc5c5 \ud0c0\uc774\uba38 \ub2ec\uace0 \ud655\uc778 \ud544\uc694\ud55c \ud300\uc740 \ub9e8 \uc704\ub85c \uc62c\ub824\uc918'\"\n  echo \"------------------------------------------------------------------\"\nfi\n"
+    };
+
+    const INITIAL_AGENTS = [
+      {
+        id: "jarvis-luna-chief",
+        name: "비서실장 (JARVIS·LUNA 총괄)",
+        engine: "claude-code",
+        status: "Working",
+        role: "전체 팀·자동화·우선순위·예외상황 상시 총괄",
+        targetDir: "./jarvis-luna, ./wep",
+        metrics: "코퍼스 3,205개 레코드 · 파이프라인 5/5 단계 · 동기화 조치 5건 조율",
+        signal: "PR #4 피드백 루프 및 ops_plan.json 감지 — 5개 Blocked 팀 최상단 정렬 완료",
+        elapsedSeconds: 862,
+        logs: [
+          "[21:00:02] [Herder Core] 백그라운드 데몬 세션 연결 완료 (SSH / Claude Remote 활성)",
+          "[21:01:15] [PR #4 Feedback] 읽기 전용 GitHub 피드백 루프 리포팅 수신 (ops_plan.json, collector_audit.json)",
+          "[21:02:04] [Orchestrator] 11개 팀에 작업 배분 완료 — 조치 필요 5건(소싱, 마케팅, 법률, 리스팅, 디자인) 최상단 고정"
+        ]
+      },
+      {
+        id: "team-01-sourcing",
+        name: "① 상품 소싱팀",
+        engine: "claude-code",
+        status: "Blocked",
+        role: "다이소몰 상품 크롤링 및 S~C등급 소싱",
+        targetDir: "./jarvis-luna",
+        metrics: "222개 상품 · 등급 S 7 / A 34 / B 28 / C 153 · 새 자료 223건",
+        signal: "직전 실행에서 5건 시도 중 5건 실패 (성공 0건) · 상품 상세 HTML이 다이소몰 기본 페이지로 반환됨",
+        elapsedSeconds: 514,
+        logs: [
+          "[17:54:01] [Sourcing] 신규 후보 5건 상세 페이지 요청 실행...",
+          "[17:54:09] [WARN] 응답 HTML이 상품 상세가 아닌 다이소몰 기본 랜딩 페이지로 감지됨 (5/5 실패)",
+          "[17:54:10] [Herder Hook] 에이전트 상태 -> BLOCKED 전환 (목록 최상단 이동 및 사용자 알림 발송)"
+        ]
+      },
+      {
+        id: "team-03-marketing",
+        name: "③ 마케팅 조사팀",
+        engine: "claude-code",
+        status: "Blocked",
+        role: "트렌드 수요 분석 및 S등급 고시표 검증",
+        targetDir: "./jarvis-luna",
+        metrics: "S등급 7개 · 고시표 입력 대기 3건 · 새 자료 39건",
+        signal: "다이소 상세페이지 고시표 3건 캡처 필요 (Hydrating Serum +24%, Ceramide +18% 급상승)",
+        elapsedSeconds: 612,
+        logs: [
+          "[17:56:00] [Marketing] US 뷰티 수요 급증 시그널 확인: Hydrating Serum(+24%), Ceramide(+18%)",
+          "[17:56:12] [Marketing] S등급 7개 중 4개 고시 데이터 매칭 완료, 3개 고시표 이미지 캡처 대기",
+          "[17:56:15] [Herder Hook] 고시표 3건 캡처 승인 요청 -> BLOCKED 최상단 고정"
+        ]
+      },
+      {
+        id: "team-05-legal",
+        name: "⑤ 법률·규제팀",
+        engine: "codex",
+        status: "Blocked",
+        role: "FDA/OTC 통관 점검, HS코드 및 US 라벨 검수",
+        targetDir: "./jarvis-luna",
+        metrics: "자동 점검 14건 · 통과 0 · 등록 차단 7 · 참고 주의 14 · 수출서류 HS 14건 · 라벨 1/6 자동",
+        signal: "차단 7건: 비프루브 마린 무기자차 마일드(otc), 드롭비 잡티 말끔 앰플 40(lab) — 라벨 갖추기 전 등록 불가",
+        elapsedSeconds: 740,
+        logs: [
+          "[17:54:20] [Legal/Codex] 자동 규제 점검 14건 실행 및 수출서류 HS 코드 14건 매핑 완료",
+          "[17:54:35] [BLOCK] 비프루브 마린 무기자차 마일드(사유: otc), 드롭비 잡티 말끔 앰플 40(사유: lab) 외 5건 등록 차단",
+          "[17:54:38] [Herder Hook] 통관 차단 7건 및 US 라벨 6항목 검수 요청 -> BLOCKED 최상단 고정"
+        ]
+      },
+      {
+        id: "team-06-listing",
+        name: "⑥ 리스팅 제작팀",
+        engine: "claude-code",
+        status: "Blocked",
+        role: "영문 카피라이팅 및 Shopify 리스팅 패키지 조립",
+        targetDir: "./jarvis-luna, ./wep",
+        metrics: "등록 가능 0/7 · 카피 7 · 고시 4 · 가격 7 · 법률 6",
+        signal: "고시 3건, us_label 7건, 법률 1건이 등록을 막고 있음 (카피 7·가격 7은 준비 완료)",
+        elapsedSeconds: 488,
+        logs: [
+          "[17:54:40] [Listing] S등급 7개 영문 바이럴 카피(7/7) 및 DDP 가격 매핑(7/7) 조립 완료",
+          "[17:54:44] [Gatekeeper] 고시표 3건 미입력, us_label 7건 미완, 법률 차단으로 인해 등록 가능 0/7 잠금 유지"
+        ]
+      },
+      {
+        id: "team-07-design",
+        name: "⑦ 디자인팀",
+        engine: "claude-code",
+        status: "Blocked",
+        role: "브랜드 스킨, 폰트·팔레트 및 Shopify 스토어 UI",
+        targetDir: "./wep, ./-",
+        metrics: "스토어 2/12단계 · 레퍼런스 85건 · 폰트 1946개(한글 38) · 팔레트 13색조 · 기사 60건 · 영상 33건",
+        signal: "다음 단계 조치 필요: Shopify 스토어 개설 및 기본 테마 설정 승인 대기",
+        elapsedSeconds: 530,
+        logs: [
+          "[17:49:10] [Design] 레퍼런스 85건, 폰트 1,946개, 팔레트 13색조 에셋 인덱싱 완료 (새 자료 99건)",
+          "[17:49:30] [Herder Hook] 스토어 구축 2/12단계 -> 3단계(Shopify 스토어 개설 및 기본 설정) 전환 승인 대기"
+        ]
+      },
+      {
+        id: "team-02-institution",
+        name: "② 기관 수집팀",
+        engine: "claude-code",
+        status: "Working",
+        role: "35개 국내외 기관 데이터 수집 및 미수집 감사",
+        targetDir: "./jarvis-luna",
+        metrics: "35곳 1,061건 · 미수집 12건 사유 기록 · 새 자료 280건",
+        signal: "미수집 12건 사유 코드 기록 완료 및 백그라운드 폴백 크롤러 재시도 중",
+        elapsedSeconds: 415,
+        logs: [
+          "[17:49:02] [Institution] 35개 기관 대상 1,061건 수집 완료 (신규 280건)",
+          "[17:49:18] [Audit] collector_audit.json에 미수집 12건 사유 기록 및 폴백 재시도 큐 등록"
+        ]
+      },
+      {
+        id: "team-08-channel",
+        name: "⑧ 채널 운영팀",
+        engine: "codex",
+        status: "Working",
+        role: "12개 글로벌 판매·수집 채널 연동 및 프리플라이트",
+        targetDir: "./jarvis-luna, ./wep",
+        metrics: "가동 7/12채널 · 낡음 4건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건",
+        signal: "노후화된 채널 데이터 4건 갱신 및 Shopify 읽기 전용 프리플라이트 유지 중",
+        elapsedSeconds: 390,
+        logs: [
+          "[17:55:00] [Channel] 7/12 채널 정상 가동 확인, 후보 7건 연동 프리플라이트 검사 통과",
+          "[17:55:19] [Channel] 낡음(Stale) 4건 채널 파서 토큰 리프레시 진행 중"
+        ]
+      },
+      {
+        id: "team-10-knowledge",
+        name: "⑩ 지식 수집팀",
+        engine: "claude-code",
+        status: "Working",
+        role: "논문·뷰티 트렌드 코퍼스 정제 및 MoE 학습 연동",
+        targetDir: "./jarvis-luna",
+        metrics: "470건 · arXiv 10 / 유기농스킨 30 / Google 300 / US뷰티 130",
+        signal: "누적 3,205건 코퍼스 정규화 및 MoE(3 Experts, 정확도 88.05%) 학습 피처 공급",
+        elapsedSeconds: 460,
+        logs: [
+          "[17:49:11] [Knowledge] arXiv 10건, 유기농스킨 30건, Google 300건, US뷰티 130건(총 470건) 정제 완료",
+          "[17:49:40] [MoE Trainer] 3,205건 코퍼스 기반 3 Experts 학습 완료 (학습 88.05%, 검증 88.7%, Loss 0.4059)"
+        ]
+      },
+      {
+        id: "team-11-obsidian",
+        name: "⑪ 옵시디언 그래프팀",
+        engine: "codex",
+        status: "Working",
+        role: "8.1만 노트 지식 그래프 관리 및 끊어진 링크 복구",
+        targetDir: "./jarvis-luna, ./wep",
+        metrics: "81,092노트 · 320,853링크 · 끊어진 링크 110건 · 개인 노트 16건 별도 · 경고 통과(임계 300)",
+        signal: "끊어진 링크 110건 자동 역추적 복구 및 dashboard_runtime.json 배포 대기",
+        elapsedSeconds: 605,
+        logs: [
+          "[18:02:01] [Obsidian] 81,092개 노트 및 320,853개 링크 무결성 검증 완료 (임계치 300 이하 통과)",
+          "[18:02:19] [Obsidian] 끊어진 링크 110건 역추적 매핑 및 dashboard_runtime.json 빌드 완료"
+        ]
+      },
+      {
+        id: "team-04-pricing",
+        name: "④ 가격 정책팀",
+        engine: "codex",
+        status: "Done",
+        role: "무게·배송비 산출 및 DDU/DDP 마진 모델링",
+        targetDir: "./jarvis-luna",
+        metrics: "개당 배송비 $6.26~$10.75 · 무게 64~520g (이름추정 3 / 고시용량 4) · DDU/DDP 4개 · 새 자료 6건",
+        signal: "S등급 7개 상품의 무게 추정 및 DDP 기준 40% 이상 마진 가격표 산출 완료",
+        elapsedSeconds: 310,
+        logs: [
+          "[17:54:05] [Pricing/Codex] 무게 64~520g(이름추정 3, 고시용량 4) 기반 배송비 $6.26~$10.75 계산 완료",
+          "[17:54:12] [Herder Hook] 가격 정책 산출 완료 -> DONE 상태 전환 및 리스팅 제작팀에 데이터 전달"
+        ]
+      },
+      {
+        id: "team-09-robotics",
+        name: "⑨ 로보틱스 수집팀",
+        engine: "claude-code",
+        status: "Done",
+        role: "arXiv 및 로보틱스 RSS 기술 피드 수집",
+        targetDir: "./jarvis-luna",
+        metrics: "40건 · arxiv 0 / rss 40 · 새 자료 76건",
+        signal: "RSS 40건 및 신규 자료 76건 코퍼스 병합 완료",
+        elapsedSeconds: 275,
+        logs: [
+          "[17:47:00] [Robotics] RSS 피드 40건 및 신규 자료 76건 수집·정규화 완료",
+          "[17:47:15] [Herder Hook] 작업 완료 -> DONE 알림 전송"
+        ]
+      }
+    ];
+
+    const E2E_STAGES = [
+      {
+        title: "1단계: 피드백 데이터 유입 및 허더 코어(Herder Core) 백그라운드 기동",
+        badge: "Herder Core Daemon + GitHub PR #4",
+        summary: "노트북이나 데스크톱 앱 창을 닫아두어도 상시 서버(또는 맥 미니)에서 돌아가는 '허더 코어'가 jarvis-luna 저장소의 읽기 전용 GitHub 피드백 루프(PR #4)와 런타임 감사 JSON(ops_plan.json, collector_audit.json, score_explain.json)을 즉시 감지합니다.",
+        bullets: [
+          "상품 소싱팀의 다이소몰 HTML 반환 실패(5건), 마케팅 조사팀의 고시표 미입력(3건), 법률·규제팀의 OTC/Lab 차단(7건) 시그널을 실시간 파싱합니다.",
+          "스테이징 보호 규칙(Automation Disabled Until Validation)을 유지한 상태에서 비서실장 에이전트 세션을 깨웁니다."
+        ]
+      },
+      {
+        title: "2단계: 비서실장(JARVIS·LUNA)의 팀장-팀원 오케스트레이션 및 작업 배분",
+        badge: "Claude Code Team Lead",
+        summary: "총괄 팀장 역할을 맡은 비서실장(jarvis-luna-chief)이 .herder_team_rules.md 규칙에 따라 11개 하위 팀(클로드 7개, 코덱스 4개)에 병렬·순차 작업 티켓을 배분합니다.",
+        bullets: [
+          "1계층(상품 소싱·기관·로보틱스·지식 수집팀)에 크롤러 패치 및 3,205건 코퍼스 정규화를 지시합니다.",
+          "2계층(마케팅·가격·법률팀)에 S등급 7개 상품의 트렌드 포지셔닝, DDP 배송비($6.26~$10.75), FDA/OTC/US 라벨 점검을 동시에 할당합니다."
+        ]
+      },
+      {
+        title: "3단계: 실시간 터미널 감독, 타이머 추적 및 중간 지시 주입",
+        badge: "Control Room UI + Live Terminal Buffer",
+        summary: "허더 관제실 화면에서 11개 팀의 터미널 진행 상황과 탭별 작업 시간(HH:mm:ss), 토큰 사용량을 한눈에 감독하며 방향이 틀어지면 즉시 개입합니다.",
+        bullets: [
+          "상품 소싱팀 터미널에서 다이소몰 상세 HTML이 기본 페이지로 반환되는 현상을 확인하고, 우회 헤더·셀렉터 패치 지시를 즉시 전송합니다.",
+          "지식 수집팀과 옵시디언 그래프팀이 백그라운드에서 81,092개 노트(320,853 링크)와 MoE 모델(정확도 88.05%)을 갱신하는 과정을 실시간 모니터링합니다."
+        ]
+      },
+      {
+        title: "4단계: 확인 필요 에이전트 최상단 정렬(Blocked Auto-Focus) 및 원격 승인",
+        badge: "Priority Queue + SSH / Claude Remote",
+        summary: "인간의 의사결정이 필요한 5개 팀(소싱·마케팅·법률·리스팅·디자인)을 허더가 목록 맨 위로 자동 배치하고 스마트폰·데스크톱 알림을 보냅니다.",
+        bullets: [
+          "비프루브 마린 무기자차 마일드(otc) 및 드롭비 잡티 말끔 앰플 40(lab) 등 차단 7건의 US 라벨 6항목 증빙과 고시표 3건 캡처본을 외부에서도 모바일로 즉시 검토·승인합니다.",
+          "승인이 완료된 팀은 Blocked에서 Working/Done으로 전환되며 다음 대기 팀의 잠금이 즉시 해제됩니다."
+        ]
+      },
+      {
+        title: "5단계: 리스팅 패키지 완성, 끊어진 링크 복구 및 대시보드 배포 대기",
+        badge: "Staging Verified -> Ready to Publish",
+        summary: "고시·라벨·법률 블로커가 해제되면 리스팅 제작팀이 S등급 7건을 등록 가능(7/7) 상태로 전환하고, 옵시디언 그래프팀이 dashboard_runtime.json을 최종 생성합니다.",
+        bullets: [
+          "끊어진 옵시디언 링크 110건이 자동 복구되고, 디자인팀의 Shopify 테마 에셋(폰트 1,946개·팔레트 13색조)과 채널 운영팀의 12개 채널 프리플라이트가 완료됩니다.",
+          "코덱스 리뷰어의 최종 스테이징 검증 통과 후 GitHub Actions Pages 배포 워크플로에 안전하게 반영됩니다."
+        ]
+      }
+    ];
+
+    let agents = JSON.parse(JSON.stringify(INITIAL_AGENTS));
+    let selectedAgentId = "team-01-sourcing";
+    let currentFilter = "all";
+    let autoFocusBlocked = true;
+    let currentStageIndex = 0;
+    let currentCodeTab = "json";
+
+    function formatTime(sec) {
+      const h = String(Math.floor(sec / 3600)).padStart(2, "0");
+      const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
+      const s = String(sec % 60).padStart(2, "0");
+      return `${h}:${m}:${s}`;
+    }
+
+    function showToast(msg) {
+      const container = document.getElementById("toast-container");
+      const textEl = document.getElementById("toast-message");
+      textEl.textContent = msg;
+      container.classList.remove("hidden");
+      if (window._toastTimer) clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => {
+        container.classList.add("hidden");
+      }, 3200);
+    }
+
+    function getStatusBadge(status) {
+      if (status === "Blocked") {
+        return `<span class="px-2 py-0.5 text-[11px] font-bold rounded bg-rose-500/20 text-rose-300 border border-rose-500/40 mono">🚨 BLOCKED (확인 필요)</span>`;
+      }
+      if (status === "Working") {
+        return `<span class="px-2 py-0.5 text-[11px] font-bold rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 mono">⚙️ WORKING</span>`;
+      }
+      if (status === "Done") {
+        return `<span class="px-2 py-0.5 text-[11px] font-bold rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 mono">✅ DONE</span>`;
+      }
+      return `<span class="px-2 py-0.5 text-[11px] font-bold rounded bg-slate-700 text-slate-300 mono">IDLE</span>`;
+    }
+
+    function updateKPIs() {
+      const blockedCount = agents.filter(a => a.status === "Blocked").length;
+      const blockedEl = document.getElementById("kpi-blocked-count");
+      blockedEl.textContent = `${blockedCount}건`;
+      blockedEl.className = blockedCount > 0 ? "text-lg font-bold text-rose-400 mono" : "text-lg font-bold text-emerald-400 mono";
+
+      const listingAgent = agents.find(a => a.id === "team-06-listing");
+      const readyEl = document.getElementById("kpi-listing-ready");
+      const noteEl = document.getElementById("kpi-listing-note");
+      if (blockedCount === 0 || (listingAgent && listingAgent.status === "Done")) {
+        readyEl.textContent = "7 / 7건";
+        readyEl.className = "text-lg font-bold text-emerald-400 mono";
+        noteEl.textContent = "고시·라벨·법률 검증 완료";
+      } else {
+        readyEl.textContent = "0 / 7건";
+        readyEl.className = "text-lg font-bold text-amber-400 mono";
+        noteEl.textContent = `블로커 ${blockedCount}건 해제 대기`;
+      }
+    }
+
+    function renderAgentGrid() {
+      const grid = document.getElementById("agent-grid");
+      const priorityRank = { "Blocked": 0, "Working": 1, "Done": 2, "Idle": 3 };
+
+      let list = agents.slice();
+      if (currentFilter !== "all") {
+        list = list.filter(a => a.status.toLowerCase() === currentFilter);
+      }
+      if (autoFocusBlocked) {
+        list.sort((a, b) => priorityRank[a.status] - priorityRank[b.status]);
+      }
+
+      grid.innerHTML = list.map(agent => {
+        const isSelected = agent.id === selectedAgentId;
+        const borderClass = isSelected
+          ? "border-indigo-500 ring-1 ring-indigo-500/50 bg-slate-900"
+          : (agent.status === "Blocked" ? "border-rose-500/50 bg-slate-900/95 blocked-card" : "border-slate-800 bg-slate-900/70 hover:border-slate-700");
+
+        return `
+          <div data-agent-id="${agent.id}" class="agent-card cursor-pointer rounded-xl border p-3.5 transition ${borderClass}">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <span class="font-bold text-sm text-white">${agent.name}</span>
+                <span class="px-1.5 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 mono">${agent.engine}</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs mono text-slate-400">⏱ ${formatTime(agent.elapsedSeconds)}</span>
+                ${getStatusBadge(agent.status)}
+              </div>
+            </div>
+            <div class="mt-2 text-xs text-slate-300 font-medium">${agent.metrics}</div>
+            <div class="mt-1.5 text-xs ${agent.status === 'Blocked' ? 'text-rose-300' : 'text-slate-400'} flex items-center justify-between gap-2">
+              <span class="truncate">↳ ${agent.signal}</span>
+              ${agent.status === "Blocked" ? `<button type="button" data-approve-id="${agent.id}" class="approve-btn shrink-0 px-2 py-0.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white text-[11px] font-semibold">즉시 승인</button>` : ""}
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      grid.querySelectorAll(".agent-card").forEach(card => {
+        card.addEventListener("click", (e) => {
+          if (e.target.closest(".approve-btn")) return;
+          selectedAgentId = card.getAttribute("data-agent-id");
+          renderAgentGrid();
+          renderTerminalPanel();
+        });
+      });
+
+      grid.querySelectorAll(".approve-btn").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const targetId = btn.getAttribute("data-approve-id");
+          resolveAgentBlocker(targetId);
+        });
+      });
+
+      updateKPIs();
+    }
+
+    function renderTerminalPanel() {
+      const agent = agents.find(a => a.id === selectedAgentId) || agents[0];
+      if (!agent) return;
+
+      document.getElementById("term-agent-title").textContent = agent.name;
+      document.getElementById("term-agent-engine").textContent = agent.engine;
+      document.getElementById("term-agent-role").textContent = agent.role;
+      document.getElementById("term-agent-timer").textContent = formatTime(agent.elapsedSeconds);
+      document.getElementById("term-target-dir").textContent = `target: ${agent.targetDir}`;
+
+      const dot = document.getElementById("term-status-dot");
+      const banner = document.getElementById("term-alert-banner");
+      const resolveBtn = document.getElementById("btn-term-resolve");
+
+      if (agent.status === "Blocked") {
+        dot.className = "w-2.5 h-2.5 rounded-full bg-rose-500 animate-ping";
+        banner.className = "px-4 py-2.5 bg-rose-950/50 border-b border-rose-500/30 flex items-center justify-between gap-2";
+        resolveBtn.classList.remove("hidden");
+      } else if (agent.status === "Working") {
+        dot.className = "w-2.5 h-2.5 rounded-full bg-cyan-400";
+        banner.className = "px-4 py-2.5 bg-slate-900 border-b border-slate-800 flex items-center justify-between gap-2";
+        resolveBtn.classList.add("hidden");
+      } else {
+        dot.className = "w-2.5 h-2.5 rounded-full bg-emerald-400";
+        banner.className = "px-4 py-2.5 bg-emerald-950/30 border-b border-emerald-500/20 flex items-center justify-between gap-2";
+        resolveBtn.classList.add("hidden");
+      }
+
+      document.getElementById("term-alert-text").textContent = agent.signal;
+
+      const buffer = document.getElementById("term-buffer");
+      buffer.innerHTML = agent.logs.map(line => {
+        let color = "text-slate-300";
+        if (line.includes("[WARN]") || line.includes("[BLOCK]") || line.includes("BLOCKED")) color = "text-rose-300";
+        else if (line.includes("완료") || line.includes("DONE") || line.includes("통과")) color = "text-emerald-300";
+        else if (line.includes("[CMD]") || line.includes("지시")) color = "text-cyan-300";
+        return `<div class="${color}">${line}</div>`;
+      }).join("");
+      buffer.scrollTop = buffer.scrollHeight;
+    }
+
+    function resolveAgentBlocker(agentId) {
+      const agent = agents.find(a => a.id === agentId);
+      if (!agent) return;
+      agent.status = "Done";
+      agent.signal = "사용자 승인 및 패치 반영 완료 — 다음 파이프라인 단계로 인계됨";
+      agent.logs.push(`[21:10:00] [Herder Approval] 사용자 확인 승인 완료 -> BLOCKED 해제 및 DONE 전환`);
+      showToast(`${agent.name} 조치가 승인되어 완료(Done) 상태로 전환되었습니다.`);
+      renderAgentGrid();
+      renderTerminalPanel();
+    }
+
+    function renderE2EStage() {
+      const stage = E2E_STAGES[currentStageIndex];
+      const detail = document.getElementById("e2e-stage-detail");
+      detail.innerHTML = `
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <h3 class="text-sm sm:text-base font-bold text-white">${stage.title}</h3>
+          <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 mono">${stage.badge}</span>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">${stage.summary}</p>
+        <ul class="space-y-1.5 text-xs text-slate-300 list-disc list-inside pt-1">
+          ${stage.bullets.map(b => `<li>${b}</li>`).join("")}
+        </ul>
+      `;
+
+      document.querySelectorAll(".stage-btn").forEach((btn, idx) => {
+        if (idx === currentStageIndex) {
+          btn.className = "stage-btn text-left p-3 rounded-lg border border-indigo-500 bg-indigo-500/15 transition";
+        } else {
+          btn.className = "stage-btn text-left p-3 rounded-lg border border-slate-800 bg-slate-950/60 hover:border-slate-700 transition";
+        }
+      });
+    }
+
+    function renderCodeTab() {
+      const area = document.getElementById("code-display-area");
+      const label = document.getElementById("code-filename-label");
+      const btnJson = document.getElementById("code-tab-json");
+      const btnRules = document.getElementById("code-tab-rules");
+      const btnSh = document.getElementById("code-tab-sh");
+
+      [btnJson, btnRules, btnSh].forEach(b => {
+        b.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 mono";
+      });
+
+      if (currentCodeTab === "json") {
+        btnJson.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white mono";
+        label.textContent = "herder.config.json";
+        area.textContent = CONFIG_FILES.json;
+      } else if (currentCodeTab === "rules") {
+        btnRules.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white mono";
+        label.textContent = ".herder_team_rules.md";
+        area.textContent = CONFIG_FILES.rules;
+      } else {
+        btnSh.className = "px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white mono";
+        label.textContent = "start_herder_team.sh";
+        area.textContent = CONFIG_FILES.sh;
+      }
+    }
+
+    function switchMainView(viewName) {
+      const views = {
+        "control-room": document.getElementById("view-control-room"),
+        "e2e-flow": document.getElementById("view-e2e-flow"),
+        "config-code": document.getElementById("view-config-code")
+      };
+      const navs = {
+        "control-room": document.getElementById("nav-control-room"),
+        "e2e-flow": document.getElementById("nav-e2e-flow"),
+        "config-code": document.getElementById("nav-config-code")
+      };
+
+      Object.keys(views).forEach(k => {
+        if (k === viewName) {
+          views[k].classList.remove("hidden");
+          navs[k].className = "px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition bg-indigo-600 text-white shadow";
+        } else {
+          views[k].classList.add("hidden");
+          navs[k].className = "px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition text-slate-400 hover:text-white";
+        }
+      });
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      renderAgentGrid();
+      renderTerminalPanel();
+      renderE2EStage();
+      renderCodeTab();
+
+      // Main view navigation
+      document.getElementById("nav-control-room").addEventListener("click", () => switchMainView("control-room"));
+      document.getElementById("nav-e2e-flow").addEventListener("click", () => switchMainView("e2e-flow"));
+      document.getElementById("nav-config-code").addEventListener("click", () => switchMainView("config-code"));
+
+      // Filter buttons
+      const setFilter = (f, activeId) => {
+        currentFilter = f;
+        ["filter-all", "filter-blocked", "filter-working", "filter-done"].forEach(id => {
+          const el = document.getElementById(id);
+          if (id === activeId) {
+            el.className = "px-2.5 py-1 rounded-md text-xs font-medium bg-indigo-600 text-white";
+          } else {
+            el.className = "px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700";
+          }
+        });
+        renderAgentGrid();
+      };
+      document.getElementById("filter-all").addEventListener("click", () => setFilter("all", "filter-all"));
+      document.getElementById("filter-blocked").addEventListener("click", () => setFilter("blocked", "filter-blocked"));
+      document.getElementById("filter-working").addEventListener("click", () => setFilter("working", "filter-working"));
+      document.getElementById("filter-done").addEventListener("click", () => setFilter("done", "filter-done"));
+
+      document.getElementById("toggle-autofocus").addEventListener("change", (e) => {
+        autoFocusBlocked = e.target.checked;
+        renderAgentGrid();
+      });
+
+      document.getElementById("btn-reset-demo").addEventListener("click", () => {
+        agents = JSON.parse(JSON.stringify(INITIAL_AGENTS));
+        selectedAgentId = "team-01-sourcing";
+        document.getElementById("kpi-broken-links").textContent = "끊어진 링크 110건";
+        renderAgentGrid();
+        renderTerminalPanel();
+        showToast("초기 11개 팀 피드백 대기 상태로 리셋되었습니다.");
+      });
+
+      document.getElementById("btn-term-resolve").addEventListener("click", () => {
+        resolveAgentBlocker(selectedAgentId);
+      });
+
+      document.getElementById("btn-approve-all").addEventListener("click", () => {
+        agents.forEach(a => {
+          if (a.status === "Blocked") {
+            a.status = "Done";
+            a.signal = "일괄 승인 완료 — Shopify 스테이징 패키지 및 대시보드 반영 완료";
+            a.logs.push("[21:11:00] [Batch Approval] 비서실장 일괄 승인 처리 -> DONE 전환");
+          }
+        });
+        document.getElementById("kpi-broken-links").textContent = "끊어진 링크 0건 (복구됨)";
+        renderAgentGrid();
+        renderTerminalPanel();
+        showToast("5건의 조치 필요(Blocked) 항목이 모두 승인되어 S등급 7/7건 등록 가능 상태로 전환되었습니다!");
+      });
+
+      document.getElementById("btn-trigger-feedback").addEventListener("click", () => {
+        const chief = agents.find(a => a.id === "jarvis-luna-chief");
+        if (chief) {
+          chief.logs.push("[21:12:05] [PR #4 Webhook] 신규 피드백 루프 리포트 수신: 콜라겐 마스크팩 검색량 +300% & S등급 마진 42% 발굴");
+          chief.logs.push("[21:12:06] [Orchestrator] 마케팅팀·리스팅팀·디자인팀에 틱톡샵/쓰레드 바이럴 패키지 즉시 생성 지시");
+        }
+        selectedAgentId = "jarvis-luna-chief";
+        renderAgentGrid();
+        renderTerminalPanel();
+        showToast("새 GitHub PR #4 피드백 데이터가 유입되어 비서실장이 11개 팀에 실시간 지시를 하달했습니다.");
+      });
+
+      // Terminal instruction form
+      document.getElementById("form-terminal-cmd").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const input = document.getElementById("input-terminal-cmd");
+        const cmd = input.value.trim();
+        if (!cmd) return;
+        const agent = agents.find(a => a.id === selectedAgentId) || agents[0];
+        agent.logs.push(`[21:12:30] [CMD 주입 -> ${agent.name}] $ ${cmd}`);
+        agent.logs.push(`[21:12:31] [${agent.engine}] 지시 수신 완료 — 터미널 버퍼에서 즉시 작업 재개...`);
+        if (agent.status === "Blocked") {
+          agent.status = "Working";
+          agent.signal = `사용자 지시 실행 중: "${cmd}"`;
+        }
+        input.value = "";
+        renderAgentGrid();
+        renderTerminalPanel();
+        showToast(`${agent.name} 터미널에 새 지시를 주입했습니다.`);
+      });
+
+      document.querySelectorAll(".quick-cmd-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const cmd = btn.getAttribute("data-quick-cmd");
+          const input = document.getElementById("input-terminal-cmd");
+          input.value = cmd;
+          document.getElementById("form-terminal-cmd").dispatchEvent(new Event("submit"));
+        });
+      });
+
+      // E2E Stage buttons
+      document.querySelectorAll(".stage-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          currentStageIndex = parseInt(btn.getAttribute("data-stage"), 10);
+          renderE2EStage();
+        });
+      });
+      document.getElementById("btn-prev-stage").addEventListener("click", () => {
+        currentStageIndex = (currentStageIndex + E2E_STAGES.length - 1) % E2E_STAGES.length;
+        renderE2EStage();
+      });
+      document.getElementById("btn-next-stage").addEventListener("click", () => {
+        currentStageIndex = (currentStageIndex + 1) % E2E_STAGES.length;
+        renderE2EStage();
+      });
+
+      // Code tabs
+      document.getElementById("code-tab-json").addEventListener("click", () => { currentCodeTab = "json"; renderCodeTab(); });
+      document.getElementById("code-tab-rules").addEventListener("click", () => { currentCodeTab = "rules"; renderCodeTab(); });
+      document.getElementById("code-tab-sh").addEventListener("click", () => { currentCodeTab = "sh"; renderCodeTab(); });
+
+      document.getElementById("btn-copy-code").addEventListener("click", () => {
+        const text = CONFIG_FILES[currentCodeTab];
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand("copy");
+          showToast("현재 설정/스크립트 코드가 클립보드에 복사되었습니다.");
+        } catch (err) {
+          showToast("복사 중 오류가 발생했습니다.");
+        }
+        document.body.removeChild(ta);
+      });
+
+      // Live work timer tick
+      if (window._herderTimerInterval) clearInterval(window._herderTimerInterval);
+      window._herderTimerInterval = setInterval(() => {
+        agents.forEach(a => {
+          if (a.status === "Working" || a.status === "Blocked") {
+            a.elapsedSeconds += 1;
+          }
+        });
+        const active = agents.find(a => a.id === selectedAgentId);
+        if (active) {
+          const tEl = document.getElementById("term-agent-timer");
+          if (tEl) tEl.textContent = formatTime(active.elapsedSeconds);
+        }
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
