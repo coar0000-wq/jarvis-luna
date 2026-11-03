@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-23T04:23:43.054399+00:00",
+  "generated_at": "2026-11-03T10:46:23.210038+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "6799517f8af2cc32fb07e1b8a8dd7ee82fa8a1e5ce2192a3fb06de20de84def9",
+      "data/product_master.json": "7f2d8ebd647c90d06c15ea20449b0bb86709e11705ca92f095bab87b8075e216",
       "data/gosi.json": "144a864e0a63779924349b2bd959c8f43b4a2b83c374760469f92c137880f1dd",
       "data/daiso_real/daiso_us_labels.json": "0043aaa791b4563df159a4e18bcc1d6bd3ac8dfc3f49d4b3d1cef0ca17c52026",
-      "data/pricing_model.json": "f6f97cd03c63705042ebb0c1a0db9c821ff1ed2411694349d2748a370e3e78a2",
-      "data/legal_products.json": "633ba2b256d146c16a9aef7e7dedf86c3acf749acc866cfc13139b74c0a9036d",
-      "data/daiso_real/shopify_s_recommendations.json": "17e182e693bd9f60099b1c71b12c338322ef71033eead236b46ce78725a5cc7a",
+      "data/pricing_model.json": "a6726aa14c7e0ea13a37ef244ee0fd7f4292d6733a1120116c43b808bffc73fc",
+      "data/legal_products.json": "0a9ca8dfcb4a33b8cdc30b22e45ce73eae3d0e3e924037c1a7c82b01ed24d7d3",
+      "data/daiso_real/shopify_s_recommendations.json": "f17ba3fe3ca62cb329912d0e081f58a3c7319fdd9b98d0712331c3737be08d0d",
       "data/shopify_listing_copy.json": "24045f6b5454b64a76fae0440ca8e503cd08fdd605c9d77dfa8ed64659f6cc49",
-      "data/shopify_shortlist.json": "21ac915c501d5351aa2ed8f9d1924507ddaaef9638cb78463faa0140310774b9",
+      "data/shopify_shortlist.json": "9ef5cda5de133441729e109bffbc786abaa2b3d5018e8248590042fa3ad3bdd4",
       "data/legal_full.json": "28983a18dbd9e3b77e44465ef4ead461365bcabe3d64c766984f1edf01d1dd75",
       "data/mocra_readiness.json": "3da2aaf2c6e581186cf06b8e982fc6b7b0889e49aec52770d2b920b7cd0abe6f",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -25,7 +25,7 @@
       "masked/product_accuracy_evidence": "cd9090be39707d44b060e9a53e93df00f73ba518eb154a86cf8d80387e9c3428",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "7f7c1b7aabab0a02e4f78e0ba9803bc106983c4beef3bd7240a5ee2d5502039a"
+    "recommendations_sha256": "343a96b0970351fa70039d892bffe99257020dd854b0358245f20137d54a3baa"
   },
   "total": 6,
   "agent_ready": 0,
@@ -43,6 +43,7 @@
     "legal_full": 0
   },
   "blockers": {
+    "current_s_evidence": 6,
     "copy": 6,
     "gosi": 2,
     "us_label": 3,
@@ -88,6 +89,32 @@
       "price_krw": 3000,
       "shopify_score": 100,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:24:04.325308+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -130,7 +157,7 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 15.42,
+        "price_usd": 15.21,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -152,15 +179,18 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
@@ -177,8 +207,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
           "listing"
@@ -186,8 +216,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -204,6 +234,32 @@
       "price_krw": 5000,
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:17:11.861157+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -246,7 +302,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 18.42,
+        "price_usd": 18.16,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -268,12 +324,14 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "us_label",
         "legal",
@@ -281,6 +339,7 @@
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "us_label",
         "legal",
@@ -300,7 +359,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 8,
+        "risk_points": 9,
         "team_routes": [
           "legal",
           "listing"
@@ -308,8 +367,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -327,6 +386,32 @@
       "price_krw": 5000,
       "shopify_score": 97,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:34:12.451137+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -370,13 +455,13 @@
       },
       "price": {
         "price_usd": 17.99,
-        "margin_pct": 38.6,
+        "margin_pct": 39.5,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:38.6%<40.0%"
+          "margin_below_target:39.5%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -391,15 +476,18 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
@@ -415,8 +503,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
           "listing"
@@ -424,8 +512,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -442,6 +530,32 @@
       "price_krw": 5000,
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:27:47.652247+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -485,7 +599,7 @@
       },
       "price": {
         "price_usd": 20.99,
-        "margin_pct": 43.5,
+        "margin_pct": 44.2,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -504,15 +618,18 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
@@ -528,8 +645,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
           "listing"
@@ -537,8 +654,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -555,6 +672,32 @@
       "price_krw": 5000,
       "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-16T22:29:36.584042+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -597,7 +740,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 19.73,
+        "price_usd": 19.47,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -619,6 +762,7 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "gosi",
         "us_label",
         "legal",
@@ -626,6 +770,7 @@
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -634,6 +779,7 @@
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -654,7 +800,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 9,
+        "risk_points": 10,
         "team_routes": [
           "legal",
           "sourcing",
@@ -663,8 +809,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -682,6 +828,32 @@
       "price_krw": 3000,
       "shopify_score": 85,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-08-24T20:44:01.548477+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "product_accuracy": {
@@ -724,7 +896,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 16.73,
+        "price_usd": 16.5,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -746,6 +918,7 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "gosi",
         "us_label",
         "legal",
@@ -753,6 +926,7 @@
       ],
       "ready": false,
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -761,6 +935,7 @@
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -781,7 +956,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 11,
         "team_routes": [
           "legal",
           "sourcing",
@@ -790,8 +965,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],

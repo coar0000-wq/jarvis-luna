@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T04:23:42.151190+00:00",
+  "generated_at": "2026-11-03T10:46:22.090981+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "count": 6,
-  "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
+  "priority_note": "S등급 평가 이력. 현재 등록에는 최신 시장·상품 관측과 listing_gate 통과 필요.",
   "recommendations": [
     {
       "rank": 1,
@@ -17,6 +17,32 @@
       "shopify_score": 100,
       "grade": "S",
       "s_rule": "strong_form",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:24:04.325308+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
       "recommend_reason": "글로벌 'REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 70% · 토큰 ampoule",
@@ -34,14 +60,17 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
@@ -57,8 +86,8 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
           "listing"
@@ -66,14 +95,14 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
     },
     {
       "rank": 2,
@@ -86,6 +115,32 @@
       "shopify_score": 98,
       "grade": "S",
       "s_rule": "multi_token",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:17:11.861157+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
       "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
@@ -104,11 +159,13 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "us_label",
         "legal",
@@ -116,225 +173,8 @@
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "market_price_review",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
-          "legal hard block",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
-    },
-    {
-      "rank": 3,
-      "canonical_product_id": "CP000130",
-      "pd_no": "1055167",
-      "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 5000,
-      "shopify_score": 97,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
-      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
-      "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Expert Retinol Super Bounce Serum",
-        "similarity": 0.853,
-        "demand_weight": 0.475,
-        "matched_tokens": [
-          "retinol",
-          "serum"
-        ],
-        "match_score": 0.405
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
-    },
-    {
-      "rank": 4,
-      "canonical_product_id": "CP000216",
-      "pd_no": "1067498",
-      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 5000,
-      "shopify_score": 96,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.784,
-        "matched_tokens": [
-          "cream",
-          "pdrn"
-        ],
-        "match_score": 0.654
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "manufacturer_safety_record_missing",
-        "product_accuracy_owner_review_required",
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
-    },
-    {
-      "rank": 5,
-      "canonical_product_id": "CP000230",
-      "pd_no": "1068721",
-      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 5000,
-      "shopify_score": 93,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
-      "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.722,
-        "matched_tokens": [
-          "brightening",
-          "vitaminc"
-        ],
-        "match_score": 0.458
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "gosi",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "blocked_by": [
-        "copy",
-        "gosi",
-        "us_label",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
@@ -355,56 +195,280 @@
         "risk_points": 9,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
     },
     {
-      "rank": 6,
-      "canonical_product_id": "CP000267",
-      "pd_no": "1074979",
-      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "rank": 3,
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
       "bucket": "스킨케어",
-      "desk": "makeup",
-      "price_krw": 3000,
-      "shopify_score": 85,
+      "desk": "skincare",
+      "price_krw": 5000,
+      "shopify_score": 97,
       "grade": "S",
-      "s_rule": "category_desk_us_evidence",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
-      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "similarity": 0.293,
-        "demand_weight": 0.98,
-        "matched_tokens": [
-          "cream"
+      "s_rule": "ingredient+form",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
         ],
-        "match_score": 0.287
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:34:12.451137+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "matched_global": {
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
+        "matched_tokens": [
+          "retinol",
+          "serum"
+        ],
+        "match_score": 0.405
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "current_s_evidence",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "critical",
+        "risk_points": 4,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      },
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+    },
+    {
+      "rank": 4,
+      "canonical_product_id": "CP000216",
+      "pd_no": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "bucket": "스킨케어",
+      "desk": "skincare",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-15T22:27:47.652247+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "similarity": 0.834,
+        "demand_weight": 0.784,
+        "matched_tokens": [
+          "cream",
+          "pdrn"
+        ],
+        "match_score": 0.654
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "current_s_evidence",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "critical",
+        "risk_points": 4,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: current_s_evidence, copy, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      },
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+    },
+    {
+      "rank": 5,
+      "canonical_product_id": "CP000230",
+      "pd_no": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "bucket": "스킨케어",
+      "desk": "skincare",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "grade": "S",
+      "s_rule": "multi_token",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-09-16T22:29:36.584042+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
+      "matched_global": {
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.634,
+        "demand_weight": 0.722,
+        "matched_tokens": [
+          "brightening",
+          "vitaminc"
+        ],
+        "match_score": 0.458
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "current_s_evidence",
         "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -413,6 +477,7 @@
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "current_s_evidence",
         "copy",
         "gosi",
         "us_label",
@@ -441,15 +506,124 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-23T04:23:43.054399+00:00"
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+    },
+    {
+      "rank": 6,
+      "canonical_product_id": "CP000267",
+      "pd_no": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "bucket": "스킨케어",
+      "desk": "makeup",
+      "price_krw": 3000,
+      "shopify_score": 85,
+      "grade": "S",
+      "s_rule": "category_desk_us_evidence",
+      "current_s_eligibility": {
+        "eligible": false,
+        "reasons": [
+          "product_observation_stale",
+          "verified_current_market_evidence_missing"
+        ],
+        "policy": "market_48h_product_72h_future_tolerance_5m",
+        "product_collected_at": "2026-08-24T20:44:01.548477+00:00",
+        "product_source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+        "market_evidence": [],
+        "excluded_market_sources": {
+          "amazon_best_sellers": "unverified_or_stale_source",
+          "walmart_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
+          "amazon_movers_beauty": "unverified_or_stale_source",
+          "amazon_new_beauty": "unverified_or_stale_source",
+          "tiktok_shop_us": "unverified_or_stale_source",
+          "ulta_beauty": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source"
+        },
+        "fresh_shopify_score": null,
+        "fresh_s_rule": null,
+        "fresh_us_market_hits": null,
+        "fresh_global_match": null
+      },
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
+      "recommend_reason": "글로벌 'AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)' (oliveyoung_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "matched_global": {
+        "channel": "oliveyoung_us",
+        "global_product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
+        "similarity": 0.293,
+        "demand_weight": 0.98,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.287
+      },
+      "registerable": false,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "current_s_evidence",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "current_s_evidence",
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 11,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: current_s_evidence, copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      },
+      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
     }
   ],
   "agent_ready_count": 0,
