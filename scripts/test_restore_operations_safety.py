@@ -741,6 +741,90 @@ class ReviewedCancelledRestoreTests(unittest.TestCase):
                 restore._reviewed_cancelled_restore(Path('.'), self.run, self.fetch)
 
 
+class OwnerAcceptedGapTests(unittest.TestCase):
+    """2026-11-03: exactly one owner-accepted unrecorded gap; every variation stays blocked."""
+    def setUp(self):
+        self.run = copy.deepcopy(restore._OWNER_ACCEPTED_GAP_RUN)
+        for field in ('repository', 'head_repository'):
+            self.run[field] = {'full_name': restore.REPOSITORY, 'id': 1334276889}
+        self.jobs = json.loads((Path(__file__).parent / 'fixtures' /
+                               'owner_accepted_gap_39893237129.json').read_text(encoding='utf-8'))
+        self.artifacts = {'total_count': 0, 'artifacts': []}
+        self.ancestor = 0
+
+    def fetch(self, url):
+        if '/jobs?' in url:
+            return copy.deepcopy(self.jobs)
+        if '/artifacts?' in url:
+            return copy.deepcopy(self.artifacts)
+        return copy.deepcopy(self.run)
+
+    def prove(self):
+        with patch.object(restore, '_git', side_effect=lambda root, *args:
+                          subprocess.CompletedProcess(args, self.ancestor, b'', b'')):
+            return restore._owner_accepted_unrecorded_gap(Path('.'), self.run, self.fetch)
+
+    def test_exact_owner_accepted_gap_is_walked_over(self):
+        self.assertTrue(self.prove())
+
+    def test_other_runs_are_not_accepted(self):
+        self.run['id'] += 1
+        self.assertFalse(self.prove())
+
+    def test_retry_fork_changed_identity_or_ancestry_are_blocked(self):
+        for field, value in (('run_attempt', 2), ('head_sha', 'b' * 40), ('conclusion', 'cancelled'),
+                             ('updated_at', '2099-01-01T00:00:00Z'),
+                             ('head_repository', {'full_name': 'other/repo', 'id': 1})):
+            original = copy.deepcopy(self.run)
+            self.run[field] = value
+            with self.subTest(field=field), self.assertRaises(restore.Blocked):
+                self.prove()
+            self.run = original
+        self.ancestor = 1
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+
+    def test_any_artifact_step_or_extra_job_is_blocked(self):
+        self.artifacts = {'total_count': 1, 'artifacts': [{'name': 'operations-safety-39893237129-1'}]}
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+        self.artifacts = {'total_count': 0, 'artifacts': []}
+        original = copy.deepcopy(self.jobs)
+        self.jobs['jobs'][0]['steps'] = [{'name': restore.RETAIN_STEP, 'status': 'completed', 'conclusion': 'success'}]
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+        self.jobs = copy.deepcopy(original)
+        self.jobs['jobs'][0]['completed_at'] = '2099-01-01T00:00:00Z'
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+        self.jobs = copy.deepcopy(original)
+        self.jobs['jobs'].append(copy.deepcopy(self.jobs['jobs'][0]))
+        self.jobs['total_count'] = 2
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+
+    def test_walk_still_requires_an_authenticated_predecessor_artifact(self):
+        prior = dict(self.run, id=self.run['id'] - 1, conclusion='success')
+        artifact = {'name': f"operations-safety-{prior['id']}-1", 'expired': False}
+        def fetch(url):
+            if url.endswith('runs?per_page=100'):
+                return {'workflow_runs': [self.run, prior]}
+            if '/artifacts?' in url:
+                rows = [artifact] if f"runs/{prior['id']}/" in url else []
+                return {'total_count': len(rows), 'artifacts': rows}
+            return self.fetch(url)
+        with patch.object(restore, '_git', side_effect=lambda root, *args:
+                          subprocess.CompletedProcess(args, 0, b'', b'')):
+            found, artifacts = restore._non_actuating_predecessor(Path('.'), self.run, fetch, None)
+            self.assertEqual(found, prior)
+            self.assertEqual(artifacts, [artifact])
+            # Without any older authenticated artifact the accepted gap never grants continuity.
+            only = lambda url: ({'workflow_runs': [self.run]} if url.endswith('runs?per_page=100')
+                                else self.fetch(url))
+            with self.assertRaises(restore.Blocked):
+                restore._non_actuating_predecessor(Path('.'), self.run, only, None)
+
+
 class StaleQueuedCheckoutTests(unittest.TestCase):
     """2026-10-17: a queued producer must not open the operations gate on a stale checkout."""
 

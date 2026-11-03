@@ -958,6 +958,57 @@ def _reviewed_cancelled_restore(root, run, fetch_json):
     return True
 
 
+# 2026-11-03: one owner-accepted unrecorded gap. Deep Analysis 39893237129 attempt 1 completed as a
+# failure with zero artifacts, an empty GitHub step list and no retrievable job log (BlobNotFound),
+# so non-actuation can never be proved from GitHub evidence. Main ancestry shows the run published
+# nothing. The repository owner explicitly accepted this single gap on 2026-11-03 (any free-tier
+# Jev/Gemini usage it may have made stays unrecorded) so continuity resumes from the preceding
+# authenticated artifact. Only this exact run/job/topology/artifact inventory is accepted; every
+# other artifactless run still blocks, and the predecessor artifact still goes through digest,
+# lineage and full nonregression checks. This never grants continuity by itself.
+_OWNER_ACCEPTED_GAP_RUN = {
+    'id': 39893237129, 'run_attempt': 1,
+    'head_sha': '52113c37396fcae41e3ac6e25af26c23b6d9c8b2',
+    'path': '.github/workflows/JARVIS-Deep-Analysis.yml',
+    'head_branch': 'main', 'status': 'completed', 'conclusion': 'failure',
+    'event': 'workflow_dispatch', 'created_at': '2026-10-23T03:06:41Z',
+    'updated_at': '2026-10-23T04:20:25Z',
+}
+_OWNER_ACCEPTED_GAP_JOB = {
+    'id': 120217618948, 'run_id': 39893237129, 'run_attempt': 1,
+    'head_sha': _OWNER_ACCEPTED_GAP_RUN['head_sha'], 'head_branch': 'main',
+    'name': 'Collect, normalize, graph, train and publish runtime state',
+    'status': 'completed', 'conclusion': 'failure',
+    'created_at': '2026-10-23T03:06:42Z', 'started_at': '2026-10-23T03:06:45Z',
+    'completed_at': '2026-10-23T04:20:25Z', 'steps': [],
+}
+
+
+def _owner_accepted_unrecorded_gap(root, run, fetch_json):
+    if run.get('id') != _OWNER_ACCEPTED_GAP_RUN['id']:
+        return False
+    for observed in (run, fetch_json(BASE + f"runs/{run['id']}")):
+        if not isinstance(observed, dict) or {k: observed.get(k) for k in _OWNER_ACCEPTED_GAP_RUN} != _OWNER_ACCEPTED_GAP_RUN:
+            raise Blocked('owner_accepted_gap_run_unproved')
+        for field in ('repository', 'head_repository'):
+            repo = observed.get(field) or {}
+            if repo.get('full_name') != REPOSITORY or repo.get('id') != 1334276889:
+                raise Blocked('owner_accepted_gap_repository_unproved')
+    if _git(root, 'merge-base', '--is-ancestor', run['head_sha'], 'HEAD').returncode:
+        raise Blocked('run_not_main_ancestor')
+    artifacts = fetch_json(BASE + f"runs/{run['id']}/artifacts?per_page=100")
+    if not isinstance(artifacts, dict) or artifacts.get('total_count') != 0 or artifacts.get('artifacts') != []:
+        raise Blocked('owner_accepted_gap_artifacts_unproved')
+    payload = fetch_json(BASE + f"runs/{run['id']}/attempts/1/jobs?per_page=100")
+    jobs = payload.get('jobs') if isinstance(payload, dict) else None
+    if not isinstance(jobs, list) or payload.get('total_count') != 1 or len(jobs) != 1:
+        raise Blocked('owner_accepted_gap_jobs_unproved')
+    job = jobs[0]
+    if not isinstance(job, dict) or {k: job.get(k) for k in _OWNER_ACCEPTED_GAP_JOB} != _OWNER_ACCEPTED_GAP_JOB:
+        raise Blocked('owner_accepted_gap_job_unproved')
+    return True
+
+
 def _gated_retention(workflow_raw):
     """The producer's retention step exists and only runs on verified operations continuity."""
     text = workflow_raw.decode('utf-8')
@@ -1012,6 +1063,8 @@ def _non_actuating_predecessor(root, run, fetch_json, current_run_id):
                 raise Blocked('run_not_main_ancestor')
             return candidate, found
         if _reviewed_cancelled_restore(root, candidate, fetch_json):
+            continue
+        if _owner_accepted_unrecorded_gap(root, candidate, fetch_json):
             continue
         if candidate.get('run_attempt') != 1 or candidate.get('conclusion') not in ('success', 'failure'):
             raise Blocked('artifactless_run_actuation_unproved')
