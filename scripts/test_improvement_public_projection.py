@@ -34,7 +34,7 @@ class EvidencePublicTests(unittest.TestCase):
         result = project(value, TEAM_IMPROVEMENT_EVIDENCE)
         self.assertEqual(set(result['teams']), set(TEAM_IDS))
         # The one bounded beauty-price file does not create an additional team-evidence payload.
-        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 34)
+        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 35)
         self.assertEqual(set(SCHEMAS['data/shopify_public_observations.json']['items'][0]),
                          {'pd_no','status','media_count','online_store_visible','observed_at','source'})
         self.assertIn('data/beauty_price_strategy.json', SCHEMAS)
