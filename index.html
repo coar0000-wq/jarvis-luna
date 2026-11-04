@@ -443,7 +443,7 @@ nav a{font-size:12px;}
 <div><h3 id="control-room-title" style="margin:0;">JARVIS·LUNA × Herder 관제실</h3><div style="font-size:12px;color:#8b949e;margin-top:4px;">메인 화면 · 11팀 + 비서실장 상태와 핵심 수치를 실데이터로 보여줍니다. 승인·지시 버튼은 화면 시뮬레이션입니다.</div></div>
 <a href="herder-control-room.html" target="_blank" rel="noopener" style="color:#58a6ff;font-size:13px;text-decoration:none;">전체 화면으로 열기 ↗</a>
 </div>
-<iframe id="control-room-frame" src="herder-control-room.html" title="JARVIS·LUNA × Herder 관제실" style="display:block;width:100%;height:1000px;border:0;border-radius:10px;background:#090d16;"></iframe>
+<iframe id="control-room-frame" title="JARVIS·LUNA × Herder 관제실" style="display:block;width:100%;height:1000px;border:0;border-radius:10px;background:#090d16;"></iframe>
 <script>
 (function(){
   // 관제실이 알려주는 내용 높이에 맞춰 iframe 높이를 늘린다(안쪽 스크롤 없이 한 화면처럼 보이게).
@@ -452,6 +452,11 @@ nav a{font-size:12px;}
   function apply(h){ if(typeof h==='number' && isFinite(h) && h>200 && Math.abs(h-last)>2){ last=h; frame.style.height=Math.ceil(h)+'px'; } }
   window.addEventListener('message',function(e){ if(e.source===frame.contentWindow && e.data && typeof e.data.herderHeight==='number') apply(e.data.herderHeight); });
   frame.addEventListener('load',function(){ try{ apply(frame.contentDocument.body.scrollHeight); }catch(e){} });
+  // 배포마다 새 관제실을 받도록 배포 커밋을 주소에 붙인다(페이지 캐시 10분 동안 예전 화면이 남지 않게).
+  var base='herder-control-room.html', done=false;
+  function open(v){ if(done) return; done=true; frame.src=base+'?v='+encodeURIComponent(v); }
+  fetch('deployment.json?t='+Date.now(),{cache:'no-store'}).then(function(r){ return r.ok?r.json():null; }).then(function(d){ open(d&&typeof d.commit==='string'&&/^[0-9a-f]{40}$/.test(d.commit)?d.commit.slice(0,12):String(Date.now())); }).catch(function(){ open(String(Date.now())); });
+  setTimeout(function(){ open(String(Date.now())); },2000);
 })();
 </script>
 </section>
