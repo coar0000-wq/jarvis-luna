@@ -161,7 +161,7 @@
           </button>
         </div>
       </div>
-      <p id="live-data-note" class="text-[11px] text-slate-400 px-1 -mt-2">실데이터 확인 중… 불러오지 못하면 저장된 스냅샷을 표시합니다. 승인·지시 버튼은 화면 시뮬레이션이며 실제 승인·실행은 일어나지 않습니다.</p>
+      <p id="live-data-note" class="text-[11px] text-slate-400 px-1 -mt-2">실데이터 확인 중… 불러오지 못하면 저장된 스냅샷을 표시합니다. 승인·지시 버튼은 GitHub 이슈 작성 창을 열며, 제출하면 비서실장에게 전달됩니다.</p>
 
       <!-- Split Grid: Left Agent Cards + Right Active Terminal Inspector -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
@@ -785,7 +785,7 @@
     function setLiveNote(ok, d) {
       const note = document.getElementById("live-data-note");
       if (!note) return;
-      const sim = " 승인·지시 버튼은 화면 시뮬레이션이며 실제 승인·실행은 일어나지 않습니다.";
+      const sim = " 승인·지시 버튼은 GitHub 이슈 작성 창을 열며, 제출하면 비서실장에게 전달됩니다(메인 관제실에서 답변 확인).";
       note.textContent = ok
         ? `팀 카드·KPI는 실데이터입니다 (기준 ${kst(d.generated_at || d.last_synced) || "시각 미기록"}).` + sim
         : "실데이터를 불러오지 못해 저장된 스냅샷을 표시합니다." + sim;
@@ -994,14 +994,38 @@
       buffer.scrollTop = buffer.scrollHeight;
     }
 
+    // 2026-11-04: 승인·지시는 GitHub 이슈로 비서실장에게 보낸다(메인 관제실과 같은 형식).
+    // 저장소 소유자 계정으로 등록된 요청만 처리 대상이며, 이 화면은 상태를 바꾸지 않는다.
+    const REQUEST_KIND = {approval: "승인 및 해결", instruction: "지시", bulk: "확인 필요 일괄 승인"};
+    const REQUEST_STATUS = {Blocked: "확인 필요", Working: "작업 중", Done: "정상", Idle: "대기"};
+    function openRequestIssue(kind, list, text) {
+      if (!list.length) return;
+      const when = liveData ? kst(liveData.generated_at || liveData.last_synced) : "";
+      const ids = list.map(a => LIVE_TEAM_MAP[a.id] || a.id);
+      const target = list.length === 1 ? list[0].name : `확인 필요 ${list.length}개 팀`;
+      const brief = text ? liveText(text, 90) : (list.length === 1 ? liveText(list[0].signal, 90) : list.map(a => a.name).join(", "));
+      const lines = [`<!-- jarvis-request v1 kind=${kind} team=${ids.join(",")} -->`, `**종류**: ${REQUEST_KIND[kind]}`, `**데이터 기준**: ${when || "미기록"} (KST)`, ""];
+      list.forEach((a, i) => {
+        lines.push(`### ${a.name} (\`${ids[i]}\`)`, `- 상태: ${REQUEST_STATUS[a.status] || a.status}`);
+        if (a.signal) lines.push(`- 현재 신호: ${liveText(a.signal, 300)}`);
+        lines.push("");
+      });
+      lines.push("**요청 내용**", text ? String(text).trim() : "위 조치를 승인합니다. 처리하고 결과를 이 이슈 댓글로 남겨 주세요. 사람 확인이 더 필요하면 무엇이 필요한지 적어 주세요.");
+      lines.push("", "---", "관제실(JARVIS·LUNA × Herder)에서 작성. 저장소 소유자 계정으로 등록된 요청만 비서실장이 처리합니다. 결제·공개 판매 전환·안전 검사 우회는 하지 않습니다.");
+      const params = new URLSearchParams({
+        title: `[${REQUEST_KIND[kind]}] ${target}${brief ? ": " + brief : ""}`.slice(0, 200),
+        body: lines.join("\n"),
+        labels: "jarvis-request," + (kind === "instruction" ? "jarvis-instruction" : "jarvis-approval")
+      });
+      window.open("https://github.com/coar0000-wq/jarvis-luna/issues/new?" + params.toString(), "_blank", "noopener");
+    }
+
     function resolveAgentBlocker(agentId) {
       const agent = agents.find(a => a.id === agentId);
       if (!agent) return;
-      agent.status = "Done";
-      agent.signal = "사용자 승인 및 패치 반영 완료 — 다음 파이프라인 단계로 인계됨";
-      agent.logs.push(`[시뮬레이션] [Herder Approval] 화면에서만 승인 처리 -> BLOCKED 해제 및 DONE 전환 (실제 승인·실행 없음)`);
-      showToast(`${agent.name}: 화면 시뮬레이션으로 완료 처리했습니다. 실제 승인·실행은 없습니다.`);
-      renderAgentGrid();
+      openRequestIssue("approval", [agent]);
+      agent.logs.push(`[요청] 승인 및 해결 → GitHub 이슈 작성 창을 열었습니다. 제출하면 비서실장에게 전달됩니다.`);
+      showToast(`${agent.name}: 승인 요청 이슈 작성 창을 열었습니다. 제출해야 비서실장에게 전달됩니다.`);
       renderTerminalPanel();
     }
 
@@ -1120,18 +1144,10 @@
       });
 
       document.getElementById("btn-approve-all").addEventListener("click", () => {
-        let count = 0;
-        agents.forEach(a => {
-          if (a.status === "Blocked") {
-            count += 1;
-            a.status = "Done";
-            a.signal = "화면 시뮬레이션 일괄 승인 — 실제 승인·실행 없음";
-            a.logs.push("[시뮬레이션] [Batch Approval] 화면에서만 일괄 승인 처리 -> DONE 전환 (실제 승인·실행 없음)");
-          }
-        });
-        renderAgentGrid();
-        renderTerminalPanel();
-        showToast(`확인 필요 ${count}건을 화면에서만 승인 처리했습니다. 실제 등록 준비 수치는 바뀌지 않습니다.`);
+        const blocked = agents.filter(a => a.status === "Blocked");
+        if (!blocked.length) { showToast("확인 필요 팀이 없습니다."); return; }
+        openRequestIssue("bulk", blocked);
+        showToast(`확인 필요 ${blocked.length}개 팀 일괄 승인 이슈 작성 창을 열었습니다. 제출해야 비서실장에게 전달됩니다.`);
       });
 
       document.getElementById("btn-trigger-feedback").addEventListener("click", () => {
@@ -1153,16 +1169,11 @@
         const cmd = input.value.trim();
         if (!cmd) return;
         const agent = agents.find(a => a.id === selectedAgentId) || agents[0];
-        agent.logs.push(`[21:12:30] [CMD 주입 -> ${agent.name}] $ ${cmd}`);
-        agent.logs.push(`[21:12:31] [${agent.engine}] 지시 수신 완료 — 터미널 버퍼에서 즉시 작업 재개...`);
-        if (agent.status === "Blocked") {
-          agent.status = "Working";
-          agent.signal = `사용자 지시 실행 중: "${cmd}"`;
-        }
+        openRequestIssue("instruction", [agent], cmd);
+        agent.logs.push(`[요청] 나 → ${agent.name}: ${cmd} (GitHub 이슈 작성 창 열림 · 제출하면 비서실장에게 전달)`);
         input.value = "";
-        renderAgentGrid();
         renderTerminalPanel();
-        showToast(`${agent.name} 터미널에 새 지시를 주입했습니다.`);
+        showToast(`${agent.name}에게 보낼 지시 이슈 작성 창을 열었습니다. 제출해야 전달됩니다.`);
       });
 
       document.querySelectorAll(".quick-cmd-btn").forEach(btn => {

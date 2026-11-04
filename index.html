@@ -490,6 +490,34 @@ nav a{font-size:12px;}
 .cr-records .team-sub{font-size:12px;color:#8b949e;margin:6px 0;}
 .cr-records .team-meta{background:rgba(255,255,255,.018);border-top:1px solid #30343a;border-bottom:1px solid #232323;border-radius:8px;padding:10px 12px;margin:8px 0;}
 .cr-records details > summary{cursor:pointer;color:#58a6ff;font-size:13px;margin:6px 0;}
+/* 2026-11-04 관제실 승인·지시·대화(GitHub 이슈 연결) */
+.cr-card:focus-visible{outline:2px solid #58a6ff;outline-offset:2px;}
+.cr-signal-row{display:flex;align-items:center;gap:8px;margin-top:5px;min-width:0;}
+.cr-signal-row .cr-signal{margin-top:0;flex:1;min-width:0;}
+.cr-act{flex:0 0 auto;font:inherit;font-size:11px;font-weight:600;color:#fff;background:#238636;border:1px solid #2ea043;border-radius:5px;padding:2px 10px;cursor:pointer;}
+.cr-act:hover{background:#2ea043;}
+.cr-req{font-size:10.5px;color:#58a6ff;border:1px solid rgba(88,166,255,.4);background:rgba(88,166,255,.1);border-radius:4px;padding:1px 6px;white-space:nowrap;}
+.cr-alert{display:flex;justify-content:space-between;gap:10px;align-items:center;}
+.cr-resolve{flex:0 0 auto;font:inherit;font-size:12px;font-weight:600;color:#fff;background:#238636;border:1px solid #2ea043;border-radius:6px;padding:6px 12px;cursor:pointer;}
+.cr-resolve:hover{background:#2ea043;}
+.cr-log .l-me{color:#79c0ff;}.cr-log .l-sec{color:#d2a8ff;}.cr-log a{color:#58a6ff;text-decoration:none;}
+.cr-log .l-tag{font-size:10px;border-radius:4px;padding:0 5px;border:1px solid;margin-left:4px;white-space:nowrap;}
+.cr-log .l-tag.open{color:#e3b341;border-color:rgba(227,179,65,.4);}.cr-log .l-tag.closed{color:#3fb950;border-color:rgba(63,185,80,.4);}
+.cr-order{border-top:1px solid #21262d;padding:12px 16px;background:#0b0f14;}
+.cr-order-h{display:flex;justify-content:space-between;gap:8px;font-size:11.5px;color:#8b949e;margin-bottom:8px;flex-wrap:wrap;}
+.cr-order-h small{color:#6e7681;margin-left:4px;}
+.cr-order-target{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#a5b4fc;}
+.cr-order-form{display:flex;gap:8px;}
+.cr-order-form input{flex:1;min-width:0;background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:9px 11px;color:#e6edf3;font:inherit;font-size:12.5px;}
+.cr-order-form input:focus{outline:none;border-color:#6366f1;box-shadow:0 0 0 1px rgba(99,102,241,.4);}
+.cr-order-form button{font:inherit;font-size:12.5px;font-weight:600;color:#fff;background:#4f46e5;border:0;border-radius:8px;padding:0 14px;cursor:pointer;white-space:nowrap;}
+.cr-order-form button:hover{background:#6366f1;}
+.cr-quick{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;}
+.cr-quick button{font:inherit;font-size:11px;color:#c9d1d9;background:#161b22;border:1px solid #30363d;border-radius:6px;padding:4px 8px;cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.cr-quick button:hover{border-color:#58a6ff;color:#fff;}
+.cr-send-note{font-size:11px;color:#6e7681;margin-top:8px;line-height:1.5;}
+.cr-bulk{font:inherit;font-size:12px;font-weight:600;color:#fff;background:#238636;border:1px solid #2ea043;border-radius:999px;padding:5px 12px;cursor:pointer;margin-left:6px;}
+.cr-bulk:hover{background:#2ea043;}.cr-bulk:disabled{opacity:.45;cursor:default;background:#1c1c1c;border-color:#30363d;}
 @media(max-width:1180px){.cr-kpis{grid-template-columns:repeat(3,minmax(0,1fr));}.cr-body{grid-template-columns:1fr;}.cr-panel{position:static;}}
 @media(max-width:640px){.cr-section{padding:16px;}.cr-kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}.cr-grid{grid-template-columns:1fr;}.stat-card.cr-kpi .value{font-size:20px;}.cr-card.cr-hub{grid-column:auto;}}
 
@@ -540,7 +568,7 @@ nav a{font-size:12px;}
 <a href="herder-control-room.html" target="_blank" rel="noopener">전체 화면 ↗</a>
 </div>
 </div>
-<div class="cr-sub" id="cr-sub">비서실장 총괄 · 11개 팀. 확인이 필요한 팀이 맨 위에 옵니다. 공개 화면이라 승인·실행은 여기서 하지 않습니다.</div>
+<div class="cr-sub" id="cr-sub">비서실장 총괄 · 11개 팀. 확인이 필요한 팀이 맨 위에 옵니다. 승인·지시는 GitHub 이슈로 비서실장에게 전달되고(본인 GitHub 로그인), 답변은 오른쪽 대화창에 표시됩니다.</div>
 <div class="cr-kpis" id="cr-kpis">
 <div class="stat-card cr-kpi"><h4>확인 필요</h4><div class="value" id="cr-k-blocked">–</div><div class="cr-kpi-note" id="cr-k-blocked-note">팀 상태 확인 중</div></div>
 <div class="stat-card cr-kpi"><h4>코퍼스 누적 레코드</h4><div class="value cr-v-blue" id="cr-k-corpus">–</div><div class="cr-kpi-note" id="cr-k-corpus-note"></div></div>
@@ -559,11 +587,12 @@ nav a{font-size:12px;}
 <div class="cr-views" role="group" aria-label="보기 방식"><span class="cr-views-label">보기</span>
 <button type="button" class="cr-chip" data-cr-view="priority" aria-pressed="true">우선순위</button>
 <button type="button" class="cr-chip" data-cr-view="tier" aria-pressed="false">3계층</button>
+<button type="button" class="cr-bulk" id="cr-bulk" title="확인 필요 팀 전체를 승인하는 GitHub 이슈를 엽니다">확인 필요 일괄 승인</button>
 </div>
 </div>
 <div class="cr-body">
 <div id="cr-cards" aria-live="polite"><div class="cr-empty">팀 상태를 불러오는 중…</div></div>
-<aside class="cr-panel" id="cr-panel" aria-live="polite"><div class="cr-empty" style="padding:18px 16px;">팀을 고르면 상세 기록이 여기에 나옵니다.</div></aside>
+<aside class="cr-panel" id="cr-panel"><div class="cr-empty" style="padding:18px 16px;">팀을 고르면 기록과 대화가 여기에 나옵니다.</div></aside>
 </div>
 
 <!-- Team Cards: 관제실 카드의 원본 기록(영상 학습·단계·링크 포함) -->
@@ -580,8 +609,15 @@ nav a{font-size:12px;}
 </section>
 <script>
 /* 2026-11-04 관제실: loadData()가 불러온 공개 런타임(dashboard_runtime.json)을 받아 그린다.
-   승인·실행 버튼은 두지 않는다(공개 화면은 읽기 전용). 데이터를 못 받으면 그 사실을 그대로 보여준다. */
+   승인·승인 및 해결·일괄 승인·지시는 GitHub 이슈로 비서실장에게 보낸다. 저장소 소유자 계정으로 등록된
+   요청만 처리 대상이며, 비서실장 답변(이슈 댓글)을 패널에 대화로 이어서 보여준다.
+   공개 화면 자체는 아무것도 실행하지 않는다(이슈 작성 창만 연다). */
 (function(){
+  const REPO = 'coar0000-wq/jarvis-luna', OWNER = 'coar0000-wq';
+  const ISSUE_NEW = 'https://github.com/' + REPO + '/issues/new';
+  const API = 'https://api.github.com/repos/' + REPO;
+  const MARK = /<!--\s*jarvis-request v1 kind=(approval|instruction|bulk) team=([a-z_,]+)\s*-->/;
+  const SECRETARY_REPLY = /^\s*\**\[비서실장\]\**\s*/;
   const TEAMS = [
     {id:'secretary', num:'', engine:'claude-code', role:'전체 팀·자동화·우선순위·예외상황 총괄', tier:0},
     {id:'sourcing', num:'①', engine:'claude-code', role:'다이소몰 상품 수집 · S~C등급 소싱', tier:1},
@@ -598,8 +634,10 @@ nav a{font-size:12px;}
   ];
   const TIERS = [[1,'1계층 · 데이터 수집'],[2,'2계층 · 분석·가격·규제'],[3,'3계층 · 제작·채널·그래프']];
   const LABEL = {blocked:'확인 필요', working:'작업 중', done:'정상'};
+  const KIND = {approval:'승인 및 해결', instruction:'지시', bulk:'확인 필요 일괄 승인'};
   const RANK = {blocked:0, working:1, done:2};
-  const state = {agents:[], filter:'all', view:'priority', selected:null, data:null, timer:null};
+  const state = {agents:[], filter:'all', view:'priority', selected:null, data:null, timer:null,
+                 requests:[], reqStatus:'loading', comments:{}, drafts:{}, panelFor:null};
   const byId = id => document.getElementById(id);
   const esc = v => String(v==null?'':v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const put = (id, text, cls) => { const el = byId(id); if(!el) return; el.textContent = text; if(cls!==undefined) el.className = cls; };
@@ -641,29 +679,108 @@ nav a{font-size:12px;}
     if(d.secretary && typeof d.secretary==='object') src.secretary = d.secretary;
     return TEAMS.filter(m => src[m.id]).map(m => {
       const t = src[m.id], s = status(t);
-      return {id:m.id, tier:m.tier, engine:m.engine, role:m.role, status:s, when:t.when,
+      return {id:m.id, tier:m.tier, engine:m.engine, role:m.role, status:s, when:t.when, action:clean(t.action||t.waiting, 160),
         name: m.id==='secretary' ? '비서실장 (JARVIS·LUNA 총괄)' : (m.num ? m.num+' ' : '')+clean(t.name||m.id),
         metrics: clean(t.summary, 260),
         signal: clean(t.action||t.waiting||t.notice, 200) || (s==='done' ? '현재 조치 없음 · 정상' : ''),
         logs: logs(t, s)};
     });
   }
+
+  /* ---------- GitHub 이슈로 보내기 ---------- */
+  function issueUrl(kind, list, text){
+    const when = state.data ? kst(state.data.generated_at||state.data.last_synced) : '';
+    const target = list.length===1 ? list[0].name : ('확인 필요 '+list.length+'개 팀');
+    const brief = text ? clean(text, 90) : (list.length===1 ? clean(list[0].signal, 90) : list.map(a => a.name).join(', '));
+    const lines = ['<!-- jarvis-request v1 kind='+kind+' team='+list.map(a => a.id).join(',')+' -->',
+      '**종류**: '+KIND[kind], '**데이터 기준**: '+(when||'미기록')+' (KST)', ''];
+    list.forEach(a => {
+      lines.push('### '+a.name+' (`'+a.id+'`)', '- 상태: '+LABEL[a.status]);
+      if(a.signal) lines.push('- 현재 신호: '+a.signal);
+      lines.push('');
+    });
+    lines.push('**요청 내용**', text ? String(text).trim() :
+      '위 조치를 승인합니다. 처리하고 결과를 이 이슈 댓글로 남겨 주세요. 사람 확인이 더 필요하면 무엇이 필요한지 적어 주세요.');
+    lines.push('', '---', '관제실(JARVIS·LUNA × Herder)에서 작성. 저장소 소유자 계정으로 등록된 요청만 비서실장이 처리합니다. 결제·공개 판매 전환·안전 검사 우회는 하지 않습니다.');
+    const params = new URLSearchParams({
+      title: ('['+KIND[kind]+'] '+target+(brief ? ': '+brief : '')).slice(0, 200),
+      body: lines.join('\n'),
+      labels: 'jarvis-request,'+(kind==='instruction' ? 'jarvis-instruction' : 'jarvis-approval')
+    });
+    return ISSUE_NEW+'?'+params.toString();
+  }
+  function send(kind, list, text){
+    if(!list.length) return;
+    window.open(issueUrl(kind, list, text), '_blank', 'noopener');
+    const note = byId('cr-send-note');
+    if(note) note.textContent = 'GitHub 이슈 작성 창을 열었어요. 거기서 \'Create\'(제출)를 눌러야 비서실장에게 전달됩니다.';
+  }
+
+  /* ---------- 요청 기록·비서실장 답변 불러오기 ---------- */
+  function requestText(body){
+    const m = String(body||'').split('**요청 내용**')[1];
+    return clean(m ? m.split('\n---')[0] : '', 300);
+  }
+  async function loadRequests(){
+    try{
+      const r = await fetch(API+'/issues?labels=jarvis-request&state=all&per_page=50&sort=created&direction=desc', {headers:{'Accept':'application/vnd.github+json'}, cache:'no-store'});
+      if(!r.ok) throw new Error('HTTP '+r.status);
+      const rows = await r.json();
+      state.requests = (Array.isArray(rows)?rows:[]).filter(i => i && !i.pull_request && i.user && i.user.login===OWNER && MARK.test(String(i.body||''))).map(i => {
+        const m = String(i.body).match(MARK);
+        return {number:i.number, url:i.html_url, state:i.state, created:i.created_at, updated:i.updated_at, closed:i.closed_at,
+                kind:m[1], teams:m[2].split(','), comments:i.comments||0, text:requestText(i.body), title:i.title};
+      });
+      state.reqStatus = 'ok';
+    }catch(e){ state.reqStatus = 'error'; }
+    renderCards(); renderConversation(); renderReqCount();
+  }
+  function relevant(a){
+    if(!a) return [];
+    return state.requests.filter(q => a.id==='secretary' || q.teams.includes(a.id));
+  }
+  async function loadComments(list){
+    const need = list.filter(q => q.comments>0 && (!state.comments[q.number] || state.comments[q.number].updated!==q.updated)).slice(0, 4);
+    if(!need.length) return;
+    await Promise.all(need.map(async q => {
+      try{
+        const r = await fetch(API+'/issues/'+q.number+'/comments?per_page=30', {headers:{'Accept':'application/vnd.github+json'}, cache:'no-store'});
+        if(!r.ok) throw new Error('HTTP '+r.status);
+        const rows = await r.json();
+        state.comments[q.number] = {updated:q.updated, items:(Array.isArray(rows)?rows:[]).filter(c => c && c.user && c.user.login===OWNER).map(c => ({
+          who: SECRETARY_REPLY.test(String(c.body||'')) ? 'secretary' : 'me', when:c.created_at,
+          text: clean(String(c.body||'').replace(SECRETARY_REPLY,''), 500)}))};
+      }catch(e){ state.comments[q.number] = {updated:q.updated, items:[], error:true}; }
+    }));
+    renderConversation();
+  }
+  function renderReqCount(){
+    const open = state.requests.filter(q => q.state==='open').length;
+    put('cr-req-count', state.reqStatus==='error' ? '요청 기록 확인 불가' : (open ? '처리 대기 요청 '+open+'건' : '처리 대기 요청 없음'));
+  }
+
+  /* ---------- 카드 ---------- */
   function icon(id){
     const src = 'images/teams/' + id + '.png';
     return '<div class="team-icon"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'"></div>';
   }
   function card(a){
     const sec = age(a.when);
-    return '<button type="button" class="cr-card s-'+a.status+(a.id==='secretary'?' cr-hub':'')+'" data-cr-id="'+esc(a.id)+'" aria-pressed="'+(a.id===state.selected)+'">'
+    const open = state.requests.filter(q => q.state==='open' && q.teams.includes(a.id)).length;
+    const canApprove = a.status!=='done';
+    return '<div class="cr-card s-'+a.status+(a.id==='secretary'?' cr-hub':'')+'" role="button" tabindex="0" data-cr-id="'+esc(a.id)+'" aria-pressed="'+(a.id===state.selected)+'">'
       + icon(a.id)
       + '<div class="cr-card-body"><div class="cr-card-top"><span class="cr-name">'+esc(a.name)+'</span><span class="cr-engine">'+esc(a.engine)+'</span>'
+      + (open ? '<span class="cr-req">요청 대기 '+open+'</span>' : '')
       + '<span class="cr-badge s-'+a.status+'">'+LABEL[a.status]+'</span></div>'
       + '<div class="cr-metrics">'+esc(a.metrics)+'</div>'
-      + (a.signal ? '<div class="cr-signal" title="'+esc(a.signal)+'">↳ '+esc(a.signal)+'</div>' : '')
+      + '<div class="cr-signal-row">'+(a.signal ? '<div class="cr-signal" title="'+esc(a.signal)+'">↳ '+esc(a.signal)+'</div>' : '<div class="cr-signal"></div>')
+      + (canApprove ? '<button type="button" class="cr-act" data-cr-approve="'+esc(a.id)+'" title="이 팀 조치를 승인하는 GitHub 이슈를 엽니다">승인</button>' : '')+'</div>'
       + '<div class="cr-time">⏱ 마지막 갱신 후 <span data-cr-age="'+esc(a.when||'')+'">'+fmtAge(sec)+'</span></div>'
-      + '</div></button>';
+      + '</div></div>';
   }
   function visible(list){ return state.filter==='all' ? list : list.filter(a => a.status===state.filter); }
+  function select(id){ state.selected = id; renderCards(); renderPanel(); }
   function renderCards(){
     const box = byId('cr-cards'); if(!box) return;
     if(!state.agents.length){ box.innerHTML = '<div class="cr-empty">'+(state.data===false ? '팀 상태 데이터를 불러오지 못했습니다.' : '팀 상태를 불러오는 중…')+'</div>'; return; }
@@ -682,22 +799,80 @@ nav a{font-size:12px;}
       html = '<div class="cr-grid">'+(showHub?card(hub):'')+sorted.map(card).join('')+'</div>';
     }
     box.innerHTML = html || '<div class="cr-empty">이 상태의 팀이 없습니다.</div>';
-    box.querySelectorAll('[data-cr-id]').forEach(b => b.addEventListener('click', () => { state.selected = b.getAttribute('data-cr-id'); renderCards(); renderPanel(); }));
+    box.querySelectorAll('[data-cr-id]').forEach(el => {
+      el.addEventListener('click', e => { if(!e.target.closest('[data-cr-approve]')) select(el.getAttribute('data-cr-id')); });
+      el.addEventListener('keydown', e => { if((e.key==='Enter'||e.key===' ') && e.target===el){ e.preventDefault(); select(el.getAttribute('data-cr-id')); } });
+    });
+    box.querySelectorAll('[data-cr-approve]').forEach(b => b.addEventListener('click', e => {
+      e.stopPropagation();
+      const a = state.agents.find(x => x.id===b.getAttribute('data-cr-approve'));
+      if(a){ select(a.id); send('approval', [a]); }
+    }));
+    const bulk = byId('cr-bulk');
+    if(bulk){ const n = state.agents.filter(a => a.status==='blocked').length; bulk.disabled = !n; bulk.textContent = n ? '확인 필요 '+n+'건 일괄 승인' : '확인 필요 없음'; }
+  }
+
+  /* ---------- 상세 패널(기록·대화·지시) ---------- */
+  function quickOrders(a){
+    const out = ['다음 조치 진행하고 결과 보고해', '원인 분석해서 보고해', '현재 상태 한 줄로 요약해줘'];
+    if(a.action) out.unshift(clean(a.action, 40)+' 처리해');
+    return out.slice(0, 4);
   }
   function renderPanel(){
     const panel = byId('cr-panel'); if(!panel) return;
     const a = state.agents.find(x => x.id===state.selected);
-    if(!a){ panel.innerHTML = '<div class="cr-empty" style="padding:18px 16px;">팀을 고르면 상세 기록이 여기에 나옵니다.</div>'; return; }
+    if(!a){ panel.innerHTML = '<div class="cr-empty" style="padding:18px 16px;">팀을 고르면 기록과 대화가 여기에 나옵니다.</div>'; state.panelFor = null; return; }
+    const target = a.id==='secretary' ? '비서실장' : a.name+' (비서실장 경유)';
     panel.innerHTML = '<div class="cr-panel-head">'+icon(a.id)
       + '<div style="min-width:0"><div class="cr-panel-name">'+esc(a.name)+'<span class="cr-badge s-'+a.status+'" style="margin-left:0">'+LABEL[a.status]+'</span></div>'
       + '<div class="cr-panel-role">'+esc(a.role)+' · '+esc(a.engine)+'</div></div>'
       + '<div class="cr-panel-timer">마지막 갱신 후<b data-cr-age="'+esc(a.when||'')+'">'+fmtAge(age(a.when))+'</b></div></div>'
-      + '<div class="cr-alert s-'+a.status+'"><b>현재 신호</b> · '+esc(a.signal || '기록된 신호 없음')+'</div>'
-      + '<div class="cr-log">'+a.logs.map(l => '<div class="'+l.cls+'">'+esc(l.text)+'</div>').join('')+'</div>'
-      + '<div class="cr-panel-foot"><span>기준 '+esc(kst(a.when)||'시각 미기록')+'</span><a href="#teams" data-cr-records="1">원본 기록 보기 ↓</a></div>';
+      + '<div class="cr-alert s-'+a.status+'"><div><b>현재 신호</b> · '+esc(a.signal || '기록된 신호 없음')+'</div>'
+      + (a.status!=='done' ? '<button type="button" class="cr-resolve" id="cr-resolve">승인 및 해결</button>' : '')+'</div>'
+      + '<div class="cr-log" id="cr-log"></div>'
+      + '<div class="cr-order"><div class="cr-order-h"><span>지시 · 대화 <small>GitHub 이슈로 전달</small></span><span class="cr-order-target">to: '+esc(target)+'</span></div>'
+      + '<form class="cr-order-form" id="cr-order-form"><input id="cr-order-input" type="text" maxlength="500" autocomplete="off" placeholder="'+esc(a.id==='secretary' ? '비서실장에게 지시 입력 (예: 다이소 수집 실패 원인 찾아서 고쳐줘)' : a.name+'에게 지시 입력')+'"><button type="submit">지시 전송</button></form>'
+      + '<div class="cr-quick">'+quickOrders(a).map(q => '<button type="button" data-cr-quick="'+esc(q)+'">'+esc(q)+'</button>').join('')+'</div>'
+      + '<div class="cr-send-note" id="cr-send-note">전송하면 GitHub 이슈 작성 창이 열려요. 제출하면 비서실장에게 전달되고, 답변은 이 창에 이어서 표시됩니다.</div></div>'
+      + '<div class="cr-panel-foot"><span>기준 '+esc(kst(a.when)||'시각 미기록')+' · <span id="cr-req-count">요청 기록 확인 중</span></span><a href="#teams" data-cr-records="1">원본 기록 보기 ↓</a></div>';
+    state.panelFor = a.id;
+    const input = byId('cr-order-input');
+    if(input){ input.value = state.drafts[a.id] || ''; input.addEventListener('input', () => { state.drafts[a.id] = input.value; }); }
+    const form = byId('cr-order-form');
+    if(form) form.addEventListener('submit', e => {
+      e.preventDefault();
+      const text = (input && input.value || '').trim();
+      if(!text){ if(input) input.focus(); return; }
+      send('instruction', [a], text);
+      state.drafts[a.id] = ''; if(input) input.value = '';
+    });
+    panel.querySelectorAll('[data-cr-quick]').forEach(b => b.addEventListener('click', () => { if(input){ input.value = b.getAttribute('data-cr-quick'); state.drafts[a.id] = input.value; input.focus(); } }));
+    const resolve = byId('cr-resolve');
+    if(resolve) resolve.addEventListener('click', () => send('approval', [a]));
     const link = panel.querySelector('[data-cr-records]');
     if(link) link.addEventListener('click', () => { const det = byId('cr-records-details'); if(det) det.open = true; });
+    renderConversation(); renderReqCount();
+    loadComments(relevant(a));
   }
+  function renderConversation(){
+    const box = byId('cr-log'); if(!box) return;
+    const a = state.agents.find(x => x.id===state.panelFor); if(!a) return;
+    const lines = a.logs.map(l => '<div class="'+l.cls+'">'+esc(l.text)+'</div>');
+    const reqs = relevant(a).slice(0, 8).reverse();
+    if(state.reqStatus==='loading') lines.push('<div class="l-dim">요청·답변 기록 불러오는 중…</div>');
+    else if(state.reqStatus==='error') lines.push('<div class="l-dim">GitHub 요청 기록을 지금 불러오지 못했습니다. 잠시 후 다시 표시됩니다.</div>');
+    reqs.forEach(q => {
+      const who = q.teams.length>1 ? '확인 필요 '+q.teams.length+'개 팀' : (q.teams[0]==='secretary' ? '비서실장' : (state.agents.find(x => x.id===q.teams[0])||{name:q.teams[0]}).name);
+      const st = q.state==='open' ? '처리 대기' : '처리 완료';
+      lines.push('<div class="l-me">['+esc(kst(q.created))+'] 나 → '+esc(who)+' · '+esc(KIND[q.kind])+(q.text ? ': '+esc(q.text) : '')
+        +' <a href="'+esc(q.url)+'" target="_blank" rel="noopener">#'+q.number+'</a> <span class="l-tag '+(q.state==='open'?'open':'closed')+'">'+st+'</span></div>');
+      const c = state.comments[q.number];
+      if(c && c.items) c.items.forEach(m => lines.push('<div class="'+(m.who==='secretary'?'l-sec':'l-me')+'">['+esc(kst(m.when))+'] '+(m.who==='secretary'?'비서실장':'나')+': '+esc(m.text)+'</div>'));
+    });
+    box.innerHTML = lines.join('');
+  }
+
+  /* ---------- KPI ---------- */
   function renderKpis(d){
     const counts = {blocked:0, working:0, done:0};
     state.agents.forEach(a => { counts[a.status]++; });
@@ -734,14 +909,18 @@ nav a{font-size:12px;}
       const st = byId('cr-state'); if(st){ st.textContent = '데이터 없음'; st.className = 'cr-state offline'; }
       renderKpis(null); renderCards(); renderPanel(); return;
     }
+    const first = !state.data;
     state.data = d;
     state.agents = build(d);
     if(!state.agents.some(a => a.id===state.selected)){
-      const first = state.agents.find(a => a.status==='blocked') || state.agents[0];
-      state.selected = first ? first.id : null;
+      const pick = state.agents.find(a => a.status==='blocked') || state.agents[0];
+      state.selected = pick ? pick.id : null;
     }
-    renderKpis(d); renderCards(); renderPanel();
-    if(!state.timer) state.timer = setInterval(tick, 1000);
+    renderKpis(d); renderCards();
+    const typing = document.activeElement && document.activeElement.id==='cr-order-input';
+    if(!typing || state.panelFor!==state.selected) renderPanel(); else renderConversation();
+    if(!state.timer){ state.timer = setInterval(tick, 1000); setInterval(loadRequests, 180000); }
+    if(first) loadRequests();
   };
   document.querySelectorAll('[data-cr-filter]').forEach(b => b.addEventListener('click', () => {
     state.filter = b.getAttribute('data-cr-filter');
@@ -753,6 +932,9 @@ nav a{font-size:12px;}
     document.querySelectorAll('[data-cr-view]').forEach(x => x.setAttribute('aria-pressed', String(x===b)));
     renderCards();
   }));
+  const bulkBtn = byId('cr-bulk');
+  if(bulkBtn) bulkBtn.addEventListener('click', () => send('bulk', state.agents.filter(a => a.status==='blocked')));
+  document.addEventListener('visibilitychange', () => { if(document.visibilityState==='visible' && state.data) loadRequests(); });
   if(window.__runtime) window.renderControlRoom(window.__runtime);
 })();
 </script>
