@@ -1212,6 +1212,9 @@
 
       // 실데이터 연결: 처음 한 번, 이후 5분마다 다시 읽는다.
       loadLiveData({initial: true});
+      // 메인 대시보드의 'E2E 워크플로', '설정·실행 코드' 링크는 해당 화면으로 바로 열린다.
+      const startView = (window.location.hash || "").replace("#", "");
+      if (["control-room", "e2e-flow", "config-code"].includes(startView)) switchMainView(startView);
       if (window._herderLiveInterval) clearInterval(window._herderLiveInterval);
       window._herderLiveInterval = setInterval(() => loadLiveData({}), 5 * 60 * 1000);
 

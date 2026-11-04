@@ -414,6 +414,85 @@ nav a{font-size:12px;}
 .dp-card.open .dp-detail{display:block;}
 .dp-detail div{display:flex;justify-content:space-between;gap:10px;padding:3px 0;}.dp-detail span:first-child{color:#8b949e;white-space:nowrap;}
 .dp-detail span:last-child{text-align:right;}
+/* 2026-11-04 관제실(JARVIS·LUNA × Herder): 메인 대시보드의 중심. 기존 카드·색·팀 아이콘을 그대로 쓰고, 안쪽 스크롤은 두지 않는다. */
+.cr-section{background:linear-gradient(150deg,rgba(255,255,255,.09) 0%,rgba(255,255,255,.035) 45%,rgba(88,166,255,.055) 100%);border:1px solid rgba(88,166,255,.22);border-radius:12px;padding:24px 26px;margin-bottom:40px;box-shadow:0 14px 42px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.16),inset 0 0 30px rgba(88,166,255,.035);scroll-margin-top:16px;}
+.cr-head{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:6px;}
+.cr-title{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:16px;font-weight:600;color:#f0f0f0;letter-spacing:.3px;margin:0;}
+.cr-title img{width:40px;height:40px;object-fit:contain;border-radius:11px;flex:0 0 40px;}
+.cr-state{font-size:11px;font-weight:600;letter-spacing:0;border-radius:999px;padding:3px 10px;border:1px solid rgba(139,148,158,.35);color:#8b949e;background:rgba(139,148,158,.08);white-space:nowrap;}
+.cr-state.ok{color:#3fb950;border-color:rgba(63,185,80,.4);background:rgba(63,185,80,.1);}
+.cr-state.restricted{color:#e3b341;border-color:rgba(227,179,65,.42);background:rgba(227,179,65,.1);}
+.cr-state.offline{color:#f85149;border-color:rgba(248,81,73,.4);background:rgba(248,81,73,.1);}
+.cr-links{display:flex;gap:8px;flex-wrap:wrap;}
+.cr-links a{font-size:12px;color:#c9d1d9;text-decoration:none;border:1px solid #30363d;border-radius:6px;padding:6px 10px;background:rgba(255,255,255,.03);transition:border-color .2s,color .2s;}
+.cr-links a:hover{border-color:#58a6ff;color:#fff;}
+.cr-sub{font-size:12px;color:#8b949e;margin:2px 0 16px;}
+.cr-kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin-bottom:16px;}
+.stat-card.cr-kpi{padding:14px 16px;border-radius:12px;}
+.stat-card.cr-kpi h4{font-size:11px;letter-spacing:.5px;margin-bottom:6px;}
+.stat-card.cr-kpi .value{font-size:24px;line-height:1.2;white-space:nowrap;}
+.cr-kpi-note{font-size:11.5px;color:#8b949e;margin-top:4px;line-height:1.4;}
+.cr-v-red{color:#f85149 !important;}.cr-v-green{color:#3fb950 !important;}.cr-v-blue{color:#58a6ff !important;}.cr-v-yellow{color:#e3b341 !important;}.cr-v-purple{color:#a371f7 !important;}
+.cr-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;padding:10px 12px;border:1px solid #2a2a2a;border-radius:10px;background:rgba(0,0,0,.2);}
+.cr-chips,.cr-views{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+.cr-views-label{font-size:11px;color:#6e7681;margin-right:2px;}
+.cr-chip{font:inherit;font-size:12px;color:#c9d1d9;background:#1c1c1c;border:1px solid #30363d;border-radius:999px;padding:5px 12px;cursor:pointer;transition:all .2s;}
+.cr-chip:hover{border-color:#58a6ff;}
+.cr-chip[aria-pressed="true"]{background:#58a6ff;border-color:#58a6ff;color:#0b0f14;font-weight:600;}
+.cr-chip .n{opacity:.8;margin-left:4px;}
+.cr-body{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(300px,1fr);gap:16px;align-items:start;}
+.cr-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;}
+.cr-tier{margin-top:14px;}
+.cr-tier-h{font-size:11px;letter-spacing:1.5px;color:#8b949e;text-transform:uppercase;margin:0 0 8px;display:flex;gap:8px;align-items:center;}
+.cr-tier-h::after{content:'';flex:1;height:1px;background:#2a2a2a;}
+.cr-card{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:rgba(255,255,255,.035);border:1px solid #2a2a2a;border-left-width:3px;border-radius:10px;padding:12px 12px 11px;cursor:pointer;color:inherit;font:inherit;transition:border-color .2s,background .2s;min-width:0;}
+.cr-card:hover{background:rgba(255,255,255,.06);}
+.cr-card.s-blocked{border-left-color:#f85149;}.cr-card.s-working{border-left-color:#e3b341;}.cr-card.s-done{border-left-color:#3fb950;}
+.cr-card[aria-pressed="true"]{border-color:#58a6ff;box-shadow:inset 0 0 0 1px rgba(88,166,255,.35);background:rgba(88,166,255,.06);}
+.cr-card.cr-hub{grid-column:1/-1;background:rgba(88,166,255,.05);}
+.cr-card .team-icon{flex:0 0 36px;width:36px;height:36px;}
+.cr-card .team-icon img{border-radius:9px;}
+.cr-card-body{flex:1;min-width:0;}
+.cr-card-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+.cr-name{font-size:13.5px;font-weight:600;color:#f0f0f0;}
+.cr-engine{font-size:10px;color:#8b949e;border:1px solid #30363d;border-radius:4px;padding:0 5px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+.cr-badge{margin-left:auto;font-size:10.5px;font-weight:600;border-radius:4px;padding:1px 7px;border:1px solid;white-space:nowrap;}
+.cr-badge.s-blocked{color:#f85149;border-color:rgba(248,81,73,.4);background:rgba(248,81,73,.1);}
+.cr-badge.s-working{color:#e3b341;border-color:rgba(227,179,65,.42);background:rgba(227,179,65,.1);}
+.cr-badge.s-done{color:#3fb950;border-color:rgba(63,185,80,.4);background:rgba(63,185,80,.1);}
+.cr-metrics{font-size:12px;color:#8b949e;margin-top:4px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.cr-signal{font-size:11.5px;margin-top:5px;color:#c9d1d9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cr-card.s-blocked .cr-signal{color:#ff7b72;}
+.cr-card.s-working .cr-signal{color:#e3b341;}
+.cr-time{font-size:11px;color:#6e7681;margin-top:4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+.cr-empty{font-size:13px;color:#8b949e;padding:18px 4px;}
+.cr-panel{position:sticky;top:16px;border:1px solid #2a2a2a;border-radius:12px;background:#0d1117;overflow:hidden;box-shadow:0 10px 32px rgba(0,0,0,.35);}
+.cr-panel-head{display:flex;gap:12px;align-items:center;padding:14px 16px;border-bottom:1px solid #21262d;}
+.cr-panel-head .team-icon{flex:0 0 40px;width:40px;height:40px;}
+.cr-panel-head .team-icon img{border-radius:10px;}
+.cr-panel-name{font-size:14px;font-weight:600;color:#f0f0f0;display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
+.cr-panel-role{font-size:11.5px;color:#8b949e;margin-top:2px;}
+.cr-panel-timer{margin-left:auto;text-align:right;font-size:10.5px;color:#8b949e;white-space:nowrap;}
+.cr-panel-timer b{display:block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px;color:#58a6ff;font-weight:600;margin-top:2px;}
+.cr-alert{padding:10px 16px;font-size:12px;line-height:1.55;border-bottom:1px solid #21262d;color:#c9d1d9;background:rgba(255,255,255,.02);overflow-wrap:anywhere;}
+.cr-alert b{font-weight:600;}
+.cr-alert.s-blocked{background:rgba(248,81,73,.08);color:#ffa198;}
+.cr-alert.s-working{background:rgba(227,179,65,.07);color:#e3b341;}
+.cr-alert.s-done{background:rgba(63,185,80,.06);color:#7ee787;}
+.cr-log{padding:12px 16px 4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;line-height:1.65;color:#c9d1d9;}
+.cr-log div{overflow-wrap:anywhere;margin-bottom:7px;}
+.cr-log .l-block{color:#ff7b72;}.cr-log .l-warn{color:#e3b341;}.cr-log .l-ok{color:#7ee787;}.cr-log .l-dim{color:#8b949e;}
+.cr-panel-foot{padding:10px 16px 12px;border-top:1px solid #21262d;font-size:11.5px;color:#8b949e;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;}
+.cr-panel-foot a{color:#58a6ff;text-decoration:none;}
+.cr-records{margin-top:20px;border-top:1px solid #2a2a2a;padding-top:14px;}
+.cr-records-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-size:13px;color:#f0f0f0;font-weight:600;}
+.cr-records-head .cr-records-count{font-size:11px;font-weight:400;color:#6e7681;}
+.cr-records .team-sub{font-size:12px;color:#8b949e;margin:6px 0;}
+.cr-records .team-meta{background:rgba(255,255,255,.018);border-top:1px solid #30343a;border-bottom:1px solid #232323;border-radius:8px;padding:10px 12px;margin:8px 0;}
+.cr-records details > summary{cursor:pointer;color:#58a6ff;font-size:13px;margin:6px 0;}
+@media(max-width:1180px){.cr-kpis{grid-template-columns:repeat(3,minmax(0,1fr));}.cr-body{grid-template-columns:1fr;}.cr-panel{position:static;}}
+@media(max-width:640px){.cr-section{padding:16px;}.cr-kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}.cr-grid{grid-template-columns:1fr;}.stat-card.cr-kpi .value{font-size:20px;}.cr-card.cr-hub{grid-column:auto;}}
+
 </style>
 </head>
 <body id="top">
@@ -437,31 +516,246 @@ nav a{font-size:12px;}
 <strong id="continuity-review-title">제한 운영 상태 확인 중</strong>
 <p id="continuity-review-detail" style="margin:8px 0 0;"></p>
 </section>
-<!-- 2026-11-03: 관제실이 메인 대시보드의 중심이다. 팀 카드·KPI는 공개 런타임 실데이터로 채우고, 같은 내용을 되풀이하던 칸(사이드 수치·하단 지식/MoE 카드)은 지웠다. 팀 원본 기록은 아래 "팀 상세 기록"에 접어 둔다. 원본 화면은 herder-control-room.html. -->
-<section class="dashboard-card" id="control-room" aria-labelledby="control-room-title" style="margin:16px 24px;padding:16px;background:#0d1117;border:1px solid #30363d;">
-<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap;">
-<div><h3 id="control-room-title" style="margin:0;">JARVIS·LUNA × Herder 관제실</h3><div style="font-size:12px;color:#8b949e;margin-top:4px;">메인 화면 · 11팀 + 비서실장 상태와 핵심 수치를 실데이터로 보여줍니다. 승인·지시 버튼은 화면 시뮬레이션입니다.</div></div>
-<a href="herder-control-room.html" target="_blank" rel="noopener" style="color:#58a6ff;font-size:13px;text-decoration:none;">전체 화면으로 열기 ↗</a>
+<div class="container">
+<!-- Hero -->
+<div class="hero">
+<div class="hero-text">
+<div class="hero-buttons">
+<a class="btn btn-primary" href="#control-room" style="text-decoration:none;">관제실 보기</a>
+<a class="btn btn-secondary" href="#daily-pipeline" style="text-decoration:none;">오늘 등록 현황</a>
 </div>
-<iframe id="control-room-frame" title="JARVIS·LUNA × Herder 관제실" style="display:block;width:100%;height:1000px;border:0;border-radius:10px;background:#090d16;"></iframe>
+</div>
+</div>
+
+<!-- 2026-11-04: 관제실(JARVIS·LUNA × Herder)이 메인 대시보드의 중심이다. 기존 카드·색·팀 아이콘으로 직접 그리고
+     (iframe·안쪽 스크롤 없음), 팀 카드·KPI·기록은 공개 런타임 실데이터(data/dashboard_runtime.json)로 채운다.
+     관제실과 같은 내용을 되풀이하던 칸은 지웠고, 팀 원본 기록은 관제실 하단에 접어 둔다.
+     승인·지시 시뮬레이션과 E2E·설정 코드는 전체 화면(herder-control-room.html)에서 본다. 공개 화면은 읽기 전용이다. -->
+<section class="cr-section" id="control-room" aria-labelledby="control-room-title">
+<div class="cr-head">
+<h3 class="cr-title" id="control-room-title"><img src="images/teams/secretary.png" alt="" width="40" height="40">JARVIS·LUNA × Herder 관제실<span class="cr-state" id="cr-state">실데이터 확인 중</span></h3>
+<div class="cr-links">
+<a href="herder-control-room.html#e2e-flow" target="_blank" rel="noopener">E2E 워크플로 ↗</a>
+<a href="herder-control-room.html#config-code" target="_blank" rel="noopener">설정·실행 코드 ↗</a>
+<a href="herder-control-room.html" target="_blank" rel="noopener">전체 화면 ↗</a>
+</div>
+</div>
+<div class="cr-sub" id="cr-sub">비서실장 총괄 · 11개 팀. 확인이 필요한 팀이 맨 위에 옵니다. 공개 화면이라 승인·실행은 여기서 하지 않습니다.</div>
+<div class="cr-kpis" id="cr-kpis">
+<div class="stat-card cr-kpi"><h4>확인 필요</h4><div class="value" id="cr-k-blocked">–</div><div class="cr-kpi-note" id="cr-k-blocked-note">팀 상태 확인 중</div></div>
+<div class="stat-card cr-kpi"><h4>코퍼스 누적 레코드</h4><div class="value cr-v-blue" id="cr-k-corpus">–</div><div class="cr-kpi-note" id="cr-k-corpus-note"></div></div>
+<div class="stat-card cr-kpi"><h4>옵시디언 지식 그래프</h4><div class="value cr-v-purple" id="cr-k-graph">–</div><div class="cr-kpi-note" id="cr-k-graph-note"></div></div>
+<div class="stat-card cr-kpi"><h4>MoE 학습 정확도</h4><div class="value cr-v-green" id="cr-k-moe">–</div><div class="cr-kpi-note" id="cr-k-moe-note"></div></div>
+<div class="stat-card cr-kpi"><h4>S등급 Shopify 등록 가능</h4><div class="value cr-v-yellow" id="cr-k-listing">–</div><div class="cr-kpi-note" id="cr-k-listing-note"></div></div>
+<div class="stat-card cr-kpi"><h4>운영 연속성</h4><div class="value" id="cr-k-ops">–</div><div class="cr-kpi-note" id="cr-k-ops-note"></div></div>
+</div>
+<div class="cr-toolbar">
+<div class="cr-chips" role="group" aria-label="상태 필터">
+<button type="button" class="cr-chip" data-cr-filter="all" aria-pressed="true">전체<span class="n" id="cr-n-all"></span></button>
+<button type="button" class="cr-chip" data-cr-filter="blocked" aria-pressed="false">확인 필요<span class="n" id="cr-n-blocked"></span></button>
+<button type="button" class="cr-chip" data-cr-filter="working" aria-pressed="false">작업 중<span class="n" id="cr-n-working"></span></button>
+<button type="button" class="cr-chip" data-cr-filter="done" aria-pressed="false">정상<span class="n" id="cr-n-done"></span></button>
+</div>
+<div class="cr-views" role="group" aria-label="보기 방식"><span class="cr-views-label">보기</span>
+<button type="button" class="cr-chip" data-cr-view="priority" aria-pressed="true">우선순위</button>
+<button type="button" class="cr-chip" data-cr-view="tier" aria-pressed="false">3계층</button>
+</div>
+</div>
+<div class="cr-body">
+<div id="cr-cards" aria-live="polite"><div class="cr-empty">팀 상태를 불러오는 중…</div></div>
+<aside class="cr-panel" id="cr-panel" aria-live="polite"><div class="cr-empty" style="padding:18px 16px;">팀을 고르면 상세 기록이 여기에 나옵니다.</div></aside>
+</div>
+
+<!-- Team Cards: 관제실 카드의 원본 기록(영상 학습·단계·링크 포함) -->
+<div class="cr-records" id="teams"><span id="knowledge"></span>
+<div class="cr-records-head">팀 원본 기록<span id="updated-at" class="team-h3-when">동기화 확인 중…</span><span id="team-updated" class="cr-records-count"></span></div>
+<div class="team-meta" id="team-meta"></div>
+<div id="pipeline-health" class="team-sub" role="status">필수·선택 실행 증적 확인 중</div>
+<details class="team-details" id="cr-records-details"><summary>비서실장 + 11팀 원본 기록 펼치기 (영상 학습·단계·링크 포함)</summary>
+<ul class="team-list" id="team-list">
+<li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
+</ul>
+</details>
+</div>
+</section>
 <script>
+/* 2026-11-04 관제실: loadData()가 불러온 공개 런타임(dashboard_runtime.json)을 받아 그린다.
+   승인·실행 버튼은 두지 않는다(공개 화면은 읽기 전용). 데이터를 못 받으면 그 사실을 그대로 보여준다. */
 (function(){
-  // 관제실이 알려주는 내용 높이에 맞춰 iframe 높이를 늘린다(안쪽 스크롤 없이 한 화면처럼 보이게).
-  var frame=document.getElementById('control-room-frame'); if(!frame) return;
-  var last=0;
-  function apply(h){ if(typeof h==='number' && isFinite(h) && h>200 && Math.abs(h-last)>2){ last=h; frame.style.height=Math.ceil(h)+'px'; } }
-  window.addEventListener('message',function(e){ if(e.source===frame.contentWindow && e.data && typeof e.data.herderHeight==='number') apply(e.data.herderHeight); });
-  frame.addEventListener('load',function(){ try{ apply(frame.contentDocument.body.scrollHeight); }catch(e){} });
-  // 배포마다 새 관제실을 받도록 배포 커밋을 주소에 붙인다(페이지 캐시 10분 동안 예전 화면이 남지 않게).
-  var base='herder-control-room.html', done=false;
-  function open(v){ if(done) return; done=true; frame.src=base+'?v='+encodeURIComponent(v); }
-  fetch('deployment.json?t='+Date.now(),{cache:'no-store'}).then(function(r){ return r.ok?r.json():null; }).then(function(d){ open(d&&typeof d.commit==='string'&&/^[0-9a-f]{40}$/.test(d.commit)?d.commit.slice(0,12):String(Date.now())); }).catch(function(){ open(String(Date.now())); });
-  setTimeout(function(){ open(String(Date.now())); },2000);
+  const TEAMS = [
+    {id:'secretary', num:'', engine:'claude-code', role:'전체 팀·자동화·우선순위·예외상황 총괄', tier:0},
+    {id:'sourcing', num:'①', engine:'claude-code', role:'다이소몰 상품 수집 · S~C등급 소싱', tier:1},
+    {id:'institutions', num:'②', engine:'claude-code', role:'국내외 기관 자료 수집 · 미수집 감사', tier:1},
+    {id:'market', num:'③', engine:'claude-code', role:'트렌드 수요 분석 · S등급 고시표 검증', tier:2},
+    {id:'pricing', num:'④', engine:'codex', role:'무게·배송비 산출 · DDU/DDP 마진', tier:2},
+    {id:'legal', num:'⑤', engine:'codex', role:'FDA/OTC · HS코드 · US 라벨 검수', tier:2},
+    {id:'listing', num:'⑥', engine:'claude-code', role:'영문 카피 · Shopify 리스팅 조립', tier:3},
+    {id:'design', num:'⑦', engine:'claude-code', role:'브랜드 스킨 · 폰트·팔레트 · 스토어 UI', tier:3},
+    {id:'channels', num:'⑧', engine:'codex', role:'판매·수집 채널 연동 · 프리플라이트', tier:3},
+    {id:'robotics', num:'⑨', engine:'claude-code', role:'AI·로보틱스 논문 · RSS 수집', tier:1},
+    {id:'knowledge', num:'⑩', engine:'claude-code', role:'코퍼스 정제 · MoE 학습 연동', tier:1},
+    {id:'graph', num:'⑪', engine:'codex', role:'옵시디언 지식 그래프 · 링크 무결성', tier:3}
+  ];
+  const TIERS = [[1,'1계층 · 데이터 수집'],[2,'2계층 · 분석·가격·규제'],[3,'3계층 · 제작·채널·그래프']];
+  const LABEL = {blocked:'확인 필요', working:'작업 중', done:'정상'};
+  const RANK = {blocked:0, working:1, done:2};
+  const state = {agents:[], filter:'all', view:'priority', selected:null, data:null, timer:null};
+  const byId = id => document.getElementById(id);
+  const esc = v => String(v==null?'':v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const put = (id, text, cls) => { const el = byId(id); if(!el) return; el.textContent = text; if(cls!==undefined) el.className = cls; };
+  const num = v => Number(v||0).toLocaleString('ko-KR');
+  function clean(v, max){
+    let s = String(v==null?'':v).replace(/https?:\/\/\S+/g,'').replace(/\s*\/\s*(?=\/|$)/g,'').replace(/\s+/g,' ').trim();
+    if(max && s.length > max) s = s.slice(0, max-1) + '…';
+    return s;
+  }
+  function kst(when){
+    const ms = Date.parse(when); if(!Number.isFinite(ms)) return '';
+    return new Date(ms).toLocaleString('ko-KR',{timeZone:'Asia/Seoul',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
+  }
+  function age(when){ const ms = Date.parse(when); return Number.isFinite(ms) ? Math.max(0, Math.floor((Date.now()-ms)/1000)) : null; }
+  function fmtAge(sec){
+    if(sec==null) return '시각 미기록';
+    const d = Math.floor(sec/86400), r = sec%86400;
+    const p = n => String(n).padStart(2,'0');
+    return (d ? d+'일 ' : '') + p(Math.floor(r/3600))+':'+p(Math.floor(r%3600/60))+':'+p(r%60);
+  }
+  function status(t){
+    if(t.status==='failed'||t.status==='blocked'||t.status==='missing'||t.waiting_kind==='human_approval_required'||t.action_kind==='human_approval_required') return 'blocked';
+    if(t.status==='warning'||t.action||t.waiting) return 'working';
+    return 'done';
+  }
+  function logs(t, s){
+    const at = '['+(kst(t.when)||'시각 미기록')+']', out = [];
+    out.push({cls:'', text:at+' 요약 · '+clean(t.summary, 400)});
+    if(t.phase_label) out.push({cls:'l-dim', text:at+' 단계 · '+clean(t.phase_label)});
+    if(t.waiting) out.push({cls:'l-warn', text:at+' 대기 · '+clean(t.waiting, 360)});
+    if(t.action) out.push({cls:s==='blocked'?'l-block':'l-warn', text:at+' 다음 조치 · '+clean(t.action, 360)});
+    if(t.notice) out.push({cls:'l-dim', text:at+' 참고 · '+clean(t.notice, 300)});
+    if(s==='done') out.push({cls:'l-ok', text:at+' 상태 · 현재 조치 없음'});
+    return out;
+  }
+  function build(d){
+    const src = {};
+    (Array.isArray(d.teams)?d.teams:[]).forEach(t => { if(t && t.id) src[t.id] = t; });
+    if(d.secretary && typeof d.secretary==='object') src.secretary = d.secretary;
+    return TEAMS.filter(m => src[m.id]).map(m => {
+      const t = src[m.id], s = status(t);
+      return {id:m.id, tier:m.tier, engine:m.engine, role:m.role, status:s, when:t.when,
+        name: m.id==='secretary' ? '비서실장 (JARVIS·LUNA 총괄)' : (m.num ? m.num+' ' : '')+clean(t.name||m.id),
+        metrics: clean(t.summary, 260),
+        signal: clean(t.action||t.waiting||t.notice, 200) || (s==='done' ? '현재 조치 없음 · 정상' : ''),
+        logs: logs(t, s)};
+    });
+  }
+  function icon(id){
+    const src = 'images/teams/' + id + '.png';
+    return '<div class="team-icon"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'"></div>';
+  }
+  function card(a){
+    const sec = age(a.when);
+    return '<button type="button" class="cr-card s-'+a.status+(a.id==='secretary'?' cr-hub':'')+'" data-cr-id="'+esc(a.id)+'" aria-pressed="'+(a.id===state.selected)+'">'
+      + icon(a.id)
+      + '<div class="cr-card-body"><div class="cr-card-top"><span class="cr-name">'+esc(a.name)+'</span><span class="cr-engine">'+esc(a.engine)+'</span>'
+      + '<span class="cr-badge s-'+a.status+'">'+LABEL[a.status]+'</span></div>'
+      + '<div class="cr-metrics">'+esc(a.metrics)+'</div>'
+      + (a.signal ? '<div class="cr-signal" title="'+esc(a.signal)+'">↳ '+esc(a.signal)+'</div>' : '')
+      + '<div class="cr-time">⏱ 마지막 갱신 후 <span data-cr-age="'+esc(a.when||'')+'">'+fmtAge(sec)+'</span></div>'
+      + '</div></button>';
+  }
+  function visible(list){ return state.filter==='all' ? list : list.filter(a => a.status===state.filter); }
+  function renderCards(){
+    const box = byId('cr-cards'); if(!box) return;
+    if(!state.agents.length){ box.innerHTML = '<div class="cr-empty">'+(state.data===false ? '팀 상태 데이터를 불러오지 못했습니다.' : '팀 상태를 불러오는 중…')+'</div>'; return; }
+    const hub = state.agents.find(a => a.id==='secretary');
+    const rest = state.agents.filter(a => a.id!=='secretary');
+    const showHub = hub && (state.filter==='all' || hub.status===state.filter);
+    let html = '';
+    if(state.view==='tier'){
+      html = showHub ? '<div class="cr-grid">'+card(hub)+'</div>' : '';
+      TIERS.forEach(([tier, title]) => {
+        const group = visible(rest.filter(a => a.tier===tier));
+        if(group.length) html += '<div class="cr-tier"><div class="cr-tier-h">'+esc(title)+'</div><div class="cr-grid">'+group.map(card).join('')+'</div></div>';
+      });
+    } else {
+      const sorted = visible(rest).slice().sort((x,y) => RANK[x.status]-RANK[y.status]);
+      html = '<div class="cr-grid">'+(showHub?card(hub):'')+sorted.map(card).join('')+'</div>';
+    }
+    box.innerHTML = html || '<div class="cr-empty">이 상태의 팀이 없습니다.</div>';
+    box.querySelectorAll('[data-cr-id]').forEach(b => b.addEventListener('click', () => { state.selected = b.getAttribute('data-cr-id'); renderCards(); renderPanel(); }));
+  }
+  function renderPanel(){
+    const panel = byId('cr-panel'); if(!panel) return;
+    const a = state.agents.find(x => x.id===state.selected);
+    if(!a){ panel.innerHTML = '<div class="cr-empty" style="padding:18px 16px;">팀을 고르면 상세 기록이 여기에 나옵니다.</div>'; return; }
+    panel.innerHTML = '<div class="cr-panel-head">'+icon(a.id)
+      + '<div style="min-width:0"><div class="cr-panel-name">'+esc(a.name)+'<span class="cr-badge s-'+a.status+'" style="margin-left:0">'+LABEL[a.status]+'</span></div>'
+      + '<div class="cr-panel-role">'+esc(a.role)+' · '+esc(a.engine)+'</div></div>'
+      + '<div class="cr-panel-timer">마지막 갱신 후<b data-cr-age="'+esc(a.when||'')+'">'+fmtAge(age(a.when))+'</b></div></div>'
+      + '<div class="cr-alert s-'+a.status+'"><b>현재 신호</b> · '+esc(a.signal || '기록된 신호 없음')+'</div>'
+      + '<div class="cr-log">'+a.logs.map(l => '<div class="'+l.cls+'">'+esc(l.text)+'</div>').join('')+'</div>'
+      + '<div class="cr-panel-foot"><span>기준 '+esc(kst(a.when)||'시각 미기록')+'</span><a href="#teams" data-cr-records="1">원본 기록 보기 ↓</a></div>';
+    const link = panel.querySelector('[data-cr-records]');
+    if(link) link.addEventListener('click', () => { const det = byId('cr-records-details'); if(det) det.open = true; });
+  }
+  function renderKpis(d){
+    const counts = {blocked:0, working:0, done:0};
+    state.agents.forEach(a => { counts[a.status]++; });
+    put('cr-n-all', String(state.agents.length)); put('cr-n-blocked', String(counts.blocked)); put('cr-n-working', String(counts.working)); put('cr-n-done', String(counts.done));
+    put('cr-k-blocked', state.agents.length ? counts.blocked+'건' : '–', 'value '+(counts.blocked ? 'cr-v-red' : 'cr-v-green'));
+    put('cr-k-blocked-note', state.agents.length ? ('작업 중 '+counts.working+' · 정상 '+counts.done) : '팀 상태 없음');
+    if(!d) return;
+    const g = d.graph||{}, tr = d.training||{}, ts = d.team_summary||{};
+    const records = ts.corpus_records!=null ? ts.corpus_records : (d.sources && d.sources.record_count);
+    put('cr-k-corpus', records!=null ? num(records)+'건' : '–');
+    put('cr-k-corpus-note', ts.pipeline_total ? ('파이프라인 '+num(ts.pipeline_done)+'/'+num(ts.pipeline_total)) : '');
+    put('cr-k-graph', g.notes!=null ? num(g.notes)+'노트' : '–');
+    put('cr-k-graph-note', g.notes!=null ? ('링크 '+num(g.links)+' · 끊어진 링크 '+num(g.dangling_links)+'건') : '');
+    put('cr-k-moe', typeof tr.accuracy==='number' ? (tr.accuracy*100).toFixed(2)+'%' : '–');
+    put('cr-k-moe-note', typeof tr.validation_accuracy==='number' ? ('검증 '+(tr.validation_accuracy*100).toFixed(1)+'%'+(typeof tr.final_loss==='number' ? ' · Loss '+tr.final_loss.toFixed(4) : '')+(tr.experts ? ' · '+tr.experts+' experts' : '')) : '');
+    const listing = (Array.isArray(d.teams)?d.teams:[]).find(t => t && t.id==='listing');
+    const sum = String((listing && listing.summary)||'');
+    const ready = sum.match(/공개 준비 (\d+)\/(\d+)/), parts = sum.match(/고시 \d+ · 가격 \d+ · 법률 \d+/);
+    put('cr-k-listing', ready ? ready[1]+'/'+ready[2]+'건' : '–', 'value '+(ready && ready[2]>0 && ready[1]===ready[2] ? 'cr-v-green' : 'cr-v-yellow'));
+    put('cr-k-listing-note', parts ? parts[0] : '리스팅팀 기준');
+    const review = d.continuity_review;
+    const restricted = review && typeof review==='object';
+    put('cr-k-ops', restricted ? '제한 운영' : '정상', 'value '+(restricted ? 'cr-v-yellow' : 'cr-v-green'));
+    put('cr-k-ops-note', '데이터 기준 '+(kst(d.generated_at||d.last_synced)||'미기록'));
+    const st = byId('cr-state');
+    if(st){ st.textContent = restricted ? '제한 운영 · 확인 중' : ('실데이터 · '+(kst(d.generated_at||d.last_synced)||'시각 미기록')+' 기준'); st.className = 'cr-state '+(restricted ? 'restricted' : 'ok'); }
+  }
+  function tick(){
+    document.querySelectorAll('#control-room [data-cr-age]').forEach(el => { const w = el.getAttribute('data-cr-age'); if(w) el.textContent = fmtAge(age(w)); });
+  }
+  window.renderControlRoom = function(d){
+    if(!d || typeof d!=='object'){
+      state.data = false; state.agents = [];
+      const st = byId('cr-state'); if(st){ st.textContent = '데이터 없음'; st.className = 'cr-state offline'; }
+      renderKpis(null); renderCards(); renderPanel(); return;
+    }
+    state.data = d;
+    state.agents = build(d);
+    if(!state.agents.some(a => a.id===state.selected)){
+      const first = state.agents.find(a => a.status==='blocked') || state.agents[0];
+      state.selected = first ? first.id : null;
+    }
+    renderKpis(d); renderCards(); renderPanel();
+    if(!state.timer) state.timer = setInterval(tick, 1000);
+  };
+  document.querySelectorAll('[data-cr-filter]').forEach(b => b.addEventListener('click', () => {
+    state.filter = b.getAttribute('data-cr-filter');
+    document.querySelectorAll('[data-cr-filter]').forEach(x => x.setAttribute('aria-pressed', String(x===b)));
+    renderCards();
+  }));
+  document.querySelectorAll('[data-cr-view]').forEach(b => b.addEventListener('click', () => {
+    state.view = b.getAttribute('data-cr-view');
+    document.querySelectorAll('[data-cr-view]').forEach(x => x.setAttribute('aria-pressed', String(x===b)));
+    renderCards();
+  }));
+  if(window.__runtime) window.renderControlRoom(window.__runtime);
 })();
 </script>
-</section>
-
-<div class="container">
 
 
 
@@ -473,18 +767,6 @@ nav a{font-size:12px;}
   <div class="dp-grid" id="dp-grid"></div>
 </div>
 
-<!-- Team Cards -->
-<div class="team-section team-focus" id="teams"><span id="knowledge"></span>
-<h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 상세 기록<span id="updated-at" class="team-h3-when">동기화 확인 중…</span></span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
-<div class="team-sub">팀 상태·경고·다음 조치는 위 관제실 카드가 기준입니다. 여기에는 영상 학습·단계·링크까지 담긴 팀별 원본 기록을 접어 둡니다.</div>
-<div class="team-meta" id="team-meta"></div>
-<div id="pipeline-health" class="team-sub" role="status">필수·선택 실행 증적 확인 중</div>
-<details class="team-details"><summary style="cursor:pointer;color:#58a6ff;font-size:13px;margin:8px 0;">비서실장 + 11팀 원본 기록 펼치기</summary>
-<ul class="team-list" id="team-list">
-<li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
-</ul>
-</details>
-</div>
 
 
 
@@ -1954,6 +2236,7 @@ set('side-experts',d.training.experts+'개');
 set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'–');
 }
 renderTeams(d);
+if(typeof renderControlRoom==='function') renderControlRoom(d);
 renderBrainFlow(d);
 renderOperations(d.operations);
 renderTeamImprovement(d.team_improvement_evidence);
@@ -1976,6 +2259,7 @@ markOffline('실시간 데이터 연결 실패');
 renderOperations(null);
 renderTeamImprovement(null);
 renderMarketingChannels({}); // 실패시 디폴트 마케팅 UI 로딩
+if(typeof renderControlRoom==='function') renderControlRoom(null);
 const list=$('log-list'); if(list) list.innerHTML='<li><span class="log-text">dashboard_runtime.json을 불러오지 못했습니다.</span></li>';
 }
 if(tr.status==='fulfilled'){
