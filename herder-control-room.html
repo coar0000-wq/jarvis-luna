@@ -35,7 +35,12 @@
     .blocked-card {
       animation: pulse-border 2s infinite;
     }
+    /* 2026-11-03: 메인 대시보드 안에 들어갈 때는 높이를 내용에 맞추고 되돌아가기 버튼을 숨긴다. */
+    html.embedded { overflow: hidden; }
+    html.embedded body { min-height: 0 !important; overflow: hidden; }
+    html.embedded #btn-back-main { display: none; }
   </style>
+  <script>if (window.self !== window.top) document.documentElement.classList.add('embedded');</script>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-indigo-500 selection:text-white">
 
@@ -49,9 +54,9 @@
         <div>
           <div class="flex items-center gap-2">
             <h1 class="font-bold text-base sm:text-lg text-white tracking-tight">JARVIS·LUNA × Herder 관제실</h1>
-            <span class="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
-              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
-              Herder Core 상시 구동
+            <span id="live-badge" class="px-2 py-0.5 text-xs font-semibold rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 flex items-center gap-1">
+              <span id="live-badge-dot" class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+              <span id="live-badge-text">Herder Core 상시 구동</span>
             </span>
           </div>
           <p class="text-xs text-slate-400">비서실장 총괄 · 11개 AI 에이전트 팀 · PR #4 읽기 전용 피드백 루프 연동</p>
@@ -73,7 +78,7 @@
 
       <!-- Quick Action Controls -->
       <div class="flex items-center gap-2">
-        <a href="index.html" target="_top" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition">← 메인 대시보드</a>
+        <a id="btn-back-main" href="index.html" target="_top" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition">← 메인 대시보드</a>
         <button id="btn-trigger-feedback" type="button" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30 hover:bg-amber-500/25 transition">
           ⚡ 피드백 데이터 유입 시뮬레이션
         </button>
@@ -89,42 +94,42 @@
     <div class="max-w-7xl mx-auto px-4 py-2.5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 text-xs">
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">동기화 조치 필요 (Blocked)</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span id="kpi-blocked-count" class="text-lg font-bold text-rose-400 mono">5건</span>
           <span class="text-[11px] text-rose-300/80">최상단 자동 정렬됨</span>
         </div>
       </div>
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">코퍼스 누적 레코드</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span id="kpi-corpus" class="text-lg font-bold text-cyan-400 mono">3,205건</span>
-          <span class="text-[11px] text-slate-400">파이프라인 5/5</span>
+          <span id="kpi-corpus-note" class="text-[11px] text-slate-400">파이프라인 5/5</span>
         </div>
       </div>
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">옵시디언 지식 그래프</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span id="kpi-obsidian" class="text-lg font-bold text-indigo-400 mono">81,092노트</span>
           <span id="kpi-broken-links" class="text-[11px] text-amber-300">끊어진 링크 110건</span>
         </div>
       </div>
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">MoE 학습 정확도 (3 Experts)</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span id="kpi-moe" class="text-lg font-bold text-emerald-400 mono">88.05%</span>
-          <span class="text-[11px] text-slate-400">검증 88.7% · Loss 0.4059</span>
+          <span id="kpi-moe-note" class="text-[11px] text-slate-400">검증 88.7% · Loss 0.4059</span>
         </div>
       </div>
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">S등급 Shopify 등록 가능</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span id="kpi-listing-ready" class="text-lg font-bold text-amber-400 mono">0 / 7건</span>
           <span id="kpi-listing-note" class="text-[11px] text-slate-400">고시3·라벨7·법률1 대기</span>
         </div>
       </div>
       <div class="bg-slate-900/90 border border-slate-800 rounded-lg p-2.5">
         <div class="text-slate-400">원격 제어 & 스테이징 보호</div>
-        <div class="mt-1 flex items-baseline justify-between">
+        <div class="mt-1 flex flex-wrap items-baseline justify-between gap-x-2">
           <span class="text-sm font-bold text-sky-400 mono">SSH · Claude Remote</span>
           <span class="text-[11px] text-emerald-400">Auto-Deploy 잠금</span>
         </div>
@@ -152,10 +157,11 @@
             <span>확인 필요(Blocked) 최상단 자동 정렬</span>
           </label>
           <button id="btn-reset-demo" type="button" class="px-2.5 py-1 rounded-md bg-slate-800 hover:bg-slate-700 text-slate-300">
-            초기 상태로 리셋
+            실데이터 다시 불러오기
           </button>
         </div>
       </div>
+      <p id="live-data-note" class="text-[11px] text-slate-400 px-1 -mt-2">실데이터 확인 중… 불러오지 못하면 저장된 스냅샷을 표시합니다. 승인·지시 버튼은 화면 시뮬레이션이며 실제 승인·실행은 일어나지 않습니다.</p>
 
       <!-- Split Grid: Left Agent Cards + Right Active Terminal Inspector -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
@@ -177,7 +183,7 @@
               <p id="term-agent-role" class="text-xs text-slate-400 mt-0.5">전체 팀·자동화·우선순위·예외상황 상시 총괄</p>
             </div>
             <div class="text-right">
-              <div class="text-[11px] text-slate-400">탭 작업 경과 시간</div>
+              <div class="text-[11px] text-slate-400">마지막 갱신 후 경과</div>
               <div id="term-agent-timer" class="text-sm font-semibold text-cyan-400 mono">00:14:22</div>
             </div>
           </div>
@@ -288,7 +294,7 @@
               <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">1계층 · 데이터 수집 (4개 팀)</span>
               <span class="text-[11px] text-slate-400 mono">Claude Code × 4</span>
             </div>
-            <div class="space-y-2 text-xs">
+            <div class="space-y-2 text-xs" id="tier-1">
               <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
                 <div class="font-semibold text-white flex justify-between"><span>① 상품 소싱팀</span><span class="text-rose-400 mono">Blocked (5건 실패)</span></div>
                 <p class="text-slate-400 mt-1">222개 상품(S 7) · 다이소몰 상세 HTML 기본 페이지 반환 오류 패치</p>
@@ -314,7 +320,7 @@
               <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">2계층 · 분석·가격·규제 (3개 팀)</span>
               <span class="text-[11px] text-slate-400 mono">Claude 1 · Codex 2</span>
             </div>
-            <div class="space-y-2 text-xs">
+            <div class="space-y-2 text-xs" id="tier-2">
               <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
                 <div class="font-semibold text-white flex justify-between"><span>③ 마케팅 조사팀</span><span class="text-rose-400 mono">Blocked (고시표 3건)</span></div>
                 <p class="text-slate-400 mt-1">S등급 7개 분석 · 다이소 상세페이지 고시표 3건 캡처 확인 요청</p>
@@ -336,7 +342,7 @@
               <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">3계층 · 제작·채널·그래프 (4개 팀)</span>
               <span class="text-[11px] text-slate-400 mono">Claude 2 · Codex 2</span>
             </div>
-            <div class="space-y-2 text-xs">
+            <div class="space-y-2 text-xs" id="tier-3">
               <div class="p-2.5 rounded-lg bg-rose-950/30 border border-rose-500/40">
                 <div class="font-semibold text-white flex justify-between"><span>⑥ 리스팅 제작팀</span><span class="text-rose-400 mono">Blocked (등록 0/7)</span></div>
                 <p class="text-slate-400 mt-1">카피 7·가격 7 완료 / 고시 3건·us_label 7건·법률 1건 해제 대기</p>
@@ -392,7 +398,7 @@
         <span id="footer-token-usage" class="mono text-cyan-400">Tokens: 142,890 / Cost: $0.00 (Herder Free Desktop)</span>
       </div>
       <div class="text-slate-400">
-        <span>Repository: <strong class="text-slate-300 mono">coarfamily-cyber/jarvis-luna</strong> (Staging Guardrail Active)</span>
+        <span>Repository: <strong class="text-slate-300 mono">coar0000-wq/jarvis-luna</strong> (Staging Guardrail Active)</span>
       </div>
     </div>
   </footer>
@@ -407,9 +413,9 @@
 
   <script>
     const CONFIG_FILES = {
-      json: "{\n  \"workspace\": \"coarfamily-cyber-jarvis-luna-workspace\",\n  \"version\": \"2.0.0\",\n  \"core\": {\n    \"backgroundDaemon\": true,\n    \"keepAliveOnClose\": true,\n    \"hostNode\": \"always-on-server-or-mac-mini\",\n    \"remoteAccess\": {\n      \"enabled\": true,\n      \"methods\": [\n        \"ssh\",\n        \"claude-remote\"\n      ],\n      \"syncTerminalBuffer\": true\n    },\n    \"feedbackTriggers\": {\n      \"githubReadOnlyLoop\": {\n        \"repo\": \"coarfamily-cyber/jarvis-luna\",\n        \"prRef\": \"pull/4\",\n        \"watchFiles\": [\n          \"data/agents/ops_plan.json\",\n          \"data/agents/collector_audit.json\",\n          \"data/agents/score_explain.json\",\n          \"dashboard_runtime.json\"\n        ]\n      }\n    }\n  },\n  \"ui\": {\n    \"layoutMode\": \"control-room\",\n    \"keymap\": \"tmux\",\n    \"autoFocusNeedsConfirmation\": true,\n    \"notifyOnCompletion\": true,\n    \"prioritySortOrder\": [\n      \"Blocked\",\n      \"Working\",\n      \"Done\",\n      \"Idle\"\n    ],\n    \"widgets\": {\n      \"tabWorkTimer\": {\n        \"enabled\": true,\n        \"format\": \"HH:mm:ss\",\n        \"position\": \"tab-header\"\n      },\n      \"usageDashboard\": {\n        \"enabled\": true,\n        \"position\": \"bottom-panel\",\n        \"metrics\": [\n          \"token_usage\",\n          \"active_agents\",\n          \"blocked_alerts\",\n          \"corpus_records\",\n          \"moe_accuracy\"\n        ]\n      }\n    }\n  },\n  \"orchestrator\": {\n    \"id\": \"jarvis-luna-chief\",\n    \"name\": \"\ube44\uc11c\uc2e4\uc7a5 (JARVIS\u00b7LUNA \ucd1d\uad04)\",\n    \"engine\": \"claude-code\",\n    \"role\": \"Chief Orchestrator (Team Lead)\",\n    \"targetDirs\": [\n      \"./jarvis-luna\",\n      \"./wep\",\n      \"./-\"\n    ],\n    \"responsibilities\": [\n      \"JARVIS \uc804\uccb4 11\uac1c \ud300\u00b7\uc790\ub3d9\ud654\u00b7\uc6b0\uc120\uc21c\uc704\u00b7\uc608\uc678\uc0c1\ud669 \uc0c1\uc2dc \ucd1d\uad04\",\n      \"ops_plan.json, collector_audit.json, score_explain.json \ubc0f PR #4 \ud53c\ub4dc\ubc31 \uac10\uc9c0 \uc2dc \ud558\uc704 11\uac1c \ud300\uc5d0 \uc791\uc5c5 \ubc30\ubd84\",\n      \"Blocked \uc0c1\ud0dc(\ud1b5\uad00 \ucc28\ub2e8, \uace0\uc2dc\ud45c \ub204\ub77d, HTML \ud30c\uc2f1 \uc5d0\ub7ec) \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1 \ubc0f \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uc694\uccad \uc54c\ub9bc \ubc1c\uc1a1\"\n    ]\n  },\n  \"teams\": [\n    {\n      \"id\": \"team-01-sourcing\",\n      \"name\": \"\u2460 \uc0c1\ud488 \uc18c\uc2f1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Product Sourcing & Crawler Repair\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"222\uac1c \uc0c1\ud488 (S 7 / A 34 / B 28 / C 153) \u00b7 \uc0c8 \uc790\ub8cc 223\uac74\",\n      \"feedbackSignal\": \"\uc9c1\uc804 \uc2e4\ud589 5\uac74 \uc2dc\ub3c4 \uc911 5\uac74 \uc2e4\ud328 (\uc0c1\ud488 \uc0c1\uc138 HTML\uc774 \ub2e4\uc774\uc18c\ubab0 \uae30\ubcf8 \ud398\uc774\uc9c0\ub85c \ubc18\ud658\ub428)\",\n      \"actionOnTrigger\": \"\ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138\ud398\uc774\uc9c0 \uc6b0\ud68c \ud5e4\ub354\u00b7\uc140\ub809\ud130 \ud328\uce58 \ubc0f \uc2e4\ud328 5\uac74 \uc7ac\uc218\uc9d1 \uc218\ud589\"\n    },\n    {\n      \"id\": \"team-02-institution\",\n      \"name\": \"\u2461 \uae30\uad00 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Institutional Data Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"35\uacf3 1,061\uac74 \u00b7 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \uae30\ub85d \u00b7 \uc0c8 \uc790\ub8cc 280\uac74\",\n      \"feedbackSignal\": \"collector_audit.json \ub0b4 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ucf54\ub4dc \uc720\uc785\",\n      \"actionOnTrigger\": \"\ubbf8\uc218\uc9d1 12\uacf3 \uc5d4\ub4dc\ud3ec\uc778\ud2b8 \uc751\ub2f5 \uc9c0\uc5f0\u00b7\uc2a4\ud0a4\ub9c8 \ubcc0\uacbd \uc810\uac80 \ubc0f \ud3f4\ubc31 \ud30c\uc11c \uac00\ub3d9\"\n    },\n    {\n      \"id\": \"team-03-marketing\",\n      \"name\": \"\u2462 \ub9c8\ucf00\ud305 \uc870\uc0ac\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Market Trend & Spec Sheet Analyst\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"S\ub4f1\uae09 7\uac1c \u00b7 \uace0\uc2dc\ud45c \uc785\ub825 \ub300\uae30 3\uac74 \u00b7 \uc0c8 \uc790\ub8cc 39\uac74\",\n      \"feedbackSignal\": \"Hydrating Serum(+24%), Ceramide(+18%) \uae09\uc0c1\uc2b9 \ubc0f \ub2e4\uc774\uc18c \uc0c1\uc138\ud398\uc774\uc9c0 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud544\uc694\",\n      \"actionOnTrigger\": \"S\ub4f1\uae09 \ud3ec\uc9c0\uc154\ub2dd \ud0a4\uc6cc\ub4dc \ucd94\ucd9c \ud6c4 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud655\uc778 \uc694\uccad\uc744 Blocked(\ucd5c\uc0c1\ub2e8)\ub85c \uaca9\uc0c1\"\n    },\n    {\n      \"id\": \"team-04-pricing\",\n      \"name\": \"\u2463 \uac00\uaca9 \uc815\ucc45\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Pricing, Weight & DDU/DDP Calculator\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uac1c\ub2f9 \ubc30\uc1a1\ube44 $6.26~$10.75 \u00b7 \ubb34\uac8c 64~520g (\uc774\ub984\ucd94\uc815 3 / \uace0\uc2dc\uc6a9\ub7c9 4) \u00b7 DDU/DDP 4\uac1c \u00b7 \uc0c8 \uc790\ub8cc 6\uac74\",\n      \"feedbackSignal\": \"S\ub4f1\uae09 7\uac1c \uc0c1\ud488\uc758 \ubb34\uac8c\u00b7\ubc30\uc1a1\ube44 \uae30\ubc18 \ub9c8\uc9c4\uc728 \uac80\uc99d \uc694\uccad\",\n      \"actionOnTrigger\": \"\uace0\uc2dc \uc6a9\ub7c9 \ubc0f \ucd94\uc815 \ubb34\uac8c \uae30\ubc18 DDP \ucd5c\uc885 \ud310\ub9e4\uac00\uc640 40% \uc774\uc0c1 \ub9c8\uc9c4 \uad6c\uac04 \uc0b0\ucd9c\"\n    },\n    {\n      \"id\": \"team-05-legal\",\n      \"name\": \"\u2464 \ubc95\ub960\u00b7\uaddc\uc81c\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"FDA/OTC Compliance & US Label Auditor\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uc790\ub3d9 \uc810\uac80 14\uac74 \u00b7 \ud1b5\uacfc 0 \u00b7 \ub4f1\ub85d \ucc28\ub2e8 7 \u00b7 \ucc38\uace0 \uc8fc\uc758 14 \u00b7 \uc218\ucd9c\uc11c\ub958 HS 14\uac74 \u00b7 \ub77c\ubca8 1/6\ud56d\ubaa9 \uc790\ub3d9\",\n      \"feedbackSignal\": \"\ucc28\ub2e8 7\uac74 \uac10\uc9c0: \ube44\ud504\ub8e8\ube0c \ub9c8\ub9b0 \ubb34\uae30\uc790\ucc28 \ub9c8\uc77c\ub4dc(otc), \ub4dc\ub86d\ube44 \uc7a1\ud2f0 \ub9d0\ub054 \uc570\ud50c 40(lab)\",\n      \"actionOnTrigger\": \"OTC/Lab \uc131\ubd84 \ucc28\ub2e8 7\uac74 \ub4f1\ub85d \uc7a0\uae08 \uc720\uc9c0, US \ub77c\ubca8 6\ud56d\ubaa9 \uc810\uac80 \ub9ac\ud3ec\ud2b8 \uc0dd\uc131 \ubc0f \ucd5c\uc0c1\ub2e8 \uc2b9\uc778 \ub300\uae30\"\n    },\n    {\n      \"id\": \"team-06-listing\",\n      \"name\": \"\u2465 \ub9ac\uc2a4\ud305 \uc81c\uc791\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Copywriting & Listing Assembler\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\ub4f1\ub85d \uac00\ub2a5 0/7 \u00b7 \uce74\ud53c 7 \u00b7 \uace0\uc2dc 4 \u00b7 \uac00\uaca9 7 \u00b7 \ubc95\ub960 6\",\n      \"feedbackSignal\": \"\uace0\uc2dc 3\uac74, us_label 7\uac74, \ubc95\ub960 1\uac74 \ube14\ub85c\ucee4 \ub300\uae30 \uc911\",\n      \"actionOnTrigger\": \"\uce74\ud53c 7\uac74\u00b7\uac00\uaca9 7\uac74 \uc120\ud589 \uacb0\ud569 \ud6c4 \uace0\uc2dc\u00b7\ub77c\ubca8\u00b7\ubc95\ub960 \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \uc989\uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc644\uc131\"\n    },\n    {\n      \"id\": \"team-07-design\",\n      \"name\": \"\u2466 \ub514\uc790\uc778\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Store UI, Brand Skin & Media Assets\",\n      \"targetDirs\": [\n        \"./wep\",\n        \"./-\"\n      ],\n      \"currentMetrics\": \"\uc2a4\ud1a0\uc5b4 2/12\ub2e8\uacc4 \u00b7 \ub808\ud37c\ub7f0\uc2a4 85\uac74 \u00b7 \ud3f0\ud2b8 1946\uac1c(\ud55c\uae00 38) \u00b7 \ud314\ub808\ud2b8 13\uc0c9\uc870 \u00b7 \uae30\uc0ac 60\uac74 \u00b7 \uc601\uc0c1 33\uac74\",\n      \"feedbackSignal\": \"\ub2e4\uc74c \ub2e8\uacc4: Shopify \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \ubc0f \uae30\ubcf8 \uc124\uc815 \uc694\uccad\",\n      \"actionOnTrigger\": \"13\uc0c9\uc870 \ud314\ub808\ud2b8\u00b7\ud3f0\ud2b8 \uae30\ubc18 Shopify \ud14c\ub9c8 \uc2a4\ud0a8 \ubc0f \uc20f\ud3fc/\uc378\ub124\uc77c \ud504\ub86c\ud504\ud2b8 \uc5d0\uc14b \uc0dd\uc131\"\n    },\n    {\n      \"id\": \"team-08-channel\",\n      \"name\": \"\u2467 \ucc44\ub110 \uc6b4\uc601\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Multi-Channel Sync & Staging Gatekeeper\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\uac00\ub3d9 7/12\ucc44\ub110 \u00b7 \ub0a1\uc74c 4\uac74 \u00b7 \uc218\ub3d9 \uc785\ub825 32\uac74 \u00b7 \ud6c4\ubcf4 7\uac74 \uac80\uc0ac, \ubbf8\uc5f0\ub3d9 0\uac74\",\n      \"feedbackSignal\": \"\ub178\ud6c4 \ucc44\ub110 4\uac74 \ud1a0\ud070/\ub370\uc774\ud130 \uac31\uc2e0 \ubc0f \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \uc804 \uc790\ub3d9\ud654 \uc7a0\uae08 \ud655\uc778\",\n      \"actionOnTrigger\": \"\ub0a1\uc74c 4\uac74 \ucc44\ub110 \ud30c\uc11c \uac31\uc2e0 \ubc0f Shopify bounded canary \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc810\uac80\"\n    },\n    {\n      \"id\": \"team-09-robotics\",\n      \"name\": \"\u2468 \ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Robotics & Tech Feed Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"40\uac74 \u00b7 arxiv 0 / rss 40 \u00b7 \uc0c8 \uc790\ub8cc 76\uac74\",\n      \"feedbackSignal\": \"RSS \uc2e0\uaddc \ud53c\ub4dc 76\uac74 \uc720\uc785 \ubc0f arXiv \uc218\uc9d1 \ucffc\ub9ac \uc810\uac80\",\n      \"actionOnTrigger\": \"\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4\uc5d0\uc11c RSS 76\uac74 \uc815\uaddc\ud654 \ubc0f arXiv API \ud3f4\ubc31 \uc218\uc9d1 \uc2e4\ud589\"\n    },\n    {\n      \"id\": \"team-10-knowledge\",\n      \"name\": \"\u2469 \uc9c0\uc2dd \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Domain Corpus & MoE Feature Builder\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"470\uac74 (arXiv 10 / \uc720\uae30\ub18d\uc2a4\ud0a8 30 / Google 300 / US\ubdf0\ud2f0 130) \u00b7 \ub204\uc801 \ucf54\ud37c\uc2a4 3,205\uac74\",\n      \"feedbackSignal\": \"\uc2e0\uaddc 470\uac74 \ucf54\ud37c\uc2a4 \uc720\uc785\uc5d0 \ub530\ub978 MoE(3 Experts, \uc815\ud655\ub3c4 88.05%) \uc7ac\ud559\uc2b5 \ud53c\ucc98 \uc900\ube44\",\n      \"actionOnTrigger\": \"3,205\uac74 \ucf54\ud37c\uc2a4 \uc815\uaddc\ud654 \ubc0f MoE \uac8c\uc774\ud2b8 \ud3b8\ucc28(0.152)\u00b7Loss(0.4059) \uac1c\uc120\uc6a9 \ub370\uc774\ud130\uc14b \uac31\uc2e0\"\n    },\n    {\n      \"id\": \"team-11-obsidian\",\n      \"name\": \"\u246a \uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Knowledge Graph Integrity & Runtime Publisher\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"81,092\ub178\ud2b8 \u00b7 320,853\ub9c1\ud06c \u00b7 \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \u00b7 \uac1c\uc778 \ub178\ud2b8 16\uac74 \ubcc4\ub3c4 \u00b7 \uacbd\uace0 \ud1b5\uacfc(\uc784\uacc4 300)\",\n      \"feedbackSignal\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uac10\uc9c0 \ubc0f dashboard_runtime.json \ubc30\ud3ec \ub300\uae30\",\n      \"actionOnTrigger\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uc790\ub3d9 \uc5ed\ucd94\uc801\u00b7\ubcf5\uad6c \ud6c4 dashboard_runtime.json \ube4c\ub4dc \ubc0f \ud300\uc7a5\uc5d0\uac8c \ubcf4\uace0\"\n    }\n  ],\n  \"workflowRules\": {\n    \"sequence\": [\n      \"1. [jarvis-luna-chief] GitHub PR #4 \ud53c\ub4dc\ubc31 \ub8e8\ud504 \ubc0f ops_plan.json / collector_audit.json / score_explain.json \uac10\uc9c0\",\n      \"2. [team-01, 02, 09, 10] \uc218\uc9d1 \uacc4\uce35 4\uac1c \ud300 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \ubcd1\ub82c \uc2e4\ud589 \ubc0f \ud30c\uc11c \uc624\ub958 \uc790\ub3d9 \ud328\uce58\",\n      \"3. [team-03, 04, 05] \ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 3\uac1c \ud300\uc774 S\ub4f1\uae09 7\uac74\uc5d0 \ub300\ud574 \ud2b8\ub80c\ub4dc\u00b7DDP \uac00\uaca9\u00b7FDA/OTC/\ub77c\ubca8 \uc810\uac80 \uc218\ud589\",\n      \"4. [Blocked \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1] \ub2e4\uc774\uc18c HTML \uc624\ub958(\uc18c\uc2f1\ud300), \uace0\uc2dc\ud45c 3\uac74(\ub9c8\ucf00\ud305\ud300), OTC/Lab \ucc28\ub2e8 7\uac74(\ubc95\ub960\ud300)\uc744 \ud5c8\ub354 \ubaa9\ub85d \ucd5c\uc0c1\ub2e8\uc5d0 \ubc30\uce58\ud558\uace0 \uc54c\ub9bc \ubc1c\uc1a1\",\n      \"5. [team-06, 07, 08, 11] \uc2b9\uc778 \uc644\ub8cc \uac74\uc5d0 \ub300\ud574 \ub9ac\uc2a4\ud305\u00b7\ub514\uc790\uc778\u00b7\ucc44\ub110 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8\u00b7\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504(dashboard_runtime.json) \uac31\uc2e0\"\n    ],\n    \"constraints\": [\n      \"jarvis-luna \uc800\uc7a5\uc18c\ub294 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d\uc774 \uc644\ub8cc\ub420 \ub54c\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9\ud654(Automation) \ube44\ud65c\uc131\ud654 \uc0c1\ud0dc \uc720\uc9c0\",\n      \"\ubc95\ub960\u00b7\uaddc\uc81c\ud300(team-05)\uc758 US \ub77c\ubca8 6\ud56d\ubaa9 \ubc0f OTC/Lab \uc810\uac80 \ud1b5\uacfc \uc804\uae4c\uc9c0 Shopify \ub77c\uc774\ube0c \ub4f1\ub85d \uc5c4\uaca9 \uae08\uc9c0\",\n      \"\ucf54\ub371\uc2a4(Codex) \uac80\uc99d \uc5d0\uc774\uc804\ud2b8\uc758 diff \ub9ac\ubdf0 \ud1b5\uacfc \uc804\uae4c\uc9c0 main \ube0c\ub79c\uce58 \ubcd1\ud569 \uae08\uc9c0\"\n    ]\n  }\n}",
-      rules: "# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coarfamily-cyber/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\n",
-      sh: "#!/usr/bin/env bash\nset -e\n\necho \"==================================================================\"\necho \"[Herder \u00d7 JARVIS-LUNA] \ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \ud300 \uc5d4\ub4dc\ud22c\uc5d4\ub4dc \uc624\ucf00\uc2a4\ud2b8\ub808\uc774\uc158 \uc2dc\uc791\"\necho \"==================================================================\"\n\nif [ ! -f \"herder.config.json\" ]; then\n  echo \"[\uc624\ub958] \ud604\uc7ac \uacbd\ub85c\uc5d0 herder.config.json \ud30c\uc77c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.\"\n  exit 1\nfi\n\ncat << 'EOF' > .herder_team_rules.md\n# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coarfamily-cyber/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\nEOF\n\necho \"[1/3] .herder_team_rules.md \ud611\uc5c5 \uaddc\uce59 \ud30c\uc77c \uc0dd\uc131 \uc644\ub8cc\"\necho \"[2/3] \ud5c8\ub354 \ucf54\uc5b4(Background Daemon) \ubc0f \uad00\uc81c\uc2e4(Control Room) UI \ub808\uc774\uc544\uc6c3 \ud655\uc778...\"\n\nif command -v herder &> /dev/null; then\n  echo \"[3/3] Herder CLI\ub97c \ud1b5\ud574 \ube44\uc11c\uc2e4\uc7a5(claude-code) \ubc0f 11\uac1c \ud300 \uc138\uc158\uc744 \uae30\ub3d9\ud569\ub2c8\ub2e4...\"\n  herder up --config herder.config.json --rules .herder_team_rules.md --daemon\nelse\n  echo \"[\uc548\ub0b4] Herder \ub370\uc2a4\ud06c\ud1b1 \uc571 \ub0b4 \ud130\ubbf8\ub110\uc5d0\uc11c \uc544\ub798 \ud55c \uc904 \uba85\ub839\uc5b4\ub97c AI\uc5d0\uac8c \uc785\ub825\ud558\uc138\uc694:\"\n  echo \"------------------------------------------------------------------\"\n  echo \"\ud83d\udc49 'herder.config.json\uc774\ub791 .herder_team_rules.md \uc77d\uc5b4\uc11c \ube44\uc11c\uc2e4\uc7a5 \ud074\ub85c\ub4dc 1\uac1c\ub791 11\uac1c \ud300(\ud074\ub85c\ub4dc 7, \ucf54\ub371\uc2a4 4) \uad00\uc81c\uc2e4 \ubaa8\ub4dc\ub85c \ub744\uc6cc\uc8fc\uace0, \ud0ed\ub9c8\ub2e4 \uc791\uc5c5 \ud0c0\uc774\uba38 \ub2ec\uace0 \ud655\uc778 \ud544\uc694\ud55c \ud300\uc740 \ub9e8 \uc704\ub85c \uc62c\ub824\uc918'\"\n  echo \"------------------------------------------------------------------\"\nfi\n"
+      json: "{\n  \"workspace\": \"coarfamily-cyber-jarvis-luna-workspace\",\n  \"version\": \"2.0.0\",\n  \"core\": {\n    \"backgroundDaemon\": true,\n    \"keepAliveOnClose\": true,\n    \"hostNode\": \"always-on-server-or-mac-mini\",\n    \"remoteAccess\": {\n      \"enabled\": true,\n      \"methods\": [\n        \"ssh\",\n        \"claude-remote\"\n      ],\n      \"syncTerminalBuffer\": true\n    },\n    \"feedbackTriggers\": {\n      \"githubReadOnlyLoop\": {\n        \"repo\": \"coar0000-wq/jarvis-luna\",\n        \"prRef\": \"pull/4\",\n        \"watchFiles\": [\n          \"data/agents/ops_plan.json\",\n          \"data/agents/collector_audit.json\",\n          \"data/agents/score_explain.json\",\n          \"dashboard_runtime.json\"\n        ]\n      }\n    }\n  },\n  \"ui\": {\n    \"layoutMode\": \"control-room\",\n    \"keymap\": \"tmux\",\n    \"autoFocusNeedsConfirmation\": true,\n    \"notifyOnCompletion\": true,\n    \"prioritySortOrder\": [\n      \"Blocked\",\n      \"Working\",\n      \"Done\",\n      \"Idle\"\n    ],\n    \"widgets\": {\n      \"tabWorkTimer\": {\n        \"enabled\": true,\n        \"format\": \"HH:mm:ss\",\n        \"position\": \"tab-header\"\n      },\n      \"usageDashboard\": {\n        \"enabled\": true,\n        \"position\": \"bottom-panel\",\n        \"metrics\": [\n          \"token_usage\",\n          \"active_agents\",\n          \"blocked_alerts\",\n          \"corpus_records\",\n          \"moe_accuracy\"\n        ]\n      }\n    }\n  },\n  \"orchestrator\": {\n    \"id\": \"jarvis-luna-chief\",\n    \"name\": \"\ube44\uc11c\uc2e4\uc7a5 (JARVIS\u00b7LUNA \ucd1d\uad04)\",\n    \"engine\": \"claude-code\",\n    \"role\": \"Chief Orchestrator (Team Lead)\",\n    \"targetDirs\": [\n      \"./jarvis-luna\",\n      \"./wep\",\n      \"./-\"\n    ],\n    \"responsibilities\": [\n      \"JARVIS \uc804\uccb4 11\uac1c \ud300\u00b7\uc790\ub3d9\ud654\u00b7\uc6b0\uc120\uc21c\uc704\u00b7\uc608\uc678\uc0c1\ud669 \uc0c1\uc2dc \ucd1d\uad04\",\n      \"ops_plan.json, collector_audit.json, score_explain.json \ubc0f PR #4 \ud53c\ub4dc\ubc31 \uac10\uc9c0 \uc2dc \ud558\uc704 11\uac1c \ud300\uc5d0 \uc791\uc5c5 \ubc30\ubd84\",\n      \"Blocked \uc0c1\ud0dc(\ud1b5\uad00 \ucc28\ub2e8, \uace0\uc2dc\ud45c \ub204\ub77d, HTML \ud30c\uc2f1 \uc5d0\ub7ec) \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1 \ubc0f \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uc694\uccad \uc54c\ub9bc \ubc1c\uc1a1\"\n    ]\n  },\n  \"teams\": [\n    {\n      \"id\": \"team-01-sourcing\",\n      \"name\": \"\u2460 \uc0c1\ud488 \uc18c\uc2f1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Product Sourcing & Crawler Repair\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"222\uac1c \uc0c1\ud488 (S 7 / A 34 / B 28 / C 153) \u00b7 \uc0c8 \uc790\ub8cc 223\uac74\",\n      \"feedbackSignal\": \"\uc9c1\uc804 \uc2e4\ud589 5\uac74 \uc2dc\ub3c4 \uc911 5\uac74 \uc2e4\ud328 (\uc0c1\ud488 \uc0c1\uc138 HTML\uc774 \ub2e4\uc774\uc18c\ubab0 \uae30\ubcf8 \ud398\uc774\uc9c0\ub85c \ubc18\ud658\ub428)\",\n      \"actionOnTrigger\": \"\ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138\ud398\uc774\uc9c0 \uc6b0\ud68c \ud5e4\ub354\u00b7\uc140\ub809\ud130 \ud328\uce58 \ubc0f \uc2e4\ud328 5\uac74 \uc7ac\uc218\uc9d1 \uc218\ud589\"\n    },\n    {\n      \"id\": \"team-02-institution\",\n      \"name\": \"\u2461 \uae30\uad00 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Institutional Data Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"35\uacf3 1,061\uac74 \u00b7 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \uae30\ub85d \u00b7 \uc0c8 \uc790\ub8cc 280\uac74\",\n      \"feedbackSignal\": \"collector_audit.json \ub0b4 \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ucf54\ub4dc \uc720\uc785\",\n      \"actionOnTrigger\": \"\ubbf8\uc218\uc9d1 12\uacf3 \uc5d4\ub4dc\ud3ec\uc778\ud2b8 \uc751\ub2f5 \uc9c0\uc5f0\u00b7\uc2a4\ud0a4\ub9c8 \ubcc0\uacbd \uc810\uac80 \ubc0f \ud3f4\ubc31 \ud30c\uc11c \uac00\ub3d9\"\n    },\n    {\n      \"id\": \"team-03-marketing\",\n      \"name\": \"\u2462 \ub9c8\ucf00\ud305 \uc870\uc0ac\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Market Trend & Spec Sheet Analyst\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"S\ub4f1\uae09 7\uac1c \u00b7 \uace0\uc2dc\ud45c \uc785\ub825 \ub300\uae30 3\uac74 \u00b7 \uc0c8 \uc790\ub8cc 39\uac74\",\n      \"feedbackSignal\": \"Hydrating Serum(+24%), Ceramide(+18%) \uae09\uc0c1\uc2b9 \ubc0f \ub2e4\uc774\uc18c \uc0c1\uc138\ud398\uc774\uc9c0 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud544\uc694\",\n      \"actionOnTrigger\": \"S\ub4f1\uae09 \ud3ec\uc9c0\uc154\ub2dd \ud0a4\uc6cc\ub4dc \ucd94\ucd9c \ud6c4 \uace0\uc2dc\ud45c 3\uac74 \ucea1\ucc98 \ud655\uc778 \uc694\uccad\uc744 Blocked(\ucd5c\uc0c1\ub2e8)\ub85c \uaca9\uc0c1\"\n    },\n    {\n      \"id\": \"team-04-pricing\",\n      \"name\": \"\u2463 \uac00\uaca9 \uc815\ucc45\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Pricing, Weight & DDU/DDP Calculator\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uac1c\ub2f9 \ubc30\uc1a1\ube44 $6.26~$10.75 \u00b7 \ubb34\uac8c 64~520g (\uc774\ub984\ucd94\uc815 3 / \uace0\uc2dc\uc6a9\ub7c9 4) \u00b7 DDU/DDP 4\uac1c \u00b7 \uc0c8 \uc790\ub8cc 6\uac74\",\n      \"feedbackSignal\": \"S\ub4f1\uae09 7\uac1c \uc0c1\ud488\uc758 \ubb34\uac8c\u00b7\ubc30\uc1a1\ube44 \uae30\ubc18 \ub9c8\uc9c4\uc728 \uac80\uc99d \uc694\uccad\",\n      \"actionOnTrigger\": \"\uace0\uc2dc \uc6a9\ub7c9 \ubc0f \ucd94\uc815 \ubb34\uac8c \uae30\ubc18 DDP \ucd5c\uc885 \ud310\ub9e4\uac00\uc640 40% \uc774\uc0c1 \ub9c8\uc9c4 \uad6c\uac04 \uc0b0\ucd9c\"\n    },\n    {\n      \"id\": \"team-05-legal\",\n      \"name\": \"\u2464 \ubc95\ub960\u00b7\uaddc\uc81c\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"FDA/OTC Compliance & US Label Auditor\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"\uc790\ub3d9 \uc810\uac80 14\uac74 \u00b7 \ud1b5\uacfc 0 \u00b7 \ub4f1\ub85d \ucc28\ub2e8 7 \u00b7 \ucc38\uace0 \uc8fc\uc758 14 \u00b7 \uc218\ucd9c\uc11c\ub958 HS 14\uac74 \u00b7 \ub77c\ubca8 1/6\ud56d\ubaa9 \uc790\ub3d9\",\n      \"feedbackSignal\": \"\ucc28\ub2e8 7\uac74 \uac10\uc9c0: \ube44\ud504\ub8e8\ube0c \ub9c8\ub9b0 \ubb34\uae30\uc790\ucc28 \ub9c8\uc77c\ub4dc(otc), \ub4dc\ub86d\ube44 \uc7a1\ud2f0 \ub9d0\ub054 \uc570\ud50c 40(lab)\",\n      \"actionOnTrigger\": \"OTC/Lab \uc131\ubd84 \ucc28\ub2e8 7\uac74 \ub4f1\ub85d \uc7a0\uae08 \uc720\uc9c0, US \ub77c\ubca8 6\ud56d\ubaa9 \uc810\uac80 \ub9ac\ud3ec\ud2b8 \uc0dd\uc131 \ubc0f \ucd5c\uc0c1\ub2e8 \uc2b9\uc778 \ub300\uae30\"\n    },\n    {\n      \"id\": \"team-06-listing\",\n      \"name\": \"\u2465 \ub9ac\uc2a4\ud305 \uc81c\uc791\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Copywriting & Listing Assembler\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\ub4f1\ub85d \uac00\ub2a5 0/7 \u00b7 \uce74\ud53c 7 \u00b7 \uace0\uc2dc 4 \u00b7 \uac00\uaca9 7 \u00b7 \ubc95\ub960 6\",\n      \"feedbackSignal\": \"\uace0\uc2dc 3\uac74, us_label 7\uac74, \ubc95\ub960 1\uac74 \ube14\ub85c\ucee4 \ub300\uae30 \uc911\",\n      \"actionOnTrigger\": \"\uce74\ud53c 7\uac74\u00b7\uac00\uaca9 7\uac74 \uc120\ud589 \uacb0\ud569 \ud6c4 \uace0\uc2dc\u00b7\ub77c\ubca8\u00b7\ubc95\ub960 \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \uc989\uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc644\uc131\"\n    },\n    {\n      \"id\": \"team-07-design\",\n      \"name\": \"\u2466 \ub514\uc790\uc778\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Store UI, Brand Skin & Media Assets\",\n      \"targetDirs\": [\n        \"./wep\",\n        \"./-\"\n      ],\n      \"currentMetrics\": \"\uc2a4\ud1a0\uc5b4 2/12\ub2e8\uacc4 \u00b7 \ub808\ud37c\ub7f0\uc2a4 85\uac74 \u00b7 \ud3f0\ud2b8 1946\uac1c(\ud55c\uae00 38) \u00b7 \ud314\ub808\ud2b8 13\uc0c9\uc870 \u00b7 \uae30\uc0ac 60\uac74 \u00b7 \uc601\uc0c1 33\uac74\",\n      \"feedbackSignal\": \"\ub2e4\uc74c \ub2e8\uacc4: Shopify \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \ubc0f \uae30\ubcf8 \uc124\uc815 \uc694\uccad\",\n      \"actionOnTrigger\": \"13\uc0c9\uc870 \ud314\ub808\ud2b8\u00b7\ud3f0\ud2b8 \uae30\ubc18 Shopify \ud14c\ub9c8 \uc2a4\ud0a8 \ubc0f \uc20f\ud3fc/\uc378\ub124\uc77c \ud504\ub86c\ud504\ud2b8 \uc5d0\uc14b \uc0dd\uc131\"\n    },\n    {\n      \"id\": \"team-08-channel\",\n      \"name\": \"\u2467 \ucc44\ub110 \uc6b4\uc601\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Multi-Channel Sync & Staging Gatekeeper\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"\uac00\ub3d9 7/12\ucc44\ub110 \u00b7 \ub0a1\uc74c 4\uac74 \u00b7 \uc218\ub3d9 \uc785\ub825 32\uac74 \u00b7 \ud6c4\ubcf4 7\uac74 \uac80\uc0ac, \ubbf8\uc5f0\ub3d9 0\uac74\",\n      \"feedbackSignal\": \"\ub178\ud6c4 \ucc44\ub110 4\uac74 \ud1a0\ud070/\ub370\uc774\ud130 \uac31\uc2e0 \ubc0f \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \uc804 \uc790\ub3d9\ud654 \uc7a0\uae08 \ud655\uc778\",\n      \"actionOnTrigger\": \"\ub0a1\uc74c 4\uac74 \ucc44\ub110 \ud30c\uc11c \uac31\uc2e0 \ubc0f Shopify bounded canary \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc810\uac80\"\n    },\n    {\n      \"id\": \"team-09-robotics\",\n      \"name\": \"\u2468 \ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Robotics & Tech Feed Collector\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"40\uac74 \u00b7 arxiv 0 / rss 40 \u00b7 \uc0c8 \uc790\ub8cc 76\uac74\",\n      \"feedbackSignal\": \"RSS \uc2e0\uaddc \ud53c\ub4dc 76\uac74 \uc720\uc785 \ubc0f arXiv \uc218\uc9d1 \ucffc\ub9ac \uc810\uac80\",\n      \"actionOnTrigger\": \"\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4\uc5d0\uc11c RSS 76\uac74 \uc815\uaddc\ud654 \ubc0f arXiv API \ud3f4\ubc31 \uc218\uc9d1 \uc2e4\ud589\"\n    },\n    {\n      \"id\": \"team-10-knowledge\",\n      \"name\": \"\u2469 \uc9c0\uc2dd \uc218\uc9d1\ud300\",\n      \"engine\": \"claude-code\",\n      \"role\": \"Domain Corpus & MoE Feature Builder\",\n      \"targetDirs\": [\n        \"./jarvis-luna\"\n      ],\n      \"currentMetrics\": \"470\uac74 (arXiv 10 / \uc720\uae30\ub18d\uc2a4\ud0a8 30 / Google 300 / US\ubdf0\ud2f0 130) \u00b7 \ub204\uc801 \ucf54\ud37c\uc2a4 3,205\uac74\",\n      \"feedbackSignal\": \"\uc2e0\uaddc 470\uac74 \ucf54\ud37c\uc2a4 \uc720\uc785\uc5d0 \ub530\ub978 MoE(3 Experts, \uc815\ud655\ub3c4 88.05%) \uc7ac\ud559\uc2b5 \ud53c\ucc98 \uc900\ube44\",\n      \"actionOnTrigger\": \"3,205\uac74 \ucf54\ud37c\uc2a4 \uc815\uaddc\ud654 \ubc0f MoE \uac8c\uc774\ud2b8 \ud3b8\ucc28(0.152)\u00b7Loss(0.4059) \uac1c\uc120\uc6a9 \ub370\uc774\ud130\uc14b \uac31\uc2e0\"\n    },\n    {\n      \"id\": \"team-11-obsidian\",\n      \"name\": \"\u246a \uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300\",\n      \"engine\": \"codex\",\n      \"role\": \"Knowledge Graph Integrity & Runtime Publisher\",\n      \"targetDirs\": [\n        \"./jarvis-luna\",\n        \"./wep\"\n      ],\n      \"currentMetrics\": \"81,092\ub178\ud2b8 \u00b7 320,853\ub9c1\ud06c \u00b7 \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \u00b7 \uac1c\uc778 \ub178\ud2b8 16\uac74 \ubcc4\ub3c4 \u00b7 \uacbd\uace0 \ud1b5\uacfc(\uc784\uacc4 300)\",\n      \"feedbackSignal\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uac10\uc9c0 \ubc0f dashboard_runtime.json \ubc30\ud3ec \ub300\uae30\",\n      \"actionOnTrigger\": \"\ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \uc790\ub3d9 \uc5ed\ucd94\uc801\u00b7\ubcf5\uad6c \ud6c4 dashboard_runtime.json \ube4c\ub4dc \ubc0f \ud300\uc7a5\uc5d0\uac8c \ubcf4\uace0\"\n    }\n  ],\n  \"workflowRules\": {\n    \"sequence\": [\n      \"1. [jarvis-luna-chief] GitHub PR #4 \ud53c\ub4dc\ubc31 \ub8e8\ud504 \ubc0f ops_plan.json / collector_audit.json / score_explain.json \uac10\uc9c0\",\n      \"2. [team-01, 02, 09, 10] \uc218\uc9d1 \uacc4\uce35 4\uac1c \ud300 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \ubcd1\ub82c \uc2e4\ud589 \ubc0f \ud30c\uc11c \uc624\ub958 \uc790\ub3d9 \ud328\uce58\",\n      \"3. [team-03, 04, 05] \ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 3\uac1c \ud300\uc774 S\ub4f1\uae09 7\uac74\uc5d0 \ub300\ud574 \ud2b8\ub80c\ub4dc\u00b7DDP \uac00\uaca9\u00b7FDA/OTC/\ub77c\ubca8 \uc810\uac80 \uc218\ud589\",\n      \"4. [Blocked \ucd5c\uc0c1\ub2e8 \uaca9\uc0c1] \ub2e4\uc774\uc18c HTML \uc624\ub958(\uc18c\uc2f1\ud300), \uace0\uc2dc\ud45c 3\uac74(\ub9c8\ucf00\ud305\ud300), OTC/Lab \ucc28\ub2e8 7\uac74(\ubc95\ub960\ud300)\uc744 \ud5c8\ub354 \ubaa9\ub85d \ucd5c\uc0c1\ub2e8\uc5d0 \ubc30\uce58\ud558\uace0 \uc54c\ub9bc \ubc1c\uc1a1\",\n      \"5. [team-06, 07, 08, 11] \uc2b9\uc778 \uc644\ub8cc \uac74\uc5d0 \ub300\ud574 \ub9ac\uc2a4\ud305\u00b7\ub514\uc790\uc778\u00b7\ucc44\ub110 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8\u00b7\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504(dashboard_runtime.json) \uac31\uc2e0\"\n    ],\n    \"constraints\": [\n      \"jarvis-luna \uc800\uc7a5\uc18c\ub294 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d\uc774 \uc644\ub8cc\ub420 \ub54c\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9\ud654(Automation) \ube44\ud65c\uc131\ud654 \uc0c1\ud0dc \uc720\uc9c0\",\n      \"\ubc95\ub960\u00b7\uaddc\uc81c\ud300(team-05)\uc758 US \ub77c\ubca8 6\ud56d\ubaa9 \ubc0f OTC/Lab \uc810\uac80 \ud1b5\uacfc \uc804\uae4c\uc9c0 Shopify \ub77c\uc774\ube0c \ub4f1\ub85d \uc5c4\uaca9 \uae08\uc9c0\",\n      \"\ucf54\ub371\uc2a4(Codex) \uac80\uc99d \uc5d0\uc774\uc804\ud2b8\uc758 diff \ub9ac\ubdf0 \ud1b5\uacfc \uc804\uae4c\uc9c0 main \ube0c\ub79c\uce58 \ubcd1\ud569 \uae08\uc9c0\"\n    ]\n  }\n}",
+      rules: "# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coar0000-wq/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\n",
+      sh: "#!/usr/bin/env bash\nset -e\n\necho \"==================================================================\"\necho \"[Herder \u00d7 JARVIS-LUNA] \ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \ud300 \uc5d4\ub4dc\ud22c\uc5d4\ub4dc \uc624\ucf00\uc2a4\ud2b8\ub808\uc774\uc158 \uc2dc\uc791\"\necho \"==================================================================\"\n\nif [ ! -f \"herder.config.json\" ]; then\n  echo \"[\uc624\ub958] \ud604\uc7ac \uacbd\ub85c\uc5d0 herder.config.json \ud30c\uc77c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.\"\n  exit 1\nfi\n\ncat << 'EOF' > .herder_team_rules.md\n# \ud5c8\ub354(Herder) \u00d7 \uc790\ube44\uc2a4\u00b7\ub8e8\ub098(JARVIS-LUNA) 11\uac1c \ud300 \ud611\uc5c5 \uaddc\uce59 (.herder_team_rules.md)\n\n\ub2f9\uc2e0\uc740 \uc774 \uc791\uc5c5 \uacf5\uac04\uc758 \ucd1d\uad04 \ud300\uc7a5\uc778 **\ube44\uc11c\uc2e4\uc7a5(`jarvis-luna-chief`)**\uc785\ub2c8\ub2e4.\n\ud5c8\ub354(Herder) \ucf54\uc5b4 \ubc31\uadf8\ub77c\uc6b4\ub4dc \ub370\ubaac \uc704\uc5d0\uc11c \uc544\ub798 11\uac1c \uc804\ubb38 \ud300 \uc5d0\uc774\uc804\ud2b8\ub97c \uc9c0\ud718\ud558\uace0, \uc2e4\uc2dc\uac04 \ud130\ubbf8\ub110 \uac10\ub3c5 \ubc0f \uc6b0\uc120\uc21c\uc704 \uc54c\ub9bc \uaddc\uce59\uc744 \uc900\uc218\ud558\uc138\uc694.\n\n## 1. \uc870\uc9c1 \uad6c\uc131 (\ube44\uc11c\uc2e4\uc7a5 + 11\uac1c \uc804\ubb38 \ud300)\n- **\ucd1d\uad04**: `jarvis-luna-chief` (Claude Code) \u2014 \uc804\uccb4 \ud30c\uc774\ud504\ub77c\uc778 \uc870\uc728, \uc608\uc678 \ucc98\ub9ac, \uc0ac\uc6a9\uc790 \uc2b9\uc778 \uac8c\uc774\ud2b8 \uad00\ub9ac\n- **\uc218\uc9d1 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-01-sourcing` (\uc0c1\ud488 \uc18c\uc2f1\ud300): 222\uac1c \uc0c1\ud488 \uad00\ub9ac, \ub2e4\uc774\uc18c\ubab0 \uc0c1\uc138 HTML \uae30\ubcf8 \ud398\uc774\uc9c0 \ubc18\ud658 \uc624\ub958(5\uac74) \uc989\uc2dc \ud328\uce58\n  - `team-02-institution` (\uae30\uad00 \uc218\uc9d1\ud300): 35\uacf3 1,061\uac74 \uc218\uc9d1, \ubbf8\uc218\uc9d1 12\uac74 \uc0ac\uc720 \ubd84\uc11d \ubc0f \ud3f4\ubc31 \ud06c\ub864\ub7ec \uad6c\ub3d9\n  - `team-09-robotics` (\ub85c\ubcf4\ud2f1\uc2a4 \uc218\uc9d1\ud300): arXiv \ubc0f RSS 40/76\uac74 \ud53c\ub4dc \ubc31\uadf8\ub77c\uc6b4\ub4dc \uc218\uc9d1\n  - `team-10-knowledge` (\uc9c0\uc2dd \uc218\uc9d1\ud300): arXiv\u00b7\uc720\uae30\ub18d\uc2a4\ud0a8\u00b7Google\u00b7US\ubdf0\ud2f0 470\uac74 \uc815\uc81c \ubc0f \ucf54\ud37c\uc2a4(3,205\uac74)\u00b7MoE(88.05%) \ud559\uc2b5 \ub370\uc774\ud130 \uac31\uc2e0\n- **\ubd84\uc11d\u00b7\uac80\uc99d \uacc4\uce35 (3\uac1c \ud300)**:\n  - `team-03-marketing` (\ub9c8\ucf00\ud305 \uc870\uc0ac\ud300): S\ub4f1\uae09 7\uac1c \ubd84\uc11d, \uace0\uc2dc\ud45c \ubbf8\uc785\ub825 3\uac74 \ucea1\ucc98 \uc694\uccad(`Blocked` \uaca9\uc0c1)\n  - `team-04-pricing` (\uac00\uaca9 \uc815\ucc45\ud300): \ubb34\uac8c(64~520g)\u00b7\ubc30\uc1a1\ube44($6.26~$10.75)\u00b7DDU/DDP \ub9c8\uc9c4\uc728(40%+) \uacc4\uc0b0\n  - `team-05-legal` (\ubc95\ub960\u00b7\uaddc\uc81c\ud300): \uc790\ub3d9 \uc810\uac80 14\uac74 \uc911 \ucc28\ub2e8 7\uac74(\ube44\ud504\ub8e8\ube0c \ubb34\uae30\uc790\ucc28 `otc`, \ub4dc\ub86d\ube44 \uc570\ud50c `lab`) \ubc0f `us_label` 6\ud56d\ubaa9 \uac80\uc99d\n- **\uc81c\uc791\u00b7\ubc30\ud3ec\u00b7\uadf8\ub798\ud504 \uacc4\uce35 (4\uac1c \ud300)**:\n  - `team-06-listing` (\ub9ac\uc2a4\ud305 \uc81c\uc791\ud300): \uce74\ud53c(7)\u00b7\uace0\uc2dc(4)\u00b7\uac00\uaca9(7)\u00b7\ubc95\ub960(6) \ucde8\ud569 \ubc0f \ube14\ub85c\ucee4 \ud574\uc81c \uc2dc \ub4f1\ub85d \ud328\ud0a4\uc9c0 \uc0dd\uc131\n  - `team-07-design` (\ub514\uc790\uc778\ud300): \uc2a4\ud1a0\uc5b4(2/12\ub2e8\uacc4), \ud3f0\ud2b8 1,946\uac1c\u00b7\ud314\ub808\ud2b8 13\uc0c9\uc870 \uae30\ubc18 Shopify/wep UI \uad6c\uc131\n  - `team-08-channel` (\ucc44\ub110 \uc6b4\uc601\ud300): 7/12 \uac00\ub3d9 \ucc44\ub110 \uad00\ub9ac, \ub178\ud6c4 4\uac74 \uac31\uc2e0, \uc77d\uae30 \uc804\uc6a9 \ud504\ub9ac\ud50c\ub77c\uc774\ud2b8 \uc720\uc9c0\n  - `team-11-obsidian` (\uc635\uc2dc\ub514\uc5b8 \uadf8\ub798\ud504\ud300): 81,092\ub178\ud2b8\u00b7320,853\ub9c1\ud06c \uad00\ub9ac, \ub04a\uc5b4\uc9c4 \ub9c1\ud06c 110\uac74 \ubcf5\uad6c \ubc0f `dashboard_runtime.json` \uc0dd\uc131\n\n## 2. \ud5c8\ub354(Herder) \uc0c1\ud0dc \uc81c\uc5b4 \ubc0f \uc6b0\uc120\uc21c\uc704 \uaddc\uce59\n1. **Blocked (\ucd5c\uc0c1\ub2e8 \uc790\ub3d9 \uc815\ub82c + \uc989\uc2dc \uc54c\ub9bc)**:\n   - \ub2e4\uc774\uc18c\ubab0 \ud30c\uc2f1 \uc5d0\ub7ec 5\uac74(`team-01`), \uace0\uc2dc\ud45c \ucea1\ucc98 \ub300\uae30 3\uac74(`team-03`), OTC/Lab \ud1b5\uad00 \ucc28\ub2e8 7\uac74(`team-05`), US \ub77c\ubca8 \ubbf8\ube44 7\uac74(`team-06`), \uc2a4\ud1a0\uc5b4 \uac1c\uc124 \uc2b9\uc778(`team-07`) \ubc1c\uc0dd \uc2dc \uc989\uc2dc \ud574\ub2f9 \ud300 \ud0ed\uc744 \ucd5c\uc0c1\ub2e8\uc73c\ub85c \uc62c\ub9ac\uace0 \uc54c\ub9bc\uc744 \uc804\uc1a1\ud569\ub2c8\ub2e4.\n2. **Working (\ubc31\uadf8\ub77c\uc6b4\ub4dc \ucf54\uc5b4 \uc0c1\uc2dc \uad6c\ub3d9)**:\n   - \uc571 \ucc3d\uc744 \ub2eb\uac70\ub098 \uc7ac\uc2dc\uc791\ud574\ub3c4 \ud5c8\ub354 \ucf54\uc5b4\uc5d0\uc11c \uc218\uc9d1\u00b7MoE \ud559\uc2b5\u00b7\uadf8\ub798\ud504 \ub9c1\ud06c \ubcf5\uad6c\ub97c \uc9c0\uc18d\ud558\uba70 \ud0ed \ud5e4\ub354\uc5d0 \uacbd\uacfc \ud0c0\uc774\uba38(`HH:mm:ss`)\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.\n3. **\uc548\uc804 \uc81c\uc57d (Staging Guardrail)**:\n   - `coar0000-wq/jarvis-luna` \uc800\uc7a5\uc18c\uc758 \uc2a4\ud14c\uc774\uc9d5 \uac80\uc99d \ubc0f \ubc95\ub960\u00b7\uaddc\uc81c\ud300 \uc2b9\uc778 \uc804\uae4c\uc9c0 \ud504\ub85c\ub355\uc158 \uc790\ub3d9 \ubc30\ud3ec\ub97c \uc5c4\uaca9\ud788 \ucc28\ub2e8\ud569\ub2c8\ub2e4.\nEOF\n\necho \"[1/3] .herder_team_rules.md \ud611\uc5c5 \uaddc\uce59 \ud30c\uc77c \uc0dd\uc131 \uc644\ub8cc\"\necho \"[2/3] \ud5c8\ub354 \ucf54\uc5b4(Background Daemon) \ubc0f \uad00\uc81c\uc2e4(Control Room) UI \ub808\uc774\uc544\uc6c3 \ud655\uc778...\"\n\nif command -v herder &> /dev/null; then\n  echo \"[3/3] Herder CLI\ub97c \ud1b5\ud574 \ube44\uc11c\uc2e4\uc7a5(claude-code) \ubc0f 11\uac1c \ud300 \uc138\uc158\uc744 \uae30\ub3d9\ud569\ub2c8\ub2e4...\"\n  herder up --config herder.config.json --rules .herder_team_rules.md --daemon\nelse\n  echo \"[\uc548\ub0b4] Herder \ub370\uc2a4\ud06c\ud1b1 \uc571 \ub0b4 \ud130\ubbf8\ub110\uc5d0\uc11c \uc544\ub798 \ud55c \uc904 \uba85\ub839\uc5b4\ub97c AI\uc5d0\uac8c \uc785\ub825\ud558\uc138\uc694:\"\n  echo \"------------------------------------------------------------------\"\n  echo \"\ud83d\udc49 'herder.config.json\uc774\ub791 .herder_team_rules.md \uc77d\uc5b4\uc11c \ube44\uc11c\uc2e4\uc7a5 \ud074\ub85c\ub4dc 1\uac1c\ub791 11\uac1c \ud300(\ud074\ub85c\ub4dc 7, \ucf54\ub371\uc2a4 4) \uad00\uc81c\uc2e4 \ubaa8\ub4dc\ub85c \ub744\uc6cc\uc8fc\uace0, \ud0ed\ub9c8\ub2e4 \uc791\uc5c5 \ud0c0\uc774\uba38 \ub2ec\uace0 \ud655\uc778 \ud544\uc694\ud55c \ud300\uc740 \ub9e8 \uc704\ub85c \uc62c\ub824\uc918'\"\n  echo \"------------------------------------------------------------------\"\nfi\n"
     };
 
     const INITIAL_AGENTS = [
@@ -655,10 +661,186 @@
     let currentCodeTab = "json";
 
     function formatTime(sec) {
-      const h = String(Math.floor(sec / 3600)).padStart(2, "0");
-      const m = String(Math.floor((sec % 3600) / 60)).padStart(2, "0");
-      const s = String(sec % 60).padStart(2, "0");
-      return `${h}:${m}:${s}`;
+      sec = Math.max(0, Math.floor(Number(sec) || 0));
+      const d = Math.floor(sec / 86400);
+      const rest = sec % 86400;
+      const h = String(Math.floor(rest / 3600)).padStart(2, "0");
+      const m = String(Math.floor((rest % 3600) / 60)).padStart(2, "0");
+      const s = String(rest % 60).padStart(2, "0");
+      return (d ? `${d}일 ` : "") + `${h}:${m}:${s}`;
+    }
+
+    // 2026-11-03: 관제실이 메인 대시보드의 중심이다. 팀 카드·KPI·터미널 기록은 공개 런타임
+    // (data/dashboard_runtime.json)으로 채운다. 못 불러오면 위의 저장 스냅샷(INITIAL_AGENTS)을 그대로 보여준다.
+    // 승인·지시 버튼은 화면 시뮬레이션일 뿐이고, 실제 등록 준비 수치는 바꾸지 않는다.
+    const LIVE_TEAM_MAP = {
+      "jarvis-luna-chief": "secretary",
+      "team-01-sourcing": "sourcing", "team-02-institution": "institutions", "team-03-marketing": "market",
+      "team-04-pricing": "pricing", "team-05-legal": "legal", "team-06-listing": "listing",
+      "team-07-design": "design", "team-08-channel": "channels", "team-09-robotics": "robotics",
+      "team-10-knowledge": "knowledge", "team-11-obsidian": "graph"
+    };
+    const LIVE_NUMBER = {
+      "team-01-sourcing": "①", "team-02-institution": "②", "team-03-marketing": "③", "team-04-pricing": "④",
+      "team-05-legal": "⑤", "team-06-listing": "⑥", "team-07-design": "⑦", "team-08-channel": "⑧",
+      "team-09-robotics": "⑨", "team-10-knowledge": "⑩", "team-11-obsidian": "⑪"
+    };
+    const TIERS = {
+      "tier-1": ["team-01-sourcing", "team-02-institution", "team-09-robotics", "team-10-knowledge"],
+      "tier-2": ["team-03-marketing", "team-04-pricing", "team-05-legal"],
+      "tier-3": ["team-06-listing", "team-07-design", "team-08-channel", "team-11-obsidian"]
+    };
+    let liveData = null;
+
+    function escHTML(v) {
+      return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+    }
+    function setText(id, value) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+      return el;
+    }
+    function liveText(value, max) {
+      let s = String(value == null ? "" : value).replace(/https?:\/\/\S+/g, "").replace(/\s*\/\s*(?=\/|$)/g, "").replace(/\s+/g, " ").trim();
+      if (max && s.length > max) s = s.slice(0, max - 1) + "…";
+      return s;
+    }
+    function liveStatus(t) {
+      if (t.status === "failed" || t.status === "blocked" || t.waiting_kind === "human_approval_required") return "Blocked";
+      if (t.status === "warning" || t.action || t.waiting) return "Working";
+      return "Done";
+    }
+    function liveAge(when) {
+      const ms = Date.parse(when);
+      return Number.isFinite(ms) ? Math.max(0, Math.floor((Date.now() - ms) / 1000)) : 0;
+    }
+    function kst(when) {
+      const ms = Date.parse(when);
+      return Number.isFinite(ms) ? new Date(ms).toLocaleString("ko-KR", {timeZone: "Asia/Seoul", hour12: false}) : "";
+    }
+    function liveLogs(t, status) {
+      const stamp = "[" + (kst(t.when) || "시각 미기록") + "]";
+      const lines = [`${stamp} [${liveText(t.name)}] 요약: ${liveText(t.summary)}`];
+      if (t.phase_label) lines.push(`${stamp} [단계] ${liveText(t.phase_label)}`);
+      if (t.waiting) lines.push(`${stamp} [WARN] 대기: ${liveText(t.waiting, 400)}`);
+      if (t.action) lines.push(`${stamp} [${status === "Blocked" ? "BLOCK" : "ACTION"}] 다음 조치: ${liveText(t.action, 400)}`);
+      if (t.notice) lines.push(`${stamp} [NOTICE] ${liveText(t.notice, 400)}`);
+      if (status === "Done") lines.push(`${stamp} [상태] 현재 조치 없음 · 정상 완료`);
+      return lines;
+    }
+    function liveAgent(base, t) {
+      const status = liveStatus(t);
+      const name = base.id === "jarvis-luna-chief"
+        ? "비서실장 (JARVIS·LUNA 총괄)"
+        : (LIVE_NUMBER[base.id] ? LIVE_NUMBER[base.id] + " " : "") + liveText(t.name);
+      return Object.assign({}, base, {
+        name,
+        status,
+        metrics: liveText(t.summary, 220) || base.metrics,
+        signal: liveText(t.action || t.waiting || t.notice, 180) || (status === "Done" ? "현재 조치 없음 · 정상" : base.signal),
+        elapsedSeconds: liveAge(t.when),
+        logs: liveLogs(t, status),
+        live: true
+      });
+    }
+    function liveListing() {
+      const teams = liveData && Array.isArray(liveData.teams) ? liveData.teams : [];
+      const listing = teams.find(t => t && t.id === "listing");
+      const summary = String((listing && listing.summary) || "");
+      const ready = summary.match(/공개 준비 (\d+)\/(\d+)/);
+      if (!ready) return null;
+      const parts = summary.match(/고시 \d+ · 가격 \d+ · 법률 \d+/);
+      return {ready: Number(ready[1]), total: Number(ready[2]), note: parts ? parts[0] : "리스팅팀 기준"};
+    }
+    function applyLiveKPIs(d) {
+      const n = v => Number(v || 0).toLocaleString("ko-KR");
+      const g = d.graph || {}, tr = d.training || {}, ts = d.team_summary || {}, cum = (d.cumulative && d.cumulative.totals) || null;
+      const records = ts.corpus_records != null ? ts.corpus_records : (d.sources && d.sources.record_count);
+      if (records != null) setText("kpi-corpus", n(records) + "건");
+      if (ts.pipeline_total) setText("kpi-corpus-note", `파이프라인 ${n(ts.pipeline_done)}/${n(ts.pipeline_total)}`);
+      if (g.notes != null) {
+        const el = setText("kpi-obsidian", n(g.notes) + "노트");
+        if (el) el.title = `현재 링크 ${n(g.links)}개` + (cum ? ` · 누적 생성 ${n(cum.notes)}노트 / ${n(cum.links)}링크` : "");
+      }
+      if (g.dangling_links != null) {
+        const el = setText("kpi-broken-links", `끊어진 링크 ${n(g.dangling_links)}건`);
+        if (el) el.className = "text-[11px] " + (g.dangling_links > 0 ? "text-amber-300" : "text-emerald-400");
+      }
+      if (typeof tr.accuracy === "number") setText("kpi-moe", (tr.accuracy * 100).toFixed(2) + "%");
+      if (typeof tr.validation_accuracy === "number") {
+        setText("kpi-moe-note", `검증 ${(tr.validation_accuracy * 100).toFixed(1)}%` + (typeof tr.final_loss === "number" ? ` · Loss ${tr.final_loss.toFixed(4)}` : ""));
+      }
+      const stamp = kst(d.generated_at || d.last_synced);
+      setText("footer-token-usage", stamp ? `데이터 기준: ${stamp} (dashboard_runtime.json)` : "데이터 기준 시각 미기록");
+      const review = d.continuity_review || {};
+      const restricted = review.mode && review.mode !== "normal";
+      setText("live-badge-text", restricted ? "제한 운영 · 자동 실행 검토 중" : "실데이터 연동");
+      const badge = document.getElementById("live-badge");
+      const dot = document.getElementById("live-badge-dot");
+      if (badge) badge.className = "px-2 py-0.5 text-xs font-semibold rounded-full flex items-center gap-1 " + (restricted
+        ? "bg-amber-500/15 text-amber-300 border border-amber-500/30"
+        : "bg-emerald-500/15 text-emerald-400 border border-emerald-500/30");
+      if (dot) dot.className = "w-1.5 h-1.5 rounded-full " + (restricted ? "bg-amber-400" : "bg-emerald-400 animate-ping");
+    }
+    function setLiveNote(ok, d) {
+      const note = document.getElementById("live-data-note");
+      if (!note) return;
+      const sim = " 승인·지시 버튼은 화면 시뮬레이션이며 실제 승인·실행은 일어나지 않습니다.";
+      note.textContent = ok
+        ? `팀 카드·KPI는 실데이터입니다 (기준 ${kst(d.generated_at || d.last_synced) || "시각 미기록"}).` + sim
+        : "실데이터를 불러오지 못해 저장된 스냅샷을 표시합니다." + sim;
+      note.className = "text-[11px] px-1 -mt-2 " + (ok ? "text-slate-400" : "text-amber-300");
+    }
+    function renderTiers() {
+      if (!liveData) return;
+      Object.keys(TIERS).forEach(id => {
+        const box = document.getElementById(id);
+        if (!box) return;
+        box.innerHTML = TIERS[id].map(agentId => {
+          const a = agents.find(x => x.id === agentId);
+          if (!a) return "";
+          const blocked = a.status === "Blocked";
+          const color = blocked ? "text-rose-400" : a.status === "Working" ? "text-cyan-400" : "text-emerald-400";
+          return `<div class="p-2.5 rounded-lg ${blocked ? "bg-rose-950/30 border border-rose-500/40" : "bg-slate-900 border border-slate-800"}">` +
+            `<div class="font-semibold text-white flex justify-between gap-2"><span>${escHTML(a.name)}</span><span class="${color} mono">${escHTML(a.status)}</span></div>` +
+            `<p class="text-slate-400 mt-1">${escHTML(a.metrics)}</p></div>`;
+        }).join("");
+      });
+    }
+    async function fetchLiveJSON(path) {
+      const response = await fetch(path + "?t=" + Date.now(), {cache: "no-store"});
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    }
+    async function loadLiveData(options) {
+      const opts = options || {};
+      let d;
+      try {
+        d = await fetchLiveJSON("data/dashboard_runtime.json");
+        if (!d || typeof d !== "object" || !Array.isArray(d.teams)) throw new Error("runtime shape");
+      } catch (error) {
+        setLiveNote(false);
+        if (opts.announce) showToast("실데이터를 불러오지 못해 저장된 스냅샷을 표시합니다.");
+        return false;
+      }
+      liveData = d;
+      const byId = {};
+      d.teams.forEach(t => { if (t && t.id) byId[t.id] = t; });
+      if (d.secretary && typeof d.secretary === "object") byId.secretary = d.secretary;
+      agents = INITIAL_AGENTS.map(base => {
+        const t = byId[LIVE_TEAM_MAP[base.id]];
+        return t ? liveAgent(base, t) : JSON.parse(JSON.stringify(base));
+      });
+      if (opts.initial || !agents.some(a => a.id === selectedAgentId)) {
+        const firstBlocked = agents.find(a => a.status === "Blocked");
+        selectedAgentId = (firstBlocked || agents[0]).id;
+      }
+      applyLiveKPIs(d);
+      setLiveNote(true, d);
+      renderAgentGrid();
+      renderTerminalPanel();
+      if (opts.announce) showToast("실데이터를 다시 불러왔습니다.");
+      return true;
     }
 
     function showToast(msg) {
@@ -694,7 +876,13 @@
       const listingAgent = agents.find(a => a.id === "team-06-listing");
       const readyEl = document.getElementById("kpi-listing-ready");
       const noteEl = document.getElementById("kpi-listing-note");
-      if (blockedCount === 0 || (listingAgent && listingAgent.status === "Done")) {
+      const live = liveListing();
+      if (live) {
+        // 실제 등록 준비 수치는 화면 시뮬레이션(승인 버튼)으로 바뀌지 않는다.
+        readyEl.textContent = `${live.ready}/${live.total}건`;
+        readyEl.className = "text-lg font-bold mono " + (live.total > 0 && live.ready === live.total ? "text-emerald-400" : "text-amber-400");
+        noteEl.textContent = live.note;
+      } else if (blockedCount === 0 || (listingAgent && listingAgent.status === "Done")) {
         readyEl.textContent = "7 / 7건";
         readyEl.className = "text-lg font-bold text-emerald-400 mono";
         noteEl.textContent = "고시·라벨·법률 검증 완료";
@@ -727,17 +915,17 @@
           <div data-agent-id="${agent.id}" class="agent-card cursor-pointer rounded-xl border p-3.5 transition ${borderClass}">
             <div class="flex flex-wrap items-center justify-between gap-2">
               <div class="flex items-center gap-2">
-                <span class="font-bold text-sm text-white">${agent.name}</span>
-                <span class="px-1.5 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 mono">${agent.engine}</span>
+                <span class="font-bold text-sm text-white">${escHTML(agent.name)}</span>
+                <span class="px-1.5 py-0.5 text-[10px] rounded bg-slate-800 text-slate-300 mono">${escHTML(agent.engine)}</span>
               </div>
               <div class="flex items-center gap-2">
                 <span class="text-xs mono text-slate-400">⏱ ${formatTime(agent.elapsedSeconds)}</span>
                 ${getStatusBadge(agent.status)}
               </div>
             </div>
-            <div class="mt-2 text-xs text-slate-300 font-medium">${agent.metrics}</div>
+            <div class="mt-2 text-xs text-slate-300 font-medium">${escHTML(agent.metrics)}</div>
             <div class="mt-1.5 text-xs ${agent.status === 'Blocked' ? 'text-rose-300' : 'text-slate-400'} flex items-center justify-between gap-2">
-              <span class="truncate">↳ ${agent.signal}</span>
+              <span class="truncate" title="${escHTML(agent.signal)}">↳ ${escHTML(agent.signal)}</span>
               ${agent.status === "Blocked" ? `<button type="button" data-approve-id="${agent.id}" class="approve-btn shrink-0 px-2 py-0.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white text-[11px] font-semibold">즉시 승인</button>` : ""}
             </div>
           </div>
@@ -762,6 +950,7 @@
       });
 
       updateKPIs();
+      renderTiers();
     }
 
     function renderTerminalPanel() {
@@ -800,7 +989,7 @@
         if (line.includes("[WARN]") || line.includes("[BLOCK]") || line.includes("BLOCKED")) color = "text-rose-300";
         else if (line.includes("완료") || line.includes("DONE") || line.includes("통과")) color = "text-emerald-300";
         else if (line.includes("[CMD]") || line.includes("지시")) color = "text-cyan-300";
-        return `<div class="${color}">${line}</div>`;
+        return `<div class="${color}">${escHTML(line)}</div>`;
       }).join("");
       buffer.scrollTop = buffer.scrollHeight;
     }
@@ -810,8 +999,8 @@
       if (!agent) return;
       agent.status = "Done";
       agent.signal = "사용자 승인 및 패치 반영 완료 — 다음 파이프라인 단계로 인계됨";
-      agent.logs.push(`[21:10:00] [Herder Approval] 사용자 확인 승인 완료 -> BLOCKED 해제 및 DONE 전환`);
-      showToast(`${agent.name} 조치가 승인되어 완료(Done) 상태로 전환되었습니다.`);
+      agent.logs.push(`[시뮬레이션] [Herder Approval] 화면에서만 승인 처리 -> BLOCKED 해제 및 DONE 전환 (실제 승인·실행 없음)`);
+      showToast(`${agent.name}: 화면 시뮬레이션으로 완료 처리했습니다. 실제 승인·실행은 없습니다.`);
       renderAgentGrid();
       renderTerminalPanel();
     }
@@ -923,12 +1112,7 @@
       });
 
       document.getElementById("btn-reset-demo").addEventListener("click", () => {
-        agents = JSON.parse(JSON.stringify(INITIAL_AGENTS));
-        selectedAgentId = "team-01-sourcing";
-        document.getElementById("kpi-broken-links").textContent = "끊어진 링크 110건";
-        renderAgentGrid();
-        renderTerminalPanel();
-        showToast("초기 11개 팀 피드백 대기 상태로 리셋되었습니다.");
+        loadLiveData({announce: true});
       });
 
       document.getElementById("btn-term-resolve").addEventListener("click", () => {
@@ -936,17 +1120,18 @@
       });
 
       document.getElementById("btn-approve-all").addEventListener("click", () => {
+        let count = 0;
         agents.forEach(a => {
           if (a.status === "Blocked") {
+            count += 1;
             a.status = "Done";
-            a.signal = "일괄 승인 완료 — Shopify 스테이징 패키지 및 대시보드 반영 완료";
-            a.logs.push("[21:11:00] [Batch Approval] 비서실장 일괄 승인 처리 -> DONE 전환");
+            a.signal = "화면 시뮬레이션 일괄 승인 — 실제 승인·실행 없음";
+            a.logs.push("[시뮬레이션] [Batch Approval] 화면에서만 일괄 승인 처리 -> DONE 전환 (실제 승인·실행 없음)");
           }
         });
-        document.getElementById("kpi-broken-links").textContent = "끊어진 링크 0건 (복구됨)";
         renderAgentGrid();
         renderTerminalPanel();
-        showToast("5건의 조치 필요(Blocked) 항목이 모두 승인되어 S등급 7/7건 등록 가능 상태로 전환되었습니다!");
+        showToast(`확인 필요 ${count}건을 화면에서만 승인 처리했습니다. 실제 등록 준비 수치는 바뀌지 않습니다.`);
       });
 
       document.getElementById("btn-trigger-feedback").addEventListener("click", () => {
@@ -1025,6 +1210,11 @@
         document.body.removeChild(ta);
       });
 
+      // 실데이터 연결: 처음 한 번, 이후 5분마다 다시 읽는다.
+      loadLiveData({initial: true});
+      if (window._herderLiveInterval) clearInterval(window._herderLiveInterval);
+      window._herderLiveInterval = setInterval(() => loadLiveData({}), 5 * 60 * 1000);
+
       // Live work timer tick
       if (window._herderTimerInterval) clearInterval(window._herderTimerInterval);
       window._herderTimerInterval = setInterval(() => {
@@ -1041,5 +1231,22 @@
       }, 1000);
     });
   </script>
-</body>
-</html>
+  <script>
+    // 메인 대시보드 안에 들어가 있을 때 내용 높이를 부모 페이지에 알려 iframe 높이를 맞춘다.
+    (function () {
+      if (window.self === window.top) return;
+      let last = 0, queued = false;
+      const report = () => {
+        queued = false;
+        const h = Math.ceil(document.body.scrollHeight);
+        if (Math.abs(h - last) <= 2) return;
+        last = h;
+        try { window.parent.postMessage({herderHeight: h}, window.location.origin && window.location.origin !== "null" ? window.location.origin : "*"); } catch (e) {}
+      };
+      const schedule = () => { if (!queued) { queued = true; requestAnimationFrame(report); } };
+      if (window.ResizeObserver) new ResizeObserver(schedule).observe(document.body);
+      window.addEventListener("load", schedule);
+      schedule();
+    })();
+  </script>
+</body></html>

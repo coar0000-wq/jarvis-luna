@@ -54,7 +54,7 @@ function context({hash = '', items = [], observations = [], recommendations = []
   for (const id of ['dp-grid', 'dp-kpis', 'dp-when', 'shopify-daily-summary', 'shopify-daily-list']) {
     ids[id] = new Element('div'); host.appendChild(ids[id]);
   }
-  const nav = ['#daily-pipeline', '#knowledge-graph', '#daiso', '#teams'].map(href => {
+  const nav = ['#control-room', '#daily-pipeline', '#knowledge-graph', '#daiso', '#teams'].map(href => {
     const link = new Element('a'); link.setAttribute('href', href); return link;
   });
   const events = {}, window = {location: {hash}, addEventListener(name, callback) { (events[name] ||= []).push(callback); }};
@@ -130,8 +130,8 @@ function row(values) { return {pd_no: '1074979', category: 'makeup', date: '2026
   changeHash('#daiso'); assert.deepEqual(active(), ['#daiso']); // Back
   changeHash('#knowledge-graph'); assert.deepEqual(active(), ['#knowledge-graph']); // Forward
   changeHash('#operations-system'); assert.deepEqual(active(), []);
-  changeHash(''); assert.deepEqual(active(), ['#daily-pipeline']);
-  changeHash('#top'); assert.deepEqual(active(), ['#daily-pipeline']);
+  changeHash(''); assert.deepEqual(active(), ['#control-room']);
+  changeHash('#top'); assert.deepEqual(active(), ['#control-room']);
   window.location.hash = '#teams'; events.pageshow.forEach(fn => fn());
   assert.deepEqual(active(), ['#teams']);
   for (const link of nav) assert.equal(link.getAttribute('aria-current'), link.classList.contains('active') ? 'location' : null);

@@ -421,11 +421,11 @@ nav a{font-size:12px;}
 <a class="logo" href="#top" style="text-decoration:none;">MD family</a>
 <nav>
 <!-- 2026-10-16: href 없는 <a> 라 눌러도 아무 일이 없었다. 해당 섹션으로 이동시킨다. -->
-<a class="active" href="#daily-pipeline">Dashboard</a>
-<a href="#knowledge-graph">Knowledge Graph</a>
+<a class="active" href="#control-room">관제실</a>
+<a href="#daily-pipeline">Dashboard</a>
 <a href="#daiso">Strategy</a>
 <a href="#teams">Teams</a>
-<a href="#control-room">Control Room</a>
+<a href="#knowledge-graph">Knowledge Graph</a>
 </nav>
 <div class="live-indicator">
 <span class="live-dot"></span>
@@ -437,25 +437,26 @@ nav a{font-size:12px;}
 <strong id="continuity-review-title">제한 운영 상태 확인 중</strong>
 <p id="continuity-review-detail" style="margin:8px 0 0;"></p>
 </section>
-<!-- 2026-11-03: Herder 11팀 관제실 대시보드를 메인 화면에 합친다. 원본 화면은 herder-control-room.html. -->
+<!-- 2026-11-03: 관제실이 메인 대시보드의 중심이다. 팀 카드·KPI는 공개 런타임 실데이터로 채우고, 같은 내용을 되풀이하던 칸(사이드 수치·하단 지식/MoE 카드)은 지웠다. 팀 원본 기록은 아래 "팀 상세 기록"에 접어 둔다. 원본 화면은 herder-control-room.html. -->
 <section class="dashboard-card" id="control-room" aria-labelledby="control-room-title" style="margin:16px 24px;padding:16px;background:#0d1117;border:1px solid #30363d;">
 <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap;">
-<h3 id="control-room-title" style="margin:0;">JARVIS·LUNA × Herder 관제실</h3>
+<div><h3 id="control-room-title" style="margin:0;">JARVIS·LUNA × Herder 관제실</h3><div style="font-size:12px;color:#8b949e;margin-top:4px;">메인 화면 · 11팀 + 비서실장 상태와 핵심 수치를 실데이터로 보여줍니다. 승인·지시 버튼은 화면 시뮬레이션입니다.</div></div>
 <a href="herder-control-room.html" target="_blank" rel="noopener" style="color:#58a6ff;font-size:13px;text-decoration:none;">전체 화면으로 열기 ↗</a>
 </div>
-<iframe src="herder-control-room.html" title="JARVIS·LUNA × Herder 관제실" loading="lazy" style="display:block;width:100%;height:1000px;border:0;border-radius:10px;background:#090d16;"></iframe>
+<iframe id="control-room-frame" src="herder-control-room.html" title="JARVIS·LUNA × Herder 관제실" style="display:block;width:100%;height:1000px;border:0;border-radius:10px;background:#090d16;"></iframe>
+<script>
+(function(){
+  // 관제실이 알려주는 내용 높이에 맞춰 iframe 높이를 늘린다(안쪽 스크롤 없이 한 화면처럼 보이게).
+  var frame=document.getElementById('control-room-frame'); if(!frame) return;
+  var last=0;
+  function apply(h){ if(typeof h==='number' && isFinite(h) && h>200 && Math.abs(h-last)>2){ last=h; frame.style.height=Math.ceil(h)+'px'; } }
+  window.addEventListener('message',function(e){ if(e.source===frame.contentWindow && e.data && typeof e.data.herderHeight==='number') apply(e.data.herderHeight); });
+  frame.addEventListener('load',function(){ try{ apply(frame.contentDocument.body.scrollHeight); }catch(e){} });
+})();
+</script>
 </section>
 
 <div class="container">
-<!-- Hero -->
-<div class="hero">
-<div class="hero-text">
-<div class="hero-buttons">
-<a class="btn btn-primary" href="#daily-pipeline" style="text-decoration:none;">오늘 등록 현황</a>
-<a class="btn btn-secondary" href="#operations-system" style="text-decoration:none;">운영 방식 보기</a>
-</div>
-</div>
-</div>
 
 
 
@@ -469,13 +470,15 @@ nav a{font-size:12px;}
 
 <!-- Team Cards -->
 <div class="team-section team-focus" id="teams"><span id="knowledge"></span>
-<h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 현황<span id="updated-at" class="team-h3-when">동기화 확인 중…</span></span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
-<div class="team-sub">각 팀의 현재 상태 · 경고 · 다음 조치를 한 곳에서 관리합니다.</div>
+<h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 상세 기록<span id="updated-at" class="team-h3-when">동기화 확인 중…</span></span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
+<div class="team-sub">팀 상태·경고·다음 조치는 위 관제실 카드가 기준입니다. 여기에는 영상 학습·단계·링크까지 담긴 팀별 원본 기록을 접어 둡니다.</div>
 <div class="team-meta" id="team-meta"></div>
 <div id="pipeline-health" class="team-sub" role="status">필수·선택 실행 증적 확인 중</div>
+<details class="team-details"><summary style="cursor:pointer;color:#58a6ff;font-size:13px;margin:8px 0;">비서실장 + 11팀 원본 기록 펼치기</summary>
 <ul class="team-list" id="team-list">
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
 </ul>
+</details>
 </div>
 
 
@@ -650,7 +653,7 @@ nav a{font-size:12px;}
 
 
 <!-- Core Dashboard Grid -->
-<div class="section-header">📊 핵심 시스템 현황 및 디스커버리</div>
+<div class="section-header" id="knowledge-graph">📊 지식·학습 상세 및 디스커버리</div>
 <div class="dashboard-grid">
 <!-- Product Discovery -->
 <div class="dashboard-card pd-card">
@@ -710,62 +713,6 @@ Product Discovery
 </div>
 </div>
 
-<div class="side-stats dash-side" style="margin-bottom: 40px;">
-<div class="side-stat">
-<div class="side-stat-label">
-<div class="side-stat-icon">🧠</div>
-<div class="side-stat-text">
-<span>검증 정확도</span>
-<span id="side-val">–</span>
-</div>
-</div>
-</div>
-<div class="side-stat">
-<div class="side-stat-label">
-<div class="side-stat-icon">🔀</div>
-<div class="side-stat-text">
-<span>Expert 수</span>
-<span id="side-experts">–</span>
-</div>
-</div>
-</div>
-<div class="side-stat">
-<div class="side-stat-label">
-<div class="side-stat-icon">🔗</div>
-<div class="side-stat-text">
-<span>끊어진 링크</span>
-<span id="side-dangling">–</span>
-</div>
-</div>
-</div>
-<div class="side-stat">
-<div class="side-stat-label">
-<div class="side-stat-icon">⚙️</div>
-<div class="side-stat-text">
-<span>학습 최종 Loss</span>
-<span id="side-loss">–</span>
-</div>
-</div>
-</div>
-</div>
-
-<!-- 최하단으로 이동된 3개 박스 -->
-<div class="dashboard-grid" id="knowledge-graph">
-<div class="stat-card">
-<h4>지식 레코드 (누적)</h4>
-<div class="value"><span id="stat-records">–</span></div>
-<div class="stat-detail" id="stat-records-detail"></div>
-</div>
-<div class="stat-card">
-<h4>그래프 노트 · 링크 (누적 생성)</h4>
-<div class="value"><span id="stat-graph">–</span></div>
-<div class="stat-detail" id="stat-graph-detail"></div>
-</div>
-<div class="stat-card">
-<h4>MoE 학습 정확도</h4>
-<div class="value"><span id="stat-accuracy">–</span></div>
-</div>
-</div>
 </div>
 
 <footer>JARVIS LUNA Dashboard · Real-time Intelligence System</footer>
@@ -2075,7 +2022,7 @@ setInterval(loadData,300000);
 // Native anchors own scrolling; derive selection from the URL, including history.
 function syncNavigation(){
   const hash=window.location.hash;
-  const target=(!hash || hash==='#top')?'#daily-pipeline':hash;
+  const target=(!hash || hash==='#top')?'#control-room':hash;
   document.querySelectorAll('nav a').forEach(a=>{
     const active=a.getAttribute('href')===target;
     a.classList.toggle('active',active);
