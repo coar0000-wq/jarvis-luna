@@ -530,6 +530,52 @@ class AdditionalAdversarialTests(unittest.TestCase):
             self.assertEqual(c.main(['decide', '--root', root]), 1)
             self.assertEqual(json.loads(out.getvalue())['mode'], 'blocked')
 
+    def _closure_root(self, root, accepted=None, decision=False):
+        accepted = dict(c.OWNER_GAP_CLOSURE, event='workflow_dispatch') if accepted is None else accepted
+        policy = Path(root) / c.RESTORE_POLICY_PATH
+        policy.parent.mkdir(parents=True, exist_ok=True)
+        policy.write_text('X = 1\n_OWNER_ACCEPTED_GAP_RUN = ' + repr(accepted) + '\n', encoding='utf-8')
+        if decision:
+            path = Path(root) / c.DECISION_PATH
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text('{}', encoding='utf-8')
+
+    def test_owner_closed_gap_selects_normal_only_after_decision_retirement(self):
+        # 2026-11-03: owner-accepted exact gap + retired decision -> normal branches (all normal gates still run).
+        with tempfile.TemporaryDirectory() as root, redirect_stdout(io.StringIO()) as out:
+            self._closure_root(root)
+            with mock.patch.object(c, 'validate_pending_decision', side_effect=AssertionError('must not route restricted')):
+                self.assertEqual(c.main(['decide', '--root', root]), 0)
+            result = json.loads(out.getvalue())
+            self.assertEqual(result['mode'], 'normal')
+            self.assertEqual(result['gap_run_id'], c.GAP['run_id'])
+
+    def test_owner_closure_never_overrides_a_present_decision(self):
+        with tempfile.TemporaryDirectory() as root, redirect_stdout(io.StringIO()) as out:
+            self._closure_root(root, decision=True)
+            self.assertFalse(c.owner_closed_gap(root))
+            self.assertEqual(c.main(['decide', '--root', root]), 1)
+            self.assertEqual(json.loads(out.getvalue())['mode'], 'blocked')
+
+    def test_owner_closure_requires_the_exact_gap_identity(self):
+        for field, value in (('id', c.GAP['run_id'] + 1), ('run_attempt', 2), ('head_sha', 'b' * 40),
+                             ('path', '.github/workflows/JARVIS-Core-Automation.yml'), ('conclusion', 'cancelled')):
+            with self.subTest(field=field), tempfile.TemporaryDirectory() as root, redirect_stdout(io.StringIO()) as out:
+                self._closure_root(root, accepted=dict(c.OWNER_GAP_CLOSURE, **{field: value}))
+                self.assertFalse(c.owner_closed_gap(root))
+                self.assertEqual(c.main(['decide', '--root', root]), 1)
+                self.assertEqual(json.loads(out.getvalue())['mode'], 'blocked')
+        with tempfile.TemporaryDirectory() as root:
+            policy = Path(root) / c.RESTORE_POLICY_PATH
+            policy.parent.mkdir(parents=True)
+            policy.write_text('_OWNER_ACCEPTED_GAP_RUN = dict(id=1)\n', encoding='utf-8')
+            self.assertFalse(c.owner_closed_gap(root))
+
+    def test_repository_restore_policy_carries_the_exact_closed_gap(self):
+        repo = Path(__file__).resolve().parents[1]
+        self.assertFalse((repo / c.DECISION_PATH).exists())
+        self.assertTrue(c.owner_closed_gap(repo))
+
     def test_actor_cannot_be_substituted(self):
         with RestrictedFixture() as f:
             report = f.report(write=True)

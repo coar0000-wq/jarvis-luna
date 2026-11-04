@@ -1125,6 +1125,45 @@ def validate_decision(decision, *, root, evidence=None, now=None, execution_id=N
             'inventory': inventory, 'protected_inventory_digest': canonical_digest(inventory)}
 
 
+# 2026-11-03 owner closure of the single gap. The repository owner explicitly accepted Deep
+# 39893237129:1, whose non-actuation can never be proved (empty step list, zero artifacts, no
+# retrievable job log). scripts/restore_operations_safety.py walks over exactly that run and resumes
+# from the preceding authenticated Core artifact, which still passes digest, lineage and full
+# nonregression checks; the first restore on that basis succeeded (fx-refresh 41620954344) and retained
+# a new operations-safety artifact. The expired restricted decision is therefore retired.
+# Normal mode is selected only when the decision file is absent AND the restore policy carries this
+# exact gap identity. Every normal-branch gate (source/operations restore, release quality) still
+# applies; the gap's unknown calls/cost remain unknown and are never recorded as zero.
+OWNER_GAP_CLOSURE = {'id': GAP['run_id'], 'run_attempt': GAP['run_attempt'], 'head_sha': GAP['head_sha'],
+                     'path': GAP['workflow'], 'conclusion': 'failure', 'head_branch': 'main'}
+RESTORE_POLICY_PATH = 'scripts/restore_operations_safety.py'
+
+
+def owner_closed_gap(root):
+    """Static read only: no import, network, ledger or effect. Any doubt keeps the old fail-closed routing."""
+    import ast  # noqa: PLC0415  standard library, only needed for this check
+    root = Path(root)
+    decision = root / DECISION_PATH
+    if decision.exists() or decision.is_symlink():
+        return False
+    policy = root / RESTORE_POLICY_PATH
+    if policy.is_symlink() or not policy.is_file():
+        return False
+    try:
+        tree = ast.parse(policy.read_text(encoding='utf-8'))
+    except (OSError, UnicodeDecodeError, SyntaxError, ValueError):
+        return False
+    for node in tree.body:
+        if (isinstance(node, ast.Assign) and len(node.targets) == 1 and isinstance(node.targets[0], ast.Name)
+                and node.targets[0].id == '_OWNER_ACCEPTED_GAP_RUN'):
+            try:
+                accepted = ast.literal_eval(node.value)
+            except (ValueError, SyntaxError, TypeError):
+                return False
+            return isinstance(accepted, dict) and all(accepted.get(k) == v for k, v in OWNER_GAP_CLOSURE.items())
+    return False
+
+
 def validate_pending_decision(root, *, now=None):
     """Offline scope/binding check only: no report, no resumed-analysis claim."""
     decision = load_decision(root)
@@ -1480,8 +1519,11 @@ def main(argv=None):
     root, result, code = Path(args.root).resolve(), {}, 0
     try:
         if args.command == 'decide':
-            context = validate_pending_decision(root)
-            result = {'mode': MODE, 'continuity': 'unresolved_gap', 'decision_digest': context['decision_digest']}
+            if owner_closed_gap(root):
+                result = {'mode': 'normal', 'continuity': 'owner_accepted_gap', 'gap_run_id': GAP['run_id']}
+            else:
+                context = validate_pending_decision(root)
+                result = {'mode': MODE, 'continuity': 'unresolved_gap', 'decision_digest': context['decision_digest']}
         elif args.command == 'analyze':
             _fail(args.report == REPORT_PATH, 'report_output_scope_denied')
             evidence = authenticate_evidence(root, execution_id=args.execution_id)
