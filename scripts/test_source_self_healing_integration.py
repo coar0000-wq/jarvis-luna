@@ -290,6 +290,10 @@ class ResumptionIntegration(unittest.TestCase):
 
 
 class TransportIntegration(unittest.TestCase):
+    def setUp(self):
+        from scripts.repository_identity_fixture import isolate_source
+        isolate_source(self)
+
     def test_token_removed_on_signed_storage_redirect(self):
         seen=[]
         class Response(io.BytesIO):

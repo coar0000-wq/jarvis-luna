@@ -36,7 +36,7 @@ jobs:
           - scope: fx
             tests: scripts/test_collector_snapshot_history.py scripts/test_publish_transaction.py scripts/test_publish_graph_contract.py scripts/test_gate_signature_portability.py
           - scope: daiso
-            tests: scripts/test_daiso_collection_validation.py scripts/test_daiso_candidates.py scripts/test_recover_daiso_candidates.py scripts/test_daiso_pipeline_inputs.py scripts/test_gosi_observation_provenance.py scripts/test_us_otc_sun_exclusion.py scripts/test_makeup_ranking_fallback.py
+            tests: scripts/test_daiso_collection_validation.py scripts/test_daiso_candidates.py scripts/test_recover_daiso_candidates.py scripts/test_daiso_pipeline_inputs.py scripts/test_repository_identity.py scripts/test_gosi_observation_provenance.py scripts/test_us_otc_sun_exclusion.py scripts/test_makeup_ranking_fallback.py
           - scope: serpapi
             tests: scripts/test_collector_snapshot_history.py scripts/test_source_collector_provenance.py scripts/test_publish_graph_contract.py
     steps:

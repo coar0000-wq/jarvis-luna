@@ -22,6 +22,7 @@ from scripts.daiso_pipeline_health import evaluate_pipeline_health, receipt_sha2
 from scripts.validate_daiso_collection import validate
 from scripts.operational_freshness import assess_collection
 from scripts.moe_evaluation_history import safe_path, atomic_write, exact_head
+from scripts import repository_identity as identity
 
 STATUS = 'data/daiso_real/collection_status.json'
 POOL = 'data/daiso_real/candidate_pool.json'
@@ -38,7 +39,7 @@ VALIDATOR = '실제 수집 결과 검증'
 PRESERVE = 'Keep canonical product inputs on no_change'
 PUBLICATIONS = ('산출물 발행 (원격 최신 위에 이번 변경만)', '정상 무변경 관측 metadata 발행')
 UPLOAD = '수집 시도 진단 보존'
-REPOSITORY = 'coar0000-wq/jarvis-luna'
+REPOSITORY = identity.REPOSITORY
 
 
 def clock(now=None):
@@ -106,6 +107,7 @@ def retain(root, entry):
 
 def context_id(context=None):
     values = os.environ if context is None else context
+    identity.POLICY.runner(values, fixture=context is not None)
     text = '%s:%s:%s' % (values.get('GITHUB_RUN_ID'), values.get('GITHUB_RUN_ATTEMPT'), values.get('GITHUB_JOB'))
     match = re.fullmatch(r'([1-9][0-9]*):([1-9][0-9]*):([A-Za-z0-9_-]+)', text)
     ref = values.get('GITHUB_WORKFLOW_REF', '')
@@ -166,6 +168,10 @@ def record_collector(root, *, collector_outcome, started_after, context=None, no
              'validation_errors': errors, 'public_authority': False}
     if inputs(root) != raw:
         raise ValueError('concurrent collection mutation')
+    producer = identity.POLICY.producer_identity(os.environ if context is None else context,
+                                                  workflow=WORKFLOW, fixture=context is not None)
+    if producer is not None:
+        entry['producer_identity'] = producer
     receipt_path = retain(root, entry)
     entries = sorted(p.stem for p in safe_path(root, HISTORY).iterdir())
     atomic_write(root, INDEX, encode({'schema_version': 1, 'history_sha256': entries, 'public_authority': False}))
@@ -174,20 +180,21 @@ def record_collector(root, *, collector_outcome, started_after, context=None, no
             'receipt_path': receipt_path, 'receipts_path': INDEX, 'public_authority': False}
 
 
-def execution_identity(run):
+def execution_identity(run, *, historical=False):
     rid, attempt = run.get('id'), run.get('run_attempt')
     if type(rid) is not int or type(attempt) is not int or min(rid, attempt) <= 0:
         raise ValueError('wrong run attempt')
-    url = 'https://github.com/' + REPOSITORY + '/actions/runs/' + str(rid)
-    if (run.get('repository', {}).get('full_name') != REPOSITORY
+    repository = identity.POLICY.run_repository(run, historical=historical)
+    url = 'https://github.com/' + repository + '/actions/runs/' + str(rid)
+    if (run.get('repository', {}).get('full_name') != repository
             or run.get('html_url') not in (url, url + '/attempts/' + str(attempt))
             or run.get('path') != '.github/workflows/' + WORKFLOW or run.get('head_branch') != 'main'
             or not re.fullmatch(r'[0-9a-f]{40}', run.get('head_sha', ''))):
         raise ValueError('wrong repository/workflow/branch/commit')
 
 
-def execution_steps(run, jobs, receipt, now):
-    execution_identity(run)
+def execution_steps(run, jobs, receipt, now, *, historical=False):
+    execution_identity(run, historical=historical)
     if (run.get('id'), run.get('run_attempt')) != (receipt.get('run_id'), receipt.get('run_attempt')):
         raise ValueError('wrong run attempt')
     if run.get('path') != '.github/workflows/' + WORKFLOW or run.get('head_branch') != 'main':
@@ -231,6 +238,7 @@ def execution_steps(run, jobs, receipt, now):
 
 
 def archive_members(metadata, archive, run):
+    identity.POLICY.artifact_repository(run, metadata)
     if not isinstance(archive, bytes) or len(archive) > MAX_BYTES:
         raise ValueError('archive byte bound exceeded')
     if metadata.get('expired') is not False or type(metadata.get('id')) is not int or metadata['id'] <= 0:
@@ -334,10 +342,10 @@ def verify_bound_entry(root, entry, run, jobs, now):
     return receipt, mapped, success
 
 
-def publication_receipts(raw, receipt, run, jobs, artifact, archive_digest, now):
+def publication_receipts(raw, receipt, run, jobs, artifact, archive_digest, now, *, historical=False):
     if run.get('conclusion') != 'success':
         return []
-    mapped, success = execution_steps(run, jobs, receipt, now)
+    mapped, success = execution_steps(run, jobs, receipt, now, historical=historical)
     if any(j.get('conclusion') != 'success' for j in jobs['jobs'] if j.get('name') == receipt['job']):
         return []
     pubs = [n for n in PUBLICATIONS if mapped.get(n, {}).get('conclusion') == 'success']
@@ -376,8 +384,10 @@ def validate_github_artifact(root, report, raw_run, raw_jobs, artifact_metadata,
     if faults or normalized is None or workflow.get('metadata_verified') is not True or workflow.get('latest_attempt') != normalized['metadata']:
         raise ValueError('raw GitHub execution/current observation mismatch')
     execution_identity(raw_run)
-    if report.get('repository') != REPOSITORY:
+    if report.get('repository') != identity.POLICY.run_repository(raw_run):
         raise ValueError('wrong report repository')
+    if identity.POLICY.artifact_repository(raw_run, artifact_metadata) != identity.POLICY.current:
+        raise ValueError('historical_artifact_cannot_authorize_current')
     actual = archive_members(artifact_metadata, archive_bytes, raw_run)
     raw = inputs(root)
     if actual.get(STATUS) != raw[STATUS] or (raw[POOL] is not None and actual.get(POOL) != raw[POOL]):
@@ -400,6 +410,10 @@ def validate_github_artifact(root, report, raw_run, raw_jobs, artifact_metadata,
         if entry.get('kind') != 'collector_receipt':
             continue
         diagnostic = entry.get('receipt') or {}
+        try:
+            identity.POLICY.current_producer(root, entry, raw_run)
+        except (ValueError, KeyError, TypeError, OSError):
+            continue
         if ((diagnostic.get('run_id'), diagnostic.get('run_attempt')) == (raw_run.get('id'), raw_run.get('run_attempt'))
                 and diagnostic.get('workflow') == WORKFLOW and diagnostic.get('source_sha256') == sha(raw[STATUS])
                 and entry.get('sources') == hashes(raw) and diagnostic.get('completed') is False
@@ -444,9 +458,9 @@ def publish_validated_health(root, report, raw_run, raw_jobs, artifact_metadata,
     return health
 
 
-def failed_scope_projection(run, jobs, artifact, archive, now):
+def failed_scope_projection(run, jobs, artifact, archive, now, *, historical=False):
     """Only prior requested coverage, never successful collection/publication authority."""
-    execution_identity(run)
+    execution_identity(run, historical=historical)
     if run.get('conclusion') not in {'failure', 'timed_out', 'startup_failure', 'action_required'}:
         raise ValueError('failed execution required for prior coverage')
     actual = archive_members(artifact, archive, run)
@@ -464,7 +478,7 @@ def failed_scope_projection(run, jobs, artifact, archive, now):
         raise ValueError('prior collection mode unknown')
     receipt = dict(capture, run_id=run['id'], run_attempt=run['run_attempt'],
                    job=execution[len(prefix):], mode=mode)
-    _, success = execution_steps(run, jobs, receipt, now)
+    _, success = execution_steps(run, jobs, receipt, now, historical=historical)
     us, ue = success(UPLOAD)
     if not us <= timestamp(artifact.get('created_at')) <= ue:
         raise ValueError('prior artifact outside verified upload')
@@ -486,7 +500,7 @@ def retain_failed_scope(root, raw_run, raw_jobs, artifact_metadata, archive_byte
 def historical_failure_scope(validation, now):
     """Recover only coverage embedded in the digest-bound failed-run archive."""
     run = validation['run']
-    execution_identity(run)
+    execution_identity(run, historical=True)
     archive = base64.b64decode(validation.get('archive_base64', ''), validate=True)
     actual = archive_members(validation['artifact'], archive, run)
     entry = validation['entry']
@@ -495,7 +509,7 @@ def historical_failure_scope(validation, now):
             or digest not in doc(actual.get(INDEX)).get('history_sha256', [])):
         raise ValueError('historical scope receipt chain missing')
     receipt = entry['receipt']
-    execution_steps(run, validation['jobs'], receipt, now)
+    execution_steps(run, validation['jobs'], receipt, now, historical=True)
     source = actual.get(STATUS)
     capture = doc(source).get('last_run') or {}
     if (not source or sha(source) != receipt.get('source_sha256')
@@ -521,7 +535,8 @@ def historical_publication_receipts(saved, report, now):
             or saved.get('schema_version') != 1 or observed > now
             or saved.get('workflow_report_sha256') != sha(encode(report))):
         raise ValueError('historical observation binding invalid')
-    if (report.get('repository') != REPOSITORY or report.get('observation_source') != 'github_rest'
+    historical_run = saved['validation']['run']
+    if (report.get('repository') != identity.POLICY.run_repository(historical_run, historical=True) or report.get('observation_source') != 'github_rest'
             or not 0 <= (observed - timestamp(report.get('observed_at'))).total_seconds() <= 1800):
         raise ValueError('historical authenticated report missing/stale')
     validation = saved['validation']
@@ -576,14 +591,14 @@ def historical_publication_receipts(saved, report, now):
     if (entry.get('canonical_fx') != fx
             or not re.fullmatch(r'[0-9a-f]{64}', entry.get('baseline_status_sha256') or '')):
         raise ValueError('historical canonical FX preservation invalid')
-    mapped, _ = execution_steps(run, jobs, receipt, observed)
+    mapped, _ = execution_steps(run, jobs, receipt, observed, historical=True)
     checked = validate(collection, outcome=mapped[COLLECTOR]['conclusion'],
         execution_id=receipt['execution_id'], started_after=entry['started_after'], now=observed,
         candidate_pool=pool, operating_sha256=operating)
     if (checked['collection_valid'] != 'true' or checked['mode'] != receipt['mode']
             or receipt['mode'] == 'candidates' and capture.get('candidate_pool_sha256') != sha(raw[POOL])):
         raise ValueError('historical collection validation failed')
-    return [r for r in publication_receipts(raw, receipt, run, jobs, artifact, sha(archive), observed)
+    return [r for r in publication_receipts(raw, receipt, run, jobs, artifact, sha(archive), observed, historical=True)
             if r['scope'] == 'overall_workflow']
 
 
@@ -617,7 +632,7 @@ def load_pipeline_inputs(root, *, now=None, workflow_report=None):
             if e.get('kind') == 'github_failure_scope':
                 run = e['run']
                 archive = base64.b64decode(e.get('archive_base64', ''), validate=True)
-                coverage = failed_scope_projection(run, e['jobs'], e['artifact'], archive, observed)
+                coverage = failed_scope_projection(run, e['jobs'], e['artifact'], archive, observed, historical=True)
                 failure_scopes[(run['id'], run['run_attempt'])] = coverage
                 history.append({'workflows': {WORKFLOW: {'latest_attempt': dict(run, finished_at=run.get('updated_at')), 'metadata_verified': True}}})
             if e.get('kind') == 'github_validation':
