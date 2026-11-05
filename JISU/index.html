@@ -147,12 +147,15 @@
 
     /* Inline Expandable Card (exact '더 알아보기' accordion glassmorphic card pattern) */
     .expand-card {
+      position: absolute;
+      top: 100%;
+      left: 50%;
       width: 280px;
       max-height: 0;
       opacity: 0;
       overflow: hidden;
       pointer-events: none;
-      transform: translateY(-6px) scale(0.96);
+      transform: translate(-50%, -6px) scale(0.96);
       transition: max-height 0.42s cubic-bezier(0.22, 1, 0.36, 1),
                   opacity 0.3s ease,
                   transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
@@ -169,7 +172,7 @@
       max-height: 360px;
       opacity: 1;
       pointer-events: auto;
-      transform: translateY(0) scale(1);
+      transform: translate(-50%, 0) scale(1);
       margin-top: 8px;
     }
     .hotspot-wrapper.is-open .hotspot-pill {
