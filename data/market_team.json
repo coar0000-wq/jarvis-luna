@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-11-03T19:46:23.388005+09:00",
+    "updated_at": "2026-11-08T16:21:53.437617+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1721,28 +1721,17 @@
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
-    "signals_live": 10,
+    "signals_live": 0,
     "signals_total": 15,
-    "signals_verified": 10,
+    "signals_verified": 0,
     "trust_graded": true,
     "trust_note": "",
-    "live_channels": [
-      "amazon_best_sellers",
-      "oliveyoung_us",
-      "google_trends_us",
-      "sokoglam_us",
-      "amazon_new_beauty",
-      "wikipedia_interest",
-      "allure_media",
-      "openfda_sunscreen",
-      "ulta_beauty",
-      "open_beauty_facts"
-    ],
+    "live_channels": [],
     "s_count": 6,
     "listing_ready_count": 0,
-    "last_score_run": "2026-11-03",
-    "last_pricing_run": "2026-11-03",
-    "exchange_rate": 1344.13
+    "last_score_run": "2026-11-08",
+    "last_pricing_run": "2026-11-08",
+    "exchange_rate": 1355.38
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

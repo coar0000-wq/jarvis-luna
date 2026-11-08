@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-03T10:46:23.210038+00:00",
+  "generated_at": "2026-11-08T07:21:53.267889+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,8 +8,8 @@
       "data/product_master.json": "7f2d8ebd647c90d06c15ea20449b0bb86709e11705ca92f095bab87b8075e216",
       "data/gosi.json": "144a864e0a63779924349b2bd959c8f43b4a2b83c374760469f92c137880f1dd",
       "data/daiso_real/daiso_us_labels.json": "0043aaa791b4563df159a4e18bcc1d6bd3ac8dfc3f49d4b3d1cef0ca17c52026",
-      "data/pricing_model.json": "a6726aa14c7e0ea13a37ef244ee0fd7f4292d6733a1120116c43b808bffc73fc",
-      "data/legal_products.json": "0a9ca8dfcb4a33b8cdc30b22e45ce73eae3d0e3e924037c1a7c82b01ed24d7d3",
+      "data/pricing_model.json": "37f88c46b7d187e4216344d06831046b23c066b8424ec965f5b7ece49c90df74",
+      "data/legal_products.json": "f2a0653483f5345b6366abf5371e8a4e81c816cf04c6c5b0fa5974ab31c87983",
       "data/daiso_real/shopify_s_recommendations.json": "f17ba3fe3ca62cb329912d0e081f58a3c7319fdd9b98d0712331c3737be08d0d",
       "data/shopify_listing_copy.json": "24045f6b5454b64a76fae0440ca8e503cd08fdd605c9d77dfa8ed64659f6cc49",
       "data/shopify_shortlist.json": "9ef5cda5de133441729e109bffbc786abaa2b3d5018e8248590042fa3ad3bdd4",
@@ -101,14 +101,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -157,7 +157,7 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 15.21,
+        "price_usd": 15.09,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -246,14 +246,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -302,7 +302,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 18.16,
+        "price_usd": 18.02,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -398,14 +398,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -455,13 +455,13 @@
       },
       "price": {
         "price_usd": 17.99,
-        "margin_pct": 39.5,
+        "margin_pct": 39.9,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:39.5%<40.0%"
+          "margin_below_target:39.9%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -542,14 +542,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -599,7 +599,7 @@
       },
       "price": {
         "price_usd": 20.99,
-        "margin_pct": 44.2,
+        "margin_pct": 44.7,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -684,14 +684,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -740,7 +740,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 19.47,
+        "price_usd": 19.3,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -840,14 +840,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -896,7 +896,7 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 16.5,
+        "price_usd": 16.38,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,

@@ -1569,25 +1569,14 @@
     },
     {
       "path": "data/daiso_real/collection_status.json",
-      "base_sha256": "5fb8c871086adf5750011f04f311684228ea23f404ebda8f1fda2f3eed0bfef5",
+      "base_sha256": "486a1026d673707fd9eecf6a8bc6762b968dca85e7b5f2d2ad398bb3c48eccd2",
       "ids": [
-        "Frankfurter API 1,325.57(2026-10-21)",
-        "exchangerate-api 1,326.14(2026-10-22)"
+        "Frankfurter API 1,342.90(2026-11-02)",
+        "exchangerate-api 1,344.13(2026-11-03)"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "caf462c1635f137d7b3f1b038cb0b319600dc6d89b2828644170d445d6ad31bd",
-      "ids": [
-        "PARTIAL_SOURCE_COVERAGE"
-      ],
-      "reason": "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false,
-      "replacement_sha256": "736d0e35ff63a61d9dab9105afa92c42914d3afbe16d34ee91a46d268a4fa28d"
     }
   ]
 }

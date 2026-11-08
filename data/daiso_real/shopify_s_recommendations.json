@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:46:22.090981+00:00",
+  "generated_at": "2026-11-08T07:21:52.179454+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -29,14 +29,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -102,7 +102,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     },
     {
       "rank": 2,
@@ -127,14 +127,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -208,7 +208,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     },
     {
       "rank": 3,
@@ -233,14 +233,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -306,7 +306,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     },
     {
       "rank": 4,
@@ -331,14 +331,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -404,7 +404,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     },
     {
       "rank": 5,
@@ -429,14 +429,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -514,7 +514,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     },
     {
       "rank": 6,
@@ -539,14 +539,14 @@
         "market_evidence": [],
         "excluded_market_sources": {
           "amazon_best_sellers": "unverified_or_stale_source",
-          "walmart_beauty": "unverified_or_stale_source",
-          "oliveyoung_us": "unverified_or_stale_source",
-          "sokoglam_us": "unverified_or_stale_source",
           "amazon_movers_beauty": "unverified_or_stale_source",
           "amazon_new_beauty": "unverified_or_stale_source",
+          "oliveyoung_us": "unverified_or_stale_source",
+          "sephora": "unverified_or_stale_source",
+          "sokoglam_us": "unverified_or_stale_source",
           "tiktok_shop_us": "unverified_or_stale_source",
           "ulta_beauty": "unverified_or_stale_source",
-          "sephora": "unverified_or_stale_source"
+          "walmart_beauty": "unverified_or_stale_source"
         },
         "fresh_shopify_score": null,
         "fresh_s_rule": null,
@@ -623,7 +623,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-11-03T10:46:23.210038+00:00"
+      "gate_generated_at": "2026-11-08T07:21:53.267889+00:00"
     }
   ],
   "agent_ready_count": 0,
