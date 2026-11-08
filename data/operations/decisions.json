@@ -22899,6 +22899,23 @@
     "training_allowed": false
   },
   {
+    "action_id": "20e36dc45ae00f9c42d74e477a12d81b5bd6788b0a33b3fe4a8dd31389f9dea1",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "initial_evidence_hash": "9e3de3f384eee10a4100969ff9b88adf919322a48812e5c87fa8b5654e7fdae7"
+      }
+    ],
+    "id": "decision_95121a161cd9b444916fe2684ce81e1492c5a540d74ea641eee5efce877c004b",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_33257757bf560a51ea4f134a25abaf7201be033bfe120184e5b7c0fa614c4a9d",
+    "training_allowed": false
+  },
+  {
     "action_id": "178fdd917f7ab2891b3bd2f706170c9af1130c8c106af54df3896c2a8ece9853",
     "completed": true,
     "confidence": null,
