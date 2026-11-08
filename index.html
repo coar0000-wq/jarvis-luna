@@ -609,11 +609,14 @@ nav a{font-size:12px;}
 </section>
 <script>
 /* 2026-11-04 관제실: loadData()가 불러온 공개 런타임(dashboard_runtime.json)을 받아 그린다.
-   승인·승인 및 해결·일괄 승인·지시는 GitHub 이슈로 비서실장에게 보낸다. 저장소 소유자 계정으로 등록된
+   승인·승인 및 해결·일괄 승인·지시는 GitHub 이슈로 비서실장에게 보낸다. 소유자 계정(coar0000-wq·coarfamily-cyber)으로 등록된
    요청만 처리 대상이며, 비서실장 답변(이슈 댓글)을 패널에 대화로 이어서 보여준다.
    공개 화면 자체는 아무것도 실행하지 않는다(이슈 작성 창만 연다). */
 (function(){
-  const REPO = 'coar0000-wq/jarvis-luna', OWNER = 'coar0000-wq';
+  const REPO = 'coar0000-wq/jarvis-luna';
+  // 2026-11-08: 소유자와 소유자 본인의 공동 관리 계정(쓰기 권한 collaborator)만 요청·답변으로 인정한다.
+  const TRUSTED = ['coar0000-wq', 'coarfamily-cyber'];
+  const trusted = u => !!(u && TRUSTED.includes(u.login));
   const ISSUE_NEW = 'https://github.com/' + REPO + '/issues/new';
   const API = 'https://api.github.com/repos/' + REPO;
   const MARK = /<!--\s*jarvis-request v1 kind=(approval|instruction|bulk) team=([a-z_,]+)\s*-->/;
@@ -701,7 +704,7 @@ nav a{font-size:12px;}
     });
     lines.push('**요청 내용**', text ? String(text).trim() :
       '위 조치를 승인합니다. 처리하고 결과를 이 이슈 댓글로 남겨 주세요. 사람 확인이 더 필요하면 무엇이 필요한지 적어 주세요.');
-    lines.push('', '---', '관제실(JARVIS·LUNA × Herder)에서 작성. 저장소 소유자 계정으로 등록된 요청만 비서실장이 처리합니다. 결제·공개 판매 전환·안전 검사 우회는 하지 않습니다.');
+    lines.push('', '---', '관제실(JARVIS·LUNA × Herder)에서 작성. 소유자 계정(coar0000-wq·coarfamily-cyber)으로 등록된 요청만 비서실장이 처리합니다. 결제·공개 판매 전환·안전 검사 우회는 하지 않습니다.');
     const params = new URLSearchParams({
       title: ('['+KIND[kind]+'] '+target+(brief ? ': '+brief : '')).slice(0, 200),
       body: lines.join('\n'),
@@ -723,10 +726,10 @@ nav a{font-size:12px;}
   }
   async function loadRequests(){
     try{
-      const r = await fetch(API+'/issues?labels=jarvis-request&state=all&per_page=50&sort=created&direction=desc', {headers:{'Accept':'application/vnd.github+json'}, cache:'no-store'});
+      const r = await fetch(API+'/issues?state=all&per_page=60&sort=created&direction=desc', {headers:{'Accept':'application/vnd.github+json'}, cache:'no-store'});
       if(!r.ok) throw new Error('HTTP '+r.status);
       const rows = await r.json();
-      state.requests = (Array.isArray(rows)?rows:[]).filter(i => i && !i.pull_request && i.user && i.user.login===OWNER && MARK.test(String(i.body||''))).map(i => {
+      state.requests = (Array.isArray(rows)?rows:[]).filter(i => i && !i.pull_request && trusted(i.user) && MARK.test(String(i.body||''))).map(i => {
         const m = String(i.body).match(MARK);
         return {number:i.number, url:i.html_url, state:i.state, created:i.created_at, updated:i.updated_at, closed:i.closed_at,
                 kind:m[1], teams:m[2].split(','), comments:i.comments||0, text:requestText(i.body), title:i.title};
@@ -747,7 +750,7 @@ nav a{font-size:12px;}
         const r = await fetch(API+'/issues/'+q.number+'/comments?per_page=30', {headers:{'Accept':'application/vnd.github+json'}, cache:'no-store'});
         if(!r.ok) throw new Error('HTTP '+r.status);
         const rows = await r.json();
-        state.comments[q.number] = {updated:q.updated, items:(Array.isArray(rows)?rows:[]).filter(c => c && c.user && c.user.login===OWNER).map(c => ({
+        state.comments[q.number] = {updated:q.updated, items:(Array.isArray(rows)?rows:[]).filter(c => c && trusted(c.user)).map(c => ({
           who: SECRETARY_REPLY.test(String(c.body||'')) ? 'secretary' : 'me', when:c.created_at,
           text: clean(String(c.body||'').replace(SECRETARY_REPLY,''), 500)}))};
       }catch(e){ state.comments[q.number] = {updated:q.updated, items:[], error:true}; }
