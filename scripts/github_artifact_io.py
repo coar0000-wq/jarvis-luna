@@ -11,8 +11,12 @@ import re
 import urllib.error
 import urllib.parse
 import urllib.request
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts import repository_identity as identity
 
-REPOSITORY = 'coar0000-wq/jarvis-luna'
+REPOSITORY = identity.REPOSITORY
 API_ORIGIN = 'https://api.github.com'
 MAX_ARCHIVE_BYTES = 64 * 1024 * 1024  # 2026-10-18: operations snapshot grows ~1.2MB/day uncompressed
 MAX_JSON_BYTES = 4 * 1024 * 1024
@@ -82,7 +86,22 @@ def fetch_github_json(url):
     try:
         with opener.open(urllib.request.Request(url, headers=_headers()), timeout=30) as response:
             data = _bounded(response, MAX_JSON_BYTES)
-        return json.loads(data)
+        result = json.loads(data)
+        # Production HTTP metadata must prove the immutable repository ID.
+        # Only the active namespace is accepted; old namespaces are offline
+        # history only, never an alternate credential-bearing API destination.
+        path = urllib.parse.urlsplit(url).path
+        if isinstance(result, dict):
+            if re.search(r'/runs/[1-9][0-9]*(?:/attempts/[1-9][0-9]*)?$', path):
+                identity.POLICY.run_repository(result, strict=True)
+            # Lists also contain unrelated fork PRs. Consumers filter their
+            # producer workflow/branch/status before strict identity validation.
+            if re.search(r'/artifacts/[1-9][0-9]*$', path):
+                identity.POLICY.artifact_ids(result, strict=True)
+            elif isinstance(result.get('artifacts'), list):
+                for artifact in result['artifacts']:
+                    identity.POLICY.artifact_ids(artifact, strict=True)
+        return result
     except (urllib.error.URLError, OSError, ValueError):
         raise ArtifactReadBlocked('github_metadata_unavailable') from None
 
